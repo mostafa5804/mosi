@@ -120,7 +120,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 17",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 12",
@@ -149,6 +149,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 69",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇷CR | vless | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🇨🇦CA | vless | @free1_vpn | 3",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -163,7 +164,6 @@
                 "🇩🇪DE | vless | @proxy_mtm | 28",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 18",
-                "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -187,7 +187,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 17",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
-                "🇨🇷CR | vless | @lightning6 | 19",
+                "🇺🇸US | vless | @lightning6 | 19",
                 "🇮🇷IR | vless | @V2rayNGmat | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 12",
@@ -216,6 +216,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 69",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇨🇷CR | vless | @ConfigsHUB | 14",
                 "🏳️XX | vless | @proxystore11 | 20",
                 "🇨🇦CA | vless | @free1_vpn | 3",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -230,7 +231,6 @@
                 "🇩🇪DE | vless | @proxy_mtm | 28",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 18",
-                "🇩🇪DE | vless | @GozargahVPN | 18",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇳🇴NO | vless | @Good_V2rayy | 2",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -683,7 +683,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 19",
+            "tag": "🇺🇸US | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -1496,6 +1496,37 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "all.vpncustomize.cam",
+            "server_port": 443,
+            "uuid": "f00e21f1-4aa7-4e21-b4ec-c25a53177b3e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FreeV2rayng.VPNCUSTOMIZE.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "‌@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @proxystore11 | 20",
             "type": "vless",
             "server": "proxystore11.ddns.net",
@@ -1948,42 +1979,6 @@
                 "headers": {
                     "Host": "lmn59.sbs"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @GozargahVPN | 18",
-            "type": "vless",
-            "server": "91.107.190.232",
-            "server_port": 443,
-            "uuid": "--GozargahVPN--",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eyEzTEq5-PyuEs59iiWaNdyz57B4MYPVYZEm35svMh0",
-                    "short_id": "f321"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
