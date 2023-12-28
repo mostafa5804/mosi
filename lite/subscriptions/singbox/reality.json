@@ -117,6 +117,7 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇫🇮FI | vless | @flyv2ray | 16",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇩🇪DE | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -140,6 +141,7 @@
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇫🇮FI | vless | @flyv2ray | 16",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇩🇪DE | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -537,6 +539,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "116.203.15.197",
+            "server_port": 25365,
+            "uuid": "82815b5f-05d0-4c57-b8a1-2e2ba8f32f34",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "souceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tjoV2RMtPvpB29fxuDCvAYzBt3RCLe8Uqrrc4O4zXzs",
+                    "short_id": "dda0f0d2"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
