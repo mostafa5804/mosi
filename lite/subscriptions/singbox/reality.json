@@ -108,13 +108,12 @@
                 "URL-TEST",
                 "🇵🇱PL | vless | @reality_daily | 0",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 21",
                 "🇹🇷TR | vless | @V2rayCollector | 1",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 20",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -129,13 +128,12 @@
             "outbounds": [
                 "🇵🇱PL | vless | @reality_daily | 0",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
-                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 21",
                 "🇹🇷TR | vless | @V2rayCollector | 1",
-                "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
-                "🇩🇪DE | vless | @v2ray_swhil | 20",
+                "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -223,42 +221,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
-            "type": "vless",
-            "server": "159.69.214.54",
-            "server_port": 443,
-            "uuid": "2c610455-6619-4615-bfca-197c7d0e339e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "60aKHgWPuJonXqNIX53WdxF-bRvMh7z-50BWyvxPK2w",
-                    "short_id": "d58b9ad2"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -373,9 +335,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
+            "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
             "type": "vless",
-            "server": "16.171.68.226",
+            "server": "13.50.232.16",
             "server_port": 3074,
             "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
             "flow": "xtls-rprx-vision",
@@ -396,45 +358,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "hUn6Xly_pebWdzNIF1jl5tiN1hmmY0IYXVw_O6XCZWA",
+                    "public_key": "IdYGPvtGZIXnDBjsMBznJudT3aPgJSyK2kYrpPRkPh8",
                     "short_id": "fe"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @v2ray_swhil | 20",
-            "type": "vless",
-            "server": "titaniom.official.mmdtitaniom.com",
-            "server_port": 2087,
-            "uuid": "2983fa60-9ff9-4c09-b70f-9f53dbf4be35",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "myOyTs6wtYgOioDwSzMCIUNRuq6l6I7ciLUqfusSTmY",
-                    "short_id": "6fa697ff"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -463,6 +389,35 @@
                     "enabled": true,
                     "public_key": "u_LpzVFLwn4F4CQrM_jN1dwDwvYxkj7LSMxq75KxyxY",
                     "short_id": "e701d69c"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "16.16.219.20",
+            "server_port": 3074,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HRuup8Jz_5nxotet4uMPpVE21PiOSyzBEmJHuICHN3c",
+                    "short_id": "fe"
                 }
             }
         },
