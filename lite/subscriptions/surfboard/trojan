@@ -11,14 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇷IR | trojan | @V2rayCollectorDonate | 18 = trojan, server.cactusrobot.ir, 8602, password = HxFtEXZlvk76a6-ezSQ24g, udp-delay = true, skip-cert-verify = false, ws = false
-🇬🇧GB | trojan | @PrivateVPNs | 18 = trojan, 18.135.231.21, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
-🇮🇪IE | trojan | @DirectVPN | 18 = trojan, 54.228.129.49, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
-🇨🇦CA | trojan | @forwardv2ray | 19 = trojan, cdn-15.cdn2cdn.com, 2083, password = 6dCf6Syv1FwpjcAoCB2vfQ, udp-delay = true, skip-cert-verify = false, sni = cdn15.cdn2cdn.com, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 18 = trojan, 99.80.3.211, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
+🇸🇪SE | trojan | @DirectVPN | 18 = trojan, 16.170.36.27, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trj.rollingnext.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇷IR | trojan | @V2rayCollectorDonate | 18,🇬🇧GB | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @forwardv2ray | 19
-URL-TEST = url-test,🇮🇷IR | trojan | @V2rayCollectorDonate | 18,🇬🇧GB | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @forwardv2ray | 19
-FALLBACK = fallback,🇮🇷IR | trojan | @V2rayCollectorDonate | 18,🇬🇧GB | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇨🇦CA | trojan | @forwardv2ray | 19
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
