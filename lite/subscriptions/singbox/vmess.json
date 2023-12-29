@@ -109,12 +109,13 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇩🇪DE | vmess | @prrofile_purple | 179",
                 "🇮🇷IR | vmess | @customv2ray | 13",
-                "🇯🇵JP | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -125,12 +126,13 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇩🇪DE | vmess | @prrofile_purple | 179",
                 "🇮🇷IR | vmess | @customv2ray | 13",
-                "🇯🇵JP | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -229,6 +231,23 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @prrofile_purple | 179",
+            "type": "vmess",
+            "server": "172.104.249.77",
+            "server_port": 4000,
+            "uuid": "8d91c01a-8220-4e19-bfca-f1b428a3d147",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇮🇷IR | vmess | @customv2ray | 13",
             "type": "vmess",
             "server": "ac-milan.myblackboy.online",
@@ -243,30 +262,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇯🇵JP | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "jp.takeshi.wiki",
-            "server_port": 80,
-            "uuid": "803b8c6b-192e-4500-a919-485566f8e058",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/takeshi.wiki",
-                "headers": {
-                    "Host": "jp.takeshi.wiki"
-                }
             }
         },
         {
@@ -375,6 +370,40 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "2bbiozh7wbc.servecounterstrike.com",
+            "server_port": 2083,
+            "uuid": "9e9b80f1-5555-4f7d-a209-d23b9d9dc047",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "PAneljadid.mookoMEilz.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/snsk",
+                "headers": {
+                    "Host": "PAneljadid.mookoMEilz.homes"
                 }
             }
         },
