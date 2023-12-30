@@ -110,9 +110,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇨🇳CN | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇬🇧GB | vmess | @kingofilter | 14",
@@ -127,9 +127,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
-                "🏳️XX | vmess | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇨🇳CN | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇬🇧GB | vmess | @kingofilter | 14",
@@ -238,7 +238,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 18",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -289,13 +289,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 8",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "112.28.208.10",
-            "server_port": 45055,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "sg3-full.privateip.net",
+            "server_port": 443,
+            "uuid": "c363eba3-5c64-4843-b71c-3a0bd227944b",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -303,6 +303,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sg3-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": "sg3-full.privateip.net"
+                }
             }
         },
         {
