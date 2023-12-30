@@ -111,9 +111,10 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇯🇵JP | vmess | @Hope_Net | 12",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇳🇱NL | vmess | @eliya_chiter0 | 0"
+                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @eliya_chiter0 | 0"
             ]
         },
         {
@@ -125,9 +126,10 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 12",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇯🇵JP | vmess | @Hope_Net | 12",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇳🇱NL | vmess | @eliya_chiter0 | 0"
+                "🏳️XX | vmess | @forwardv2ray | 17",
+                "🇺🇸US | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -269,11 +271,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 12",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "jp3.huaxia666.top",
-            "server_port": 80,
-            "uuid": "65d79be3-7327-45f8-86fc-bd7f27948eec",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -284,21 +286,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp3.huaxia666.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/zh-cn",
+                "path": "\/",
                 "headers": {
-                    "Host": "jp3.huaxia666.top"
+                    "Host": ""
                 }
             }
         },
@@ -337,7 +329,24 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @eliya_chiter0 | 0",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "188.114.96.58",
             "server_port": 443,
