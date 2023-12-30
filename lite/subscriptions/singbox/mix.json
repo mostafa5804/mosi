@@ -132,7 +132,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 60",
@@ -154,7 +154,6 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇺🇦UA | vmess | @Hope_Net | 11",
@@ -168,7 +167,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇩🇪DE | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇸🇪SE | ss | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -213,7 +212,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 60",
@@ -235,7 +234,6 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇺🇦UA | vmess | @Hope_Net | 11",
@@ -249,7 +247,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇩🇪DE | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇸🇪SE | ss | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -1059,11 +1057,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "165.227.143.205",
-            "server_port": 37706,
-            "uuid": "8a7255c3-9448-4521-db42-39f9f6593fb9",
+            "server": "fr1e-unmetered.v2freevpn.com",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1073,6 +1071,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v133PDXkklxLEcOvD",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1615,37 +1620,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "www.unpkg.com",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @proxystore11 | 18",
             "type": "vless",
             "server": "eapanel.proxystore11.site",
@@ -2069,11 +2043,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "Discord.com",
+            "server": "104.18.202.212",
             "server_port": 443,
-            "uuid": "deaa640c-c182-4c49-8bd0-f8cce2ea9226",
+            "uuid": "39344a93-e50b-4028-91e7-404a65009a03",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2083,7 +2057,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Vip.hsza.site",
+                "server_name": "KingSpeedV2rayng.VPNCUSTOMIZE.tech",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2092,11 +2066,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Vip.hsza.site"
-                }
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

@@ -146,7 +146,6 @@
                 "🇨🇦CA | vless | @MehradLearn | 9",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇺🇸US | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -156,7 +155,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇩🇪DE | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -212,7 +211,6 @@
                 "🇨🇦CA | vless | @MehradLearn | 9",
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇺🇸US | vless | @VPNCLOP | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -222,7 +220,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇩🇪DE | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -1446,37 +1444,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "www.unpkg.com",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @proxystore11 | 18",
             "type": "vless",
             "server": "eapanel.proxystore11.site",
@@ -1774,11 +1741,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "Discord.com",
+            "server": "104.18.202.212",
             "server_port": 443,
-            "uuid": "deaa640c-c182-4c49-8bd0-f8cce2ea9226",
+            "uuid": "39344a93-e50b-4028-91e7-404a65009a03",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1788,7 +1755,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Vip.hsza.site",
+                "server_name": "KingSpeedV2rayng.VPNCUSTOMIZE.tech",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1797,11 +1764,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Vip.hsza.site"
-                }
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
