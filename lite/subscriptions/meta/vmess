@@ -123,12 +123,10 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"103.35.188.226","port":"80","cipher":"auto","uuid":"098e7cdd-03b4-435d-8c41-ea608fa637c2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":""}}}
   - {"name":"🇮🇷IR | vmess | @customv2ray | 13","type":"vmess","server":"ac-milan.myblackboy.online","port":"21291","cipher":"auto","uuid":"f48a948a-035c-428a-8bcc-9416850c2551","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷IR | vmess | @ConfigsHUB | 19","type":"vmess","server":"188.121.100.64","port":"32751","cipher":"auto","uuid":"730de953-1830-45e3-96e5-770f8b8ad364","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🏳️XX | vmess | @yaney_01 | 10","type":"vmess","server":"mehdi2.forwardv2raytelegramchannel.fun","port":"443","cipher":"auto","uuid":"c2cb6d93-316f-48de-b36f-fd61e6f4ed47","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@FORWARDV2RAY","headers":{"host":"mehdi2.forwardv2raytelegramchannel.fun"}}}
   - {"name":"🇫🇷FR | vmess | @Hope_Net | 13","type":"vmess","server":"fr-full.privateip.net","port":"443","cipher":"auto","uuid":"cfb3682f-b59f-4fb3-a84b-835825a85b77","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
   - {"name":"🇮🇷IR | vmess | @MrV2Ray | 0","type":"vmess","server":"85.9.106.117","port":"57721","cipher":"auto","uuid":"0b3143e1-c24d-42f5-8562-f4041d7b7360","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"v2line.telegram.channel.1371.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"443","cipher":"auto","uuid":"540bfb2c-2b26-4154-b5be-55d08bf40add","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
-  - {"name":"🇧🇿BZ | vmess | @forwardv2ray | 19","type":"vmess","server":"45.131.209.25","port":"8443","cipher":"auto","uuid":"9c6aa738-d07d-4b38-9e39-2a9c9ee4c70f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vfffddfh.onlineshop8177.shop"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -138,12 +136,10 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
       - '🇮🇷IR | vmess | @customv2ray | 13'
-      - '🇮🇷IR | vmess | @ConfigsHUB | 19'
       - '🏳️XX | vmess | @yaney_01 | 10'
       - '🇫🇷FR | vmess | @Hope_Net | 13'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇧🇿BZ | vmess | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -153,12 +149,10 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
       - '🇮🇷IR | vmess | @customv2ray | 13'
-      - '🇮🇷IR | vmess | @ConfigsHUB | 19'
       - '🏳️XX | vmess | @yaney_01 | 10'
       - '🇫🇷FR | vmess | @Hope_Net | 13'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇧🇿BZ | vmess | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -167,12 +161,10 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
       - '🇮🇷IR | vmess | @customv2ray | 13'
-      - '🇮🇷IR | vmess | @ConfigsHUB | 19'
       - '🏳️XX | vmess | @yaney_01 | 10'
       - '🇫🇷FR | vmess | @Hope_Net | 13'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇧🇿BZ | vmess | @forwardv2ray | 19'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
