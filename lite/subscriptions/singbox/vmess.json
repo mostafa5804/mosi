@@ -106,17 +106,17 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇳IN | vmess | @V2rayCollectorDonate | 18",
+                "🇮🇳IN | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
+                "🇸🇬SG | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 19",
-                "🇬🇧GB | vmess | @kingofilter | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -124,17 +124,17 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇳IN | vmess | @V2rayCollectorDonate | 18",
+                "🇮🇳IN | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
+                "🇸🇬SG | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🏳️XX | vmess | @forwardv2ray | 19",
-                "🇬🇧GB | vmess | @kingofilter | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -158,7 +158,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇳IN | vmess | @V2rayCollectorDonate | 18",
+            "tag": "🇮🇳IN | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
             "server": "27.124.18.53",
             "server_port": 443,
@@ -271,6 +271,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "157.245.52.0",
+            "server_port": 2092,
+            "uuid": "26b592f4-b447-4de8-cbef-d517d17dfd76",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram:@hkaa0",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -400,13 +424,13 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "172.67.131.150",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -414,23 +438,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vmess | @kingofilter | 14",
-            "type": "vmess",
-            "server": "51.75.162.199",
-            "server_port": 61570,
-            "uuid": "e6aab1e0-ede0-47c3-b01c-f34a498db838",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "oliv.beauty",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "oliv.beauty"
+                }
             }
         },
         {
