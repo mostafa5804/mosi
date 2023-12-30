@@ -110,10 +110,12 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇯🇵JP | vmess | @Hope_Net | 10",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇻🇳VN | vmess | @forwardv2ray | 19",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ]
         },
@@ -125,10 +127,12 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vmess | @customv2ray | 13",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 10",
                 "🇯🇵JP | vmess | @Hope_Net | 10",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🇻🇳VN | vmess | @forwardv2ray | 19",
                 "🇳🇱NL | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -231,6 +235,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "npmjs.com",
+            "server_port": 2087,
+            "uuid": "712772c2-f7d7-4d33-bf02-b7a7e5f729c4",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "snaPPfood1.eSMaIlkorEa.sHoP",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "snaPPfood1.eSMaIlkorEa.sHoP"
+                }
             }
         },
         {
@@ -354,6 +392,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇻🇳VN | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "103.166.184.170",
+            "server_port": 80,
+            "uuid": "c95357eb-2869-4511-8940-f0dc5e1ec9b1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/5gsieutocdo.club",
                 "headers": {
                     "Host": ""
                 }
