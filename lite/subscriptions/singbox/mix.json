@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 88",
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 17",
+                "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇨🇷CR | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇯🇵JP | vmess | @yaney_01 | 10",
                 "🇨🇦CA | vmess | @Hope_Net | 16",
@@ -168,8 +168,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @FreakConfig | 12",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 16",
-                "🇨🇦CA | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -228,7 +227,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 88",
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @v2ray_swhil | 17",
+                "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇨🇷CR | vless | @proxyymeliii | 19",
                 "🇨🇦CA | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
@@ -238,7 +237,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🏳️XX | vmess | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇯🇵JP | vmess | @yaney_01 | 10",
                 "🇨🇦CA | vmess | @Hope_Net | 16",
@@ -251,8 +250,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇷CR | vless | @FreakConfig | 12",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 16",
-                "🇨🇦CA | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -1399,11 +1397,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 17",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 15",
             "type": "vless",
             "server": "all.vipxali.cfd",
             "server_port": 2083,
-            "uuid": "a8629b56-ea3f-41d9-8e42-e8ad84baaef6",
+            "uuid": "a689723e-999f-402f-8215-cd988006f7bb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1659,20 +1657,34 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 17",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "t---join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "w1.sylar8.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "w1.sylar8.eu.org"
+                }
             }
         },
         {
@@ -2040,38 +2052,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "104.31.16.242",
-            "server_port": 443,
-            "uuid": "bae4c6e6-d4ff-4b4f-bc82-0e4d5c4b224f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bolbolvpn-join-us-13.la-la-ante.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "bolbolvpn-join-us-13.la-la-ante.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "104.17.57.224",
             "server_port": 80,
