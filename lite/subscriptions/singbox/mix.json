@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇺🇸US | vless | @proxyymeliii | 21",
+                "🇨🇷CR | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -154,10 +154,10 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇮🇷IR | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇫🇷FR | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇺🇸US | vless | @proxyymeliii | 21",
+                "🇨🇷CR | vless | @proxyymeliii | 21",
                 "🇨🇦CA | vless | @MsV2ray | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 1",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -232,10 +232,10 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇮🇷IR | vless | @lrnbymaa | 9",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vmess | @yaney_01 | 10",
-                "🇫🇷FR | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
@@ -1335,7 +1335,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 21",
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 21",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1586,27 +1586,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "uk-freevmess.privateip.net",
-            "server_port": 443,
-            "uuid": "17793650-5e32-4ca8-acf6-db9c0ac3d0b7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "uk-freevmess.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
@@ -1675,11 +1668,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "fr-full.privateip.net",
-            "server_port": 443,
-            "uuid": "cfb3682f-b59f-4fb3-a84b-835825a85b77",
+            "server": "v4.cfnode.eu.org",
+            "server_port": 8080,
+            "uuid": "cef51002-47b0-4e48-9d91-850e15ff95e8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1690,21 +1683,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "fr-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/racevpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "fr-full.privateip.net"
+                    "Host": "v4.cfnode.eu.org"
                 }
             }
         },
