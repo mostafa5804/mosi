@@ -107,15 +107,17 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vless | @EliV2ray | 10",
-                "🇨🇦CA | vless | @reality_daily | 0",
+                "🇵🇱PL | vless | @reality_daily | 1",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇯🇵JP | vless | @free_v2rayyy | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @VmessProtocol | 17",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇫🇷FR | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @flyv2ray | 19",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -126,15 +128,17 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vless | @EliV2ray | 10",
-                "🇨🇦CA | vless | @reality_daily | 0",
+                "🇵🇱PL | vless | @reality_daily | 1",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇯🇵JP | vless | @free_v2rayyy | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @VmessProtocol | 17",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇫🇷FR | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @flyv2ray | 19",
+                "🇸🇪SE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 7"
@@ -196,12 +200,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @reality_daily | 0",
+            "tag": "🇵🇱PL | vless | @reality_daily | 1",
             "type": "vless",
-            "server": "darksideofmoon.sooshiant.link",
-            "server_port": 2083,
-            "uuid": "d222aee4-239e-47b6-81d7-21e3d8ef07ba",
-            "flow": "",
+            "server": "51.77.38.99",
+            "server_port": 22,
+            "uuid": "ef3432df-5250-405e-896a-5320f0fbcbbe",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -210,19 +214,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "darksideofmoon.sooshiant.link",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "darksideofmoon.sooshiant.link"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lsoV8kOqm0eJh_H2mmB_gKo63vc3dfcc1NZZNB-Oekc",
+                    "short_id": "6e5df2f1dfa942d6"
                 }
             }
         },
@@ -361,6 +363,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 17",
+            "type": "vless",
+            "server": "49.13.41.126",
+            "server_port": 2053,
+            "uuid": "1b74315e-715f-4a1d-a1b8-21324b12d8aa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tmhub.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YkMokWCOkld81xW5G8yTZPk_bjkrYKR9mWJFRrvGN10",
+                    "short_id": "6ba85179e30d4fc2"
+                }
             }
         },
         {
@@ -505,6 +536,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "16.16.126.54",
+            "server_port": 5222,
+            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "coinmarketcap.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9phXvxA9Bm7NTIjBAc97fm330uFeMl-dMqM63XYnvH0",
+                    "short_id": "1db3"
+                }
             }
         },
         {
