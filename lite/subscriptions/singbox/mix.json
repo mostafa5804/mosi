@@ -155,7 +155,6 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇨🇷CR | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇬🇧GB | vmess | @Hope_Net | 13",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -166,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 9",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇭🇰HK | ss | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -235,7 +234,6 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
-                "🇨🇷CR | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🇬🇧GB | vmess | @Hope_Net | 13",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -246,7 +244,7 @@
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 9",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇭🇰HK | ss | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1608,37 +1606,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "all.v-2rayngvpn.cfd",
-            "server_port": 443,
-            "uuid": "07671fb8-660c-431d-9692-a52882af1964",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "all.v-2rayngvpn.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@v2rayvpn2",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @proxystore11 | 18",
             "type": "vless",
             "server": "eapanel.proxystore11.site",
@@ -1941,21 +1908,14 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
+            "tag": "🇭🇰HK | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "8.210.231.146",
+            "server_port": 1146,
+            "method": "aes-256-gcm",
+            "password": "jmtgsmW40R",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
