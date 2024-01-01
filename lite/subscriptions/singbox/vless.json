@@ -121,14 +121,14 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 11",
-                "🇺🇸US | vless | @lightning6 | 17",
+                "🇨🇷CR | vless | @lightning6 | 17",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 14",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 14",
                 "🏳️XX | vless | @V2raysFree | 16",
                 "🇨🇦CA | vless | @v2logy | 18",
                 "🇨🇦CA | vless | @servermomo | 14",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+                "🇨🇷CR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -153,6 +153,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -184,14 +185,14 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 11",
-                "🇺🇸US | vless | @lightning6 | 17",
+                "🇨🇷CR | vless | @lightning6 | 17",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 14",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 14",
                 "🏳️XX | vless | @V2raysFree | 16",
                 "🇨🇦CA | vless | @v2logy | 18",
                 "🇨🇦CA | vless | @servermomo | 14",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+                "🇨🇷CR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -216,6 +217,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -728,7 +730,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 17",
+            "tag": "🇨🇷CR | vless | @lightning6 | 17",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.mamd.sbs",
             "server_port": 2083,
@@ -940,17 +942,34 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇷CR | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "172.104.148.48",
-            "server_port": 8880,
-            "uuid": "69a608d2-d198-4f09-a8dc-2f9b6013e7cd",
+            "server": "all.v2raxx.shop",
+            "server_port": 2096,
+            "uuid": "a43b6e8c-9fc0-45fd-8efc-f3304613b6af",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnbigbang-mtn-mci.iranilove.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@V2RAXX @V2RAXX @V2RAXX @V2RAXX",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1620,6 +1639,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "current.ircp.online"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "172.66.47.158",
+            "server_port": 2052,
+            "uuid": "ca510fb3-9a46-4b3c-a2a6-4c80a6431bd9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.66.47.158"
                 }
             }
         },
