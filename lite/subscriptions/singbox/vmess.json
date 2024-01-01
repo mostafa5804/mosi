@@ -112,7 +112,7 @@
                 "🇳🇱NL | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇮🇳IN | vmess | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @eliya_chiter0 | 6"
             ]
         },
@@ -126,7 +126,7 @@
                 "🇳🇱NL | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 2",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇮🇳IN | vmess | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @eliya_chiter0 | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -227,11 +227,11 @@
         {
             "tag": "🇳🇱NL | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "45.58.145.200",
-            "server_port": 30000,
-            "uuid": "55545f9e-a561-454a-8dc0-8bc110e6b1c9",
+            "server": "nl-full.privateip.net",
+            "server_port": 443,
+            "uuid": "6930f7e2-0649-4cd0-b5e8-d533472ca478",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -242,7 +242,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.51652109.xyz",
+                "server_name": "nl-full.privateip.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -252,9 +252,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1702301098557",
+                "path": "\/racevpn",
                 "headers": {
-                    "Host": "www.51652109.xyz"
+                    "Host": "nl-full.privateip.net"
                 }
             }
         },
@@ -317,13 +317,13 @@
             }
         },
         {
-            "tag": "🇮🇳IN | vmess | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "129.154.228.4",
-            "server_port": 8084,
-            "uuid": "f49ed5da-ce2e-4e38-a723-31acf6cd96f9",
+            "server": "188.114.96.58",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -332,11 +332,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ophelia.mom",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "ophelia.mom"
                 }
             }
         },
