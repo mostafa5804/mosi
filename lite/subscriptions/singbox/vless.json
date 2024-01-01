@@ -142,10 +142,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 32",
+                "🇩🇪DE | vless | @DailyV2RY | 27",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -153,7 +152,6 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 9",
-                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -206,10 +204,9 @@
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 32",
+                "🇩🇪DE | vless | @DailyV2RY | 27",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -217,7 +214,6 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇺🇸US | vless | @FreakConfig | 9",
-                "🇮🇷IR | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -381,7 +377,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.49.79.124",
+            "server": "13.51.59.95",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1312,12 +1308,12 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 32",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 27",
             "type": "vless",
-            "server": "77.237.73.25",
-            "server_port": 8080,
-            "uuid": "42556db0-732c-4ce0-8b7e-76424fe87f15",
-            "flow": "",
+            "server": "146.75.123.7",
+            "server_port": 2083,
+            "uuid": "2f661c4a-0f7f-467c-ad92-2c2cffe3fdb3",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1326,20 +1322,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ftp.novinhost.org",
+                "server_name": "blog.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7KU9RAppo9b-I3CQdQhBqXQ8eaKPxgF0A67MA4OY7w4",
+                    "short_id": "b57c9c13"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ftp.novinhost.org",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1382,37 +1376,6 @@
                 "headers": {
                     "Host": "104.23.139.0"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "all.v-2rayngvpn.cfd",
-            "server_port": 443,
-            "uuid": "07671fb8-660c-431d-9692-a52882af1964",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "all.v-2rayngvpn.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@v2rayvpn2",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1640,27 +1603,6 @@
                 "headers": {
                     "Host": "current.ircp.online"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "78.109.194.35",
-            "server_port": 2053,
-            "uuid": "Z%69%67m%61_Config_9632",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Vmess_Sell_VIP",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
