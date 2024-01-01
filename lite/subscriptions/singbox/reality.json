@@ -110,9 +110,10 @@
                 "🇸🇬SG | vless | @reality_daily | 0",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇯🇵JP | vless | @free_v2rayyy | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇩🇪DE | vless | @VmessProtocol | 17",
+                "🇫🇮FI | vless | @prrofile_purple | 169",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @flyv2ray | 19",
@@ -130,9 +131,10 @@
                 "🇸🇬SG | vless | @reality_daily | 0",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇯🇵JP | vless | @free_v2rayyy | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-                "🇩🇪DE | vless | @VmessProtocol | 17",
+                "🇫🇮FI | vless | @prrofile_purple | 169",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇩🇪DE | vless | @flyv2ray | 19",
@@ -301,6 +303,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
+            "type": "vless",
+            "server": "18.153.55.116",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EIlDVogCS_cEwIaeXtgAoBXxYMnzYu5__nkFjMp_KVs",
+                    "short_id": "76a848cb"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇯🇵JP | vless | @free_v2rayyy | 11",
             "type": "vless",
             "server": "20.78.121.179",
@@ -366,11 +404,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 17",
+            "tag": "🇫🇮FI | vless | @prrofile_purple | 169",
             "type": "vless",
-            "server": "49.13.41.126",
-            "server_port": 2053,
-            "uuid": "1b74315e-715f-4a1d-a1b8-21324b12d8aa",
+            "server": "65.108.58.248",
+            "server_port": 443,
+            "uuid": "b0107817-029c-432c-ad4d-bd1e9e1c3471",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -380,18 +418,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.tmhub.top",
+                "server_name": "greenpepper.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YkMokWCOkld81xW5G8yTZPk_bjkrYKR9mWJFRrvGN10",
-                    "short_id": "6ba85179e30d4fc2"
+                    "public_key": "RL6RJY-vbjYIUpDulvSJ8LHI9zCsJ0ICWWY5I-coWwE",
+                    "short_id": "cac59972"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNwedbaz--@vpnwedbaz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
