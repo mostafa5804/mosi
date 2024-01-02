@@ -142,7 +142,8 @@
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
                 "🇨🇦CA | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 12",
+                "🇨🇦CA | vless | @v2ray_swhil | 9",
+                "🇨🇷CR | vless | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -164,7 +165,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @nofiltering2 | 15",
@@ -218,7 +219,8 @@
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
                 "🇨🇦CA | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 12",
+                "🇨🇦CA | vless | @v2ray_swhil | 9",
+                "🇨🇷CR | vless | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇮🇷IR | vless | @vless_vmess | 5",
@@ -240,7 +242,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇷CR | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇨🇦CA | vless | @nofiltering2 | 15",
@@ -1265,7 +1267,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 12",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 9",
+            "type": "vless",
+            "server": "mmdtitaniom.gogoli.monster",
+            "server_port": 8443,
+            "uuid": "2e5f3822-1056-4797-804c-edc7600fbbe7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdtitaniom.gogoli.monster",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL,@TITANIOM_OFFICIAL",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 12",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1897,13 +1930,16 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "All.digiv2ray.shop",
-            "server_port": 2083,
-            "uuid": "8e556711-ac12-4671-b414-f2b9def01b81",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "7046F423-0E3B-4C77-A4A6-F6177AEB5099",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1911,7 +1947,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ConneCtion-SpeedV2rayNg.Digiv2ray.shop",
+                "server_name": "kansas.gafn.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1921,9 +1957,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Digiv2ray",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "ConneCtion-SpeedV2rayNg.Digiv2ray.shop"
+                    "Host": "kansas.gafn.online"
                 }
             }
         },
