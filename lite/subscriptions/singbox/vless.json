@@ -144,7 +144,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 27",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇷CR | vless | @ConfigsHUB | 6",
+                "🇨🇷CR | vless | @ConfigsHUB | 10",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -152,6 +152,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @nofiltering2 | 15",
@@ -205,7 +206,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 27",
                 "🇨🇦CA | vless | @SafeNet_Server | 8",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇷CR | vless | @ConfigsHUB | 6",
+                "🇨🇷CR | vless | @ConfigsHUB | 10",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -213,6 +214,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @nofiltering2 | 15",
@@ -1342,7 +1344,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 6",
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 10",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2095,
@@ -1584,6 +1586,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 8443,
+            "uuid": "2e3da648-7ad4-498a-a0be-5a89d2def0bc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@NPV_V2RAY",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
