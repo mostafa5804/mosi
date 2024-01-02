@@ -145,7 +145,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 21",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -154,6 +154,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇹🇷TR | vless | @flyv2ray | 17",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @nofiltering2 | 15",
@@ -207,7 +208,7 @@
                 "🇮🇷IR | vless | @DailyV2RY | 21",
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 44",
@@ -216,6 +217,7 @@
                 "🏳️XX | vless | @Capital_NET | 54",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇹🇷TR | vless | @flyv2ray | 17",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @nofiltering2 | 15",
@@ -1407,11 +1409,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "free.httpcustom.site",
-            "server_port": 443,
-            "uuid": "Free_HTTPCustom",
+            "server": "104.16.31.197",
+            "server_port": 2087,
+            "uuid": "02bcbeb3-4b59-4c0a-bf00-99f96682dc6f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1421,7 +1423,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "freee.httpcustom.site",
+                "server_name": "Helix-1.Mahoraga.Space",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1431,7 +1433,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Fre_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom@Free_HTTPCustom",
+                "service_name": "Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers-Telegram-Channel:@HELIX_Servers",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1695,6 +1697,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Dr.Phone",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "all.v-2rayngvpn.cfd",
+            "server_port": 443,
+            "uuid": "07671fb8-660c-431d-9692-a52882af1964",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "all.v-2rayngvpn.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@v2rayvpn2",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
