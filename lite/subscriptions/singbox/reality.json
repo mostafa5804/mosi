@@ -111,10 +111,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @v2logy | 18",
                 "🏳️XX | vless | @MTConfig | 21",
-                "🇩🇪DE | vless | @DailyV2RY | 27",
+                "🇮🇷IR | vless | @DailyV2RY | 21",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
+                "🇹🇷TR | vless | @flyv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @nofiltering2 | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 8",
@@ -131,10 +133,12 @@
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @v2logy | 18",
                 "🏳️XX | vless | @MTConfig | 21",
-                "🇩🇪DE | vless | @DailyV2RY | 27",
+                "🇮🇷IR | vless | @DailyV2RY | 21",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
+                "🇹🇷TR | vless | @flyv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🇫🇮FI | vless | @nofiltering2 | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 8",
@@ -335,6 +339,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @v2logy | 18",
+            "type": "vless",
+            "server": "moftinet.eryhoihuuu.sbs",
+            "server_port": 443,
+            "uuid": "f65813de-f855-41cd-96d3-6f53d6186ff3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "moftinet.eryhoihuuu.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "36mhDE4VbNovmhh-wU0nxz-g2KBOmqk6Yyf-87uxGTU",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Moftinet",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @MTConfig | 21",
             "type": "vless",
             "server": "tel-xsv2ray.xalixv2ray.space",
@@ -371,11 +411,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 27",
+            "tag": "🇮🇷IR | vless | @DailyV2RY | 21",
             "type": "vless",
-            "server": "146.75.123.7",
-            "server_port": 2083,
-            "uuid": "2f661c4a-0f7f-467c-ad92-2c2cffe3fdb3",
+            "server": "80.191.56.105",
+            "server_port": 2087,
+            "uuid": "ff2690c5-33ba-4de9-8d3b-4882da87a1d3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -385,12 +425,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "blog.speedtest.net",
+                "server_name": "info.chmail.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "safari"
                 },
                 "reality": {
                     "enabled": true,
@@ -466,6 +506,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@flyv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @flyv2ray | 17",
+            "type": "vless",
+            "server": "tk.dwv2ray.site",
+            "server_port": 443,
+            "uuid": "76408ff4-d39d-44a7-9666-78b88fb4c18f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "eSq2viks3QTjVd77cFKfenQfxAL2JBxoJX9xxblcsno",
+                    "short_id": "7b6e4dd3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Dr.Phone",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
