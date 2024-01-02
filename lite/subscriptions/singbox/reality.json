@@ -106,13 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @EliV2ray | 14",
                 "🇹🇷TR | vless | @reality_daily | 0",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 19",
                 "🏳️XX | vless | @MTConfig | 21",
-                "🇸🇪SE | vless | @V2RayTz | 11",
+                "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @SafeNet_Server | 8",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -126,13 +127,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @EliV2ray | 14",
                 "🇹🇷TR | vless | @reality_daily | 0",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 19",
                 "🏳️XX | vless | @MTConfig | 21",
-                "🇸🇪SE | vless | @V2RayTz | 11",
+                "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @SafeNet_Server | 8",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🏳️XX | vless | @Capital_NET | 54",
@@ -160,6 +162,42 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @EliV2ray | 14",
+            "type": "vless",
+            "server": "91.107.138.78",
+            "server_port": 50000,
+            "uuid": "e98ce689-eb18-4901-9bd2-85c6ee44231e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "uzbo.ro",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wRuMbGZN9HJQovIq-bPSA0wEO0MhT7CgLY8GpB5GUWI",
+                    "short_id": "82757821"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "f",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇹🇷TR | vless | @reality_daily | 0",
@@ -364,9 +402,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 11",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 16",
             "type": "vless",
-            "server": "16.16.171.154",
+            "server": "16.16.96.19",
             "server_port": 443,
             "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
@@ -387,7 +425,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "s0PYAUNqQjfccblnJ--AXqQN6aqUWr1mHVZUNykroxc",
+                    "public_key": "xHQGMkNV3eT4Zia5lWuEiSX1N-4cY4MByjneuuB9b24",
                     "short_id": "1db3"
                 }
             }
