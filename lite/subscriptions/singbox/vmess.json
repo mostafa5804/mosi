@@ -108,13 +108,14 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
-                "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
+                "🇨🇷CR | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇨🇦CA | vmess | @DailyV2RY | 11",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇨🇦CA | vmess | @Hope_Net | 16",
+                "🇨🇾CY | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 7"
             ]
         },
@@ -124,13 +125,14 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇹🇼TW | vmess | @mftizi | 18",
-                "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
+                "🇨🇷CR | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇨🇦CA | vmess | @DailyV2RY | 11",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇨🇦CA | vmess | @Hope_Net | 16",
+                "🇨🇾CY | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -205,11 +207,11 @@
             }
         },
         {
-            "tag": "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇷CR | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "diamond.ht4gvpn.com",
-            "server_port": 80,
-            "uuid": "2b69324d-5fe2-48c2-923f-049c3093cd56",
+            "server": "190.93.247.11",
+            "server_port": 2086,
+            "uuid": "36c751a6-13af-4049-aa23-5b74e3748630",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -222,7 +224,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ht4gvpn.com",
+                "path": "\/shop",
                 "headers": {
                     "Host": ""
                 }
@@ -287,11 +289,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 16",
+            "tag": "🇨🇾CY | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
+            "server": "195.85.59.161",
+            "server_port": 2082,
+            "uuid": "6311f05b-5207-4ce6-86ea-ebe8d9811491",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -365,6 +367,40 @@
                 "path": "\/racevpn",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "AC87D53F-517D-4EE3-AFF0-D99734F08A1A",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
