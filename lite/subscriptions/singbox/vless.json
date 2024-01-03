@@ -115,7 +115,7 @@
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 6",
-                "🇨🇦CA | vless | @frev2ray | 11",
+                "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 23",
                 "🇨🇷CR | vless | @lightning6 | 18",
@@ -123,7 +123,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCsmxmgsgbad",
+                "TVCljrdjnorvk",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -159,7 +159,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -183,7 +183,7 @@
                 "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @V2pedia | 6",
-                "🇨🇦CA | vless | @frev2ray | 11",
+                "🇨🇦CA | vless | @frev2ray | 10",
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @rxv2ray | 23",
                 "🇨🇷CR | vless | @lightning6 | 18",
@@ -191,7 +191,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCsmxmgsgbad",
+                "TVCljrdjnorvk",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -227,7 +227,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -540,7 +540,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @frev2ray | 11",
+            "tag": "🇨🇦CA | vless | @frev2ray | 10",
             "type": "vless",
             "server": "v20.cuvr.cfd",
             "server_port": 2053,
@@ -798,7 +798,7 @@
             }
         },
         {
-            "tag": "TVCsmxmgsgbad",
+            "tag": "TVCljrdjnorvk",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1787,11 +1787,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "tel.antiV2ray.sbs",
-            "server_port": 80,
-            "uuid": "2a3ce329-c18d-4a5c-ad74-8d2e1e9999c1",
+            "server": "de.MsV2ray.sbs",
+            "server_port": 2083,
+            "uuid": "9fac0e66-13a0-443f-fd7a-8c0b027e4632",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1799,12 +1799,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tel.antiV2ray.sbs"
+            "tls": {
+                "enabled": true,
+                "server_name": "de.MsV2ray.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

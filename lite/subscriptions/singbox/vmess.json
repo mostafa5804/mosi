@@ -111,7 +111,7 @@
                 "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇭🇰HK | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 7"
@@ -126,7 +126,7 @@
                 "🇻🇳VN | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @customv2ray | 15",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇭🇰HK | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 7"
@@ -261,11 +261,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 16",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "8.210.203.189",
-            "server_port": 37309,
-            "uuid": "74cdcc28-a0bc-421f-bd15-c6a6e401b523",
+            "server": "172.64.154.222",
+            "server_port": 443,
+            "uuid": "fcfaec91-6096-44d8-956c-7868d9e874b1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -276,12 +276,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "lg1.cfcdn1.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "http",
-                "host": [
-                    "8.210.203.189"
-                ],
-                "path": "\/"
+                "type": "ws",
+                "path": "\/ray",
+                "headers": {
+                    "Host": "lg1.cfcdn1.xyz"
+                }
             }
         },
         {
