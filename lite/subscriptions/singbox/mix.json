@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCupthmydezh",
+                "TVCnzfiaqatry",
                 "🏳️XX | vless | @V2raysFree | 13",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -171,7 +171,7 @@
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🏳️XX | vless | @FreakConfig | 9",
                 "🇹🇷TR | vless | @flyv2ray | 21",
-                "🏳️XX | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 7",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -207,7 +207,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCupthmydezh",
+                "TVCnzfiaqatry",
                 "🏳️XX | vless | @V2raysFree | 13",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -254,7 +254,7 @@
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🏳️XX | vless | @FreakConfig | 9",
                 "🇹🇷TR | vless | @flyv2ray | 21",
-                "🏳️XX | vless | @forwardv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 7",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -854,7 +854,7 @@
             }
         },
         {
-            "tag": "TVCupthmydezh",
+            "tag": "TVCnzfiaqatry",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -2096,17 +2096,34 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 15",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 7",
             "type": "vless",
-            "server": "VWQtE629BeKq4Twa7bC2dIC1wsex7s6KBrSAzD",
-            "server_port": 0,
-            "uuid": "",
+            "server": "maz.maznet.cfd",
+            "server_port": 443,
+            "uuid": "2f7abc59-bcf1-40ef-bf2b-57f7f91a2146",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join10.maznet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
