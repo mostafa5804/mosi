@@ -112,8 +112,9 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇺🇸US | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇳🇱NL | vmess | @nofiltering2 | 12",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 8"
@@ -129,8 +130,9 @@
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
-                "🇺🇸US | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇳🇱NL | vmess | @nofiltering2 | 12",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 8"
@@ -299,11 +301,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 13",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "66.228.55.178",
-            "server_port": 8080,
-            "uuid": "46c5985b-6268-4620-9cf6-2da8e83c0f5b",
+            "server": "162.159.135.42",
+            "server_port": 443,
+            "uuid": "12e08256-da5d-4b1c-aeca-8c973ccceef8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -314,9 +316,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Falling42gcsdenode",
                 "headers": {
                     "Host": ""
                 }
@@ -351,6 +363,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
