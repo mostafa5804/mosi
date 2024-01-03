@@ -122,7 +122,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCuavqucdbpz",
+                "TVCmpksfdtrnf",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -169,7 +169,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @flyv2ray | 20",
-                "🇸🇪SE | vless | @forwardv2ray | 15",
+                "🇳🇱NL | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -203,7 +203,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
-                "TVCuavqucdbpz",
+                "TVCmpksfdtrnf",
                 "🇮🇷IR | vless | @V2raysFree | 12",
                 "🇩🇪DE | vless | @v2logy | 18",
                 "🇳🇱NL | vless | @servermomo | 14",
@@ -250,7 +250,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @FreakConfig | 11",
                 "🇹🇷TR | vless | @flyv2ray | 20",
-                "🇸🇪SE | vless | @forwardv2ray | 15",
+                "🇳🇱NL | vmess | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 20",
@@ -788,7 +788,7 @@
             }
         },
         {
-            "tag": "TVCuavqucdbpz",
+            "tag": "TVCmpksfdtrnf",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -2022,13 +2022,16 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "13.53.136.70",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 15",
+            "type": "vmess",
+            "server": "188.114.97.7",
             "server_port": 443,
-            "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "uuid": "13940EC5-B5D0-487A-98F4-B71F93D1E1EA",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2036,17 +2039,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "coinmarketcap.com",
+                "server_name": "kansas.gafn.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GZt6O3FfzD3tYRI1COk9crT6sKFmdCzG-kow-lG0N1s",
-                    "short_id": "1db3"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "kansas.gafn.online"
                 }
             }
         },
