@@ -147,6 +147,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
+                "🏳️XX | vless | @ConfigsHUB | 18",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -156,7 +157,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -212,6 +213,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
+                "🏳️XX | vless | @ConfigsHUB | 18",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -221,7 +223,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1393,6 +1395,37 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "de.MrV2raay.sbs",
+            "server_port": 443,
+            "uuid": "-MsV2ray--MsV2ray--MsV2ray-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ws.MsV2ray.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ws.MsV2ray.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇷CR | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "proxystore11.kodaksho.eu.org",
@@ -1673,7 +1706,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
             "type": "vless",
             "server": "104.21.56.219",
             "server_port": 443,

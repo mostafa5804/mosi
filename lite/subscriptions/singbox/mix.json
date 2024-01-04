@@ -155,7 +155,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇮🇪IE | trojan | @ConfigsHUB | 19",
+                "🏳️XX | vless | @ConfigsHUB | 18",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
@@ -236,7 +236,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇮🇪IE | trojan | @ConfigsHUB | 19",
+                "🏳️XX | vless | @ConfigsHUB | 18",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -249,7 +249,7 @@
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 6",
@@ -1585,11 +1585,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇪IE | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "3.254.12.147",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🏳️XX | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "de.MrV2raay.sbs",
+            "server_port": 443,
+            "uuid": "-MsV2ray--MsV2ray--MsV2ray-",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1597,12 +1599,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
+                "server_name": "ws.MsV2ray.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ws.MsV2ray.sbs"
                 }
             }
         },
@@ -1962,7 +1971,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
             "type": "vless",
             "server": "104.21.56.219",
             "server_port": 443,
