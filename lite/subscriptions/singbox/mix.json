@@ -126,7 +126,7 @@
                 "🇳🇱NL | vless | @servermomo | 14",
                 "🇮🇷IR | vless | @V2rayCollector | 2",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 14",
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇬🇧GB | trojan | @DirectVPN | 15",
@@ -157,7 +157,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 12",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -171,7 +171,6 @@
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🏳️XX | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -210,7 +209,7 @@
                 "🇳🇱NL | vless | @servermomo | 14",
                 "🇮🇷IR | vless | @V2rayCollector | 2",
                 "🇨🇷CR | vless | @azadi_az_inja_migzare | 14",
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇷CR | vless | @V2rayNGn | 25",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇬🇧GB | trojan | @DirectVPN | 15",
@@ -241,7 +240,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 12",
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇸🇪SE | vless | @free1_vpn | 0",
@@ -255,7 +254,6 @@
                 "🇩🇪DE | vless | @Capoit | 1",
                 "🏳️XX | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 19",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -911,16 +909,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
-            "type": "vmess",
-            "server": "172.67.170.103",
-            "server_port": 2082,
-            "uuid": "Telegram-V2ray_alpha",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 80,
+            "uuid": "da8d0369-0121-4d2b-9fe1-c071833604cf",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -930,7 +925,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "tgju.org"
                 }
             }
         },
@@ -1720,11 +1715,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "176.97.77.32",
+            "server": "google.com",
             "server_port": 443,
-            "uuid": "2c8efaa2-dfa1-44bb-9e14-5ad363dc88f5",
+            "uuid": "33c0e559-b5d6-4d0e-a548-ac3e593244b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1734,7 +1729,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ov2.gooldeneaglee.eu.org",
+                "server_name": "2376482500.yadakii.store",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1743,11 +1738,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ov2.gooldeneaglee.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "74770015",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -2115,37 +2110,6 @@
                 "headers": {
                     "Host": "xio.vpnxw.eu.org"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "google.com",
-            "server_port": 443,
-            "uuid": "6c3818d4-a7cd-471e-8fe4-f03b153ca38c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "9360417647.yadakii.store",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "64133320",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
