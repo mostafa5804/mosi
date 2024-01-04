@@ -119,7 +119,6 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
-                "🇨🇦CA | vless | @V2raysFree | 10",
                 "🇩🇪DE | vless | @v2logy | 17",
                 "🇳🇱NL | vless | @servermomo | 14",
                 "🇮🇷IR | vless | @V2rayCollector | 2",
@@ -154,14 +153,13 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇸🇬SG | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🏳️XX | vless | @nofiltering2 | 12",
                 "🇫🇮FI | vless | @proxy_mtm | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 12",
+                "🏳️XX | vless | @kingofilter | 15",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ]
@@ -183,7 +181,6 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
-                "🇨🇦CA | vless | @V2raysFree | 10",
                 "🇩🇪DE | vless | @v2logy | 17",
                 "🇳🇱NL | vless | @servermomo | 14",
                 "🇮🇷IR | vless | @V2rayCollector | 2",
@@ -218,14 +215,13 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇸🇬SG | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 9",
                 "🇸🇪SE | vless | @kiava | 14",
                 "🏳️XX | vless | @nofiltering2 | 12",
                 "🇫🇮FI | vless | @proxy_mtm | 10",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 12",
+                "🏳️XX | vless | @kingofilter | 15",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ],
@@ -652,37 +648,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @V2raysFree | 10",
-            "type": "vless",
-            "server": "104.21.7.235",
-            "server_port": 443,
-            "uuid": "ae203bb1-0317-48a1-ab65-70b21cf0c489",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ssl1.mamaseed.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless",
-                "headers": {
-                    "Host": "ssl1.mamaseed.buzz"
                 }
             }
         },
@@ -1378,9 +1343,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.20.148",
-            "server_port": 2082,
-            "uuid": "biaTelegram-V2ray_alpha",
+            "server": "104.17.193.81",
+            "server_port": 443,
+            "uuid": "1dc84f56-e1d5-466c-8047-897192fde26a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1388,12 +1353,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.20.148"
+            "tls": {
+                "enabled": true,
+                "server_name": "sajjad5.fastatom.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "gamingmaster.ir",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1658,27 +1633,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "biaTelegram-V2ray_alpha",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "tgju.org"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @https_config_injector | 14",
             "type": "vless",
             "server": "104.21.28.62",
@@ -1863,11 +1817,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kingofilter | 12",
+            "tag": "🏳️XX | vless | @kingofilter | 15",
             "type": "vless",
-            "server": "a-ipclf.tabanweb.com",
-            "server_port": 443,
-            "uuid": "667c6c32-609f-4c08-9bdb-da6333f2a89b",
+            "server": "kv.randwicks.shop",
+            "server_port": 2083,
+            "uuid": "66dbd4c7-6866-4527-b923-d064431c8524",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1877,7 +1831,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dl35.vipdvarzesh3.store",
+                "server_name": "kv.randwicks.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1887,9 +1841,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/apiapp",
+                "path": "\/action_page.php",
                 "headers": {
-                    "Host": "dl35.vipdvarzesh3.store"
+                    "Host": "kv.randwicks.shop"
                 }
             }
         },
