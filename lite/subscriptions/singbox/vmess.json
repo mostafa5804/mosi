@@ -113,7 +113,7 @@
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇬🇧GB | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 8"
             ]
@@ -129,7 +129,7 @@
                 "🇭🇰HK | vmess | @yaney_01 | 10",
                 "🇬🇧GB | vmess | @Hope_Net | 11",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇮🇳IN | vmess | @eliya_chiter0 | 8"
             ],
@@ -338,11 +338,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -352,6 +352,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
