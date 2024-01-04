@@ -110,9 +110,8 @@
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ]
@@ -125,9 +124,8 @@
                 "🇹🇼TW | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ],
@@ -227,13 +225,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "ingress-i2.iivvppnn.info",
-            "server_port": 38106,
-            "uuid": "79386685-16da-327c-9e14-aa6d702d86bc",
+            "server": "23.227.38.40",
+            "server_port": 443,
+            "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -242,9 +240,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/hls\/cctv5phd.m3u8",
+                "path": "\/A2DJOPFT",
                 "headers": {
                     "Host": ""
                 }
@@ -272,23 +280,6 @@
                 "headers": {
                     "Host": "ee1.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "a.xdsazeroamirpand.top",
-            "server_port": 24607,
-            "uuid": "d44d16f8-56a9-4357-8eb6-8d647b319c34",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
