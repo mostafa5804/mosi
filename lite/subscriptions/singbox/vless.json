@@ -148,6 +148,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
+                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -213,6 +214,7 @@
                 "🇨🇦CA | vless | @SafeNet_Server | 11",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
+                "🇨🇷CR | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🏳️XX | vless | @fnet00 | 10",
@@ -409,9 +411,9 @@
         {
             "tag": "🇨🇦CA | vless | @melov2ray | 5",
             "type": "vless",
-            "server": "de.melov2ray.shop",
+            "server": "fin.melov2ray.shop",
             "server_port": 2083,
-            "uuid": "b5793f6d-5cec-4b92-abfe-e0fa3533ca45",
+            "uuid": "6f7301df-a440-4905-b4ba-4b4acce18f4d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -421,7 +423,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "De.Melov2ray.Shop",
+                "server_name": "FIn.Melov2ray.Shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -430,11 +432,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/melov2ray",
-                "headers": {
-                    "Host": "De.Melov2ray.Shop"
-                }
+                "type": "grpc",
+                "service_name": "@melov2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1436,6 +1438,37 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "all.vpncustomize.cam",
+            "server_port": 443,
+            "uuid": "885b1815-0bcc-446f-a3f1-fbd3bf16278d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "FreaV2rayng.VPNCUSTOMIZE.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "‌@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇷CR | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "proxystore11.kodaksho.eu.org",
@@ -1565,9 +1598,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 11",
             "type": "vless",
-            "server": "w3.sylarsun.eu.org",
+            "server": "e.outlinekey.online",
             "server_port": 443,
-            "uuid": "89420825-e589-4735-bee1-6dc636fca343",
+            "uuid": "6141d9fd-07a7-4e28-af70-c2c6010a3e6d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1577,7 +1610,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "w3.sylarsun.eu.org",
+                "server_name": "uni.outlinekey.online",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1586,11 +1619,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "w3.sylarsun.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@Outlinev2rayNG,@Outlinev2rayNG",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1726,9 +1759,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.18.202.209",
-            "server_port": 2095,
-            "uuid": "52d45af5-8b62-47e7-9237-19dc03571fe3",
+            "server": "okok.turk.coffee",
+            "server_port": 80,
+            "uuid": "afb57a5a-8d78-43ae-c74f-1e16137b01e2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1738,9 +1771,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/,Turk",
                 "headers": {
-                    "Host": "104.18.202.209"
+                    "Host": "okok.turk.coffee"
                 }
             }
         },
