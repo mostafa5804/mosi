@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @ConfigsHUB | 4 = vmess, 104.21.13.222, 2053, username = 0f1b29b8-0f0f-431a-b6d1-035803a95c32, ws = true, tls = 1, vmess-aead = true, ws-path = /vVNUJOgb/, ws-headers = Host:"v2ray.ibgfw.top", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 8 = vmess, v2line.telegram.channel.1377.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = 788744c4-968d-4263-a38b-f2952bf12db2, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ee1.xv2ray.net", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 8
-URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 8
-FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 8
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ConfigsHUB | 4,🇺🇸US | vmess | @v2Line | 8
+URL-TEST = url-test,🇨🇦CA | vmess | @ConfigsHUB | 4,🇺🇸US | vmess | @v2Line | 8
+FALLBACK = fallback,🇨🇦CA | vmess | @ConfigsHUB | 4,🇺🇸US | vmess | @v2Line | 8
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
