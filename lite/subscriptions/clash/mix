@@ -118,6 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇮🇷IR | vmess | @V2rayCollectorDonate | 19","type":"vmess","server":"arv65.nvme.fun","port":"443","cipher":"auto","uuid":"167c83ed-363f-4aa9-89de-d24297b6d8a1","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/JVNqX9dXix","headers":{"host":"arv65.nvme.fun"}}}
   - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 18","type":"trojan","server":"54.78.48.222","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 18","type":"trojan","server":"13.48.254.244","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -127,7 +128,6 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 10","type":"vmess","server":"cm1.awslcn.info","port":"25258","cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cm1.awslcn.info"}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 11","type":"vmess","server":"v2line.telegram.channel.1381.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"224a1664-6b67-4a57-9cb3-d8e9139dbb38","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"il1.xv2ray.net"}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 7","type":"vmess","server":"v2line.telegram.channel.1379.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"443","cipher":"auto","uuid":"7db50a2b-70d8-4b91-a850-8ad577f25ef7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/racevpn","headers":{"host":""}}}
-  - {"name":"🇬🇧GB | ss | @forwardv2ray | 19","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @kingofilter | 18","type":"ss","server":"passconf.xyz","port":8080,"password":"qGjmI8WQlF0tfhDbkLqGdN","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -135,6 +135,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇮🇷IR | vmess | @V2rayCollectorDonate | 19'
       - '🇮🇪IE | trojan | @PrivateVPNs | 18'
       - '🇸🇪SE | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
@@ -144,7 +145,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 10'
       - '🇺🇸US | vmess | @Hope_Net | 11'
       - '🇺🇸US | vmess | @v2Line | 7'
-      - '🇬🇧GB | ss | @forwardv2ray | 19'
       - '🇩🇪DE | ss | @kingofilter | 18'
   - name: URL-TEST
     type: url-test
@@ -152,6 +152,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇮🇷IR | vmess | @V2rayCollectorDonate | 19'
       - '🇮🇪IE | trojan | @PrivateVPNs | 18'
       - '🇸🇪SE | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
@@ -161,13 +162,13 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 10'
       - '🇺🇸US | vmess | @Hope_Net | 11'
       - '🇺🇸US | vmess | @v2Line | 7'
-      - '🇬🇧GB | ss | @forwardv2ray | 19'
       - '🇩🇪DE | ss | @kingofilter | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇮🇷IR | vmess | @V2rayCollectorDonate | 19'
       - '🇮🇪IE | trojan | @PrivateVPNs | 18'
       - '🇸🇪SE | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
@@ -177,7 +178,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 10'
       - '🇺🇸US | vmess | @Hope_Net | 11'
       - '🇺🇸US | vmess | @v2Line | 7'
-      - '🇬🇧GB | ss | @forwardv2ray | 19'
       - '🇩🇪DE | ss | @kingofilter | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
