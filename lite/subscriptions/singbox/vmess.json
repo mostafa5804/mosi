@@ -111,7 +111,8 @@
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 10",
-                "🇺🇸US | vmess | @v2Line | 7"
+                "🇺🇸US | vmess | @v2Line | 7",
+                "🇩🇪DE | vmess | @forwardv2ray | 18"
             ]
         },
         {
@@ -123,7 +124,8 @@
                 "🇬🇧GB | vmess | @oneclickvpnkeys | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 10",
-                "🇺🇸US | vmess | @v2Line | 7"
+                "🇺🇸US | vmess | @v2Line | 7",
+                "🇩🇪DE | vmess | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -272,6 +274,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "il1.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "us.he.07.nekocloud.cn",
+            "server_port": 10002,
+            "uuid": "9c2b64eb-03d8-3cc7-9ba6-2e25002f59b5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/catnet",
+                "headers": {
+                    "Host": "us.he.07.nekocloud.cn"
                 }
             }
         }
