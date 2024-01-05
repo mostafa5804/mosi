@@ -151,6 +151,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🏳️XX | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -211,6 +212,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🏳️XX | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 14",
@@ -1209,7 +1211,7 @@
         {
             "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "30-Join.V2RayTz.sbs",
+            "server": "32-Join.V2RayTz.sbs",
             "server_port": 443,
             "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
@@ -1230,8 +1232,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EmcJnAmgmizra9H-aY3vS2UpyjJ9CcdpygtVWs2fRVA",
-                    "short_id": "e4"
+                    "public_key": "bEvKmlCatMvtHn7hpfjoB6FbDt0MIs-l05aT25e7fnY",
+                    "short_id": "e371b41b"
                 }
             }
         },
@@ -1554,6 +1556,37 @@
                 "path": "\/melov2ray",
                 "headers": {
                     "Host": "De.Melov2ray.Shop"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
+            "type": "vless",
+            "server": "w1.sylar8.eu.org",
+            "server_port": 443,
+            "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "w1.sylar8.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "w1.sylar8.eu.org"
                 }
             }
         },
