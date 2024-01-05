@@ -110,7 +110,7 @@
                 "🇨🇷CR | vless | @XsV2ray | 13",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 20",
-                "🇨🇷CR | vless | @ipV2Ray | 19",
+                "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇷CR | vless | @frev2ray | 7",
                 "🇨🇷CR | vless | @ARv2ray | 15",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 10",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇺🇸US | vmess | @Hope_Net | 11",
@@ -163,7 +163,7 @@
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🏳️XX | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -185,7 +185,7 @@
                 "🇨🇷CR | vless | @XsV2ray | 13",
                 "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 20",
-                "🇨🇷CR | vless | @ipV2Ray | 19",
+                "🇨🇦CA | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇷CR | vless | @frev2ray | 7",
                 "🇨🇷CR | vless | @ARv2ray | 15",
@@ -227,7 +227,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 10",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇺🇸US | vmess | @Hope_Net | 11",
@@ -238,7 +238,7 @@
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🏳️XX | vless | @flyv2ray | 14",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -396,11 +396,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ipV2Ray | 19",
+            "tag": "🇨🇦CA | vless | @ipV2Ray | 19",
             "type": "vless",
-            "server": "tel.ipV2Ray.fun",
+            "server": "tm.ipv2ray.fun",
             "server_port": 2087,
-            "uuid": "9caa7223-1c54-4044-9a11-847bb970f173",
+            "uuid": "5be201ed-c34d-4aac-b39c-783ed9339394",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -885,7 +885,7 @@
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "54.78.48.222",
+            "server": "52.50.53.79",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1521,11 +1521,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "s18.nextvps.monster",
-            "server_port": 8307,
-            "uuid": "460332c1-aa61-445d-9cc1-00647871b803",
+            "server": "ars2.pingreducer.top",
+            "server_port": 443,
+            "uuid": "58d04d0d-e4b1-40d2-81df-d175f030424c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1533,11 +1533,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ars2.pingreducer.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/pingreducer",
                 "headers": {
-                    "Host": "s18.nextvps.monster"
+                    "Host": "ars2.pingreducer.top"
                 }
             }
         },
@@ -1839,11 +1849,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "160.153.0.164",
-            "server_port": 8443,
-            "uuid": "f2901af8-7658-4f04-87b4-d995fce3ca31",
+            "server": "104.18.21.45",
+            "server_port": 443,
+            "uuid": "2a044873-12c8-4849-803e-8a5d731375de",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1853,7 +1863,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "download.alphav.top",
+                "server_name": "hk1.servervless.de",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1862,11 +1872,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@V2ray_Alpha @V2ray_Alpha @V2ray_Alpha",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hk1.servervless.de"
+                }
             }
         },
         {
@@ -2112,7 +2122,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?",
                 "headers": {
                     "Host": ""
                 }
