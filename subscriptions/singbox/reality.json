@@ -161,8 +161,8 @@
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
-                "🇸🇪SE | vless | @DailyV2RY | 16",
-                "🇯🇵JP | vless | @ConfigsHUB | 17",
+                "🇸🇪SE | vless | @DailyV2RY | 23",
+                "🇯🇵JP | vless | @ConfigsHUB | 7",
                 "🇳🇱NL | vless | @fnet00 | 0",
                 "🇩🇪DE | vless | @fnet00 | 3",
                 "🏳️XX | vless | @fnet00 | 5",
@@ -188,6 +188,8 @@
                 "🇫🇮FI | vless | @Capoit | 2",
                 "🇩🇪DE | vless | @FreakConfig | 12",
                 "🇫🇮FI | vless | @flyv2ray | 3",
+                "🏳️XX | vless | @forwardv2ray | 5",
+                "🇬🇧GB | vless | @forwardv2ray | 11",
                 "🇫🇮FI | vless | @mehrosaboran | 0",
                 "🇸🇪SE | vless | @kiava | 0",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -210,7 +212,7 @@
                 "🇨🇦CA | vless | @vpn_go67 | 12",
                 "🇺🇸US | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
-                "🇺🇸US | vless | @vpn_go67 | 15",
+                "🇨🇦CA | vless | @vpn_go67 | 15",
                 "🇺🇸US | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
                 "🇺🇸US | vless | @vpn_go67 | 18",
@@ -287,8 +289,8 @@
                 "🇸🇪SE | vless | @V2RayTz | 16",
                 "🇸🇪SE | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @VmessProtocol | 16",
-                "🇸🇪SE | vless | @DailyV2RY | 16",
-                "🇯🇵JP | vless | @ConfigsHUB | 17",
+                "🇸🇪SE | vless | @DailyV2RY | 23",
+                "🇯🇵JP | vless | @ConfigsHUB | 7",
                 "🇳🇱NL | vless | @fnet00 | 0",
                 "🇩🇪DE | vless | @fnet00 | 3",
                 "🏳️XX | vless | @fnet00 | 5",
@@ -314,6 +316,8 @@
                 "🇫🇮FI | vless | @Capoit | 2",
                 "🇩🇪DE | vless | @FreakConfig | 12",
                 "🇫🇮FI | vless | @flyv2ray | 3",
+                "🏳️XX | vless | @forwardv2ray | 5",
+                "🇬🇧GB | vless | @forwardv2ray | 11",
                 "🇫🇮FI | vless | @mehrosaboran | 0",
                 "🇸🇪SE | vless | @kiava | 0",
                 "🇸🇪SE | vless | @kiava | 1",
@@ -336,7 +340,7 @@
                 "🇨🇦CA | vless | @vpn_go67 | 12",
                 "🇺🇸US | vless | @vpn_go67 | 13",
                 "🇫🇮FI | vless | @vpn_go67 | 14",
-                "🇺🇸US | vless | @vpn_go67 | 15",
+                "🇨🇦CA | vless | @vpn_go67 | 15",
                 "🇺🇸US | vless | @vpn_go67 | 16",
                 "🇫🇮FI | vless | @vpn_go67 | 17",
                 "🇺🇸US | vless | @vpn_go67 | 18",
@@ -2137,7 +2141,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 16",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 23",
             "type": "vless",
             "server": "5.42.86.225",
             "server_port": 22,
@@ -2166,7 +2170,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vless | @ConfigsHUB | 17",
+            "tag": "🇯🇵JP | vless | @ConfigsHUB | 7",
             "type": "vless",
             "server": "172.233.93.217",
             "server_port": 11111,
@@ -3053,6 +3057,71 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @forwardv2ray | 5",
+            "type": "vless",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 11",
+            "type": "vless",
+            "server": "51.89.254.197",
+            "server_port": 37862,
+            "uuid": "bb7cb75e-99e8-4b3b-8172-aa6c45e7ed2b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3AlgmsHgxDh_qKSlxMXCBTP6mY7pk33n9Dk30LyekQ0",
+                    "short_id": "ae8d5e88"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮FI | vless | @mehrosaboran | 0",
             "type": "vless",
             "server": "37.27.33.118",
@@ -3740,7 +3809,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vpn_go67 | 15",
+            "tag": "🇨🇦CA | vless | @vpn_go67 | 15",
             "type": "vless",
             "server": "public.alpanel.top",
             "server_port": 1380,
