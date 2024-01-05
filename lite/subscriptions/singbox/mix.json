@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🏳️XX | vmess | @ConfigsHUB | 12",
+                "🇨🇦CA | trojan | @ConfigsHUB | 13",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
                 "🇷🇺RU | vmess | @Hope_Net | 12",
@@ -163,6 +163,7 @@
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇩🇪DE | vless | @FreakConfig | 12",
                 "🇸🇬SG | vless | @flyv2ray | 16",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 9",
@@ -226,7 +227,7 @@
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
-                "🏳️XX | vmess | @ConfigsHUB | 12",
+                "🇨🇦CA | trojan | @ConfigsHUB | 13",
                 "🇨🇷CR | vless | @proxystore11 | 14",
                 "🇭🇰HK | vmess | @yaney_01 | 11",
                 "🇷🇺RU | vmess | @Hope_Net | 12",
@@ -238,6 +239,7 @@
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🇩🇪DE | vless | @FreakConfig | 12",
                 "🇸🇬SG | vless | @flyv2ray | 16",
+                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vmess | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 9",
@@ -1501,20 +1503,25 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ConfigsHUB | 12",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | trojan | @ConfigsHUB | 13",
+            "type": "trojan",
+            "server": "35.182.28.167",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -1856,6 +1863,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "51.75.86.63",
+            "server_port": 443,
+            "uuid": "974d4696-a900-4d44-b627-9833b8a7b27a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "flightradar24.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UDABcxpKzAYkuyE4pmST0OSzEUJpQNuSgYIKcgppeh8",
+                    "short_id": "d73382b02fa94fc2"
+                }
             }
         },
         {
