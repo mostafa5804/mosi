@@ -11,12 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇯🇵JP | ss | @forwardv2ray | 16 = ss, 140.238.58.147, 21853, encrypt-method = chacha20-ietf-poly1305, password = 25841df9-a719-4011-baeb-bb5227754109
-🇬🇧GB | ss | @kingofilter | 18 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇯🇵JP | ss | @forwardv2ray | 16,🇬🇧GB | ss | @kingofilter | 18
-URL-TEST = url-test,🇯🇵JP | ss | @forwardv2ray | 16,🇬🇧GB | ss | @kingofilter | 18
-FALLBACK = fallback,🇯🇵JP | ss | @forwardv2ray | 16,🇬🇧GB | ss | @kingofilter | 18
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
