@@ -111,18 +111,19 @@
                 "🇬🇧GB | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @frev2ray | 5",
+                "🇨🇷CR | vless | @frev2ray | 5",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
-                "🇨🇷CR | vless | @lightning6 | 14",
-                "🇨🇷CR | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @lightning6 | 14",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @V2raysFree | 15",
                 "🇩🇪DE | vless | @v2logy | 19",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 22",
-                "🇨🇷CR | vless | @V2rayNGn | 24",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayNGn | 24",
                 "🇸🇪SE | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -172,18 +173,19 @@
                 "🇬🇧GB | vless | @VlessConfig | 15",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @frev2ray | 5",
+                "🇨🇷CR | vless | @frev2ray | 5",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
-                "🇨🇷CR | vless | @lightning6 | 14",
-                "🇨🇷CR | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @lightning6 | 14",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @V2raysFree | 15",
                 "🇩🇪DE | vless | @v2logy | 19",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 22",
-                "🇨🇷CR | vless | @V2rayNGn | 24",
+                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇺🇸US | vless | @V2rayNGn | 24",
                 "🇸🇪SE | vless | @prrofile_purple | 177",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
@@ -399,7 +401,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @frev2ray | 5",
+            "tag": "🇨🇷CR | vless | @frev2ray | 5",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2095,
@@ -470,7 +472,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 14",
+            "tag": "🇺🇸US | vless | @lightning6 | 14",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -501,7 +503,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 1",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -728,7 +730,38 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 24",
+            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "160.153.0.164",
+            "server_port": 8443,
+            "uuid": "f2901af8-7658-4f04-87b4-d995fce3ca31",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "download.alphav.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@V2ray_Alpha @V2ray_Alpha @V2ray_Alpha",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @V2rayNGn | 24",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
