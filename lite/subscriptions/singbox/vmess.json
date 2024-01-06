@@ -112,7 +112,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇯🇵JP | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 14",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ]
         },
@@ -126,7 +126,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇯🇵JP | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 14",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -297,11 +297,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 14",
             "type": "vmess",
-            "server": "UK2.ircf.eu.ORG",
-            "server_port": 8080,
-            "uuid": "d612bbf3-14d0-4d1d-a21c-166e98a3b49c",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "6997A22F-3429-44E4-96BC-043B6BDFD6EF",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -312,11 +312,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kansas.gafn.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@x2rayn_vpn@x2rayn_vpn@x2rayn_vpn",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": ""
+                    "Host": "kansas.gafn.online"
                 }
             }
         },
