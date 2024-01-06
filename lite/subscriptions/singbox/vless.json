@@ -109,10 +109,10 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 13",
                 "🇮🇪IE | vless | @VlessConfig | 18",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 25",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 25",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @frev2ray | 6",
+                "🇨🇷CR | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇨🇷CR | vless | @lightning6 | 16",
@@ -157,7 +157,7 @@
                 "🏳️XX | vless | @Capoit | 6",
                 "🇺🇸US | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 14",
-                "🇨🇷CR | vless | @forwardv2ray | 4",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 13",
@@ -176,10 +176,10 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 13",
                 "🇮🇪IE | vless | @VlessConfig | 18",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 25",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 25",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
-                "🇺🇸US | vless | @frev2ray | 6",
+                "🇨🇷CR | vless | @frev2ray | 6",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 8",
                 "🇨🇷CR | vless | @lightning6 | 16",
@@ -224,7 +224,7 @@
                 "🏳️XX | vless | @Capoit | 6",
                 "🇺🇸US | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 14",
-                "🇨🇷CR | vless | @forwardv2ray | 4",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 13",
@@ -349,7 +349,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 25",
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 25",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -442,7 +442,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @frev2ray | 6",
+            "tag": "🇨🇷CR | vless | @frev2ray | 6",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2095,
@@ -1283,7 +1283,7 @@
         {
             "tag": "🇸🇪SE | vless | @VmessProtocol | 20",
             "type": "vless",
-            "server": "13.49.127.14",
+            "server": "13.50.247.78",
             "server_port": 443,
             "uuid": "2c59ff33-916d-459b-a4c0-8b7432c4c3bb",
             "flow": "xtls-rprx-vision",
@@ -1304,7 +1304,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "U5c6dGGGyuYFUSBMOx5X8jVEcAQTgHju7fBIan11mms",
+                    "public_key": "XcOn3tULCoYoOTNRDoUmzwU3izXizHKH1ZScINLEmmU",
                     "short_id": "1db3"
                 }
             }
@@ -1354,9 +1354,9 @@
         {
             "tag": "🇨🇦CA | vless | @SafeNet_Server | 13",
             "type": "vless",
-            "server": "All1.v2raygod.site",
-            "server_port": 80,
-            "uuid": "6ec52bc7-fcd7-4841-ab69-70d6e03a6eda",
+            "server": "172.67.170.103",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1364,11 +1364,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2ray_God",
+                "path": "\/",
                 "headers": {
-                    "Host": "All1.v2raygod.site"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1671,11 +1681,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 4",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 443,
-            "uuid": "02716275-b816-45c8-9b8c-1ac9ec300fb7",
+            "server": "172.66.47.74",
+            "server_port": 80,
+            "uuid": "da8d0369-0121-4d2b-9fe1-c071833604cf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1683,22 +1693,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "shhproxy.varzesh3-cnd.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@=shhV2ray.snappfoodd.site",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android,@Archive_Android",
+                "headers": {
+                    "Host": "172.66.47.74"
+                }
             }
         },
         {
