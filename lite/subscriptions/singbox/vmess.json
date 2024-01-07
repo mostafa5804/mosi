@@ -110,7 +110,7 @@
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇯🇵JP | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ]
@@ -123,7 +123,7 @@
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇯🇵JP | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 1"
             ],
@@ -237,11 +237,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "jp.takeshi.wiki",
-            "server_port": 80,
-            "uuid": "59517e0b-ae1c-41d3-9c44-c44cea6f7546",
+            "server": "172.67.160.99",
+            "server_port": 443,
+            "uuid": "a869c557-5c7d-426f-9039-0279c16352bc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -252,11 +252,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/takeshi.wiki",
+                "path": "\/vmessws",
                 "headers": {
-                    "Host": "jp.takeshi.wiki"
+                    "Host": ""
                 }
             }
         },
