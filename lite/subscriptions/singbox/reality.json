@@ -113,12 +113,12 @@
                 "🇫🇮FI | vless | @v2logy | 19",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
+                "🇩🇪DE | vless | @v2ray_swhil | 21",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇩🇪DE | vless | @V2RayTz | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -136,12 +136,12 @@
                 "🇫🇮FI | vless | @v2logy | 19",
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
+                "🇩🇪DE | vless | @v2ray_swhil | 21",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇩🇪DE | vless | @V2RayTz | 18",
                 "🏳️XX | vless | @fnet00 | 10",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 15",
                 "🇫🇮FI | vless | @proxy_mtm | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -392,6 +392,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 21",
+            "type": "vless",
+            "server": "free01.miraclev2ray.online",
+            "server_port": 443,
+            "uuid": "d2c418b1-62ff-4227-9f2b-668bd50524e5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free-api01.miraclev2ray.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8fQWsJr0l6n5x98oArx-3a1IO3elnrrHOHZorOyFSHw",
+                    "short_id": "4189a3adbea837f0"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @MTConfig | 21",
             "type": "vless",
             "server": "161.35.221.251",
@@ -554,35 +583,6 @@
                     "enabled": true,
                     "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
                     "short_id": "dc838e556e8a86bd"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "drow-ranger.uk",
-            "server_port": 13010,
-            "uuid": "36a59a9a-295b-49ed-b710-ce3fae74e30f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZouT6u-IRVdpMKK-DRYLEohOSEc_Q-onekJ8LrudRl0",
-                    "short_id": "ec6ce007"
                 }
             }
         },
