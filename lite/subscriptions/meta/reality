@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇩🇪DE | vless | @EliV2ray | 17","type":"vless","server":"162.55.55.174","port":52035,"udp":true,"uuid":"f449837f-e9d0-46e3-82f7-0b5c60ccee14","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"zula.ir","reality-opts":{"public-key":"ZsCl5nKAU0CgqBfc84Zklx8T_AQGiGotZizaQr50GV8","short-id":"0878e750"}}
   - {"name":"🇸🇪SE | vless | @Lockey_vpn | 5","type":"vless","server":"16.16.107.118","port":8443,"udp":true,"uuid":"f553d0ca-701d-4f95-90e9-2851d055291e","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"coinmarketcap.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"_4Ukq3SSuUFBQNhE9YO2ktEwwN0FP-SRAYy3D81a0XQ","short-id":"fe"}}
   - {"name":"🇩🇪DE | vless | @CUSTOMVPNSERVER | 14","type":"vless","server":"49.12.69.241","port":443,"udp":true,"uuid":"2ad7ff7c-54d2-4d9e-919a-f075af7e7f76","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.zula.ir","grpc-opts":{"grpc-service-name":"Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER-Telegram:@CUSTOMVPNSERVER"},"reality-opts":{"public-key":"6lRppIAdonFC7haH0BNu6mGYl7NEoQTMaeIP1yyPaGg","short-id":"62c8bedb"}}
   - {"name":"🏳️XX | vless | @proxy_kafee | 0","type":"vless","server":"RAZOR","port":1111,"udp":true,"uuid":"3a378793-f70c-4f81-84e0-ace674cc5d43","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"mega.io","flow":"xtls-rprx-vision","reality-opts":{"public-key":"5HwFpn0nd52NSlRg_vYZw93TFOUIpYpysTqo40uD5xU"}}
@@ -137,6 +138,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇩🇪DE | vless | @EliV2ray | 17'
       - '🇸🇪SE | vless | @Lockey_vpn | 5'
       - '🇩🇪DE | vless | @CUSTOMVPNSERVER | 14'
       - '🏳️XX | vless | @proxy_kafee | 0'
@@ -154,6 +156,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇩🇪DE | vless | @EliV2ray | 17'
       - '🇸🇪SE | vless | @Lockey_vpn | 5'
       - '🇩🇪DE | vless | @CUSTOMVPNSERVER | 14'
       - '🏳️XX | vless | @proxy_kafee | 0'
@@ -170,6 +173,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇩🇪DE | vless | @EliV2ray | 17'
       - '🇸🇪SE | vless | @Lockey_vpn | 5'
       - '🇩🇪DE | vless | @CUSTOMVPNSERVER | 14'
       - '🏳️XX | vless | @proxy_kafee | 0'
