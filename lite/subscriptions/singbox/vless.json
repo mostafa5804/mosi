@@ -117,7 +117,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 17",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇷CR | vless | @lightning6 | 17",
-                "🇨🇷CR | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
@@ -137,7 +137,7 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 22",
-                "🇨🇷CR | vless | @proxyymeliii | 14",
+                "🇺🇸US | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇩🇪DE | vless | @MTConfig | 21",
@@ -156,6 +156,7 @@
                 "🇺🇸US | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇨🇷CR | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -182,7 +183,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 17",
                 "🇸🇪SE | vless | @Lockey_vpn | 5",
                 "🇨🇷CR | vless | @lightning6 | 17",
-                "🇨🇷CR | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 15",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
@@ -202,7 +203,7 @@
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 22",
-                "🇨🇷CR | vless | @proxyymeliii | 14",
+                "🇺🇸US | vless | @proxyymeliii | 14",
                 "🇨🇦CA | vless | @MsV2ray | 9",
                 "🇨🇦CA | vless | @v2ray1_ng | 2",
                 "🇩🇪DE | vless | @MTConfig | 21",
@@ -221,6 +222,7 @@
                 "🇺🇸US | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇨🇷CR | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇺🇸US | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 15",
@@ -586,7 +588,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 1",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1156,7 +1158,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxyymeliii | 14",
+            "tag": "🇺🇸US | vless | @proxyymeliii | 14",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2095,
@@ -1702,6 +1704,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "SHHPROXY.snappfoodd.site"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @forwardv2ray | 15",
+            "type": "vless",
+            "server": "all.vpncustomize.cam",
+            "server_port": 8443,
+            "uuid": "8c061198-cfa1-42fb-918e-4af35ddb33ee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "High-speedV2ray.VPNCUSTOMIZE.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "High-speedV2ray.VPNCUSTOMIZE.tech"
                 }
             }
         },
