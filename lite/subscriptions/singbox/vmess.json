@@ -106,9 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇮🇷IR | vmess | @V2rayCollectorDonate | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -119,9 +121,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇮🇷IR | vmess | @V2rayCollectorDonate | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇱🇹LT | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🏳️XX | vmess | @ConfigsHUB | 19",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
                 "🇫🇷FR | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -146,6 +150,33 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @V2rayCollectorDonate | 18",
+            "type": "vmess",
+            "server": "hamkar1.najiping.site",
+            "server_port": 443,
+            "uuid": "0c0dcd55-c584-48ab-86f5-ec3e0d22f47b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -194,6 +225,23 @@
             "server": "49.13.160.61",
             "server_port": 20952,
             "uuid": "5d6894b8-0736-449b-f44c-9ad4dab7e6f9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
