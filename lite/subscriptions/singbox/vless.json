@@ -142,9 +142,9 @@
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 112",
+                "🇨🇦CA | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @SafeNet_Server | 16",
+                "🇨🇦CA | vless | @SafeNet_Server | 17",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
                 "🏳️XX | vless | @free1_vpn | 0",
@@ -155,7 +155,6 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -206,9 +205,9 @@
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 112",
+                "🇨🇦CA | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @SafeNet_Server | 16",
+                "🇨🇦CA | vless | @SafeNet_Server | 17",
                 "🇮🇷IR | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @v2ray_vpn_ir | 0",
                 "🏳️XX | vless | @free1_vpn | 0",
@@ -219,7 +218,6 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🇩🇪DE | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -1289,12 +1287,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 112",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 109",
             "type": "vless",
-            "server": "104.21.80.134",
-            "server_port": 443,
-            "uuid": "89420825-e589-4735-bee1-6dc636fca343",
-            "flow": "xtls-rprx-vision",
+            "server": "join2.servernet.cfd",
+            "server_port": 8443,
+            "uuid": "bf0be920-dee6-4ea1-a454-c36b5f2efce4",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1303,7 +1301,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "w3.sylarsun.eu.org",
+                "server_name": "join2.servernet.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1312,11 +1310,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "w3.sylarsun.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1341,7 +1339,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @SafeNet_Server | 16",
+            "tag": "🇨🇦CA | vless | @SafeNet_Server | 17",
             "type": "vless",
             "server": "tgju.org",
             "server_port": 80,
@@ -1662,42 +1660,6 @@
                 "headers": {
                     "Host": "SHHPROXY.snappfoodd.site"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "49.12.97.39",
-            "server_port": 443,
-            "uuid": "3c332141-9f03-4ba6-9dd2-bb092ec4db82",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedq.fun",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "StT3QioCcMCsidDAo369F9rx9eLoIvDfWfO0oIMzYgw",
-                    "short_id": "481a1d68"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
