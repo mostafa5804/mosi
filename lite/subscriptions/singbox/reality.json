@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @Lockey_vpn | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
@@ -114,9 +113,8 @@
                 "🏳️XX | vless | @fnet00 | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 8",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 10",
-                "🇩🇪DE | vless | @proxy_mtm | 15",
+                "🇩🇪DE | vless | @proxy_mtm | 32",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ]
@@ -125,7 +123,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @Lockey_vpn | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
@@ -133,9 +130,8 @@
                 "🏳️XX | vless | @fnet00 | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 8",
-                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 10",
-                "🇩🇪DE | vless | @proxy_mtm | 15",
+                "🇩🇪DE | vless | @proxy_mtm | 32",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @FoXrayIran | 6"
             ],
@@ -158,35 +154,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇸🇪SE | vless | @Lockey_vpn | 6",
-            "type": "vless",
-            "server": "16.16.107.118",
-            "server_port": 8443,
-            "uuid": "f553d0ca-701d-4f95-90e9-2851d055291e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "coinmarketcap.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_4Ukq3SSuUFBQNhE9YO2ktEwwN0FP-SRAYy3D81a0XQ",
-                    "short_id": "fe"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
@@ -420,35 +387,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "116.202.182.186",
-            "server_port": 4430,
-            "uuid": "c3c852ca-90ab-4986-a565-8d6fdf77ebae",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.appletells.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "A_Ff6sk3kA85NPQiy27U4rWQ519WCNLE_PO3d7Q0CWs",
-                    "short_id": "7e9751f1"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @kiava | 10",
             "type": "vless",
             "server": "16.16.128.237",
@@ -478,7 +416,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxy_mtm | 15",
+            "tag": "🇩🇪DE | vless | @proxy_mtm | 32",
             "type": "vless",
             "server": "49.12.97.39",
             "server_port": 443,
