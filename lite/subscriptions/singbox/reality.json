@@ -111,6 +111,7 @@
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇩🇪DE | vless | @ConfigsHUB | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -128,6 +129,7 @@
                 "🇸🇪SE | vless | @customv2ray | 13",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇩🇪DE | vless | @ConfigsHUB | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 10",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -309,6 +311,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "188.34.157.186",
+            "server_port": 443,
+            "uuid": "3f3f8f3d-fd45-4c53-ac13-d86f085cf8ad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XFB3OWjt_Dfuevf-FxH7kdCVEsL4BlZDY39jgu6tiFw",
+                    "short_id": "99"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "discord",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
