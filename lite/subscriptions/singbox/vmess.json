@@ -111,9 +111,10 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @customv2ray | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇳🇱NL | vmess | @Hope_Net | 12",
+                "🇵🇱PL | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ]
@@ -127,9 +128,10 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @customv2ray | 16",
                 "🇨🇳CN | vmess | @yaney_01 | 10",
-                "🇳🇱NL | vmess | @Hope_Net | 12",
+                "🇵🇱PL | vmess | @Hope_Net | 13",
                 "🇮🇷IR | vmess | @MrV2Ray | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 3"
             ],
@@ -270,11 +272,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 12",
+            "tag": "🇵🇱PL | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "104.193.10.146",
-            "server_port": 10090,
-            "uuid": "8156a9a3-da6c-47b8-8247-939912f8762f",
+            "server": "217.182.76.202",
+            "server_port": 443,
+            "uuid": "2e68015f-a8b2-4893-a7a3-4edb19b178d9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -284,6 +286,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -332,6 +351,23 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "vi.mani901.com",
+            "server_port": 37816,
+            "uuid": "eaabb468-c3aa-48c6-8e39-9246d89b1910",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
