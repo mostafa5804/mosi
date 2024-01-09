@@ -106,9 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @XsV2ray | 2",
                 "🇫🇷FR | vless | @VlessConfig | 18",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 28",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 28",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🏳️XX | vless | @frev2ray | 4",
@@ -125,15 +126,15 @@
                 "🇨🇷CR | vless | @servermomo | 15",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 23",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇺🇸US | vless | @V2rayNGn | 23",
+                "🇨🇦CA | vless | @ProxyForOpeta | 2",
+                "🇨🇷CR | vless | @V2rayNGn | 23",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇸🇪SE | vless | @prrofile_purple | 166",
-                "🇨🇷CR | vless | @ShadowSocks_s | 3",
+                "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇨🇦CA | vless | @vmessorg | 17",
@@ -167,7 +168,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇫🇮FI | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🏳️XX | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -183,9 +184,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @XsV2ray | 2",
                 "🇫🇷FR | vless | @VlessConfig | 18",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 28",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 28",
                 "🏳️XX | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🏳️XX | vless | @frev2ray | 4",
@@ -202,15 +204,15 @@
                 "🇨🇷CR | vless | @servermomo | 15",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 23",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇨🇦CA | vless | @ProxyForOpeta | 3",
-                "🇺🇸US | vless | @V2rayNGn | 23",
+                "🇨🇦CA | vless | @ProxyForOpeta | 2",
+                "🇨🇷CR | vless | @V2rayNGn | 23",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇸🇪SE | vless | @prrofile_purple | 166",
-                "🇨🇷CR | vless | @ShadowSocks_s | 3",
+                "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇨🇦CA | vless | @vmessorg | 17",
@@ -244,7 +246,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇫🇮FI | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 14",
                 "🏳️XX | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -274,6 +276,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 13",
+            "type": "vless",
+            "server": "104.26.14.85",
+            "server_port": 80,
+            "uuid": "da8d0369-0121-4d2b-9fe1-c071833604cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.26.14.85"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @XsV2ray | 2",
@@ -338,7 +361,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 28",
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 28",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -863,11 +886,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 3",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 2",
             "type": "vless",
-            "server": "w3.sylarsun.eu.org",
+            "server": "www.unpkg.com",
             "server_port": 443,
-            "uuid": "89420825-e589-4735-bee1-6dc636fca343",
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -877,7 +900,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "w3.sylarsun.eu.org",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -889,12 +912,12 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "w3.sylarsun.eu.org"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 23",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 23",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1073,7 +1096,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 3",
+            "tag": "🇺🇸US | vless | @ShadowSocks_s | 3",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1937,11 +1960,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 14",
             "type": "vless",
-            "server": "104.21.28.62",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "port80--join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1949,21 +1972,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "port80--join.outline-vpn.cloud"
                 }
             }
         },
