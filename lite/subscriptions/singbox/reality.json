@@ -110,12 +110,13 @@
                 "🇸🇪SE | vless | @Lockey_vpn | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 18",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🏳️XX | vless | @fnet00 | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @mehrosaboran | 13",
+                "🇩🇪DE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇩🇪DE | vless | @proxy_mtm | 17",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -130,12 +131,13 @@
                 "🇸🇪SE | vless | @Lockey_vpn | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇩🇪DE | vless | @v2logy | 18",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 175",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🏳️XX | vless | @fnet00 | 5",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇩🇪DE | vless | @mehrosaboran | 13",
+                "🇩🇪DE | vless | @mehrosaboran | 10",
                 "🇸🇪SE | vless | @kiava | 10",
                 "🇩🇪DE | vless | @proxy_mtm | 17",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -293,6 +295,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Moftinet",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "49.12.97.39",
+            "server_port": 443,
+            "uuid": "3c332141-9f03-4ba6-9dd2-bb092ec4db82",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedq.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "StT3QioCcMCsidDAo369F9rx9eLoIvDfWfO0oIMzYgw",
+                    "short_id": "481a1d68"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -458,7 +496,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 13",
+            "tag": "🇩🇪DE | vless | @mehrosaboran | 10",
             "type": "vless",
             "server": "49.12.97.39",
             "server_port": 443,
