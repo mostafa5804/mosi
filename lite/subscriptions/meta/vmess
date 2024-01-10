@@ -123,12 +123,10 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰HK | vmess | @mftizi | 19","type":"vmess","server":"103.103.245.81","port":"21010","cipher":"auto","uuid":"33fef73f-cf19-4e70-b071-ddb0155a9556","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"vn11-ji.455773.xyz"}}}
   - {"name":"🇮🇷IR | vmess | @ShadowProxy66 | 10","type":"vmess","server":"62.60.131.238","port":"12888","cipher":"auto","uuid":"66214d78-b33c-459a-a7b9-e50ab19d16b9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🏳️XX | vmess | @ConfigsHUB | 18","type":"vmess","server":"[2600:3c0e::f03c:94ff:fed4:d847]","port":"8080","cipher":"auto","uuid":"f4dfa747-e378-42a7-9331-b7667311f81e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@x2rayn_vpn@x2rayn_vpn@x2rayn_vpn","headers":{"host":""}}}
+  - {"name":"🇨🇦CA | vmess | @ConfigsHUB | 18","type":"vmess","server":"104.21.91.73","port":"443","cipher":"auto","uuid":"45f63e92-f782-4cac-84b8-e61cb5a5bfd0","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"adenc35.fixedlfoat.top"}}}
   - {"name":"🇰🇷KR | vmess | @yaney_01 | 9","type":"vmess","server":"92.38.135.27","port":"443","cipher":"auto","uuid":"f81447b2-5466-483c-bf86-ef9832b389dd","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/f81447b2-5466-483c-bf86-ef9832b389dd-vmess","headers":{"host":"www.applefoods.gay"}}}
-  - {"name":"🇵🇱PL | vmess | @Hope_Net | 16","type":"vmess","server":"217.182.76.202","port":443,"cipher":"auto","uuid":"2e68015f-a8b2-4893-a7a3-4edb19b178d9","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇮🇷IR | vmess | @MrV2Ray | 0","type":"vmess","server":"85.9.106.116","port":"17623","cipher":"auto","uuid":"f9f58d36-e714-4d3a-8aa0-44dff4181aaf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 9","type":"vmess","server":"104.31.16.58","port":"443","cipher":"auto","uuid":"16702ec2-3808-46e6-a7b5-582c062be13d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"jpnat1.doinb.tk"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -138,12 +136,10 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇮🇷IR | vmess | @ShadowProxy66 | 10'
-      - '🏳️XX | vmess | @ConfigsHUB | 18'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 18'
       - '🇰🇷KR | vmess | @yaney_01 | 9'
-      - '🇵🇱PL | vmess | @Hope_Net | 16'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @forwardv2ray | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -153,12 +149,10 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇮🇷IR | vmess | @ShadowProxy66 | 10'
-      - '🏳️XX | vmess | @ConfigsHUB | 18'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 18'
       - '🇰🇷KR | vmess | @yaney_01 | 9'
-      - '🇵🇱PL | vmess | @Hope_Net | 16'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @forwardv2ray | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -167,12 +161,10 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇮🇷IR | vmess | @ShadowProxy66 | 10'
-      - '🏳️XX | vmess | @ConfigsHUB | 18'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 18'
       - '🇰🇷KR | vmess | @yaney_01 | 9'
-      - '🇵🇱PL | vmess | @Hope_Net | 16'
       - '🇮🇷IR | vmess | @MrV2Ray | 0'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇨🇦CA | vmess | @forwardv2ray | 9'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
