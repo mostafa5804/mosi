@@ -112,10 +112,9 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 177",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 10",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
-                "🇨🇦CA | vmess | @Hope_Net | 16",
+                "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 11",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 3",
                 "🇺🇸US | vmess | @eliya_chiter0 | 3"
             ]
@@ -130,10 +129,9 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 177",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 10",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
-                "🇨🇦CA | vmess | @Hope_Net | 16",
+                "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 11",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 3",
                 "🇺🇸US | vmess | @eliya_chiter0 | 3"
             ],
@@ -301,11 +299,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 16",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "a3.bcbot.in",
-            "server_port": 8880,
-            "uuid": "ce9aadc8-8c6e-4867-d247-9a84b469ac27",
+            "server": "206.168.190.218",
+            "server_port": 2083,
+            "uuid": "dadc15c0-3169-11ee-b437-205c6d5f5d78",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -316,11 +314,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/V2RayyNGvpn",
                 "headers": {
-                    "Host": "a3.bcbot.in"
+                    "Host": ""
                 }
             }
         },
@@ -369,40 +377,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 11",
-            "type": "vmess",
-            "server": "odelia.autos",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
