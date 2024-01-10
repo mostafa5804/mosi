@@ -113,10 +113,12 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 167",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 10",
                 "🇨🇦CA | vmess | @DailyV2RY | 112",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇺🇸US | vmess | @eliya_chiter0 | 3"
             ]
@@ -132,10 +134,12 @@
                 "🇮🇷IR | vmess | @prrofile_purple | 167",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 10",
                 "🇨🇦CA | vmess | @DailyV2RY | 112",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
                 "🇺🇸US | vmess | @eliya_chiter0 | 3"
             ],
@@ -317,6 +321,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇰🇷KR | vmess | @yaney_01 | 9",
             "type": "vmess",
             "server": "92.38.135.27",
@@ -429,6 +457,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "104.21.75.246",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cf.tonyluk.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ophelia.mom:443\/linkvws",
+                "headers": {
+                    "Host": "cf.tonyluk.link"
                 }
             }
         },
