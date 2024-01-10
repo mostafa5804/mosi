@@ -111,9 +111,10 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @prrofile_purple | 167",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 44",
-                "🇨🇦CA | vmess | @DailyV2RY | 102",
+                "🇨🇦CA | vmess | @DailyV2RY | 112",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
-                "🇨🇷CR | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
@@ -129,9 +130,10 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @prrofile_purple | 167",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 44",
-                "🇨🇦CA | vmess | @DailyV2RY | 102",
+                "🇨🇦CA | vmess | @DailyV2RY | 112",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
-                "🇨🇷CR | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 0",
@@ -267,7 +269,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DailyV2RY | 102",
+            "tag": "🇨🇦CA | vmess | @DailyV2RY | 112",
             "type": "vmess",
             "server": "104.18.202.212",
             "server_port": 80,
@@ -287,6 +289,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "waynn.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "waynn.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "waynn.makeup"
                 }
             }
         },
@@ -325,13 +361,13 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @Hope_Net | 13",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "190.93.247.76",
-            "server_port": 8443,
-            "uuid": "_Mahanvpn_copy_naaaakonn_",
+            "server": "172.67.215.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -342,7 +378,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mahanvip.mahantu.top",
+                "server_name": "octavi.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -351,11 +387,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "mahanvip.mahantu.top",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "octavi.cfd"
+                }
             }
         },
         {
