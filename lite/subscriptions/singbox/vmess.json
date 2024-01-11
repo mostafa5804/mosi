@@ -110,7 +110,6 @@
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 10",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -127,7 +126,6 @@
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 10",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
                 "🇨🇦CA | vmess | @Hope_Net | 15",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -248,30 +246,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "104.16.104.8",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇰🇷KR | vmess | @yaney_01 | 9",
             "type": "vmess",
             "server": "92.38.135.27",
@@ -308,9 +282,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "104.31.16.42",
-            "server_port": 80,
-            "uuid": "8abe9496-5e24-4e49-b566-dcf86116017d",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "e357cd63-f1a5-4c8e-c42e-26da11207fee",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -321,9 +295,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/i99LgvSaslbsPLLQQ7j6Z",
+                "path": "\/root\/",
                 "headers": {
                     "Host": ""
                 }
