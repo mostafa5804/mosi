@@ -116,8 +116,8 @@
                 "🇨🇷CR | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 6",
                 "🇨🇦CA | vless | @free_v2rayyy | 9",
-                "🇨🇷CR | vless | @lightning6 | 29",
-                "🇨🇷CR | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 15",
+                "🇨🇷CR | vless | @proxyymeliii | 16",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
@@ -151,7 +151,7 @@
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 9",
                 "🇨🇷CR | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -174,8 +174,8 @@
                 "🇨🇷CR | vless | @shh_proxy | 21",
                 "🇨🇦CA | vless | @Lockey_vpn | 6",
                 "🇨🇦CA | vless | @free_v2rayyy | 9",
-                "🇨🇷CR | vless | @lightning6 | 29",
-                "🇨🇷CR | vless | @V2rayNGmat | 1",
+                "🇺🇸US | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 20",
@@ -193,7 +193,7 @@
                 "🇨🇦CA | vless | @ServerNett | 14",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇺🇸US | vless | @proxyymeliii | 15",
+                "🇨🇷CR | vless | @proxyymeliii | 16",
                 "🏳️XX | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
@@ -209,7 +209,7 @@
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 9",
                 "🇨🇷CR | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇫🇮FI | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 10",
@@ -548,7 +548,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 29",
+            "tag": "🇺🇸US | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -579,7 +579,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 1",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1074,11 +1074,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxyymeliii | 15",
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 16",
             "type": "vless",
-            "server": "V2ray.motorcycles",
-            "server_port": 2087,
-            "uuid": "fbf3597c-d447-480e-a159-210ee00fdb51",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 443,
+            "uuid": "18e7c6fc-7338-4e71-b395-b49089940984",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1088,7 +1088,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "SHHPROXY.snappfoodd.site",
+                "server_name": "SHHV2ray.snappfoodd.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1097,11 +1097,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "SHHPROXY.snappfoodd.site"
-                }
+                "type": "grpc",
+                "service_name": "@Shh_Proxy,@Shh_Proxy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1539,11 +1539,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 9",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "join11.servernet.cfd",
+            "server": "Tunelserver.myelf.me",
             "server_port": 8443,
-            "uuid": "12eb9477-aeb5-4b47-aa15-9852ab07077b",
+            "uuid": "JOIN14--TUNELSERVER--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1553,7 +1553,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join11.servernet.cfd",
+                "server_name": "Hetzner.elfzx.me",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1563,7 +1563,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "service_name": "کانال‌ما:@Tunelserverکانال‌ما:@Tunelserverکانال‌ما:@Tunelserverکانال‌ما:@Tunelserver",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
