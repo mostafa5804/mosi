@@ -112,9 +112,10 @@
                 "🇮🇷IR | vmess | @ShadowProxy66 | 21",
                 "🇨🇦CA | vmess | @SafeNet_Server | 16",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
-                "🇨🇦CA | vmess | @Hope_Net | 12",
+                "🇸🇬SG | vmess | @Hope_Net | 11",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 4"
             ]
         },
@@ -128,9 +129,10 @@
                 "🇮🇷IR | vmess | @ShadowProxy66 | 21",
                 "🇨🇦CA | vmess | @SafeNet_Server | 16",
                 "🇰🇷KR | vmess | @yaney_01 | 9",
-                "🇨🇦CA | vmess | @Hope_Net | 12",
+                "🇸🇬SG | vmess | @Hope_Net | 11",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇹🇼TW | vmess | @FAKEOFTVC | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -304,11 +306,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "srv1.hamedgeek.sbs",
-            "server_port": 2083,
-            "uuid": "b36e93b8-21b4-4495-ac81-0109f65cb1ad",
+            "server": "139.99.45.193",
+            "server_port": 80,
+            "uuid": "98958185-8b1b-4718-9578-a13460c53b6f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -319,21 +321,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "kingofilter2.hamedgeek.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "kingofilter2.hamedgeek.sbs"
+                    "Host": ""
                 }
             }
         },
@@ -382,6 +374,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "104.21.75.79",
+            "server_port": 80,
+            "uuid": "5c6f16ce-6a20-41e5-9274-06b4c45051b5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
