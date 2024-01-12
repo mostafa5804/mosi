@@ -110,6 +110,7 @@
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 11",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇫🇮FI | vless | @flyv2ray | 14",
@@ -127,6 +128,7 @@
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 11",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇫🇮FI | vless | @flyv2ray | 14",
@@ -287,6 +289,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "167.99.88.126",
+            "server_port": 42782,
+            "uuid": "f0eb5a90-eed1-48df-bfdc-776ab2b32ffc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTeKiVvXLhmWBW4oLVjEhZDXQW9Pzzrpmb40jvLGQWw",
+                    "short_id": "3ce3f7ea"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

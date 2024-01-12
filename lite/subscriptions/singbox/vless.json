@@ -110,6 +110,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 6",
                 "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 13",
                 "🏳️XX | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 7",
@@ -127,7 +128,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇺🇸US | vless | @V2rayNGn | 19",
-                "🇨🇷CR | vless | @ShadowSocks_s | 5",
+                "🇺🇸US | vless | @ShadowSocks_s | 5",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🏳️XX | vless | @vmessorg | 10",
@@ -146,6 +147,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @VPNCLOP | 6",
                 "🇳🇱NL | vless | @fnet00 | 4",
@@ -155,7 +157,7 @@
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇫🇮FI | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -173,6 +175,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 6",
                 "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 13",
                 "🏳️XX | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 7",
@@ -190,7 +193,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇺🇸US | vless | @V2rayNGn | 19",
-                "🇨🇷CR | vless | @ShadowSocks_s | 5",
+                "🇺🇸US | vless | @ShadowSocks_s | 5",
                 "🇨🇦CA | vless | @customv2ray | 14",
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🏳️XX | vless | @vmessorg | 10",
@@ -209,6 +212,7 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 14",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @VPNCLOP | 6",
                 "🇳🇱NL | vless | @fnet00 | 4",
@@ -218,7 +222,7 @@
                 "🇨🇦CA | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇫🇮FI | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -369,6 +373,37 @@
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 13",
+            "type": "vless",
+            "server": "all.vpncustomize.cam",
+            "server_port": 2053,
+            "uuid": "9ab3fa2d-9cf2-4edf-a535-a4e879cf7ddc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VPNCUSTOMIZE.V2ray.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNSUTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -867,7 +902,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ShadowSocks_s | 5",
+            "tag": "🇺🇸US | vless | @ShadowSocks_s | 5",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 443,
@@ -1383,6 +1418,42 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "167.99.88.126",
+            "server_port": 42782,
+            "uuid": "f0eb5a90-eed1-48df-bfdc-776ab2b32ffc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTeKiVvXLhmWBW4oLVjEhZDXQW9Pzzrpmb40jvLGQWw",
+                    "short_id": "3ce3f7ea"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn-Telegram:@yaritovpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇷CR | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "proxystore11.kodaksho.eu.org",
@@ -1650,11 +1721,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🏳️XX | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "sweden.beingpopular.sbs",
-            "server_port": 2053,
-            "uuid": "46bd2985-5633-4daf-ad4d-96743fef19f6",
+            "server": "www.wedbazforlife.cfd",
+            "server_port": 443,
+            "uuid": "e562af3f-02d6-4b27-8745-0ef5c87bae17",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1662,22 +1733,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sweden.beingpopular.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "sweden.beingpopular.sbs"
-                }
+                "type": "grpc",
+                "service_name": "Telegram",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
