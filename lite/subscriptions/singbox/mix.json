@@ -145,16 +145,17 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @proxyymeliii | 19",
                 "🇺🇸US | vless | @MsV2ray | 21",
-                "🇺🇸US | vless | @v2ray1_ng | 5",
+                "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇺🇸US | vless | @V2RayTz | 11",
                 "🇨🇷CR | vless | @VmessProtocol | 12",
                 "🇩🇪DE | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 10",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
@@ -166,7 +167,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇳🇱NL | vless | @mehrosaboran | 14",
@@ -222,16 +223,17 @@
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇺🇸US | vless | @proxyymeliii | 19",
                 "🇺🇸US | vless | @MsV2ray | 21",
-                "🇺🇸US | vless | @v2ray1_ng | 5",
+                "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇺🇸US | vless | @V2RayTz | 11",
                 "🇨🇷CR | vless | @VmessProtocol | 12",
                 "🇩🇪DE | vless | @DailyV2RY | 115",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇷CR | vless | @proxystore11 | 10",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
@@ -243,7 +245,7 @@
                 "🇨🇦CA | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇺🇸US | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇳🇱NL | vless | @mehrosaboran | 14",
@@ -1337,33 +1339,26 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2ray1_ng | 5",
-            "type": "vless",
-            "server": "172.64.111.9",
-            "server_port": 443,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 4",
+            "type": "vmess",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "edge.020770.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
+                "path": "\/",
                 "headers": {
-                    "Host": "edge.020770.xyz"
+                    "Host": ""
                 }
             }
         },
@@ -1412,6 +1407,37 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @V2RayTz | 11",
+            "type": "vless",
+            "server": "190.93.244.103",
+            "server_port": 2083,
+            "uuid": "de385bbf-6b0e-4dad-fd9d-fe9229068789",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "liV2helj.LIGHTNING6.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1563,26 +1589,33 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "go.wumaojichang.com",
-            "server_port": 2086,
-            "uuid": "05744c0c-7e93-4336-b126-2a52e2f013ef",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "64.68.192.177",
+            "server_port": 2083,
+            "uuid": "f8746a4d-8a35-41a5-9c48-7d4c96e7f827",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "xxyxyxyxxy.khansalar13.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "go.wumaojichang.com"
+                    "Host": "xxyxyxyxxy.khansalar13.buzz"
                 }
             }
         },
@@ -1908,11 +1941,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "bia-to4.unlimiteddev.shop",
-            "server_port": 80,
-            "uuid": "b9f9ac8b-5a72-4fe6-90ad-3ff722b929bd",
+            "server": "104.21.64.117",
+            "server_port": 2053,
+            "uuid": "1ff43e16-a291-4657-9293-5ccc74dc0faa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1920,12 +1953,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "bia-to4.unlimiteddev.shop"
+            "tls": {
+                "enabled": true,
+                "server_name": "NL-HI-FILTERCHE.COUNTLEON.EU.ORG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@x2rayn_vpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
