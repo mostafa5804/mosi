@@ -117,12 +117,13 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 6",
                 "🇨🇦CA | vless | @free_v2rayyy | 9",
                 "🇨🇷CR | vless | @lightning6 | 29",
-                "🇺🇸US | vless | @V2rayNGmat | 1",
+                "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🏳️XX | vless | @v2logy | 17",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇨🇷CR | vless | @V2rayNGn | 20",
                 "🇸🇪SE | vless | @prrofile_purple | 176",
@@ -141,14 +142,14 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 113",
+                "🇺🇸US | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @VPNCLOP | 6",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 36",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
@@ -174,12 +175,13 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 6",
                 "🇨🇦CA | vless | @free_v2rayyy | 9",
                 "🇨🇷CR | vless | @lightning6 | 29",
-                "🇺🇸US | vless | @V2rayNGmat | 1",
+                "🇨🇷CR | vless | @V2rayNGmat | 1",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🏳️XX | vless | @v2logy | 17",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇨🇷CR | vless | @V2rayNGn | 20",
                 "🇸🇪SE | vless | @prrofile_purple | 176",
@@ -198,14 +200,14 @@
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇨🇷CR | vless | @V2RayTz | 15",
-                "🇮🇷IR | vless | @DailyV2RY | 113",
+                "🇺🇸US | vless | @DailyV2RY | 114",
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 16",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @VPNCLOP | 6",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 36",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
@@ -577,7 +579,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 1",
+            "tag": "🇨🇷CR | vless | @V2rayNGmat | 1",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -755,6 +757,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "104.21.64.117",
+            "server_port": 443,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mahi.kosnanatfilterchi.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed",
+                "headers": {
+                    "Host": "mahi.kosnanatfilterchi.eu.org"
+                }
             }
         },
         {
@@ -1241,11 +1274,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @DailyV2RY | 113",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 114",
             "type": "vless",
-            "server": "185.143.234.120",
-            "server_port": 2087,
-            "uuid": "57595f10-8c1e-403a-b328-64ad826c74fc",
+            "server": "all.aparat.lol",
+            "server_port": 443,
+            "uuid": "979c0e68-f0a7-4703-91a0-0678ce60e1f6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1255,7 +1288,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "app.snapp.ir",
+                "server_name": "SHHPROXY.snnapp.monster",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1265,9 +1298,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/sqhvhytcc",
+                "path": "\/",
                 "headers": {
-                    "Host": "app.snapp.ir"
+                    "Host": "SHHPROXY.snnapp.monster"
                 }
             }
         },
@@ -1453,7 +1486,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "mm---join.outline-vpn.cloud",
             "server_port": 443,
