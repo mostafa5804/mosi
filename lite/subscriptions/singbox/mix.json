@@ -124,7 +124,7 @@
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
-                "🇨🇦CA | vless | @v2logy | 17",
+                "🏳️XX | vless | @v2logy | 16",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 5",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇺🇸US | vless | @V2rayNGn | 18",
@@ -165,9 +165,8 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 4",
-                "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 15",
-                "🇮🇷IR | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇳🇱NL | vless | @mehrosaboran | 14",
@@ -203,7 +202,7 @@
                 "🇨🇷CR | vless | @DigiV2ray | 16",
                 "🇨🇦CA | vless | @DarkTeam_VPN | 17",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
-                "🇨🇦CA | vless | @v2logy | 17",
+                "🏳️XX | vless | @v2logy | 16",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 5",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇺🇸US | vless | @V2rayNGn | 18",
@@ -244,9 +243,8 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 4",
-                "🇨🇦CA | vless | @FreakConfig | 11",
                 "🇫🇮FI | vless | @flyv2ray | 15",
-                "🇮🇷IR | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇳🇱NL | vless | @mehrosaboran | 14",
@@ -843,11 +841,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2logy | 17",
+            "tag": "🏳️XX | vless | @v2logy | 16",
             "type": "vless",
-            "server": "okok.turk.coffee",
-            "server_port": 80,
-            "uuid": "49c7c89e-1805-4ade-f2b0-f6cb4bddce5a",
+            "server": "tel.ipV2Ray.fun",
+            "server_port": 2096,
+            "uuid": "f864ff55-986b-4887-b143-8a24c35d414d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -855,12 +853,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/,Turk",
-                "headers": {
-                    "Host": "okok.turk.coffee"
+            "tls": {
+                "enabled": true,
+                "server_name": "fm.ipV2Ray.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1593,9 +1601,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.64.117",
-            "server_port": 2053,
-            "uuid": "1ff43e16-a291-4657-9293-5ccc74dc0faa",
+            "server": "freeee.httpcustom.site",
+            "server_port": 443,
+            "uuid": "Free_HTTPCustom",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1605,7 +1613,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Uk-HI-FILTERCHE.COUNTLEON.EU.ORG",
+                "server_name": "fre.httpcustom.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1615,7 +1623,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@x2rayn_vpn",
+                "service_name": "@Free_HTTPCustom-@Free_HTTPCustom_@Free_HTTPCustom-@Free_HTTPCustom-@Free_HTTPCustom-@Free_HTTPCustom-@Free_HTTPCustom-@Free_HTTPCustom-@Free_HTTPCustom-@Free_HTTPCustom",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1876,37 +1884,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 11",
-            "type": "vless",
-            "server": "www.miraclev2ray.shop",
-            "server_port": 443,
-            "uuid": "d97933a5-be66-432a-bf3c-8ed4602d41d0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "server2.MIraclev2ray.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "downloads",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇫🇮FI | vless | @flyv2ray | 15",
             "type": "vless",
             "server": "135.181.103.148",
@@ -1943,17 +1920,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "free.ownnpv.cc",
-            "server_port": 11777,
-            "uuid": "492b1651-044c-4f28-bf15-20daee42247b",
+            "server": "104.16.77.6",
+            "server_port": 443,
+            "uuid": "e88d6429-955b-46c0-cd69-850b8970cd5f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "config-v2rayng-c",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
