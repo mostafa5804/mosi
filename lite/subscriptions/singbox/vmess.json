@@ -111,10 +111,10 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 176",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
+                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
-                "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 2"
+                "🇺🇸US | vmess | @v2Line | 6"
             ]
         },
         {
@@ -126,10 +126,10 @@
                 "🇨🇦CA | vmess | @prrofile_purple | 176",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
+                "🇩🇪DE | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 9",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
-                "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 2"
+                "🇺🇸US | vmess | @v2Line | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -258,6 +258,30 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "de-1.hajimihajimihajimi.online",
+            "server_port": 80,
+            "uuid": "e9307793-3bdf-4023-808f-09292ce2d170",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 9",
             "type": "vmess",
             "server": "goodbooks.gygjggf7654e1.repl.co",
@@ -329,30 +353,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 2",
-            "type": "vmess",
-            "server": "104.27.102.105",
-            "server_port": 8080,
-            "uuid": "Telegram-V2ray_alpha",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         }
