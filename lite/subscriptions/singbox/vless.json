@@ -148,6 +148,7 @@
                 "🇸🇪SE | vless | @MehradLearn | 11",
                 "🇨🇦CA | vless | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -157,7 +158,6 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 13",
                 "🇫🇮FI | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
@@ -215,6 +215,7 @@
                 "🇸🇪SE | vless | @MehradLearn | 11",
                 "🇨🇦CA | vless | @SafeNet_Server | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇳🇱NL | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -224,7 +225,6 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 13",
                 "🇫🇮FI | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
@@ -1388,7 +1388,7 @@
         {
             "tag": "🇨🇦CA | vless | @SafeNet_Server | 12",
             "type": "vless",
-            "server": "mm---join.outline-vpn.cloud",
+            "server": "www.unpkg.com",
             "server_port": 443,
             "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
@@ -1435,6 +1435,20 @@
                 "headers": {
                     "Host": "172.66.44.158"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "192.248.148.132",
+            "server_port": 15139,
+            "uuid": "ab092b8b-37a4-4333-8e65-68d82da544d6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1702,27 +1716,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "k---join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "k---join.outline-vpn.cloud"
-                }
             }
         },
         {
