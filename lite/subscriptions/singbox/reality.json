@@ -106,10 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @VPNCUSTOMIZE | 17",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 20",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
@@ -117,7 +118,7 @@
                 "🇩🇪DE | vless | @Capoit | 0",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇮🇷IR | vless | @Good_V2rayy | 2",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ]
         },
@@ -125,10 +126,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @VPNCUSTOMIZE | 17",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 20",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 6",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
@@ -136,7 +138,7 @@
                 "🇩🇪DE | vless | @Capoit | 0",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
-                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇮🇷IR | vless | @Good_V2rayy | 2",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -160,7 +162,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @VPNCUSTOMIZE | 17",
+            "tag": "🇩🇪DE | vless | @VPNCUSTOMIZE | 20",
             "type": "vless",
             "server": "128.140.65.160",
             "server_port": 443,
@@ -294,6 +296,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "91.107.150.99",
+            "server_port": 35517,
+            "uuid": "41bd3b32-3d71-488f-838a-b26813b7e638",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uQj3GQEayrF-EubsrWd89A3g8DBPc1S6R9GLK-ykxDI",
+                    "short_id": "1c3b838d"
+                }
             }
         },
         {
@@ -528,7 +559,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @Good_V2rayy | 1",
+            "tag": "🇮🇷IR | vless | @Good_V2rayy | 2",
             "type": "vless",
             "server": "pr.dadnetiran.xyz",
             "server_port": 12754,
