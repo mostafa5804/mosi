@@ -106,12 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @VPNCUSTOMIZE | 15",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇫🇮FI | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -123,12 +124,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @VPNCUSTOMIZE | 15",
+                "🇩🇪DE | vless | @VPNCUSTOMIZE | 16",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | vless | @MTConfig | 21",
+                "🇸🇪SE | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇫🇮FI | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -156,7 +158,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @VPNCUSTOMIZE | 15",
+            "tag": "🇩🇪DE | vless | @VPNCUSTOMIZE | 16",
             "type": "vless",
             "server": "128.140.65.160",
             "server_port": 443,
@@ -362,6 +364,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "13.48.249.220",
+            "server_port": 2083,
+            "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mppXQVnFarl3R2BGf1AFkybwksMsRHhstXEIn4YK-3U",
+                    "short_id": "214229"
+                }
             }
         },
         {
