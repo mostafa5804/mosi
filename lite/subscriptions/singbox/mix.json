@@ -172,7 +172,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -255,7 +255,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @Capoit | 9",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1770,9 +1770,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "cdnjs.com",
-            "server_port": 2086,
-            "uuid": "58d9858e-36f3-4bbf-bf36-7d4ce83dbb59",
+            "server": "ubia2-join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1784,7 +1784,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "cdnjs.com"
+                    "Host": "ubia2-join.outline-vpn.cloud"
                 }
             }
         },
@@ -2077,13 +2077,16 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "ubia2-join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "104.27.102.105",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2093,7 +2096,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ubia2-join.outline-vpn.cloud"
+                    "Host": ""
                 }
             }
         },
