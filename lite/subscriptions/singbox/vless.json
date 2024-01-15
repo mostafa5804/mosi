@@ -111,7 +111,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 6",
                 "🇫🇷FR | vless | @VlessConfig | 14",
-                "🇨🇷CR | vless | @VPNCUSTOMIZE | 20",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 20",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 8",
@@ -153,6 +153,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 10",
                 "🇨🇦CA | vless | @SafeNet_Server | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 5",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -161,7 +162,6 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -180,7 +180,7 @@
                 "🇨🇦CA | vless | @v2_team | 18",
                 "🇺🇸US | vless | @XsV2ray | 6",
                 "🇫🇷FR | vless | @VlessConfig | 14",
-                "🇨🇷CR | vless | @VPNCUSTOMIZE | 20",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 20",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 8",
@@ -222,6 +222,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 10",
                 "🇨🇦CA | vless | @SafeNet_Server | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @fnet00 | 5",
                 "🇨🇦CA | vless | @polproxy | 41",
@@ -230,7 +231,6 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @Capoit | 4",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -415,7 +415,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 20",
+            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 20",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2083,
@@ -1569,6 +1569,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "13f021a8-af20-43b6-b6a7-c09637ee8a24",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fin6.melobigg.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "me",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "104.16.243.38",
@@ -1812,35 +1843,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "mrz3.gsmvp.com",
-            "server_port": 8443,
-            "uuid": "a6bc744d-01e3-49d6-956b-b2fd8d712a6a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
             }
         },
         {
