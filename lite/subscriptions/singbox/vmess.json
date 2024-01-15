@@ -320,9 +320,9 @@
         {
             "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "38.147.191.185",
-            "server_port": 10241,
-            "uuid": "e820d6f7-57ef-4575-99da-bcd7d318c742",
+            "server": "173.245.59.209",
+            "server_port": 443,
+            "uuid": "a0eb42f5-eed2-41ce-c574-1896a5388021",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -332,6 +332,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "toll-named-executive-doctor.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/uptime",
+                "headers": {
+                    "Host": "toll-named-executive-doctor.trycloudflare.com"
+                }
             }
         },
         {
