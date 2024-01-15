@@ -106,16 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 9",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇳CN | vmess | @yaney_01 | 11",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 7",
-                "🇩🇰DK | vmess | @nofiltering2 | 11",
+                "🇩🇰DK | vmess | @nofiltering2 | 13",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vmess | @SINABIGO | 9"
             ]
@@ -124,16 +124,16 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 9",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇳CN | vmess | @yaney_01 | 11",
                 "🇨🇭CH | vmess | @Hope_Net | 15",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @FAKEOFTVC | 7",
-                "🇩🇰DK | vmess | @nofiltering2 | 11",
+                "🇩🇰DK | vmess | @nofiltering2 | 13",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇮🇷IR | vmess | @SINABIGO | 9"
             ],
@@ -156,30 +156,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @azadi_az_inja_migzare | 9",
-            "type": "vmess",
-            "server": "hamrah.asan5a.shop",
-            "server_port": 8080,
-            "uuid": "1eeb2eee-c8e4-43c7-846b-2d237c5079bc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -247,6 +223,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "104.16.104.8",
+            "server_port": 8080,
+            "uuid": "Telegram-V2ray_alpha",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -342,7 +342,7 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vmess | @nofiltering2 | 11",
+            "tag": "🇩🇰DK | vmess | @nofiltering2 | 13",
             "type": "vmess",
             "server": "speed.novinweb.shop",
             "server_port": 8080,
