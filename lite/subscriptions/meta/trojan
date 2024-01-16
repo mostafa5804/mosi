@@ -122,6 +122,7 @@ dns:
 proxies:
   - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 15","type":"trojan","server":"3.11.35.0","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇮🇪IE | trojan | @DirectVPN | 15","type":"trojan","server":"52.208.14.227","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇮🇷IR | trojan | @forwardv2ray | 9","type":"trojan","server":"87.107.102.224","port":2001,"udp":false,"password":"jWTq3OZkXs","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"milan.news-liqgroup1278.site"}
   - {"name":"🏳️XX | trojan | @FAKEOFTVC | 3","type":"trojan","server":"neat.oceanoflight.top","port":2083,"udp":false,"password":"87Z3xKp2eF","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"neat.oceanoflight.top"}
 proxy-groups:
   - name: MANUAL
@@ -131,6 +132,7 @@ proxy-groups:
       - FALLBACK
       - '🇬🇧GB | trojan | @PrivateVPNs | 15'
       - '🇮🇪IE | trojan | @DirectVPN | 15'
+      - '🇮🇷IR | trojan | @forwardv2ray | 9'
       - '🏳️XX | trojan | @FAKEOFTVC | 3'
   - name: URL-TEST
     type: url-test
@@ -140,6 +142,7 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | trojan | @PrivateVPNs | 15'
       - '🇮🇪IE | trojan | @DirectVPN | 15'
+      - '🇮🇷IR | trojan | @forwardv2ray | 9'
       - '🏳️XX | trojan | @FAKEOFTVC | 3'
   - name: FALLBACK
     type: fallback
@@ -148,6 +151,7 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | trojan | @PrivateVPNs | 15'
       - '🇮🇪IE | trojan | @DirectVPN | 15'
+      - '🇮🇷IR | trojan | @forwardv2ray | 9'
       - '🏳️XX | trojan | @FAKEOFTVC | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
