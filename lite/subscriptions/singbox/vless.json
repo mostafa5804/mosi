@@ -148,7 +148,7 @@
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇨🇷CR | vless | @DailyV2RY | 169",
+                "🇨🇦CA | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 9",
@@ -156,7 +156,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -213,7 +213,7 @@
                 "🇩🇪DE | vless | @MTConfig | 21",
                 "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
-                "🇨🇷CR | vless | @DailyV2RY | 169",
+                "🇨🇦CA | vless | @DailyV2RY | 167",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 9",
@@ -221,7 +221,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -389,7 +389,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "35.179.60.148",
+            "server": "18.169.93.196",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1391,10 +1391,10 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 169",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 167",
             "type": "vless",
-            "server": "all.VPNCUSTOMIZE.cam",
-            "server_port": 2096,
+            "server": "speedtest.org",
+            "server_port": 80,
             "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1403,21 +1403,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "xn--78-pv2cvta065cac9302fea377a148g.tech",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/VPNCUSTOMIZE,VPNCUSTOMIZE,VPNCUSTOMIZE,VPNCUSTOMIZE",
                 "headers": {
-                    "Host": "xn--78-pv2cvta065cac9302fea377a148g.tech"
+                    "Host": "speedtest.org"
                 }
             }
         },
@@ -1632,11 +1622,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "0733.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "e57e2f03-01c3-4f27-8803-2e35145373b2",
+            "server": "104.21.3.54",
+            "server_port": 2083,
+            "uuid": "0c1c79ee-e934-453f-b6fc-e67aac205936",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1644,11 +1634,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vl.v443.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/Telegram🇨🇳 @WangCai_8 \/",
                 "headers": {
-                    "Host": "0733.outline-vpn.cloud"
+                    "Host": "vl.v443.cloudns.org"
                 }
             }
         },
