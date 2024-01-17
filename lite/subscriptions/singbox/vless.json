@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
                 "🇨🇷CR | vless | @lightning6 | 29",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇬🇧GB | vless | @vpn_xw | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -130,7 +130,7 @@
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇺🇸US | vless | @V2rayNGn | 13",
+                "🇨🇷CR | vless | @V2rayNGn | 13",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
                 "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇺🇸US | vless | @customv2ray | 13",
@@ -157,7 +157,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇨🇷CR | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -185,7 +185,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
                 "🇨🇷CR | vless | @lightning6 | 29",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇬🇧GB | vless | @vpn_xw | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -195,7 +195,7 @@
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇺🇸US | vless | @V2rayNGn | 13",
+                "🇨🇷CR | vless | @V2rayNGn | 13",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
                 "🇺🇸US | vless | @ShadowSocks_s | 3",
                 "🇺🇸US | vless | @customv2ray | 13",
@@ -222,7 +222,7 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇨🇷CR | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -681,7 +681,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -969,7 +969,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 13",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 13",
             "type": "vless",
             "server": "all.vpncustomize.cam",
             "server_port": 2053,
@@ -1673,11 +1673,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "V2All.gameiranvip.sbs",
-            "server_port": 8443,
-            "uuid": "0b2e3bb2-dd94-4892-a112-b52109b4093b",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1687,7 +1687,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "V2All.gameiranvip.sbs",
+                "server_name": "edgu.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1696,11 +1696,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@V2rayeServers@V2rayeServers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "edgu.pureboy.eu.org"
+                }
             }
         },
         {
