@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @NIM_VPN_ir | 1",
+                "🇺🇸US | vless | @NIM_VPN_ir | 1",
                 "🇺🇸US | vless | @XsV2ray | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
@@ -154,7 +154,7 @@
                 "🇺🇸US | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇨🇷CR | vless | @V2RayTz | 17",
+                "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @DailyV2RY | 165",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
@@ -169,7 +169,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
@@ -188,7 +188,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @NIM_VPN_ir | 1",
+                "🇺🇸US | vless | @NIM_VPN_ir | 1",
                 "🇺🇸US | vless | @XsV2ray | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 18",
@@ -234,7 +234,7 @@
                 "🇺🇸US | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 5",
                 "🇩🇪DE | vless | @MTConfig | 21",
-                "🇨🇷CR | vless | @V2RayTz | 17",
+                "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇺🇸US | vless | @DailyV2RY | 165",
                 "🇨🇦CA | vless | @lrnbymaa | 3",
@@ -249,7 +249,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇺🇸US | vless | @forwardv2ray | 19",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | trojan | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
@@ -344,7 +344,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @NIM_VPN_ir | 1",
+            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 1",
             "type": "vless",
             "server": "all.VPNCUSTOMIZE.cam",
             "server_port": 80,
@@ -1556,11 +1556,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2RayTz | 17",
+            "tag": "🇳🇱NL | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "497-Join.V2RayTz.sbs",
-            "server_port": 2087,
-            "uuid": "8dab2500-8276-4d21-8973-33840dcf1f30",
+            "server": "500-Join.V2RayTz.sbs",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1568,21 +1568,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gmV2raybo.shhproxyfree.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "gmV2raybo.shhproxyfree.com"
+                    "Host": "500-Join.V2RayTz.sbs"
                 }
             }
         },
@@ -1965,13 +1955,16 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "172.64.109.222",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "A0C462A8-9D9D-4043-A8FA-CFC810F92134",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1979,7 +1972,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "Dusseldorf.kotick.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1989,9 +1982,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
