@@ -111,9 +111,8 @@
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
                 "🇸🇪SE | vless | @v2ray1_ng | 2",
+                "🇸🇪SE | vless | @V2RayTz | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇦🇪AE | vless | @FAKEOFTVC | 11",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -129,9 +128,8 @@
                 "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
                 "🇸🇪SE | vless | @v2ray1_ng | 2",
+                "🇸🇪SE | vless | @V2RayTz | 17",
                 "🏳️XX | vless | @Capital_NET | 52",
-                "🇫🇮FI | vless | @flyv2ray | 17",
-                "🇦🇪AE | vless | @FAKEOFTVC | 11",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -317,6 +315,35 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
+            "type": "vless",
+            "server": "551-Join.V2RayTz.sbs",
+            "server_port": 2053,
+            "uuid": "64272a1b-fcab-4eef-a09a-8459dda467b2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tun1n.gsmxreality.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_sTFgvAF7aj2yRzeXSx9TDdu-mhyqBr0WMLfI9SxBz0",
+                    "short_id": "0bb95c9e598a7bd4"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @Capital_NET | 52",
             "type": "vless",
             "server": "zhina.abiiidar.tech",
@@ -343,78 +370,6 @@
                     "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
                     "short_id": "dc838e556e8a86bd"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @flyv2ray | 17",
-            "type": "vless",
-            "server": "65.21.58.66",
-            "server_port": 443,
-            "uuid": "ed1b1f97-db22-4df1-b6a4-5e0a3462e389",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "upmusics.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QQccw-lr9IZ5f7B5918_3LVWRwJF4Hg97ND5j78JwVU",
-                    "short_id": "7ad4bd9d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇦🇪AE | vless | @FAKEOFTVC | 11",
-            "type": "vless",
-            "server": "20.174.34.49",
-            "server_port": 6996,
-            "uuid": "42349f61-e209-42e6-a61c-417509fa4448",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "flights.expat.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tGbT9V_bar7xFSHRuv88scDrztIOgndfAe72G2py5Ek",
-                    "short_id": "cd7443b5"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "flights.expat.com"
-                ],
-                "path": "\/"
             }
         },
         {
