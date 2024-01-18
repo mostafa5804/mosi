@@ -108,7 +108,9 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 16",
                 "🇩🇪DE | vless | @ARv2ray | 14",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+                "🇸🇪SE | vless | @v2ray1_ng | 2",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇫🇮FI | vless | @flyv2ray | 17",
                 "🇦🇪AE | vless | @FAKEOFTVC | 11",
@@ -124,7 +126,9 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 16",
                 "🇩🇪DE | vless | @ARv2ray | 14",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
+                "🇸🇪SE | vless | @v2ray1_ng | 2",
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇫🇮FI | vless | @flyv2ray | 17",
                 "🇦🇪AE | vless | @FAKEOFTVC | 11",
@@ -226,6 +230,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "195.201.6.97",
+            "server_port": 330,
+            "uuid": "270f266a-63ba-406c-9087-28973ee7356c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aKDCP8N-I_rt3CXtRc2TaLqHWGrZ48aDa6W9e7PblTs",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
             "server": "16.16.121.119",
@@ -250,6 +283,35 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "Mf7xWfNZGkh91owCeaXk7QJBjj3zuxJi5jl0QiM3SC4",
+                    "short_id": "214229"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @v2ray1_ng | 2",
+            "type": "vless",
+            "server": "16.16.179.63",
+            "server_port": 2083,
+            "uuid": "23758119-cf33-4269-fb50-bc04930d356a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TphPNMzo82v0MGuaMR2txn4aiA-mISZljty_RExMSSY",
                     "short_id": "214229"
                 }
             }
