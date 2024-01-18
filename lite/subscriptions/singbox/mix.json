@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇨🇦CA | vless | @Parsashonam | 6",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @NIM_VPN_ir | 2",
+                "🇨🇷CR | vless | @NIM_VPN_ir | 2",
                 "🇺🇸US | vless | @XsV2ray | 10",
                 "🇫🇷FR | vless | @VlessConfig | 14",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
                 "🇨🇷CR | vless | @lightning6 | 27",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇬🇧GB | vless | @vpn_xw | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -170,7 +170,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇳🇱NL | vless | @FreakConfig | 8",
                 "🇨🇷CR | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 19",
                 "🇦🇪AE | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -189,7 +189,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇨🇦CA | vless | @Parsashonam | 6",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇺🇸US | vless | @NIM_VPN_ir | 2",
+                "🇨🇷CR | vless | @NIM_VPN_ir | 2",
                 "🇺🇸US | vless | @XsV2ray | 10",
                 "🇫🇷FR | vless | @VlessConfig | 14",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
                 "🇨🇷CR | vless | @lightning6 | 27",
-                "🇺🇸US | vless | @V2rayNGmat | 3",
+                "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇬🇧GB | vless | @vpn_xw | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -250,7 +250,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇳🇱NL | vless | @FreakConfig | 8",
                 "🇨🇷CR | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 19",
                 "🇦🇪AE | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @mehrosaboran | 7",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -375,7 +375,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 2",
+            "tag": "🇨🇷CR | vless | @NIM_VPN_ir | 2",
             "type": "vless",
             "server": "all.VPNCUSTOMIZE.cam",
             "server_port": 80,
@@ -717,7 +717,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
+            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1892,34 +1892,27 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "V2ray.Vpn-Mikey.cfd",
-            "server_port": 443,
-            "uuid": "712dda86-0886-46af-8988-50c9dd84a810",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "158.58.190.51",
+            "server_port": 17228,
+            "uuid": "cbf19c72-55ea-45fc-8662-e876dd344b4e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Mikey.privetpack.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Vpn_Mikey،@Vpn_Mikey",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
