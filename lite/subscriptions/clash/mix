@@ -127,7 +127,6 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 13","type":"vmess","server":"cn.azhz.eu.org","port":"443","cipher":"none","uuid":"04e9bbe9-ad2f-4d51-bc46-8a46d0b8068a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/juzibaipiao-vm","headers":{"host":"insights-exclusively-therefore-ds.trycloudflare.com"}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🇸🇪SE | trojan | @forwardv2ray | 17","type":"trojan","server":"13.51.127.88","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇨🇷CR | vmess | @eliya_chiter0 | 2","type":"vmess","server":"190.93.246.241","port":"443","cipher":"auto","uuid":"adb21956-0587-4fcc-a80f-246c8c4b41c6","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
 proxy-groups:
   - name: MANUAL
@@ -144,7 +143,6 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇨🇦CA | vmess | @yaney_01 | 13'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇸🇪SE | trojan | @forwardv2ray | 17'
       - '🇨🇷CR | vmess | @eliya_chiter0 | 2'
   - name: URL-TEST
     type: url-test
@@ -161,7 +159,6 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇨🇦CA | vmess | @yaney_01 | 13'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇸🇪SE | trojan | @forwardv2ray | 17'
       - '🇨🇷CR | vmess | @eliya_chiter0 | 2'
   - name: FALLBACK
     type: fallback
@@ -177,7 +174,6 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
       - '🇨🇦CA | vmess | @yaney_01 | 13'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇸🇪SE | trojan | @forwardv2ray | 17'
       - '🇨🇷CR | vmess | @eliya_chiter0 | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
