@@ -120,6 +120,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
+                "🇨🇷CR | vless | @lightning6 | 30",
                 "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🇨🇦CA | vless | @CUSTOMVPNSERVER | 14",
@@ -158,8 +159,8 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
-                "🇺🇸US | vless | @mehrosaboran | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇨🇷CR | vless | @proxy_mtm | 9",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -188,6 +189,7 @@
                 "🇨🇷CR | vless | @shh_proxy | 23",
                 "🇨🇦CA | vless | @Lockey_vpn | 5",
                 "🇨🇦CA | vless | @free_v2rayyy | 10",
+                "🇨🇷CR | vless | @lightning6 | 30",
                 "🇨🇷CR | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🇨🇦CA | vless | @CUSTOMVPNSERVER | 14",
@@ -226,8 +228,8 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇳🇱NL | vless | @forwardv2ray | 18",
-                "🇺🇸US | vless | @mehrosaboran | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇨🇷CR | vless | @proxy_mtm | 9",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -654,6 +656,37 @@
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @lightning6 | 30",
+            "type": "vless",
+            "server": "LIGHTNING6-joinbede.liV2ray.xyz",
+            "server_port": 2083,
+            "uuid": "fee9e9ef-2ba9-4c23-c995-7b18403ccce4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "liV2help.LIGHTNING6.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1610,12 +1643,12 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "mrz6.gsmxreality.com",
+            "server": "Tunelserver.myelf.me",
             "server_port": 8443,
-            "uuid": "7bd5c898-5739-4442-b934-97b193b65e1f",
-            "flow": "xtls-rprx-vision",
+            "uuid": "Joinsho-tunelserver",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1624,26 +1657,28 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn3.gsmvp.com",
+                "server_name": "sdgsgsgfs--24--24---76---zun.mrv2ray.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@TUNELSERVER",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 12",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 12",
             "type": "vless",
-            "server": "173.245.58.31",
-            "server_port": 8880,
-            "uuid": "602dc761-927c-42e8-8202-1fcb8296e3e9",
+            "server": "190.93.247.155",
+            "server_port": 2083,
+            "uuid": "c3232657-68ac-4ac7-ca43-59368051c2b3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1651,12 +1686,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6",
-                "headers": {
-                    "Host": "173.245.58.31"
+            "tls": {
+                "enabled": true,
+                "server_name": "liV2helc.LIGHTNING6.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
