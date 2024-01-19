@@ -155,11 +155,11 @@
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇷CR | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 7",
-                "🇺🇸US | vless | @MehradLearn | 12",
+                "🇸🇬SG | vless | @MehradLearn | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 13",
-                "🏳️XX | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 11",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇺🇸US | vless | @Outlinev2rayNG | 12",
@@ -169,7 +169,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇳🇱NL | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | ss | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
@@ -237,11 +237,11 @@
                 "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇨🇷CR | vless | @DailyV2RY | 148",
                 "🇨🇦CA | vless | @sinabigo | 7",
-                "🇺🇸US | vless | @MehradLearn | 12",
+                "🇸🇬SG | vless | @MehradLearn | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 13",
-                "🏳️XX | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vless | @fnet00 | 11",
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇺🇸US | vless | @Outlinev2rayNG | 12",
@@ -251,7 +251,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇳🇱NL | vless | @FreakConfig | 11",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇩🇪DE | ss | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇺🇸US | vless | @mehrosaboran | 10",
@@ -1557,11 +1557,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @MehradLearn | 12",
+            "tag": "🇸🇬SG | vless | @MehradLearn | 11",
             "type": "vless",
-            "server": "iran-011-join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "206.238.236.36",
+            "server_port": 8443,
+            "uuid": "06c912d6-2727-40f5-8f26-f295dfaacf6e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1571,7 +1571,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "yalda20230103.freedns.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1580,11 +1580,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "freevpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1663,11 +1663,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 18",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cbaabca-caab-abac-dbac-cbacbcbabcaa",
+            "server": "2F59C05E.nip.io",
+            "server_port": 80,
+            "uuid": "301d815f-a02a-4c2c-a424-b16cf0a241ae",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1677,6 +1677,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/4a5yXsGODBM1cvl9TzyF0SHR3v",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1920,23 +1927,36 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "ubia2-join.outline-vpn.cloud",
-            "server_port": 80,
-            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "E40D8994-FDD1-4054-948F-E9F027259BD7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "ubia2-join.outline-vpn.cloud"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
