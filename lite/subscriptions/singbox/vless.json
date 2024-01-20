@@ -131,13 +131,14 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 18",
-                "🇨🇷CR | vless | @customv2ray | 6",
+                "🇨🇦CA | vless | @customv2ray | 6",
                 "🇨🇦CA | vless | @UnlimitedDev | 0",
                 "🏳️XX | vless | @vmessorg | 0",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇳🇱NL | vless | @v2rayngvpn | 12",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
                 "🇺🇸US | vless | @ShadowProxy66 | 15",
+                "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
@@ -156,7 +157,6 @@
                 "🇨🇷CR | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 9",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇷CR | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
@@ -198,13 +198,14 @@
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 18",
-                "🇨🇷CR | vless | @customv2ray | 6",
+                "🇨🇦CA | vless | @customv2ray | 6",
                 "🇨🇦CA | vless | @UnlimitedDev | 0",
                 "🏳️XX | vless | @vmessorg | 0",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇳🇱NL | vless | @v2rayngvpn | 12",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
                 "🇺🇸US | vless | @ShadowProxy66 | 15",
+                "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 29",
                 "🇨🇦CA | vless | @proxyymeliii | 18",
@@ -223,7 +224,6 @@
                 "🇨🇷CR | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 9",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇷CR | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
@@ -401,7 +401,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "15.188.183.12",
+            "server": "15.236.125.47",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -984,7 +984,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @customv2ray | 6",
+            "tag": "🇨🇦CA | vless | @customv2ray | 6",
             "type": "vless",
             "server": "All.MsV2ray.online",
             "server_port": 2095,
@@ -1146,6 +1146,37 @@
                 "headers": {
                     "Host": "173.245.58.31"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ServerNett | 13",
+            "type": "vless",
+            "server": "join3.servernet.fun",
+            "server_port": 8443,
+            "uuid": "316b81ed-a253-4912-a697-8189247de84d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join3.servernet.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1626,37 +1657,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/&@AstroVPN_official @AstroVPN_official @AstroVPN_official @AstroVPN_official @AstroVPN_official @AstroVPN_official @AstroVPN_official",
-                "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
-                }
-            }
-        },
-        {
             "tag": "🇨🇷CR | vless | @FAKEOFTVC | 6",
             "type": "vless",
             "server": "190.93.247.155",
@@ -1711,9 +1711,9 @@
         {
             "tag": "🇨🇦CA | vless | @mehrosaboran | 14",
             "type": "vless",
-            "server": "104.18.202.233",
+            "server": "104.17.212.43",
             "server_port": 8880,
-            "uuid": "39b93157-34e4-43bc-afe4-f18cb529eefe",
+            "uuid": "9ed431b5-235a-42da-e496-e0f8607f89ad",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1723,9 +1723,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@LIGHTNING6",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.18.202.233"
+                    "Host": "104.17.212.43"
                 }
             }
         },
