@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @NIM_VPN_ir | 6",
+                "🇺🇸US | vless | @NIM_VPN_ir | 6",
                 "🇺🇸US | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
@@ -152,6 +152,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇮🇷IR | vless | @nofiltering2 | 15",
@@ -169,7 +170,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @NIM_VPN_ir | 6",
+                "🇺🇸US | vless | @NIM_VPN_ir | 6",
                 "🇺🇸US | vless | @XsV2ray | 13",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
@@ -213,6 +214,7 @@
                 "🏳️XX | vless | @Capital_NET | 52",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🇮🇷IR | vless | @nofiltering2 | 15",
@@ -306,7 +308,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @NIM_VPN_ir | 6",
+            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 6",
             "type": "vless",
             "server": "all.VPNCUSTOMIZE.cam",
             "server_port": 80,
@@ -1509,6 +1511,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
+            "type": "vless",
+            "server": "ubia2-join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fkhamnei.kosnanatfilterchi.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "fkhamnei.kosnanatfilterchi.eu.org"
+                }
             }
         },
         {
