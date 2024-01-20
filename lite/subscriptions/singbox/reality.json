@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇮🇷IR | vless | @EliV2ray | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
                 "🏳️XX | vless | @Capital_NET | 52",
@@ -119,6 +120,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇮🇷IR | vless | @EliV2ray | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🇫🇮FI | vless | @FalconPolV2rayNG | 6",
                 "🏳️XX | vless | @Capital_NET | 52",
@@ -146,6 +148,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇮🇷IR | vless | @EliV2ray | 18",
+            "type": "vless",
+            "server": "tunnel2.allform.top",
+            "server_port": 16772,
+            "uuid": "3c088323-70b2-4a48-8882-7331de3d761f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6SGt08L4xAjQPJKlPaya8Ee5zIwZHh9DNknxXwZXJDo",
+                    "short_id": "9a2b6bed"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 15",

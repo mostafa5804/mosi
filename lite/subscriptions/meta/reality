@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇮🇷IR | vless | @EliV2ray | 18","type":"vless","server":"tunnel2.allform.top","port":16772,"udp":true,"uuid":"3c088323-70b2-4a48-8882-7331de3d761f","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"6SGt08L4xAjQPJKlPaya8Ee5zIwZHh9DNknxXwZXJDo","short-id":"9a2b6bed"}}
   - {"name":"🇩🇪DE | vless | @ipV2Ray | 15","type":"vless","server":"49.13.128.239","port":443,"udp":true,"uuid":"b79fcb6b-5da4-494b-9ecc-d65d3ebcf7fe","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"akniga.biz","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"SO7t7r7r8OvOIwDmOidmKb6DYxRZNZHqmZ821wiaf28","short-id":"961777e2"}}
   - {"name":"🇫🇮FI | vless | @FalconPolV2rayNG | 6","type":"vless","server":"37.27.4.17","port":443,"udp":true,"uuid":"02aa594a-af2e-4b35-8a17-5986ce15c7b5","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"www.forcespeed.fun","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"FCSi3ZigbnUJZn18TvvshvRfjjlcxpH1grw87kV6mTA","short-id":"483211d3"}}
   - {"name":"🇫🇮FI | vless | @DailyV2RY | 175","type":"vless","server":"65.109.191.228","port":10974,"udp":true,"uuid":"94fd9e77-1804-4d25-a8e1-c5b5ba514063","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"Chir","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"QbLsx0oV7dQVz4wXbm1ggmEVQ_bQKqiWHXa1sjsntGM","short-id":"9c55cb07"}}
@@ -132,6 +133,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇮🇷IR | vless | @EliV2ray | 18'
       - '🇩🇪DE | vless | @ipV2Ray | 15'
       - '🇫🇮FI | vless | @FalconPolV2rayNG | 6'
       - '🇫🇮FI | vless | @DailyV2RY | 175'
@@ -144,6 +146,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇮🇷IR | vless | @EliV2ray | 18'
       - '🇩🇪DE | vless | @ipV2Ray | 15'
       - '🇫🇮FI | vless | @FalconPolV2rayNG | 6'
       - '🇫🇮FI | vless | @DailyV2RY | 175'
@@ -155,6 +158,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇮🇷IR | vless | @EliV2ray | 18'
       - '🇩🇪DE | vless | @ipV2Ray | 15'
       - '🇫🇮FI | vless | @FalconPolV2rayNG | 6'
       - '🇫🇮FI | vless | @DailyV2RY | 175'
