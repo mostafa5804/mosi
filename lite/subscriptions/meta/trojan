@@ -122,6 +122,7 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 18","type":"trojan","server":"35.181.179.199","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇺🇸US | trojan | @DirectVPN | 18","type":"trojan","server":"44.228.132.115","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trj.rollingnext.co.uk"}
+  - {"name":"🇯🇵JP | trojan | @forwardv2ray | 17","type":"trojan","server":"a22.zgc.su","port":567,"udp":false,"password":"94744160-abe9-44ca-b085-0f6994e1944e","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"a22.zgc.su"}
   - {"name":"🇨🇦CA | trojan | @kingofilter | 12","type":"trojan","server":"104.17.186.227","port":443,"udp":false,"password":"Mahanvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"mahanvip.mahantu.top"}
 proxy-groups:
   - name: MANUAL
@@ -131,6 +132,7 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | trojan | @PrivateVPNs | 18'
       - '🇺🇸US | trojan | @DirectVPN | 18'
+      - '🇯🇵JP | trojan | @forwardv2ray | 17'
       - '🇨🇦CA | trojan | @kingofilter | 12'
   - name: URL-TEST
     type: url-test
@@ -140,6 +142,7 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | trojan | @PrivateVPNs | 18'
       - '🇺🇸US | trojan | @DirectVPN | 18'
+      - '🇯🇵JP | trojan | @forwardv2ray | 17'
       - '🇨🇦CA | trojan | @kingofilter | 12'
   - name: FALLBACK
     type: fallback
@@ -148,6 +151,7 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | trojan | @PrivateVPNs | 18'
       - '🇺🇸US | trojan | @DirectVPN | 18'
+      - '🇯🇵JP | trojan | @forwardv2ray | 17'
       - '🇨🇦CA | trojan | @kingofilter | 12'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
