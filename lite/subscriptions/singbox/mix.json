@@ -162,7 +162,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇫🇷FR | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vmess | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -239,7 +239,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇫🇷FR | vless | @forwardv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vmess | @FAKEOFTVC | 9",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1541,7 +1541,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "ccabaab-acab-baac-bcad-ccaaaacbbbcb",
+            "uuid": "acbcaba-bcaa-aabc-cdba-aacacabbcbcb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1760,17 +1760,34 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @forwardv2ray | 16",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "57.128.16.152",
-            "server_port": 27725,
-            "uuid": "02b533fd-1554-4f9f-ae7c-567c9bdc7e71",
+            "server": "104.16.209.54",
+            "server_port": 443,
+            "uuid": "1edb0562-1c71-421f-f929-b278eaa243a2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "config-248.aryariemann.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "config-248.aryariemann.site"
+                }
             }
         },
         {
