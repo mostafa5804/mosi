@@ -113,7 +113,7 @@
                 "🇨🇷CR | vless | @XsV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 17",
-                "🇨🇷CR | vless | @ipV2Ray | 15",
+                "🇨🇦CA | vless | @ipV2Ray | 14",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @frev2ray | 9",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -145,7 +145,7 @@
                 "🇺🇸US | vless | @v2ray1_ng | 5",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇷CR | vless | @MTConfig | 18",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 163",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -156,11 +156,10 @@
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇨🇷CR | vless | @Outlinev2rayNG | 7",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 8",
-                "🏳️XX | vless | @Capital_NET | 52",
+                "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇫🇮FI | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -184,7 +183,7 @@
                 "🇨🇷CR | vless | @XsV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 17",
-                "🇨🇷CR | vless | @ipV2Ray | 15",
+                "🇨🇦CA | vless | @ipV2Ray | 14",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇺🇸US | vless | @frev2ray | 9",
                 "🇨🇦CA | vless | @ARv2ray | 14",
@@ -216,7 +215,7 @@
                 "🇺🇸US | vless | @v2ray1_ng | 5",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇷CR | vless | @MTConfig | 18",
-                "🇺🇸US | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
                 "🇨🇦CA | vless | @DailyV2RY | 163",
                 "🇨🇦CA | vless | @sinabigo | 6",
@@ -227,11 +226,10 @@
                 "🇨🇦CA | vless | @polproxy | 44",
                 "🇨🇷CR | vless | @Outlinev2rayNG | 7",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 8",
-                "🏳️XX | vless | @Capital_NET | 52",
+                "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇫🇮FI | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -461,11 +459,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @ipV2Ray | 15",
+            "tag": "🇨🇦CA | vless | @ipV2Ray | 14",
             "type": "vless",
-            "server": "V2ray.motorcycles",
-            "server_port": 80,
-            "uuid": "-----WS-ipV2Ray-----",
+            "server": "www.ipV2Ray.online",
+            "server_port": 443,
+            "uuid": "59319c74-8091-4fd9-bbbe-159914895b71",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -473,12 +471,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/ed=2048",
-                "headers": {
-                    "Host": "V2ray.motorcycles"
+            "tls": {
+                "enabled": true,
+                "server_name": "Tm.ipV2Ray.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1289,11 +1297,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2RayTz | 19",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "190.93.244.103",
-            "server_port": 8880,
-            "uuid": "a30753e2-b323-470a-dddd-61c5ce059ae9",
+            "server": "190.93.246.241",
+            "server_port": 2083,
+            "uuid": "c5cb99be-bdde-44f5-867e-c1e50fad33c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1301,12 +1309,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6",
-                "headers": {
-                    "Host": "190.93.244.103"
+            "tls": {
+                "enabled": true,
+                "server_name": "liV2helb.LIGHTNING6.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1603,11 +1621,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Capital_NET | 52",
+            "tag": "🇸🇪SE | vless | @Capital_NET | 51",
             "type": "vless",
-            "server": "zhina.abiiidar.tech",
-            "server_port": 443,
-            "uuid": "9bf8930d-878a-420b-bbf5-44a9e4b5b86d",
+            "server": "77.91.84.45",
+            "server_port": 2052,
+            "uuid": "f8198e44-c57b-413c-ad86-9944b013561f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1617,7 +1635,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.tradingview.com",
+                "server_name": "atrsun.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1626,8 +1644,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "90WvSEDjTWdVj1U5JPXphB6VZ4ojR42tZN7PuEeRqXM",
-                    "short_id": "dc838e556e8a86bd"
+                    "public_key": "lfa88ptz3CMPtFPNsE108MYc4xTNIhm_DGdyvzX54AQ",
+                    "short_id": "d3414c877351cefd"
                 }
             }
         },
@@ -1709,27 +1727,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "104.21.59.100",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/TELEGRAM-PROXY_MTM",
-                "headers": {
-                    "Host": "104.21.59.100"
                 }
             }
         },
