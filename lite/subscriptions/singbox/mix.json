@@ -152,7 +152,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
-                "🇨🇦CA | vless | @DailyV2RY | 163",
+                "🇨🇦CA | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇫🇮FI | vless | @forwardv2ray | 18",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -236,7 +236,7 @@
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇨🇷CR | vless | @V2RayTz | 17",
                 "🇸🇪SE | vless | @VmessProtocol | 12",
-                "🇨🇦CA | vless | @DailyV2RY | 163",
+                "🇨🇦CA | vless | @DailyV2RY | 161",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 7",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
@@ -252,7 +252,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇫🇮FI | vless | @forwardv2ray | 18",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇺🇸US | tuic | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
@@ -1458,11 +1458,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 163",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 161",
             "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2053,
-            "uuid": "0676ea6b-578e-458d-84f6-b4e705dad84a",
+            "server": "speedtest.org",
+            "server_port": 80,
+            "uuid": "dydar",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1470,22 +1470,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.tozedmodeon1.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "JOINZEDMODEON,@ZEDMODEON,ZEDMODEON,JOINBEDEZEDMODEON-KOSENANEDODZD-VPNZEDMODEON-BIATOSHZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "speedtest.org"
+                }
             }
         },
         {
@@ -1898,13 +1888,16 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "footlo.argha-v2pedia.monster",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "uuid": "6ad624f4-c1e0-4911-e3fd-f0e9d797991b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "uuid": "C6331D3B-B1CE-4726-96C3-ECC79FE91519",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1912,25 +1905,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tuyacn.com",
+                "server_name": "Dusseldorf.kotick.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "muEtUEPnEMopCqdrhYWMzzwBsAfjZ_NV1m-AnO1byxk",
-                    "short_id": "da"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                }
             }
         },
         {
