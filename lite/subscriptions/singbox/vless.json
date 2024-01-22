@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
                 "🇨🇷CR | vless | @lightning6 | 35",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -158,7 +158,7 @@
                 "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇺🇸US | vless | @free_v2rayyy | 2",
                 "🇨🇷CR | vless | @lightning6 | 35",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 20",
@@ -228,7 +228,7 @@
                 "🇸🇪SE | vless | @Capital_NET | 51",
                 "🇨🇷CR | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇩🇪DE | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -646,7 +646,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -890,9 +890,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "parspack.com",
-            "server_port": 80,
-            "uuid": "c015b481-ea11-4573-a580-9b90ce13b029",
+            "server": "cTWCT.ARVANCOdE.EU.ORG",
+            "server_port": 2096,
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -900,11 +900,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vPNCT.ARVANCODE.EU.ORG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@OpenworldNetBot",
+                "path": "\/bShq2qgG8GnX8zqm\/",
                 "headers": {
-                    "Host": "parspack.com"
+                    "Host": "vPNCT.ARVANCODE.EU.ORG"
                 }
             }
         },
@@ -1651,24 +1661,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.31.16.160",
-            "server_port": 80,
-            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
-            "flow": "",
+            "server": "footlo.argha-v2pedia.monster",
+            "server_port": 443,
+            "uuid": "6ad624f4-c1e0-4911-e3fd-f0e9d797991b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.31.16.160"
+            "tls": {
+                "enabled": true,
+                "server_name": "tuyacn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "muEtUEPnEMopCqdrhYWMzzwBsAfjZ_NV1m-AnO1byxk",
+                    "short_id": "da"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
