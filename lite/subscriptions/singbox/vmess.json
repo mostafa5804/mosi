@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇿🇦ZA | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 14"
@@ -120,7 +120,7 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇿🇦ZA | vmess | @Hope_Net | 17",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 14"
@@ -180,11 +180,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "207.148.45.85",
-            "server_port": 39201,
-            "uuid": "fd9f5a81-4d40-40b3-eb2f-dfe0a4e7bb2a",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -194,6 +194,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
