@@ -109,7 +109,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 10",
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @NIM_VPN_ir | 13",
+                "🇺🇸US | vless | @NIM_VPN_ir | 13",
                 "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 15",
@@ -158,7 +158,7 @@
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 21",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -180,7 +180,7 @@
                 "🇮🇷IR | vless | @EliV2ray | 10",
                 "🇨🇦CA | vless | @Parsashonam | 4",
                 "🇨🇦CA | vless | @v2_team | 18",
-                "🇨🇷CR | vless | @NIM_VPN_ir | 13",
+                "🇺🇸US | vless | @NIM_VPN_ir | 13",
                 "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 15",
@@ -229,7 +229,7 @@
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 21",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇷CR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -347,7 +347,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @NIM_VPN_ir | 13",
+            "tag": "🇺🇸US | vless | @NIM_VPN_ir | 13",
             "type": "vless",
             "server": "all.VPNCUSTOMIZE.cam",
             "server_port": 80,
@@ -557,8 +557,8 @@
             "tag": "🇨🇦CA | vless | @ARv2ray | 13",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "server_port": 80,
+            "uuid": "-ArV2ray--ArV2ray--ArV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -566,22 +566,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.ArV2ray.host",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@ArV2ray,@ArV2ray,@ArV2ray",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1680,11 +1670,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "190.93.247.155",
             "server_port": 80,
-            "uuid": "f526e941-52ac-4d28-ba49-5ba2fc0a984b",
+            "uuid": "-ArV2ray--ArV2ray--ArV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1694,9 +1684,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless",
+                "path": "\/@ArV2ray,@ArV2ray,@ArV2ray?ed",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "190.93.247.155"
                 }
             }
         },
