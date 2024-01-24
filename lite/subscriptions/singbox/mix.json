@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇺🇸US | vless | @free_v2rayyy | 4",
                 "🇨🇷CR | vless | @lightning6 | 44",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 18",
@@ -157,7 +157,8 @@
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | vmess | @Hope_Net | 13",
+                "🇫🇷FR | trojan | @ConfigsHUB | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 11",
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇨🇷CR | vless | @Outlinev2rayNG | 10",
@@ -167,7 +168,7 @@
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @flyv2ray | 24",
-                "🏳️XX | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🏳️XX | vless | @nofiltering2 | 13",
@@ -199,7 +200,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇺🇸US | vless | @free_v2rayyy | 4",
                 "🇨🇷CR | vless | @lightning6 | 44",
-                "🇨🇷CR | vless | @V2rayNGmat | 3",
+                "🇺🇸US | vless | @V2rayNGmat | 3",
                 "🇨🇦CA | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 18",
@@ -236,7 +237,8 @@
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇺🇸US | vless | @lrnbymaa | 8",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🏳️XX | vmess | @Hope_Net | 13",
+                "🇫🇷FR | trojan | @ConfigsHUB | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 11",
                 "🏳️XX | vless | @fnet00 | 16",
                 "🇨🇦CA | vless | @polproxy | 38",
                 "🇨🇷CR | vless | @Outlinev2rayNG | 10",
@@ -246,7 +248,7 @@
                 "🇨🇷CR | vless | @Capoit | 4",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @flyv2ray | 24",
-                "🏳️XX | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇷CR | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🏳️XX | vless | @nofiltering2 | 13",
@@ -684,7 +686,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGmat | 3",
+            "tag": "🇺🇸US | vless | @V2rayNGmat | 3",
             "type": "vless",
             "server": "V2ray.motorcycles",
             "server_port": 2087,
@@ -1564,11 +1566,33 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 13",
+            "tag": "🇫🇷FR | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "35.181.187.86",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.miwan.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cbcaaab-baac-caba-badc-acbcbcbbacaa",
+            "server": "45.76.144.158",
+            "server_port": 52445,
+            "uuid": "f3023754-1b95-40eb-bdf9-fc524302fb9a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1578,6 +1602,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1843,39 +1874,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "v2logy.ddns.net",
-            "server_port": 443,
-            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
-            "flow": "xtls-rprx-vision",
+            "server": "ye--join.outline-vpn.cloud",
+            "server_port": 2086,
+            "uuid": "9c6d57bd-9590-4646-9dc4-e832a54b27ea",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
-                    "short_id": ""
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ye--join.outline-vpn.cloud"
+                }
             }
         },
         {
