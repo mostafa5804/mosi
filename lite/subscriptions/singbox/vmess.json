@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇦UA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @eliya_chiter0 | 5"
+                "🇨🇭CH | vmess | @eliya_chiter0 | 4"
             ]
         },
         {
@@ -120,10 +120,10 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇦UA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @eliya_chiter0 | 5"
+                "🇨🇭CH | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -180,11 +180,11 @@
             }
         },
         {
-            "tag": "🇺🇦UA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "45.137.155.195",
-            "server_port": 443,
-            "uuid": "49c76bcf-3a58-43df-b1d4-2bffe9ca03b5",
+            "server": "104.31.16.104",
+            "server_port": 8080,
+            "uuid": "3a6752b4-8353-4172-85b1-32202116714d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -195,14 +195,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -248,11 +245,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @eliya_chiter0 | 5",
+            "tag": "🇨🇭CH | vmess | @eliya_chiter0 | 4",
             "type": "vmess",
-            "server": "78.109.198.37",
-            "server_port": 2053,
-            "uuid": "15dd1b0f-1a17-4c85-ac6a-047a6f92d504",
+            "server": "94.131.99.8",
+            "server_port": 47182,
+            "uuid": "81b2b630-8b6a-404f-b996-b12f13db5786",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
