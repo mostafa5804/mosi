@@ -106,13 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇯🇵JP | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇭CH | vmess | @eliya_chiter0 | 7"
             ]
         },
@@ -120,13 +120,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇯🇵JP | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇭CH | vmess | @eliya_chiter0 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -148,6 +148,40 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
+            "server": "80.92.205.112",
+            "server_port": 443,
+            "uuid": "4c90ba75-230b-4f8b-bbff-8efa0eb0415f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -270,40 +304,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "a.fpluuuxtoopgol.shop",
-            "server_port": 2087,
-            "uuid": "5db4c51c-7304-4f0a-bbd8-083d258c04eb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ryogplffcnsdgvvuwfuwtbgehdsgsgsgsgsfgegsgsgsghhddhdhdbhddhhtjsfjfjtjfwqdhwrjafjafjadhafhqfjqdhqdgdqhdqgegsofwnfianfaofnsifnaofnqfosjfsifjwfosmfaokfsofmwofsnfosmgsokfsofaofsmfowmfwofnwofnscoanowjfwofwofmwofnwofneciwbcuwbsogjsofsina.fpluuuxtoopgol.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "dfgh",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
