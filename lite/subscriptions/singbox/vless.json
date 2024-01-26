@@ -130,7 +130,7 @@
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 16",
+                "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 172",
                 "🇨🇷CR | vless | @ShadowSocks_s | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
@@ -138,7 +138,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
                 "🇨🇷CR | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
-                "🇨🇦CA | vless | @ShadowProxy66 | 73",
+                "🏳️XX | vless | @ShadowProxy66 | 73",
                 "🇨🇦CA | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇷FR | vless | @v2ray_swhil | 23",
@@ -161,7 +161,7 @@
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
@@ -207,7 +207,7 @@
                 "🇺🇸US | vless | @Watashi_VPN | 0",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 16",
+                "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @prrofile_purple | 172",
                 "🇨🇷CR | vless | @ShadowSocks_s | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 10",
                 "🇨🇷CR | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
-                "🇨🇦CA | vless | @ShadowProxy66 | 73",
+                "🏳️XX | vless | @ShadowProxy66 | 73",
                 "🇨🇦CA | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇫🇷FR | vless | @v2ray_swhil | 23",
@@ -238,7 +238,7 @@
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 20",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
@@ -973,7 +973,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 16",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 16",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 8880,
@@ -1171,7 +1171,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 73",
+            "tag": "🏳️XX | vless | @ShadowProxy66 | 73",
             "type": "vless",
             "server": "cafe.zhaal.ir",
             "server_port": 2052,
@@ -1805,11 +1805,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.21.59.125",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "104.18.190.52",
+            "server_port": 443,
+            "uuid": "a4faf5d8-b9a8-433e-9518-2d2e21d76f78",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1817,11 +1817,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "nginx.nirevil.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/TELEGRAM-PROXY_MTM",
+                "path": "\/Path\/TelegramV2ray_Alpha\/",
                 "headers": {
-                    "Host": "104.21.59.125"
+                    "Host": "nginx.nirevil.ir"
                 }
             }
         },
