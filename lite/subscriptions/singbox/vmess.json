@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+                "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇷FR | vmess | @ShadowProxy66 | 63",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🏳️XX | vmess | @Hope_Net | 1",
@@ -122,7 +122,7 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+                "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇷FR | vmess | @ShadowProxy66 | 63",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🏳️XX | vmess | @Hope_Net | 1",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "47.89.211.175",
-            "server_port": 80,
-            "uuid": "6cc722d0-f6b5-4179-be13-c15cb9e75dd9",
+            "server": "hkaz.takeshi.wiki",
+            "server_port": 443,
+            "uuid": "803b8c6b-192e-4500-a919-485566f8e058",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,11 +199,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/84BxD2shFYFpsiRGXACUPqWt",
+                "path": "\/takeshi.wiki",
                 "headers": {
-                    "Host": "47.89.211.175"
+                    "Host": ""
                 }
             }
         },
