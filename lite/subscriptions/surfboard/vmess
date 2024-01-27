@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @ConfigsHUB | 19 = vmess, 104.17.25.1, 80, username = 83c19463-f966-4adb-a7d8-b127825ffab2, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"kr.catnipballs.gay", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 6 = vmess, v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = f61203bd-f386-4d12-9853-cc829d6b7c9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ca2.xv2ray.net", skip-cert-verify = true, tfo = false
+🇰🇷KR | vmess | @forwardv2ray | 19 = vmess, 125.185.213.153, 30037, username = f5c180eb-fbce-49ac-9029-482eca9385c0, ws = true, tls = 1, vmess-aead = true, ws-path = /gzogws, ws-headers = Host:"xray1.freeh1.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @v2Line | 6
-URL-TEST = url-test,🇨🇦CA | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @v2Line | 6
-FALLBACK = fallback,🇨🇦CA | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @v2Line | 6
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 6,🇰🇷KR | vmess | @forwardv2ray | 19
+URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 6,🇰🇷KR | vmess | @forwardv2ray | 19
+FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 6,🇰🇷KR | vmess | @forwardv2ray | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
