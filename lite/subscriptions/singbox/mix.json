@@ -143,10 +143,11 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
                 "🇨🇦CA | vless | @vmessorg | 2",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
+                "🇨🇦CA | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @MsV2ray | 17",
@@ -168,9 +169,9 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 5",
-                "🇨🇦CA | vless | @FreakConfig | 6",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇩🇪DE | trojan | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 15",
@@ -184,8 +185,7 @@
                 "🇺🇸US | tuic | @TUICity | 61",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 10",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 4"
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 3"
             ]
         },
         {
@@ -229,10 +229,11 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
                 "🇨🇦CA | vless | @vmessorg | 2",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 6",
                 "🇺🇦UA | vmess | @ShadowProxy66 | 45",
+                "🇨🇦CA | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇨🇦CA | vless | @MsV2ray | 17",
@@ -254,9 +255,9 @@
                 "🏳️XX | vless | @Capital_NET | 48",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 5",
-                "🇨🇦CA | vless | @FreakConfig | 6",
+                "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇷CR | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇩🇪DE | trojan | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 15",
@@ -270,8 +271,7 @@
                 "🇺🇸US | tuic | @TUICity | 61",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 10",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 4"
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1285,7 +1285,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 5",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
             "type": "vless",
             "server": "iranserver.com",
             "server_port": 2096,
@@ -1392,6 +1392,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ServerNett | 11",
+            "type": "vless",
+            "server": "join60.numalla.top",
+            "server_port": 2053,
+            "uuid": "bb048720-8b2c-4aae-b978-8398b5317e14",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join60.numalla.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1537,8 +1568,8 @@
             "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "190.93.247.155",
-            "server_port": 2087,
-            "uuid": "f922a88b-d4f5-4371-924e-c0335c990511",
+            "server_port": 80,
+            "uuid": "29f00915-4107-491d-ba71-c9328e845a11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1546,21 +1577,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ConneCtionS-Ir-021.digiv2ray1.store",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/DigiV",
                 "headers": {
-                    "Host": "ConneCtionS-Ir-021.digiv2ray1.store"
+                    "Host": "190.93.247.155"
                 }
             }
         },
@@ -1655,7 +1676,7 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.21.59.100",
+            "server": "edgu.pureboy.eu.org",
             "server_port": 80,
             "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
@@ -1669,7 +1690,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.21.59.100"
+                    "Host": "edgu.pureboy.eu.org"
                 }
             }
         },
@@ -1885,9 +1906,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
             "type": "vless",
-            "server": "104.31.16.160",
+            "server": "172.67.19.244",
             "server_port": 80,
             "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
@@ -1901,7 +1922,7 @@
                 "type": "ws",
                 "path": "\/path\/TELEGRAM-PROXY_MTM",
                 "headers": {
-                    "Host": "104.31.16.160"
+                    "Host": "172.67.19.244"
                 }
             }
         },
@@ -1937,23 +1958,24 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.31.16.160",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | trojan | @forwardv2ray | 17",
+            "type": "trojan",
+            "server": "18.158.25.141",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.31.16.160"
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.miwan.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -2012,9 +2034,9 @@
         {
             "tag": "🇨🇦CA | vless | @mehrosaboran | 15",
             "type": "vless",
-            "server": "172.66.47.74",
+            "server": "104.20.27.27",
             "server_port": 80,
-            "uuid": "29f00915-4107-491d-ba71-c9328e845a00",
+            "uuid": "-ArV2ray--ArV2ray--ArV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2024,9 +2046,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiV",
+                "path": "\/@ArV2ray,@ArV2ray,@ArV2ray",
                 "headers": {
-                    "Host": "172.66.47.74"
+                    "Host": "104.20.27.27"
                 }
             }
         },
@@ -2266,42 +2288,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 10",
-            "type": "vless",
-            "server": "172.67.109.83",
-            "server_port": 443,
-            "uuid": "384c96dd-78d7-4b46-9cac-4accb009de99",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "XjeirjfIeJcidbciRncuej.maHdiSy21forbeutifilDay.sHop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-TelegramJoin:@Romax_VPN-",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 4",
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
             "type": "vless",
             "server": "104.18.203.0",
-            "server_port": 8443,
-            "uuid": "9daca87c-10d7-47f9-b30d-3e006eb5ecdc",
+            "server_port": 2096,
+            "uuid": "ff49e823-f2b6-49ed-85fa-58e7cc4bb2e9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2311,7 +2302,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "xJeirjfiEjciDbcirnCuej.mAHdisY21forbEutifiLdAY.ShoP",
+                "server_name": "copilietdjjeo456diroaaxo0987djwjtoooco9875dhskrhg00886r.fookioollpopllllll.store",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2321,7 +2312,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-TelegramJoin:@TIKTOK_PROXY-",
+                "service_name": "--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY--------------@TIKTOK_PROXY",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
