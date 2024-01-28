@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | vmess | @ConfigsHUB | 19 = vmess, 207.154.217.22, 80, username = 1d6c331c-a7d1-40a0-b609-1dd418f4b170, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"hettar", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @ConfigsHUB | 19 = vmess, gr4.shrektm.top, 8443, username = b695cba6-28ed-4ee3-8eee-bc0dcf139593, ws = true, tls = 1, vmess-aead = true, ws-path = /@ATOVPN @ATOVPN, ws-headers = Host:"gr4.shrektm.top", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 6 = vmess, v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 80, username = f61203bd-f386-4d12-9853-cc829d6b7c9d, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ca2.xv2ray.net", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @v2Line | 6
-URL-TEST = url-test,🇩🇪DE | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @v2Line | 6
-FALLBACK = fallback,🇩🇪DE | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @v2Line | 6
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @v2Line | 6
+URL-TEST = url-test,🇨🇦CA | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @v2Line | 6
+FALLBACK = fallback,🇨🇦CA | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @v2Line | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
