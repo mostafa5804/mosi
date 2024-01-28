@@ -160,10 +160,10 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇦UA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 2",
+                "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -172,7 +172,7 @@
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -246,10 +246,10 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇺🇦UA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 2",
+                "🏳️XX | vmess | @Hope_Net | 4",
                 "🏳️XX | vless | @fnet00 | 13",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -258,7 +258,7 @@
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -1699,23 +1699,29 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "joinbede.be.vmessorg.online",
-            "server_port": 8880,
-            "uuid": "448a7128-3f3d-40a1-9fcf-1f4ffaa08adf",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇦UA | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "45.137.155.195",
+            "server_port": 443,
+            "uuid": "49c76bcf-3a58-43df-b1d4-2bffe9ca03b5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg",
-                "headers": {
-                    "Host": "joinbede.be.vmessorg.online"
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1772,7 +1778,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 2",
+            "tag": "🏳️XX | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1993,11 +1999,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "104.21.28.62",
-            "server_port": 443,
-            "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+            "server": "104.21.59.125",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2005,21 +2011,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "edgu.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "edgu.pureboy.eu.org"
+                    "Host": "104.21.59.125"
                 }
             }
         },
