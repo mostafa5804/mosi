@@ -156,11 +156,11 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
-                "🇨🇷CR | vless | @DailyV2RY | 164",
+                "🇺🇸US | vless | @DailyV2RY | 164",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇺🇦UA | vmess | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -172,7 +172,7 @@
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -242,11 +242,11 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
-                "🇨🇷CR | vless | @DailyV2RY | 164",
+                "🇺🇸US | vless | @DailyV2RY | 164",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇺🇦UA | vmess | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -258,7 +258,7 @@
                 "🇺🇸US | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇷CR | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 13",
@@ -1606,7 +1606,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @DailyV2RY | 164",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 164",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1699,16 +1699,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇦UA | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "45.137.155.195",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "104.21.59.125",
             "server_port": 443,
-            "uuid": "49c76bcf-3a58-43df-b1d4-2bffe9ca03b5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1716,12 +1713,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "mahi.kosnanatfilterchi.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "headers": {
+                    "Host": "mahi.kosnanatfilterchi.eu.org"
                 }
             }
         },
@@ -1999,7 +2003,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
             "type": "vless",
             "server": "104.21.59.125",
             "server_port": 80,
