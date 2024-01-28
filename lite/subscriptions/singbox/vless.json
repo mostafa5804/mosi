@@ -134,7 +134,7 @@
                 "🇨🇷CR | vless | @ShadowSocks_s | 7",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
-                "🇨🇦CA | vless | @vmessorg | 3",
+                "🇨🇦CA | vless | @vmessorg | 2",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -200,7 +200,7 @@
                 "🇨🇷CR | vless | @ShadowSocks_s | 7",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
-                "🇨🇦CA | vless | @vmessorg | 3",
+                "🇨🇦CA | vless | @vmessorg | 2",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
@@ -212,7 +212,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇩🇪DE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -1037,7 +1037,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 3",
+            "tag": "🇨🇦CA | vless | @vmessorg | 2",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1342,12 +1342,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "gr1.bandaritond.ir",
+            "server": "v2rayconfig.ddnsfree.com",
             "server_port": 443,
-            "uuid": "95c2dd55-d255-4ad6-afd2-343ebd20a859",
-            "flow": "xtls-rprx-vision",
+            "uuid": "5cf680c9-470e-4593-8f0b-6e8555fdb475",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1356,18 +1356,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gr1.bandaritond.ir",
+                "server_name": "kamy.CaEras.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yRZ593iS6XfYL-Dvt4DIZLRjSY4MqnVyReRjZwv8I0w",
-                    "short_id": "133ce6dd"
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Fnet00",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
