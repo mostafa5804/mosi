@@ -154,7 +154,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇯🇵JP | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -165,12 +165,12 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🇨🇷CR | vless | @proxy_mtm | 3",
+                "🇺🇸US | vless | @proxy_mtm | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 2",
@@ -235,7 +235,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇯🇵JP | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -246,12 +246,12 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇺🇸US | vless | @forwardv2ray | 18",
+                "🇬🇧GB | vless | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 5",
-                "🇨🇷CR | vless | @proxy_mtm | 3",
+                "🇺🇸US | vless | @proxy_mtm | 3",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 2",
@@ -1525,23 +1525,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "104.21.31.30",
-            "server_port": 80,
-            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇯🇵JP | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "185.212.56.168",
+            "server_port": 443,
+            "password": "share.mjj-home.com",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.31.30"
+            "tls": {
+                "enabled": true,
+                "server_name": "tw.softbank.mjj-home.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1783,34 +1784,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "tag": "🇬🇧GB | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "190.93.245.214",
-            "server_port": 2083,
-            "uuid": "31c02a37-0ae8-4b1c-8374-891aba75053f",
+            "server": "192.248.151.249",
+            "server_port": 8080,
+            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "km.MsV2ray.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "km.MsV2ray.site"
-                }
             }
         },
         {
@@ -1928,7 +1912,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxy_mtm | 3",
+            "tag": "🇺🇸US | vless | @proxy_mtm | 3",
             "type": "vless",
             "server": "190.93.247.247",
             "server_port": 8080,
