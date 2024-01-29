@@ -154,7 +154,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇷CR | vless | @ConfigsHUB | 11",
+                "🇸🇪SE | trojan | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -166,7 +166,6 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇸🇪SE | trojan | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
@@ -236,7 +235,7 @@
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇷CR | vless | @ConfigsHUB | 11",
+                "🇸🇪SE | trojan | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -248,7 +247,6 @@
                 "🇺🇸US | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇸🇪SE | trojan | @forwardv2ray | 19",
                 "🇺🇸US | tuic | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 16",
@@ -1409,9 +1407,9 @@
         {
             "tag": "🇨🇦CA | vless | @VmessProtocol | 11",
             "type": "vless",
-            "server": "a1.nttkk.com",
-            "server_port": 443,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "server": "fin.melov2ray.shop",
+            "server_port": 8443,
+            "uuid": "15c169bd-1b95-4c5e-ae44-c9e59fd80d07",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1421,7 +1419,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pages.20230619.love",
+                "server_name": "FIn.Melov2ray.Shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1430,11 +1428,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/fuck_yes",
-                "headers": {
-                    "Host": "pages.20230619.love"
-                }
+                "type": "grpc",
+                "service_name": "@melov2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1521,23 +1519,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 8080,
-            "uuid": "----VPNCUSTOMIZE----",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 16",
+            "type": "trojan",
+            "server": "13.49.92.174",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.247.155"
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.miwan.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1829,28 +1828,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "gmV2raybo.shhproxyfree.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | trojan | @forwardv2ray | 19",
-            "type": "trojan",
-            "server": "13.49.92.174",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

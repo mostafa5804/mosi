@@ -147,7 +147,6 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇷CR | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 9",
@@ -214,7 +213,6 @@
                 "🇨🇦CA | vless | @DailyV2RY | 166",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇨🇷CR | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 9",
@@ -1253,9 +1251,9 @@
         {
             "tag": "🇨🇦CA | vless | @VmessProtocol | 11",
             "type": "vless",
-            "server": "a1.nttkk.com",
-            "server_port": 443,
-            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "server": "fin.melov2ray.shop",
+            "server_port": 8443,
+            "uuid": "15c169bd-1b95-4c5e-ae44-c9e59fd80d07",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1265,7 +1263,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pages.20230619.love",
+                "server_name": "FIn.Melov2ray.Shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1274,11 +1272,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/fuck_yes",
-                "headers": {
-                    "Host": "pages.20230619.love"
-                }
+                "type": "grpc",
+                "service_name": "@melov2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1351,27 +1349,6 @@
                 "path": "\/backup",
                 "headers": {
                     "Host": "185.146.173.20"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇷CR | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 8080,
-            "uuid": "----%56%50%4E%43%55%53%54%4F%4D%49%5A%45----",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "190.93.247.155"
                 }
             }
         },
