@@ -121,6 +121,8 @@ proxies:
   - {"name":"🇨🇦CA | trojan | @V2rayCollectorDonate | 19","type":"trojan","server":"alman.germaanpro.ir","port":2053,"udp":false,"password":"mJR8UynY3kqfQYg_ps1lhw","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"alman.germaanpro.ir"}
   - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 14","type":"trojan","server":"13.37.62.23","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇬🇧GB | trojan | @DirectVPN | 14","type":"trojan","server":"35.179.52.113","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @ConfigsHUB | 5","type":"trojan","server":"13.41.239.167","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @forwardv2ray | 19","type":"trojan","server":"18.153.216.178","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -130,6 +132,8 @@ proxy-groups:
       - '🇨🇦CA | trojan | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | trojan | @PrivateVPNs | 14'
       - '🇬🇧GB | trojan | @DirectVPN | 14'
+      - '🇬🇧GB | trojan | @ConfigsHUB | 5'
+      - '🇩🇪DE | trojan | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -139,6 +143,8 @@ proxy-groups:
       - '🇨🇦CA | trojan | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | trojan | @PrivateVPNs | 14'
       - '🇬🇧GB | trojan | @DirectVPN | 14'
+      - '🇬🇧GB | trojan | @ConfigsHUB | 5'
+      - '🇩🇪DE | trojan | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -147,6 +153,8 @@ proxy-groups:
       - '🇨🇦CA | trojan | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | trojan | @PrivateVPNs | 14'
       - '🇬🇧GB | trojan | @DirectVPN | 14'
+      - '🇬🇧GB | trojan | @ConfigsHUB | 5'
+      - '🇩🇪DE | trojan | @forwardv2ray | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
