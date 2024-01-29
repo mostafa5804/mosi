@@ -136,18 +136,18 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇦CA | vless | @v2ray_swhil | 20",
+                "🇺🇸US | vless | @v2ray_swhil | 22",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇷CR | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇺🇸US | vless | @DailyV2RY | 168",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇬🇧GB | vless | @ConfigsHUB | 14",
+                "🇺🇸US | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -203,18 +203,18 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇺🇸US | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇦CA | vless | @v2ray_swhil | 20",
+                "🇺🇸US | vless | @v2ray_swhil | 22",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇺🇸US | vless | @MTConfig | 18",
-                "🇨🇷CR | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇺🇸US | vless | @DailyV2RY | 168",
                 "🇳🇱NL | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
-                "🇬🇧GB | vless | @ConfigsHUB | 14",
+                "🇺🇸US | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 10",
                 "🇺🇸US | vless | @Outlinev2rayNG | 10",
@@ -1081,7 +1081,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayngvpn | 12",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
             "server": "667.lutong.eu.org",
             "server_port": 8443,
@@ -1174,11 +1174,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 20",
+            "tag": "🇺🇸US | vless | @v2ray_swhil | 22",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "all.vipxali.cfd",
+            "server_port": 2095,
+            "uuid": "XsV2ray---XsV2ray---XsV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1188,9 +1188,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/XsV2ray,@XsV2ray,@XsV2ray",
                 "headers": {
-                    "Host": "172.67.204.84"
+                    "Host": "all.vipxali.cfd"
                 }
             }
         },
@@ -1240,11 +1240,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
+            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "190.93.246.225",
-            "server_port": 8880,
-            "uuid": "a4c67159-2586-4b09-985a-7e65556c4df9",
+            "server": "104.22.51.162",
+            "server_port": 443,
+            "uuid": "67b8f25c-e7ff-46b5-8072-e37e1ce49a57",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1252,12 +1252,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6",
-                "headers": {
-                    "Host": "190.93.246.225"
+            "tls": {
+                "enabled": true,
+                "server_name": "dm.ipV2Ray1.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1355,17 +1365,24 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 14",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "192.248.151.249",
+            "server": "tel.VPNCUSTOMIZE.cam",
             "server_port": 8080,
-            "uuid": "3c41365b-a875-44fc-ab55-6a00a8e13765",
+            "uuid": "7340f9b3-0907-445f-aaf9-304437af3153",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tel.VPNCUSTOMIZE.cam"
+                }
             }
         },
         {
