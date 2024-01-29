@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 16",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 3"
             ]
         },
@@ -121,10 +122,11 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 11",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 16",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -182,11 +184,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "104.17.25.2",
+            "server": "us-west-anycast.lnaspiring.com",
             "server_port": 80,
-            "uuid": "d6664518-c8e1-42cf-f2c1-d33dcc01a8a6",
+            "uuid": "8f1330ca-9f17-4b13-8b65-fe3105c721b0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,7 +201,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/geg\/44",
                 "headers": {
                     "Host": ""
                 }
@@ -277,6 +279,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "173.245.59.8",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "77h2quiet-dream-5c34.foratay741.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nina.bond\/linkvws",
+                "headers": {
+                    "Host": "77h2quiet-dream-5c34.foratay741.workers.dev"
                 }
             }
         },
