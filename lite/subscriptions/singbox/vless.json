@@ -132,7 +132,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇨🇦CA | vless | @v2rayngvpn | 17",
+                "🇺🇸US | vless | @v2rayngvpn | 17",
                 "🏳️XX | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 35",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
@@ -147,17 +147,15 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇺🇸US | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
-                "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -201,7 +199,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇨🇦CA | vless | @vmessorg | 3",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
-                "🇨🇦CA | vless | @v2rayngvpn | 17",
+                "🇺🇸US | vless | @v2rayngvpn | 17",
                 "🏳️XX | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 35",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
@@ -216,17 +214,15 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
-                "🇨🇦CA | vless | @ConfigsHUB | 14",
+                "🇺🇸US | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
-                "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -966,7 +962,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 17",
+            "tag": "🇺🇸US | vless | @v2rayngvpn | 17",
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 2096,
@@ -1367,11 +1363,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
-            "server_port": 8080,
-            "uuid": "SVNTEAM",
+            "server": "tel.VPNCUSTOMIZE.cam",
+            "server_port": 8443,
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1379,12 +1375,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
+            "tls": {
+                "enabled": true,
+                "server_name": "20ns2-V2ray.Vpncustomize.Com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1539,37 +1545,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 4",
-            "type": "vless",
-            "server": "tel.VPNCUSTOMIZE.cam",
-            "server_port": 8443,
-            "uuid": "VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "20ns2-V2ray.Vpncustomize.Com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @FreakConfig | 6",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1616,37 +1591,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "free.ariyapardazeshnovin.ir",
-            "server_port": 2096,
-            "uuid": "fb5ba149-8fa6-433f-8a73-6b47593a8583",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "free.ariyapardazeshnovin.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "okala.com",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
