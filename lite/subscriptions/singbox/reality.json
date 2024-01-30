@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇬🇧GB | vless | @v2logy | 13",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -120,6 +121,7 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 18",
                 "🇬🇧GB | vless | @v2logy | 13",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @vpn_go67 | 23",
@@ -215,6 +217,35 @@
                     "vultr.com"
                 ],
                 "path": "\/pricing"
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "116.202.99.47",
+            "server_port": 49124,
+            "uuid": "0448c6ea-34ce-487a-93be-8e57bd2f2fa8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dalan-group.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rBdocIQXi2MdXwQYubRsn4fTG1_3XMZiNgtn9u3yzwI",
+                    "short_id": "0bf98883"
+                }
             }
         },
         {
