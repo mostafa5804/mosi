@@ -138,7 +138,7 @@
                 "🇺🇸US | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇨🇦CA | vless | @vmessorg | 3",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🏳️XX | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 35",
@@ -155,7 +155,6 @@
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇳CN | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -168,7 +167,6 @@
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -220,7 +218,7 @@
                 "🇺🇸US | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇨🇦CA | vless | @vmessorg | 3",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🏳️XX | vless | @FalconPolV2rayNG | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 35",
@@ -237,7 +235,6 @@
                 "🇨🇦CA | vless | @MehradLearn | 12",
                 "🇨🇦CA | vless | @lrnbymaa | 12",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇳CN | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
@@ -250,7 +247,6 @@
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1126,11 +1122,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 8443,
-            "uuid": "bf82bb94-e872-477f-9219-429674c73170",
+            "server": "3k.pureboy.eu.org",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1140,7 +1136,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "felinetest.site",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1150,9 +1146,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed",
                 "headers": {
-                    "Host": "felinetest.site"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1568,23 +1564,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇳CN | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "183.236.48.169",
-            "server_port": 1002,
-            "uuid": "229ccd44-c56c-3947-88de-849dd70c180d",
-            "security": "auto",
-            "alter_id": 2,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "172.67.19.244",
@@ -1874,40 +1853,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "172.67.220.64",
-            "server_port": 443,
-            "uuid": "f24bba0f-8656-44f8-b21e-a0e3a190c4c5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.31000oooowe2.bf",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/df97b21e-3943-4865-af18-b5ea9676b037",
-                "headers": {
-                    "Host": "www.31000oooowe2.bf"
-                }
             }
         },
         {

@@ -122,6 +122,7 @@ dns:
 proxies:
   - {"name":"🇫🇮FI | vless | @ipV2Ray | 18","type":"vless","server":"95.217.165.237","port":443,"udp":true,"uuid":"362b4ce4-aafe-4b9b-a6a3-01a63abbbfc0","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"greenpepper.ir","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"sCISqS8-2p5yxMf587SprLh9VhwqtWfZFfBrjqotLmQ","short-id":"0aa7423a"}}
   - {"name":"🇫🇮FI | vless | @Capital_NET | 47","type":"vless","server":"tel.1lagvpn13.cfd","port":443,"udp":true,"uuid":"9eb0967f-8c35-4aa5-b6be-a2e46f4c2348","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"gsmarena.com","grpc-opts":{"grpc-service-name":"@LAGVPN13"},"reality-opts":{"public-key":"uX1V5lrEbOrtXi-2dQyPNVJ6sf80g19HYujUUWN5nxA","short-id":"464f8607"}}
+  - {"name":"🇩🇪DE | vless | @forwardv2ray | 19","type":"vless","server":"49.13.170.61","port":2087,"udp":true,"uuid":"9b28c890-296d-411d-a323-2f411e751f00","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"dash.cloudflare.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"KuZOpuz0L4H-VNikILS8NP9oA6Ra9uTGEZLHH0FODFM","short-id":"83cdb009"}}
   - {"name":"🇸🇪SE | vless | @kiava | 6","type":"vless","server":"13.49.102.150","port":8443,"udp":true,"uuid":"2c59ff33-916d-459b-a4c0-8b7432c4c3bb","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"coinmarketcap.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"aG4GaoEpt529YYeMSMlka3pu6Xh8Je72HHKPdMwnzAY","short-id":"f450be"}}
 proxy-groups:
   - name: MANUAL
@@ -131,6 +132,7 @@ proxy-groups:
       - FALLBACK
       - '🇫🇮FI | vless | @ipV2Ray | 18'
       - '🇫🇮FI | vless | @Capital_NET | 47'
+      - '🇩🇪DE | vless | @forwardv2ray | 19'
       - '🇸🇪SE | vless | @kiava | 6'
   - name: URL-TEST
     type: url-test
@@ -140,6 +142,7 @@ proxy-groups:
     proxies:
       - '🇫🇮FI | vless | @ipV2Ray | 18'
       - '🇫🇮FI | vless | @Capital_NET | 47'
+      - '🇩🇪DE | vless | @forwardv2ray | 19'
       - '🇸🇪SE | vless | @kiava | 6'
   - name: FALLBACK
     type: fallback
@@ -148,6 +151,7 @@ proxy-groups:
     proxies:
       - '🇫🇮FI | vless | @ipV2Ray | 18'
       - '🇫🇮FI | vless | @Capital_NET | 47'
+      - '🇩🇪DE | vless | @forwardv2ray | 19'
       - '🇸🇪SE | vless | @kiava | 6'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
