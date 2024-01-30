@@ -152,7 +152,8 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🏳️XX | vless | @Capital_NET | 48",
-                "🇨🇦CA | vless | @FreakConfig | 9",
+                "🇨🇦CA | vless | @FreakConfig | 10",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -216,7 +217,8 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🏳️XX | vless | @Capital_NET | 48",
-                "🇨🇦CA | vless | @FreakConfig | 9",
+                "🇨🇦CA | vless | @FreakConfig | 10",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇺🇸US | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1472,9 +1474,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 9",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 10",
             "type": "vless",
-            "server": "172.67.73.163",
+            "server": "172.67.19.244",
             "server_port": 80,
             "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
@@ -1486,9 +1488,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/@FreakConfig",
+                "path": "\/path\/TELEGRAM-PROXY_MTM",
                 "headers": {
-                    "Host": "172.67.73.163"
+                    "Host": "172.67.19.244"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.19.101.129",
+            "server_port": 2052,
+            "uuid": "21b24532-9d4b-48b1-9014-c34758f83f3e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.19.101.129"
                 }
             }
         },
