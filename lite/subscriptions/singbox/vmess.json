@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
@@ -113,7 +114,6 @@
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 13",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -121,6 +121,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
@@ -128,7 +129,6 @@
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇷IR | vmess | @forwardv2ray | 13",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -150,6 +150,40 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
+            "server": "198.41.192.174",
+            "server_port": 443,
+            "uuid": "d61bc4e4-8af4-4ca4-a655-392f6b08460c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hajalipanell.v2raypanell.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fBB9TuCG0IPgGqmgbWQRdvK",
+                "headers": {
+                    "Host": "hajalipanell.v2raypanell.ir"
+                }
+            }
         },
         {
             "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -282,23 +316,6 @@
                 "headers": {
                     "Host": "ca2.xv2ray.net"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 13",
-            "type": "vmess",
-            "server": "SwiT.RoyalV.shop",
-            "server_port": 13915,
-            "uuid": "102d7ab9-c535-47ae-843f-717f696502bc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
