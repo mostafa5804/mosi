@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇿CZ | vmess | @DeamNet_Proxy | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -123,12 +123,12 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇿CZ | vmess | @DeamNet_Proxy | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 7",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @yaney_01 | 9",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇮🇷IR | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -186,11 +186,11 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "94.131.97.10",
+            "server": "47.89.192.94",
             "server_port": 80,
-            "uuid": "13c4fa1d-c558-4cd0-8108-c1f64cd399ff",
+            "uuid": "301d815f-a02a-4c2c-a424-b16cf0a241ae",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -203,9 +203,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/4a5yXsGODBM1cvl9TzyF0SHR3v",
                 "headers": {
-                    "Host": "94.131.97.10"
+                    "Host": "47.89.192.94"
                 }
             }
         },
@@ -215,23 +215,6 @@
             "server": "141.94.86.92",
             "server_port": 10050,
             "uuid": "9b3b40c1-3b11-4094-8553-a02f2e01f24c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "5.78.90.225",
-            "server_port": 8081,
-            "uuid": "611a72fa-8696-482e-88f1-576909c09394",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -298,6 +281,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "nina.bond",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nina.bond"
                 }
             }
         },
