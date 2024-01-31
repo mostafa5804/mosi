@@ -161,13 +161,13 @@
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 4",
+                "🇺🇸US | vless | @Outlinev2rayNG | 3",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 10",
+                "🇬🇧GB | ss | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -243,13 +243,13 @@
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vless | @fnet00 | 10",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 4",
+                "🇺🇸US | vless | @Outlinev2rayNG | 3",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇫🇮FI | vless | @Capital_NET | 47",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇩🇪DE | vless | @forwardv2ray | 10",
+                "🇬🇧GB | ss | @forwardv2ray | 11",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1686,11 +1686,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 4",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 3",
             "type": "vless",
-            "server": "pydar.banndedd.ir",
-            "server_port": 8080,
-            "uuid": "0f77bca7-7b56-47d0-b188-478411b1f0a7",
+            "server": "190.93.245.101",
+            "server_port": 80,
+            "uuid": "0163d4ca-7f61-4d1b-9bb7-df8ade020df6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1702,7 +1702,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "pydar.banndedd.ir"
+                    "Host": "190.93.245.101"
                 }
             }
         },
@@ -1850,33 +1850,14 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 10",
-            "type": "vless",
-            "server": "munich.butterfly-galaxy.com",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 11",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
-            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "analytics.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
-                    "short_id": "c741ad33"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 14",
