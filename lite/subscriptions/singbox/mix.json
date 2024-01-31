@@ -168,7 +168,7 @@
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -250,7 +250,7 @@
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 17",
-                "🏳️XX | vmess | @forwardv2ray | 18",
+                "🇬🇧GB | ss | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1679,7 +1679,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "a38fb62e-4795-4f56-8eda-42b1c87ad114",
+            "uuid": "559d5c1c-7bd9-41b2-b856-7ab263ff4aa5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1881,38 +1881,14 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "series-a2.samanehha.co",
             "server_port": 443,
-            "uuid": "b4516937-0d54-4c36-8d40-148e28659335",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 14",
