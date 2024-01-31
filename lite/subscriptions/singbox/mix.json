@@ -168,7 +168,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇸🇪SE | trojan | @forwardv2ray | 16",
+                "🇸🇪SE | vless | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -251,7 +251,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇸🇪SE | trojan | @forwardv2ray | 16",
+                "🇸🇪SE | vless | @forwardv2ray | 8",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -1873,11 +1873,13 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @forwardv2ray | 16",
-            "type": "trojan",
-            "server": "13.51.19.202",
+            "tag": "🇸🇪SE | vless | @forwardv2ray | 8",
+            "type": "vless",
+            "server": "16.16.112.114",
             "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1885,12 +1887,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
