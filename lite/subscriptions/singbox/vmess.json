@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇷🇼RW | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
                 "🇬🇷GR | vmess | @oneclickvpnkeys | 8",
@@ -119,6 +120,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇷🇼RW | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
                 "🇬🇷GR | vmess | @oneclickvpnkeys | 8",
@@ -146,6 +148,23 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇷🇼RW | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
+            "server": "cloudbscrwanda.ednovas.org",
+            "server_port": 22222,
+            "uuid": "e4c9dc48-f9dc-4d9b-9318-a3933d113736",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
