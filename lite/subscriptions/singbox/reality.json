@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
-                "🇩🇪DE | vless | @V2RayTz | 17",
+                "🇫🇮FI | vless | @v2ray_swhil | 22",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🏳️XX | vless | @FreakConfig | 4",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
@@ -120,8 +121,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
-                "🇩🇪DE | vless | @V2RayTz | 17",
+                "🇫🇮FI | vless | @v2ray_swhil | 22",
                 "🇩🇪DE | vless | @Capoit | 3",
                 "🏳️XX | vless | @FreakConfig | 4",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
@@ -148,6 +150,42 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 13",
+            "type": "vless",
+            "server": "49.13.90.184",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "salatin.store",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7IfRy9IOyqWaxU2kNaUAW_ONHkcSACdfihbSdkLh2yk",
+                    "short_id": "e4154192"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
@@ -186,11 +224,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 17",
+            "tag": "🇫🇮FI | vless | @v2ray_swhil | 22",
             "type": "vless",
-            "server": "162.55.39.57",
+            "server": "95.216.170.113",
             "server_port": 443,
-            "uuid": "2bf2eda3-0f30-4764-a983-98a1d4533be5",
+            "uuid": "691a087a-f23c-4162-99f5-6d3270a08108",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -200,7 +238,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "salatin.store",
+                "server_name": "greenpepper.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -209,13 +247,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Z58-lpuE3uNKz8ilN7pWQkelFb_ZoxFxAeCWJRW--Gg",
-                    "short_id": "947d0d57"
+                    "public_key": "XjP7jAIA1Y0QmNnNMlUGKsQnkP4HpbZtU5yPqesorm8",
+                    "short_id": "54052ca6"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
