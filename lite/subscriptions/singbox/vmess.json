@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
-                "🇵🇭PH | vmess | @DeamNet_Proxy | 19",
-                "🇬🇷GR | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇬🇷GR | vmess | @oneclickvpnkeys | 8",
                 "🇧🇭BH | vmess | @yaney_01 | 8",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10"
             ]
         },
@@ -122,11 +123,12 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
-                "🇵🇭PH | vmess | @DeamNet_Proxy | 19",
-                "🇬🇷GR | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇬🇷GR | vmess | @oneclickvpnkeys | 8",
                 "🇧🇭BH | vmess | @yaney_01 | 8",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -191,11 +193,11 @@
             }
         },
         {
-            "tag": "🇵🇭PH | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "109.248.25.59",
-            "server_port": 29064,
-            "uuid": "8958440c-aa86-4ff1-8e88-5c7a052d5961",
+            "server": "us3e-mmnnfr9dop0.v2freevpn.com",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,14 +210,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ss",
+                "path": "\/v118-fccxmxm35",
                 "headers": {
-                    "Host": "109.248.25.59"
+                    "Host": "us3e-mmnnfr9dop0.v2freevpn.com"
                 }
             }
         },
         {
-            "tag": "🇬🇷GR | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇬🇷GR | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "94.131.8.32",
             "server_port": 8880,
@@ -310,6 +312,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "104.22.51.162",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
