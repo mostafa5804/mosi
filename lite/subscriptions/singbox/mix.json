@@ -115,7 +115,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 22",
@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 41",
                 "🇨🇦CA | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇫🇮FI | vless | @v2ray_swhil | 21",
+                "🇨🇦CA | vless | @v2ray_swhil | 22",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -164,6 +164,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 11",
+                "🇫🇮FI | ss | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -195,7 +196,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
                 "🇨🇦CA | vless | @rxv2ray | 14",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇺🇸US | vless | @lightning6 | 28",
+                "🇨🇷CR | vless | @lightning6 | 28",
                 "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇷CR | vless | @DigiV2ray | 22",
@@ -222,7 +223,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 41",
                 "🇨🇦CA | vless | @ServerNett | 10",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇫🇮FI | vless | @v2ray_swhil | 21",
+                "🇨🇦CA | vless | @v2ray_swhil | 22",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇮🇷IR | vless | @v2ray1_ng | 3",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -244,6 +245,7 @@
                 "🇩🇪DE | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 11",
+                "🇫🇮FI | ss | @forwardv2ray | 18",
                 "🇬🇧GB | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 13",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
@@ -531,7 +533,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 28",
+            "tag": "🇨🇷CR | vless | @lightning6 | 28",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1250,17 +1252,24 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @v2ray_swhil | 21",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 22",
             "type": "vless",
-            "server": "reza.mrv2ray.com",
-            "server_port": 443,
-            "uuid": "ID---TUNELSERVER---",
+            "server": "edgu.pureboy.eu.org",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "edgu.pureboy.eu.org"
+                }
             }
         },
         {
@@ -1758,6 +1767,16 @@
                     "Host": "tel.VPNCUSTOMIZE.cam"
                 }
             }
+        },
+        {
+            "tag": "🇫🇮FI | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "45.159.249.7",
+            "server_port": 31803,
+            "method": "chacha20-ietf-poly1305",
+            "password": "llRQSxw3erJhCElYdwks12",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | vless | @FAKEOFTVC | 4",
