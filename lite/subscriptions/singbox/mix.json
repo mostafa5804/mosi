@@ -164,8 +164,8 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
-                "🏳️XX | vless | @FreakConfig | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 6",
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇳🇱NL | vmess | @forwardv2ray | 10",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -243,8 +243,8 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
-                "🏳️XX | vless | @FreakConfig | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 6",
+                "🇨🇦CA | vless | @FreakConfig | 5",
+                "🇳🇱NL | vmess | @forwardv2ray | 10",
                 "🇩🇪DE | vless | @FAKEOFTVC | 4",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 5",
@@ -1337,7 +1337,7 @@
             "type": "vless",
             "server": "78.47.198.99",
             "server_port": 443,
-            "uuid": "717dc04f-b838-4999-a006-2199eab5c714",
+            "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1356,8 +1356,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "oQC3BbnZ1yNgRHXF1z3B_zEwv1tIClsHDVzDXOHY5xw",
-                    "short_id": "c2bd6f04"
+                    "public_key": "msTPLgzvYs8r_Nww-HHQG5Cbj8VEwYjwsFVCuwdSZk8",
+                    "short_id": "9d2b63ad"
                 }
             },
             "transport": {
@@ -1780,12 +1780,12 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @FreakConfig | 6",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
             "type": "vless",
-            "server": "[2a01:4f9:c010:6fb9::1f]",
+            "server": "lol.ps",
             "server_port": 443,
-            "uuid": "1e7e5bfa-2386-471f-81f9-c080a124c94f",
-            "flow": "xtls-rprx-vision",
+            "uuid": "44c2580b-5764-4d4c-a4b3-07fba7159c09",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1794,45 +1794,53 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gsmarena.com",
+                "server_name": "m3hd1h03e1n1poxv2.drapico.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw",
-                    "short_id": "32d7a82d"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@Everyday_VPN",
+                "service_name": "@FreakConfig@FreakConfig@FreakConfig@FreakConfig@FreakConfig@FreakConfig",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 6",
-            "type": "vless",
-            "server": "104.21.59.144",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 10",
+            "type": "vmess",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "1569b87b-e5f5-42bd-8761-6425d5663722",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kansas.gafn.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "104.21.59.144"
+                    "Host": "kansas.gafn.online"
                 }
             }
         },
