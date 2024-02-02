@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇩🇪DE | vless | @v2ray_swhil | 17",
-                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -120,7 +119,6 @@
             "outbounds": [
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 5",
                 "🇩🇪DE | vless | @v2ray_swhil | 17",
-                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 5",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -215,35 +213,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "finland.nodes.mrzb.artydev.ru",
-            "server_port": 8443,
-            "uuid": "518aa910-411c-421a-9cae-7fd90ece7752",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
             }
         },
         {
