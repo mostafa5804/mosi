@@ -112,7 +112,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 13",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 9",
                 "🏳️XX | vmess | @SINABIGO | 6"
@@ -128,7 +128,7 @@
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🏳️XX | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @forwardv2ray | 13",
+                "🏳️XX | vmess | @forwardv2ray | 18",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 9",
                 "🏳️XX | vmess | @SINABIGO | 6"
@@ -287,11 +287,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 13",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "104.22.51.162",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "f05516e7-7cd2-4731-86f4-9297bd11aa8a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -302,11 +302,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": ""
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
