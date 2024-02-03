@@ -167,7 +167,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇸🇪SE | trojan | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -247,7 +247,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇸🇪SE | trojan | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -1879,24 +1879,23 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @forwardv2ray | 18",
-            "type": "trojan",
-            "server": "13.53.233.16",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "trj.rollingnext.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.160"
                 }
             }
         },
