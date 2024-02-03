@@ -159,7 +159,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🏳️XX | vmess | @Hope_Net | 4",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🏳️XX | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇷CR | vless | @Outlinev2rayNG | 13",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 8",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vless | @MehradLearn | 7",
                 "🇨🇦CA | vless | @lrnbymaa | 13",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🏳️XX | vmess | @Hope_Net | 4",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🏳️XX | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇷CR | vless | @Outlinev2rayNG | 13",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇺🇸US | vless | @IRN_VPN | 1",
                 "🇨🇷CR | vless | @flyv2ray | 14",
-                "🇨🇦CA | vmess | @forwardv2ray | 8",
+                "🇳🇱NL | vless | @forwardv2ray | 18",
                 "🇷🇼RW | vmess | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇷CR | vless | @mehrosaboran | 13",
@@ -1686,7 +1686,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 4",
+            "tag": "🏳️XX | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1914,36 +1914,23 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 8",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "188.114.96.18",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "188.114.96.18"
                 }
             }
         },
