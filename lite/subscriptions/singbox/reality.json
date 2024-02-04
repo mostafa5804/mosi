@@ -106,9 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ipV2Ray | 15",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-                "🇩🇪DE | vless | @v2ray1_ng | 3",
+                "🇩🇪DE | vless | @ipV2Ray | 14",
+                "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -119,9 +118,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ipV2Ray | 15",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-                "🇩🇪DE | vless | @v2ray1_ng | 3",
+                "🇩🇪DE | vless | @ipV2Ray | 14",
+                "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
@@ -148,9 +146,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @ipV2Ray | 15",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 14",
             "type": "vless",
-            "server": "78.47.198.99",
+            "server": "188.34.194.108",
             "server_port": 443,
             "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
             "flow": "xtls-rprx-vision",
@@ -162,7 +160,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.google.com",
+                "server_name": "ftp.debian.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -171,7 +169,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "msTPLgzvYs8r_Nww-HHQG5Cbj8VEwYjwsFVCuwdSZk8",
+                    "public_key": "W6ol7KU4fjV1mBS2aG_xs8emIKsqF8y6Ufva-2MRa20",
                     "short_id": "9d2b63ad"
                 }
             },
@@ -184,43 +182,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "49.13.27.100",
-            "server_port": 443,
-            "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.gsmarena.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AQ_czQOq5paFHTJMjxD-uLklfIDCammNofaA8QggRjg",
-                    "short_id": "1fefa3a0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @v2ray1_ng | 3",
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "128.140.36.96",
             "server_port": 443,
