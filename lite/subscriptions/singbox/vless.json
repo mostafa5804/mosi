@@ -125,7 +125,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @customv2ray | 10",
-                "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
@@ -146,6 +145,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -184,7 +184,6 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @customv2ray | 10",
-                "🇨🇦CA | vless | @UnlimitedDev | 9",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
@@ -205,6 +204,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🏳️XX | vless | @Capoit | 6",
                 "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -754,27 +754,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 9",
-            "type": "vless",
-            "server": "bia-to2.unlimiteddev.site",
-            "server_port": 8880,
-            "uuid": "87065301-d59e-4038-af0f-306b2fbfc04c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev",
-                "headers": {
-                    "Host": "bia-to2.unlimiteddev.site"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @vmessorg | 7",
             "type": "vless",
             "server": "joinbede.be.vmessorg.online",
@@ -1266,6 +1245,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "www.visa.com.hk",
+            "server_port": 8443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test006.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "test006.pages.dev"
+                }
             }
         },
         {

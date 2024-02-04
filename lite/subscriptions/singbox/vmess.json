@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
+                "🇫🇮FI | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
@@ -123,7 +123,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
+                "🇫🇮FI | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
@@ -156,11 +156,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
+            "tag": "🇫🇮FI | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
-            "server": "31.47.45.133",
-            "server_port": 23610,
-            "uuid": "53b389bd-156e-4dc5-bf10-ff16f7628db8",
+            "server": "65.21.146.219",
+            "server_port": 80,
+            "uuid": "9bad1ce9-b1ad-470e-ebaa-4e9711b3f7c6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -170,6 +170,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "65.21.146.219"
+                }
             }
         },
         {
