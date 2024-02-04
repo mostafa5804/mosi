@@ -221,9 +221,9 @@
         {
             "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "104.18.202.250",
-            "server_port": 8080,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "server": "104.21.12.103",
+            "server_port": 443,
+            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -234,11 +234,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ming2.kiwireich.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/jahfkjha.cfd\/linkws",
+                "path": "\/ray",
                 "headers": {
-                    "Host": "104.18.202.250"
+                    "Host": "ming2.kiwireich.com"
                 }
             }
         },
