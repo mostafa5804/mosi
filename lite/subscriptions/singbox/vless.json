@@ -130,7 +130,7 @@
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 49",
+                "🇨🇦CA | vless | @ShadowProxy66 | 55",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
@@ -146,7 +146,8 @@
                 "🏳️XX | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇷CR | vless | @Capoit | 7",
-                "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇷CR | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -159,7 +160,7 @@
                 "🇨🇦CA | vless | @IBv2ray | 2",
                 "🇨🇷CR | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 13"
+                "🇨🇦CA | vless | @ROMAX_VPN | 13"
             ]
         },
         {
@@ -190,7 +191,7 @@
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 7",
                 "🇳🇱NL | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
-                "🇨🇦CA | vless | @ShadowProxy66 | 49",
+                "🇨🇦CA | vless | @ShadowProxy66 | 55",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
@@ -206,7 +207,8 @@
                 "🏳️XX | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇷CR | vless | @Capoit | 7",
-                "🏳️XX | vless | @flyv2ray | 16",
+                "🇨🇷CR | vless | @flyv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🇨🇷CR | vless | @mehrosaboran | 11",
@@ -219,7 +221,7 @@
                 "🇨🇦CA | vless | @IBv2ray | 2",
                 "🇨🇷CR | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | vless | @ROMAX_VPN | 13"
+                "🇨🇦CA | vless | @ROMAX_VPN | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -864,7 +866,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 49",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 55",
             "type": "vless",
             "server": "tsgnl.co",
             "server_port": 80,
@@ -1286,17 +1288,55 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @flyv2ray | 16",
+            "tag": "🇨🇷CR | vless | @flyv2ray | 17",
             "type": "vless",
-            "server": "V2RAXX",
-            "server_port": 0,
-            "uuid": "",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 80,
+            "uuid": "6167c341-b290-4bad-a03f-f3aecdb093f0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "shhproxy.varzesh3-cnd.site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "172.67.170.103",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/telegram@v2ray_alpha\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
             }
         },
         {
@@ -1592,7 +1632,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ROMAX_VPN | 13",
+            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 13",
             "type": "vless",
             "server": "198.41.192.118",
             "server_port": 80,
