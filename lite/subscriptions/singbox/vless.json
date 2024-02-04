@@ -123,6 +123,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 3",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -148,13 +149,13 @@
                 "🇮🇷IR | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇨🇷CR | vless | @Capoit | 7",
-                "🇬🇧GB | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
-                "🇨🇷CR | vless | @mehrosaboran | 9",
+                "🇨🇷CR | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @nofiltering2 | 7",
-                "🇩🇪DE | vless | @proxy_mtm | 9",
+                "🇩🇪DE | vless | @proxy_mtm | 10",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -185,6 +186,7 @@
                 "🇨🇦CA | vless | @DarkTeam_VPN | 6",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @servermomo | 3",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -210,13 +212,13 @@
                 "🇮🇷IR | vless | @Outlinev2rayNG | 10",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 13",
                 "🇨🇷CR | vless | @Capoit | 7",
-                "🇬🇧GB | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 6",
                 "🇨🇦CA | vless | @https_config_injector | 15",
-                "🇨🇷CR | vless | @mehrosaboran | 9",
+                "🇨🇷CR | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇨🇦CA | vless | @nofiltering2 | 7",
-                "🇩🇪DE | vless | @proxy_mtm | 9",
+                "🇩🇪DE | vless | @proxy_mtm | 10",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -723,6 +725,42 @@
                 "headers": {
                     "Host": "104.21.56.58"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "49.13.27.100",
+            "server_port": 443,
+            "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.gsmarena.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AQ_czQOq5paFHTJMjxD-uLklfIDCammNofaA8QggRjg",
+                    "short_id": "1fefa3a0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1340,17 +1378,34 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @flyv2ray | 15",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "95.179.228.222",
-            "server_port": 45408,
-            "uuid": "c59dd5d6-7f6f-4c3b-84cc-c4b1d1c91f5b",
+            "server": "zetashop1.we-pro.top",
+            "server_port": 8443,
+            "uuid": "0b4c5019-5d55-4dba-9fd8-a496e82c07e8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zetashop1.we-pro.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "zetashop1.we-pro.top"
+                }
             }
         },
         {
@@ -1406,7 +1461,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @mehrosaboran | 9",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 11",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 8080,
@@ -1477,7 +1532,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @proxy_mtm | 9",
+            "tag": "🇩🇪DE | vless | @proxy_mtm | 10",
             "type": "vless",
             "server": "128.140.36.96",
             "server_port": 443,
