@@ -109,6 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 9",
                 "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇸🇬SG | vless | @frev2ray | 3",
@@ -125,7 +126,7 @@
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
-                "🇳🇱NL | vless | @prrofile_purple | 164",
+                "🇩🇪DE | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
@@ -133,7 +134,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 63",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇷CR | vless | @proxyymeliii | 17",
+                "🇨🇷CR | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -168,6 +169,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 9",
                 "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇨🇷CR | vless | @VPNCUSTOMIZE | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇸🇬SG | vless | @frev2ray | 3",
@@ -184,7 +186,7 @@
                 "🇫🇷FR | vless | @azadi_az_inja_migzare | 10",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 16",
-                "🇳🇱NL | vless | @prrofile_purple | 164",
+                "🇩🇪DE | vless | @prrofile_purple | 173",
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @vmessorg | 7",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
@@ -192,7 +194,7 @@
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 63",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇷CR | vless | @proxyymeliii | 17",
+                "🇨🇷CR | vless | @proxyymeliii | 18",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -320,6 +322,37 @@
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | @VPNCUSTOMIZE | 13",
+            "type": "vless",
+            "server": "tel.VPNCUSTOMIZE.cam",
+            "server_port": 8443,
+            "uuid": "TEL-VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20ns2-V2ray.Vpncustomize.Com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE,@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -774,9 +807,9 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @prrofile_purple | 164",
+            "tag": "🇩🇪DE | vless | @prrofile_purple | 173",
             "type": "vless",
-            "server": "188.166.135.26",
+            "server": "209.38.188.68",
             "server_port": 8080,
             "uuid": "Telegram---V2ray_vpn_ir",
             "flow": "",
@@ -790,7 +823,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "188.166.135.26"
+                    "Host": "209.38.188.68"
                 }
             }
         },
@@ -972,7 +1005,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxyymeliii | 17",
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 18",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 80,
