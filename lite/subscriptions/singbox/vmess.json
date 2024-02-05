@@ -106,12 +106,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 3",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
@@ -120,12 +119,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 3",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
@@ -148,40 +146,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayCollectorDonate | 19",
-            "type": "vmess",
-            "server": "104.16.28.80",
-            "server_port": 443,
-            "uuid": "7c93426d-97e3-4fe6-83eb-572c0d321a0a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "s6.sqamazon.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/xmI6QnR7BkkEDjMYBIlRVO",
-                "headers": {
-                    "Host": "s6.sqamazon.com"
-                }
-            }
         },
         {
             "tag": "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -252,11 +216,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
+            "tag": "🏳️XX | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "172.67.187.109",
-            "server_port": 80,
-            "uuid": "2e87cebc-977b-4fec-b079-b1ddc55b19c8",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "caaacbb-caab-aabc-bacd-acccbabcbbaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -266,13 +230,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
