@@ -149,13 +149,12 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 11",
+                "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 2",
@@ -211,13 +210,12 @@
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 15",
                 "🏳️XX | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇹🇷TR | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 11",
+                "🇨🇦CA | vless | @kingofilter | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 2",
@@ -1130,9 +1128,9 @@
         {
             "tag": "🇨🇷CR | vless | @V2RayTz | 15",
             "type": "vless",
-            "server": "190.93.246.137",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMIZE-VPNCUSTOMIZE",
+            "server": "190.93.247.155",
+            "server_port": 2087,
+            "uuid": "0467c945-bac1-4041-8f9b-edc2ac7c9450",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1140,11 +1138,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "gmV2raybo.shhproxyfree.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "190.93.246.137"
+                    "Host": "gmV2raybo.shhproxyfree.com"
                 }
             }
         },
@@ -1361,37 +1369,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "upload.ir",
-            "server_port": 2096,
-            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnct.arvancode.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/bShq2qgG8GnX8zqm\/",
-                "headers": {
-                    "Host": "vpnct.arvancode.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "85.133.241.136",
@@ -1506,9 +1483,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @kingofilter | 11",
+            "tag": "🇨🇦CA | vless | @kingofilter | 10",
             "type": "vless",
-            "server": "104.19.174.72",
+            "server": "jp.xiaoshus.com",
             "server_port": 443,
             "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
             "flow": "",
@@ -1530,7 +1507,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/KINGOFILTER\/",
                 "headers": {
                     "Host": "pages.20230619.love"
                 }
