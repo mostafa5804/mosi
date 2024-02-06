@@ -157,6 +157,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -166,7 +167,8 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 4",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🇨🇦CA | vless | @IBv2ray | 2",
+                "🇺🇸US | vless | @IBv2ray | 2",
+                "🇺🇸US | tuic | @TUICity | 82",
                 "🇨🇷CR | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 5"
@@ -227,6 +229,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -236,7 +239,8 @@
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 4",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
-                "🇨🇦CA | vless | @IBv2ray | 2",
+                "🇺🇸US | vless | @IBv2ray | 2",
+                "🇺🇸US | tuic | @TUICity | 82",
                 "🇨🇷CR | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 5"
@@ -1533,6 +1537,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "k---join.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "k---join.outline-vpn.cloud"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "85.133.241.136",
@@ -1745,7 +1770,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @IBv2ray | 2",
+            "tag": "🇺🇸US | vless | @IBv2ray | 2",
             "type": "vless",
             "server": "104.21.31.30",
             "server_port": 80,
@@ -1763,6 +1788,29 @@
                 "headers": {
                     "Host": "104.21.31.30"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | tuic | @TUICity | 82",
+            "type": "tuic",
+            "server": "64.110.25.10",
+            "server_port": 11227,
+            "uuid": "764b539f-2d3c-4772-9731-5ebf6984af98",
+            "password": "dongtaiwang.com",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": false,
+            "heartbeat": "10s",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "disable_sni": false,
+                "server_name": "bing.com",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy\/3.1"
+                ]
             }
         },
         {
