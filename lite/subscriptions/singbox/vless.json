@@ -112,7 +112,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 13",
                 "🏳️XX | vless | @ipV2Ray | 13",
-                "🇨🇦CA | vless | @melov2ray | 6",
+                "🇨🇦CA | vless | @melov2ray | 8",
                 "🇸🇬SG | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇷CR | vless | @shh_proxy | 26",
@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -176,7 +176,7 @@
                 "🇬🇧GB | vless | @VlessConfig | 14",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 13",
                 "🏳️XX | vless | @ipV2Ray | 13",
-                "🇨🇦CA | vless | @melov2ray | 6",
+                "🇨🇦CA | vless | @melov2ray | 8",
                 "🇸🇬SG | vless | @frev2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇨🇷CR | vless | @shh_proxy | 26",
@@ -214,7 +214,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -416,11 +416,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 6",
+            "tag": "🇨🇦CA | vless | @melov2ray | 8",
             "type": "vless",
-            "server": "iP.mEloV2raY.shOp",
-            "server_port": 443,
-            "uuid": "994c2b53-b679-4bde-83fd-96a1171303aa",
+            "server": "de.melov2ray.shop",
+            "server_port": 2083,
+            "uuid": "1f571eb4-5c75-46a7-adab-ce75cd8d9067",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -428,11 +428,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "De.Melov2ray.Shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/melov2ray",
+                "path": "\/@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray",
                 "headers": {
-                    "Host": "iP.mEloV2raY.shOp"
+                    "Host": "De.Melov2ray.Shop"
                 }
             }
         },
@@ -1383,11 +1393,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "172.67.73.38",
-            "server_port": 8080,
-            "uuid": "--joinservernett--",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "a25d797e-d528-48fa-9e43-6e22ec565026",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1397,9 +1407,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
                 "headers": {
-                    "Host": "172.67.73.38"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
