@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -216,7 +216,7 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇳🇱NL | vless | @FAKEOFTVC | 3",
                 "🇨🇦CA | vless | @https_config_injector | 16",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -1409,11 +1409,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "lol.ps",
-            "server_port": 443,
-            "uuid": "For-Freedom",
+            "server": "port80--join.outline-vpn.cloud",
+            "server_port": 2095,
+            "uuid": "0fe4ea2c-9353-4b48-9f91-0c2fd1724c1e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1421,14 +1421,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "apps.x4azadi.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/父亲",
+                "headers": {
+                    "Host": "port80--join.outline-vpn.cloud"
                 }
             }
         },
