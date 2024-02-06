@@ -132,9 +132,9 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇬🇧GB | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
-                "🇩🇪DE | vless | @ShadowProxy66 | 50",
+                "🇨🇦CA | vless | @ShadowProxy66 | 47",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇷CR | vless | @proxyymeliii | 14",
+                "🇨🇷CR | vless | @proxyymeliii | 13",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -144,7 +144,7 @@
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
-                "🇨🇦CA | vless | @polproxy | 13",
+                "🇨🇦CA | vless | @polproxy | 12",
                 "🇺🇸US | vless | @Outlinev2rayNG | 8",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @Capoit | 7",
@@ -193,9 +193,9 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
                 "🇬🇧GB | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
-                "🇩🇪DE | vless | @ShadowProxy66 | 50",
+                "🇨🇦CA | vless | @ShadowProxy66 | 47",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 5",
-                "🇨🇷CR | vless | @proxyymeliii | 14",
+                "🇨🇷CR | vless | @proxyymeliii | 13",
                 "🇨🇦CA | vless | @MsV2ray | 17",
                 "🇩🇪DE | vless | @v2ray1_ng | 4",
                 "🇮🇷IR | vless | @vless_vmess | 3",
@@ -205,7 +205,7 @@
                 "🏳️XX | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 14",
                 "🇨🇦CA | vless | @proxystore11 | 14",
-                "🇨🇦CA | vless | @polproxy | 13",
+                "🇨🇦CA | vless | @polproxy | 12",
                 "🇺🇸US | vless | @Outlinev2rayNG | 8",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
                 "🇨🇦CA | vless | @Capoit | 7",
@@ -951,31 +951,23 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ShadowProxy66 | 50",
+            "tag": "🇨🇦CA | vless | @ShadowProxy66 | 47",
             "type": "vless",
-            "server": "45.147.7.13",
-            "server_port": 8443,
-            "uuid": "9f76cfec-2931-4f9b-a992-1c5ebc86f72a",
-            "flow": "xtls-rprx-vision",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QEfpfYwKLNiQMxe5kSTCMCsxeRj3KUjT7DCQ5lsKHQo",
-                    "short_id": "1a16f64f"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.160"
                 }
             }
         },
@@ -1011,11 +1003,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxyymeliii | 14",
+            "tag": "🇨🇷CR | vless | @proxyymeliii | 13",
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
-            "server_port": 2087,
-            "uuid": "3b64c59e-a312-4980-bbaa-9f84617ee054",
+            "server_port": 80,
+            "uuid": "30641a2e-95b8-45bb-bfb1-fc6293cc640f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1023,21 +1015,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "gmV2raybo.shhproxyfree.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "gmV2raybo.shhproxyfree.com"
+                    "Host": "shhproxy.varzesh3-cnd.site"
                 }
             }
         },
@@ -1262,11 +1244,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 13",
+            "tag": "🇨🇦CA | vless | @polproxy | 12",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "559d5c1c-7bd9-41b2-b856-7ab263ff4aa5",
+            "server": "172.67.153.213",
+            "server_port": 2087,
+            "uuid": "b25d7b73-4e17-4fe9-93b8-cfc90254d47a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1274,12 +1256,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "hu.moienmusic.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
