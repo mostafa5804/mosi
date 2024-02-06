@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🇫🇮FI | vless | @Capoit | 3",
-                "🏳️XX | vless | @FAKEOFTVC | 4",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -120,7 +121,8 @@
             "outbounds": [
                 "🇩🇪DE | vless | @NIM_VPN_ir | 8",
                 "🇫🇮FI | vless | @Capoit | 3",
-                "🏳️XX | vless | @FAKEOFTVC | 4",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
+                "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -211,7 +213,36 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @FAKEOFTVC | 4",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "185.242.86.156",
+            "server_port": 443,
+            "uuid": "6c3cd88a-54da-4ab6-9a65-e6ee880ddc78",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sfnjE7zzQhrk7OCM5eVRYkPkITbP9pfIyAcJK1QawRs",
+                    "short_id": "f033b9d6"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @FAKEOFTVC | 5",
             "type": "vless",
             "server": "uim-98com.bezanimikhori.shop",
             "server_port": 8080,
