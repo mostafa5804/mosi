@@ -130,7 +130,7 @@ proxies:
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 7","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 16","type":"vmess","server":"jahfkjha.cfd","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"1","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🇳🇱NL | vmess | @forwardv2ray | 18","type":"vmess","server":"188.114.97.7","port":"443","cipher":"auto","uuid":"107620b9-0a6a-49bf-940a-25c17c361b66","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"kansas.gafn.online"}}}
+  - {"name":"🇸🇪SE | ss | @forwardv2ray | 16","type":"ss","server":"16.171.7.213","port":8080,"password":"gIDjikonlMHeTKfcWegYcKVYeYNM9SKP/UrvtVIgA98=","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -149,7 +149,7 @@ proxy-groups:
       - '🇨🇳CN | trojan | @yaney_01 | 7'
       - '🇨🇦CA | vmess | @Hope_Net | 16'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇳🇱NL | vmess | @forwardv2ray | 18'
+      - '🇸🇪SE | ss | @forwardv2ray | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -168,7 +168,7 @@ proxy-groups:
       - '🇨🇳CN | trojan | @yaney_01 | 7'
       - '🇨🇦CA | vmess | @Hope_Net | 16'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇳🇱NL | vmess | @forwardv2ray | 18'
+      - '🇸🇪SE | ss | @forwardv2ray | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -186,7 +186,7 @@ proxy-groups:
       - '🇨🇳CN | trojan | @yaney_01 | 7'
       - '🇨🇦CA | vmess | @Hope_Net | 16'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇳🇱NL | vmess | @forwardv2ray | 18'
+      - '🇸🇪SE | ss | @forwardv2ray | 16'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
