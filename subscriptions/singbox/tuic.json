@@ -106,20 +106,22 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | tuic | @TUICity | 68",
-                "🇺🇸US | tuic | @TUICity | 69",
-                "🇳🇱NL | tuic | @TUICity | 80",
-                "🇩🇪DE | tuic | @TUICity | 81"
+                "🇺🇸US | tuic | @TUICity | 55",
+                "🇸🇪SE | tuic | @TUICity | 65",
+                "🇳🇱NL | tuic | @TUICity | 66",
+                "🇩🇪DE | tuic | @TUICity | 67",
+                "🇬🇧GB | tuic | @TUICity | 68"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | tuic | @TUICity | 68",
-                "🇺🇸US | tuic | @TUICity | 69",
-                "🇳🇱NL | tuic | @TUICity | 80",
-                "🇩🇪DE | tuic | @TUICity | 81"
+                "🇺🇸US | tuic | @TUICity | 55",
+                "🇸🇪SE | tuic | @TUICity | 65",
+                "🇳🇱NL | tuic | @TUICity | 66",
+                "🇩🇪DE | tuic | @TUICity | 67",
+                "🇬🇧GB | tuic | @TUICity | 68"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,30 +144,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | tuic | @TUICity | 68",
-            "type": "tuic",
-            "server": "64.176.186.193",
-            "server_port": 443,
-            "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
-            "password": "Mahsaamini",
-            "congestion_control": "bbr",
-            "udp_relay_mode": "native",
-            "zero_rtt_handshake": false,
-            "heartbeat": "10s",
-            "network": "tcp",
-            "tls": {
-                "enabled": true,
-                "disable_sni": true,
-                "server_name": "",
-                "insecure": true,
-                "alpn": [
-                    "h3",
-                    "spdy\/3.1"
-                ]
-            }
-        },
-        {
-            "tag": "🇺🇸US | tuic | @TUICity | 69",
+            "tag": "🇺🇸US | tuic | @TUICity | 55",
             "type": "tuic",
             "server": "64.110.25.10",
             "server_port": 11227,
@@ -188,7 +167,30 @@
             }
         },
         {
-            "tag": "🇳🇱NL | tuic | @TUICity | 80",
+            "tag": "🇸🇪SE | tuic | @TUICity | 65",
+            "type": "tuic",
+            "server": "70.34.197.98",
+            "server_port": 443,
+            "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
+            "password": "crivAv10hAdr-fop4Lne",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": false,
+            "heartbeat": "10s",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "disable_sni": true,
+                "server_name": "",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy\/3.1"
+                ]
+            }
+        },
+        {
+            "tag": "🇳🇱NL | tuic | @TUICity | 66",
             "type": "tuic",
             "server": "209.250.254.198",
             "server_port": 443,
@@ -211,7 +213,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | tuic | @TUICity | 81",
+            "tag": "🇩🇪DE | tuic | @TUICity | 67",
             "type": "tuic",
             "server": "136.244.88.153",
             "server_port": 443,
@@ -226,6 +228,29 @@
                 "enabled": true,
                 "disable_sni": false,
                 "server_name": "www.apple.com",
+                "insecure": true,
+                "alpn": [
+                    "h3",
+                    "spdy\/3.1"
+                ]
+            }
+        },
+        {
+            "tag": "🇬🇧GB | tuic | @TUICity | 68",
+            "type": "tuic",
+            "server": "64.176.186.193",
+            "server_port": 443,
+            "uuid": "d1bb3aae-ace9-4b0f-9ae5-85ab73acbb43",
+            "password": "Mahsaamini",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "zero_rtt_handshake": false,
+            "heartbeat": "10s",
+            "network": "tcp",
+            "tls": {
+                "enabled": true,
+                "disable_sni": true,
+                "server_name": "",
                 "insecure": true,
                 "alpn": [
                     "h3",
