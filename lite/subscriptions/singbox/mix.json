@@ -125,15 +125,16 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vless | @prrofile_purple | 161",
                 "🇨🇷CR | vless | @ShadowSocks_s | 1",
                 "🇺🇸US | vmess | @customv2ray | 12",
-                "🏳️XX | vless | @vmessorg | 8",
+                "🇺🇸US | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
@@ -162,7 +163,6 @@
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🏳️XX | vless | @forwardv2ray | 12",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -200,15 +200,16 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 15",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | ss | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vless | @prrofile_purple | 161",
                 "🇨🇷CR | vless | @ShadowSocks_s | 1",
                 "🇺🇸US | vmess | @customv2ray | 12",
-                "🏳️XX | vless | @vmessorg | 8",
+                "🇺🇸US | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
@@ -237,7 +238,6 @@
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🏳️XX | vless | @forwardv2ray | 12",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -764,9 +764,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "99.80.206.60",
+            "server": "13.50.178.185",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -886,6 +886,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 161",
+            "type": "vless",
+            "server": "104.22.51.162",
+            "server_port": 80,
+            "uuid": "-----WS-ipV2Ray-----",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.22.51.162"
+                }
+            }
+        },
+        {
             "tag": "🇨🇷CR | vless | @ShadowSocks_s | 1",
             "type": "vless",
             "server": "tel.VPNCUSTOMIZE.cam",
@@ -941,7 +962,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vmessorg | 8",
+            "tag": "🇺🇸US | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.be.vmessorg.online",
             "server_port": 8880,
@@ -1670,20 +1691,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @forwardv2ray | 12",
-            "type": "vless",
-            "server": "best2.channeltest.site",
-            "server_port": 9999,
-            "uuid": "0144c95a-236d-4868-9519-d1198bd090ec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
