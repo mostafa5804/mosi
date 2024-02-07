@@ -130,7 +130,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 9",
                 "🇨🇷CR | vless | @prrofile_purple | 180",
                 "🇨🇷CR | vless | @ShadowSocks_s | 7",
@@ -156,7 +155,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @polproxy | 13",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
@@ -165,7 +164,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 9",
-                "🇵🇱PL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -209,7 +208,6 @@
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | ss | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 9",
                 "🇨🇷CR | vless | @prrofile_purple | 180",
                 "🇨🇷CR | vless | @ShadowSocks_s | 7",
@@ -235,7 +233,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vless | @polproxy | 13",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 10",
@@ -244,7 +242,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 9",
-                "🇵🇱PL | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -904,16 +902,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 19",
-            "type": "shadowsocks",
-            "server": "38.75.136.135",
-            "server_port": 5601,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
             "tag": "🇨🇷CR | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
             "server": "mci.mordad.shop",
@@ -1495,7 +1483,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
             "type": "vmess",
             "server": "server4.beheshtbaneh.com",
             "server_port": 8880,
@@ -1745,31 +1733,23 @@
             }
         },
         {
-            "tag": "🇵🇱PL | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "ch1.amirali0013.monster",
-            "server_port": 34943,
-            "uuid": "cf8cdf42-8999-4d92-b669-78e8db5f68eb",
-            "flow": "xtls-rprx-vision",
+            "server": "104.31.16.160",
+            "server_port": 80,
+            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "36FItsfzNuuu10R3mmrFOThp-KmxCfx5SHxm82Qb9UQ",
-                    "short_id": "d222da96"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.160"
                 }
             }
         },
