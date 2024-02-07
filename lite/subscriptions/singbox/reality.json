@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇫🇮FI | vless | @v2ray_swhil | 32",
-                "🇩🇪DE | vless | @V2RayTz | 16",
+                "🇩🇪DE | vless | @DailyV2RY | 156",
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -119,8 +120,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇫🇮FI | vless | @v2ray_swhil | 32",
-                "🇩🇪DE | vless | @V2RayTz | 16",
+                "🇩🇪DE | vless | @DailyV2RY | 156",
                 "🇫🇮FI | vless | @Capoit | 5",
                 "🏳️XX | vless | @FAKEOFTVC | 5",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -146,6 +148,42 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
+            "type": "vless",
+            "server": "reryretjetjethe.ryeunegerwgbnwerghwrhrw.erhente.rovamask.top",
+            "server_port": 443,
+            "uuid": "bb5490a2-883d-47a6-e418-badade93ccba",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RtItUBzRjrYg054MeFKTBv4fpsN358uECTGeNTyNex0",
+                    "short_id": "315b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/\/\/v2raymask",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇫🇮FI | vless | @v2ray_swhil | 32",
@@ -184,11 +222,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 16",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 156",
             "type": "vless",
-            "server": "49.13.132.43",
+            "server": "piry.mrlsd.cloud",
             "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "84fb1497-0c8b-4430-bf59-041d9b6cb993",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -198,7 +236,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dnschecker.org",
+                "server_name": "telewebion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -207,13 +245,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "kmd587DHv-nfePGqQEjEjgFvJC23fxAw73ZN_qdZKV8",
-                    "short_id": "25970dd3"
+                    "public_key": "zsWK_BGXNk_u0-XQZI1pbVbT2bHFw1jQxp7Qa0UKATs",
+                    "short_id": "f377de91"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "service_name": "basalam.com",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
