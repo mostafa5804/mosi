@@ -106,13 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
+                "🇳🇱NL | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 7"
             ]
         },
@@ -120,13 +120,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
+                "🇳🇱NL | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
-                "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -150,11 +150,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vmess | @V2rayCollectorDonate | 19",
+            "tag": "🇳🇱NL | vmess | @V2rayCollectorDonate | 19",
             "type": "vmess",
-            "server": "23.88.122.107",
-            "server_port": 12707,
-            "uuid": "4b8b2641-be43-434d-8f38-639d7cf247f8",
+            "server": "188.114.96.11",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -164,6 +164,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -218,30 +225,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Cov2ray | 0",
-            "type": "vmess",
-            "server": "188.114.96.11",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vmess | @Hope_Net | 19",
             "type": "vmess",
             "server": "127.0.0.1",
@@ -279,6 +262,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "172.67.217.144",
+            "server_port": 80,
+            "uuid": "85674552-ce41-44d9-bb2a-50f76450b3d8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
