@@ -107,20 +107,20 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 10",
+                "🇳🇱NL | vless | @NIM_VPN_ir | 8",
                 "🇨🇦CA | vless | @XsV2ray | 14",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 14",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇺🇸US | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 14",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
@@ -163,7 +163,7 @@
                 "🏳️XX | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 7",
@@ -185,20 +185,20 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 10",
+                "🇳🇱NL | vless | @NIM_VPN_ir | 8",
                 "🇨🇦CA | vless | @XsV2ray | 14",
-                "🇬🇧GB | vless | @VlessConfig | 18",
+                "🇮🇪IE | vless | @VlessConfig | 18",
                 "🇨🇷CR | vless | @VPNCUSTOMIZE | 14",
                 "🇨🇦CA | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @frev2ray | 2",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇺🇸US | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @free_v2rayyy | 3",
-                "🇨🇷CR | vless | @lightning6 | 26",
+                "🇺🇸US | vless | @lightning6 | 26",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 8",
                 "🇨🇦CA | vless | @v2logy | 11",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 12",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 14",
                 "🇬🇧GB | trojan | @PrivateVPNs | 18",
@@ -241,7 +241,7 @@
                 "🏳️XX | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 7",
@@ -299,6 +299,35 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @NIM_VPN_ir | 8",
+            "type": "vless",
+            "server": "ch1.amirali0013.monster",
+            "server_port": 34943,
+            "uuid": "cf8cdf42-8999-4d92-b669-78e8db5f68eb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "36FItsfzNuuu10R3mmrFOThp-KmxCfx5SHxm82Qb9UQ",
+                    "short_id": "d222da96"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @XsV2ray | 14",
             "type": "vless",
             "server": "all.vipxali.cfd",
@@ -320,9 +349,9 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @VlessConfig | 18",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.135.234.174",
+            "server": "34.241.202.123",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -517,7 +546,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 26",
+            "tag": "🇺🇸US | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -662,20 +691,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "209.38.226.38",
-            "server_port": 8080,
-            "uuid": "5132767b-8c8c-43f5-b7cb-27f875d6389c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
             "server": "CDN.user.com",
@@ -730,7 +745,7 @@
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "13.42.120.190",
+            "server": "3.9.103.15",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -752,7 +767,7 @@
         {
             "tag": "🇬🇧GB | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "52.56.69.1",
+            "server": "3.10.251.224",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1132,7 +1147,7 @@
             "type": "vless",
             "server": "shhproxy.varzesh3-cnd.site",
             "server_port": 2087,
-            "uuid": "fb9adabb-ddcd-4d50-b1d7-9967e91bad9b",
+            "uuid": "b9514f87-50c8-4d0d-8243-9bb553a3d1d8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1649,16 +1664,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "104.21.51.208",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "104.18.202.209",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "f40e264c-98cf-4487-a80e-55cfb4ee9e03",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1666,7 +1678,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nina.bond",
+                "server_name": "MdVpnSec-V2rayNg-Free.snappfoodd.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1676,9 +1688,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "nina.bond"
+                    "Host": "MdVpnSec-V2rayNg-Free.snappfoodd.site"
                 }
             }
         },
