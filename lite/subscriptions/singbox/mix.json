@@ -159,7 +159,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 8",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇩🇪DE | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1542,11 +1542,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "93.123.17.137",
-            "server_port": 80,
-            "uuid": "c032f7f2-f8ad-4b07-bd33-920efd55ba2d",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "9df9dbf2-5a0b-427a-8574-cc11bda045ec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1557,11 +1557,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@forwardv2ray",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "sahar7.3utilities.com"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
