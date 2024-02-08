@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇪🇪EE | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇮🇳IN | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -166,7 +166,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 9",
-                "🇮🇹IT | vmess | @forwardv2ray | 17",
+                "🇮🇪IE | ss | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -233,7 +233,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇪🇪EE | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 16",
+                "🇮🇳IN | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 19",
@@ -247,7 +247,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 9",
-                "🇮🇹IT | vmess | @forwardv2ray | 17",
+                "🇮🇪IE | ss | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1412,11 +1412,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
+            "tag": "🇮🇳IN | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 2087,
-            "uuid": "12ef2fb8-4c06-4e9e-b1b6-0dbde357790b",
+            "server": "180.235.121.88",
+            "server_port": 25828,
+            "uuid": "4af0d6c5-1645-4b7b-d5ac-4d30e5473457",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1424,22 +1424,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "arguvpnnn.v2raycfz.cloud",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "www.speedtest.net",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "180.235.121.88"
+                }
             }
         },
         {
@@ -1729,28 +1719,14 @@
             }
         },
         {
-            "tag": "🇮🇹IT | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "95.164.46.154",
-            "server_port": 80,
-            "uuid": "431fda16-e0f8-4884-b4fd-965f03f86471",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
+            "tag": "🇮🇪IE | ss | @forwardv2ray | 17",
+            "type": "shadowsocks",
+            "server": "13.79.23.177",
+            "server_port": 37491,
+            "method": "chacha20-ietf-poly1305",
+            "password": "E1IyLyOlNLfQRPzIBCUJhH",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 7",
