@@ -106,30 +106,28 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 7"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🏳️XX | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 7"
+                "🇨🇦CA | vmess | @eliya_chiter0 | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -150,23 +148,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
-            "type": "vmess",
-            "server": "shop.begbliss.fun",
-            "server_port": 8081,
-            "uuid": "658cfa9e-9066-418d-b2aa-c76d9a252f51",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -200,30 +181,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "47.254.17.235",
-            "server_port": 80,
-            "uuid": "2caa5a0e-519b-4503-80d4-5363193e5018",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Ogl9djGbo2NTAt3Ovj1NvwjJ",
-                "headers": {
-                    "Host": "47.254.17.235"
-                }
             }
         },
         {
@@ -268,11 +225,45 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.21.25.0",
+            "server_port": 443,
+            "uuid": "45f63e92-f782-4cac-84b8-e61cb5a5bfd0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "adenc35.fixedlfoat.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "adenc35.fixedlfoat.top"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vmess | @Hope_Net | 18",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cbbaaac-abac-caab-bdac-cbaabcbabacc",
+            "uuid": "ababacc-aabc-caab-bcda-babccaabcabc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -309,7 +300,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 7",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 8",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
