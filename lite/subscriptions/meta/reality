@@ -127,6 +127,7 @@ proxies:
   - {"name":"🇫🇮FI | vless | @V2rayCollectorDonate | 19","type":"vless","server":"without.digikalashiraz.sbs","port":443,"udp":true,"uuid":"3c9815c6-6ca2-41a1-a110-7d81d6c52a94","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"7learn.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"vtDZUwb2kAvssvz2vfKH27G-PQ5u1WcqSD_cw47jVRQ","short-id":"fac65216"}}
   - {"name":"🇩🇪DE | vless | @prrofile_purple | 170","type":"vless","server":"116.202.99.47","port":49124,"udp":true,"uuid":"0448c6ea-34ce-487a-93be-8e57bd2f2fa8","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"dalan-group.de","reality-opts":{"public-key":"rBdocIQXi2MdXwQYubRsn4fTG1_3XMZiNgtn9u3yzwI","short-id":"0bf98883"}}
   - {"name":"🇫🇮FI | vless | @v2rayNG_Matsuri | 8","type":"vless","server":"65.109.203.49","port":10974,"udp":true,"uuid":"94fd9e77-1804-4d25-a8e1-c5b5ba514063","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"Chir","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"QbLsx0oV7dQVz4wXbm1ggmEVQ_bQKqiWHXa1sjsntGM","short-id":"9c55cb07"}}
+  - {"name":"🇫🇮FI | vless | @ConfigsHUB | 18","type":"vless","server":"fi-01.allhub.ltd","port":443,"udp":true,"uuid":"9e6e8844-5eca-4e7e-b02e-235234521658","tls":true,"network":"grpc","client-fingerprint":"randomized","servername":"www.speedtest.net","reality-opts":{"public-key":"MZdzrFI1TPMrqDmtAuEsQjGGe0scA9mmMSWevCY33h4","short-id":"6c92dc78"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -140,6 +141,7 @@ proxy-groups:
       - '🇫🇮FI | vless | @V2rayCollectorDonate | 19'
       - '🇩🇪DE | vless | @prrofile_purple | 170'
       - '🇫🇮FI | vless | @v2rayNG_Matsuri | 8'
+      - '🇫🇮FI | vless | @ConfigsHUB | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -153,6 +155,7 @@ proxy-groups:
       - '🇫🇮FI | vless | @V2rayCollectorDonate | 19'
       - '🇩🇪DE | vless | @prrofile_purple | 170'
       - '🇫🇮FI | vless | @v2rayNG_Matsuri | 8'
+      - '🇫🇮FI | vless | @ConfigsHUB | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -165,6 +168,7 @@ proxy-groups:
       - '🇫🇮FI | vless | @V2rayCollectorDonate | 19'
       - '🇩🇪DE | vless | @prrofile_purple | 170'
       - '🇫🇮FI | vless | @v2rayNG_Matsuri | 8'
+      - '🇫🇮FI | vless | @ConfigsHUB | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
