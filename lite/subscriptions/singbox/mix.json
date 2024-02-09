@@ -132,7 +132,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 172",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 27",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 16",
@@ -165,6 +165,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 5",
@@ -213,7 +214,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 172",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🇺🇸US | vless | @vmessorg | 8",
+                "🏳️XX | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 27",
@@ -232,7 +233,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 11",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 16",
@@ -246,6 +247,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 5",
@@ -968,7 +970,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 8",
+            "tag": "🏳️XX | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1391,20 +1393,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "116.202.18.146",
-            "server_port": 8081,
-            "uuid": "5d45e764-3216-464f-9e86-358d10c58c46",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "X4azadi-mci",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/X4azadi",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1698,6 +1704,37 @@
                 "headers": {
                     "Host": "shhproxy.varzesh3-cnd.site"
                 }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 2083,
+            "uuid": "3c110307-dcf0-4002-b944-6d2c9530dd23",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.zedmodeon.lat",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
