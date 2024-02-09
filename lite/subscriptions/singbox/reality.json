@@ -107,10 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇳🇱NL | vless | @NIM_VPN_ir | 9",
+                "🇩🇪DE | vless | @ipV2Ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇷🇴RO | vless | @proxyymeliii | 19",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -122,10 +121,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇳🇱NL | vless | @NIM_VPN_ir | 9",
+                "🇩🇪DE | vless | @ipV2Ray | 12",
                 "🇩🇪DE | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
-                "🇷🇴RO | vless | @proxyymeliii | 19",
-                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -178,6 +176,42 @@
                     "public_key": "36FItsfzNuuu10R3mmrFOThp-KmxCfx5SHxm82Qb9UQ",
                     "short_id": "d222da96"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 12",
+            "type": "vless",
+            "server": "23.88.47.9",
+            "server_port": 443,
+            "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9o7f3Rkn6BUL_emZVS6yMoVu8OoTozpOKlkc7JaUSQ8",
+                    "short_id": "1fefa3a0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -250,71 +284,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇷🇴RO | vless | @proxyymeliii | 19",
-            "type": "vless",
-            "server": "188.241.240.230",
-            "server_port": 20044,
-            "uuid": "a598099f-5032-475d-8826-3bfac5e042b3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "www.speedtest.org",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "irancell3--join.outline-vpn.cloud",
-            "server_port": 39155,
-            "uuid": "0cfa4b89-a6d8-4648-9048-78b24171c508",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9C4r-zqFJAiGkQaI5ls5MzvDeoCcBgh310pMudFjMhc",
-                    "short_id": "07885b9d"
-                }
             }
         },
         {
