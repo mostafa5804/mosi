@@ -126,7 +126,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇮🇷IR | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🏳️XX | vless | @vmessorg | 8",
+                "🇺🇸US | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
@@ -138,8 +138,8 @@
                 "🇨🇷CR | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 7",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @lrnbymaa | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -149,7 +149,7 @@
                 "🇮🇷IR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
@@ -187,7 +187,7 @@
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇮🇷IR | vless | @customv2ray | 8",
                 "🇨🇦CA | vless | @UnlimitedDev | 5",
-                "🏳️XX | vless | @vmessorg | 8",
+                "🇺🇸US | vless | @vmessorg | 8",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
@@ -199,8 +199,8 @@
                 "🇨🇷CR | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 125",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @lrnbymaa | 7",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @lrnbymaa | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -210,7 +210,7 @@
                 "🇮🇷IR | vless | @Capoit | 4",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 8",
                 "🇨🇷CR | vless | @https_config_injector | 13",
                 "🇸🇬SG | vless | @mehrosaboran | 14",
@@ -802,7 +802,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vmessorg | 8",
+            "tag": "🇺🇸US | vless | @vmessorg | 8",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1117,7 +1117,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 7",
+            "tag": "🇺🇸US | vless | @lrnbymaa | 7",
             "type": "vless",
             "server": "donald.pydri.ir",
             "server_port": 8080,
@@ -1138,11 +1138,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "141.101.113.110",
-            "server_port": 80,
-            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
+            "server": "172.67.182.110",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1150,11 +1150,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/path\/TELEGRAM-PROXY_MTM",
                 "headers": {
-                    "Host": "141.101.113.110"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1371,11 +1381,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "172.67.170.103",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "ip.persiancalendar.monster",
+            "server_port": 2096,
+            "uuid": "6eab8941-b67d-4d27-bb55-d707d79727c3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1385,7 +1395,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "yekta.persiancalendar.monster",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1395,9 +1405,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/telegramV2ray_Alpha\/",
+                "path": "\/w2",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "yekta.persiancalendar.monster"
                 }
             }
         },
