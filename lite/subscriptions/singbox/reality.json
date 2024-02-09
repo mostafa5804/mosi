@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇳🇱NL | vless | @NIM_VPN_ir | 9",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
-                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
                 "🏳️XX | vless | @v2ray_swhil | 28",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -122,7 +121,6 @@
             "outbounds": [
                 "🇳🇱NL | vless | @NIM_VPN_ir | 9",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
-                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @azadi_az_inja_migzare | 16",
                 "🏳️XX | vless | @v2ray_swhil | 28",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -209,42 +207,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 12",
-            "type": "vless",
-            "server": "v2ti.fun",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "asemooni.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xH7abqCI9aYGthLZjbpkGuznvYb0BANH8hDMNgdiVxk",
-                    "short_id": "c98b4712"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
