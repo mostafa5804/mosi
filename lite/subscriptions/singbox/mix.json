@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
+                "🇸🇪SE | trojan | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 16",
@@ -166,7 +166,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -235,7 +235,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 14",
+                "🇸🇪SE | trojan | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🏳️XX | vmess | @Hope_Net | 16",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 12",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -1420,26 +1420,24 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "server2.beheshtbaneh.com",
-            "server_port": 8880,
-            "uuid": "8420ee38-4cf6-4d79-a9ec-2731207cf83a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 16",
+            "type": "trojan",
+            "server": "13.50.206.26",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.miwan.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -1730,14 +1728,35 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "172.67.183.26",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 7",

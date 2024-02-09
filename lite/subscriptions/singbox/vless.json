@@ -150,6 +150,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -213,6 +214,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -1393,6 +1395,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "shhproxy.varzesh3-cnd.site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "172.67.183.26",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
