@@ -166,7 +166,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇬🇧GB | trojan | @forwardv2ray | 18",
+                "🏳️XX | vmess | @forwardv2ray | 7",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 11",
-                "🇬🇧GB | trojan | @forwardv2ray | 18",
+                "🏳️XX | vmess | @forwardv2ray | 7",
                 "🇨🇦CA | vless | @FAKEOFTVC | 7",
                 "🇨🇷CR | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 6",
@@ -1434,9 +1434,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "104.31.16.160",
-            "server_port": 80,
-            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "server": "104.21.64.117",
+            "server_port": 8080,
+            "uuid": "b00b62d3-80a2-40f4-92f2-f93f6cbbc96e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1446,9 +1446,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@x2rayn_vpnCDN?ed=2090",
                 "headers": {
-                    "Host": "104.31.16.160"
+                    "Host": "104.21.64.117"
                 }
             }
         },
@@ -1739,11 +1739,16 @@
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @forwardv2ray | 18",
-            "type": "trojan",
-            "server": "52.56.87.9",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "tag": "🏳️XX | vmess | @forwardv2ray | 7",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "4fa4a7c9-7cdf-401a-89bc-14d4fcb9dc2e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1751,12 +1756,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.miwan.co.uk",
+                "server_name": "Dusseldorf.kotick.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
