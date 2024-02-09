@@ -109,11 +109,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
+                "🇺🇸US | vmess | @customv2ray | 11",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇳🇱NL | vmess | @ConfigsHUB | 12",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 8"
+                "🇫🇷FR | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 7"
             ]
         },
         {
@@ -123,11 +124,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
+                "🇺🇸US | vmess | @customv2ray | 11",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇳🇱NL | vmess | @ConfigsHUB | 12",
                 "🏳️XX | vmess | @Hope_Net | 13",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 8"
+                "🇫🇷FR | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -211,11 +213,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Cov2ray | 0",
+            "tag": "🇺🇸US | vmess | @customv2ray | 11",
             "type": "vmess",
-            "server": "188.114.96.11",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "147.135.109.220",
+            "server_port": 25736,
+            "uuid": "e673739a-e824-4bbb-8af9-73c2bfa27d5e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -225,19 +227,12 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @ConfigsHUB | 12",
+            "tag": "🇳🇱NL | vmess | @Cov2ray | 0",
             "type": "vmess",
-            "server": "188.114.96.113",
+            "server": "188.114.96.11",
             "server_port": 80,
             "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
@@ -300,11 +295,28 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 8",
+            "tag": "🇫🇷FR | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "www.speedtest.net",
+            "server": "zxgold.saatbazar.com",
             "server_port": 80,
-            "uuid": "bia-vpn-whal-bia-toosh",
+            "uuid": "adc0cae2-f5b9-47d2-9703-30a2396f6aeb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 7",
+            "type": "vmess",
+            "server": "104.16.4.103",
+            "server_port": 443,
+            "uuid": "1f6d762e-b32e-4028-8291-4b81af1cd52c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -315,11 +327,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.free-best-ray.space",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@vpn-whal,@vpn-whal",
+                "path": "\/FSSSJJaPXI0ATHQ2RoRM",
                 "headers": {
-                    "Host": ""
+                    "Host": "cdn.free-best-ray.space"
                 }
             }
         }
