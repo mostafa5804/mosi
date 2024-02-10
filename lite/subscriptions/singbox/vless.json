@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇳🇱NL | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 17",
@@ -122,7 +123,6 @@
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 15",
-                "🏳️XX | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇮🇷IR | vless | @customv2ray | 8",
@@ -140,6 +140,7 @@
                 "🇨🇷CR | vless | @DailyV2RY | 129",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -150,11 +151,11 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇷CR | vless | @https_config_injector | 13",
-                "🇨🇦CA | vless | @mehrosaboran | 14",
+                "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 5",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 3",
@@ -168,6 +169,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 10",
+                "🇳🇱NL | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇬🇧GB | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 17",
@@ -183,7 +185,6 @@
                 "🇨🇦CA | vless | @v2logy | 12",
                 "🇨🇦CA | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 15",
-                "🏳️XX | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @prrofile_purple | 179",
                 "🇮🇷IR | vless | @customv2ray | 8",
@@ -201,6 +202,7 @@
                 "🇨🇷CR | vless | @DailyV2RY | 129",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 7",
+                "🇨🇦CA | vless | @ConfigsHUB | 13",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @fnet00 | 12",
                 "🇨🇦CA | vless | @polproxy | 12",
@@ -211,11 +213,11 @@
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇷CR | vless | @flyv2ray | 14",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇷CR | vless | @https_config_injector | 13",
-                "🇨🇦CA | vless | @mehrosaboran | 14",
+                "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇦CA | vless | @kingofilter | 5",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 3",
@@ -261,6 +263,35 @@
                 "path": "\/net?ed=2351",
                 "headers": {
                     "Host": "104.18.202.232"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @NIM_VPN_ir | 10",
+            "type": "vless",
+            "server": "ch1.amirali0013.monster",
+            "server_port": 34943,
+            "uuid": "cf8cdf42-8999-4d92-b669-78e8db5f68eb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "36FItsfzNuuu10R3mmrFOThp-KmxCfx5SHxm82Qb9UQ",
+                    "short_id": "d222da96"
                 }
             }
         },
@@ -681,35 +712,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.16.30.14"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @V2rayCollectorDonate | 19",
-            "type": "vless",
-            "server": "[0000:0000:0000:0000:0000:ffff:054b:c06c]",
-            "server_port": 443,
-            "uuid": "f282b575-60ec-4ddd-afb8-ea3b507fe8cb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.emirates.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SXvVCyjcyu-9UM-EBQkAuzN_A5bV6LyCCiJPI4L1D3E",
-                    "short_id": "3ae4eeb2"
                 }
             }
         },
@@ -1147,6 +1149,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "104.18.200.200",
+            "server_port": 2086,
+            "uuid": "073c769d-9a23-4333-bc97-7f3535a475d3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?Armin",
+                "headers": {
+                    "Host": "104.18.200.200"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "104.17.45.62",
@@ -1390,6 +1413,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.17.88.212",
+            "server_port": 443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/telegram@v2ray_alpha\/?ed",
+                "headers": {
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇷CR | vless | @https_config_injector | 13",
             "type": "vless",
             "server": "190.93.247.155",
@@ -1411,7 +1465,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 14",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 14",
             "type": "vless",
             "server": "104.31.16.136",
             "server_port": 2083,
@@ -1504,27 +1558,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @kingofilter | 5",
-            "type": "vless",
-            "server": "IT.IPSTOREIRAN.COM",
-            "server_port": 80,
-            "uuid": "f0821dd8-8a6d-4c2b-852e-fbefb02e2121",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/net",
-                "headers": {
-                    "Host": "IT.IPSTOREIRAN.COM"
-                }
             }
         },
         {
