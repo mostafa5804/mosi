@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 15",
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇳🇱NL | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 14",
@@ -115,7 +115,7 @@
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇳🇱NL | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 7",
@@ -137,7 +137,6 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇺🇸US | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
@@ -164,7 +163,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 15",
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇳🇱NL | vless | @NIM_VPN_ir | 10",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 14",
@@ -173,7 +172,7 @@
                 "🇨🇦CA | vless | @melov2ray | 11",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇺🇸US | vless | @Lockey_vpn | 12",
-                "🇺🇸US | vless | @lightning6 | 26",
+                "🇨🇷CR | vless | @lightning6 | 26",
                 "🇳🇱NL | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 7",
@@ -195,7 +194,6 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇺🇸US | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 3",
@@ -238,11 +236,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 12",
             "type": "vless",
-            "server": "104.22.41.69",
-            "server_port": 8080,
-            "uuid": "1732c28e-9328-4246-bed6-de522bb6e102",
+            "server": "104.18.200.200",
+            "server_port": 2086,
+            "uuid": "073c769d-9a23-4333-bc97-7f3535a475d3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -254,7 +252,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.22.41.69"
+                    "Host": "104.18.200.200"
                 }
             }
         },
@@ -485,7 +483,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 26",
+            "tag": "🇨🇷CR | vless | @lightning6 | 26",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1049,37 +1047,6 @@
                 "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.16.14.140",
-            "server_port": 2083,
-            "uuid": "db701871-ca88-4d0f-b15d-14f8d82fb8b0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "special-funicular.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "special-funicular.pages.dev"
                 }
             }
         },
