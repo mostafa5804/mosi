@@ -106,10 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ]
@@ -118,10 +120,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
             ],
@@ -144,6 +148,30 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
+            "server": "channel.iran-mehr14.ir",
+            "server_port": 8080,
+            "uuid": "c4bb3b21-81b7-4a0c-8f0d-36d6b865c926",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RL842FfWrFLaTjhd",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -224,6 +252,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 2087,
+            "uuid": "7564f8db-748a-4eb8-b8c9-754274cf564f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "arv.arvcloud.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "arv.arvcloud.ir"
                 }
             }
         },
