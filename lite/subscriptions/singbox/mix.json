@@ -128,7 +128,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇯🇵JP | vmess | @DeamNet_Proxy | 19",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🏳️XX | vless | @vmessorg | 8",
@@ -138,6 +138,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇨🇦CA | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇬🇧GB | vless | @v2ray_swhil | 25",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 7",
@@ -147,11 +148,10 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇫🇷FR | vmess | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 7",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -202,7 +202,7 @@
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇯🇵JP | vmess | @DeamNet_Proxy | 19",
+                "🇫🇷FR | ss | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🏳️XX | vless | @vmessorg | 8",
@@ -212,6 +212,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇨🇦CA | vless | @ServerNett | 11",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇬🇧GB | vless | @v2ray_swhil | 25",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇺🇸US | vless | @v2ray1_ng | 6",
                 "🇮🇷IR | vless | @vless_vmess | 7",
@@ -221,11 +222,10 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 15",
-                "🇫🇷FR | vmess | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 7",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -866,21 +866,14 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "152.69.197.60",
-            "server_port": 1069,
-            "uuid": "ac8e26fe-8150-4b60-ae64-82fc77eba2cf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
+            "tag": "🇫🇷FR | ss | @DeamNet_Proxy | 19",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 7001,
+            "method": "aes-256-gcm",
+            "password": "RexnBgU7EV5ADxG",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @prrofile_purple | 182",
@@ -1102,6 +1095,27 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @v2ray_swhil | 25",
+            "type": "vless",
+            "server": "185.162.228.3",
+            "server_port": 80,
+            "uuid": "2dcbb4f8-5435-4945-8488-edf3587a5f77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/backup",
+                "headers": {
+                    "Host": "185.162.228.3"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @MsV2ray | 14",
             "type": "vless",
             "server": "All.MsV2ray.online",
@@ -1306,27 +1320,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "146.59.204.6",
-            "server_port": 80,
-            "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "3.71.115.207",
+            "server_port": 41645,
+            "uuid": "0aaa3779-80d6-45c7-9989-fc35f0bbdfa1",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1380,27 +1384,6 @@
                 "path": "\/Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY-Telegram:@POLPROXY",
                 "headers": {
                     "Host": "check-host.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 7",
-            "type": "vless",
-            "server": "mtn.VPNPROSEC.com",
-            "server_port": 8080,
-            "uuid": "SVNTEAMs",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mtn.VPNPROSEC.com"
                 }
             }
         },
