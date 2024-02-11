@@ -118,31 +118,31 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇳🇱NL | ss | @V2rayCollectorDonate | 19","type":"ss","server":"shadoct.kingarvan.eu.org","port":8080,"password":"XlUFgoOqDlVqlZFD3Js0YA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 15","type":"ss","server":"212.113.106.243","port":12949,"password":"P2zxXPewlV3BlfqqYiSthvtLc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @forwardv2ray | 18","type":"ss","server":"[::ffff:d30:f819]","port":8080,"password":"xo3JPvvZF2uU31F+kTkPhxFZE6+bh40u+2bmDbHFaUs=","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇳🇱NL | ss | @V2rayCollectorDonate | 19'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
+      - '🏳️XX | ss | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇳🇱NL | ss | @V2rayCollectorDonate | 19'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
+      - '🏳️XX | ss | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇳🇱NL | ss | @V2rayCollectorDonate | 19'
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 15'
+      - '🏳️XX | ss | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
