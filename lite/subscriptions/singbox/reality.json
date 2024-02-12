@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🏳️XX | vless | @frev2ray | 1",
-                "🇩🇪DE | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vless | @DailyV2RY | 141",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -120,7 +120,7 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 15",
                 "🏳️XX | vless | @frev2ray | 1",
-                "🇩🇪DE | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | vless | @DailyV2RY | 141",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -218,11 +218,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 15",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 141",
             "type": "vless",
-            "server": "bountyhunterss.uk",
-            "server_port": 42519,
-            "uuid": "b958d73f-1f4d-4b63-a53f-92a3a9a170dd",
+            "server": "104.248.30.140",
+            "server_port": 443,
+            "uuid": "8c54ae83-682b-4a8a-b220-f1f7215911ec",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -232,7 +232,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "discord.com",
+                "server_name": "popapps.host",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -241,9 +241,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "E-5ej6vqNKf1Leohi26AJcEDK6EpS65LaqhmHDzQ-m0",
-                    "short_id": "c46b9c7b"
+                    "public_key": "2WzBUhzmjAvsdX26HZqjPXdHwwyobyDdgy-761x9LVI",
+                    "short_id": "5bf34d64"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
