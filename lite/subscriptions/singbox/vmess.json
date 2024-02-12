@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇫🇮FI | vmess | @ConfigsHUB | 15",
                 "🇧🇬BG | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
@@ -122,9 +122,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇫🇮FI | vmess | @ConfigsHUB | 15",
                 "🇧🇬BG | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @eliya_chiter0 | 5"
@@ -184,6 +184,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "hms082.gwdef.sbs",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
             "type": "vmess",
             "server": "discord.gg",
@@ -226,30 +260,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "fi1.xv2ray.net",
-            "server_port": 80,
-            "uuid": "f826fcf6-0a31-4652-9246-66ea0d8dea22",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
                 "headers": {
                     "Host": ""
                 }
