@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
@@ -116,7 +117,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇳🇱NL | vless | @shh_proxy | 17",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
-                "🇨🇷CR | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @lightning6 | 29",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 13",
@@ -162,7 +163,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 14",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 23",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -176,14 +177,15 @@
                 "🇺🇸US | tuic | @TUICity | 68",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 13",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 3"
+                "🇬🇧GB | ss | @ROMAX_VPN | 12",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 3"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @Parsashonam | 8",
                 "🇨🇦CA | vless | @XsV2ray | 17",
                 "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
@@ -194,7 +196,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇳🇱NL | vless | @shh_proxy | 17",
                 "🇨🇦CA | vless | @Lockey_vpn | 11",
-                "🇨🇷CR | vless | @lightning6 | 29",
+                "🇺🇸US | vless | @lightning6 | 29",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 13",
@@ -240,7 +242,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
+                "🇨🇷CR | vless | @forwardv2ray | 14",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 23",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -254,8 +256,8 @@
                 "🇺🇸US | tuic | @TUICity | 68",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 13",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 3"
+                "🇬🇧GB | ss | @ROMAX_VPN | 12",
+                "🇺🇸US | vless | @TIKTOK_PROXY | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -276,6 +278,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Parsashonam | 8",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "---Telegram-Parsashonam--0-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @XsV2ray | 17",
@@ -568,7 +591,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @lightning6 | 29",
+            "tag": "🇺🇸US | vless | @lightning6 | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -746,9 +769,9 @@
         {
             "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "87.107.146.242",
-            "server_port": 10768,
-            "uuid": "cec53b74-fbf2-4b6f-9652-86fb15f348a2",
+            "server": "87.107.164.151",
+            "server_port": 48599,
+            "uuid": "51e62a71-494c-484a-b442-2b9375e1ede5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -760,7 +783,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "87.107.146.242"
+                    "Host": "87.107.164.151"
                 }
             }
         },
@@ -1417,9 +1440,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "3e9910cf-26fb-4b8f-bc8e-5a1fd221b1da",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 8080,
+            "uuid": "SVNTEAMm",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1429,9 +1452,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/gsmxserver",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "mtn.VPNPROSEC.com"
                 }
             }
         },
@@ -1642,16 +1665,13 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "mci--join.outline-vpn.cloud",
+            "tag": "🇨🇷CR | vless | @forwardv2ray | 14",
+            "type": "vless",
+            "server": "190.93.246.241",
             "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "uuid": "30bacb3e-a515-42bc-9e0b-5241f32e8080",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1661,7 +1681,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "190.93.246.241"
                 }
             }
         },
@@ -1981,28 +2001,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 13",
-            "type": "vless",
-            "server": "104.21.66.193",
-            "server_port": 8880,
-            "uuid": "a5368290-9ce5-4fc4-9652-06221e6689fa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.66.193"
-                }
-            }
+            "tag": "🇬🇧GB | ss | @ROMAX_VPN | 12",
+            "type": "shadowsocks",
+            "server": "18.134.19.38",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 3",
+            "tag": "🇺🇸US | vless | @TIKTOK_PROXY | 3",
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 80,
