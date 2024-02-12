@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇺🇸US | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
-                "🇨🇦CA | vless | @v2rayngvpn | 11",
+                "🇳🇱NL | vless | @v2rayngvpn | 10",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 35",
                 "🇨🇦CA | vless | @ServerNett | 13",
@@ -150,11 +150,12 @@
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @flyv2ray | 12",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @kingofilter | 8",
                 "🇨🇷CR | vless | @GozargahVPN | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -193,7 +194,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
                 "🇺🇸US | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 9",
-                "🇨🇦CA | vless | @v2rayngvpn | 11",
+                "🇳🇱NL | vless | @v2rayngvpn | 10",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 35",
                 "🇨🇦CA | vless | @ServerNett | 13",
@@ -212,11 +213,12 @@
                 "🇳🇱NL | vless | @v2rayng_vpnrog | 8",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @flyv2ray | 12",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 8",
                 "🏳️XX | vless | @vpn_go67 | 23",
+                "🇺🇸US | vless | @kingofilter | 8",
                 "🇨🇷CR | vless | @GozargahVPN | 10",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇬🇧GB | vless | @FoXrayIran | 4",
@@ -290,7 +292,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "16.170.104.134",
+            "server": "13.50.27.164",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -926,11 +928,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 11",
+            "tag": "🇳🇱NL | vless | @v2rayngvpn | 10",
             "type": "vless",
-            "server": "parspack.com",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "server": "join---to.outline-vpn.cloud",
+            "server_port": 80,
+            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -938,21 +940,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "Bia.alLhub.Ltd"
+                    "Host": "join---to.outline-vpn.cloud"
                 }
             }
         },
@@ -1428,24 +1420,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vless | @flyv2ray | 12",
             "type": "vless",
-            "server": "all3.vipv2ray.sbs",
-            "server_port": 8080,
-            "uuid": "420d452f-5cae-4a42-a56c-4aae841e6c1e",
-            "flow": "",
+            "server": "104.248.134.5",
+            "server_port": 443,
+            "uuid": "cbe86cff-48ff-44ca-949b-3f6e4c03e41e",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "all3.vipv2ray.sbs"
+            "tls": {
+                "enabled": true,
+                "server_name": "dnschecker.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4pwFpFNcO_oJRC40e3xHZrKYnSsF-xTbcgTyEi4Jqz8",
+                    "short_id": "18ee56a6"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1563,6 +1570,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @kingofilter | 8",
+            "type": "vless",
+            "server": "141.101.115.235",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "141.101.115.235"
+                }
             }
         },
         {
