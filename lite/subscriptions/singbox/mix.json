@@ -132,7 +132,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🇺🇸US | vless | @vmessorg | 9",
+                "🏳️XX | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 11",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
@@ -151,7 +151,6 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
@@ -176,7 +175,8 @@
                 "🇺🇸US | tuic | @TUICity | 68",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 13"
+                "🇨🇦CA | vless | @ROMAX_VPN | 13",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 4"
             ]
         },
         {
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 6",
-                "🇺🇸US | vless | @vmessorg | 9",
+                "🏳️XX | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
                 "🇨🇦CA | vless | @v2rayngvpn | 11",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 10",
@@ -228,7 +228,6 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
@@ -253,7 +252,8 @@
                 "🇺🇸US | tuic | @TUICity | 68",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 13"
+                "🇨🇦CA | vless | @ROMAX_VPN | 13",
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -964,7 +964,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 9",
+            "tag": "🏳️XX | vless | @vmessorg | 9",
             "type": "vless",
             "server": "joinbede.vmessorg.online",
             "server_port": 8880,
@@ -1388,42 +1388,6 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "167.99.34.101",
-            "server_port": 443,
-            "uuid": "4328c347-04a0-469d-b3e4-e824e19d6554",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wagadtoha.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "do1Vyiz0OhO2UjrbiNuKgwGlUTJDv8JxrAju2EO2rSE",
-                    "short_id": "f7ee09ad"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 15",
             "type": "vless",
             "server": "104.16.122.175",
@@ -1653,9 +1617,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "all3.vipv2ray.sbs",
-            "server_port": 8080,
-            "uuid": "b2332599-3d08-433c-b576-cab2417d13fa",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "2010f015-0290-4403-a071-5262e5d97193",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1663,11 +1627,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "j0in.golestan-vpn.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/goli",
                 "headers": {
-                    "Host": "all3.vipv2ray.sbs"
+                    "Host": "j0in.golestan-vpn.link"
                 }
             }
         },
@@ -2004,6 +1978,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.21.66.193"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @TIKTOK_PROXY | 4",
+            "type": "vless",
+            "server": "104.31.16.165",
+            "server_port": 80,
+            "uuid": "e4a52f75-474e-449e-bcd2-05ea177f1403",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.31.16.165"
                 }
             }
         }
