@@ -144,7 +144,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
@@ -153,6 +153,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -210,7 +211,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 155",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 15",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
@@ -219,6 +220,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 12",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -1275,11 +1277,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "channel-zedmodeon.servecounterstrike.com",
-            "server_port": 2095,
-            "uuid": "0bdb1407-0554-4834-97cd-ba3487af59b5",
+            "server": "shhproxy.varzesh3-cnd.site",
+            "server_port": 2087,
+            "uuid": "724cbdfb-0d16-467e-841f-3f67533e59d6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1287,11 +1289,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON-ZEDMODEON-JOINZEDMODEON-@ZEDMODEON",
+                "path": "\/",
                 "headers": {
-                    "Host": "channel-zedmodeon.servecounterstrike.com"
+                    "Host": "SHHPROXY.xn--69-pv2cl2k5x3fipr.org"
                 }
             }
         },
@@ -1496,6 +1508,37 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "104.21.29.72",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/path\/telegram@v2ray_alpha\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
             }
         },
         {
