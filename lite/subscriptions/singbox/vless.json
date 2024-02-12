@@ -143,12 +143,10 @@
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 5",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 4",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
-                "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇷CR | vless | @mehrosaboran | 19",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -203,12 +201,10 @@
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 11",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 5",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 4",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 3",
-                "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🇺🇸US | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇷CR | vless | @mehrosaboran | 19",
                 "🇸🇪SE | vless | @kiava | 8",
@@ -265,7 +261,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "108.129.65.181",
+            "server": "18.202.118.107",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1220,11 +1216,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 5",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 4",
             "type": "vless",
-            "server": "172.67.81.238",
+            "server": "parspack.com",
             "server_port": 443,
-            "uuid": "WANCLOUDFA",
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1234,7 +1230,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "wanfrtyuoitywancloud.wertycvnur.ir",
+                "server_name": "Bia.alLhub.Ltd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1243,11 +1239,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@wancloudfa",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
             }
         },
         {
@@ -1303,37 +1299,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 1",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2083,
-            "uuid": "3c110307-dcf0-4002-b944-6d2c9530dd23",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.zedmodeon.lat",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @IRN_VPN | 2",
             "type": "vless",
             "server": "account.zula.ir",
@@ -1359,37 +1324,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@IRN_VPN,@IRN_VPN,@IRN_VPN,@IRN_VPN,@IRN_VPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "173.245.58.31",
-            "server_port": 2096,
-            "uuid": "411bc6fb-8f94-4a6f-eacc-a27d30cc806f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speed.jonedel.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@afv2ray,@afv2ray,@afv2ray,@afv2ray,@afv2ray,@afv2ray,@afV2ray,@AfV2ray,@Afv2ray,@afv2ray,@afv2ray,@afv2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
