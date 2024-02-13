@@ -127,7 +127,6 @@ proxies:
   - {"name":"🇬🇧GB | ss | @VmessProtocol | 14","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 7","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
-  - {"name":"🇸🇬SG | vmess | @Hope_Net | 5","type":"vmess","server":"sg2-full.privateip.net","port":"443","cipher":"auto","uuid":"83e6db42-a0a4-4281-bdc6-7a6e161d1380","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
 proxy-groups:
   - name: MANUAL
@@ -144,7 +143,6 @@ proxy-groups:
       - '🇬🇧GB | ss | @VmessProtocol | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
-      - '🇸🇬SG | vmess | @Hope_Net | 5'
       - '🇺🇸US | vmess | @v2Line | 6'
   - name: URL-TEST
     type: url-test
@@ -161,7 +159,6 @@ proxy-groups:
       - '🇬🇧GB | ss | @VmessProtocol | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
-      - '🇸🇬SG | vmess | @Hope_Net | 5'
       - '🇺🇸US | vmess | @v2Line | 6'
   - name: FALLBACK
     type: fallback
@@ -177,7 +174,6 @@ proxy-groups:
       - '🇬🇧GB | ss | @VmessProtocol | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
-      - '🇸🇬SG | vmess | @Hope_Net | 5'
       - '🇺🇸US | vmess | @v2Line | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
