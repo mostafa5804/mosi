@@ -110,7 +110,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+                "🇩🇪DE | vmess | @v2ray1_ng | 7",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
@@ -124,7 +126,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+                "🇩🇪DE | vmess | @v2ray1_ng | 7",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
@@ -242,6 +246,23 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @v2ray1_ng | 7",
+            "type": "vmess",
+            "server": "49.12.109.46",
+            "server_port": 8081,
+            "uuid": "9ebfbe92-13f8-46f4-b26a-5f21ab4bc464",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇳🇱NL | vmess | @Cov2ray | 0",
             "type": "vmess",
             "server": "188.114.96.11",
@@ -262,6 +283,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "104.21.4.6",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.cfd"
                 }
             }
         },
