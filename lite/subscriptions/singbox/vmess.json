@@ -106,12 +106,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇹🇼TW | vmess | @ConfigsHUB | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ]
@@ -120,12 +122,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇹🇼TW | vmess | @ConfigsHUB | 18",
+                "🇸🇬SG | vmess | @Hope_Net | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ],
@@ -148,6 +152,23 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @V2rayCollectorDonate | 19",
+            "type": "vmess",
+            "server": "server.cactusrobot.ir",
+            "server_port": 8623,
+            "uuid": "fbcc73ec-45c7-441c-81d3-d52a146d0c66",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -266,11 +287,28 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
+            "tag": "🇹🇼TW | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "172.66.45.41",
-            "server_port": 2053,
-            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "server": "nb24.ntbq.dynu.net",
+            "server_port": 4443,
+            "uuid": "1cc969d3-1df8-4794-a5cc-9231fe0e4710",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 3",
+            "type": "vmess",
+            "server": "sg2-full.privateip.net",
+            "server_port": 443,
+            "uuid": "83e6db42-a0a4-4281-bdc6-7a6e161d1380",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -283,7 +321,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "warp-sub.pages.dev",
+                "server_name": "sg2-full.privateip.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -293,9 +331,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/urnxewzvh.site:443\/kwhmvws",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "warp-sub.pages.dev"
+                    "Host": "sg2-full.privateip.net"
                 }
             }
         },
