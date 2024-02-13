@@ -106,16 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @VmessProtocol | 13",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
+                "🇬🇧GB | ss | @VmessProtocol | 14",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇸🇪SE | ss | @forwardv2ray | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @VmessProtocol | 13",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17"
+                "🇬🇧GB | ss | @VmessProtocol | 14",
+                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇸🇪SE | ss | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,12 +140,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 13",
+            "tag": "🇬🇧GB | ss | @VmessProtocol | 14",
             "type": "shadowsocks",
-            "server": "51.142.156.170",
-            "server_port": 54791,
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "bHGU0wywczsLJN5l7FPdzu",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -154,6 +156,16 @@
             "server_port": 2443,
             "method": "aes-256-gcm",
             "password": "hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | ss | @forwardv2ray | 19",
+            "type": "shadowsocks",
+            "server": "5.42.77.3",
+            "server_port": 443,
+            "method": "2022-blake3-aes-256-gcm",
+            "password": "GcV\/uARYuRRvfVyzpo1QRtQGbQFDkNtdyxJYGKR3+\/o=",
             "plugin": "",
             "plugin_opts": ""
         }
