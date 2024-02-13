@@ -141,7 +141,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 6",
                 "🇸🇬SG | vless | @VmessProtocol | 13",
-                "🇨🇦CA | vless | @DailyV2RY | 147",
+                "🇨🇦CA | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🏳️XX | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -152,6 +152,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🏳️XX | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -206,7 +207,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 6",
                 "🇸🇬SG | vless | @VmessProtocol | 13",
-                "🇨🇦CA | vless | @DailyV2RY | 147",
+                "🇨🇦CA | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🏳️XX | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @proxystore11 | 15",
@@ -217,6 +218,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🏳️XX | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇦CA | vless | @mehrosaboran | 19",
@@ -1190,11 +1192,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 147",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 150",
             "type": "vless",
-            "server": "ip.aminivip2023.site",
+            "server": "104.26.15.80",
             "server_port": 8443,
-            "uuid": "058696bc-bbb3-4506-af07-ac584679a712",
+            "uuid": "9b76baa9-4269-4c46-aaec-4d884a305da0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1204,7 +1206,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ri.aminivip2023.site",
+                "server_name": "n.networknim.lol",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1213,11 +1215,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/V2zed",
-                "headers": {
-                    "Host": "ri.aminivip2023.site"
-                }
+                "type": "grpc",
+                "service_name": "8443vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1467,6 +1469,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "cdn-de3w.XN--WGB3B6T0D.COM"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "join---------to.U_CONFINGVPN",
+            "server_port": 8443,
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "baipiao1.curly-train.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "baipiao1.curly-train.pages.dev"
                 }
             }
         },
