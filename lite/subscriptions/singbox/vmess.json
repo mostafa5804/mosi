@@ -108,13 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇦UA | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇩🇪DE | vmess | @v2ray1_ng | 7",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -124,13 +123,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇺🇦UA | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇩🇪DE | vmess | @v2ray1_ng | 7",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
                 "🏳️XX | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇳🇱NL | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -188,11 +186,11 @@
             }
         },
         {
-            "tag": "🇺🇦UA | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "45.137.155.195",
+            "server": "104.20.39.186",
             "server_port": 443,
-            "uuid": "49c76bcf-3a58-43df-b1d4-2bffe9ca03b5",
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,12 +203,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "45.137.155.195",
+                "server_name": "vmess.taxar71054.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "vmess.taxar71054.workers.dev"
                 }
             }
         },
@@ -317,30 +322,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "95.179.128.114",
-            "server_port": 80,
-            "uuid": "a6292090-afe1-4640-97a7-4f1d1d877cf1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Av8czorIlYicU6D349brWUw6a",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
