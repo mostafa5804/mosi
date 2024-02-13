@@ -127,8 +127,10 @@ proxies:
   - {"name":"🇹🇼TW | vmess | @v2ray1_ng | 3","type":"vmess","server":"118.167.68.167","port":"12002","cipher":"auto","uuid":"60ab817e-0566-44cb-becd-6b51698d5672","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧GB | ss | @VmessProtocol | 14","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 17","type":"ss","server":"www.outline.network.ak2002.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":2443,"password":"hh4JlBhsJ0JthpDP3vIwxXvJWHknI16AijGx6sbcqWI=","cipher":"aes-256-gcm"}
+  - {"name":"🇨🇦CA | vmess | @ConfigsHUB | 4","type":"vmess","server":"104.21.25.94","port":"80","cipher":"auto","uuid":"44e35bf1-6e80-4dd0-88d4-ed90fcfd19ca","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pt1-vmess.sshmax.xyz"}}}
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 7","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
+  - {"name":"🇸🇪SE | ss | @proxy_mtm | 6","type":"ss","server":"13.48.44.73","port":8080,"password":"V2xEMpwXjvy41q8FjFtcffVpbKYGfbHi0qPlEJIgj7E=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 1","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
 proxy-groups:
   - name: MANUAL
@@ -145,8 +147,10 @@ proxy-groups:
       - '🇹🇼TW | vmess | @v2ray1_ng | 3'
       - '🇬🇧GB | ss | @VmessProtocol | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 4'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
       - '🇺🇸US | vmess | @v2Line | 6'
+      - '🇸🇪SE | ss | @proxy_mtm | 6'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 1'
   - name: URL-TEST
     type: url-test
@@ -163,8 +167,10 @@ proxy-groups:
       - '🇹🇼TW | vmess | @v2ray1_ng | 3'
       - '🇬🇧GB | ss | @VmessProtocol | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 4'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
       - '🇺🇸US | vmess | @v2Line | 6'
+      - '🇸🇪SE | ss | @proxy_mtm | 6'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 1'
   - name: FALLBACK
     type: fallback
@@ -180,8 +186,10 @@ proxy-groups:
       - '🇹🇼TW | vmess | @v2ray1_ng | 3'
       - '🇬🇧GB | ss | @VmessProtocol | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 17'
+      - '🇨🇦CA | vmess | @ConfigsHUB | 4'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
       - '🇺🇸US | vmess | @v2Line | 6'
+      - '🇸🇪SE | ss | @proxy_mtm | 6'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
