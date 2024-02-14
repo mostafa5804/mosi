@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 32",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 14",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
@@ -154,7 +154,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
@@ -163,8 +163,8 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
-                "🇨🇦CA | vless | @FAKEOFTVC | 0",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 32",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
-                "🇫🇷FR | trojan | @DirectVPN | 14",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
@@ -234,7 +234,7 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇳🇱NL | vless | @proxystore11 | 11",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 11",
@@ -243,8 +243,8 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
-                "🇨🇦CA | vless | @FAKEOFTVC | 0",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
+                "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇺🇸US | vless | @mehrosaboran | 16",
                 "🇸🇪SE | vless | @kiava | 7",
@@ -919,9 +919,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 14",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.37.141.20",
+            "server": "51.20.49.237",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1490,11 +1490,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
+            "tag": "🏳️XX | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "162.159.200.7",
-            "server_port": 80,
-            "uuid": "384648b3-bcc5-401e-b145-dc91f57ee5e6",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "cbaacab-cbaa-baca-adcb-acbcbabccaab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1504,13 +1504,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1725,28 +1718,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.16.23.29",
-            "server_port": 2052,
-            "uuid": "a16ba07a-b64d-4ef9-b9d5-8bd3252cf313",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "172.67.166.31",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "inna.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "104.16.23.29"
+                    "Host": "inna.cfd"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
+            "tag": "🇺🇸US | vless | @FAKEOFTVC | 0",
             "type": "vless",
             "server": "cargeek.ir",
             "server_port": 2095,
