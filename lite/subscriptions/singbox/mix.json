@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
+                "🇨🇳CN | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
@@ -245,7 +245,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
+                "🇨🇳CN | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
@@ -1506,7 +1506,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "bcabaca-baca-abac-cbda-bbacbacabcac",
+            "uuid": "abaaccb-aacb-abca-cdab-cccbbacbabaa",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1730,26 +1730,33 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "172.67.204.84",
-            "server_port": 8880,
-            "uuid": "0873fffc-414f-4140-a155-672129fd9a1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇳CN | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "103.184.44.200",
+            "server_port": 443,
+            "uuid": "68ff4e82-9771-41f3-8327-1dae4a2168e9",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mf.sasadi.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/35721\/bing.com",
                 "headers": {
-                    "Host": ""
+                    "Host": "mf.sasadi.shop"
                 }
             }
         },

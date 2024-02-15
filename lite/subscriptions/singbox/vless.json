@@ -150,6 +150,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇨🇳CN | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
@@ -214,6 +215,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
+                "🇨🇳CN | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
@@ -1421,6 +1423,37 @@
                 "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
                 "headers": {
                     "Host": "edge.020770.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "103.184.44.200",
+            "server_port": 443,
+            "uuid": "68ff4e82-9771-41f3-8327-1dae4a2168e9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mf.sasadi.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/35721\/bing.com",
+                "headers": {
+                    "Host": "mf.sasadi.shop"
                 }
             }
         },
