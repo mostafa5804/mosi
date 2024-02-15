@@ -166,6 +166,7 @@
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🏳️XX | vless | @forwardv2ray | 15",
                 "🇨🇦CA | ss | @FAKEOFTVC | 3",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 3",
@@ -247,6 +248,7 @@
                 "🏳️XX | vless | @Capoit | 2",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 11",
+                "🏳️XX | vless | @forwardv2ray | 15",
                 "🇨🇦CA | ss | @FAKEOFTVC | 3",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇺🇸US | vless | @mehrosaboran | 3",
@@ -383,7 +385,7 @@
         {
             "tag": "🇸🇪SE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "16.171.217.157",
+            "server": "13.51.125.170",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -952,7 +954,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "16.170.73.62",
+            "server": "13.51.46.250",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -974,7 +976,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "13.48.121.73",
+            "server": "13.51.227.62",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1600,7 +1602,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "aacbbca-acab-acba-abcd-babcbccbaaac",
+            "uuid": "abacbac-bcaa-caab-cadb-ccbababbacca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1780,6 +1782,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@Fv2ray@Fv2ray@fv2ray@fv2ray@Fv2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 15",
+            "type": "vless",
+            "server": "v2logy.ddns.net",
+            "server_port": 443,
+            "uuid": "72859c41-15ac-4621-bfdf-ac4c3ac33ad4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "k6gu1t73hTdYK3PKNUwOqy2B7ZP-sek-dW2_-aGf9i4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,Telegram:@V20REYNG,",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
