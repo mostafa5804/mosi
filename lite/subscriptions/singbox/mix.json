@@ -164,13 +164,14 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇷CR | vless | @kingofilter | 7",
+                "🇨🇦CA | vmess | @kingofilter | 6",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -244,13 +245,14 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
                 "🇺🇸US | vless | @flyv2ray | 13",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 14",
                 "🇨🇦CA | vless | @mehrosaboran | 12",
                 "🇸🇪SE | vless | @kiava | 6",
                 "🇩🇪DE | vless | @proxy_mtm | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🇨🇷CR | vless | @kingofilter | 7",
+                "🇨🇦CA | vmess | @kingofilter | 6",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 3",
@@ -1499,7 +1501,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cabacab-acba-abac-adcb-cabccacbbaba",
+            "uuid": "acbacab-caba-cbaa-acbd-cacbbaaccbab",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1723,14 +1725,61 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "v1.arvancode.eu.org",
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "165.232.87.109",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "9ffd7abc-6d40-46a2-b0d6-71c2d1f1fcd6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mail.feedthemplants.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mZ55nxRoRWqdnZH5lDRenJTJmeKrfXl6gbkU2gtn6XE",
+                    "short_id": "727f53e2"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
+            "type": "vless",
+            "server": "cargeek.ir",
+            "server_port": 2095,
+            "uuid": "dbe804b8-de3f-447a-a004-2667d3db071b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/MeW1NhSmoXNZ5DnDtIYiuDZo",
+                "headers": {
+                    "Host": "cargeek.ir"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 14",
@@ -1881,13 +1930,16 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @kingofilter | 7",
-            "type": "vless",
-            "server": "190.93.246.137",
-            "server_port": 2082,
-            "uuid": "6fa72141-76ea-4f30-af46-1cd927159f05",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @kingofilter | 6",
+            "type": "vmess",
+            "server": "104.20.231.30",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1897,7 +1949,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "190.93.246.137"
+                    "Host": ""
                 }
             }
         },
