@@ -108,14 +108,15 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇬🇷GR | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @prrofile_purple | 167",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 3",
                 "🇮🇷IR | vmess | @proxyymeliii | 20",
-                "🇳🇱NL | vmess | @v2ray1_ng | 6",
+                "🇳🇱NL | vmess | @v2ray1_ng | 8",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 17",
+                "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇯🇵JP | vmess | @forwardv2ray | 16",
                 "🇫🇮FI | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -125,14 +126,15 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇬🇷GR | vmess | @oneclickvpnkeys | 8",
                 "🇩🇪DE | vmess | @prrofile_purple | 167",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 3",
                 "🇮🇷IR | vmess | @proxyymeliii | 20",
-                "🇳🇱NL | vmess | @v2ray1_ng | 6",
+                "🇳🇱NL | vmess | @v2ray1_ng | 8",
                 "🇳🇱NL | vmess | @Cov2ray | 0",
-                "🏳️XX | vmess | @Hope_Net | 17",
+                "🏳️XX | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇯🇵JP | vmess | @forwardv2ray | 16",
                 "🇫🇮FI | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -190,11 +192,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇬🇷GR | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "162.159.200.5",
-            "server_port": 80,
-            "uuid": "384648b3-bcc5-401e-b145-dc91f57ee5e6",
+            "server": "94.131.8.32",
+            "server_port": 8880,
+            "uuid": "57e37a74-badc-4b71-87c7-5b9e20879b58",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -207,7 +209,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vmess",
                 "headers": {
                     "Host": ""
                 }
@@ -272,7 +274,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @v2ray1_ng | 6",
+            "tag": "🇳🇱NL | vmess | @v2ray1_ng | 8",
             "type": "vmess",
             "server": "188.114.96.113",
             "server_port": 80,
@@ -320,7 +322,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 17",
+            "tag": "🏳️XX | vmess | @Hope_Net | 19",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -357,6 +359,30 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵JP | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "47.91.31.231",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
