@@ -157,15 +157,14 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🏳️XX | vmess | @Hope_Net | 13",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🏳️XX | vless | @flyv2ray | 11",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @flyv2ray | 11",
                 "🇨🇦CA | ss | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -178,6 +177,7 @@
                 "🇺🇸US | tuic | @TUICity | 34",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
+                "🇬🇧GB | ss | @ROMAX_VPN | 8",
                 "🇨🇦CA | vless | @TVCminer | 17"
             ]
         },
@@ -236,15 +236,14 @@
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇳CN | trojan | @yaney_01 | 7",
-                "🏳️XX | vmess | @Hope_Net | 13",
+                "🏳️XX | vmess | @Hope_Net | 15",
                 "🇨🇦CA | vless | @polproxy | 12",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @IRN_VPN | 2",
-                "🏳️XX | vless | @flyv2ray | 11",
-                "🇬🇧GB | ss | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @flyv2ray | 11",
                 "🇨🇦CA | ss | @FAKEOFTVC | 4",
                 "🇮🇷IR | vless | @https_config_injector | 12",
                 "🇸🇪SE | vless | @kiava | 6",
@@ -257,6 +256,7 @@
                 "🇺🇸US | tuic | @TUICity | 34",
                 "🇨🇦CA | vless | @V2FETCH | 8",
                 "🏳️XX | vless | @VpnSkyy | 7",
+                "🇬🇧GB | ss | @ROMAX_VPN | 8",
                 "🇨🇦CA | vless | @TVCminer | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1512,7 +1512,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 13",
+            "tag": "🏳️XX | vmess | @Hope_Net | 15",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1678,7 +1678,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @flyv2ray | 11",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 11",
             "type": "vless",
             "server": "ipv.freedomfv2ray.lol",
             "server_port": 2096,
@@ -1707,16 +1707,6 @@
                 "ping_timeout": "15s",
                 "permit_without_stream": false
             }
-        },
-        {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 19",
-            "type": "shadowsocks",
-            "server": "series-a2-mec.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | ss | @FAKEOFTVC | 4",
@@ -1963,11 +1953,21 @@
             }
         },
         {
+            "tag": "🇬🇧GB | ss | @ROMAX_VPN | 8",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇨🇦CA | vless | @TVCminer | 17",
             "type": "vless",
-            "server": "104.21.21.36",
-            "server_port": 2082,
-            "uuid": "dbe804b8-de3f-447a-a004-2667d3db071b",
+            "server": "104.18.177.84",
+            "server_port": 2087,
+            "uuid": "62142178-949d-4d4a-b426-f68e595416fa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1975,11 +1975,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "daily-configs.vigilante.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/MeW1NhSmoXNZ5DnDtIYiuDZo",
+                "path": "\/telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs | telegram:@daily_configs |",
                 "headers": {
-                    "Host": "104.21.21.36"
+                    "Host": "daily-configs.vigilante.ir"
                 }
             }
         }
