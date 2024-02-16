@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇫🇷FR | vless | @VlessConfig | 14",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 6",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @frev2ray | 1",
@@ -146,11 +146,12 @@
                 "🏳️XX | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 4",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -172,7 +173,7 @@
                 "🇨🇦CA | vless | @EliV2ray | 4",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇫🇷FR | vless | @VlessConfig | 14",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 6",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 4",
                 "🏳️XX | vless | @frev2ray | 1",
@@ -209,11 +210,12 @@
                 "🏳️XX | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 4",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -321,7 +323,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 6",
+            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
             "type": "vless",
             "server": "tel.VPNCUSTOMIZE.cam",
             "server_port": 8443,
@@ -1339,6 +1341,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+            "type": "vless",
+            "server": "172.67.183.26",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 4",
             "type": "vless",
             "server": "cdn.user.com",
@@ -1438,11 +1471,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 8880,
-            "uuid": "c8579ab5-5d46-4c4f-a6a0-6e0c2c6f4357",
+            "server": "Ctwct.arvancode.eu.Org",
+            "server_port": 2096,
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1450,11 +1483,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpncT.arvancode.eu.Org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@x2raynvpn",
+                "path": "\/path\/TELEGRAM-PROXY_MTM",
                 "headers": {
-                    "Host": "iranserver.com"
+                    "Host": "vpncT.arvancode.eu.Org"
                 }
             }
         },
