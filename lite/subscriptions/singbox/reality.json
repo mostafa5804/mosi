@@ -113,6 +113,7 @@
                 "🇳🇱NL | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @flyv2ray | 10",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -129,6 +130,7 @@
                 "🇳🇱NL | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @flyv2ray | 10",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -156,9 +158,9 @@
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 19",
             "type": "vless",
-            "server": "159.223.17.211",
+            "server": "161.35.17.40",
             "server_port": 443,
-            "uuid": "82726ccd-17a3-4827-b06c-8da69b973602",
+            "uuid": "f876f795-fced-4604-b190-4db485813c89",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -168,7 +170,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dnschecker.org",
+                "server_name": "feat.agency",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -177,8 +179,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-2iaaZuCAi7I9r4680lLC8p4krVTtEFq2xj6ylvpJUc",
-                    "short_id": "47890dea"
+                    "public_key": "RdG5aIJYY3zhj4rwssViQaohx4xKm4aT5Hsd9mMu2x4",
+                    "short_id": "015aab49"
                 }
             },
             "transport": {
@@ -395,6 +397,42 @@
                     "enabled": true,
                     "public_key": "jSxs7VtFMN2tQOo9dKG63UHNfjqcXt-krPDrEfer1n4",
                     "short_id": "45796768"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "167.71.69.28",
+            "server_port": 443,
+            "uuid": "a076eaab-249b-4f3d-9c85-5bf5b7be6093",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nomadmania.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CdkvYPUbzomfET1rd3DbY34QYjM50MasN3yJ1q4srEU",
+                    "short_id": "d5f761dd"
                 }
             },
             "transport": {
