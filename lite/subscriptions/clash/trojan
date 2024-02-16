@@ -121,7 +121,6 @@ proxies:
   - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 15","type":"trojan","server":"15.188.170.29","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 15","type":"trojan","server":"51.21.77.204","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇨🇳CN | trojan | @yaney_01 | 7","type":"trojan","server":"xibaozi.19890604.day","port":10847,"udp":false,"password":"c1dc3493-2298-44ab-98c1-4abccbc350d1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.node-ssl.cdn-alibaba.com"}
-  - {"name":"🇭🇰HK | trojan | @forwardv2ray | 15","type":"trojan","server":"45.11.104.94","port":3389,"udp":false,"password":"d4e41ff772c7fd45","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"sbank.ir"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,7 +130,6 @@ proxy-groups:
       - '🇫🇷FR | trojan | @PrivateVPNs | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
-      - '🇭🇰HK | trojan | @forwardv2ray | 15'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -141,7 +139,6 @@ proxy-groups:
       - '🇫🇷FR | trojan | @PrivateVPNs | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
-      - '🇭🇰HK | trojan | @forwardv2ray | 15'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -150,7 +147,6 @@ proxy-groups:
       - '🇫🇷FR | trojan | @PrivateVPNs | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇨🇳CN | trojan | @yaney_01 | 7'
-      - '🇭🇰HK | trojan | @forwardv2ray | 15'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
