@@ -169,7 +169,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 12",
+                "🇦🇪AE | trojan | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -183,7 +183,7 @@
                 "🇨🇦CA | vless | @IBv2ray | 0",
                 "🇺🇸US | tuic | @TUICity | 34",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | ss | @ROMAX_VPN | 4",
+                "🇺🇸US | ss | @ROMAX_VPN | 5",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0"
             ]
         },
@@ -254,7 +254,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 12",
+                "🇦🇪AE | trojan | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -268,7 +268,7 @@
                 "🇨🇦CA | vless | @IBv2ray | 0",
                 "🇺🇸US | tuic | @TUICity | 34",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇺🇸US | ss | @ROMAX_VPN | 4",
+                "🇺🇸US | ss | @ROMAX_VPN | 5",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1861,23 +1861,24 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 12",
-            "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "VPNCUSTOMIZE-VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇦🇪AE | trojan | @forwardv2ray | 19",
+            "type": "trojan",
+            "server": "139.185.48.248",
+            "server_port": 37902,
+            "password": "46fac810-0332-471a-a074-bdca7824211e",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/?@Archive_Android @Archive_Android @Archive_Android@Archive_Android @Archive_Android@Archive_Android@Archive_Android@Archive_Android@Archive_Android@Archive_Android@Archive_Android@Archive_Android@Archive_Android@Archive_Android@Archive_Android سلام",
-                "headers": {
-                    "Host": "discord.gg"
+            "tls": {
+                "enabled": true,
+                "server_name": "ua01.bsawc.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -2184,7 +2185,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | @ROMAX_VPN | 4",
+            "tag": "🇺🇸US | ss | @ROMAX_VPN | 5",
             "type": "shadowsocks",
             "server": "45.8.146.32",
             "server_port": 50370,
