@@ -147,7 +147,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 76",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
-                "🇺🇸US | vless | @proxystore11 | 5",
+                "🇨🇷CR | vless | @proxystore11 | 5",
                 "🏳️XX | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 16",
@@ -157,7 +157,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -167,8 +167,7 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 0",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
-                "🇫🇮FI | vless | @TVCminer | 17"
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0"
             ]
         },
         {
@@ -216,7 +215,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 76",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🏳️XX | vless | @lrnbymaa | 7",
-                "🇺🇸US | vless | @proxystore11 | 5",
+                "🇨🇷CR | vless | @proxystore11 | 5",
                 "🏳️XX | vless | @fnet00 | 7",
                 "🇨🇦CA | vless | @polproxy | 2",
                 "🇬🇧GB | vless | @Outlinev2rayNG | 16",
@@ -226,7 +225,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
+                "🇫🇮FI | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -236,8 +235,7 @@
                 "🇬🇧GB | vless | @FoXrayIran | 4",
                 "🇨🇦CA | vless | @IBv2ray | 0",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
-                "🇫🇮FI | vless | @TVCminer | 17"
+                "🇨🇦CA | vless | @TIKTOK_PROXY | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1316,7 +1314,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 5",
+            "tag": "🇨🇷CR | vless | @proxystore11 | 5",
             "type": "vless",
             "server": "mtn.adminwp.eu.org",
             "server_port": 2096,
@@ -1567,17 +1565,32 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "tag": "🇫🇮FI | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "209.38.188.240",
-            "server_port": 50689,
-            "uuid": "84cd4160-0a78-44f4-8418-7f93a77f9643",
-            "flow": "",
+            "server": "65.109.193.181",
+            "server_port": 52195,
+            "uuid": "6fd4a391-bc0e-4bbc-b460-880d89d4df7b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Kir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "h1K6skmAs71qhm34HX1KwetsU4jPe6VqZaSueOfZ-R0",
+                    "short_id": "b5b8b87f"
+                }
             }
         },
         {
@@ -1837,42 +1850,6 @@
                 "headers": {
                     "Host": "proxystore11.adminwp.eu.org"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @TVCminer | 17",
-            "type": "vless",
-            "server": "37.27.24.220",
-            "server_port": 25365,
-            "uuid": "35529d09-bc2a-47bf-a8bc-65703cd95247",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Z8VGv2kPcxu7pW1wXRW8lnpPq19TobF9YKrdlW3EBlU",
-                    "short_id": "fc790928"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         }
     ],
