@@ -106,13 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇷FR | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇩🇪DE | vless | @v2ray_swhil | 15",
                 "🇳🇱NL | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -122,13 +122,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇷FR | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🏳️XX | vless | @frev2ray | 1",
                 "🇩🇪DE | vless | @v2ray_swhil | 15",
                 "🇳🇱NL | vless | @v2ray1_ng | 12",
                 "🇳🇱NL | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @FoXrayIran | 4"
@@ -152,6 +152,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇷FR | vless | @NIM_VPN_ir | 8",
+            "type": "vless",
+            "server": "95.179.217.33",
+            "server_port": 45712,
+            "uuid": "6f128769-e3b6-409a-9416-8d7f6dabaab4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RsbT8HImgysmMNJaDi3x4yyrUdWpfk3EJEDVYQPvZRw",
+                    "short_id": "d55861e7"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 19",
@@ -364,42 +393,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 16",
-            "type": "vless",
-            "server": "49.12.207.222",
-            "server_port": 8443,
-            "uuid": "cc4a2677-b6f5-44d9-87bb-d4bf1d4be7bb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jabatis.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g593B5k8R5f70ViEZA1jNjuLdhSNd1qvBklErUuvrzo",
-                    "short_id": "6224709c"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false

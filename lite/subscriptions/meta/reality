@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇫🇷FR | vless | @NIM_VPN_ir | 8","type":"vless","server":"95.179.217.33","port":45712,"udp":true,"uuid":"6f128769-e3b6-409a-9416-8d7f6dabaab4","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"cdn.discordapp.com","reality-opts":{"public-key":"RsbT8HImgysmMNJaDi3x4yyrUdWpfk3EJEDVYQPvZRw","short-id":"d55861e7"}}
   - {"name":"🇩🇪DE | vless | @ipV2Ray | 19","type":"vless","server":"161.35.17.40","port":443,"udp":true,"uuid":"f876f795-fced-4604-b190-4db485813c89","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"feat.agency","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"RdG5aIJYY3zhj4rwssViQaohx4xKm4aT5Hsd9mMu2x4","short-id":"015aab49"}}
   - {"name":"🇩🇪DE | vless | @v2ray_swhil | 15","type":"vless","server":"germany.mmdtitaniom.com","port":2053,"udp":true,"uuid":"fafcd6a9-07b2-4185-a4e8-a2e5abf8035c","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"www.sourceforge.net","grpc-opts":{"grpc-service-name":"Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official"},"reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
   - {"name":"🇳🇱NL | vless | @v2ray1_ng | 12","type":"vless","server":"188.166.33.153","port":443,"udp":true,"uuid":"0424e3a8-9890-48f0-be8a-56c352b26f9c","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"feedthemplants.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"LYWZDBlcQA3b1l7UuzMVcOHtOFGiC3Hfn4EqAYGXGU0","short-id":"33723055"}}
@@ -127,7 +128,6 @@ proxies:
   - {"name":"🇳🇱NL | vless | @free1_vpn | 0","type":"vless","server":"152.42.140.235","port":443,"udp":true,"uuid":"5d1f18c7-b5db-4d2d-8e79-9be0b8ce7a79","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.cloudflare.com","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"AX37BzpifVwR7Et7T9PkmOlNzvgbwe_aglWdUDCTtj4","short-id":"14fcc7c2"}}
   - {"name":"🇫🇷FR | vless | @Capital_NET | 41","type":"vless","server":"46.105.218.0","port":16741,"udp":true,"uuid":"d2176467-4879-4beb-94e9-f1fa8177d8e2","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"ea.com","reality-opts":{"public-key":"kp0my80cNyM8TPeU-LbUaU3DSlAnYkbJ9jeWI2WougM","short-id":"6ae860e1"}}
   - {"name":"🇩🇪DE | vless | @flyv2ray | 10","type":"vless","server":"49.13.139.192","port":443,"udp":true,"uuid":"ac554074-ad55-41c6-9fc1-5af16ace00f1","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"*.danishshakeel.me","grpc-opts":{"grpc-service-name":"@ipV2Ray"},"reality-opts":{"public-key":"jSxs7VtFMN2tQOo9dKG63UHNfjqcXt-krPDrEfer1n4","short-id":"45796768"}}
-  - {"name":"🇩🇪DE | vless | @forwardv2ray | 16","type":"vless","server":"49.12.207.222","port":8443,"udp":true,"uuid":"cc4a2677-b6f5-44d9-87bb-d4bf1d4be7bb","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"jabatis.ir","grpc-opts":{"grpc-service-name":"@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,@ViraPN,"},"reality-opts":{"public-key":"g593B5k8R5f70ViEZA1jNjuLdhSNd1qvBklErUuvrzo","short-id":"6224709c"}}
   - {"name":"🇮🇷IR | vless | @FAKEOFTVC | 0","type":"vless","server":"en.silveren.top","port":46506,"udp":true,"uuid":"1f6a5806-8826-4934-b54f-175573966786","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"flutter.dev","flow":"xtls-rprx-vision","reality-opts":{"public-key":"CXajBjtMIJKmIh0VGHu0E5OFxmSM47_IgtuZYM-p9A0","short-id":"dff7990a"}}
 proxy-groups:
   - name: MANUAL
@@ -135,6 +135,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇫🇷FR | vless | @NIM_VPN_ir | 8'
       - '🇩🇪DE | vless | @ipV2Ray | 19'
       - '🇩🇪DE | vless | @v2ray_swhil | 15'
       - '🇳🇱NL | vless | @v2ray1_ng | 12'
@@ -142,7 +143,6 @@ proxy-groups:
       - '🇳🇱NL | vless | @free1_vpn | 0'
       - '🇫🇷FR | vless | @Capital_NET | 41'
       - '🇩🇪DE | vless | @flyv2ray | 10'
-      - '🇩🇪DE | vless | @forwardv2ray | 16'
       - '🇮🇷IR | vless | @FAKEOFTVC | 0'
   - name: URL-TEST
     type: url-test
@@ -150,6 +150,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇫🇷FR | vless | @NIM_VPN_ir | 8'
       - '🇩🇪DE | vless | @ipV2Ray | 19'
       - '🇩🇪DE | vless | @v2ray_swhil | 15'
       - '🇳🇱NL | vless | @v2ray1_ng | 12'
@@ -157,13 +158,13 @@ proxy-groups:
       - '🇳🇱NL | vless | @free1_vpn | 0'
       - '🇫🇷FR | vless | @Capital_NET | 41'
       - '🇩🇪DE | vless | @flyv2ray | 10'
-      - '🇩🇪DE | vless | @forwardv2ray | 16'
       - '🇮🇷IR | vless | @FAKEOFTVC | 0'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇫🇷FR | vless | @NIM_VPN_ir | 8'
       - '🇩🇪DE | vless | @ipV2Ray | 19'
       - '🇩🇪DE | vless | @v2ray_swhil | 15'
       - '🇳🇱NL | vless | @v2ray1_ng | 12'
@@ -171,7 +172,6 @@ proxy-groups:
       - '🇳🇱NL | vless | @free1_vpn | 0'
       - '🇫🇷FR | vless | @Capital_NET | 41'
       - '🇩🇪DE | vless | @flyv2ray | 10'
-      - '🇩🇪DE | vless | @forwardv2ray | 16'
       - '🇮🇷IR | vless | @FAKEOFTVC | 0'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
