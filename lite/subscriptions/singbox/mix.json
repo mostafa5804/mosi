@@ -122,7 +122,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 13",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 34",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
@@ -163,7 +163,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇰🇷KR | vmess | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -200,7 +200,7 @@
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇺🇸US | vless | @proxy_kafee | 0",
                 "🇨🇦CA | vless | @v2logy | 13",
-                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+                "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 34",
                 "🇫🇷FR | trojan | @PrivateVPNs | 14",
@@ -241,7 +241,7 @@
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇩🇪DE | vless | @flyv2ray | 10",
-                "🇰🇷KR | vmess | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 2",
@@ -724,11 +724,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇮🇷IR | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "ip.1alphaomega.org",
-            "server_port": 2096,
-            "uuid": "0b2f5f4b-c9a1-46c5-a899-6fe04a51ae80",
+            "server": "193.151.138.156",
+            "server_port": 8080,
+            "uuid": "e12f1c92-3cb0-4e93-ad70-aaaefb154366",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -736,21 +736,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl.1alphaomega.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/wss8000",
+                "path": "\/",
                 "headers": {
-                    "Host": "nl.1alphaomega.org"
+                    "Host": "193.151.138.156"
                 }
             }
         },
@@ -1479,7 +1469,7 @@
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cbabaac-acab-cbaa-badc-cbbcacbcbaaa",
+            "uuid": "acabcba-abac-abca-dacb-cbcbabcabaac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1729,11 +1719,11 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vmess | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "45.154.14.165",
-            "server_port": 13593,
-            "uuid": "0764e6b0-3241-4962-a483-956bcc3612a5",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "8e4eb2ef-f854-409d-aaa2-19af17a38f19",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1744,12 +1734,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kansas.gafn.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "http",
-                "host": [
-                    "45.154.14.165"
-                ],
-                "path": "\/"
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "kansas.gafn.online"
+                }
             }
         },
         {
