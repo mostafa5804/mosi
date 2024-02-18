@@ -132,6 +132,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
                 "🏳️XX | vless | @vmessorg | 7",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 0",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
@@ -155,7 +156,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -200,6 +201,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 4",
                 "🏳️XX | vless | @vmessorg | 7",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 0",
                 "🇨🇦CA | vless | @v2rayngvpn | 17",
                 "🇺🇸US | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ShadowProxy66 | 36",
@@ -223,7 +225,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇺🇸US | vless | @flyv2ray | 10",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇨🇦CA | vless | @kiava | 5",
@@ -337,7 +339,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.37.148.249",
+            "server": "15.236.107.148",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -950,6 +952,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 0",
+            "type": "vless",
+            "server": "104.21.28.62",
+            "server_port": 443,
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "3k.pureboy.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 17",
             "type": "vless",
             "server": "freee.outline-vpn.cloud",
@@ -1510,11 +1543,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "104.24.176.7",
+            "server": "104.16.45.12",
             "server_port": 443,
-            "uuid": "6cc5b6b6-b3d2-4c60-8197-5defdc8d6aa1",
+            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1524,7 +1557,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "public.SATOSHI.MOM",
+                "server_name": "pages.20230619.love",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1536,7 +1569,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "public.SATOSHI.MOM"
+                    "Host": "pages.20230619.love"
                 }
             }
         },
