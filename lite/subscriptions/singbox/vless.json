@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇮🇷IR | vless | @EliV2ray | 8",
                 "🇨🇦CA | vless | @Parsashonam | 1",
-                "🇫🇷FR | vless | @NIM_VPN_ir | 5",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 4",
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
@@ -138,9 +138,9 @@
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇨🇦CA | vless | @proxyymeliii | 16",
+                "🇺🇸US | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇫🇷FR | vless | @v2ray1_ng | 9",
+                "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 76",
@@ -154,10 +154,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 4",
-                "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇺🇸US | vless | @https_config_injector | 11",
-                "🇺🇸US | vless | @mehrosaboran | 12",
+                "🇺🇸US | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -177,7 +176,7 @@
             "outbounds": [
                 "🇮🇷IR | vless | @EliV2ray | 8",
                 "🇨🇦CA | vless | @Parsashonam | 1",
-                "🇫🇷FR | vless | @NIM_VPN_ir | 5",
+                "🇨🇦CA | vless | @NIM_VPN_ir | 4",
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
@@ -207,9 +206,9 @@
                 "🇨🇦CA | vless | @ServerNett | 16",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇨🇦CA | vless | @v2ray_swhil | 18",
-                "🇨🇦CA | vless | @proxyymeliii | 16",
+                "🇺🇸US | vless | @proxyymeliii | 15",
                 "🇨🇷CR | vless | @MsV2ray | 14",
-                "🇫🇷FR | vless | @v2ray1_ng | 9",
+                "🇨🇦CA | vless | @v2ray1_ng | 8",
                 "🇮🇷IR | vless | @vless_vmess | 4",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 76",
@@ -223,10 +222,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 4",
-                "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇺🇸US | vless | @https_config_injector | 11",
-                "🇺🇸US | vless | @mehrosaboran | 12",
+                "🇺🇸US | vless | @mehrosaboran | 15",
                 "🇨🇦CA | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -302,11 +300,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @NIM_VPN_ir | 5",
+            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 4",
             "type": "vless",
-            "server": "ch1222.puzzlemobile.info",
-            "server_port": 2095,
-            "uuid": "54ba7fe4-d712-4fcf-8fe1-2b67130fcac0",
+            "server": "104.24.176.7",
+            "server_port": 2096,
+            "uuid": "ac20f1bb-6786-449b-a4ca-978cad3fbdff",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -314,12 +312,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ch1222.puzzlemobile.info"
+            "tls": {
+                "enabled": true,
+                "server_name": "grw.puzzlemobile.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1104,11 +1112,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 16",
+            "tag": "🇺🇸US | vless | @proxyymeliii | 15",
             "type": "vless",
-            "server": "forward3.maryam1700.com",
-            "server_port": 2086,
-            "uuid": "cc92cbd9-4142-4bef-9d28-ec50899fa39e",
+            "server": "gcore.com",
+            "server_port": 80,
+            "uuid": "09b5812b-8ede-4d1b-b55a-d40b48e3443b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1118,9 +1126,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "forward3.maryam1700.com"
+                    "Host": "gcore.com"
                 }
             }
         },
@@ -1146,31 +1154,23 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @v2ray1_ng | 9",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 8",
             "type": "vless",
-            "server": "a.api2.clothesonlinecenter.shop",
-            "server_port": 443,
-            "uuid": "17e3e215-430e-452d-a721-e1f454bebc73",
-            "flow": "xtls-rprx-vision",
+            "server": "Allv8.Azaronline.org",
+            "server_port": 80,
+            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "eset.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mhxUzNJ_jsPSWVKpByQcgI-Woe_UXe8WGLwXGIsoYAc",
-                    "short_id": "924f5928"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Allv8.Azaronline.org"
                 }
             }
         },
@@ -1509,27 +1509,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 4",
-            "type": "vless",
-            "server": "141.101.113.110",
-            "server_port": 80,
-            "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/\/",
-                "headers": {
-                    "Host": "141.101.113.110"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @flyv2ray | 13",
             "type": "vless",
             "server": "104.21.19.195",
@@ -1592,11 +1571,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 12",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 15",
             "type": "vless",
             "server": "205.233.181.253",
             "server_port": 2083,
-            "uuid": "a08e9043-4b78-45a3-f6a0-94ebfb6e8919",
+            "uuid": "ea1d5678-5aec-4b8d-c0df-24b602efff8c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
