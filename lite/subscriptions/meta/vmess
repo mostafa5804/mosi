@@ -122,11 +122,9 @@ dns:
 proxies:
   - {"name":"🇬🇧GB | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"38.147.191.185","port":"10241","cipher":"auto","uuid":"e820d6f7-57ef-4575-99da-bcd7d318c742","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇦UA | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"195.137.167.148","port":"443","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/afrhms07.xfixedfloat.cfd/linkws","headers":{"host":"7hss-butterfly-d4c3.fijetem432.workers.dev"}}}
+  - {"name":"🇨🇦CA | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"172.66.45.41","port":"2053","cipher":"auto","uuid":"06195b5b-3815-4a07-96f7-47eefbb1b143","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/urnxewzvh.site:443/kwhmvws","headers":{"host":"warp-sub.pages.dev"}}}
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 8","type":"vmess","server":"warp-sub.pages.dev","port":"2083","cipher":"auto","uuid":"06195b5b-3815-4a07-96f7-47eefbb1b143","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/urnxewzvh.site:443/kwhmvws","headers":{"host":""}}}
-  - {"name":"🇨🇦CA | vmess | @ShadowProxy66 | 40","type":"vmess","server":"warp-sub.pages.dev","port":"8443","cipher":"auto","uuid":"06195b5b-3815-4a07-96f7-47eefbb1b143","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/urnxewzvh.site:443/kwhmvws","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🇩🇪DE | vmess | @forwardv2ray | 18","type":"vmess","server":"64.226.85.44","port":"24735","cipher":"auto","uuid":"e3dbd740-9f2c-4092-ae27-b176abd874a3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 2","type":"vmess","server":"172.67.131.108","port":"443","cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
 proxy-groups:
   - name: MANUAL
@@ -136,11 +134,9 @@ proxy-groups:
       - FALLBACK
       - '🇬🇧GB | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
-      - '🇺🇦UA | vmess | @DeamNet_Proxy | 18'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 18'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
-      - '🇨🇦CA | vmess | @ShadowProxy66 | 40'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇩🇪DE | vmess | @forwardv2ray | 18'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 2'
   - name: URL-TEST
     type: url-test
@@ -150,11 +146,9 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
-      - '🇺🇦UA | vmess | @DeamNet_Proxy | 18'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 18'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
-      - '🇨🇦CA | vmess | @ShadowProxy66 | 40'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇩🇪DE | vmess | @forwardv2ray | 18'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 2'
   - name: FALLBACK
     type: fallback
@@ -163,11 +157,9 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
-      - '🇺🇦UA | vmess | @DeamNet_Proxy | 18'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 18'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
-      - '🇨🇦CA | vmess | @ShadowProxy66 | 40'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇩🇪DE | vmess | @forwardv2ray | 18'
       - '🇨🇦CA | vmess | @eliya_chiter0 | 2'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
