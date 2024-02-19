@@ -106,9 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vless | @EliV2ray | 6",
+                "🇮🇷IR | vless | @EliV2ray | 8",
                 "🇨🇦CA | vless | @Parsashonam | 1",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 6",
+                "🇫🇷FR | vless | @NIM_VPN_ir | 5",
                 "🇳🇱NL | vless | @XsV2ray | 17",
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
@@ -119,7 +119,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 19",
+                "🇨🇷CR | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -142,7 +142,7 @@
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇫🇷FR | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 4",
-                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇬🇧GB | vless | @DailyV2RY | 83",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🏳️XX | vless | @lrnbymaa | 6",
@@ -176,9 +176,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vless | @EliV2ray | 6",
+                "🇮🇷IR | vless | @EliV2ray | 8",
                 "🇨🇦CA | vless | @Parsashonam | 1",
-                "🇨🇦CA | vless | @NIM_VPN_ir | 6",
+                "🇫🇷FR | vless | @NIM_VPN_ir | 5",
                 "🇳🇱NL | vless | @XsV2ray | 17",
                 "🇺🇸US | vless | @VlessConfig | 18",
                 "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
@@ -189,7 +189,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 19",
+                "🇨🇷CR | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
@@ -212,7 +212,7 @@
                 "🇨🇷CR | vless | @MsV2ray | 14",
                 "🇫🇷FR | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 4",
-                "🇨🇦CA | vless | @V2RayTz | 18",
+                "🇨🇷CR | vless | @V2RayTz | 18",
                 "🇬🇧GB | vless | @DailyV2RY | 83",
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🏳️XX | vless | @lrnbymaa | 6",
@@ -262,7 +262,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷IR | vless | @EliV2ray | 6",
+            "tag": "🇮🇷IR | vless | @EliV2ray | 8",
             "type": "vless",
             "server": "37.152.179.185",
             "server_port": 2086,
@@ -304,11 +304,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 6",
+            "tag": "🇫🇷FR | vless | @NIM_VPN_ir | 5",
             "type": "vless",
-            "server": "104.24.176.7",
-            "server_port": 2096,
-            "uuid": "28655652-74d2-4126-8e52-7e03567e2231",
+            "server": "ch1222.puzzlemobile.info",
+            "server_port": 2095,
+            "uuid": "54ba7fe4-d712-4fcf-8fe1-2b67130fcac0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -316,22 +316,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ch122.puzzlemobile.info.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir,@NIM_VPN_ir",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ch1222.puzzlemobile.info"
+                }
             }
         },
         {
@@ -625,7 +615,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 19",
+            "tag": "🇨🇷CR | vless | @lightning6 | 19",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1218,11 +1208,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 18",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "172.67.213.169",
+            "server": "190.93.246.241",
             "server_port": 2083,
-            "uuid": "070a13d8-9987-41f1-aa77-4d0a336b2a55",
+            "uuid": "ea1d5678-5aec-4b8d-c0df-24b602efff8c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1232,7 +1222,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "De.Melov2ray.Shop",
+                "server_name": "liV2rayf.xn--mgbg0fka44dhgc.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1241,11 +1231,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray,@melov2ray",
-                "headers": {
-                    "Host": "De.Melov2ray.Shop"
-                }
+                "type": "grpc",
+                "service_name": "@LIGHTNING6, @LIGHTNING6",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
