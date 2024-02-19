@@ -110,8 +110,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇳IN | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @free1_vpn | 0",
-                "🇳🇴NO | vmess | @Hope_Net | 3",
+                "🇯🇵JP | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @kingofilter | 5",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ]
@@ -124,8 +125,9 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇮🇳IN | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @free1_vpn | 0",
-                "🇳🇴NO | vmess | @Hope_Net | 3",
+                "🇯🇵JP | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @kingofilter | 5",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1"
             ],
@@ -242,11 +244,11 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vmess | @Hope_Net | 3",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "185.175.56.124",
-            "server_port": 21210,
-            "uuid": "82fad303-8c2e-4f65-a9bd-cc5992ac1102",
+            "server": "183.181.36.194",
+            "server_port": 41597,
+            "uuid": "4a6eaa2d-5603-4c05-d967-fb6f42250a5a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -256,6 +258,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -279,6 +288,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "adenc35.fixedlfoat.top",
+            "server_port": 443,
+            "uuid": "45f63e92-f782-4cac-84b8-e61cb5a5bfd0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "adenc35.fixedlfoat.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "adenc35.fixedlfoat.top"
                 }
             }
         },
