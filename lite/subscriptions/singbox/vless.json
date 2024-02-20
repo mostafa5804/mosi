@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🏳️XX | vless | @kiava | 5",
@@ -213,7 +213,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇺🇸US | vless | @https_config_injector | 12",
                 "🇨🇷CR | vless | @mehrosaboran | 15",
                 "🏳️XX | vless | @kiava | 5",
@@ -1411,11 +1411,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "39ea487b-2d8a-4da0-8798-c89cc6932e8d",
+            "server": "104.21.47.6",
+            "server_port": 443,
+            "uuid": "161fa2ac-9618-4a3c-bc9b-5420ecc1826e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1423,11 +1423,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray-vmess-free.irnoen.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/join--ServerNett--ServerNett?ed=1048",
+                "path": "\/?@VPN_ROOM------@VPN_ROOM",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "v2ray-vmess-free.irnoen.workers.dev"
                 }
             }
         },
