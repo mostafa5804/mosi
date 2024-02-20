@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
+                "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -120,6 +121,7 @@
             "outbounds": [
                 "🇫🇷FR | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
+                "🇩🇪DE | vless | @ARv2ray | 10",
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -205,6 +207,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 10",
+            "type": "vless",
+            "server": "5.75.153.23",
+            "server_port": 443,
+            "uuid": "85193ca2-a9da-4dd1-b3b0-0097da3a4efe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tWxp3qWxdlVZDY_qDMfXejil6vRu-H2Yj8-qimozgAk",
+                    "short_id": "0bdfbef1"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
