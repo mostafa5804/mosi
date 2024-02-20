@@ -160,7 +160,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇦🇹AT | vmess | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
@@ -238,7 +238,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇦🇹AT | vmess | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 17",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇺🇸US | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
@@ -1675,11 +1675,11 @@
             }
         },
         {
-            "tag": "🇦🇹AT | vmess | @forwardv2ray | 18",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "176.120.65.108",
-            "server_port": 80,
-            "uuid": "42b7dac3-40d7-411c-ae5f-755ac8876a19",
+            "server": "142.93.130.99",
+            "server_port": 443,
+            "uuid": "f0aec29d-9f86-4887-88d5-11a69044ec42",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1690,9 +1690,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
