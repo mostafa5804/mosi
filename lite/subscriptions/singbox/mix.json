@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 39",
+                "🇺🇸US | vless | @V2rayNGn | 39",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -160,9 +160,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇬🇧GB | ss | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @https_config_injector | 9",
-                "🇺🇸US | vless | @mehrosaboran | 17",
+                "🇺🇸US | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -202,7 +202,7 @@
                 "🇩🇪DE | vless | @v2logy | 10",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 2",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇨🇷CR | vless | @V2rayNGn | 39",
+                "🇺🇸US | vless | @V2rayNGn | 39",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -238,9 +238,9 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇬🇧GB | ss | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @https_config_injector | 9",
-                "🇺🇸US | vless | @mehrosaboran | 17",
+                "🇺🇸US | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -804,7 +804,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @V2rayNGn | 39",
+            "tag": "🇺🇸US | vless | @V2rayNGn | 39",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1675,14 +1675,25 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "52.142.190.10",
-            "server_port": 59784,
-            "method": "chacha20-ietf-poly1305",
-            "password": "bRBRWwzekRHSjioEXFxkov",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "ch1.add1.tech",
+            "server_port": 2052,
+            "uuid": "4ba0ef4d-1955-406f-a875-76483676f792",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ch1.add1.tech"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @https_config_injector | 9",
@@ -1699,11 +1710,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 17",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 22",
             "type": "vless",
-            "server": "205.233.181.253",
+            "server": "69.84.182.0",
             "server_port": 2083,
-            "uuid": "a3e4f3c3-84ac-4f1d-f022-b775c1874c3e",
+            "uuid": "2ea77325-b4e3-454d-ab8d-b301c9a1ee2f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1713,7 +1724,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "205.233.181.253",
+                "server_name": "69.84.182.0",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
