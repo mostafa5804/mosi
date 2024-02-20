@@ -150,8 +150,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @https_config_injector | 10",
-                "🇨🇷CR | vless | @mehrosaboran | 25",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🏳️XX | vless | @https_config_injector | 9",
+                "🇺🇸US | vless | @mehrosaboran | 17",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -213,8 +214,9 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
-                "🇨🇦CA | vless | @https_config_injector | 10",
-                "🇨🇷CR | vless | @mehrosaboran | 25",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🏳️XX | vless | @https_config_injector | 9",
+                "🇺🇸US | vless | @mehrosaboran | 17",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1393,11 +1395,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @https_config_injector | 10",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "172.67.183.26",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "MTN.Vpn-Mikey.cfd",
+            "server_port": 8443,
+            "uuid": "6f88683e-4d8e-4b44-b93f-8a6c01192149",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1407,7 +1409,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
+                "server_name": "Germany.Vpn-Mikey.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1416,19 +1418,33 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "3k.pureboy.eu.org"
-                }
+                "type": "grpc",
+                "service_name": "@Vpn_Mikey،@Vpn_Mikey",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @mehrosaboran | 25",
+            "tag": "🏳️XX | vless | @https_config_injector | 9",
             "type": "vless",
-            "server": "190.93.246.241",
+            "server": "best1.channeltest.site",
+            "server_port": 11641,
+            "uuid": "2f0d929a-5dc0-4fe6-a0fc-44a251045832",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @mehrosaboran | 17",
+            "type": "vless",
+            "server": "205.233.181.253",
             "server_port": 2083,
-            "uuid": "2ea77325-b4e3-454d-ab8d-b301c9a1ee2f",
+            "uuid": "a3e4f3c3-84ac-4f1d-f022-b775c1874c3e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1438,7 +1454,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "190.93.246.241",
+                "server_name": "205.233.181.253",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
