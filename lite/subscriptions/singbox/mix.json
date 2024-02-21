@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 1",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇫🇷FR | vless | @NIM_VPN_ir | 4",
                 "🇨🇦CA | vless | @XsV2ray | 14",
@@ -119,14 +118,14 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 25",
+                "🇨🇷CR | vless | @lightning6 | 25",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 3",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -160,8 +159,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 0",
-                "🇳🇱NL | ss | @forwardv2ray | 12",
+                "🇨🇦CA | vless | @Capoit | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇦CA | vless | @mehrosaboran | 31",
@@ -187,7 +186,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 1",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇫🇷FR | vless | @NIM_VPN_ir | 4",
                 "🇨🇦CA | vless | @XsV2ray | 14",
@@ -200,14 +198,14 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
-                "🇺🇸US | vless | @lightning6 | 25",
+                "🇨🇷CR | vless | @lightning6 | 25",
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 3",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 38",
+                "🇨🇷CR | vless | @V2rayNGn | 38",
                 "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -241,8 +239,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 0",
-                "🇳🇱NL | ss | @forwardv2ray | 12",
+                "🇨🇦CA | vless | @Capoit | 2",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 11",
                 "🇨🇦CA | vless | @mehrosaboran | 31",
@@ -282,35 +280,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 1",
-            "type": "vless",
-            "server": "95.179.217.33",
-            "server_port": 45712,
-            "uuid": "69a75a84-31ab-46c4-8e42-fc4c6d320ba1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RsbT8HImgysmMNJaDi3x4yyrUdWpfk3EJEDVYQPvZRw",
-                    "short_id": "d55861e7"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 5",
@@ -648,7 +617,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 25",
+            "tag": "🇨🇷CR | vless | @lightning6 | 25",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -850,7 +819,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 38",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 38",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1558,9 +1527,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-3",
+            "server": "104.20.239.70",
+            "server_port": 8880,
+            "uuid": "f451c7bd-83e4-44a9-8c5a-809ca9df12b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1570,9 +1539,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram:@UnlimitedDev?ed",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "104.20.239.70"
                 }
             }
         },
@@ -1651,7 +1620,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 0",
+            "tag": "🇨🇦CA | vless | @Capoit | 2",
             "type": "vless",
             "server": "104.24.0.11",
             "server_port": 2083,
@@ -1682,14 +1651,35 @@
             }
         },
         {
-            "tag": "🇳🇱NL | ss | @forwardv2ray | 12",
-            "type": "shadowsocks",
-            "server": "172.233.51.96",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XlUFgoOqDlVqlZFD3Js0YA",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "discord.com",
+            "server_port": 2083,
+            "uuid": "333b5f26-fa5c-415f-908b-205f049bf1c6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free.jd-vpn.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Vpn_Gaming,@Vpn_Gaming,@Vpn_Gaming",
+                "headers": {
+                    "Host": "free.jd-vpn.shop"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
