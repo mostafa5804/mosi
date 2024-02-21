@@ -140,7 +140,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 97",
+                "🇨🇦CA | vless | @DailyV2RY | 100",
                 "🏳️XX | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 3",
@@ -149,6 +149,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
@@ -202,7 +203,7 @@
                 "🇮🇷IR | vless | @vless_vmess | 3",
                 "🇨🇦CA | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 97",
+                "🇨🇦CA | vless | @DailyV2RY | 100",
                 "🏳️XX | vless | @lrnbymaa | 5",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vless | @polproxy | 3",
@@ -211,6 +212,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇳🇱NL | vless | @forwardv2ray | 19",
                 "🏳️XX | vless | @https_config_injector | 9",
                 "🇨🇷CR | vless | @mehrosaboran | 25",
                 "🏳️XX | vless | @kiava | 5",
@@ -1140,7 +1142,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 97",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 100",
             "type": "vless",
             "server": "medium.com",
             "server_port": 443,
@@ -1374,6 +1376,42 @@
                 "headers": {
                     "Host": "discord.gg"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @forwardv2ray | 19",
+            "type": "vless",
+            "server": "165.232.94.24",
+            "server_port": 443,
+            "uuid": "db342b2e-c973-4e58-870b-1c68d1370bfe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*‌.brainsyrup.online",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rnmMHzLC7nr4Hxwu4JnFSYCem_QRLLVfUde170i8jCo",
+                    "short_id": "ccbf78a1"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
