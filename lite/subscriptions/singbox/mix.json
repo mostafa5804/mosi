@@ -111,7 +111,7 @@
                 "🇫🇷FR | vless | @NIM_VPN_ir | 4",
                 "🇨🇦CA | vless | @XsV2ray | 14",
                 "🇮🇪IE | vless | @VlessConfig | 18",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 4",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 11",
@@ -124,9 +124,10 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 3",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 39",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
@@ -160,9 +161,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 0",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
-                "🇺🇸US | vless | @mehrosaboran | 27",
+                "🇨🇷CR | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇷🇺RU | ss | @proxy_mtm | 0",
@@ -190,7 +191,7 @@
                 "🇫🇷FR | vless | @NIM_VPN_ir | 4",
                 "🇨🇦CA | vless | @XsV2ray | 14",
                 "🇮🇪IE | vless | @VlessConfig | 18",
-                "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
+                "🇺🇸US | vless | @VPNCUSTOMIZE | 4",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 11",
@@ -203,9 +204,10 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 3",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇷CR | vless | @V2rayNGn | 39",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
@@ -239,9 +241,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 0",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 11",
-                "🇺🇸US | vless | @mehrosaboran | 27",
+                "🇨🇷CR | vless | @mehrosaboran | 22",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
                 "🇷🇺RU | ss | @proxy_mtm | 0",
@@ -421,11 +423,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 7",
+            "tag": "🇺🇸US | vless | @VPNCUSTOMIZE | 4",
             "type": "vless",
             "server": "tel.VPNCUSTOMIZE.cam",
-            "server_port": 8443,
-            "uuid": "VPNCUSTOMIZE-VPNCUSTOMIZE",
+            "server_port": 8080,
+            "uuid": "VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -433,21 +435,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpncustomize2V2ray.xn--4oq36ed28d.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ws-@VPNCUSTOMIZE-@VPNCUSTOMIZE",
+                "path": "\/",
                 "headers": {
-                    "Host": "vpncustomize2V2ray.xn--4oq36ed28d.org"
+                    "Host": "tel.VPNCUSTOMIZE.cam"
                 }
             }
         },
@@ -804,6 +796,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 22",
+            "type": "vless",
+            "server": "104.18.16.149",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@SINABIGO\/",
+                "headers": {
+                    "Host": "always-online1.lp-airdrop.top"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ProxyForOpeta | 1",
             "type": "vless",
             "server": "CDN.user.com",
@@ -856,9 +879,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "99.80.132.224",
+            "server": "16.171.216.66",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1669,17 +1692,37 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "lion_channel_vpn.anubisservice.net",
-            "server_port": 41784,
-            "uuid": "a0268c17-5072-4c1f-aacb-f191ba5fe21d",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "104.21.44.64",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kellie.makeup"
+                }
             }
         },
         {
@@ -1704,11 +1747,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 27",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 22",
             "type": "vless",
-            "server": "205.233.181.253",
-            "server_port": 2083,
-            "uuid": "a3e4f3c3-84ac-4f1d-f022-b775c1874c3e",
+            "server": "190.93.246.241",
+            "server_port": 8880,
+            "uuid": "fddc172c-c28b-4fbd-b5e4-d163f1959b0d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1716,22 +1759,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "205.233.181.253",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@LIGHTNING6,",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "190.93.246.241"
+                }
             }
         },
         {
