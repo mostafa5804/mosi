@@ -151,12 +151,13 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇺🇸US | vless | @mehrosaboran | 28",
+                "🇨🇷CR | vless | @mehrosaboran | 28",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
-                "🇺🇸US | vless | @proxy_mtm | 2",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vless | @SvnTeam | 3",
@@ -217,12 +218,13 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 0",
                 "🇨🇦CA | vless | @https_config_injector | 12",
-                "🇺🇸US | vless | @mehrosaboran | 28",
+                "🇨🇷CR | vless | @mehrosaboran | 28",
                 "🏳️XX | vless | @kiava | 5",
                 "🇨🇦CA | vless | @nofiltering2 | 1",
-                "🇺🇸US | vless | @proxy_mtm | 2",
+                "🇨🇦CA | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
                 "🇫🇷FR | vless | @SvnTeam | 3",
@@ -1454,6 +1456,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "104.22.33.78",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 0",
             "type": "vless",
             "server": "fr.snailnetworktm.link",
@@ -1516,7 +1549,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 28",
+            "tag": "🇨🇷CR | vless | @mehrosaboran | 28",
             "type": "vless",
             "server": "190.93.246.241",
             "server_port": 2083,
@@ -1599,7 +1632,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_mtm | 2",
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 2",
             "type": "vless",
             "server": "discord.gg",
             "server_port": 80,
