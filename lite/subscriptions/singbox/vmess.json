@@ -114,7 +114,8 @@
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @eliya_chiter0 | 3",
+                "🇸🇬SG | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
@@ -130,7 +131,8 @@
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇩🇪DE | vmess | @eliya_chiter0 | 3",
+                "🇸🇬SG | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -362,11 +364,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @eliya_chiter0 | 3",
+            "tag": "🇸🇬SG | vmess | @forwardv2ray | 17",
             "type": "vmess",
-            "server": "49.13.95.140",
-            "server_port": 8081,
-            "uuid": "805673cb-85a3-40aa-a57b-2e23ee454a29",
+            "server": "18.138.47.36",
+            "server_port": 2053,
+            "uuid": "0987ff95-91ef-40ef-b6cb-a44ac6b1990a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -376,6 +378,57 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "doxinjiapo.5201314.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/0987ff95",
+                "headers": {
+                    "Host": "doxinjiapo.5201314.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 2",
+            "type": "vmess",
+            "server": "172.67.170.13",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
             }
         },
         {

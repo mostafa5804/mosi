@@ -122,10 +122,10 @@ dns:
 proxies:
   - {"name":"🇬🇧GB | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @mftizi | 18","type":"vmess","server":"38.147.191.185","port":"10241","cipher":"auto","uuid":"e820d6f7-57ef-4575-99da-bcd7d318c742","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"172.66.46.48","port":"2087","cipher":"auto","uuid":"08ec6a06-8c15-4069-a781-8c725a30b7e7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
   - {"name":"🇩🇪DE | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"38.54.13.212","port":"23026","cipher":"auto","uuid":"ef4d0930-3788-4410-9305-fae4ba652ede","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ef4d0930","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 6","type":"vmess","server":"v2line.telegram.channel.1390.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":"80","cipher":"auto","uuid":"f61203bd-f386-4d12-9853-cc829d6b7c9d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ca2.xv2ray.net"}}}
-  - {"name":"🇩🇪DE | vmess | @eliya_chiter0 | 3","type":"vmess","server":"49.13.95.140","port":"8081","cipher":"auto","uuid":"805673cb-85a3-40aa-a57b-2e23ee454a29","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇸🇬SG | vmess | @forwardv2ray | 17","type":"vmess","server":"18.138.47.36","port":"2053","cipher":"auto","uuid":"0987ff95-91ef-40ef-b6cb-a44ac6b1990a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/0987ff95","headers":{"host":"doxinjiapo.5201314.cfd"}}}
+  - {"name":"🇨🇦CA | vmess | @eliya_chiter0 | 2","type":"vmess","server":"172.67.170.13","port":"443","cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
   - {"name":"🇨🇦CA | vmess | @FoXrayIran | 1","type":"vmess","server":"tl.iranray.online","port":"8080","cipher":"auto","uuid":"b3c20911-126d-4c30-bd32-10152bf0b593","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tl.iranray.online"}}}
 proxy-groups:
   - name: MANUAL
@@ -135,10 +135,10 @@ proxy-groups:
       - FALLBACK
       - '🇬🇧GB | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
-      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇩🇪DE | vmess | @oneclickvpnkeys | 9'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇩🇪DE | vmess | @eliya_chiter0 | 3'
+      - '🇸🇬SG | vmess | @forwardv2ray | 17'
+      - '🇨🇦CA | vmess | @eliya_chiter0 | 2'
       - '🇨🇦CA | vmess | @FoXrayIran | 1'
   - name: URL-TEST
     type: url-test
@@ -148,10 +148,10 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
-      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇩🇪DE | vmess | @oneclickvpnkeys | 9'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇩🇪DE | vmess | @eliya_chiter0 | 3'
+      - '🇸🇬SG | vmess | @forwardv2ray | 17'
+      - '🇨🇦CA | vmess | @eliya_chiter0 | 2'
       - '🇨🇦CA | vmess | @FoXrayIran | 1'
   - name: FALLBACK
     type: fallback
@@ -160,10 +160,10 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | vmess | @v2ray_outlineir | 0'
       - '🇺🇸US | vmess | @mftizi | 18'
-      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇩🇪DE | vmess | @oneclickvpnkeys | 9'
       - '🇺🇸US | vmess | @v2Line | 6'
-      - '🇩🇪DE | vmess | @eliya_chiter0 | 3'
+      - '🇸🇬SG | vmess | @forwardv2ray | 17'
+      - '🇨🇦CA | vmess | @eliya_chiter0 | 2'
       - '🇨🇦CA | vmess | @FoXrayIran | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
