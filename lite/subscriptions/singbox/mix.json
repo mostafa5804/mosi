@@ -114,10 +114,11 @@
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @shh_proxy | 24",
-                "🇨🇦CA | vless | @Lockey_vpn | 9",
+                "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 2",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 2",
@@ -127,7 +128,7 @@
                 "🇨🇷CR | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 38",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
@@ -160,9 +161,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 24",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -194,10 +194,11 @@
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 11",
                 "🇩🇪DE | vless | @shh_proxy | 24",
-                "🇨🇦CA | vless | @Lockey_vpn | 9",
+                "🇨🇦CA | vless | @Lockey_vpn | 8",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 2",
+                "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇺🇸US | vless | @lightning6 | 23",
+                "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @DigiV2ray | 15",
                 "🇮🇷IR | vless | @DarkTeam_VPN | 2",
@@ -207,7 +208,7 @@
                 "🇨🇷CR | vless | @V2rayCollectorDonate | 22",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇺🇸US | vless | @V2rayNGn | 38",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
@@ -240,9 +241,8 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇨🇦CA | vless | @Capoit | 1",
+                "🇨🇦CA | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 24",
                 "🇸🇪SE | vless | @kiava | 4",
@@ -503,11 +503,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 9",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 8",
             "type": "vless",
-            "server": "104.21.59.125",
-            "server_port": 80,
-            "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -515,11 +515,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.21.59.125"
+                    "Host": "always-online1.lp-airdrop.top"
                 }
             }
         },
@@ -555,11 +565,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 2",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 4",
             "type": "vless",
-            "server": "104.20.239.70",
+            "server": "162.159.24.201",
             "server_port": 8880,
-            "uuid": "ed88d25b-98c2-4b84-87ed-96e228d86ce9",
+            "uuid": "83c62a0d-3420-404b-bd4b-f8adbb51da22",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -569,9 +579,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev?ed",
+                "path": "\/telegram:@free_v2rayyy",
                 "headers": {
-                    "Host": "104.20.239.70"
+                    "Host": "162.159.24.201"
                 }
             }
         },
@@ -604,6 +614,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 1",
+            "type": "vless",
+            "server": "104.20.239.70",
+            "server_port": 8880,
+            "uuid": "ed88d25b-98c2-4b84-87ed-96e228d86ce9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev?ed",
+                "headers": {
+                    "Host": "104.20.239.70"
+                }
             }
         },
         {
@@ -862,9 +893,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "52.16.85.24",
+            "server": "13.48.216.189",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -1670,7 +1701,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 1",
+            "tag": "🇨🇦CA | vless | @Capoit | 3",
             "type": "vless",
             "server": "discord.com",
             "server_port": 2083,
@@ -1729,37 +1760,6 @@
                 "headers": {
                     "Host": "test37.pages.dev"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.26.15.80",
-            "server_port": 8443,
-            "uuid": "9b76baa9-4269-4c46-aaec-4d884a305da0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "n.networknim.lol",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "8443vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
