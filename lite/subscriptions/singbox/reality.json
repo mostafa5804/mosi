@@ -110,7 +110,7 @@
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇸🇪SE | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇮🇱IL | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
@@ -125,7 +125,7 @@
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🇬🇧GB | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇸🇪SE | vless | @forwardv2ray | 18",
+                "🇩🇪DE | vless | @forwardv2ray | 16",
                 "🇮🇱IL | vless | @mehrosaboran | 17",
                 "🇸🇪SE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @proxy_mtm | 5",
@@ -282,11 +282,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @forwardv2ray | 18",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 16",
             "type": "vless",
-            "server": "103.25.85.38",
+            "server": "188.34.194.108",
             "server_port": 443,
-            "uuid": "a7551511-e2b8-4a19-ac0c-1c320ce4afb5",
+            "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -296,18 +296,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "addons.mozilla.org",
+                "server_name": "ftp.debian.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "7OXAPa32fyCtzBapDtZ8DUj6Bb1M0xD7taJT0TpzI2s",
-                    "short_id": ""
+                    "public_key": "W6ol7KU4fjV1mBS2aG_xs8emIKsqF8y6Ufva-2MRa20",
+                    "short_id": "9d2b63ad"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
