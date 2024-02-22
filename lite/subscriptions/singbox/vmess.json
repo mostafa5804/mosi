@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇬BG | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 5",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇧🇪BE | vmess | @forwardv2ray | 16",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
@@ -124,12 +124,12 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇬BG | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 5",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇧🇪BE | vmess | @forwardv2ray | 16",
                 "🇩🇪DE | vmess | @eliya_chiter0 | 3",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
@@ -185,6 +185,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇧🇬BG | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "147.78.140.231",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "llow-disk-4b7b.bigapax481.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/kellie.makeup\/linkvws",
+                "headers": {
+                    "Host": "llow-disk-4b7b.bigapax481.workers.dev"
+                }
             }
         },
         {
@@ -246,11 +280,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 3",
             "type": "vmess",
-            "server": "hms182.glweidf.sbs",
+            "server": "maggiy.shop",
             "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -263,7 +297,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": "maggiy.shop",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -273,9 +307,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "maggiy.shop"
                 }
             }
         },
@@ -324,30 +358,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
-                }
-            }
-        },
-        {
-            "tag": "🇧🇪BE | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "be3-vmess.sshmax.xyz",
-            "server_port": 2052,
-            "uuid": "81e08848-0baa-4712-9e9b-301b77d0627b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
