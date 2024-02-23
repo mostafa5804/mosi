@@ -162,7 +162,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -242,7 +242,7 @@
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @https_config_injector | 12",
                 "🇬🇧GB | vless | @mehrosaboran | 12",
@@ -1689,12 +1689,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "104.20.19.145",
-            "server_port": 2053,
-            "uuid": "7da383f5-e626-4f8a-8db9-00e736e9de26",
-            "flow": "",
+            "server": "188.34.194.108",
+            "server_port": 443,
+            "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1703,20 +1703,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev",
+                "server_name": "ftp.debian.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "W6ol7KU4fjV1mBS2aG_xs8emIKsqF8y6Ufva-2MRa20",
+                    "short_id": "9d2b63ad"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/@UCIRANIR-@UCIRANIR\/Microsoft?ed=2047",
-                "headers": {
-                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev"
-                }
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
