@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 10",
                 "🇨🇦CA | vless | @XsV2ray | 12",
-                "🇨🇦CA | vless | @VlessConfig | 18",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @shh_proxy | 21",
-                "🇨🇦CA | vless | @Lockey_vpn | 8",
+                "🇨🇦CA | vless | @Lockey_vpn | 7",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇨🇷CR | vless | @lightning6 | 29",
@@ -132,10 +132,11 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🏳️XX | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "TVCsryyhvndsh",
+                "TVCtyyqctdmsk",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -174,12 +175,12 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 10",
                 "🇨🇦CA | vless | @XsV2ray | 12",
-                "🇨🇦CA | vless | @VlessConfig | 18",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇦CA | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @shh_proxy | 21",
-                "🇨🇦CA | vless | @Lockey_vpn | 8",
+                "🇨🇦CA | vless | @Lockey_vpn | 7",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇨🇦CA | vless | @free_v2rayyy | 5",
                 "🇨🇷CR | vless | @lightning6 | 29",
@@ -198,10 +199,11 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🏳️XX | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 3",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
                 "🇨🇦CA | vless | @ShadowProxy66 | 8",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "TVCsryyhvndsh",
+                "TVCtyyqctdmsk",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -306,9 +308,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VlessConfig | 18",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "3.97.122.68",
+            "server": "13.36.184.157",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -456,11 +458,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 8",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 7",
             "type": "vless",
-            "server": "172.64.89.170",
-            "server_port": 443,
-            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "dd0a72c9-9030-441b-9622-e5dc9d409614",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -468,21 +470,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "3k.pureboy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/http",
                 "headers": {
-                    "Host": "3k.pureboy.eu.org"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -961,6 +953,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
+            "type": "vless",
+            "server": "104.17.254.239",
+            "server_port": 8443,
+            "uuid": "64f4faca-8387-4511-adab-45300a332d27",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "id067.v2net.work",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @FalconPolV2rayNG | 8",
             "type": "vless",
             "server": "104.31.16.16",
@@ -1054,7 +1070,7 @@
             }
         },
         {
-            "tag": "TVCsryyhvndsh",
+            "tag": "TVCtyyqctdmsk",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1495,9 +1511,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "www.SPeedtest.NeT",
             "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "uuid": "ID---TMCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1507,9 +1523,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/@V2rayCUSTOMIZE___@CUSTOMIZEV2ray",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "www.SPeedtest.NeT"
                 }
             }
         },
