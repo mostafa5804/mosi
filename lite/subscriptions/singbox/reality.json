@@ -109,8 +109,8 @@
                 "🇫🇷FR | vless | @EliV2ray | 1",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @ARv2ray | 13",
-                "🇸🇬SG | vless | @DarkTeam_VPN | 4",
                 "🇩🇪DE | vless | @v2logy | 8",
+                "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -124,8 +124,8 @@
                 "🇫🇷FR | vless | @EliV2ray | 1",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
                 "🇩🇪DE | vless | @ARv2ray | 13",
-                "🇸🇬SG | vless | @DarkTeam_VPN | 4",
                 "🇩🇪DE | vless | @v2logy | 8",
+                "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -260,35 +260,6 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @DarkTeam_VPN | 4",
-            "type": "vless",
-            "server": "54.255.178.212",
-            "server_port": 10013,
-            "uuid": "A7547235-E23F-44A7-9B66-C9D72F769698",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "s0.awsstatic.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM",
-                    "short_id": "01fc5e98a68e5e7b"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @v2logy | 8",
             "type": "vless",
             "server": "49.13.136.109",
@@ -314,6 +285,42 @@
                     "enabled": true,
                     "public_key": "Bd-_Pb-tDjuVjONc59pDmblvX6tUx_-fsJDs8fAYTG4",
                     "short_id": "0cb80458"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
+            "type": "vless",
+            "server": "188.34.194.108",
+            "server_port": 443,
+            "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "W6ol7KU4fjV1mBS2aG_xs8emIKsqF8y6Ufva-2MRa20",
+                    "short_id": "9d2b63ad"
                 }
             },
             "transport": {
