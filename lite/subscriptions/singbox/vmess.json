@@ -107,8 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
@@ -120,8 +121,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 3",
+                "🇨🇦CA | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 3",
@@ -165,7 +167,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇨🇦CA | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -189,7 +191,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 3",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "upload.ir",
+            "server_port": 443,
+            "uuid": "33653184-91f3-4f3f-b707-2fc21e9adeb8",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pl1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "pl1-vmess.sshmax.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 4",
             "type": "vmess",
             "server": "hms182.glweidf.sbs",
             "server_port": 443,
