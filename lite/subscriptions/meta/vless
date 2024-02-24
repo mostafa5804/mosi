@@ -168,7 +168,7 @@ proxies:
   - {"name":"🇨🇦CA | vless | @V2FETCH | 6","type":"vless","server":"k---join.outline-vpn.cloud","port":80,"udp":false,"uuid":"e1a928be-e289-4aef-b92e-4106fabdf42f","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed=2048","headers":{"host":"mahi.kosnanatfilterchi.eu.org"}}}
   - {"name":"🏳️XX | vless | @VpnSkyy | 7","type":"vless","server":"sky1.bbv2ry.pics","port":443,"udp":false,"uuid":"18c680fc-f921-484c-85d3-ec191f7cc983","tls":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇨🇦CA | vless | @TIKTOK_PROXY | 1","type":"vless","server":"104.17.243.121","port":2096,"udp":false,"uuid":"ee0f0f94-69cb-4c89-b27a-c3306cf66fea","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"proxystore11.adminwp.eu.org","ws-opts":{"path":"/ws","headers":{"host":"proxystore11.adminwp.eu.org"}}}
-  - {"name":"🇮🇷IR | vless | @TVCminer | 18","type":"vless","server":"193.151.145.79","port":2082,"udp":false,"uuid":"c52afe6f-e38f-434b-99f3-075873e4a417","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/custom_config"}}
+  - {"name":"🇮🇷IR | vless | @TVCminer | 19","type":"vless","server":"45.92.93.134","port":17478,"udp":false,"uuid":"a1d48220-62bc-4d32-9d93-27c78826ad01","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -223,7 +223,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 6'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇨🇦CA | vless | @TIKTOK_PROXY | 1'
-      - '🇮🇷IR | vless | @TVCminer | 18'
+      - '🇮🇷IR | vless | @TVCminer | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -278,7 +278,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 6'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇨🇦CA | vless | @TIKTOK_PROXY | 1'
-      - '🇮🇷IR | vless | @TVCminer | 18'
+      - '🇮🇷IR | vless | @TVCminer | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -332,7 +332,7 @@ proxy-groups:
       - '🇨🇦CA | vless | @V2FETCH | 6'
       - '🏳️XX | vless | @VpnSkyy | 7'
       - '🇨🇦CA | vless | @TIKTOK_PROXY | 1'
-      - '🇮🇷IR | vless | @TVCminer | 18'
+      - '🇮🇷IR | vless | @TVCminer | 19'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

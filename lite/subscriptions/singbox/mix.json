@@ -131,7 +131,7 @@
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
-                "TVCfiqgicecyk",
+                "TVCqfiwqjqyqe",
                 "🇩🇪DE | ss | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -178,7 +178,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | ss | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
-                "🇮🇷IR | vless | @TVCminer | 18"
+                "🇮🇷IR | vless | @TVCminer | 19"
             ]
         },
         {
@@ -210,7 +210,7 @@
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vless | @customv2ray | 10",
@@ -222,7 +222,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 3",
-                "TVCfiqgicecyk",
+                "TVCqfiwqjqyqe",
                 "🇩🇪DE | ss | @proxyymeliii | 20",
                 "🇨🇦CA | vless | @MsV2ray | 14",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -257,7 +257,7 @@
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | ss | @ROMAX_VPN | 6",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 1",
-                "🇮🇷IR | vless | @TVCminer | 18"
+                "🇮🇷IR | vless | @TVCminer | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -954,7 +954,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇨🇦CA | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -1263,7 +1263,7 @@
             }
         },
         {
-            "tag": "TVCfiqgicecyk",
+            "tag": "TVCqfiwqjqyqe",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -1693,9 +1693,9 @@
         {
             "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "162.159.134.23",
-            "server_port": 8080,
-            "uuid": "9084653a-ee34-4293-979e-7c2b50dffb84",
+            "server": "104.21.30.254",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1706,11 +1706,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/9084653a-ee34-4293-979e-7c2b50dffb84-vm",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "162.159.134.23"
+                    "Host": "nina.bond"
                 }
             }
         },
@@ -2104,11 +2114,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @TVCminer | 18",
+            "tag": "🇮🇷IR | vless | @TVCminer | 19",
             "type": "vless",
-            "server": "193.151.145.79",
-            "server_port": 2082,
-            "uuid": "c52afe6f-e38f-434b-99f3-075873e4a417",
+            "server": "45.92.93.134",
+            "server_port": 17478,
+            "uuid": "a1d48220-62bc-4d32-9d93-27c78826ad01",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2118,9 +2128,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/custom_config",
+                "path": "\/",
                 "headers": {
-                    "Host": "193.151.145.79"
+                    "Host": "45.92.93.134"
                 }
             }
         }
