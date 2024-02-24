@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 8",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 29",
+                "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -167,6 +167,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇩🇪DE | vless | @flyv2ray | 15",
+                "🇮🇷IR | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -212,7 +213,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 8",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 24",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇺🇸US | vless | @V2rayNGn | 29",
+                "🇨🇷CR | vless | @V2rayNGn | 29",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
                 "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
@@ -250,6 +251,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 6",
                 "🇩🇪DE | vless | @flyv2ray | 15",
+                "🇮🇷IR | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vmess | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 13",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -855,8 +857,8 @@
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 24",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "Parsashonam-5",
+            "server_port": 8080,
+            "uuid": "Parsashonam-7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -864,21 +866,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mail.offch.blog",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/?@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1,@ASATeam_1",
                 "headers": {
-                    "Host": "mail.offch.blog"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -904,7 +896,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGn | 29",
+            "tag": "🇨🇷CR | vless | @V2rayNGn | 29",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.liV2ray.xyz",
             "server_port": 2083,
@@ -1863,6 +1855,23 @@
                 "headers": {
                     "Host": "154.197.75.98"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "85.133.151.96",
+            "server_port": 38288,
+            "uuid": "4cf4bdd2-ee06-469b-b919-b890052ee48b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
