@@ -110,8 +110,8 @@
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
@@ -124,8 +124,8 @@
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
+                "🏳️XX | vless | @VmessProtocol | 16",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @forwardv2ray | 17",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
@@ -294,6 +294,35 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @VmessProtocol | 16",
+            "type": "vless",
+            "server": "vm20266.vpsone.xyz",
+            "server_port": 11729,
+            "uuid": "0f1a3e15-72d7-4c75-8119-f536db3cc883",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "service.vpsserver.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "obBY3dBLbPwxOJm1xFSY7DMd7rpGG5ksCK7MsWDndyA",
+                    "short_id": "a7984df7"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
@@ -319,35 +348,6 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "51.195.148.69",
-            "server_port": 6639,
-            "uuid": "02e490ca-6a99-4bf8-ba42-15cca3f20e6e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "presshill.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lA6wn3tUYgfJZkRzS29e1hJo38UXrL5ko6v6oQFIzB0",
-                    "short_id": "62f886757cb2e45e"
                 }
             }
         },
