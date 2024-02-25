@@ -165,7 +165,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -245,7 +245,7 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @flyv2ray | 15",
-                "🇮🇷IR | vless | @forwardv2ray | 18",
+                "🇮🇷IR | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1800,24 +1800,20 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "45.92.93.134",
-            "server_port": 56808,
-            "uuid": "0478738d-9644-4daa-b77f-fc0d53a82060",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "test121.lordnet.online",
+            "server_port": 25783,
+            "uuid": "57f18f2c-b298-46c1-848f-a3d40c501974",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "45.92.93.134"
-                }
             }
         },
         {
