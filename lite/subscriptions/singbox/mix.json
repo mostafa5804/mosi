@@ -151,9 +151,9 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 122",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🏳️XX | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -167,7 +167,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
@@ -233,9 +233,9 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 122",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @lrnbymaa | 3",
+                "🏳️XX | vless | @lrnbymaa | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
@@ -1438,7 +1438,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lrnbymaa | 3",
+            "tag": "🏳️XX | vless | @lrnbymaa | 3",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1469,11 +1469,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "free--join.outline-vpn.cloud",
+            "server": "star--join.outline-vpn.cloud",
             "server_port": 443,
-            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1483,7 +1483,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "always-online1.lp-airdrop.top",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1493,9 +1493,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "always-online1.lp-airdrop.top"
+                    "Host": "3k.pureboy.eu.org"
                 }
             }
         },
@@ -1855,11 +1855,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "--DIGIV2RAY--",
+            "server": "www.tegzitp.net",
+            "server_port": 443,
+            "uuid": "d164ce1a-27a8-43c5-b586-81b4a60bf577",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1867,12 +1867,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digiv2ray",
-                "headers": {
-                    "Host": "www.speedtest.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "le.bo3kot.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray,@XsV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
