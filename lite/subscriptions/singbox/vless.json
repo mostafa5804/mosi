@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 13",
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇬🇧GB | vless | @v2ray_swhil | 18",
+                "🇬🇧GB | vless | @v2ray_swhil | 21",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -148,6 +148,7 @@
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -158,8 +159,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -212,7 +212,7 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 13",
                 "🇬🇧GB | vless | @ServerNett | 21",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇬🇧GB | vless | @v2ray_swhil | 18",
+                "🇬🇧GB | vless | @v2ray_swhil | 21",
                 "🇨🇦CA | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -220,6 +220,7 @@
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🏳️XX | vless | @lrnbymaa | 3",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇹🇷TR | vless | @fnet00 | 8",
@@ -230,8 +231,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
-                "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇨🇦CA | vless | @flyv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1198,11 +1198,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @v2ray_swhil | 18",
+            "tag": "🇬🇧GB | vless | @v2ray_swhil | 21",
             "type": "vless",
-            "server": "91.193.58.3",
-            "server_port": 8080,
-            "uuid": "VPNCUSTOMIZE---VPNCUSTOMIZE",
+            "server": "91.193.58.1",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMIZE--VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1214,7 +1214,7 @@
                 "type": "ws",
                 "path": "\/VPNCUSTOMIZE-VPNCUSTOMIZE?ed=1048",
                 "headers": {
-                    "Host": "91.193.58.3"
+                    "Host": "91.193.58.1"
                 }
             }
         },
@@ -1385,6 +1385,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "donaldi.pydri.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.19.136.7",
+            "server_port": 2083,
+            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.20230619.love",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram🇨🇳@wangcai_8\/",
+                "headers": {
+                    "Host": "pages.20230619.love"
                 }
             }
         },
@@ -1643,11 +1674,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @flyv2ray | 18",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 18",
             "type": "vless",
-            "server": "154.197.75.98",
+            "server": "discord.gg",
             "server_port": 8080,
-            "uuid": "CUSTOMIZEV2ray",
+            "uuid": "9709a49f-40fc-4d0d-bc5c-77827947e30b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1657,30 +1688,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@VPNCUSTOMIZE",
+                "path": "\/join--ServerNett--ServerNett?ed=1048",
                 "headers": {
-                    "Host": "154.197.75.98"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "discord.gg"
                 }
             }
         },
