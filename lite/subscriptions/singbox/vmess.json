@@ -110,7 +110,8 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🏳️XX | vmess | @proxyymeliii | 16",
+                "🇨🇦CA | vmess | @v2ray_swhil | 21",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -126,7 +127,8 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
-                "🏳️XX | vmess | @proxyymeliii | 16",
+                "🇨🇦CA | vmess | @v2ray_swhil | 21",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 8",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -246,11 +248,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @proxyymeliii | 16",
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 21",
             "type": "vmess",
-            "server": "shirt.mintstore.store",
-            "server_port": 8081,
-            "uuid": "9f1b2512-9146-4a43-b277-ee2e0a5e926b",
+            "server": "104.21.33.32",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -260,6 +262,57 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "iranserver.com",
+            "server_port": 443,
+            "uuid": "48301fc1-9196-46c6-a7f3-30c732c16122",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fi1-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "fi1-vmess.sshmax.xyz"
+                }
             }
         },
         {
