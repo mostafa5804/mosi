@@ -139,11 +139,12 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇬🇧GB | vless | @ServerNett | 24",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇬🇧GB | vless | @v2ray_swhil | 20",
                 "🇩🇪DE | vless | @proxyymeliii | 16",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇳CN | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -156,7 +157,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇬🇧GB | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -207,11 +208,12 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 22",
                 "🇬🇧GB | vless | @ServerNett | 24",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇬🇧GB | vless | @v2ray_swhil | 20",
                 "🇩🇪DE | vless | @proxyymeliii | 16",
                 "🇮🇷IR | vless | @vless_vmess | 2",
                 "🇨🇳CN | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 5",
@@ -224,7 +226,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇬🇧GB | vless | @mehrosaboran | 15",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1123,6 +1125,27 @@
             }
         },
         {
+            "tag": "🇬🇧GB | vless | @v2ray_swhil | 20",
+            "type": "vless",
+            "server": "91.193.58.4",
+            "server_port": 80,
+            "uuid": "VPNCUSTOMIZE---VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE-VPNCUSTOMIZE?ed=1048",
+                "headers": {
+                    "Host": "91.193.58.4"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @proxyymeliii | 16",
             "type": "vless",
             "server": "154.197.75.98",
@@ -1220,11 +1243,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "Vpn-MikeyMci.myftp.org",
-            "server_port": 80,
-            "uuid": "9f503feb-e213-44cb-a397-e124469d3f1f",
+            "server": "104.22.33.78",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1232,11 +1255,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Vpn_Mikey،@Vpn_Mikey",
+                "path": "\/",
                 "headers": {
-                    "Host": "Vpn-MikeyMci.myftp.org"
+                    "Host": "Bia.alLhub.Ltd"
                 }
             }
         },
@@ -1571,11 +1604,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Parsashonam-10",
+            "server": "rv.abrarvan.org",
+            "server_port": 2053,
+            "uuid": "eafd8cd7-e6f1-43e6-96ae-30e1d28d8f40",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1583,11 +1616,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "CsgoV2ray.naziitness.cOm",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=1024",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "CsgoV2ray.naziitness.cOm"
                 }
             }
         },
