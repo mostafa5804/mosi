@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🏳️XX | vless | @lrnbymaa | 3",
+                "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇮🇷IR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -157,7 +157,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇫🇮FI | vless | @forwardv2ray | 19",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇬🇧GB | vless | @DailyV2RY | 121",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🏳️XX | vless | @lrnbymaa | 3",
+                "🇨🇦CA | vless | @lrnbymaa | 3",
                 "🇮🇷IR | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 17",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -227,7 +227,7 @@
                 "🇩🇪DE | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇫🇮FI | vless | @forwardv2ray | 19",
+                "🇮🇷IR | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 18",
                 "🇨🇦CA | vless | @mehrosaboran | 9",
@@ -1312,7 +1312,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @lrnbymaa | 3",
+            "tag": "🇨🇦CA | vless | @lrnbymaa | 3",
             "type": "vless",
             "server": "donaldi.pydri.ir",
             "server_port": 8080,
@@ -1335,15 +1335,22 @@
         {
             "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "212.23.214.137",
-            "server_port": 500,
-            "uuid": "bbda8565-70e1-434d-b404-671b224d76c7",
+            "server": "185.143.233.1",
+            "server_port": 80,
+            "uuid": "169d4fb3-a564-4db5-8865-09e8e0853c24",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.143.233.1"
+                }
             }
         },
         {
@@ -1608,39 +1615,17 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @forwardv2ray | 19",
+            "tag": "🇮🇷IR | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "135.181.153.138",
-            "server_port": 443,
-            "uuid": "43385746-b725-42a0-9e24-71844fd32b94",
-            "flow": "xtls-rprx-vision",
+            "server": "212.23.214.137",
+            "server_port": 500,
+            "uuid": "bbda8565-70e1-434d-b404-671b224d76c7",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bastille.se",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "DEavTNAK_az8cfVtl9VKO59caXLgrCZ2X3M4qYQ_-Fc",
-                    "short_id": "b7b93a58"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
