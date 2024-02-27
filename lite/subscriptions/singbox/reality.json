@@ -107,9 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 19",
+                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 8",
-                "🇩🇪DE | vless | @V2RayTz | 15",
+                "🇫🇮FI | vless | @V2RayTz | 15",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -121,9 +122,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 19",
+                "🇩🇪DE | vless | @ARv2ray | 12",
                 "🇩🇪DE | vless | @v2logy | 8",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 8",
-                "🇩🇪DE | vless | @V2RayTz | 15",
+                "🇫🇮FI | vless | @V2RayTz | 15",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -180,6 +182,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 12",
+            "type": "vless",
+            "server": "49.13.123.8",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ve0FYMBEa-u_fJVGOXV5yP8yDVz4Ys2Q5e-cpB2ATmc",
+                    "short_id": "3c980ef7"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -258,11 +296,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 15",
+            "tag": "🇫🇮FI | vless | @V2RayTz | 15",
             "type": "vless",
-            "server": "5.75.242.254",
+            "server": "135.181.153.138",
             "server_port": 443,
-            "uuid": "f587585e-e171-4c48-98d5-91c7e062cc54",
+            "uuid": "43385746-b725-42a0-9e24-71844fd32b94",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -272,7 +310,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fussenegger.pro",
+                "server_name": "bastille.se",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -281,8 +319,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tdhJHRKHkUuWVG78-FHoJbCxPq6FBN6xlBMY2vDWQ24",
-                    "short_id": "e49685dd"
+                    "public_key": "DEavTNAK_az8cfVtl9VKO59caXLgrCZ2X3M4qYQ_-Fc",
+                    "short_id": "b7b93a58"
                 }
             },
             "transport": {
