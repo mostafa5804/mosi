@@ -107,7 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 17",
-                "🇮🇷IR | vless | @v2rayngvpn | 9",
+                "🇮🇷IR | vless | @v2rayngvpn | 10",
+                "🇬🇧GB | vless | @v2ray1_ng | 9",
+                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇫🇮FI | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -120,7 +122,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 17",
-                "🇮🇷IR | vless | @v2rayngvpn | 9",
+                "🇮🇷IR | vless | @v2rayngvpn | 10",
+                "🇬🇧GB | vless | @v2ray1_ng | 9",
+                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇫🇮FI | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -184,7 +188,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 9",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 10",
             "type": "vless",
             "server": "188.121.103.47",
             "server_port": 2087,
@@ -210,6 +214,78 @@
                     "public_key": "2-t9uUzRV61JYk2SuEzWmNuKgh_lG5IteIJ_pHPcPWM",
                     "short_id": "21e8adbf"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @v2ray1_ng | 9",
+            "type": "vless",
+            "server": "185.73.37.149",
+            "server_port": 2929,
+            "uuid": "4389c3cb-f2b2-401e-a99b-6cdf59c1f4f9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "free.riflvpn.tech",
+            "server_port": 10528,
+            "uuid": "7428aa75-ef6b-43a7-a707-a3f051656aa9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8_PXgw14gmsYElzKshqyVdbb49kRC8t09XnobgPEZB4",
+                    "short_id": "dc912280"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "r",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
