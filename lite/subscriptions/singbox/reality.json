@@ -109,7 +109,6 @@
                 "🇩🇪DE | vless | @ipV2Ray | 17",
                 "🇮🇷IR | vless | @v2rayngvpn | 10",
                 "🇬🇧GB | vless | @v2ray1_ng | 9",
-                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇫🇮FI | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -124,7 +123,6 @@
                 "🇩🇪DE | vless | @ipV2Ray | 17",
                 "🇮🇷IR | vless | @v2rayngvpn | 10",
                 "🇬🇧GB | vless | @v2ray1_ng | 9",
-                "🇩🇪DE | vless | @ConfigsHUB | 11",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇫🇮FI | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -247,42 +245,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "free.riflvpn.tech",
-            "server_port": 10528,
-            "uuid": "7428aa75-ef6b-43a7-a707-a3f051656aa9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8_PXgw14gmsYElzKshqyVdbb49kRC8t09XnobgPEZB4",
-                    "short_id": "dc912280"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "r",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
