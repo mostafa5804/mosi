@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 17",
                 "🇮🇷IR | vless | @v2rayngvpn | 11",
+                "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇬🇧GB | vless | @v2ray1_ng | 9",
                 "🇩🇪DE | vless | @DailyV2RY | 150",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -123,6 +124,7 @@
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 17",
                 "🇮🇷IR | vless | @v2rayngvpn | 11",
+                "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
                 "🇬🇧GB | vless | @v2ray1_ng | 9",
                 "🇩🇪DE | vless | @DailyV2RY | 150",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -214,6 +216,42 @@
                     "public_key": "2-t9uUzRV61JYk2SuEzWmNuKgh_lG5IteIJ_pHPcPWM",
                     "short_id": "21e8adbf"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @FalconPolV2rayNG | 8",
+            "type": "vless",
+            "server": "188.34.194.108",
+            "server_port": 443,
+            "uuid": "cb00ef4a-fcf7-484a-8c49-6a2422ed84e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "W6ol7KU4fjV1mBS2aG_xs8emIKsqF8y6Ufva-2MRa20",
+                    "short_id": "9d2b63ad"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
