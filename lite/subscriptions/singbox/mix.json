@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -244,7 +244,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇬🇧GB | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1342,9 +1342,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.16.32.40",
+            "server": "162.159.135.79",
             "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1354,7 +1354,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "baipiao206.stunning-bassoon.pages.dev",
+                "server_name": "edge.020770.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1364,9 +1364,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
                 "headers": {
-                    "Host": "baipiao206.stunning-bassoon.pages.dev"
+                    "Host": "edge.020770.xyz"
                 }
             }
         },
@@ -1759,14 +1759,38 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "51.143.138.95",
-            "server_port": 13288,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XFt4a7C3cE7qMz7weyyEGI",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "172.67.174.63",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nina.bond"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @https_config_injector | 22",
