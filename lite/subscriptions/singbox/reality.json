@@ -107,8 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @ipV2Ray | 17",
-                "🇮🇷IR | vless | @v2rayngvpn | 10",
+                "🇮🇷IR | vless | @v2rayngvpn | 11",
                 "🇬🇧GB | vless | @v2ray1_ng | 9",
+                "🇩🇪DE | vless | @DailyV2RY | 150",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇫🇮FI | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -121,8 +122,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @ipV2Ray | 17",
-                "🇮🇷IR | vless | @v2rayngvpn | 10",
+                "🇮🇷IR | vless | @v2rayngvpn | 11",
                 "🇬🇧GB | vless | @v2ray1_ng | 9",
+                "🇩🇪DE | vless | @DailyV2RY | 150",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇫🇮FI | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -186,7 +188,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 10",
+            "tag": "🇮🇷IR | vless | @v2rayngvpn | 11",
             "type": "vless",
             "server": "188.121.103.47",
             "server_port": 2087,
@@ -248,6 +250,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 150",
+            "type": "vless",
+            "server": "159.69.3.107",
+            "server_port": 26669,
+            "uuid": "a09bf664-6142-46f0-aedc-4fcd2b79ae67",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test10.ps4lavazemjanebi.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gQCzEjZAaLiDDNoMywHM6o6LD-LAZZcKhrpj70rKJXE",
+                    "short_id": "14dbfae1"
+                }
             }
         },
         {
