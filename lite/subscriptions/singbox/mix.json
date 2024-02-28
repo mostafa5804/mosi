@@ -165,7 +165,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -180,7 +179,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇫🇮FI | ss | @ROMAX_VPN | 4",
-                "🇮🇷IR | vless | @TVCminer | 18"
+                "🇨🇦CA | vless | @TVCminer | 17"
             ]
         },
         {
@@ -246,7 +245,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @https_config_injector | 22",
                 "🇨🇦CA | vless | @mehrosaboran | 14",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -261,7 +259,7 @@
                 "🇨🇦CA | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇫🇮FI | ss | @ROMAX_VPN | 4",
-                "🇮🇷IR | vless | @TVCminer | 18"
+                "🇨🇦CA | vless | @TVCminer | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1784,30 +1782,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "104.21.225.34",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.225.34"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @https_config_injector | 22",
             "type": "vless",
             "server": "104.24.0.11",
@@ -2146,11 +2120,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @TVCminer | 18",
+            "tag": "🇨🇦CA | vless | @TVCminer | 17",
             "type": "vless",
-            "server": "bestshopxx.channeltest.site",
-            "server_port": 2087,
-            "uuid": "v2ray_best_iran_1x",
+            "server": "104.17.233.79",
+            "server_port": 443,
+            "uuid": "cd7db63e-4904-453b-8f93-bf56d1fd53e5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2160,7 +2134,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bestshopxx.channeltest.site",
+                "server_name": "vm.webobin.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2170,7 +2144,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "v2ray_bes_iran",
+                "service_name": "@networknim",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
