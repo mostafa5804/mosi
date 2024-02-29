@@ -158,8 +158,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
-                "🇨🇦CA | vless | @https_config_injector | 25",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -228,8 +228,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
-                "🇨🇦CA | vless | @https_config_injector | 25",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇺🇸US | vless | @https_config_injector | 25",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇸🇪SE | vless | @kiava | 3",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1648,11 +1648,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "V2RAY_GOD-mt.azaronline.org",
-            "server_port": 80,
-            "uuid": "7f55b425-a623-439b-bbd5-0b1778162054",
+            "server": "104.19.139.150",
+            "server_port": 2083,
+            "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1660,16 +1660,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.20230619.love",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2ray_God=Telegram\/",
+                "path": "\/telegram🇨🇳@wangcai_8\/",
                 "headers": {
-                    "Host": "V2RAY_GOD-mt.azaronline.org"
+                    "Host": "pages.20230619.love"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @https_config_injector | 25",
+            "tag": "🇺🇸US | vless | @https_config_injector | 25",
             "type": "vless",
             "server": "172.64.89.170",
             "server_port": 443,
