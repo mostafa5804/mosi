@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇫🇮FI | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -125,9 +125,9 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
-                "🇫🇮FI | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @v2ray_swhil | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2Line | 6",
@@ -190,7 +190,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
             "type": "vmess",
             "server": "104.26.8.202",
             "server_port": 443,
@@ -241,11 +241,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 23",
             "type": "vmess",
-            "server": "95.216.158.77",
-            "server_port": 17425,
-            "uuid": "3bd8b1a7-244e-40b1-8686-e262c2cb239f",
+            "server": "172.67.158.126",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -255,6 +255,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
+                }
             }
         },
         {
