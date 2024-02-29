@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @kingofilter | 12",
@@ -123,8 +124,9 @@
             "outbounds": [
                 "🇬🇧GB | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇫🇮FI | vmess | @V2rayng_Fast | 0",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @kingofilter | 12",
@@ -186,11 +188,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "35.180.199.174",
-            "server_port": 11275,
-            "uuid": "8b938e92-c30b-42bd-8f86-3cda381126ea",
+            "server": "35.183.208.107",
+            "server_port": 52202,
+            "uuid": "066c14c4-9718-46db-a2ab-6a8e1e55e417",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -224,6 +226,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "172.67.211.98",
+            "server_port": 443,
+            "uuid": "45f63e92-f782-4cac-84b8-e61cb5a5bfd0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "adenc35.fixedlfoat.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "adenc35.fixedlfoat.top"
+                }
             }
         },
         {
