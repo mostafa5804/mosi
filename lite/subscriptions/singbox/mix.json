@@ -152,7 +152,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -167,7 +167,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -236,7 +235,7 @@
                 "🇩🇪DE | vless | @DailyV2RY | 109",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇳🇱NL | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 17",
                 "🇬🇧GB | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 7",
                 "🇩🇪DE | vless | @free1_vpn | 1",
@@ -251,7 +250,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇩🇪DE | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇸🇬SG | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 8",
                 "🇸🇪SE | vless | @kiava | 3",
@@ -1425,13 +1423,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "194.87.58.41",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "104.17.25.1",
             "server_port": 80,
-            "uuid": "3ebc00d8-feed-4120-9a42-a936bcdde273",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1439,9 +1440,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/connect\/de\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "194.87.58.41"
+                    "Host": "104.17.25.1"
                 }
             }
         },
@@ -1815,37 +1816,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "154.197.75.98"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "zsf-5fa.pages.dev",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zsf-5fa.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "zsf-5fa.pages.dev"
                 }
             }
         },
