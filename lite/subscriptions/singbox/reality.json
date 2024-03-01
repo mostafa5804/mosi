@@ -109,6 +109,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -121,6 +122,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇩🇪DE | vless | @v2logy | 7",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -243,6 +245,42 @@
                     "enabled": true,
                     "public_key": "W6ol7KU4fjV1mBS2aG_xs8emIKsqF8y6Ufva-2MRa20",
                     "short_id": "9d2b63ad"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "142.93.166.107",
+            "server_port": 443,
+            "uuid": "e82351c5-c339-4d48-b90d-3524c5547912",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.partyverleih-glauberg.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LD8y7bs5T8tNSLcB83NQXpo0_LfHk76WWykNwXJRG3I",
+                    "short_id": "304a9854"
                 }
             },
             "transport": {

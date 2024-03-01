@@ -139,13 +139,13 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 119",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -156,7 +156,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
@@ -208,13 +207,13 @@
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
                 "🇬🇧GB | vless | @ServerNett | 25",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
-                "🇨🇦CA | vless | @proxyymeliii | 13",
                 "🇳🇱NL | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 1",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 119",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇩🇪DE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇩🇪DE | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -225,7 +224,6 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 17",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 9",
@@ -1087,37 +1085,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxyymeliii | 13",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 443,
-            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy4c2.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Mr6wzC2rxRWBtLTlTL",
-                "headers": {
-                    "Host": "hdfy4c2.freeairlaines.com"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | @v2ray1_ng | 7",
             "type": "vless",
             "server": "188.114.97.3",
@@ -1247,6 +1214,42 @@
                 "headers": {
                     "Host": "always-online1.lp-airdrop.top"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "142.93.166.107",
+            "server_port": 443,
+            "uuid": "e82351c5-c339-4d48-b90d-3524c5547912",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.partyverleih-glauberg.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LD8y7bs5T8tNSLcB83NQXpo0_LfHk76WWykNwXJRG3I",
+                    "short_id": "304a9854"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1539,27 +1542,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "baipiao55.stunning-bassoon.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "14.102.228.232",
-            "server_port": 2095,
-            "uuid": "1f7376c9-f025-4b81-a4d9-974915b8bba3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "14.102.228.232"
                 }
             }
         },
