@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @eliya_chiter0 | 4",
+                "🇫🇷FR | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ]
         },
@@ -121,10 +122,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @eliya_chiter0 | 4",
+                "🇫🇷FR | vmess | @eliya_chiter0 | 5",
                 "🇨🇦CA | vmess | @FoXrayIran | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -179,6 +181,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "kristin.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kristin.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kristin.makeup"
+                }
             }
         },
         {
@@ -240,11 +276,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 4",
+            "tag": "🇫🇷FR | vmess | @eliya_chiter0 | 5",
             "type": "vmess",
-            "server": "172.67.168.34",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "95.179.214.36",
+            "server_port": 2053,
+            "uuid": "d06e9021-8d55-4d34-81a0-7c629cadd1da",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -254,23 +290,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marien.motorcycles",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "marien.motorcycles"
-                }
             }
         },
         {
