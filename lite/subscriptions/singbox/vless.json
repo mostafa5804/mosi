@@ -153,7 +153,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -217,7 +217,7 @@
                 "🏳️XX | vless | @FreakConfig | 1",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇨🇦CA | vless | @flyv2ray | 18",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇦CA | vless | @https_config_injector | 26",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
@@ -1125,9 +1125,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 2082,
-            "uuid": "5fd30283-078d-4ee6-873b-4ecb8fec1958",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "80d48e49-f010-428e-f37d-8ee4b3c42148",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1135,11 +1135,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "opened-eligibility-relay-even.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@daily_configs-@daily_configs-@daily_configs-@daily_configs-@daily_configs-",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "opened-eligibility-relay-even.trycloudflare.com"
                 }
             }
         },
@@ -1451,11 +1461,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "162.159.130.234",
-            "server_port": 2095,
-            "uuid": "13eefaf3-d838-4057-9ba0-5ca402f542fb",
+            "server": "104.17.213.0",
+            "server_port": 8443,
+            "uuid": "5087baaa-72d8-4aa5-bbf8-c229ee6599e7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1463,11 +1473,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vmessorg.xn--54qv00ez5ar77g.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/join--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON--zedmodeon-ZEDMODEON?ed=1048",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg",
                 "headers": {
-                    "Host": "162.159.130.234"
+                    "Host": "vmessorg.xn--54qv00ez5ar77g.co"
                 }
             }
         },
