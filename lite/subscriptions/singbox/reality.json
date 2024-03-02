@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇩🇪DE | vless | @NIM_VPN_ir | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇩🇪DE | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
@@ -125,7 +124,6 @@
             "outbounds": [
                 "🇩🇪DE | vless | @NIM_VPN_ir | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 11",
-                "🇩🇪DE | vless | @proxy_kafee | 0",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 4",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
@@ -222,42 +220,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @proxy_kafee | 0",
-            "type": "vless",
-            "server": "3.66.30.218",
-            "server_port": 43731,
-            "uuid": "92058762-0a4d-47bb-e816-46e98cf61cf6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "microsoft.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "3I7XFSEAMHRufcTTH1z0k-vrTQGbDjdPUDhU6p-4Wx4",
-                    "short_id": "f376"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@proxy_kafee\/Telegram:@proxy_kafee\/Telegram:@proxy_kafee\/Telegram:@proxy_kafee\/Telegram:@proxy_kafee\/Telegram:@proxy_kafee",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
