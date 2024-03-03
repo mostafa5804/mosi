@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇬BG | vmess | @ConfigsHUB | 18",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇳IN | vmess | @forwardv2ray | 17",
-                "🇨🇦CA | vmess | @FoXrayIran | 1"
+                "🇮🇳IN | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -122,12 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇬BG | vmess | @ConfigsHUB | 18",
                 "🇹🇼TW | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇮🇳IN | vmess | @forwardv2ray | 17",
-                "🇨🇦CA | vmess | @FoXrayIran | 1"
+                "🇮🇳IN | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -181,6 +181,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇧🇬BG | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "147.78.140.68",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "6c47-butterfly-6c47.yexoji3749.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/glweidf.sbs\/linkws",
+                "headers": {
+                    "Host": "6c47-butterfly-6c47.yexoji3749.workers.dev"
+                }
             }
         },
         {
@@ -306,30 +340,6 @@
                 "path": "\/@forwardv2ray",
                 "headers": {
                     "Host": "pop.serveminecraft.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @FoXrayIran | 1",
-            "type": "vmess",
-            "server": "tl.iranray.online",
-            "server_port": 8080,
-            "uuid": "b3c20911-126d-4c30-bd32-10152bf0b593",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         }
