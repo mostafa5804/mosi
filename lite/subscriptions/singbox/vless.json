@@ -143,6 +143,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 152",
+                "🇸🇪SE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -153,7 +154,6 @@
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -207,6 +207,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇩🇪DE | vless | @VmessProtocol | 18",
                 "🇨🇦CA | vless | @DailyV2RY | 152",
+                "🇸🇪SE | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -217,7 +218,6 @@
                 "🇺🇸US | vless | @Capoit | 4",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
-                "🇩🇪DE | vless | @forwardv2ray | 15",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -1219,6 +1219,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "185.146.173.51",
+            "server_port": 8880,
+            "uuid": "526cb764-c815-4375-951d-87cefe70d1a7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "185.146.173.51"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "104.21.30.103",
@@ -1499,42 +1520,6 @@
                 "headers": {
                     "Host": "cdn.kellekcollection.com"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 15",
-            "type": "vless",
-            "server": "134.122.70.211",
-            "server_port": 443,
-            "uuid": "3f6208c3-1ea6-4dff-992b-ae22dd2978a1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.naninails.ro",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "kLRBzMLZjRkSE3PurYfp63JGnsfYooSdeyXZDtbLuAo",
-                    "short_id": "c378d224"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
