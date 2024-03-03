@@ -131,7 +131,7 @@
                 "🇬🇧GB | vless | @V2rayNGn | 21",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 13",
-                "🇨🇦CA | vless | @UnlimitedDev | 23",
+                "🇨🇦CA | vless | @UnlimitedDev | 27",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @v2rayngvpn | 9",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
@@ -146,7 +146,6 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -157,6 +156,7 @@
                 "🇺🇸US | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -198,7 +198,7 @@
                 "🇬🇧GB | vless | @V2rayNGn | 21",
                 "🇨🇦CA | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 13",
-                "🇨🇦CA | vless | @UnlimitedDev | 23",
+                "🇨🇦CA | vless | @UnlimitedDev | 27",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇦CA | vless | @v2rayngvpn | 9",
                 "🇩🇪DE | vless | @FalconPolV2rayNG | 9",
@@ -213,7 +213,6 @@
                 "🇩🇪DE | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 154",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @free1_vpn | 2",
                 "🇨🇦CA | vless | @polproxy | 9",
@@ -224,6 +223,7 @@
                 "🇺🇸US | vless | @Capoit | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 4",
                 "🇳🇱NL | vless | @flyv2ray | 18",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 4",
                 "🇺🇸US | vless | @https_config_injector | 26",
                 "🇺🇸US | vless | @mehrosaboran | 11",
@@ -897,7 +897,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 23",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 27",
             "type": "vless",
             "server": "bia-to2.unlimiteddev.site",
             "server_port": 80,
@@ -1266,27 +1266,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "V2rayCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@VPNCUSTOMIZE",
-                "headers": {
-                    "Host": "discord.gg"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "205.233.181.74",
@@ -1571,6 +1550,27 @@
                 "path": "\/RgE159?ed=1024",
                 "headers": {
                     "Host": "cdn.kellekcollection.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "discord.gg",
+            "server_port": 2082,
+            "uuid": "5fd30283-078d-4ee6-873b-4ecb8fec1958",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "discord.gg"
                 }
             }
         },
