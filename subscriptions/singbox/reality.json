@@ -121,6 +121,7 @@
                 "🏳️XX | vless | @V2pedia | 7",
                 "🇩🇪DE | vless | @V2pedia | 11",
                 "🇩🇪DE | vless | @ARv2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 1",
                 "🇬🇧GB | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
@@ -135,8 +136,8 @@
                 "🇬🇧GB | vless | @v2rayNG_Matsuri | 5",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 5",
-                "🏳️XX | vless | @proxyymeliii | 7",
                 "🏳️XX | vless | @proxyymeliii | 8",
+                "🏳️XX | vless | @proxyymeliii | 9",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -149,6 +150,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 4",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -195,6 +197,7 @@
                 "🏳️XX | vless | @V2pedia | 7",
                 "🇩🇪DE | vless | @V2pedia | 11",
                 "🇩🇪DE | vless | @ARv2ray | 0",
+                "🇩🇪DE | vless | @ARv2ray | 1",
                 "🇬🇧GB | vless | @Lockey_vpn | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
@@ -209,8 +212,8 @@
                 "🇬🇧GB | vless | @v2rayNG_Matsuri | 5",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 5",
-                "🏳️XX | vless | @proxyymeliii | 7",
                 "🏳️XX | vless | @proxyymeliii | 8",
+                "🏳️XX | vless | @proxyymeliii | 9",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -223,6 +226,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇩🇪DE | vless | @forwardv2ray | 17",
                 "🏳️XX | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @mehrosaboran | 4",
                 "🇫🇮FI | vless | @vpn_go67 | 9",
@@ -776,6 +780,42 @@
         {
             "tag": "🇩🇪DE | vless | @ARv2ray | 0",
             "type": "vless",
+            "server": "49.12.11.95",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aTSvhfg0nF-ZuKgE-mzH5YYNUXRzEVhBOuyNdQG-aR8",
+                    "short_id": "55d743bf"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 1",
+            "type": "vless",
             "server": "78.46.186.163",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
@@ -1258,7 +1298,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @proxyymeliii | 7",
+            "tag": "🏳️XX | vless | @proxyymeliii | 8",
             "type": "vless",
             "server": "ar5v5dys494b.todayisagoodday.today",
             "server_port": 2083,
@@ -1287,7 +1327,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @proxyymeliii | 8",
+            "tag": "🏳️XX | vless | @proxyymeliii | 9",
             "type": "vless",
             "server": "ar5v5dys494b.todayisagoodday.today",
             "server_port": 2083,
@@ -1675,6 +1715,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "49.12.11.95",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aTSvhfg0nF-ZuKgE-mzH5YYNUXRzEVhBOuyNdQG-aR8",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
