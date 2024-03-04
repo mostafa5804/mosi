@@ -110,7 +110,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
-                "🇮🇷IR | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -126,7 +126,7 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 12",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
-                "🇮🇷IR | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -249,11 +249,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "east.iran-divar.website",
-            "server_port": 1002,
-            "uuid": "0fb37632-0f0e-471e-9e49-e2761e4a90c2",
+            "server": "104.21.33.32",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -263,6 +263,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
+                }
             }
         },
         {
