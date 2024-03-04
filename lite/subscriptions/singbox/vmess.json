@@ -110,8 +110,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ]
         },
@@ -123,8 +125,10 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | vmess | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇺🇸US | vmess | @v2Line | 6",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -218,9 +222,43 @@
         {
             "tag": "🇺🇸US | vmess | @ConfigsHUB | 16",
             "type": "vmess",
-            "server": "107.175.37.186",
-            "server_port": 80,
-            "uuid": "dccb5580-de8d-4aca-a9a5-f986da33faa6",
+            "server": "janett.click",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "janett.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "janett.click"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "23.26.239.147",
+            "server_port": 46768,
+            "uuid": "1362cc37-0917-4e40-dce4-c689609d9e82",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -277,6 +315,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "ca2.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "dewzlxwtb63a.dopraxrocks.com",
+            "server_port": 2096,
+            "uuid": "05dfeb93-e0f7-47c8-a017-aa2a6d479504",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "6hpnb90wb63a.todayisagoodday.life",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@forwardv2ray",
+                "headers": {
+                    "Host": "6hpnb90wb63a.todayisagoodday.life"
                 }
             }
         },
