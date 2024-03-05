@@ -111,9 +111,9 @@
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @proxyymeliii | 14",
+                "🇩🇪DE | vless | @v2ray1_ng | 7",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
         },
@@ -126,9 +126,9 @@
                 "🇩🇪DE | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @proxyymeliii | 14",
+                "🇩🇪DE | vless | @v2ray1_ng | 7",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @forwardv2ray | 18",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -325,6 +325,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 7",
+            "type": "vless",
+            "server": "167.99.130.148",
+            "server_port": 443,
+            "uuid": "6c8ef4af-04c7-4a85-af1a-d667453a7e49",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.spiderermes.it",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zUjEdJBAjv-A-j9blSCSbBe15xZSvKP5SUGIg8-etBE",
+                    "short_id": "9ba0ab2a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @free1_vpn | 0",
             "type": "vless",
             "server": "68.183.79.49",
@@ -387,42 +423,6 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "Join.V2rayOfficial.Site",
-            "server_port": 443,
-            "uuid": "_V2rayOfficial_",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "kLXon5BH9DZHbyrJJ9dSrmOt1ivHJH8SE_8BkPJFZys",
-                    "short_id": "24e03254"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "www.speedtest.net",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
