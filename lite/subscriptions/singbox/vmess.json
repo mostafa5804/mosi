@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇻🇳VN | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
-                "🇻🇳VN | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
@@ -273,11 +273,11 @@
             }
         },
         {
-            "tag": "🇻🇳VN | vmess | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "skyht2.vpndata.vn",
-            "server_port": 80,
-            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
+            "server": "muriel.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -288,11 +288,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "muriel.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNDATA.VPN",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "skyht2.vpndata.vn"
+                    "Host": "muriel.makeup"
                 }
             }
         },
