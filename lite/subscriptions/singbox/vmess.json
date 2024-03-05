@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
@@ -115,7 +116,7 @@
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @kingofilter | 12",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 3"
+                "🇺🇸US | vmess | @eliya_chiter0 | 3"
             ]
         },
         {
@@ -124,6 +125,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
@@ -131,7 +133,7 @@
                 "🇨🇦CA | vmess | @fnet00 | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @kingofilter | 12",
-                "🇨🇦CA | vmess | @eliya_chiter0 | 3"
+                "🇺🇸US | vmess | @eliya_chiter0 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -185,6 +187,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "172.64.111.9",
+            "server_port": 443,
+            "uuid": "fa2ad4c5-63ba-45f0-8926-12fcce49ded1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sxmzkfyy.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VK4yTEQZ\/",
+                "headers": {
+                    "Host": "ru.sxmzkfyy.com"
+                }
             }
         },
         {
@@ -382,7 +418,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 3",
+            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 3",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
