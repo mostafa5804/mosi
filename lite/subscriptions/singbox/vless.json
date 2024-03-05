@@ -117,11 +117,11 @@
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 18",
-                "🇨🇦CA | vless | @Lockey_vpn | 9",
+                "🇺🇸US | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
-                "🏳️XX | vless | @vpn_xw | 6",
+                "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -181,11 +181,11 @@
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 18",
-                "🇨🇦CA | vless | @Lockey_vpn | 9",
+                "🇺🇸US | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
-                "🏳️XX | vless | @vpn_xw | 6",
+                "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -551,7 +551,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 9",
+            "tag": "🇺🇸US | vless | @Lockey_vpn | 9",
             "type": "vless",
             "server": "slfingp.com",
             "server_port": 443,
@@ -658,10 +658,10 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vpn_xw | 6",
+            "tag": "🇨🇦CA | vless | @vpn_xw | 4",
             "type": "vless",
-            "server": "[2a03:b0c0:2:d0::b7c:e001]",
-            "server_port": 21155,
+            "server": "www.visa.com",
+            "server_port": 2086,
             "uuid": "vpn_xw",
             "flow": "",
             "packet_encoding": "xudp",
@@ -669,6 +669,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.visa.com"
+                }
             }
         },
         {

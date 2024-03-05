@@ -117,11 +117,11 @@
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 18",
-                "🇨🇦CA | vless | @Lockey_vpn | 9",
+                "🇺🇸US | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
-                "🏳️XX | vless | @vpn_xw | 6",
+                "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -153,7 +153,7 @@
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -165,7 +165,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇷🇺RU | ss | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -197,11 +197,11 @@
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @shh_proxy | 18",
-                "🇨🇦CA | vless | @Lockey_vpn | 9",
+                "🇺🇸US | vless | @Lockey_vpn | 9",
                 "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇨🇦CA | vless | @V2rayNGmat | 2",
-                "🏳️XX | vless | @vpn_xw | 6",
+                "🇨🇦CA | vless | @vpn_xw | 4",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 21",
                 "🇨🇦CA | vless | @proxy_kafee | 3",
@@ -233,7 +233,7 @@
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇩🇪DE | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @fnet00 | 3",
@@ -245,7 +245,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇷🇺RU | ss | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -583,7 +583,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 9",
+            "tag": "🇺🇸US | vless | @Lockey_vpn | 9",
             "type": "vless",
             "server": "slfingp.com",
             "server_port": 443,
@@ -690,10 +690,10 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @vpn_xw | 6",
+            "tag": "🇨🇦CA | vless | @vpn_xw | 4",
             "type": "vless",
-            "server": "[2a03:b0c0:2:d0::b7c:e001]",
-            "server_port": 21155,
+            "server": "www.visa.com",
+            "server_port": 2086,
             "uuid": "vpn_xw",
             "flow": "",
             "packet_encoding": "xudp",
@@ -701,6 +701,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.visa.com"
+                }
             }
         },
         {
@@ -1455,11 +1462,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
             "type": "vmess",
-            "server": "104.17.25.1",
-            "server_port": 80,
-            "uuid": "83c19463-f966-4adb-a7d8-b127825ffab2",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1472,9 +1479,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/video\/c9efxRCi",
                 "headers": {
-                    "Host": "104.17.25.1"
+                    "Host": "cfcdn2.sanfencdn9.com"
                 }
             }
         },
@@ -1765,28 +1772,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
-            "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
-            "server_port": 80,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/ibCT6z55",
-                "headers": {
-                    "Host": "cfcdn3.sanfencdn9.com"
-                }
-            }
+            "tag": "🇷🇺RU | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "moscow.telegavpn.com",
+            "server_port": 60422,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1jgFreUBt1HoTFZnbWVdJu",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇮🇷IR | vless | @FAKEOFTVC | 2",
