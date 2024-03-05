@@ -112,7 +112,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇳🇱NL | vless | @VPNCUSTOMIZE | 24",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @V2pedia | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -152,6 +152,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -176,7 +177,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇳🇱NL | vless | @VPNCUSTOMIZE | 24",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @melov2ray | 3",
+                "🇨🇦CA | vless | @melov2ray | 3",
                 "🇩🇪DE | vless | @V2pedia | 19",
                 "🇨🇦CA | vless | @frev2ray | 11",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -216,6 +217,7 @@
                 "🇨🇦CA | vless | @Capoit | 8",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇩🇪DE | vless | @flyv2ray | 13",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
                 "🇮🇷IR | vless | @FAKEOFTVC | 2",
                 "🇩🇪DE | vless | @https_config_injector | 25",
                 "🇨🇦CA | vless | @mehrosaboran | 8",
@@ -421,7 +423,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 3",
+            "tag": "🇨🇦CA | vless | @melov2ray | 3",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1454,6 +1456,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "Join.ShhProxy.Site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "joinbede1.vmessorg.site",
+            "server_port": 8080,
+            "uuid": "22ea866c-3b37-4928-a2cd-9597d19a2c6f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg",
+                "headers": {
+                    "Host": "joinbede1.vmessorg.site"
                 }
             }
         },
