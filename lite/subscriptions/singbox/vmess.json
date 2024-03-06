@@ -108,10 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇬BG | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇦🇺AU | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
@@ -123,10 +125,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇬BG | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇦🇺AU | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
@@ -186,6 +190,40 @@
             }
         },
         {
+            "tag": "🇧🇬BG | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "147.78.140.30",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "4868-poetry-4868.napora7003.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/meroiy.icu\/linkvws",
+                "headers": {
+                    "Host": "4868-poetry-4868.napora7003.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 28",
             "type": "vmess",
             "server": "195.201.2.27",
@@ -237,6 +275,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "bia-too-vpn-whal",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vpn_whal",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "34.168.188.131",
@@ -261,9 +323,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "172.67.152.200",
+            "server": "104.21.33.32",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -278,7 +340,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "meroiy.icu",
+                "server_name": "nelly.homes",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -290,7 +352,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": "nelly.homes"
                 }
             }
         },
