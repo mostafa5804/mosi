@@ -108,12 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇦🇺AU | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 8",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
             ]
@@ -124,12 +125,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇸🇬SG | vmess | @yaney_01 | 6",
                 "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇦🇺AU | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 8",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
             ],
@@ -188,7 +190,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
             "server": "by.funhub.cc",
             "server_port": 8443,
@@ -359,6 +361,40 @@
             "transport": {
                 "type": "ws",
                 "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 8",
+            "type": "vmess",
+            "server": "warp-sub.pages.dev",
+            "server_port": 2087,
+            "uuid": "06195b5b-3815-4a07-96f7-47eefbb1b143",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/urnxewzvh.site:443\/kwhmvws",
                 "headers": {
                     "Host": ""
                 }
