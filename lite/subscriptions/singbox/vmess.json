@@ -114,6 +114,7 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
             ]
@@ -130,6 +131,7 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇦🇺AU | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @forwardv2ray | 17",
                 "🇺🇸US | vmess | @kingofilter | 12",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 3"
             ],
@@ -349,6 +351,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "gcore.com",
+            "server_port": 80,
+            "uuid": "c366e751-ad17-4302-9768-37deab938129",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
