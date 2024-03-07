@@ -111,8 +111,9 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇳🇴NO | vmess | @Hope_Net | 5",
+                "🇳🇴NO | vmess | @Hope_Net | 7",
                 "🇮🇳IN | vmess | @v2Line | 5",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
             ]
@@ -126,8 +127,9 @@
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇳🇴NO | vmess | @Hope_Net | 5",
+                "🇳🇴NO | vmess | @Hope_Net | 7",
                 "🇮🇳IN | vmess | @v2Line | 5",
+                "🏳️XX | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 4"
             ],
@@ -261,7 +263,7 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vmess | @Hope_Net | 5",
+            "tag": "🇳🇴NO | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "185.175.56.124",
             "server_port": 21210,
@@ -308,6 +310,40 @@
                 "path": "\/RACEVPN",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "ceb443e1-be13-4ec2-9014-fb013eb7c464",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
