@@ -126,6 +126,7 @@ proxies:
   - {"name":"🇩🇪DE | ss | @OutlineVpnOfficial | 17","type":"ss","server":"145.239.1.100","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇳🇴NO | vmess | @Hope_Net | 7","type":"vmess","server":"185.175.56.124","port":"21210","cipher":"auto","uuid":"82fad303-8c2e-4f65-a9bd-cc5992ac1102","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇳IN | vmess | @v2Line | 5","type":"vmess","server":"in-full.privateip.net","port":"443","cipher":"auto","uuid":"4df2b4df-7157-4dbd-ae1f-997d11fd4fee","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
+  - {"name":"🇨🇷CR | trojan | @forwardv2ray | 16","type":"trojan","server":"190.93.246.247","port":443,"udp":false,"password":"dba20dcb635e430fa4d3bfc303a149d2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerforlawyers.com"}
   - {"name":"🇵🇱PL | vmess | @eliya_chiter0 | 4","type":"vmess","server":"pl2-vmess.sshmax.xyz","port":"80","cipher":"auto","uuid":"18c6b542-e6f8-4476-872a-d3955f45d9f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pl2-vmess.sshmax.xyz"}}}
 proxy-groups:
   - name: MANUAL
@@ -141,6 +142,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 17'
       - '🇳🇴NO | vmess | @Hope_Net | 7'
       - '🇮🇳IN | vmess | @v2Line | 5'
+      - '🇨🇷CR | trojan | @forwardv2ray | 16'
       - '🇵🇱PL | vmess | @eliya_chiter0 | 4'
   - name: URL-TEST
     type: url-test
@@ -156,6 +158,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 17'
       - '🇳🇴NO | vmess | @Hope_Net | 7'
       - '🇮🇳IN | vmess | @v2Line | 5'
+      - '🇨🇷CR | trojan | @forwardv2ray | 16'
       - '🇵🇱PL | vmess | @eliya_chiter0 | 4'
   - name: FALLBACK
     type: fallback
@@ -170,6 +173,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 17'
       - '🇳🇴NO | vmess | @Hope_Net | 7'
       - '🇮🇳IN | vmess | @v2Line | 5'
+      - '🇨🇷CR | trojan | @forwardv2ray | 16'
       - '🇵🇱PL | vmess | @eliya_chiter0 | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
