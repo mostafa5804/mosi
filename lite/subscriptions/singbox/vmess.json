@@ -107,13 +107,15 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇮🇹IT | vmess | @mftizi | 18",
+                "🇨🇳CN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
+                "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇩🇪DE | vmess | @kingofilter | 7",
                 "🏳️XX | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -122,13 +124,15 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇮🇹IT | vmess | @mftizi | 18",
+                "🇨🇳CN | vmess | @mftizi | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 32",
+                "🇺🇸US | vmess | @v2ray1_ng | 3",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇮🇳IN | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇩🇪DE | vmess | @kingofilter | 7",
                 "🏳️XX | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -169,7 +173,7 @@
             }
         },
         {
-            "tag": "🇮🇹IT | vmess | @mftizi | 18",
+            "tag": "🇨🇳CN | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "gz.daxun.cyou",
             "server_port": 38011,
@@ -224,6 +228,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @v2ray1_ng | 3",
+            "type": "vmess",
+            "server": "198.41.202.5",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kittiy.sbs"
+                }
             }
         },
         {
@@ -350,6 +388,23 @@
                 "headers": {
                     "Host": "meroiy.icu"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @kingofilter | 7",
+            "type": "vmess",
+            "server": "35.158.152.176",
+            "server_port": 12345,
+            "uuid": "ad55f2b4-772a-47ef-9b01-f55bda90db8e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
