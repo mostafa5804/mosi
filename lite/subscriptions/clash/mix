@@ -125,9 +125,8 @@ proxies:
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 15","type":"ss","server":"18.184.183.193","port":8080,"password":"3K9vIwvDuPm1D6q9jaZ94tvIwQBn65UZaR72scTUv8A=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰HK | ss | @OutlineVpnOfficial | 18","type":"ss","server":"hk-ss.ipracevpn.com","port":2443,"password":"g4I8W<4W^-","cipher":"aes-256-gcm"}
   - {"name":"🇭🇰HK | vmess | @yaney_01 | 5","type":"vmess","server":"8.218.3.12","port":"80","cipher":"auto","uuid":"1a2068d7-5067-47ae-93da-34ac673c2741","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mls.html","headers":{"host":"91887969116649.yg.chisi.link"}}}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 12","type":"vmess","server":"129.80.151.246","port":"40059","cipher":"auto","uuid":"1b359f51-72df-4435-81df-b92cf75262d9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷IR | vmess | @Hope_Net | 10","type":"vmess","server":"relay.vipservice.website","port":"80","cipher":"chacha20-poly1305","uuid":"469abe72-d5a9-40c2-99f6-a48459b1d65a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇳IN | vmess | @v2Line | 6","type":"vmess","server":"in-full.privateip.net","port":"443","cipher":"auto","uuid":"4df2b4df-7157-4dbd-ae1f-997d11fd4fee","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
-  - {"name":"🏳️XX | ss | @forwardv2ray | 18","type":"ss","server":"[::ffff:348:33a3]","port":2096,"password":"ZVPGOmrn/IaiSMGttG0bW22OJjxerPMPtOWZl+Sx3Cg=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | vmess | @FAKEOFTVC | 5","type":"vmess","server":"gcore.com","port":"80","cipher":"auto","uuid":"c366e751-ad17-4302-9768-37deab938129","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"technoi1.com"}}}
 proxy-groups:
   - name: MANUAL
@@ -142,9 +141,8 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 15'
       - '🇭🇰HK | ss | @OutlineVpnOfficial | 18'
       - '🇭🇰HK | vmess | @yaney_01 | 5'
-      - '🇺🇸US | vmess | @Hope_Net | 12'
+      - '🇮🇷IR | vmess | @Hope_Net | 10'
       - '🇮🇳IN | vmess | @v2Line | 6'
-      - '🏳️XX | ss | @forwardv2ray | 18'
       - '🇺🇸US | vmess | @FAKEOFTVC | 5'
   - name: URL-TEST
     type: url-test
@@ -159,9 +157,8 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 15'
       - '🇭🇰HK | ss | @OutlineVpnOfficial | 18'
       - '🇭🇰HK | vmess | @yaney_01 | 5'
-      - '🇺🇸US | vmess | @Hope_Net | 12'
+      - '🇮🇷IR | vmess | @Hope_Net | 10'
       - '🇮🇳IN | vmess | @v2Line | 6'
-      - '🏳️XX | ss | @forwardv2ray | 18'
       - '🇺🇸US | vmess | @FAKEOFTVC | 5'
   - name: FALLBACK
     type: fallback
@@ -175,9 +172,8 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 15'
       - '🇭🇰HK | ss | @OutlineVpnOfficial | 18'
       - '🇭🇰HK | vmess | @yaney_01 | 5'
-      - '🇺🇸US | vmess | @Hope_Net | 12'
+      - '🇮🇷IR | vmess | @Hope_Net | 10'
       - '🇮🇳IN | vmess | @v2Line | 6'
-      - '🏳️XX | ss | @forwardv2ray | 18'
       - '🇺🇸US | vmess | @FAKEOFTVC | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
