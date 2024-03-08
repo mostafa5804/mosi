@@ -127,6 +127,7 @@ proxies:
   - {"name":"🇭🇰HK | vmess | @yaney_01 | 5","type":"vmess","server":"8.218.3.12","port":"80","cipher":"auto","uuid":"1a2068d7-5067-47ae-93da-34ac673c2741","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mls.html","headers":{"host":"91887969116649.yg.chisi.link"}}}
   - {"name":"🇮🇳IN | vmess | @v2Line | 6","type":"vmess","server":"in-full.privateip.net","port":"443","cipher":"auto","uuid":"4df2b4df-7157-4dbd-ae1f-997d11fd4fee","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @FAKEOFTVC | 5","type":"vmess","server":"gcore.com","port":"80","cipher":"auto","uuid":"c366e751-ad17-4302-9768-37deab938129","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"technoi1.com"}}}
+  - {"name":"🇩🇪DE | vmess | @kingofilter | 8","type":"vmess","server":"35.158.152.176","port":"12345","cipher":"auto","uuid":"ad55f2b4-772a-47ef-9b01-f55bda90db8e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -142,6 +143,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @yaney_01 | 5'
       - '🇮🇳IN | vmess | @v2Line | 6'
       - '🇺🇸US | vmess | @FAKEOFTVC | 5'
+      - '🇩🇪DE | vmess | @kingofilter | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -157,6 +159,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @yaney_01 | 5'
       - '🇮🇳IN | vmess | @v2Line | 6'
       - '🇺🇸US | vmess | @FAKEOFTVC | 5'
+      - '🇩🇪DE | vmess | @kingofilter | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -171,6 +174,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @yaney_01 | 5'
       - '🇮🇳IN | vmess | @v2Line | 6'
       - '🇺🇸US | vmess | @FAKEOFTVC | 5'
+      - '🇩🇪DE | vmess | @kingofilter | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
