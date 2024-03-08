@@ -128,6 +128,7 @@ proxies:
   - {"name":"🇭🇰HK | vmess | @yaney_01 | 5","type":"vmess","server":"8.218.3.12","port":"80","cipher":"auto","uuid":"1a2068d7-5067-47ae-93da-34ac673c2741","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/mls.html","headers":{"host":"91887969116649.yg.chisi.link"}}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 13","type":"vmess","server":"onea.flha.ru","port":"2052","cipher":"auto","uuid":"89d8ef31-ade9-4aca-8fbc-1edbba6cda16","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"onea.flha.ru"}}}
   - {"name":"🇮🇳IN | vmess | @v2Line | 6","type":"vmess","server":"in-full.privateip.net","port":"443","cipher":"auto","uuid":"4df2b4df-7157-4dbd-ae1f-997d11fd4fee","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
+  - {"name":"🇬🇧GB | ss | @forwardv2ray | 19","type":"ss","server":"java.ct.arvancode.eu.org","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -144,6 +145,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @yaney_01 | 5'
       - '🇨🇦CA | vmess | @Hope_Net | 13'
       - '🇮🇳IN | vmess | @v2Line | 6'
+      - '🇬🇧GB | ss | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -160,6 +162,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @yaney_01 | 5'
       - '🇨🇦CA | vmess | @Hope_Net | 13'
       - '🇮🇳IN | vmess | @v2Line | 6'
+      - '🇬🇧GB | ss | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -175,6 +178,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @yaney_01 | 5'
       - '🇨🇦CA | vmess | @Hope_Net | 13'
       - '🇮🇳IN | vmess | @v2Line | 6'
+      - '🇬🇧GB | ss | @forwardv2ray | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
