@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇰🇷KR | vmess | @mftizi | 18",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇫🇮FI | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 4"
             ]
         },
@@ -122,11 +123,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇰🇷KR | vmess | @mftizi | 18",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇭🇰HK | vmess | @yaney_01 | 5",
                 "🇫🇮FI | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -187,6 +189,40 @@
                 "path": "\/db00",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
+            "type": "vmess",
+            "server": "188.114.97.7",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "waynn.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "waynn.makeup"
                 }
             }
         },
@@ -307,7 +343,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
