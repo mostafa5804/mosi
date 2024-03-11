@@ -110,7 +110,7 @@
                 "🇰🇷KR | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
@@ -124,7 +124,7 @@
                 "🇰🇷KR | vmess | @mftizi | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 11",
                 "🇨🇳CN | vmess | @yaney_01 | 3",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 3",
                 "🇱🇹LT | vmess | @eliya_chiter0 | 5"
@@ -225,11 +225,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 7",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "aabccba-caba-abca-bdca-caababccbbac",
+            "server": "ca-full.privateip.net",
+            "server_port": 443,
+            "uuid": "e472d68b-3a7c-4087-9915-f7323ab0bac7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -239,6 +239,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/racevpn",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
