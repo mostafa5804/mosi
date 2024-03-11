@@ -113,8 +113,8 @@
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇪🇪EE | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 4",
-                "🇺🇸US | vmess | @nofiltering2 | 3",
-                "🇱🇹LT | vmess | @eliya_chiter0 | 7"
+                "🇨🇦CA | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ]
         },
         {
@@ -128,8 +128,8 @@
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇪🇪EE | vmess | @v2Line | 6",
                 "🇫🇷FR | vmess | @FAKEOFTVC | 4",
-                "🇺🇸US | vmess | @nofiltering2 | 3",
-                "🇱🇹LT | vmess | @eliya_chiter0 | 7"
+                "🇨🇦CA | vmess | @nofiltering2 | 3",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -302,7 +302,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @nofiltering2 | 3",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "meroiy.icu",
             "server_port": 443,
@@ -336,11 +336,11 @@
             }
         },
         {
-            "tag": "🇱🇹LT | vmess | @eliya_chiter0 | 7",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 6",
             "type": "vmess",
-            "server": "lt2-vmess.sshmax.xyz",
-            "server_port": 80,
-            "uuid": "a23a9cde-e563-4461-9b45-7843e7c28d00",
+            "server": "104.21.30.254",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -351,11 +351,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "nina.bond",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "nina.bond"
                 }
             }
         }
