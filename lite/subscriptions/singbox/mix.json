@@ -109,7 +109,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
-                "🇺🇸US | vless | @XsV2ray | 12",
+                "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
@@ -119,7 +119,7 @@
                 "🇬🇧GB | vless | @shh_proxy | 23",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 6",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -167,7 +167,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 0",
@@ -191,7 +191,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇨🇦CA | vless | @v2_team | 13",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
-                "🇺🇸US | vless | @XsV2ray | 12",
+                "🇨🇦CA | vless | @XsV2ray | 12",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
@@ -201,7 +201,7 @@
                 "🇬🇧GB | vless | @shh_proxy | 23",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇺🇸US | vless | @free_v2rayyy | 6",
+                "🇨🇦CA | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
@@ -249,7 +249,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇨🇦CA | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 0",
@@ -359,7 +359,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @XsV2ray | 12",
+            "tag": "🇨🇦CA | vless | @XsV2ray | 12",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 443,
@@ -622,7 +622,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @free_v2rayyy | 6",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1848,33 +1848,26 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "104.19.1.110",
-            "server_port": 443,
-            "uuid": "9654f734-cf05-4764-902d-08718a64910e",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "104.26.10.56",
+            "server_port": 2095,
+            "uuid": "3fab3fe2-7bc3-4b29-be96-2dcc79d548ad",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hello-world-billowing-flower-fa8f.wowovo6989.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?@v2ray_every_12_hoursed=2048",
                 "headers": {
-                    "Host": "hello-world-billowing-flower-fa8f.wowovo6989.workers.dev"
+                    "Host": ""
                 }
             }
         },
