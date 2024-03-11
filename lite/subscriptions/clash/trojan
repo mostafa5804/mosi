@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 18","type":"trojan","server":"13.39.101.172","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇺🇸US | trojan | @DirectVPN | 16","type":"trojan","server":"3.13.179.37","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 17","type":"trojan","server":"13.43.23.145","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇺🇸US | trojan | @DirectVPN | 16","type":"trojan","server":"52.6.163.165","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
   - {"name":"🇨🇦CA | trojan | @v2ray_swhil | 33","type":"trojan","server":"104.16.123.175","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
 proxy-groups:
   - name: MANUAL
@@ -127,7 +127,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | trojan | @PrivateVPNs | 18'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 17'
       - '🇺🇸US | trojan | @DirectVPN | 16'
       - '🇨🇦CA | trojan | @v2ray_swhil | 33'
   - name: URL-TEST
@@ -136,7 +136,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 18'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 17'
       - '🇺🇸US | trojan | @DirectVPN | 16'
       - '🇨🇦CA | trojan | @v2ray_swhil | 33'
   - name: FALLBACK
@@ -144,7 +144,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 18'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 17'
       - '🇺🇸US | trojan | @DirectVPN | 16'
       - '🇨🇦CA | trojan | @v2ray_swhil | 33'
 rules:
