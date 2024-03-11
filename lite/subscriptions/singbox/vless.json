@@ -113,12 +113,12 @@
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @V2pedia | 17",
+                "🇨🇦CA | vless | @V2pedia | 17",
                 "🇨🇦CA | vless | @frev2ray | 13",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇬🇧GB | vless | @shh_proxy | 20",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
@@ -158,8 +158,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 5",
+                "🇺🇸US | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -182,12 +182,12 @@
                 "🇮🇪IE | vless | @VlessConfig | 16",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 25",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇺🇸US | vless | @V2pedia | 17",
+                "🇨🇦CA | vless | @V2pedia | 17",
                 "🇨🇦CA | vless | @frev2ray | 13",
                 "🇨🇦CA | vless | @ARv2ray | 14",
                 "🇬🇧GB | vless | @shh_proxy | 20",
                 "🇬🇧GB | vless | @Lockey_vpn | 13",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 6",
                 "🇸🇪SE | vless | @lightning6 | 27",
                 "🇩🇪DE | vless | @vpn_xw | 0",
@@ -227,8 +227,8 @@
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇷CR | vless | @IRN_VPN | 2",
                 "🇬🇧GB | vless | @flyv2ray | 14",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 5",
+                "🇺🇸US | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @FAKEOFTVC | 5",
                 "🇨🇦CA | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 1",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -366,7 +366,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "99.81.210.0",
+            "server": "54.170.179.248",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -452,7 +452,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2pedia | 17",
+            "tag": "🇨🇦CA | vless | @V2pedia | 17",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -585,7 +585,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1603,11 +1603,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 17",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "675ff192-ac45-4015-affc-3b1a824c83dd",
+            "server": "visa.com",
+            "server_port": 8443,
+            "uuid": "0078ca67-afc3-476f-9447-b991fc657a36",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1615,16 +1615,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-ch.falcunar.uk.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "telegram-falcunargo-ch.falcunar.uk.eu.org"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 5",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 5",
             "type": "vless",
             "server": "web.thebestvv2.xyz",
             "server_port": 2053,
