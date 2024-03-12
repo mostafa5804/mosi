@@ -124,7 +124,7 @@ proxies:
   - {"name":"🇺🇦UA | vmess | @oneclickvpnkeys | 11","type":"vmess","server":"45.137.155.195","port":"443","cipher":"auto","uuid":"49c76bcf-3a58-43df-b1d4-2bffe9ca03b5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 3","type":"vmess","server":"dotu-usv1.03p4fad6vd.com","port":"11028","cipher":"auto","uuid":"565aa5e6-15ff-3f58-b134-4ac80c744d48","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 3","type":"vmess","server":"172.67.170.13","port":"443","cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
-  - {"name":"🇮🇷IR | vmess | @forwardv2ray | 14","type":"vmess","server":"62.60.210.59","port":"10367","cipher":"auto","uuid":"809bd50d-d8de-4d6f-a289-926baba833ec","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 18","type":"vmess","server":"backend.app-browser.org","port":"2087","cipher":"auto","uuid":"520a5f45-d354-42f4-a658-18dbc3754645","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/fws","headers":{"host":"backend.app-browser.org"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -137,7 +137,7 @@ proxy-groups:
       - '🇺🇦UA | vmess | @oneclickvpnkeys | 11'
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇺🇸US | vmess | @Hope_Net | 3'
-      - '🇮🇷IR | vmess | @forwardv2ray | 14'
+      - '🇨🇦CA | vmess | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -150,7 +150,7 @@ proxy-groups:
       - '🇺🇦UA | vmess | @oneclickvpnkeys | 11'
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇺🇸US | vmess | @Hope_Net | 3'
-      - '🇮🇷IR | vmess | @forwardv2ray | 14'
+      - '🇨🇦CA | vmess | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -162,7 +162,7 @@ proxy-groups:
       - '🇺🇦UA | vmess | @oneclickvpnkeys | 11'
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇺🇸US | vmess | @Hope_Net | 3'
-      - '🇮🇷IR | vmess | @forwardv2ray | 14'
+      - '🇨🇦CA | vmess | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve

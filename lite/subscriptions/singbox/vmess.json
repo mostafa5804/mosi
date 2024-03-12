@@ -113,7 +113,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 4",
-                "🇮🇷IR | vmess | @forwardv2ray | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ]
         },
@@ -128,7 +128,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 3",
                 "🇺🇸US | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 4",
-                "🇮🇷IR | vmess | @forwardv2ray | 14",
+                "🇨🇦CA | vmess | @forwardv2ray | 18",
                 "🇺🇸US | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -322,11 +322,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @forwardv2ray | 14",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
             "type": "vmess",
-            "server": "62.60.210.59",
-            "server_port": 10367,
-            "uuid": "809bd50d-d8de-4d6f-a289-926baba833ec",
+            "server": "backend.app-browser.org",
+            "server_port": 2087,
+            "uuid": "520a5f45-d354-42f4-a658-18dbc3754645",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -336,6 +336,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "backend.app-browser.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/fws",
+                "headers": {
+                    "Host": "backend.app-browser.org"
+                }
             }
         },
         {
