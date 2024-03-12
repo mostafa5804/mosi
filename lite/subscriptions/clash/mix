@@ -128,7 +128,6 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 3","type":"vmess","server":"dotu-usv1.03p4fad6vd.com","port":"11028","cipher":"auto","uuid":"565aa5e6-15ff-3f58-b134-4ac80c744d48","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷IR | vmess | @Hope_Net | 3","type":"vmess","server":"193.151.152.146","port":"8081","cipher":"auto","uuid":"eceb950c-5220-4d3d-b2c6-074166e696e5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇪🇪EE | vmess | @v2Line | 6","type":"vmess","server":"ee1.xv2ray.net","port":"80","cipher":"auto","uuid":"83018580-58ce-464f-b75c-2a1331a8f016","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ee1.xv2ray.net"}}}
-  - {"name":"🇷🇺RU | ss | @forwardv2ray | 15","type":"ss","server":"103.113.68.27","port":2352,"password":"tErM3mZ22YFQspXVwX57xq","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | trojan | @FAKEOFTVC | 3","type":"trojan","server":"31.220.22.201","port":24573,"udp":false,"password":"b9pEaF9fBh","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
@@ -146,7 +145,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇮🇷IR | vmess | @Hope_Net | 3'
       - '🇪🇪EE | vmess | @v2Line | 6'
-      - '🇷🇺RU | ss | @forwardv2ray | 15'
       - '🇺🇸US | trojan | @FAKEOFTVC | 3'
   - name: URL-TEST
     type: url-test
@@ -164,7 +162,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇮🇷IR | vmess | @Hope_Net | 3'
       - '🇪🇪EE | vmess | @v2Line | 6'
-      - '🇷🇺RU | ss | @forwardv2ray | 15'
       - '🇺🇸US | trojan | @FAKEOFTVC | 3'
   - name: FALLBACK
     type: fallback
@@ -181,7 +178,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 3'
       - '🇮🇷IR | vmess | @Hope_Net | 3'
       - '🇪🇪EE | vmess | @v2Line | 6'
-      - '🇷🇺RU | ss | @forwardv2ray | 15'
       - '🇺🇸US | trojan | @FAKEOFTVC | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
