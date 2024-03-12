@@ -18,11 +18,11 @@ DIRECT = direct
 🇹🇷TR | ss | @OutlineVpnOfficial | 18 = ss, tr-ss.ipracevpn.com, 2443, encrypt-method = aes-256-gcm, password = PqGphXWWFw
 🇺🇸US | vmess | @Hope_Net | 2 = vmess, cfcdn1.sanfencdn9.com, 2052, username = 8e0fc6e0-1313-4767-b51c-5506680d534e, ws = true, tls = , vmess-aead = true, ws-path = /video/QXjZG5u4F2, ws-headers = Host:"us3AJ8biuQx.fzbqfrse.xyz", skip-cert-verify = true, tfo = false
 🇪🇪EE | vmess | @v2Line | 6 = vmess, ee1.xv2ray.net, 80, username = 83018580-58ce-464f-b75c-2a1331a8f016, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"ee1.xv2ray.net", skip-cert-verify = true, tfo = false
-🇺🇸US | trojan | @FAKEOFTVC | 3 = trojan, 31.220.22.201, 24573, password = b9pEaF9fBh, udp-delay = true, skip-cert-verify = false, ws = false
+🇩🇪DE | ss | @forwardv2ray | 19 = ss, 94.131.111.32, 8388, encrypt-method = chacha20-ietf-poly1305, password = NGQzMzQz
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6,🇺🇸US | trojan | @FAKEOFTVC | 3
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6,🇺🇸US | trojan | @FAKEOFTVC | 3
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6,🇺🇸US | trojan | @FAKEOFTVC | 3
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6,🇩🇪DE | ss | @forwardv2ray | 19
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6,🇩🇪DE | ss | @forwardv2ray | 19
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 16,🇺🇸US | trojan | @DirectVPN | 16,🇩🇪DE | vmess | @oneclickvpnkeys | 11,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇺🇸US | vmess | @Hope_Net | 2,🇪🇪EE | vmess | @v2Line | 6,🇩🇪DE | ss | @forwardv2ray | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
