@@ -106,16 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @VmessProtocol | 11",
-                "🇹🇷TR | ss | @OutlineVpnOfficial | 18"
+                "🇺🇸US | ss | @DeamNet_Proxy | 18",
+                "🇬🇧GB | ss | @VmessProtocol | 11"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @VmessProtocol | 11",
-                "🇹🇷TR | ss | @OutlineVpnOfficial | 18"
+                "🇺🇸US | ss | @DeamNet_Proxy | 18",
+                "🇬🇧GB | ss | @VmessProtocol | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +138,22 @@
             "type": "dns"
         },
         {
+            "tag": "🇺🇸US | ss | @DeamNet_Proxy | 18",
+            "type": "shadowsocks",
+            "server": "beedoost.org",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇬🇧GB | ss | @VmessProtocol | 11",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "u17T3BvpYaaiuW2c",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇹🇷TR | ss | @OutlineVpnOfficial | 18",
-            "type": "shadowsocks",
-            "server": "tr-ss.ipracevpn.com",
-            "server_port": 2443,
-            "method": "aes-256-gcm",
-            "password": "PqGphXWWFw",
             "plugin": "",
             "plugin_opts": ""
         }
