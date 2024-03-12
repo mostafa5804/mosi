@@ -13,10 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇬🇧GB | ss | @VmessProtocol | 11 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇹🇷TR | ss | @OutlineVpnOfficial | 18 = ss, tr-ss.ipracevpn.com, 2443, encrypt-method = aes-256-gcm, password = PqGphXWWFw
+🇷🇺RU | ss | @forwardv2ray | 15 = ss, 103.113.68.27, 2352, encrypt-method = chacha20-ietf-poly1305, password = tErM3mZ22YFQspXVwX57xq
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18
-URL-TEST = url-test,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18
-FALLBACK = fallback,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇷🇺RU | ss | @forwardv2ray | 15
+URL-TEST = url-test,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇷🇺RU | ss | @forwardv2ray | 15
+FALLBACK = fallback,🇬🇧GB | ss | @VmessProtocol | 11,🇹🇷TR | ss | @OutlineVpnOfficial | 18,🇷🇺RU | ss | @forwardv2ray | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
