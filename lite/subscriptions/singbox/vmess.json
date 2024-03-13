@@ -111,8 +111,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @proxyymeliii | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 0",
                 "🇭🇰HK | vmess | @v2Line | 6",
+                "🇳🇱NL | vmess | @forwardv2ray | 0",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
@@ -127,8 +128,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇫🇮FI | vmess | @proxyymeliii | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 0",
                 "🇭🇰HK | vmess | @v2Line | 6",
+                "🇳🇱NL | vmess | @forwardv2ray | 0",
                 "🇺🇸US | vmess | @FAKEOFTVC | 4",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 5"
@@ -246,11 +248,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "tag": "🏳️XX | vmess | @Hope_Net | 0",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "abccbaa-baac-caab-bdca-abbbacabccac",
+            "uuid": "acababc-aabc-baca-adcb-bccaacabbcba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -283,6 +285,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "hk1.xv2ray.net"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 0",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
