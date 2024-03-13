@@ -117,7 +117,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇩🇪DE | vless | @ARv2ray | 4",
+                "🇩🇪DE | vless | @ARv2ray | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -132,7 +132,6 @@
                 "🇫🇮FI | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @lrnbymaa | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 16",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -186,7 +185,7 @@
                 "🇩🇪DE | vless | @ipV2Ray | 7",
                 "🇩🇪DE | vless | @ipV2Ray | 8",
                 "🇩🇪DE | vless | @ipV2Ray | 9",
-                "🇩🇪DE | vless | @ARv2ray | 4",
+                "🇩🇪DE | vless | @ARv2ray | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -201,7 +200,6 @@
                 "🇫🇮FI | vless | @V2RayTz | 16",
                 "🇩🇪DE | vless | @lrnbymaa | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
-                "🇩🇪DE | vless | @Outlinev2rayNG | 16",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -649,7 +647,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 4",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 5",
             "type": "vless",
             "server": "91.107.186.175",
             "server_port": 443,
@@ -1141,42 +1139,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 16",
-            "type": "vless",
-            "server": "68.183.212.224",
-            "server_port": 2053,
-            "uuid": "788b7674-f050-497b-945f-af83bf366c10",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
