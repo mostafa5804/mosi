@@ -16,10 +16,11 @@ DIRECT = direct
 🇺🇸US | vmess | @DeamNet_Proxy | 18 = vmess, 206.168.190.218, 8443, username = 7e348dc0-df7b-11ee-b235-205c6d5f5d78, ws = true, tls = 1, vmess-aead = true, ws-path = /@V2RayyNGvpn, ws-headers = Host:"ba24.ir", skip-cert-verify = true, tfo = false
 🇬🇧GB | ss | @VmessProtocol | 11 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇦🇺AU | ss | @OutlineVpnOfficial | 17 = ss, 170.64.188.248, 61073, encrypt-method = aes-256-gcm, password = 3kgL53ljUrCdKoSH
+🇩🇪DE | ss | @forwardv2ray | 18 = ss, 18.198.41.188, 2082, encrypt-method = chacha20-ietf-poly1305, password = PUf2yTm5dKW8/icjigS+pGieIe9jMcf8T4wC204OFGM=
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 17
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 17
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 17
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @forwardv2ray | 18
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @forwardv2ray | 18
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 16,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇬🇧GB | ss | @VmessProtocol | 11,🇦🇺AU | ss | @OutlineVpnOfficial | 17,🇩🇪DE | ss | @forwardv2ray | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
