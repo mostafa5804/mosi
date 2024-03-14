@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇪BE | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
@@ -124,10 +125,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 18",
+                "🇧🇪BE | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 14",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
@@ -185,6 +187,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇧🇪BE | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "be2-vmess.sshmax.xyz",
+            "server_port": 443,
+            "uuid": "e5c0379a-c6c4-4d59-9667-24163fee42da",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "be2-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "be2-vmess.sshmax.xyz"
+                }
             }
         },
         {
@@ -263,11 +299,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 8",
+            "tag": "🏳️XX | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
-            "uuid": "cacbbaa-caba-aabc-adcb-bcaaaacbcbcb",
+            "uuid": "aacabcb-baac-acab-bcad-aacbcabbcbac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
