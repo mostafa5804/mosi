@@ -119,8 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 17","type":"trojan","server":"13.48.164.230","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @DirectVPN | 17","type":"trojan","server":"51.21.72.60","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇺🇸US | trojan | @forwardv2ray | 18","type":"trojan","server":"172.67.204.84","port":443,"udp":false,"password":"6008202d-f9b4-4068-890b-298835d7a77a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"fr1.trojanvpn.de"}
+  - {"name":"🇸🇪SE | trojan | @DirectVPN | 17","type":"trojan","server":"13.51.245.73","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +128,6 @@ proxy-groups:
       - FALLBACK
       - '🇸🇪SE | trojan | @PrivateVPNs | 17'
       - '🇸🇪SE | trojan | @DirectVPN | 17'
-      - '🇺🇸US | trojan | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -138,7 +136,6 @@ proxy-groups:
     proxies:
       - '🇸🇪SE | trojan | @PrivateVPNs | 17'
       - '🇸🇪SE | trojan | @DirectVPN | 17'
-      - '🇺🇸US | trojan | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -146,7 +143,6 @@ proxy-groups:
     proxies:
       - '🇸🇪SE | trojan | @PrivateVPNs | 17'
       - '🇸🇪SE | trojan | @DirectVPN | 17'
-      - '🇺🇸US | trojan | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
