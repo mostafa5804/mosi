@@ -16,11 +16,11 @@ DIRECT = direct
 🇨🇦CA | vmess | @ShadowProxy66 | 14 = vmess, 104.21.24.72, 80, username = 5120d7e0-5ba9-4164-b61b-0f8fefabab34, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"no1.xv2ray.net", skip-cert-verify = true, tfo = false
 🇦🇺AU | ss | @OutlineVpnOfficial | 19 = ss, 170.64.188.248, 61073, encrypt-method = aes-256-gcm, password = 3kgL53ljUrCdKoSH
 🇨🇦CA | vmess | @Hope_Net | 1 = vmess, 162.159.11.32, 2052, username = 8e0fc6e0-1313-4767-b51c-5506680d534e, ws = true, tls = , vmess-aead = false, ws-path = /video/GQ2qE5Us9g, ws-headers = Host:"tw1bQiWSE4x.fzbqfrse.xyz", skip-cert-verify = true, tfo = false
-🇨🇦CA | trojan | @kingofilter | 8 = trojan, 104.16.123.175, 2083, password = qG9K8AGnn9XH5jUqeFu96g, udp-delay = true, skip-cert-verify = false, sni = cdn13.cdn2cdn.com, ws = false
+🇺🇸US | trojan | @forwardv2ray | 18 = trojan, 172.67.204.84, 443, password = 6008202d-f9b4-4068-890b-298835d7a77a, udp-delay = true, skip-cert-verify = false, sni = fr1.trojanvpn.de, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇦🇺AU | ss | @OutlineVpnOfficial | 19,🇨🇦CA | vmess | @Hope_Net | 1,🇨🇦CA | trojan | @kingofilter | 8
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇦🇺AU | ss | @OutlineVpnOfficial | 19,🇨🇦CA | vmess | @Hope_Net | 1,🇨🇦CA | trojan | @kingofilter | 8
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇦🇺AU | ss | @OutlineVpnOfficial | 19,🇨🇦CA | vmess | @Hope_Net | 1,🇨🇦CA | trojan | @kingofilter | 8
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇦🇺AU | ss | @OutlineVpnOfficial | 19,🇨🇦CA | vmess | @Hope_Net | 1,🇺🇸US | trojan | @forwardv2ray | 18
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇦🇺AU | ss | @OutlineVpnOfficial | 19,🇨🇦CA | vmess | @Hope_Net | 1,🇺🇸US | trojan | @forwardv2ray | 18
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @ShadowProxy66 | 14,🇦🇺AU | ss | @OutlineVpnOfficial | 19,🇨🇦CA | vmess | @Hope_Net | 1,🇺🇸US | trojan | @forwardv2ray | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
