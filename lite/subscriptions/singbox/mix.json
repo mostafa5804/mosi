@@ -154,7 +154,7 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -164,7 +164,7 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 13",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -234,7 +234,7 @@
                 "🇦🇺AU | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 1",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -244,7 +244,7 @@
                 "🇭🇰HK | vmess | @v2Line | 6",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇺🇸US | ss | @forwardv2ray | 18",
+                "🇨🇦CA | vmess | @forwardv2ray | 13",
                 "🇺🇸US | vmess | @FAKEOFTVC | 3",
                 "🇨🇳CN | vless | @mehrosaboran | 12",
                 "🇩🇪DE | vless | @kiava | 1",
@@ -1489,7 +1489,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 1",
+            "tag": "🏳️XX | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1751,14 +1751,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "172.233.152.76",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 13",
+            "type": "vmess",
+            "server": "fbi.gov",
             "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "82cb93a3-65a9-4dac-a2a7-d997b6c26d6a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm",
+                "headers": {
+                    "Host": "fbi.gov"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | vmess | @FAKEOFTVC | 3",
