@@ -114,6 +114,7 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ]
@@ -130,6 +131,7 @@
                 "🇸🇬SG | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @eliya_chiter0 | 2"
             ],
@@ -190,9 +192,9 @@
         {
             "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "173.245.58.5",
+            "server": "172.67.170.13",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,7 +207,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "worker-flat-hat-00f2.ravapim426.workers.dev",
+                "server_name": "glweidf.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -215,9 +217,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/kellie.makeup\/linkvws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "worker-flat-hat-00f2.ravapim426.workers.dev"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
@@ -334,6 +336,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
+            "type": "vmess",
+            "server": "104.26.9.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
                 }
             }
         },
