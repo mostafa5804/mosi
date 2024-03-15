@@ -122,6 +122,7 @@ dns:
 proxies:
   - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 16","type":"trojan","server":"3.11.211.128","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | trojan | @DirectVPN | 16","type":"trojan","server":"18.134.44.55","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇺🇸US | trojan | @oneclickvpnkeys | 10","type":"trojan","server":"172.67.204.84","port":443,"udp":false,"password":"qj1Dz1CJmFQRhWr1SP80aA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn-21.gsmxreality.com"}
   - {"name":"🇨🇦CA | trojan | @kingofilter | 8","type":"trojan","server":"104.16.123.175","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
 proxy-groups:
   - name: MANUAL
@@ -131,6 +132,7 @@ proxy-groups:
       - FALLBACK
       - '🇬🇧GB | trojan | @PrivateVPNs | 16'
       - '🇬🇧GB | trojan | @DirectVPN | 16'
+      - '🇺🇸US | trojan | @oneclickvpnkeys | 10'
       - '🇨🇦CA | trojan | @kingofilter | 8'
   - name: URL-TEST
     type: url-test
@@ -140,6 +142,7 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | trojan | @PrivateVPNs | 16'
       - '🇬🇧GB | trojan | @DirectVPN | 16'
+      - '🇺🇸US | trojan | @oneclickvpnkeys | 10'
       - '🇨🇦CA | trojan | @kingofilter | 8'
   - name: FALLBACK
     type: fallback
@@ -148,6 +151,7 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | trojan | @PrivateVPNs | 16'
       - '🇬🇧GB | trojan | @DirectVPN | 16'
+      - '🇺🇸US | trojan | @oneclickvpnkeys | 10'
       - '🇨🇦CA | trojan | @kingofilter | 8'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
