@@ -122,7 +122,7 @@ dns:
 proxies:
   - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 19","type":"ss","server":"54.36.174.181","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
   - {"name":"🇦🇺AU | ss | @OutlineVpnOfficial | 19","type":"ss","server":"170.64.188.248","port":61073,"password":"3kgL53ljUrCdKoSH","cipher":"aes-256-gcm"}
-  - {"name":"🇧🇭BH | ss | @forwardv2ray | 18","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @forwardv2ray | 18","type":"ss","server":"3.123.0.92","port":2082,"password":"ydNXmV0OaFHFPlAqG4pBG/5735TwXQzhO7d6l0kKVFU=","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,7 +131,7 @@ proxy-groups:
       - FALLBACK
       - '🇵🇱PL | ss | @DeamNet_Proxy | 19'
       - '🇦🇺AU | ss | @OutlineVpnOfficial | 19'
-      - '🇧🇭BH | ss | @forwardv2ray | 18'
+      - '🇩🇪DE | ss | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -140,7 +140,7 @@ proxy-groups:
     proxies:
       - '🇵🇱PL | ss | @DeamNet_Proxy | 19'
       - '🇦🇺AU | ss | @OutlineVpnOfficial | 19'
-      - '🇧🇭BH | ss | @forwardv2ray | 18'
+      - '🇩🇪DE | ss | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -148,7 +148,7 @@ proxy-groups:
     proxies:
       - '🇵🇱PL | ss | @DeamNet_Proxy | 19'
       - '🇦🇺AU | ss | @OutlineVpnOfficial | 19'
-      - '🇧🇭BH | ss | @forwardv2ray | 18'
+      - '🇩🇪DE | ss | @forwardv2ray | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
