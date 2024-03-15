@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇹🇷TR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
@@ -119,7 +118,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @NIM_VPN_ir | 5",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇹🇷TR | vless | @vless_vmess | 1",
                 "🇩🇪DE | vless | @fnet00 | 1",
@@ -146,35 +144,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @NIM_VPN_ir | 5",
-            "type": "vless",
-            "server": "78.46.233.103",
-            "server_port": 34883,
-            "uuid": "18b5be42-a440-4600-ba18-f6751f46a504",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fussenegger.pro",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1PNLCQnctUWXBFpRqOu4O7zOHnWM5kFdpSFpqvGW1Go",
-                    "short_id": "05cc0af9"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @ipV2Ray | 13",
