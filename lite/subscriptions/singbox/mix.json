@@ -111,7 +111,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
-                "🇨🇦CA | vless | @melov2ray | 2",
+                "🇺🇸US | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @V2pedia | 25",
                 "🇳🇱NL | vless | @frev2ray | 15",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 17",
@@ -167,8 +167,8 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 3",
+                "🏳️XX | trojan | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
@@ -195,7 +195,7 @@
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇩🇪DE | vless | @VPNCUSTOMIZE | 26",
                 "🇩🇪DE | vless | @ipV2Ray | 12",
-                "🇨🇦CA | vless | @melov2ray | 2",
+                "🇺🇸US | vless | @melov2ray | 2",
                 "🇨🇦CA | vless | @V2pedia | 25",
                 "🇳🇱NL | vless | @frev2ray | 15",
                 "🇨🇦CA | vless | @ARv2ray | 13",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇮🇷IR | vless | @azadi_az_inja_migzare | 2",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 17",
@@ -251,8 +251,8 @@
                 "🇸🇪SE | vless | @Capoit | 11",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇸🇪SE | vless | @flyv2ray | 15",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 3",
+                "🏳️XX | trojan | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @FAKEOFTVC | 3",
                 "🇺🇸US | vless | @mehrosaboran | 14",
                 "🇩🇪DE | vless | @kiava | 2",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
@@ -428,7 +428,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 2",
+            "tag": "🇺🇸US | vless | @melov2ray | 2",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -819,7 +819,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1819,28 +1819,29 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
-            "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "7a0d1760-c3c9-410d-bd79-6dcba7c0f613",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🏳️XX | trojan | @forwardv2ray | 17",
+            "type": "trojan",
+            "server": "127.0.0.1",
+            "server_port": 2080,
+            "password": "bcaabca-baca-abac-badc-abcbbaacaccb",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "discord.gg"
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 3",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 3",
             "type": "vless",
             "server": "morning.mmdargon.top",
             "server_port": 2087,
