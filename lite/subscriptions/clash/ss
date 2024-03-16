@@ -119,6 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇪🇪EE | ss | @OutlineVpnOfficial | 17","type":"ss","server":"193.228.128.143","port":27981,"password":"pg6G3tuVQllmcS7zCo5Fce","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @forwardv2ray | 14","type":"ss","server":"[::ffff:12c3:92cf]","port":2082,"password":"WOyu7QCXmYgqtp8O9vEDY2RPBZ6uhE/HUkYxJkvimu0=","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -126,6 +127,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇪🇪EE | ss | @OutlineVpnOfficial | 17'
+      - '🏳️XX | ss | @forwardv2ray | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -133,12 +135,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇪🇪EE | ss | @OutlineVpnOfficial | 17'
+      - '🏳️XX | ss | @forwardv2ray | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇪🇪EE | ss | @OutlineVpnOfficial | 17'
+      - '🏳️XX | ss | @forwardv2ray | 14'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
