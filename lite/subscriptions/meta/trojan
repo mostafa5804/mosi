@@ -120,35 +120,35 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 18","type":"trojan","server":"18.175.9.19","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | trojan | @DirectVPN | 18","type":"trojan","server":"13.36.225.17","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
-  - {"name":"🇺🇸US | trojan | @proxyymeliii | 20","type":"trojan","server":"flixeon.me","port":443,"udp":false,"password":"52701795-3c3b-46b4-b7cf-c5978b3a4cf2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"hdfyc1.achaemenidempireofpersia.uk"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 18","type":"trojan","server":"54.216.78.69","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @DirectVPN | 18","type":"trojan","server":"18.169.30.21","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.miwan.co.uk"}
+  - {"name":"🇨🇦CA | trojan | @proxyymeliii | 20","type":"trojan","server":"flixeon.me","port":443,"udp":false,"password":"52701795-3c3b-46b4-b7cf-c5978b3a4cf2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"hdfyc1.achaemenidempireofpersia.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇬🇧GB | trojan | @PrivateVPNs | 18'
-      - '🇫🇷FR | trojan | @DirectVPN | 18'
-      - '🇺🇸US | trojan | @proxyymeliii | 20'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 18'
+      - '🇬🇧GB | trojan | @DirectVPN | 18'
+      - '🇨🇦CA | trojan | @proxyymeliii | 20'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇬🇧GB | trojan | @PrivateVPNs | 18'
-      - '🇫🇷FR | trojan | @DirectVPN | 18'
-      - '🇺🇸US | trojan | @proxyymeliii | 20'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 18'
+      - '🇬🇧GB | trojan | @DirectVPN | 18'
+      - '🇨🇦CA | trojan | @proxyymeliii | 20'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇬🇧GB | trojan | @PrivateVPNs | 18'
-      - '🇫🇷FR | trojan | @DirectVPN | 18'
-      - '🇺🇸US | trojan | @proxyymeliii | 20'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 18'
+      - '🇬🇧GB | trojan | @DirectVPN | 18'
+      - '🇨🇦CA | trojan | @proxyymeliii | 20'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
