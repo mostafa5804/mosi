@@ -136,7 +136,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
-                "🇸🇪SE | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -159,7 +159,6 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -207,7 +206,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
-                "🇸🇪SE | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 10",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -230,7 +229,6 @@
                 "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇩🇪DE | vless | @flyv2ray | 16",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇷🇴RO | vless | @FAKEOFTVC | 11",
                 "🇺🇸US | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -1053,11 +1051,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayngvpn | 12",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 10",
             "type": "vless",
-            "server": "Join.V2rayOfficial.Site",
-            "server_port": 80,
-            "uuid": "join-v2Ray_OffiCiaL-",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1065,11 +1063,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "edge.020770.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@V2ray_official-@V2ray_official-@V2ray_official",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1",
                 "headers": {
-                    "Host": "Join.V2rayOfficial.Site"
+                    "Host": "edge.020770.xyz"
                 }
             }
         },
@@ -1678,37 +1686,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "172.66.46.233",
-            "server_port": 8443,
-            "uuid": "4d146643-979e-4656-aa78-9b8e18716f06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "BaCHe-NaRo-Tu-KUNam.PaGes.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_alpha\/",
-                "headers": {
-                    "Host": "BaCHe-NaRo-Tu-KUNam.PaGes.DEV"
-                }
             }
         },
         {
