@@ -127,7 +127,6 @@ proxies:
   - {"name":"🇸🇬SG | vmess | @V2rayng_Fast | 0","type":"vmess","server":"146.190.87.238","port":"19193","cipher":"auto","uuid":"0f94fdae-5653-4314-9c92-e57e5ec55513","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ow","headers":{"host":""}}}
   - {"name":"🇪🇪EE | ss | @OutlineVpnOfficial | 17","type":"ss","server":"193.228.128.143","port":27981,"password":"pg6G3tuVQllmcS7zCo5Fce","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬SG | vmess | @yaney_01 | 2","type":"vmess","server":"8.222.154.110","port":"57035","cipher":"auto","uuid":"25ffd892-0ebf-4e29-98c5-dfba88fd714c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇧🇭BH | ss | @forwardv2ray | 19","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -143,7 +142,6 @@ proxy-groups:
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
       - '🇪🇪EE | ss | @OutlineVpnOfficial | 17'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇧🇭BH | ss | @forwardv2ray | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -159,7 +157,6 @@ proxy-groups:
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
       - '🇪🇪EE | ss | @OutlineVpnOfficial | 17'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇧🇭BH | ss | @forwardv2ray | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -174,7 +171,6 @@ proxy-groups:
       - '🇸🇬SG | vmess | @V2rayng_Fast | 0'
       - '🇪🇪EE | ss | @OutlineVpnOfficial | 17'
       - '🇸🇬SG | vmess | @yaney_01 | 2'
-      - '🇧🇭BH | ss | @forwardv2ray | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
