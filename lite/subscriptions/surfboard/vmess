@@ -13,11 +13,10 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇦CA | vmess | @ShadowProxy66 | 37 = vmess, 104.21.24.72, 80, username = 5120d7e0-5ba9-4164-b61b-0f8fefabab34, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"no1.xv2ray.net", skip-cert-verify = true, tfo = false
 🇸🇬SG | vmess | @V2rayng_Fast | 0 = vmess, 146.190.87.238, 19193, username = 0f94fdae-5653-4314-9c92-e57e5ec55513, ws = true, tls = , vmess-aead = true, ws-path = /ow, ws-headers = Host:"", skip-cert-verify = true, tfo = false
-🇺🇸US | vmess | @forwardv2ray | 16 = vmess, gcore.com, 80, username = 55d916df-f6a1-4c10-8374-1db8485dc691, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"namava-movie.ir", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ShadowProxy66 | 37,🇸🇬SG | vmess | @V2rayng_Fast | 0,🇺🇸US | vmess | @forwardv2ray | 16
-URL-TEST = url-test,🇨🇦CA | vmess | @ShadowProxy66 | 37,🇸🇬SG | vmess | @V2rayng_Fast | 0,🇺🇸US | vmess | @forwardv2ray | 16
-FALLBACK = fallback,🇨🇦CA | vmess | @ShadowProxy66 | 37,🇸🇬SG | vmess | @V2rayng_Fast | 0,🇺🇸US | vmess | @forwardv2ray | 16
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ShadowProxy66 | 37,🇸🇬SG | vmess | @V2rayng_Fast | 0
+URL-TEST = url-test,🇨🇦CA | vmess | @ShadowProxy66 | 37,🇸🇬SG | vmess | @V2rayng_Fast | 0
+FALLBACK = fallback,🇨🇦CA | vmess | @ShadowProxy66 | 37,🇸🇬SG | vmess | @V2rayng_Fast | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
