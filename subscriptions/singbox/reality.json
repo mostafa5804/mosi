@@ -116,7 +116,8 @@
                 "🇫🇮FI | vless | @ipV2Ray | 12",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
-                "🇩🇪DE | vless | @ARv2ray | 7",
+                "🇬🇧GB | vless | @V2pedia | 12",
+                "🇩🇪DE | vless | @ARv2ray | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -131,7 +132,7 @@
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇫🇮FI | vless | @V2RayTz | 18",
-                "🇩🇪DE | vless | @DailyV2RY | 139",
+                "🇮🇷IR | vless | @DailyV2RY | 130",
                 "🇩🇪DE | vless | @lrnbymaa | 5",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -142,7 +143,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -188,7 +189,8 @@
                 "🇫🇮FI | vless | @ipV2Ray | 12",
                 "🇩🇪DE | vless | @ipV2Ray | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
-                "🇩🇪DE | vless | @ARv2ray | 7",
+                "🇬🇧GB | vless | @V2pedia | 12",
+                "🇩🇪DE | vless | @ARv2ray | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -203,7 +205,7 @@
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 7",
                 "🇩🇪DE | vless | @V2RayTz | 16",
                 "🇫🇮FI | vless | @V2RayTz | 18",
-                "🇩🇪DE | vless | @DailyV2RY | 139",
+                "🇮🇷IR | vless | @DailyV2RY | 130",
                 "🇩🇪DE | vless | @lrnbymaa | 5",
                 "🇩🇪DE | vless | @fnet00 | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -214,7 +216,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -626,7 +628,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 7",
+            "tag": "🇬🇧GB | vless | @V2pedia | 12",
+            "type": "vless",
+            "server": "138.68.176.205",
+            "server_port": 2096,
+            "uuid": "8696a26b-8a27-48ce-9125-af7dc35cccb9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discord.app",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kdesKndJiEpQATLm2vBwXy6D7sbysI0xOJzsvP_8ECk",
+                    "short_id": "1d5f922b"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 8",
             "type": "vless",
             "server": "116.203.14.36",
             "server_port": 443,
@@ -1124,11 +1162,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 139",
+            "tag": "🇮🇷IR | vless | @DailyV2RY | 130",
             "type": "vless",
-            "server": "5.75.203.32",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "mci2.aidenchanel.site",
+            "server_port": 2087,
+            "uuid": "0f15b789-c99b-44bd-b56a-56d6363ffe97",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1138,22 +1176,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.mashti.link",
+                "server_name": "cdn.discordapp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ERV7pjULTFsXHHRuSLrLY07f4Wl_gQpu_bkBHQfzMVU",
-                    "short_id": "827ad6ed"
+                    "public_key": "lcvm3rCPpeyJLwpf67i5o6YD-DmLO4ZYP6GyDZ5tECY",
+                    "short_id": "62e66774"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "service_name": "@vpnAiden",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1471,7 +1509,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
