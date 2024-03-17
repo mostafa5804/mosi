@@ -113,7 +113,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🇵🇱PL | vmess | @v2Line | 8"
+                "🇵🇱PL | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 17"
             ]
         },
         {
@@ -127,7 +128,8 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇫🇷FR | vmess | @proxystore11 | 9",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🇵🇱PL | vmess | @v2Line | 8"
+                "🇵🇱PL | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -347,6 +349,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy5c1.freeairlaines.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Nbs2DSTSkFW6MrrFQHeSDQ7",
+                "headers": {
+                    "Host": "hdfy5c1.freeairlaines.com"
                 }
             }
         }
