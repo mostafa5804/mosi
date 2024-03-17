@@ -133,7 +133,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
-                "🇸🇪SE | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -156,6 +156,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 10",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -201,7 +202,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 33",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 5",
-                "🇸🇪SE | vless | @v2rayngvpn | 12",
+                "🇨🇦CA | vless | @v2rayngvpn | 12",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
@@ -224,6 +225,7 @@
                 "🇨🇦CA | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
                 "🇨🇦CA | vless | @FAKEOFTVC | 10",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -951,9 +953,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayngvpn | 12",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "Join.V2rayOfficial.Site",
+            "server": "www.speedtest.net",
             "server_port": 80,
             "uuid": "join-v2Ray_OffiCiaL-",
             "flow": "",
@@ -967,7 +969,7 @@
                 "type": "ws",
                 "path": "\/@V2ray_official-@V2ray_official-@V2ray_official",
                 "headers": {
-                    "Host": "Join.V2rayOfficial.Site"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1554,6 +1556,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "www.speedtest.net"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 2096,
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hagh.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hagh.pages.dev"
                 }
             }
         },
