@@ -150,7 +150,6 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 15","type":"trojan","server":"13.51.39.153","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"16.171.76.149","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | trojan | @DirectVPN | 17","type":"trojan","server":"3.66.149.146","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | trojan | @forwardv2ray | 2","type":"trojan","server":"198.41.220.5","port":443,"udp":false,"password":"cb1f26aa437d4bfa9b841d28503ce8cc","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareertoday.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -187,7 +186,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
-      - '🇺🇸US | trojan | @forwardv2ray | 2'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -224,7 +222,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
-      - '🇺🇸US | trojan | @forwardv2ray | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -260,7 +257,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
-      - '🇺🇸US | trojan | @forwardv2ray | 2'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
