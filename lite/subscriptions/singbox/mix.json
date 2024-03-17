@@ -123,7 +123,6 @@
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🏳️XX | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
@@ -165,13 +164,14 @@
                 "🇩🇪DE | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🏳️XX | ss | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 9",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇺🇸US | vmess | @eliya_chiter0 | 0",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇩🇪DE | vless | @SvnTeam | 61",
                 "🇺🇸US | tuic | @TUICity | 17",
                 "🇨🇦CA | vless | @V2FETCH | 6",
@@ -202,7 +202,6 @@
                 "🇸🇪SE | vless | @lightning6 | 29",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🏳️XX | vless | @proxy_kafee | 2",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @servermomo | 3",
                 "🇨🇦CA | vless | @V2rayCollector | 0",
@@ -244,13 +243,14 @@
                 "🇩🇪DE | vless | @Capoit | 8",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 16",
+                "🏳️XX | ss | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @FAKEOFTVC | 9",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🏳️XX | vless | @kingofilter | 7",
                 "🇬🇧GB | vless | @freeconfigv2 | 14",
-                "🇺🇸US | vmess | @eliya_chiter0 | 0",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0",
                 "🇩🇪DE | vless | @SvnTeam | 61",
                 "🇺🇸US | tuic | @TUICity | 17",
                 "🇨🇦CA | vless | @V2FETCH | 6",
@@ -717,37 +717,6 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @proxy_kafee | 2",
-            "type": "vless",
-            "server": "[2606:4700:310c::ac42:2c37]",
-            "server_port": 2096,
-            "uuid": "989c4f14-a0fb-4375-ba5d-082fb7167b70",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "azADNeTBYft65433ghgfR5677jGFr557774THYyt8766wwQw346678uUJJ.pAGes.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/lXY-lFy99HRZjExK",
-                "headers": {
-                    "Host": "azADNeTBYft65433ghgfR5677jGFr557774THYyt8766wwQw346678uUJJ.pAGes.DEv"
                 }
             }
         },
@@ -1765,6 +1734,16 @@
             }
         },
         {
+            "tag": "🏳️XX | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "[::ffff:37f:aac0]",
+            "server_port": 2082,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4guayUppM6CRF5mFUWFCFiWqxr\/lRNSCFUER4weYyY4=",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇩🇪DE | vless | @FAKEOFTVC | 9",
             "type": "vless",
             "server": "78.47.68.96",
@@ -1892,7 +1871,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 0",
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
