@@ -107,14 +107,15 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @mftizi | 18",
                 "🇨🇿CZ | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 45",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇺🇸US | vmess | @eliya_chiter0 | 0"
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ]
         },
         {
@@ -122,14 +123,15 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 18",
+                "🇨🇦CA | vmess | @mftizi | 18",
                 "🇨🇿CZ | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 45",
                 "🇸🇬SG | vmess | @V2rayng_Fast | 0",
                 "🇸🇬SG | vmess | @yaney_01 | 2",
-                "🏳️XX | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇺🇸US | vmess | @eliya_chiter0 | 0"
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @eliya_chiter0 | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -169,7 +171,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 18",
+            "tag": "🇨🇦CA | vmess | @mftizi | 18",
             "type": "vmess",
             "server": "www.coldstone.club",
             "server_port": 8080,
@@ -292,7 +294,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 0",
+            "tag": "🏳️XX | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -343,7 +345,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @eliya_chiter0 | 0",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "104.21.63.52",
+            "server_port": 80,
+            "uuid": "60f12435-bb55-4da2-cb7d-4fea34ecfa37",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @eliya_chiter0 | 0",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
