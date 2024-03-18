@@ -114,8 +114,9 @@
                 "🇧🇪BE | vmess | @DailyV2RY | 173",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 3",
-                "🇺🇸US | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @SINABIGO | 2"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @SINABIGO | 2"
             ]
         },
         {
@@ -130,8 +131,9 @@
                 "🇧🇪BE | vmess | @DailyV2RY | 173",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 3",
-                "🇺🇸US | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @SINABIGO | 2"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @SINABIGO | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -352,7 +354,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 10",
+            "tag": "🇨🇦CA | vmess | @v2Line | 10",
             "type": "vmess",
             "server": "104.21.75.244",
             "server_port": 443,
@@ -386,7 +388,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @SINABIGO | 2",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @SINABIGO | 2",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
