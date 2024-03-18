@@ -141,6 +141,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vless | @v2ray_swhil | 37",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -163,8 +164,8 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇧🇭BH | ss | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @FAKEOFTVC | 9",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
@@ -220,6 +221,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 35",
                 "🇨🇦CA | vless | @ServerNett | 17",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vless | @v2ray_swhil | 37",
                 "🇨🇦CA | vless | @v2ray1_ng | 11",
                 "🇮🇷IR | vless | @vless_vmess | 2",
@@ -242,8 +244,8 @@
                 "🇳🇱NL | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 0",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇧🇭BH | ss | @forwardv2ray | 17",
-                "🇺🇸US | vless | @FAKEOFTVC | 9",
+                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @FAKEOFTVC | 9",
                 "🇨🇳CN | vless | @mehrosaboran | 5",
                 "🇩🇪DE | vless | @kiava | 5",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
@@ -1199,6 +1201,30 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 0",
+            "type": "vmess",
+            "server": "104.21.90.218",
+            "server_port": 2086,
+            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @v2ray_swhil | 37",
             "type": "vless",
             "server": "all-net.0912.org",
@@ -1737,17 +1763,38 @@
             }
         },
         {
-            "tag": "🇧🇭BH | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "series-a2-me.samanehha.co",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "2LVVFxxHJSBMdGdl",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "6c7f0fcf-1e23-4f5a-922a-074daa9e47ef",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "blog.allhubb.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/cASDJDHQWdna",
+                "headers": {
+                    "Host": "blog.allhubb.info"
+                }
+            }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 9",
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 9",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 2053,
