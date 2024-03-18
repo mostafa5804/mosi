@@ -115,13 +115,12 @@
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 4",
+                "🇺🇸US | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @servermomo | 2",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -164,7 +163,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -193,13 +192,12 @@
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
                 "🇨🇦CA | vless | @rxv2ray | 21",
-                "🇨🇦CA | vless | @free_v2rayyy | 4",
+                "🇺🇸US | vless | @free_v2rayyy | 4",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇺🇸US | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇨🇦CA | vless | @servermomo | 2",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -242,7 +240,7 @@
                 "🇮🇷IR | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇷🇴RO | vless | @FAKEOFTVC | 1",
                 "🇨🇦CA | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -515,7 +513,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 4",
+            "tag": "🇺🇸US | vless | @free_v2rayyy | 4",
             "type": "vless",
             "server": "sv1.cardnet.sbs",
             "server_port": 443,
@@ -671,27 +669,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @servermomo | 2",
-            "type": "vless",
-            "server": "noora.ir",
-            "server_port": 80,
-            "uuid": "09491f9a-a7bf-483e-afaa-5886cb52f1a0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegramjoin:@servermomo-Telegramjoin:@servermomoTelegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomo-Telegramjoin:@servermomoTelegramjoin:@servermomo-",
-                "headers": {
-                    "Host": "noora.ir"
-                }
             }
         },
         {
@@ -1757,33 +1734,26 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "unlikelier.toptechnonews.com",
-            "server_port": 443,
-            "uuid": "b867aa62-33f4-452a-a175-98b84fad295b",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "unlikelier.toptechnonews.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/nimws",
+                "path": "\/video\/c9efxRCi",
                 "headers": {
-                    "Host": "unlikelier.toptechnonews.com"
+                    "Host": "cfcdn2.sanfencdn9.com"
                 }
             }
         },
