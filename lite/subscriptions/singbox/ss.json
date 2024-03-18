@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
+                "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
+                "🇩🇪DE | ss | @forwardv2ray | 16",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9"
             ]
@@ -115,7 +116,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
+                "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
+                "🇩🇪DE | ss | @forwardv2ray | 16",
                 "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🇹🇷TR | ss | @ROMAX_VPN | 9"
             ],
@@ -140,12 +142,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇦🇪AE | ss | @OutlineVpnOfficial | 15",
+            "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "java.ct.arvancode.eu.org",
-            "server_port": 443,
+            "server": "78.153.139.25",
+            "server_port": 5636,
             "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
+            "password": "spLaujVWfuUms5xzcCbA6z",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | @forwardv2ray | 16",
+            "type": "shadowsocks",
+            "server": "94.131.111.32",
+            "server_port": 8388,
+            "method": "chacha20-ietf-poly1305",
+            "password": "NGQzMzQz",
             "plugin": "",
             "plugin_opts": ""
         },
