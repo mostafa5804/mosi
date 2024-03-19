@@ -114,7 +114,7 @@
                 "🇨🇷CR | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🇸🇦SA | vless | @vpn_xw | 1",
@@ -146,7 +146,7 @@
                 "🇨🇦CA | vmess | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 17",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 5",
                 "🇨🇦CA | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 1",
@@ -166,7 +166,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 11",
+                "🇧🇭BH | ss | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -194,7 +194,7 @@
                 "🇨🇷CR | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 20",
                 "🇨🇦CA | vless | @Lockey_vpn | 12",
-                "🇨🇦CA | vless | @rxv2ray | 21",
+                "🇺🇸US | vless | @rxv2ray | 21",
                 "🇺🇸US | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🇸🇦SA | vless | @vpn_xw | 1",
@@ -226,7 +226,7 @@
                 "🇨🇦CA | vmess | @proxyymeliii | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 17",
                 "🇮🇷IR | vless | @vless_vmess | 2",
-                "🇨🇦CA | vless | @V2RayTz | 17",
+                "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 5",
                 "🇨🇦CA | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 1",
@@ -246,7 +246,7 @@
                 "🇨🇦CA | vless | @Capoit | 5",
                 "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | vless | @forwardv2ray | 11",
+                "🇧🇭BH | ss | @forwardv2ray | 16",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -357,7 +357,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "0KtTey0BDzrZabYz2XwnXv2T51padzl--vbl1HjppDU",
+                    "public_key": "5TrhRZbgDQtMLH9JfvO1Bc1BfQkrv4xhZRDTs2J0KUc",
                     "short_id": "f01aead4"
                 }
             },
@@ -498,7 +498,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
+            "tag": "🇺🇸US | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1352,24 +1352,39 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 17",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 8080,
-            "uuid": "Parsashonam-29",
-            "flow": "",
+            "server": "78.46.163.212",
+            "server_port": 443,
+            "uuid": "c32a8958-545f-4a76-8f8d-9ca41c61c859",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.18.202.232"
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "V0FmXCsKfMOUkHr_zl4q9Dzq1QSP7E7MyCqUp1hg_FQ",
+                    "short_id": "37c97368"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1869,35 +1884,14 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 11",
-            "type": "vless",
-            "server": "ed9485634jkfhggh.pages.dev",
-            "server_port": 2053,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ed9485634jkfhggh.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram@SINABIGO@SINABIGO@SINABIGO\/",
-                "headers": {
-                    "Host": "ed9485634jkfhggh.pages.dev"
-                }
-            }
+            "tag": "🇧🇭BH | ss | @forwardv2ray | 16",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
