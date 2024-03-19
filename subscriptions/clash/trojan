@@ -150,6 +150,7 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"13.49.19.255","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"104.19.171.3","port":443,"udp":false,"password":"f0eb8c92ce8946aaba856569cff1a16b","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sherasheba.com"}
   - {"name":"🇩🇪DE | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"3.75.28.99","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @forwardv2ray | 8","type":"trojan","server":"18.130.80.210","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -188,6 +189,7 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇺🇸US | trojan | @oneclickvpnkeys | 1'
       - '🇩🇪DE | trojan | @oneclickvpnkeys | 7'
+      - '🇬🇧GB | trojan | @forwardv2ray | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -226,6 +228,7 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇺🇸US | trojan | @oneclickvpnkeys | 1'
       - '🇩🇪DE | trojan | @oneclickvpnkeys | 7'
+      - '🇬🇧GB | trojan | @forwardv2ray | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -263,6 +266,7 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇺🇸US | trojan | @oneclickvpnkeys | 1'
       - '🇩🇪DE | trojan | @oneclickvpnkeys | 7'
+      - '🇬🇧GB | trojan | @forwardv2ray | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
