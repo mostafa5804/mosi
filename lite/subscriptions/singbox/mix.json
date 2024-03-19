@@ -107,10 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 18",
-                "🇺🇸US | vless | @XsV2ray | 15",
+                "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 18",
                 "🇨🇷CR | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 21",
@@ -166,7 +166,7 @@
                 "🇸🇪SE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | trojan | @forwardv2ray | 18",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -188,10 +188,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 18",
-                "🇺🇸US | vless | @XsV2ray | 15",
+                "🇨🇦CA | vless | @XsV2ray | 15",
                 "🇬🇧GB | vless | @VlessConfig | 17",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 18",
                 "🇨🇷CR | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 21",
@@ -247,7 +247,7 @@
                 "🇸🇪SE | vless | @Capoit | 3",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇸🇪SE | vless | @flyv2ray | 13",
-                "🇨🇦CA | trojan | @forwardv2ray | 18",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -305,7 +305,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @XsV2ray | 15",
+            "tag": "🇨🇦CA | vless | @XsV2ray | 15",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 443,
@@ -403,7 +403,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 12",
+            "tag": "🇨🇦CA | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -1837,31 +1837,26 @@
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @forwardv2ray | 18",
-            "type": "trojan",
-            "server": "104.16.159.5",
-            "server_port": 443,
-            "password": "984e400bf5d541b7b0815913fe0c432a",
+            "tag": "🇸🇬SG | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "amoda2.alexdevil.help",
+            "server_port": 18996,
+            "uuid": "1fd4b60e-e164-4b7c-9463-cb5e55be810c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "bangladeshipatri.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/6b777a91",
+                "path": "\/",
                 "headers": {
-                    "Host": "bangladeshipatri.com"
+                    "Host": ""
                 }
             }
         },

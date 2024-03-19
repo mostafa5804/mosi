@@ -115,6 +115,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -131,6 +132,7 @@
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 11",
                 "🇵🇱PL | vmess | @v2Line | 9",
+                "🇸🇬SG | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -380,6 +382,30 @@
             "transport": {
                 "type": "ws",
                 "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "amoda2.alexdevil.help",
+            "server_port": 18996,
+            "uuid": "1fd4b60e-e164-4b7c-9463-cb5e55be810c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
