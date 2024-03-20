@@ -149,9 +149,6 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 15","type":"trojan","server":"13.50.178.40","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"16.171.104.192","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"104.19.171.3","port":443,"udp":false,"password":"f0eb8c92ce8946aaba856569cff1a16b","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sherasheba.com"}
-  - {"name":"🇺🇸US | trojan | @forwardv2ray | 9","type":"trojan","server":"44.240.111.57","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @forwardv2ray | 15","type":"trojan","server":"18.175.6.150","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | trojan | @forwardv2ray | 18","type":"trojan","server":"3.12.226.7","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -189,9 +186,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 7'
-      - '🇺🇸US | trojan | @forwardv2ray | 9'
-      - '🇬🇧GB | trojan | @forwardv2ray | 15'
-      - '🇺🇸US | trojan | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -229,9 +223,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 7'
-      - '🇺🇸US | trojan | @forwardv2ray | 9'
-      - '🇬🇧GB | trojan | @forwardv2ray | 15'
-      - '🇺🇸US | trojan | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -268,9 +259,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 15'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 7'
-      - '🇺🇸US | trojan | @forwardv2ray | 9'
-      - '🇬🇧GB | trojan | @forwardv2ray | 15'
-      - '🇺🇸US | trojan | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
