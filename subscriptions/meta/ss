@@ -120,7 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 4","type":"ss","server":"54.36.174.181","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR | ss | @DeamNet_Proxy | 10","type":"ss","server":"149.202.82.172","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 11","type":"ss","server":"54.36.174.181","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 0","type":"ss","server":"3.127.145.66","port":2087,"password":"ZBMv8ME+6NyoFNl1/aieDcpKb4sTaWpLaopaJ3IlKn4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇧🇭BH | ss | @VmessProtocol | 4","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @VmessProtocol | 5","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
@@ -139,8 +140,6 @@ proxies:
   - {"name":"🇮🇪IE | ss | @OutlineVpnOfficial | 17","type":"ss","server":"52.178.209.160","port":2606,"password":"zh7ETDQRvHCsIIPIrSHwHa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰HK | ss | @OutlineVpnOfficial | 18","type":"ss","server":"141.98.234.19","port":44017,"password":"l9uKHMJTIbIlHFy7h8VyOQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪AE | ss | @OutlineVpnOfficial | 19","type":"ss","server":"java.ct.arvancode.eu.org","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺RU | ss | @forwardv2ray | 14","type":"ss","server":"193.233.20.230","port":37489,"password":"lSUFxHzm2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷FR | ss | @forwardv2ray | 17","type":"ss","server":"51.158.150.210","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
   - {"name":"🏳️XX | ss | @ROMAX_VPN | 1","type":"ss","server":"[2a12:5940:5237::2]","port":7261,"password":"pZvwP17Nlz2z6jsYnVgZgf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 6","type":"ss","server":"13.42.169.32","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -149,7 +148,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 4'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 10'
+      - '🇵🇱PL | ss | @DeamNet_Proxy | 11'
       - '🇩🇪DE | ss | @VmessProtocol | 0'
       - '🇧🇭BH | ss | @VmessProtocol | 4'
       - '🇬🇧GB | ss | @VmessProtocol | 5'
@@ -168,8 +168,6 @@ proxy-groups:
       - '🇮🇪IE | ss | @OutlineVpnOfficial | 17'
       - '🇭🇰HK | ss | @OutlineVpnOfficial | 18'
       - '🇦🇪AE | ss | @OutlineVpnOfficial | 19'
-      - '🇷🇺RU | ss | @forwardv2ray | 14'
-      - '🇫🇷FR | ss | @forwardv2ray | 17'
       - '🏳️XX | ss | @ROMAX_VPN | 1'
       - '🇬🇧GB | ss | @ROMAX_VPN | 6'
   - name: URL-TEST
@@ -178,7 +176,8 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 4'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 10'
+      - '🇵🇱PL | ss | @DeamNet_Proxy | 11'
       - '🇩🇪DE | ss | @VmessProtocol | 0'
       - '🇧🇭BH | ss | @VmessProtocol | 4'
       - '🇬🇧GB | ss | @VmessProtocol | 5'
@@ -197,8 +196,6 @@ proxy-groups:
       - '🇮🇪IE | ss | @OutlineVpnOfficial | 17'
       - '🇭🇰HK | ss | @OutlineVpnOfficial | 18'
       - '🇦🇪AE | ss | @OutlineVpnOfficial | 19'
-      - '🇷🇺RU | ss | @forwardv2ray | 14'
-      - '🇫🇷FR | ss | @forwardv2ray | 17'
       - '🏳️XX | ss | @ROMAX_VPN | 1'
       - '🇬🇧GB | ss | @ROMAX_VPN | 6'
   - name: FALLBACK
@@ -206,7 +203,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇵🇱PL | ss | @DeamNet_Proxy | 4'
+      - '🇫🇷FR | ss | @DeamNet_Proxy | 10'
+      - '🇵🇱PL | ss | @DeamNet_Proxy | 11'
       - '🇩🇪DE | ss | @VmessProtocol | 0'
       - '🇧🇭BH | ss | @VmessProtocol | 4'
       - '🇬🇧GB | ss | @VmessProtocol | 5'
@@ -225,8 +223,6 @@ proxy-groups:
       - '🇮🇪IE | ss | @OutlineVpnOfficial | 17'
       - '🇭🇰HK | ss | @OutlineVpnOfficial | 18'
       - '🇦🇪AE | ss | @OutlineVpnOfficial | 19'
-      - '🇷🇺RU | ss | @forwardv2ray | 14'
-      - '🇫🇷FR | ss | @forwardv2ray | 17'
       - '🏳️XX | ss | @ROMAX_VPN | 1'
       - '🇬🇧GB | ss | @ROMAX_VPN | 6'
 rule-providers:
