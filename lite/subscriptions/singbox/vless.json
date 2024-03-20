@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 17",
                 "🇫🇮FI | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 21",
@@ -125,7 +125,7 @@
                 "🇳🇱NL | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 1",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @prrofile_purple | 169",
@@ -178,7 +178,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 0",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇺🇸US | vless | @melov2ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇮🇷IR | vless | @frev2ray | 17",
                 "🇫🇮FI | vless | @ARv2ray | 15",
                 "🇸🇪SE | vless | @shh_proxy | 21",
@@ -193,7 +193,7 @@
                 "🇳🇱NL | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇪🇸ES | vless | @azadi_az_inja_migzare | 1",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 25",
                 "🇨🇦CA | vless | @prrofile_purple | 169",
@@ -377,7 +377,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 12",
+            "tag": "🇨🇦CA | vless | @melov2ray | 12",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -776,7 +776,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "discord.com",
             "server_port": 443,
@@ -1550,9 +1550,9 @@
         {
             "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "SVNTEAMm",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1560,11 +1560,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "test38.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SVNTEAM",
+                "path": "\/Path\/Telegram@V2ray_alpha\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "test38.pages.dev"
                 }
             }
         },
