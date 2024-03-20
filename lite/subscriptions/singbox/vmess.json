@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @DailyV2RY | 131",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
-                "🇵🇱PL | vmess | @v2Line | 9"
+                "🇵🇱PL | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 15"
             ]
         },
         {
@@ -121,11 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @DailyV2RY | 131",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @Hope_Net | 13",
-                "🇵🇱PL | vmess | @v2Line | 9"
+                "🇵🇱PL | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @forwardv2ray | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -189,11 +191,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "gcore.com",
-            "server_port": 80,
-            "uuid": "b9b72788-a5eb-43fa-baa3-87581fe393c1",
+            "server": "506.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -204,11 +206,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "marien.motorcycles"
                 }
             }
         },
@@ -308,6 +320,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 15",
+            "type": "vmess",
+            "server": "198.41.202.5",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kittiy.sbs"
                 }
             }
         }
