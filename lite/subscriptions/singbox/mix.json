@@ -114,7 +114,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 17",
                 "🏳️XX | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇨🇷CR | vless | @ARv2ray | 13",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -164,9 +164,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 4",
+                "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇷🇺RU | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 10",
@@ -194,7 +194,7 @@
                 "🇸🇪SE | vless | @VlessConfig | 17",
                 "🏳️XX | vless | @VPNCUSTOMIZE | 20",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
-                "🇨🇦CA | vless | @melov2ray | 14",
+                "🇺🇸US | vless | @melov2ray | 14",
                 "🇨🇦CA | vless | @frev2ray | 3",
                 "🇨🇷CR | vless | @ARv2ray | 13",
                 "🇷🇺RU | vless | @shh_proxy | 23",
@@ -244,9 +244,9 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 13",
-                "🇨🇦CA | vless | @FreakConfig | 4",
+                "🇺🇸US | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 12",
-                "🇷🇺RU | vless | @forwardv2ray | 18",
+                "🇳🇱NL | vmess | @forwardv2ray | 19",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇷🇺RU | ss | @proxy_mtm | 10",
@@ -508,7 +508,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @melov2ray | 14",
+            "tag": "🇺🇸US | vless | @melov2ray | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -700,9 +700,9 @@
         {
             "tag": "🇸🇪SE | vless | @lightning6 | 23",
             "type": "vless",
-            "server": "185.146.173.96",
+            "server": "185.146.173.59",
             "server_port": 8880,
-            "uuid": "16616ce2-e55c-47f9-8639-15129d758fb0",
+            "uuid": "18d6d2ff-97c1-4002-bb8a-36ddc53b6a8b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1382,7 +1382,7 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 80,
-            "uuid": "3431f80d-a1fb-49c8-8842-da75343d4bcb",
+            "uuid": "---DIGiV2RAY---",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1392,7 +1392,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "162.159.130.234"
                 }
@@ -1743,7 +1743,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "tag": "🇺🇸US | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1795,23 +1795,36 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vless | @forwardv2ray | 18",
-            "type": "vless",
-            "server": "Owner.XheYkh.Site",
-            "server_port": 80,
-            "uuid": "SVNTEAMm",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇳🇱NL | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "Owner.XheYkh.Site"
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
