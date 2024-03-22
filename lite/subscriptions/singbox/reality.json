@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
+                "🇩🇪DE | vless | @v2ray1_ng | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -122,6 +123,7 @@
             "outbounds": [
                 "🇫🇮FI | vless | @ipV2Ray | 19",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
+                "🇩🇪DE | vless | @v2ray1_ng | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -211,6 +213,42 @@
                     "enabled": true,
                     "public_key": "IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI",
                     "short_id": "189f1252"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 10",
+            "type": "vless",
+            "server": "91.107.241.174",
+            "server_port": 443,
+            "uuid": "bca25977-36a0-4e5b-9d26-696196688f19",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "*.hetzner.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jno8xemUZGAh5Su7rPcxJeq7OUwg-ruZdIDkd6B60n0",
+                    "short_id": "61b87877"
                 }
             },
             "transport": {
