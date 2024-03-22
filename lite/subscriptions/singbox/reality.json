@@ -106,10 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | vless | @ipV2Ray | 19",
+                "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 10",
-                "🏳️XX | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -122,10 +121,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | vless | @ipV2Ray | 19",
+                "🇫🇮FI | vless | @ipV2Ray | 18",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 10",
-                "🏳️XX | vless | @V2RayTz | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 4",
@@ -154,7 +152,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮FI | vless | @ipV2Ray | 19",
+            "tag": "🇫🇮FI | vless | @ipV2Ray | 18",
             "type": "vless",
             "server": "95.216.171.190",
             "server_port": 443,
@@ -177,7 +175,7 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "X9SHLp1_m3IChdlflR17axS_JnNH3Eo47GmuF_5eAV8",
+                    "public_key": "pyuWfUv6DN3jepoynXlvrcqNtDbcrGPxYdx7ag9BWVw",
                     "short_id": "f01aead4"
                 }
             },
@@ -256,42 +254,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | @V2RayTz | 19",
-            "type": "vless",
-            "server": "[2a01:4f9:c010:6fb9::51]",
-            "server_port": 443,
-            "uuid": "2cc2c64a-f1ff-44d4-ac05-4037adc9a3e2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gsmarena.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw",
-                    "short_id": "32d7a82d"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
