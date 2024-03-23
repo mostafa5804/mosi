@@ -115,8 +115,9 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 68",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🏳️XX | vmess | @Hope_Net | 10",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 4"
             ]
         },
         {
@@ -132,8 +133,9 @@
                 "🇩🇪DE | vmess | @ShadowProxy66 | 68",
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🏳️XX | vmess | @Hope_Net | 10",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -374,11 +376,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
+            "tag": "🏳️XX | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "172.67.72.2",
-            "server_port": 8880,
-            "uuid": "edbf317d-7671-4089-87ef-89dbc055f428",
+            "server": "127.0.0.1",
+            "server_port": 8080,
+            "uuid": "acbaacb-cbaa-baca-cabd-cbacbbcaacba",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -388,13 +390,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -418,6 +413,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 4",
+            "type": "vmess",
+            "server": "hms182.glweidf.sbs",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
                 }
             }
         }
