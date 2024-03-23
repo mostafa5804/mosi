@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇩🇪DE | vless | @ARv2ray | 12",
-                "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 12",
                 "🏳️XX | vless | @DailyV2RY | 139",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -125,7 +124,6 @@
             "outbounds": [
                 "🇫🇮FI | vless | @ipV2Ray | 17",
                 "🇩🇪DE | vless | @ARv2ray | 12",
-                "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 12",
                 "🏳️XX | vless | @DailyV2RY | 139",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -222,42 +220,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @FalconPolV2rayNG | 9",
-            "type": "vless",
-            "server": "104.248.194.223",
-            "server_port": 443,
-            "uuid": "01b6b661-4ab1-482f-a881-1ae895bc24e5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "*.housepets.space",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI",
-                    "short_id": "189f1252"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
