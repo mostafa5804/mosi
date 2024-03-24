@@ -129,7 +129,6 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @yaney_01 | 1","type":"vmess","server":"221.131.165.179","port":"18048","cipher":"auto","uuid":"01b094d8-68f4-317c-99b9-ccd867603120","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/soda","headers":{"host":"cn.bing.com"}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 3","type":"vmess","server":"172.67.229.35","port":2086,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
   - {"name":"🇵🇱PL | vmess | @v2Line | 10","type":"vmess","server":"pl2-vmess.sshmax.xyz","port":"80","cipher":"auto","uuid":"18c6b542-e6f8-4476-872a-d3955f45d9f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"pl2-vmess.sshmax.xyz"}}}
-  - {"name":"🇧🇭BH | ss | @forwardv2ray | 18","type":"ss","server":"fast_2ray_telchannelll2.fast2rayy.eu.org","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -147,7 +146,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 3'
       - '🇵🇱PL | vmess | @v2Line | 10'
-      - '🇧🇭BH | ss | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -165,7 +163,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 3'
       - '🇵🇱PL | vmess | @v2Line | 10'
-      - '🇧🇭BH | ss | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -182,7 +179,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 3'
       - '🇵🇱PL | vmess | @v2Line | 10'
-      - '🇧🇭BH | ss | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
