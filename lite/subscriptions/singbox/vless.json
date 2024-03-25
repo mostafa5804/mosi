@@ -125,7 +125,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇬🇧GB | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @DailyV2RY | 107",
+                "🇨🇦CA | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -192,7 +192,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -210,7 +210,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇨🇷CR | vless | @MTConfig | 18",
                 "🇬🇧GB | vless | @V2RayTz | 18",
-                "🇺🇸US | vless | @DailyV2RY | 107",
+                "🇨🇦CA | vless | @DailyV2RY | 104",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -372,7 +372,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.158.169.142",
+            "server": "3.65.73.210",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -528,7 +528,7 @@
             "tag": "🇸🇪SE | vless | @ARv2ray | 19",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -537,12 +537,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "lb1.agh9731.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -778,7 +788,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1250,11 +1260,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 107",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 104",
             "type": "vless",
-            "server": "Zula.Ir.",
-            "server_port": 8443,
-            "uuid": "8bf2d75b-2bfc-4aef-a73b-5ea3c6b5783e",
+            "server": "discord.gg",
+            "server_port": 8080,
+            "uuid": "SVNTEAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1262,21 +1272,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "net.38bsjwiowiejjejisjejeejBkss--dbjd38bdka--bc.shOp.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "net.38bsjwiowiejjejisjejeejBkss--dbjd38bdka--bc.shOp."
+                    "Host": "discord.gg"
                 }
             }
         },
