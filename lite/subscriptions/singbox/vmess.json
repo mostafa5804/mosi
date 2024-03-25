@@ -114,7 +114,8 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇭🇰HK | vmess | @v2Line | 10"
+                "🇭🇰HK | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ]
         },
         {
@@ -129,7 +130,8 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
-                "🇭🇰HK | vmess | @v2Line | 10"
+                "🇭🇰HK | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -284,9 +286,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "cxc--join.outline-vpn.cloud",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "104.21.224.5",
+            "server_port": 80,
+            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -297,21 +299,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/&Telegram🇨🇳 @WangCai_8",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": ""
                 }
             }
         },
@@ -370,6 +362,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "104.19.54.50",
+            "server_port": 443,
+            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Rockp.Blanku.Me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wss49406",
+                "headers": {
+                    "Host": "Rockp.Blanku.Me"
                 }
             }
         }
