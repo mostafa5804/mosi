@@ -116,10 +116,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🏳️XX | vless | @V2rayCollectorDonate | 8",
+                "🏳️XX | vless | @V2rayCollectorDonate | 9",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
                 "🇩🇪DE | vless | @v2ray_swhil | 16",
+                "🏳️XX | vless | @DailyV2RY | 87",
                 "🇩🇪DE | vless | @lrnbymaa | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -130,7 +131,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -177,10 +178,11 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🏳️XX | vless | @V2rayCollectorDonate | 8",
+                "🏳️XX | vless | @V2rayCollectorDonate | 9",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
                 "🇩🇪DE | vless | @v2ray_swhil | 16",
+                "🏳️XX | vless | @DailyV2RY | 87",
                 "🇩🇪DE | vless | @lrnbymaa | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -191,7 +193,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -562,7 +564,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2rayCollectorDonate | 8",
+            "tag": "🏳️XX | vless | @V2rayCollectorDonate | 9",
             "type": "vless",
             "server": "[2a01:4f8:1c1b:14f0::52]",
             "server_port": 443,
@@ -700,6 +702,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @DailyV2RY | 87",
+            "type": "vless",
+            "server": "[2a01:4f8:c2c:3a53::1]",
+            "server_port": 25365,
+            "uuid": "e9bd25ec-88a5-45e1-ba87-2043d3b0e104",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EO8pab1ELMGK6UeI_jB--PSzG7TvYQJrWCLWWhphUVY",
+                    "short_id": "ecce7ff9"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1017,7 +1055,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
