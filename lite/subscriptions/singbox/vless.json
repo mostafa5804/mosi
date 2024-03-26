@@ -130,12 +130,12 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
-                "🇮🇷IR | vless | @prrofile_purple | 167",
+                "🇺🇸US | vless | @prrofile_purple | 169",
                 "🇮🇷IR | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
-                "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
+                "🇺🇸US | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 4",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 28",
@@ -150,14 +150,15 @@
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 40",
-                "🇳🇱NL | vless | @Outlinev2rayNG | 15",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 9",
-                "🇨🇦CA | vless | @mehrosaboran | 8",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 2",
@@ -198,12 +199,12 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇩🇪DE | vless | @V2rayNGn | 23",
-                "🇮🇷IR | vless | @prrofile_purple | 167",
+                "🇺🇸US | vless | @prrofile_purple | 169",
                 "🇮🇷IR | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇺🇸US | vless | @vmessorg | 37",
                 "🇨🇦CA | vless | @v2rayngvpn | 13",
-                "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
+                "🇺🇸US | vless | @FalconPolV2rayNG | 9",
                 "🇨🇦CA | vless | @ServerNett | 4",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 6",
                 "🇸🇪SE | vless | @v2ray_swhil | 28",
@@ -218,14 +219,15 @@
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 40",
-                "🇳🇱NL | vless | @Outlinev2rayNG | 15",
+                "🇳🇱NL | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 6",
                 "🇨🇦CA | vless | @flyv2ray | 9",
-                "🇨🇦CA | vless | @mehrosaboran | 8",
+                "🇨🇦CA | vless | @forwardv2ray | 18",
+                "🇺🇸US | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇨🇦CA | vless | @kingofilter | 2",
@@ -918,17 +920,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 167",
+            "tag": "🇺🇸US | vless | @prrofile_purple | 169",
             "type": "vless",
-            "server": "193.107.48.23",
-            "server_port": 15971,
-            "uuid": "074700fb-14e7-4ca3-89a8-3b808c1637e5",
+            "server": "sv1.cardnet.sbs",
+            "server_port": 443,
+            "uuid": "9a3248e7-6bb2-4f1a-94de-24a6bee5c431",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sv1.cardnet.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "sv1.cardnet.sbs"
+                }
             }
         },
         {
@@ -1019,12 +1038,12 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
+            "tag": "🇺🇸US | vless | @FalconPolV2rayNG | 9",
             "type": "vless",
-            "server": "104.248.194.223",
+            "server": "3k.pureboy.eu.org",
             "server_port": 443,
-            "uuid": "01b6b661-4ab1-482f-a881-1ae895bc24e5",
-            "flow": "xtls-rprx-vision",
+            "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1033,25 +1052,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "*.housepets.space",
+                "server_name": "3k.pureboy.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "IizwPX5xVViOal5eU9u-Nkd7OZbnsLhQtclLWklAezI",
-                    "short_id": "189f1252"
+                    "fingerprint": "chrome"
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "3k.pureboy.eu.org"
+                }
             }
         },
         {
@@ -1217,8 +1231,8 @@
             "tag": "🇸🇪SE | vless | @V2RayTz | 17",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server_port": 8880,
+            "uuid": "88890967-60a5-4137-df5c-96b2b923f395",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1228,7 +1242,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
@@ -1438,7 +1452,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 15",
+            "tag": "🇳🇱NL | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "188.114.99.243",
             "server_port": 443,
@@ -1633,7 +1647,21 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @mehrosaboran | 8",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "104.21.57.240",
+            "server_port": 443,
+            "uuid": "e28bb3f8-e64a-4419-9496-33c46220354b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "dnschecker.org",
             "server_port": 443,
