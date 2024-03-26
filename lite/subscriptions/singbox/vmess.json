@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+                "🇨🇷CR | vmess | @vless_vmess | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -124,9 +125,10 @@
             "outbounds": [
                 "🇨🇦CA | vmess | @V2rayCollectorDonate | 21",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
+                "🇨🇷CR | vmess | @vless_vmess | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
@@ -205,11 +207,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇺🇸US | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "104.21.225.38",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "de6969ab-ec16-4263-8c11-9187e8ca0782",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -222,7 +224,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/video\/Zo98PYfE",
                 "headers": {
                     "Host": ""
                 }
@@ -293,6 +295,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vmess | @vless_vmess | 9",
+            "type": "vmess",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "marien.motorcycles"
                 }
             }
         },
