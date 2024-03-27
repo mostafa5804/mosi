@@ -11,13 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇿CZ | vmess | @mftizi | 19 = vmess, cfcdn3.sanfencdn9.com, 2052, username = de6969ab-ec16-4263-8c11-9187e8ca0782, ws = true, tls = , vmess-aead = true, ws-path = /video/Zo98PYfE, ws-headers = Host:"kvjqqknzjp6.yofnhkfc.xyz", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @mftizi | 19 = vmess, cfcdn3.sanfencdn9.com, 2052, username = de6969ab-ec16-4263-8c11-9187e8ca0782, ws = true, tls = , vmess-aead = true, ws-path = /video/Zo98PYfE, ws-headers = Host:"kvjqqknzjp6.yofnhkfc.xyz", skip-cert-verify = true, tfo = false
 🇩🇪DE | vmess | @oneclickvpnkeys | 12 = vmess, 80.71.157.105, 80, username = b656b441-2cfd-44b8-9b2e-646e9925f8f6, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
+🇻🇳VN | vmess | @forwardv2ray | 13 = vmess, skyht2.vpndata.vn, 80, username = fbccfed7-1aeb-416a-a4fd-7af1747f9f3b, ws = true, tls = , vmess-aead = false, ws-path = /VPNDATA.VPN, ws-headers = Host:"lienquan.garena.vn", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇿CZ | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇨🇦CA | vmess | @yaney_01 | 1
-URL-TEST = url-test,🇨🇿CZ | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇨🇦CA | vmess | @yaney_01 | 1
-FALLBACK = fallback,🇨🇿CZ | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇨🇦CA | vmess | @yaney_01 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇨🇦CA | vmess | @yaney_01 | 1,🇻🇳VN | vmess | @forwardv2ray | 13
+URL-TEST = url-test,🇺🇸US | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇨🇦CA | vmess | @yaney_01 | 1,🇻🇳VN | vmess | @forwardv2ray | 13
+FALLBACK = fallback,🇺🇸US | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 12,🇨🇦CA | vmess | @yaney_01 | 1,🇻🇳VN | vmess | @forwardv2ray | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
