@@ -130,7 +130,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇸🇪SE | vless | @V2rayNGn | 8",
+                "🇬🇧GB | vless | @V2rayNGn | 10",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
-                "🇸🇪SE | vless | @V2rayNGn | 8",
+                "🇬🇧GB | vless | @V2rayNGn | 10",
                 "🇨🇦CA | vless | @prrofile_purple | 175",
                 "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
@@ -886,11 +886,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2rayNGn | 8",
+            "tag": "🇬🇧GB | vless | @V2rayNGn | 10",
             "type": "vless",
-            "server": "185.146.173.96",
-            "server_port": 8880,
-            "uuid": "315c5749-ce21-4631-8a08-70aacd623405",
+            "server": "join.VPNCUSTOMIZE.com",
+            "server_port": 443,
+            "uuid": "fdf4f24b-c04c-49bb-ba62-3102ad995aad",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -898,12 +898,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6, @LIGHTNING6",
-                "headers": {
-                    "Host": "185.146.173.96"
+            "tls": {
+                "enabled": true,
+                "server_name": "join.VPNCUSTOMIZE.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "‌",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
