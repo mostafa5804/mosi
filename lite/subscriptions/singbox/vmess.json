@@ -107,9 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 46",
                 "🇺🇸US | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -122,9 +122,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 12",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 46",
                 "🇺🇸US | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -169,11 +169,28 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "de6969ab-ec16-4263-8c11-9187e8ca0782",
+            "server": "183.233.187.194",
+            "server_port": 54137,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "bs1.loadingip.com",
+            "server_port": 80,
+            "uuid": "9e5999ba-870a-46b1-8500-37c640371ec6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -186,50 +203,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/Zo98PYfE",
+                "path": "\/bs",
                 "headers": {
-                    "Host": ""
+                    "Host": "bs1.loadingip.com"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 12",
-            "type": "vmess",
-            "server": "172.67.152.200",
+            "server": "cxc--join.outline-vpn.cloud",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -244,7 +227,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "meroiy.icu",
+                "server_name": "nelly.homes",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -256,7 +239,7 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "meroiy.icu"
+                    "Host": "nelly.homes"
                 }
             }
         },
