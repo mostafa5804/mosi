@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇬🇧GB | vless | @NIM_VPN_ir | 12",
-                "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇬🇧GB | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @melov2ray | 12",
@@ -142,11 +142,11 @@
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇨🇷CR | vless | @MsV2ray | 5",
                 "🇨🇦CA | vless | @v2ray1_ng | 13",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 11",
                 "🇷🇺RU | vless | @DailyV2RY | 106",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 9",
+                "🇺🇸US | vless | @proxystore11 | 9",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -177,7 +177,7 @@
                 "🇨🇦CA | vless | @Parsashonam | 18",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇬🇧GB | vless | @NIM_VPN_ir | 12",
-                "🇫🇷FR | vless | @VlessConfig | 18",
+                "🇬🇧GB | vless | @VlessConfig | 18",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 9",
                 "🇺🇸US | vless | @melov2ray | 12",
@@ -209,11 +209,11 @@
                 "🇨🇦CA | vless | @proxyymeliii | 11",
                 "🇨🇷CR | vless | @MsV2ray | 5",
                 "🇨🇦CA | vless | @v2ray1_ng | 13",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇷CR | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 11",
                 "🇷🇺RU | vless | @DailyV2RY | 106",
                 "🇨🇦CA | vless | @sinabigo | 6",
-                "🇨🇦CA | vless | @proxystore11 | 9",
+                "🇺🇸US | vless | @proxystore11 | 9",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -350,9 +350,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 18",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.36.60.211",
+            "server": "18.171.27.142",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -508,7 +508,7 @@
             "tag": "🇸🇪SE | vless | @ARv2ray | 17",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
+            "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -517,12 +517,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "i2.agh9731.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -708,9 +718,9 @@
         {
             "tag": "🇨🇦CA | vless | @proxy_kafee | 13",
             "type": "vless",
-            "server": "tgju.org",
-            "server_port": 8443,
-            "uuid": "225d8704-9e2a-47ac-893d-33cd46ed609a",
+            "server": "23.227.60.186",
+            "server_port": 80,
+            "uuid": "4462b91a-ad7b-4a30-928d-702ddcfc0d40",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -718,21 +728,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "join-sho-falcunargo-uk.falcunar.uk.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "join-sho-falcunargo-uk.falcunar.uk.eu.org"
+                    "Host": "23.227.60.186"
                 }
             }
         },
@@ -1171,11 +1171,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
+            "tag": "🇨🇷CR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "162.159.135.234",
-            "server_port": 80,
-            "uuid": "-DIGiV2RAY--",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "5d0245cd-8412-4a32-b52c-ef810651e613",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1183,12 +1183,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Digiv2ray-",
-                "headers": {
-                    "Host": "162.159.135.234"
+            "tls": {
+                "enabled": true,
+                "server_name": "digi--v2raycncfs.RadioTeHran.oRG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Digiv2ray,@Digiv2ray,@Digiv2ray,@Digiv2ray,",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1275,7 +1285,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 9",
+            "tag": "🇺🇸US | vless | @proxystore11 | 9",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
