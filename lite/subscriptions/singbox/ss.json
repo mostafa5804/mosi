@@ -106,14 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 16"
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
+                "🇫🇷FR | ss | @forwardv2ray | 13"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 16"
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
+                "🇫🇷FR | ss | @forwardv2ray | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,6 +144,16 @@
             "server_port": 807,
             "method": "chacha20-ietf-poly1305",
             "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇷FR | ss | @forwardv2ray | 13",
+            "type": "shadowsocks",
+            "server": "paris.telegavpn.com",
+            "server_port": 9802,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5qSt7yr9BA1p891Ne28Zoj",
             "plugin": "",
             "plugin_opts": ""
         }
