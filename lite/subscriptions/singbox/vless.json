@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 12",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -145,10 +145,10 @@
                 "🇺🇸US | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 12",
-                "🇺🇸US | vless | @DailyV2RY | 119",
+                "🇮🇷IR | vless | @DailyV2RY | 118",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -157,6 +157,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -196,7 +197,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 12",
                 "🇨🇦CA | vless | @v2logy | 7",
-                "🇺🇸US | vless | @Watashi_VPN | 0",
+                "🇨🇦CA | vless | @Watashi_VPN | 0",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 21",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -215,10 +216,10 @@
                 "🇺🇸US | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @VmessProtocol | 12",
-                "🇺🇸US | vless | @DailyV2RY | 119",
+                "🇮🇷IR | vless | @DailyV2RY | 118",
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇩🇪DE | vless | @fnet00 | 2",
                 "🇨🇦CA | vless | @polproxy | 35",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 13",
@@ -227,6 +228,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
+                "🏳️XX | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -805,7 +807,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Watashi_VPN | 0",
+            "tag": "🇨🇦CA | vless | @Watashi_VPN | 0",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1276,11 +1278,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @DailyV2RY | 119",
+            "tag": "🇮🇷IR | vless | @DailyV2RY | 118",
             "type": "vless",
-            "server": "www.zula.ir",
-            "server_port": 2096,
-            "uuid": "8bce3d05-ab06-4688-bdc1-109112e73e30",
+            "server": "94.182.149.139",
+            "server_port": 80,
+            "uuid": "d33617d7-db31-4333-b0bf-b290c1fed2d4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1288,22 +1290,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "shah67.servernet.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@HAJIMAMADVPN",
+                "headers": {
+                    "Host": "94.182.149.139"
+                }
             }
         },
         {
@@ -1352,7 +1344,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 10",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1452,9 +1444,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "hagh.pages.dev",
-            "server_port": 443,
-            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
+            "server": "dl.vds-server.ir",
+            "server_port": 2052,
+            "uuid": "b97cdd0e-bba9-4391-b265-b72f80b670db",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1462,21 +1454,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Hagh.PaGes.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "Hagh.PaGes.DEv"
+                    "Host": "dl.vds-server.ir"
                 }
             }
         },
@@ -1611,6 +1593,20 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "lion2.lionviip.xyz",
+            "server_port": 38620,
+            "uuid": "e7e633cf-61c8-4b93-a859-bce193e18205",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
