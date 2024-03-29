@@ -118,7 +118,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 26",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🇨🇦CA | vless | @vpn_xw | 0",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -168,7 +168,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇧🇭BH | ss | @forwardv2ray | 14",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -200,7 +200,7 @@
                 "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇺🇸US | vless | @shh_proxy | 26",
                 "🇨🇷CR | vless | @Lockey_vpn | 14",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇸🇪SE | vless | @lightning6 | 28",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
                 "🇨🇦CA | vless | @vpn_xw | 0",
@@ -238,7 +238,7 @@
                 "🇨🇦CA | vless | @sinabigo | 7",
                 "🇩🇪DE | vless | @lrnbymaa | 10",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
-                "🇺🇸US | vless | @proxystore11 | 10",
+                "🇨🇦CA | vless | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇩🇪DE | vless | @fnet00 | 2",
@@ -250,7 +250,7 @@
                 "🇸🇪SE | vless | @Capoit | 10",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 14",
-                "🇧🇭BH | ss | @forwardv2ray | 14",
+                "🇺🇸US | vless | @forwardv2ray | 18",
                 "🇨🇦CA | vless | @FAKEOFTVC | 1",
                 "🇳🇱NL | vless | @mehrosaboran | 11",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -618,7 +618,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -1519,7 +1519,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | @proxystore11 | 10",
+            "tag": "🇨🇦CA | vless | @proxystore11 | 10",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1863,14 +1863,35 @@
             }
         },
         {
-            "tag": "🇧🇭BH | ss | @forwardv2ray | 14",
-            "type": "shadowsocks",
-            "server": "fast_2ray_telchannelll2.fast2rayy.eu.org",
+            "tag": "🇺🇸US | vless | @forwardv2ray | 18",
+            "type": "vless",
+            "server": "web.bbv2ry.pics",
             "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "Bog0ELmMM9DSxDdQ",
-            "plugin": "",
-            "plugin_opts": ""
+            "uuid": "7d82c1c2-b153-427b-8cb3-18faa15d1ed4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Sky2.bbv2ry.pics",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Sky2.bbv2ry.pics"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @FAKEOFTVC | 1",
