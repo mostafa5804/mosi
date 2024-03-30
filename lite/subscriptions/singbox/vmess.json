@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
-                "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇦🇺AU | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -122,12 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
-                "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇦🇺AU | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,7 +184,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
             "server": "162.159.135.79",
             "server_port": 443,
@@ -232,40 +232,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 5",
-            "type": "vmess",
-            "server": "172.67.173.199",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jader.fun",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "jader.fun"
-                }
             }
         },
         {
@@ -348,6 +314,23 @@
                 "headers": {
                     "Host": "janett.click"
                 }
+            }
+        },
+        {
+            "tag": "🇦🇺AU | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "194.195.125.63",
+            "server_port": 18100,
+            "uuid": "0bba5ade6cd611eebd56f23c935079d0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
