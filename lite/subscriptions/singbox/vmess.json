@@ -108,14 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 14",
                 "🇩🇪DE | vmess | @prrofile_purple | 177",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 17"
+                "🇨🇦CA | vmess | @forwardv2ray | 19"
             ]
         },
         {
@@ -124,14 +123,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 14",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 14",
                 "🇩🇪DE | vmess | @prrofile_purple | 177",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @forwardv2ray | 17"
+                "🇨🇦CA | vmess | @forwardv2ray | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -185,40 +183,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 14",
-            "type": "vmess",
-            "server": "janett.click",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "janett.click",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "janett.click"
-                }
             }
         },
         {
@@ -372,11 +336,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "nina.bond",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "cloudflare.b4a-devs.org",
+            "server_port": 2083,
+            "uuid": "0a40bceb-6a30-4da2-b90b-2ae5ed018e98",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -389,7 +353,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nina.bond",
+                "server_name": "cloudflare.b4a-devs.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -399,9 +363,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/cloudflare",
                 "headers": {
-                    "Host": "nina.bond"
+                    "Host": "cloudflare.b4a-devs.org"
                 }
             }
         }
