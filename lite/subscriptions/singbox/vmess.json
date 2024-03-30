@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 170",
-                "🇺🇸US | vmess | @ShadowProxy66 | 83",
+                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ]
         },
         {
@@ -123,13 +123,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
                 "🇩🇪DE | vmess | @prrofile_purple | 170",
-                "🇺🇸US | vmess | @ShadowProxy66 | 83",
+                "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇺🇸US | vmess | @forwardv2ray | 18"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -186,6 +186,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "linde06.indiavideo.sbs",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
             "server": "162.159.135.79",
@@ -237,11 +271,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 83",
+            "tag": "🇬🇧GB | vmess | @ShadowProxy66 | 67",
             "type": "vmess",
-            "server": "140.82.4.81",
-            "server_port": 45970,
-            "uuid": "eb6340dd-9c48-427f-ebda-b548c4b7942b",
+            "server": "213.32.63.176",
+            "server_port": 3586,
+            "uuid": "acba8460-6c85-4d67-8f74-5a51da5e8393",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -332,40 +366,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "janett.click"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "198.41.202.5",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kittiy.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kittiy.sbs"
                 }
             }
         }

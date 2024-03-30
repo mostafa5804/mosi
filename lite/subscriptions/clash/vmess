@@ -120,7 +120,9 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰HK | vmess | @mftizi | 19","type":"vmess","server":"156.251.217.24","port":"31464","cipher":"auto","uuid":"403af391-7108-47ef-9239-0236359f010a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"linde06.indiavideo.sbs","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇩🇪DE | vmess | @prrofile_purple | 170","type":"vmess","server":"45.32.158.65","port":"27663","cipher":"auto","uuid":"5789382f-2bb4-4817-ba71-2e5f21a27268","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧GB | vmess | @ShadowProxy66 | 67","type":"vmess","server":"213.32.63.176","port":"3586","cipher":"auto","uuid":"acba8460-6c85-4d67-8f74-5a51da5e8393","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +132,9 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇩🇪DE | vmess | @prrofile_purple | 170'
+      - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
   - name: URL-TEST
     type: url-test
@@ -140,7 +144,9 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇩🇪DE | vmess | @prrofile_purple | 170'
+      - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
   - name: FALLBACK
     type: fallback
@@ -149,7 +155,9 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 19'
       - '🇩🇪DE | vmess | @prrofile_purple | 170'
+      - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
