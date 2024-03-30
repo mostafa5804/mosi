@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -122,7 +122,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 13",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 13",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "140.82.20.60",
-            "server_port": 39164,
-            "uuid": "0520cc8d-b5ae-4880-e193-c2cbc9f8627a",
+            "server": "162.159.135.79",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,6 +198,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "janett.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "janett.click"
+                }
             }
         },
         {
