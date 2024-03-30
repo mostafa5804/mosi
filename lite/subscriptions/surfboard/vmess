@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @DeamNet_Proxy | 19 = vmess, linde06.indiavideo.sbs, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = false, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @DeamNet_Proxy | 19 = vmess, 172.67.170.13, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = false, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
+🇳🇱NL | vmess | @forwardv2ray | 17 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @yaney_01 | 1
-URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @yaney_01 | 1
-FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @yaney_01 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @yaney_01 | 1,🇳🇱NL | vmess | @forwardv2ray | 17
+URL-TEST = url-test,🇺🇸US | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @yaney_01 | 1,🇳🇱NL | vmess | @forwardv2ray | 17
+FALLBACK = fallback,🇺🇸US | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @yaney_01 | 1,🇳🇱NL | vmess | @forwardv2ray | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
