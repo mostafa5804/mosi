@@ -107,14 +107,15 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @forwardv2ray | 18"
             ]
         },
         {
@@ -122,14 +123,15 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 65",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @v2Line | 10",
+                "🇺🇸US | vmess | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -169,11 +171,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇭🇰HK | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.232.170.22",
-            "server_port": 30057,
-            "uuid": "6ae43308-07ef-4f0d-aa8f-25e480de542c",
+            "server": "156.251.217.24",
+            "server_port": 31464,
+            "uuid": "403af391-7108-47ef-9239-0236359f010a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -366,6 +368,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "janett.click"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "91.199.82.78",
+            "server_port": 8080,
+            "uuid": "bdd22841-c4d2-4aa8-acf2-95aa9125f159",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "usma-12.trollfunny.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "usma-12.trollfunny.net"
                 }
             }
         }
