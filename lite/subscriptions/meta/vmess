@@ -124,6 +124,7 @@ proxies:
   - {"name":"🇭🇰HK | vmess | @mftizi | 19","type":"vmess","server":"156.251.217.24","port":"31464","cipher":"auto","uuid":"403af391-7108-47ef-9239-0236359f010a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧GB | vmess | @ShadowProxy66 | 67","type":"vmess","server":"213.32.63.176","port":"3586","cipher":"auto","uuid":"acba8460-6c85-4d67-8f74-5a51da5e8393","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
+  - {"name":"🇩🇪DE | vmess | @forwardv2ray | 17","type":"vmess","server":"obgmfvcr28b1.clearbluesky.world","port":"30843","cipher":"auto","uuid":"fca67c91-3c04-4be0-baad-e7a2590901fc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -134,6 +135,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
+      - '🇩🇪DE | vmess | @forwardv2ray | 17'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -144,6 +146,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
+      - '🇩🇪DE | vmess | @forwardv2ray | 17'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -153,6 +156,7 @@ proxy-groups:
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇬🇧GB | vmess | @ShadowProxy66 | 67'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
+      - '🇩🇪DE | vmess | @forwardv2ray | 17'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
