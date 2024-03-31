@@ -120,31 +120,39 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇰🇿KZ | ss | @DeamNet_Proxy | 17","type":"ss","server":"kz.telegavpn.com","port":35152,"password":"xMKLvlWSdX3u73nH786k6r","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 15","type":"ss","server":"3.68.104.129","port":2082,"password":"gXxAW3ufNkp4ed4v59JrbXdim7G4iZ9bPszA0o9f2Jc=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | ss | @OutlineVpnOfficial | 18","type":"ss","server":"95.164.113.64","port":7150,"password":"btzmpL7aOs7YbcLS4In6YX","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮FI | ss | @forwardv2ray | 18","type":"ss","server":"139.28.220.18","port":5700,"password":"UXoGWyjwDVZIl1WMuHtxSi","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇰🇿KZ | ss | @DeamNet_Proxy | 17'
       - '🇩🇪DE | ss | @VmessProtocol | 15'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
+      - '🇫🇮FI | ss | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
+      - '🇰🇿KZ | ss | @DeamNet_Proxy | 17'
       - '🇩🇪DE | ss | @VmessProtocol | 15'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
+      - '🇫🇮FI | ss | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇰🇿KZ | ss | @DeamNet_Proxy | 17'
       - '🇩🇪DE | ss | @VmessProtocol | 15'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
+      - '🇫🇮FI | ss | @forwardv2ray | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

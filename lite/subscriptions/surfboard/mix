@@ -13,14 +13,16 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 13.49.155.216, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | trojan | @DirectVPN | 19 = trojan, 3.14.211.153, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇰🇿KZ | ss | @DeamNet_Proxy | 17 = ss, kz.telegavpn.com, 35152, encrypt-method = chacha20-ietf-poly1305, password = xMKLvlWSdX3u73nH786k6r
 🇨🇿CZ | vmess | @ShadowProxy66 | 23 = vmess, 94.131.97.127, 80, username = 3669d547-ee0c-477d-8e47-c4400965db74, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"cz2-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
 🇩🇪DE | ss | @VmessProtocol | 15 = ss, 3.68.104.129, 2082, encrypt-method = chacha20-ietf-poly1305, password = gXxAW3ufNkp4ed4v59JrbXdim7G4iZ9bPszA0o9f2Jc=
 🇫🇮FI | ss | @OutlineVpnOfficial | 18 = ss, 95.164.113.64, 7150, encrypt-method = chacha20-ietf-poly1305, password = btzmpL7aOs7YbcLS4In6YX
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
+🇫🇮FI | ss | @forwardv2ray | 18 = ss, 139.28.220.18, 5700, encrypt-method = chacha20-ietf-poly1305, password = UXoGWyjwDVZIl1WMuHtxSi
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇰🇿KZ | ss | @DeamNet_Proxy | 17,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1,🇫🇮FI | ss | @forwardv2ray | 18
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇰🇿KZ | ss | @DeamNet_Proxy | 17,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1,🇫🇮FI | ss | @forwardv2ray | 18
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇰🇿KZ | ss | @DeamNet_Proxy | 17,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇩🇪DE | ss | @VmessProtocol | 15,🇫🇮FI | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @yaney_01 | 1,🇫🇮FI | ss | @forwardv2ray | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
