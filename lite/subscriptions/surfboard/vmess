@@ -13,11 +13,10 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇦CA | vmess | @oneclickvpnkeys | 11 = vmess, ftp-localcdn.kiava-cloud.us.to, 443, username = 36cc4baf-8abf-4b98-91bb-79a5cd12ad29, ws = true, tls = 1, vmess-aead = true, ws-path = /linkiava, ws-headers = Host:"ftp-localcdn.kiava-cloud.us.to", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @forwardv2ray | 18 = vmess, api.cdn-tgju.org, 2087, username = 13fc87d3-43c6-4cc1-9ab9-523d9707a113, ws = true, tls = 1, vmess-aead = true, ws-path = /ows, ws-headers = Host:"api.cdn-tgju.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 11,🇨🇦CA | vmess | @yaney_01 | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
