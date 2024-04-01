@@ -118,6 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇮🇷IR | vmess | @V2rayCollectorDonate | 19","type":"vmess","server":"vip.soheilsat.com","port":"7021","cipher":"auto","uuid":"a5e6f758-2f93-41f9-bc63-40f7efc58013","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰HK | vmess | @mftizi | 19","type":"vmess","server":"156.251.217.24","port":"31464","cipher":"auto","uuid":"403af391-7108-47ef-9239-0236359f010a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇿CZ | vmess | @ShadowProxy66 | 23","type":"vmess","server":"94.131.97.127","port":"80","cipher":"auto","uuid":"3669d547-ee0c-477d-8e47-c4400965db74","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"cz2-vmess.sshmax.xyz"}}}
@@ -128,6 +129,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇮🇷IR | vmess | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇨🇿CZ | vmess | @ShadowProxy66 | 23'
@@ -138,6 +140,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇮🇷IR | vmess | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇨🇿CZ | vmess | @ShadowProxy66 | 23'
@@ -147,6 +150,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇮🇷IR | vmess | @V2rayCollectorDonate | 19'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇨🇿CZ | vmess | @ShadowProxy66 | 23'
