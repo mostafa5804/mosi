@@ -12,11 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
-🇺🇸US | vmess | @Hope_Net | 17 = vmess, 192.177.98.110, 30285, username = 3f38ae13-44bb-4d1e-ae1a-1ce782c83640, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @forwardv2ray | 18 = vmess, cfcdn2.sanfencdn9.com, 2052, username = d0a3e08a-d26f-45bd-ba3c-6387f9182633, ws = true, tls = , vmess-aead = false, ws-path = /video/c9efxRCi, ws-headers = Host:"7nAi74jJsg1.yofnhkfc.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @Hope_Net | 17
-URL-TEST = url-test,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @Hope_Net | 17
-FALLBACK = fallback,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @Hope_Net | 17
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
+URL-TEST = url-test,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
+FALLBACK = fallback,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @forwardv2ray | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
