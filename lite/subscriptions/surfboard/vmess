@@ -13,11 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇿CZ | vmess | @ShadowProxy66 | 23 = vmess, 94.131.97.127, 80, username = 3669d547-ee0c-477d-8e47-c4400965db74, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"cz2-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @Hope_Net | 19 = vmess, russia.com, 8080, username = bd8c41a8-7598-4c28-9965-522545e14892, ws = true, tls = , vmess-aead = false, ws-path = /api/v3/download.getFile, ws-headers = Host:"ssrsub.v03.ssrsub.com", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @forwardv2ray | 17 = vmess, linde06.indiavideo.sbs, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1,🇨🇦CA | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @forwardv2ray | 17
+URL-TEST = url-test,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @forwardv2ray | 17
+FALLBACK = fallback,🇨🇿CZ | vmess | @ShadowProxy66 | 23,🇨🇦CA | vmess | @yaney_01 | 1,🇺🇸US | vmess | @forwardv2ray | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
