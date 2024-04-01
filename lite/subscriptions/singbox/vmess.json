@@ -111,7 +111,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11"
             ]
         },
@@ -124,7 +124,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -264,11 +264,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "207.246.125.165",
-            "server_port": 34102,
-            "uuid": "307e4f69-7b73-4ed1-e1fe-d687c324e025",
+            "server": "172.67.173.199",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -278,6 +278,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jader.fun",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "jader.fun"
+                }
             }
         },
         {
