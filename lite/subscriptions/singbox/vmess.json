@@ -109,10 +109,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
-                "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
+                "🇺🇸US | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
-                "🇨🇦CA | vmess | @v2Line | 11"
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @OpenSSTPVpn | 0"
             ]
         },
         {
@@ -122,10 +123,11 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
-                "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
+                "🇺🇸US | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 18",
-                "🇨🇦CA | vmess | @v2Line | 11"
+                "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @OpenSSTPVpn | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -216,11 +218,11 @@
             }
         },
         {
-            "tag": "🇨🇿CZ | vmess | @ShadowProxy66 | 23",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 26",
             "type": "vmess",
-            "server": "94.131.97.127",
-            "server_port": 80,
-            "uuid": "3669d547-ee0c-477d-8e47-c4400965db74",
+            "server": "205.234.232.189",
+            "server_port": 50129,
+            "uuid": "d3d91368-c7bc-4f2f-890b-09710fb9f0ec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -230,13 +232,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -328,6 +323,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 0",
+            "type": "vmess",
+            "server": "104.26.9.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vip2323.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "vip2323.cfd"
                 }
             }
         }
