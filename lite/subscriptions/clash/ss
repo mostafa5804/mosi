@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇩🇪DE | ss | @VmessProtocol | 15","type":"ss","server":"3.68.104.129","port":2082,"password":"gXxAW3ufNkp4ed4v59JrbXdim7G4iZ9bPszA0o9f2Jc=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.127.145.66","port":2087,"password":"ZBMv8ME+6NyoFNl1/aieDcpKb4sTaWpLaopaJ3IlKn4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮FI | ss | @OutlineVpnOfficial | 18","type":"ss","server":"95.164.113.64","port":7150,"password":"btzmpL7aOs7YbcLS4In6YX","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -126,7 +126,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | ss | @VmessProtocol | 15'
+      - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
   - name: URL-TEST
     type: url-test
@@ -134,14 +134,14 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | ss | @VmessProtocol | 15'
+      - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | ss | @VmessProtocol | 15'
+      - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
