@@ -12,10 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
+🏳️XX | vmess | @forwardv2ray | 3 = vmess, admin.arzonhost.ir, 2086, username = 7d93e992-48cf-42d4-84f8-75768e815a4c, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @yaney_01 | 1
-URL-TEST = url-test,🇨🇦CA | vmess | @yaney_01 | 1
-FALLBACK = fallback,🇨🇦CA | vmess | @yaney_01 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @yaney_01 | 1,🏳️XX | vmess | @forwardv2ray | 3
+URL-TEST = url-test,🇨🇦CA | vmess | @yaney_01 | 1,🏳️XX | vmess | @forwardv2ray | 3
+FALLBACK = fallback,🇨🇦CA | vmess | @yaney_01 | 1,🏳️XX | vmess | @forwardv2ray | 3
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
