@@ -127,7 +127,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 1",
+                "🇺🇸US | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 3",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
@@ -165,7 +165,7 @@
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🏳️XX | ss | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 1",
+                "🇺🇸US | vless | @V2rayCollector | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 3",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇨🇦CA | vless | @V2rayNGn | 6",
@@ -243,7 +243,7 @@
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @flyv2ray | 14",
-                "🏳️XX | ss | @forwardv2ray | 17",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🇸🇪SE | vless | @mehrosaboran | 7",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -825,7 +825,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollector | 1",
+            "tag": "🇺🇸US | vless | @V2rayCollector | 1",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 443,
@@ -1726,14 +1726,38 @@
             }
         },
         {
-            "tag": "🏳️XX | ss | @forwardv2ray | 17",
-            "type": "shadowsocks",
-            "server": "[::ffff:379:d8d5]",
-            "server_port": 2087,
-            "method": "chacha20-ietf-poly1305",
-            "password": "dB1OuzEqqRmWDJVyjCC1SDVDQqHz2QG4Rxu9LtQkj88=",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "hms02opi.fxiaomi.sbs",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "hms02.fxiaomi.sbs"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @FAKEOFTVC | 2",
