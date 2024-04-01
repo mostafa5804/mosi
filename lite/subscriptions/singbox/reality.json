@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
+                "🇩🇪DE | vless | @v2ray_swhil | 27",
                 "🇩🇪DE | vless | @DailyV2RY | 159",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -121,6 +122,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇳🇱NL | vless | @FalconPolV2rayNG | 10",
+                "🇩🇪DE | vless | @v2ray_swhil | 27",
                 "🇩🇪DE | vless | @DailyV2RY | 159",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -180,6 +182,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 27",
+            "type": "vless",
+            "server": "tataloo.mmdgogoli.top",
+            "server_port": 2096,
+            "uuid": "1bd02898-157f-4a11-8975-bc5c85efdd49",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tataloo.mmdgogoli.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1uusCeZdH1ll6FZk2PBdAGxsoIrq-WQ-0IePOQ3P4g4",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
