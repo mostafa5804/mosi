@@ -119,6 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🏳️XX | vmess | @oneclickvpnkeys | 12","type":"vmess","server":"0:0:0:0:0:ffff:b2d0:5790","port":"10473","cipher":"auto","uuid":"cbf8bb76-803d-4e5c-9fdb-f1c405be4cc6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"149.28.226.202","port":37985,"cipher":"auto","uuid":"a36d5f0e-f529-4c83-9279-f4c4ce557031","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
@@ -128,6 +129,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🏳️XX | vmess | @oneclickvpnkeys | 12'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 19'
   - name: URL-TEST
@@ -137,6 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🏳️XX | vmess | @oneclickvpnkeys | 12'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 19'
   - name: FALLBACK
@@ -145,6 +148,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🏳️XX | vmess | @oneclickvpnkeys | 12'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 19'
 rules:
