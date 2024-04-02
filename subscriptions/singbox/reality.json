@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇬🇧GB | vless | @EliV2ray | 4",
                 "🏳️XX | vless | @V2pedia | 17",
-                "🇩🇪DE | vless | @ARv2ray | 15",
+                "🇩🇪DE | vless | @ARv2ray | 16",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -116,8 +116,8 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
+                "🇳🇱NL | vless | @v2ray_swhil | 6",
                 "🇮🇷IR | vless | @proxyymeliii | 0",
-                "🇳🇱NL | vless | @v2ray1_ng | 9",
                 "🇩🇪DE | vless | @DailyV2RY | 116",
                 "🏳️XX | vless | @DailyV2RY | 124",
                 "🏳️XX | vless | @DailyV2RY | 125",
@@ -166,7 +166,7 @@
             "outbounds": [
                 "🇬🇧GB | vless | @EliV2ray | 4",
                 "🏳️XX | vless | @V2pedia | 17",
-                "🇩🇪DE | vless | @ARv2ray | 15",
+                "🇩🇪DE | vless | @ARv2ray | 16",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -174,8 +174,8 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🏳️XX | vless | @FalconPolV2rayNG | 4",
+                "🇳🇱NL | vless | @v2ray_swhil | 6",
                 "🇮🇷IR | vless | @proxyymeliii | 0",
-                "🇳🇱NL | vless | @v2ray1_ng | 9",
                 "🇩🇪DE | vless | @DailyV2RY | 116",
                 "🏳️XX | vless | @DailyV2RY | 124",
                 "🏳️XX | vless | @DailyV2RY | 125",
@@ -310,7 +310,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 15",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 16",
             "type": "vless",
             "server": "91.107.189.243",
             "server_port": 443,
@@ -563,6 +563,35 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @v2ray_swhil | 6",
+            "type": "vless",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @proxyymeliii | 0",
             "type": "vless",
             "server": "er.maghzkadehturky.com.tr",
@@ -588,35 +617,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @v2ray1_ng | 9",
-            "type": "vless",
-            "server": "allrevolt.r8volt.com",
-            "server_port": 8443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "maps.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
-                    "short_id": "bfde1c85a6a4112a"
                 }
             }
         },
