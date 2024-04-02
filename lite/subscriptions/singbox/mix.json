@@ -139,7 +139,7 @@
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 34",
                 "🇮🇷IR | vless | @v2rayngvpn | 11",
@@ -168,7 +168,8 @@
                 "🇺🇸US | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇺🇸US | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vmess | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -220,7 +221,7 @@
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇮🇷IR | vless | @prrofile_purple | 180",
-                "🇨🇦CA | vless | @customv2ray | 13",
+                "🇺🇸US | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇺🇸US | vless | @vmessorg | 34",
                 "🇮🇷IR | vless | @v2rayngvpn | 11",
@@ -249,7 +250,8 @@
                 "🇺🇸US | vless | @Capoit | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇺🇸US | vless | @flyv2ray | 15",
-                "🇺🇸US | vless | @FAKEOFTVC | 2",
+                "🇨🇦CA | vmess | @forwardv2ray | 10",
+                "🇨🇦CA | vless | @FAKEOFTVC | 2",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -1123,7 +1125,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 13",
+            "tag": "🇺🇸US | vless | @customv2ray | 13",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -1589,9 +1591,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "149.28.233.73",
-            "server_port": 25487,
-            "uuid": "352970a3-41c2-4d57-925f-452d76ba6d23",
+            "server": "162.159.1.33",
+            "server_port": 8080,
+            "uuid": "ef8c954e-014f-4b36-8273-9b5086afab34",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1601,6 +1603,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ef8c954e-014f-4b36-8273-9b5086afab34-vm",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1854,7 +1863,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 2",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 10",
+            "type": "vmess",
+            "server": "nelly.homes",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "nelly.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FAKEOFTVC | 2",
             "type": "vless",
             "server": "Join-Telegram-Channel-Disvpn.onflashdrive.app",
             "server_port": 8443,
