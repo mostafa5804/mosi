@@ -13,10 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇩🇪DE | ss | @VmessProtocol | 16 = ss, 3.68.104.129, 2082, encrypt-method = chacha20-ietf-poly1305, password = gXxAW3ufNkp4ed4v59JrbXdim7G4iZ9bPszA0o9f2Jc=
 🇫🇮FI | ss | @OutlineVpnOfficial | 18 = ss, 95.164.113.64, 7150, encrypt-method = chacha20-ietf-poly1305, password = btzmpL7aOs7YbcLS4In6YX
+🇬🇧GB | ss | @forwardv2ray | 18 = ss, account-mec.emofid.co, 443, encrypt-method = chacha20-ietf-poly1305, password = goBk19aChEH2xXqI
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 16,🇫🇮FI | ss | @OutlineVpnOfficial | 18
-URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 16,🇫🇮FI | ss | @OutlineVpnOfficial | 18
-FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 16,🇫🇮FI | ss | @OutlineVpnOfficial | 18
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 16,🇫🇮FI | ss | @OutlineVpnOfficial | 18,🇬🇧GB | ss | @forwardv2ray | 18
+URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 16,🇫🇮FI | ss | @OutlineVpnOfficial | 18,🇬🇧GB | ss | @forwardv2ray | 18
+FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 16,🇫🇮FI | ss | @OutlineVpnOfficial | 18,🇬🇧GB | ss | @forwardv2ray | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
