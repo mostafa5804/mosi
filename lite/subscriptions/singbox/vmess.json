@@ -111,8 +111,9 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
         },
@@ -125,8 +126,9 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @forwardv2ray | 17",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -259,11 +261,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "onea.flha.ru",
-            "server_port": 2095,
-            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+            "server": "45.77.146.58",
+            "server_port": 22131,
+            "uuid": "ad42d586-dcd1-4629-d49b-a6f2d821ad39",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -273,13 +275,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -313,6 +308,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 17",
+            "type": "vmess",
+            "server": "104.21.21.21",
+            "server_port": 443,
+            "uuid": "73dfe5b1-9ced-4be7-949b-e731d54ba801",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "laxfree.starsea.vip",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "laxfree.starsea.vip"
                 }
             }
         },
