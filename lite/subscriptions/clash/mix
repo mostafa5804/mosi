@@ -126,7 +126,6 @@ proxies:
   - {"name":"🇫🇮FI | ss | @OutlineVpnOfficial | 18","type":"ss","server":"95.164.113.64","port":7150,"password":"btzmpL7aOs7YbcLS4In6YX","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"205.234.231.148","port":"35000","cipher":"auto","uuid":"260877c8-e970-44b5-97fe-9ef0052158d5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪DE | vmess | @forwardv2ray | 13","type":"vmess","server":"49.13.134.69","port":"5260","cipher":"auto","uuid":"06b02791-af50-46bd-8679-bc84b754f0aa","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -141,7 +140,6 @@ proxy-groups:
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 19'
-      - '🇩🇪DE | vmess | @forwardv2ray | 13'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -156,7 +154,6 @@ proxy-groups:
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 19'
-      - '🇩🇪DE | vmess | @forwardv2ray | 13'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -170,7 +167,6 @@ proxy-groups:
       - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
       - '🇺🇸US | vmess | @Hope_Net | 19'
-      - '🇩🇪DE | vmess | @forwardv2ray | 13'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
