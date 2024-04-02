@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇺🇸US | vmess | @DeamNet_Proxy | 18 = vmess, bolder-metal-comma.glitch.me, 443, username = dac61bb8-461c-4a4a-b14b-5a5ff6991fee, ws = true, tls = 1, vmess-aead = false, ws-path = /dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess, ws-headers = Host:"bolder-metal-comma.glitch.me", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @yaney_01 | 1 = vmess, www.visa.com.hk, 80, username = e184e964-518c-4ddf-ab05-f0a2ecff2f42, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"ydmmamd2.mac2win.top", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @yaney_01 | 1
-URL-TEST = url-test,🇨🇦CA | vmess | @yaney_01 | 1
-FALLBACK = fallback,🇨🇦CA | vmess | @yaney_01 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @yaney_01 | 1
+URL-TEST = url-test,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @yaney_01 | 1
+FALLBACK = fallback,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @yaney_01 | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
