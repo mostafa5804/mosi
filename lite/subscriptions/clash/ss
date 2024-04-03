@@ -120,7 +120,7 @@ dns:
 proxies:
   - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 19","type":"ss","server":"54.36.174.181","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇮FI | ss | @OutlineVpnOfficial | 18","type":"ss","server":"95.164.113.64","port":7150,"password":"btzmpL7aOs7YbcLS4In6YX","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | ss | @OutlineVpnOfficial | 16","type":"ss","server":"51.68.206.229","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +129,7 @@ proxy-groups:
       - FALLBACK
       - '🇵🇱PL | ss | @DeamNet_Proxy | 19'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
+      - '🇬🇧GB | ss | @OutlineVpnOfficial | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -138,7 +138,7 @@ proxy-groups:
     proxies:
       - '🇵🇱PL | ss | @DeamNet_Proxy | 19'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
+      - '🇬🇧GB | ss | @OutlineVpnOfficial | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -146,7 +146,7 @@ proxy-groups:
     proxies:
       - '🇵🇱PL | ss | @DeamNet_Proxy | 19'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇫🇮FI | ss | @OutlineVpnOfficial | 18'
+      - '🇬🇧GB | ss | @OutlineVpnOfficial | 16'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
