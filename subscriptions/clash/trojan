@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇮🇷IR | trojan | @V2rayCollectorDonate | 15","type":"trojan","server":"server2.cactusrobot.ir","port":8608,"udp":false,"password":"V_kT5VVzTK4gfCCxQipNAA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🇮🇷IR | trojan | @V2rayCollectorDonate | 16","type":"trojan","server":"server2.cactusrobot.ir","port":8608,"udp":false,"password":"V_kT5VVzTK4gfCCxQipNAA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 5","type":"trojan","server":"13.37.43.130","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 6","type":"trojan","server":"3.75.167.115","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 7","type":"trojan","server":"35.158.188.188","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -151,15 +151,13 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 19","type":"trojan","server":"13.50.220.245","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇷🇺RU | trojan | @oneclickvpnkeys | 10","type":"trojan","server":"004282c1-sbdj40-sdlngq-1n7jq.ru.z7zi.com","port":1007,"udp":false,"password":"85bce006-4885-11ee-8792-f23c9164ca5d","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | trojan | @v2ray_swhil | 28","type":"trojan","server":"104.16.123.175","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
-  - {"name":"🇺🇸US | trojan | @forwardv2ray | 4","type":"trojan","server":"172.67.204.84","port":443,"udp":false,"password":"qj1Dz1CJmFQRhWr1SP80aA","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"cdn-21.gsmxreality.com"}
-  - {"name":"🇨🇦CA | trojan | @forwardv2ray | 8","type":"trojan","server":"104.21.51.242","port":2087,"udp":false,"password":"241f01b9-8dfc-474f-8342-3fbd5c46417e","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"grpcfr.arminhadadi.site"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇮🇷IR | trojan | @V2rayCollectorDonate | 15'
+      - '🇮🇷IR | trojan | @V2rayCollectorDonate | 16'
       - '🇫🇷FR | trojan | @PrivateVPNs | 5'
       - '🇩🇪DE | trojan | @PrivateVPNs | 6'
       - '🇩🇪DE | trojan | @PrivateVPNs | 7'
@@ -192,15 +190,13 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 19'
       - '🇷🇺RU | trojan | @oneclickvpnkeys | 10'
       - '🇺🇸US | trojan | @v2ray_swhil | 28'
-      - '🇺🇸US | trojan | @forwardv2ray | 4'
-      - '🇨🇦CA | trojan | @forwardv2ray | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇮🇷IR | trojan | @V2rayCollectorDonate | 15'
+      - '🇮🇷IR | trojan | @V2rayCollectorDonate | 16'
       - '🇫🇷FR | trojan | @PrivateVPNs | 5'
       - '🇩🇪DE | trojan | @PrivateVPNs | 6'
       - '🇩🇪DE | trojan | @PrivateVPNs | 7'
@@ -233,14 +229,12 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 19'
       - '🇷🇺RU | trojan | @oneclickvpnkeys | 10'
       - '🇺🇸US | trojan | @v2ray_swhil | 28'
-      - '🇺🇸US | trojan | @forwardv2ray | 4'
-      - '🇨🇦CA | trojan | @forwardv2ray | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇮🇷IR | trojan | @V2rayCollectorDonate | 15'
+      - '🇮🇷IR | trojan | @V2rayCollectorDonate | 16'
       - '🇫🇷FR | trojan | @PrivateVPNs | 5'
       - '🇩🇪DE | trojan | @PrivateVPNs | 6'
       - '🇩🇪DE | trojan | @PrivateVPNs | 7'
@@ -273,8 +267,6 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 19'
       - '🇷🇺RU | trojan | @oneclickvpnkeys | 10'
       - '🇺🇸US | trojan | @v2ray_swhil | 28'
-      - '🇺🇸US | trojan | @forwardv2ray | 4'
-      - '🇨🇦CA | trojan | @forwardv2ray | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
