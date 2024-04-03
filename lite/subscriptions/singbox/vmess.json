@@ -113,10 +113,8 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇸🇬SG | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇮🇸IS | vmess | @forwardv2ray | 7",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 0"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
         },
         {
@@ -130,10 +128,8 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇸🇬SG | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇮🇸IS | vmess | @forwardv2ray | 7",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8",
-                "🇨🇦CA | vmess | @OpenSSTPVpn | 0"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -340,30 +336,6 @@
             }
         },
         {
-            "tag": "🇮🇸IS | vmess | @forwardv2ray | 7",
-            "type": "vmess",
-            "server": "is3-vmess.sshmax.xyz",
-            "server_port": 80,
-            "uuid": "0880db94-fcc5-4282-af76-36e56b098779",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇵🇱PL | vmess | @eliya_chiter0 | 2",
             "type": "vmess",
             "server": "146.59.17.58",
@@ -411,40 +383,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "vip2323.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 0",
-            "type": "vmess",
-            "server": "hms182.glweidf.sbs",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": ""
                 }
             }
         }
