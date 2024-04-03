@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -285,11 +285,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
             "type": "vmess",
-            "server": "linde06.indiavideo.sbs",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "cf.iepl1.me",
+            "server_port": 2086,
+            "uuid": "3960f128-1163-40a3-8dd7-7c91176e14a5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -300,21 +300,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": ""
                 }
             }
         },
