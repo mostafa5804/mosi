@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
@@ -123,10 +124,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
@@ -183,6 +185,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇻🇳VN | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "vn18.4gchill.com",
+            "server_port": 80,
+            "uuid": "67d5296e-a2ee-4a9f-89e6-365da540c55d",
+            "security": "auto",
+            "alter_id": 23379904,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/4gchill.com",
+                "headers": {
+                    "Host": "vn18.4gchill.com"
+                }
             }
         },
         {
@@ -278,7 +304,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "caretaker.com",
             "server_port": 443,
