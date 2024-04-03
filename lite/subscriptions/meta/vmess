@@ -123,8 +123,6 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🏳️XX | vmess | @oneclickvpnkeys | 12","type":"vmess","server":"0:0:0:0:0:ffff:b2d0:5790","port":"10473","cipher":"auto","uuid":"cbf8bb76-803d-4e5c-9fdb-f1c405be4cc6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"207.246.108.107","port":40193,"cipher":"auto","uuid":"10979bca-b26b-42ae-801c-b2efbd1bf8b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 17","type":"vmess","server":"linde06.indiavideo.sbs","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -134,8 +132,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🏳️XX | vmess | @oneclickvpnkeys | 12'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
-      - '🇨🇦CA | vmess | @forwardv2ray | 17'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -145,8 +141,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🏳️XX | vmess | @oneclickvpnkeys | 12'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
-      - '🇨🇦CA | vmess | @forwardv2ray | 17'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -155,8 +149,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🏳️XX | vmess | @oneclickvpnkeys | 12'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
-      - '🇨🇦CA | vmess | @forwardv2ray | 17'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
