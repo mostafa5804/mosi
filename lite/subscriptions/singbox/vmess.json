@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇸🇬SG | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇮🇷IR | vmess | @prrofile_purple | 170",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇸🇬SG | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
@@ -188,9 +188,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "cf.iepl.live",
-            "server_port": 2086,
-            "uuid": "3960f128-1163-40a3-8dd7-7c91176e14a5",
+            "server": "inna.cfd",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -201,11 +201,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "inna.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/ws",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "inna.cfd"
                 }
             }
         },
@@ -268,11 +278,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "152.42.180.59",
-            "server_port": 54511,
-            "uuid": "8672d4e3-8281-42b1-ba9a-d9a398f5ff3f",
+            "server": "149.28.115.116",
+            "server_port": 29253,
+            "uuid": "d036a6e3-70a2-4c45-da57-ff841f67abc6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -282,23 +292,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "m.linkedin.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/free",
-                "headers": {
-                    "Host": "m.linkedin.com"
-                }
             }
         },
         {
