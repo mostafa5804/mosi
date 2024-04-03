@@ -111,7 +111,6 @@
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 10",
                 "🇬🇧GB | vless | @VlessConfig | 19",
-                "🇨🇦CA | vless | @VPNCUSTOMIZE | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 7",
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 30",
@@ -156,7 +155,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -182,7 +181,6 @@
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 10",
                 "🇬🇧GB | vless | @VlessConfig | 19",
-                "🇨🇦CA | vless | @VPNCUSTOMIZE | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 7",
                 "🇨🇦CA | vless | @melov2ray | 10",
                 "🇨🇦CA | vless | @V2pedia | 30",
@@ -227,7 +225,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @forwardv2ray | 17",
+                "🇨🇦CA | vless | @forwardv2ray | 19",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
                 "🇨🇳CN | vless | @mehrosaboran | 10",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -360,7 +358,7 @@
         {
             "tag": "🇬🇧GB | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "13.43.133.73",
+            "server": "52.56.33.74",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -389,42 +387,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VPNCUSTOMIZE | 19",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 443,
-            "uuid": "VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.visa.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "‌",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @ipV2Ray | 7",
             "type": "vless",
             "server": "dnschecker.org",
             "server_port": 443,
-            "uuid": "0d3ea86e-844b-4579-aa19-0935f4ecdf9e",
+            "uuid": "6eb3c235-e980-4cc8-ad34-4962510d9cdd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1315,9 +1282,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "162.159.136.234",
-            "server_port": 80,
-            "uuid": "9fa9b61e-8a51-45e1-b4ed-b147a85a427e",
+            "server": "172.67.163.103",
+            "server_port": 8443,
+            "uuid": "18e2393b-04cb-40e9-9d5b-adc84c442d11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1325,12 +1292,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "162.159.136.234"
+            "tls": {
+                "enabled": true,
+                "server_name": "joinnett85.servernet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1571,34 +1548,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 17",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "23.227.60.7",
             "server_port": 443,
-            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@V2ray_Alpha\/",
-                "headers": {
-                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
-                }
             }
         },
         {
