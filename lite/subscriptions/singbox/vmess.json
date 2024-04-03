@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
-                "🇨🇦CA | vmess | @customv2ray | 12",
+                "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
@@ -124,9 +124,9 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇮🇷IR | vmess | @prrofile_purple | 180",
-                "🇨🇦CA | vmess | @customv2ray | 12",
+                "🇺🇸US | vmess | @customv2ray | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
@@ -188,11 +188,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "0:0:0:0:0:ffff:b2d0:5790",
-            "server_port": 45015,
-            "uuid": "21f54c15-c624-460a-d6f3-95bb2041ea4a",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -203,11 +203,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "nelly.homes"
                 }
             }
         },
@@ -236,7 +246,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @customv2ray | 12",
+            "tag": "🇺🇸US | vmess | @customv2ray | 12",
             "type": "vmess",
             "server": "s1c.v2.v001sss.xyz",
             "server_port": 2082,
