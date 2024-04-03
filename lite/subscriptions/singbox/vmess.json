@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇲🇴MO | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇲🇴MO | vmess | @Hope_Net | 17",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
+                "🇺🇸US | vmess | @forwardv2ray | 19",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -260,33 +260,9 @@
         {
             "tag": "🇨🇦CA | vmess | @v2Line | 9",
             "type": "vmess",
-            "server": "104.21.224.1",
-            "server_port": 80,
-            "uuid": "7022982f-da4c-48c9-c660-b2315abdcf7e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai_8",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "linde06.indiavideo.sbs",
+            "server": "104.21.30.254",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "uuid": "6d9911b0-4e14-44fb-8883-52d14f550cca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -299,7 +275,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "be2-vmess.sshmax.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -309,9 +285,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "be2-vmess.sshmax.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "172.67.201.200",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maggiy.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "maggiy.shop"
                 }
             }
         },

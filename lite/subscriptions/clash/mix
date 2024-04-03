@@ -124,9 +124,9 @@ proxies:
   - {"name":"🇵🇱PL | ss | @DeamNet_Proxy | 19","type":"ss","server":"54.36.174.181","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
   - {"name":"🏳️XX | vmess | @oneclickvpnkeys | 12","type":"vmess","server":"0:0:0:0:0:ffff:b2d0:5790","port":"10473","cipher":"auto","uuid":"cbf8bb76-803d-4e5c-9fdb-f1c405be4cc6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @OutlineVpnOfficial | 16","type":"ss","server":"51.68.206.229","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇮🇳IN | ss | @OutlineVpnOfficial | 16","type":"ss","server":"103.125.147.226","port":51348,"password":"lpelmZXgfhGGMu5iXyfZ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @yaney_01 | 1","type":"vmess","server":"www.visa.com.hk","port":"80","cipher":"auto","uuid":"e184e964-518c-4ddf-ab05-f0a2ecff2f42","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ydmmamd2.mac2win.top"}}}
-  - {"name":"🇨🇦CA | vmess | @forwardv2ray | 16","type":"vmess","server":"linde06.indiavideo.sbs","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
+  - {"name":"🇨🇦CA | vmess | @v2Line | 9","type":"vmess","server":"104.21.30.254","port":"443","cipher":"auto","uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be2-vmess.sshmax.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -139,9 +139,9 @@ proxy-groups:
       - '🇵🇱PL | ss | @DeamNet_Proxy | 19'
       - '🏳️XX | vmess | @oneclickvpnkeys | 12'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇬🇧GB | ss | @OutlineVpnOfficial | 16'
+      - '🇮🇳IN | ss | @OutlineVpnOfficial | 16'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇨🇦CA | vmess | @forwardv2ray | 16'
+      - '🇨🇦CA | vmess | @v2Line | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -154,9 +154,9 @@ proxy-groups:
       - '🇵🇱PL | ss | @DeamNet_Proxy | 19'
       - '🏳️XX | vmess | @oneclickvpnkeys | 12'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇬🇧GB | ss | @OutlineVpnOfficial | 16'
+      - '🇮🇳IN | ss | @OutlineVpnOfficial | 16'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇨🇦CA | vmess | @forwardv2ray | 16'
+      - '🇨🇦CA | vmess | @v2Line | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -168,9 +168,9 @@ proxy-groups:
       - '🇵🇱PL | ss | @DeamNet_Proxy | 19'
       - '🏳️XX | vmess | @oneclickvpnkeys | 12'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇬🇧GB | ss | @OutlineVpnOfficial | 16'
+      - '🇮🇳IN | ss | @OutlineVpnOfficial | 16'
       - '🇨🇦CA | vmess | @yaney_01 | 1'
-      - '🇨🇦CA | vmess | @forwardv2ray | 16'
+      - '🇨🇦CA | vmess | @v2Line | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
