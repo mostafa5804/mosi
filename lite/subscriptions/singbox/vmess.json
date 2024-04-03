@@ -114,6 +114,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇩🇪DE | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
@@ -130,6 +131,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇩🇪DE | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @forwardv2ray | 19",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
@@ -351,6 +353,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "vip2323.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 19",
+            "type": "vmess",
+            "server": "meroiy.icu",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "meroiy.icu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "meroiy.icu"
                 }
             }
         },
