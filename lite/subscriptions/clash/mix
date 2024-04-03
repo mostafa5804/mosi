@@ -127,6 +127,7 @@ proxies:
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇳IN | ss | @OutlineVpnOfficial | 16","type":"ss","server":"103.125.147.226","port":51348,"password":"lpelmZXgfhGGMu5iXyfZ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @v2Line | 9","type":"vmess","server":"104.21.30.254","port":"443","cipher":"auto","uuid":"6d9911b0-4e14-44fb-8883-52d14f550cca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"be2-vmess.sshmax.xyz"}}}
+  - {"name":"🇮🇷IR | trojan | @forwardv2ray | 17","type":"trojan","server":"212.33.206.111","port":80,"udp":false,"password":"yu7AvNL9rW","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -142,6 +143,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇮🇳IN | ss | @OutlineVpnOfficial | 16'
       - '🇨🇦CA | vmess | @v2Line | 9'
+      - '🇮🇷IR | trojan | @forwardv2ray | 17'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -157,6 +159,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇮🇳IN | ss | @OutlineVpnOfficial | 16'
       - '🇨🇦CA | vmess | @v2Line | 9'
+      - '🇮🇷IR | trojan | @forwardv2ray | 17'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -171,6 +174,7 @@ proxy-groups:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇮🇳IN | ss | @OutlineVpnOfficial | 16'
       - '🇨🇦CA | vmess | @v2Line | 9'
+      - '🇮🇷IR | trojan | @forwardv2ray | 17'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
