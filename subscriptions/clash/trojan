@@ -151,8 +151,8 @@ proxies:
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 19","type":"trojan","server":"13.50.220.245","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇷🇺RU | trojan | @oneclickvpnkeys | 10","type":"trojan","server":"004282c1-sbdj40-sdlngq-1n7jq.ru.z7zi.com","port":1007,"udp":false,"password":"85bce006-4885-11ee-8792-f23c9164ca5d","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | trojan | @v2ray_swhil | 28","type":"trojan","server":"104.16.123.175","port":2083,"udp":false,"password":"qG9K8AGnn9XH5jUqeFu96g","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn13.cdn2cdn.com"}
-  - {"name":"🇸🇬SG | trojan | @forwardv2ray | 13","type":"trojan","server":"group.vpnking.online","port":443,"udp":false,"password":"nkHoiOqLis","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"m.zoom.us"}
-  - {"name":"🇸🇬SG | trojan | @forwardv2ray | 14","type":"trojan","server":"group.vpnking.online","port":443,"udp":false,"password":"nkHoiOqLis","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"aka.ms"}
+  - {"name":"🇺🇸US | trojan | @forwardv2ray | 4","type":"trojan","server":"172.67.204.84","port":443,"udp":false,"password":"qj1Dz1CJmFQRhWr1SP80aA","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"cdn-21.gsmxreality.com"}
+  - {"name":"🇨🇦CA | trojan | @forwardv2ray | 8","type":"trojan","server":"104.21.51.242","port":2087,"udp":false,"password":"241f01b9-8dfc-474f-8342-3fbd5c46417e","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"grpcfr.arminhadadi.site"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -192,8 +192,8 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 19'
       - '🇷🇺RU | trojan | @oneclickvpnkeys | 10'
       - '🇺🇸US | trojan | @v2ray_swhil | 28'
-      - '🇸🇬SG | trojan | @forwardv2ray | 13'
-      - '🇸🇬SG | trojan | @forwardv2ray | 14'
+      - '🇺🇸US | trojan | @forwardv2ray | 4'
+      - '🇨🇦CA | trojan | @forwardv2ray | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -233,8 +233,8 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 19'
       - '🇷🇺RU | trojan | @oneclickvpnkeys | 10'
       - '🇺🇸US | trojan | @v2ray_swhil | 28'
-      - '🇸🇬SG | trojan | @forwardv2ray | 13'
-      - '🇸🇬SG | trojan | @forwardv2ray | 14'
+      - '🇺🇸US | trojan | @forwardv2ray | 4'
+      - '🇨🇦CA | trojan | @forwardv2ray | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -273,8 +273,8 @@ proxy-groups:
       - '🇸🇪SE | trojan | @DirectVPN | 19'
       - '🇷🇺RU | trojan | @oneclickvpnkeys | 10'
       - '🇺🇸US | trojan | @v2ray_swhil | 28'
-      - '🇸🇬SG | trojan | @forwardv2ray | 13'
-      - '🇸🇬SG | trojan | @forwardv2ray | 14'
+      - '🇺🇸US | trojan | @forwardv2ray | 4'
+      - '🇨🇦CA | trojan | @forwardv2ray | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
