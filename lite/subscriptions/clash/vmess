@@ -120,7 +120,8 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.237.20.150","port":"44602","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇦🇪AE | vmess | @Hope_Net | 17","type":"vmess","server":"94.140.0.110","port":"8880","cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
+  - {"name":"🇨🇾CY | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"195.85.59.50","port":"443","cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":8,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/glweidf.sbs/linkws","headers":{"host":"d396-flower-d396.megare7260.workers.dev"}}}
+  - {"name":"🇫🇷FR | vmess | @Hope_Net | 18","type":"vmess","server":"141.94.237.81","port":"8442","cipher":"auto","uuid":"60df4ec6-7506-407e-998e-b1539fc0630f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱NL | vmess | @OpenSSTPVpn | 4","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +131,8 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇦🇪AE | vmess | @Hope_Net | 17'
+      - '🇨🇾CY | vmess | @DeamNet_Proxy | 18'
+      - '🇫🇷FR | vmess | @Hope_Net | 18'
       - '🇳🇱NL | vmess | @OpenSSTPVpn | 4'
   - name: URL-TEST
     type: url-test
@@ -140,7 +142,8 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇦🇪AE | vmess | @Hope_Net | 17'
+      - '🇨🇾CY | vmess | @DeamNet_Proxy | 18'
+      - '🇫🇷FR | vmess | @Hope_Net | 18'
       - '🇳🇱NL | vmess | @OpenSSTPVpn | 4'
   - name: FALLBACK
     type: fallback
@@ -149,7 +152,8 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇦🇪AE | vmess | @Hope_Net | 17'
+      - '🇨🇾CY | vmess | @DeamNet_Proxy | 18'
+      - '🇫🇷FR | vmess | @Hope_Net | 18'
       - '🇳🇱NL | vmess | @OpenSSTPVpn | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
