@@ -12,11 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇮🇩ID | vmess | @DeamNet_Proxy | 18 = vmess, id1-vmess.sshmax.xyz, 80, username = aa780e60-f7e2-4cb9-82d7-467e5c6ca808, ws = true, tls = , vmess-aead = false, ws-path = /vmess, ws-headers = Host:"id1-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
+🇦🇪AE | vmess | @Hope_Net | 17 = vmess, 94.140.0.110, 8880, username = 0d1bf26a-ce97-4707-a270-7f4d2ae37334, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"food.zhaal.ir", skip-cert-verify = true, tfo = false
 🇳🇱NL | vmess | @OpenSSTPVpn | 4 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇩ID | vmess | @DeamNet_Proxy | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-URL-TEST = url-test,🇮🇩ID | vmess | @DeamNet_Proxy | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-FALLBACK = fallback,🇮🇩ID | vmess | @DeamNet_Proxy | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+MANUAL = select,URL-TEST,FALLBACK,🇮🇩ID | vmess | @DeamNet_Proxy | 18,🇦🇪AE | vmess | @Hope_Net | 17,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+URL-TEST = url-test,🇮🇩ID | vmess | @DeamNet_Proxy | 18,🇦🇪AE | vmess | @Hope_Net | 17,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+FALLBACK = fallback,🇮🇩ID | vmess | @DeamNet_Proxy | 18,🇦🇪AE | vmess | @Hope_Net | 17,🇳🇱NL | vmess | @OpenSSTPVpn | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
