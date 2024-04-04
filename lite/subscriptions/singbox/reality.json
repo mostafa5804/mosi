@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇦🇱AL | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -118,6 +119,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇦🇱AL | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -144,6 +146,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇦🇱AL | vless | @azadi_az_inja_migzare | 0",
+            "type": "vless",
+            "server": "zerocool.cheshmsabz.toP",
+            "server_port": 45102,
+            "uuid": "687970f6-cd47-4fc2-91a4-6f0e4d49089f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
+                    "short_id": "9f935adfaf516589"
+                }
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
