@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @Hope_Net | 18 = vmess, roozdl1.ir, 443, username = 3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a, ws = true, tls = 1, vmess-aead = true, ws-path = /wss49406, ws-headers = Host:"Tree.Blanku.Me", skip-cert-verify = true, tfo = false
 🇳🇱NL | vmess | @OpenSSTPVpn | 4 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-URL-TEST = url-test,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-FALLBACK = fallback,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @Hope_Net | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+URL-TEST = url-test,🇨🇦CA | vmess | @Hope_Net | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+FALLBACK = fallback,🇨🇦CA | vmess | @Hope_Net | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
