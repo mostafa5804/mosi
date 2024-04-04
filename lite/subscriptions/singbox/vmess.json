@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇱🇹LT | vmess | @DeamNet_Proxy | 18",
+                "🇨🇾CY | vmess | @DeamNet_Proxy | 18",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @customv2ray | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -124,7 +124,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇱🇹LT | vmess | @DeamNet_Proxy | 18",
+                "🇨🇾CY | vmess | @DeamNet_Proxy | 18",
                 "🇨🇷CR | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @customv2ray | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
@@ -188,13 +188,13 @@
             }
         },
         {
-            "tag": "🇱🇹LT | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇨🇾CY | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "lt2-vmess.sshmax.xyz",
-            "server_port": 80,
-            "uuid": "8aaed61d-6056-4515-9663-8d59fe71c3ec",
+            "server": "195.85.59.50",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
-            "alter_id": 7,
+            "alter_id": -1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -203,11 +203,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "8wccc4a94-term-4a94.ketowil344.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": "lt2-vmess.sshmax.xyz"
+                    "Host": "8wccc4a94-term-4a94.ketowil344.workers.dev"
                 }
             }
         },
