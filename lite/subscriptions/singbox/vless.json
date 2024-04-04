@@ -122,7 +122,7 @@
                 "🏳️XX | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 36",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
-                "🇨🇦CA | vless | @vpn_xw | 4",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 5",
@@ -135,7 +135,7 @@
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇮🇷IR | vless | @prrofile_purple | 171",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇺🇸US | vless | @vmessorg | 33",
+                "🇨🇦CA | vless | @vmessorg | 33",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
                 "🇫🇮FI | vless | @v2rayngvpn | 16",
                 "🇨🇦CA | vless | @ServerNett | 18",
@@ -146,7 +146,7 @@
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 126",
+                "🇨🇦CA | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -192,7 +192,7 @@
                 "🏳️XX | vless | @free_v2rayyy | 5",
                 "🇸🇪SE | vless | @lightning6 | 36",
                 "🇨🇦CA | vless | @V2rayNGmat | 11",
-                "🇨🇦CA | vless | @vpn_xw | 4",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 5",
@@ -205,7 +205,7 @@
                 "🇸🇪SE | vless | @V2rayNGn | 12",
                 "🇮🇷IR | vless | @prrofile_purple | 171",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
-                "🇺🇸US | vless | @vmessorg | 33",
+                "🇨🇦CA | vless | @vmessorg | 33",
                 "🇸🇪SE | vless | @v2rayNG_Matsuri | 12",
                 "🇫🇮FI | vless | @v2rayngvpn | 16",
                 "🇨🇦CA | vless | @ServerNett | 18",
@@ -216,7 +216,7 @@
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @DailyV2RY | 126",
+                "🇨🇦CA | vless | @DailyV2RY | 137",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇺🇸US | vless | @lrnbymaa | 10",
                 "🇨🇦CA | vless | @proxystore11 | 12",
@@ -694,10 +694,10 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 4",
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
             "type": "vless",
-            "server": "ja.vivacello.org",
-            "server_port": 8880,
+            "server": "172.67.20.220",
+            "server_port": 2096,
             "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
             "flow": "",
             "packet_encoding": "xudp",
@@ -706,11 +706,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnxw.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ja.vivacello.org"
+                    "Host": "vpnxw.pages.dev"
                 }
             }
         },
@@ -1018,7 +1028,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @vmessorg | 33",
+            "tag": "🇨🇦CA | vless | @vmessorg | 33",
             "type": "vless",
             "server": "joinbede1.vmessorg.site",
             "server_port": 80,
@@ -1299,7 +1309,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 126",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 137",
             "type": "vless",
             "server": "23.227.60.4",
             "server_port": 2082,
