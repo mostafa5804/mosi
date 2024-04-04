@@ -13,11 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇮🇷IR | vmess | @prrofile_purple | 180 = vmess, 62.60.135.13, 8080, username = 4dba618a-a752-40b5-a583-8b0ed0724009, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"google.com", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @customv2ray | 12 = vmess, s1c.v2.v001sss.xyz, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"s1c.v2.v001sss.xyz", skip-cert-verify = true, tfo = false
-🇫🇷FR | vmess | @Hope_Net | 12 = vmess, 94.131.118.246, 80, username = 48bc6709-06c0-4e77-81a6-8c908999ca1e, ws = true, tls = , vmess-aead = false, ws-path = /vmess, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇮🇷IR | vmess | @Hope_Net | 13 = vmess, svt63.topnetvip.com, 11796, username = 5575f601-353e-4b56-87af-2b6a9e55fcc0, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇷IR | vmess | @prrofile_purple | 180,🇨🇦CA | vmess | @customv2ray | 12,🇫🇷FR | vmess | @Hope_Net | 12
-URL-TEST = url-test,🇮🇷IR | vmess | @prrofile_purple | 180,🇨🇦CA | vmess | @customv2ray | 12,🇫🇷FR | vmess | @Hope_Net | 12
-FALLBACK = fallback,🇮🇷IR | vmess | @prrofile_purple | 180,🇨🇦CA | vmess | @customv2ray | 12,🇫🇷FR | vmess | @Hope_Net | 12
+MANUAL = select,URL-TEST,FALLBACK,🇮🇷IR | vmess | @prrofile_purple | 180,🇨🇦CA | vmess | @customv2ray | 12,🇮🇷IR | vmess | @Hope_Net | 13
+URL-TEST = url-test,🇮🇷IR | vmess | @prrofile_purple | 180,🇨🇦CA | vmess | @customv2ray | 12,🇮🇷IR | vmess | @Hope_Net | 13
+FALLBACK = fallback,🇮🇷IR | vmess | @prrofile_purple | 180,🇨🇦CA | vmess | @customv2ray | 12,🇮🇷IR | vmess | @Hope_Net | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
