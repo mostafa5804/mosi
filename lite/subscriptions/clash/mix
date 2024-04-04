@@ -127,6 +127,7 @@ proxies:
   - {"name":"🇺🇸US | vmess | @customv2ray | 12","type":"vmess","server":"s1c.v2.v001sss.xyz","port":"2082","cipher":"auto","uuid":"112ac36f-3f53-4e26-8371-d25c028e1b9a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"s1c.v2.v001sss.xyz"}}}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"18.159.252.71","port":2087,"password":"VeU08K3XooFPKyaszR2k+vL8clIlwuctf5SaDabfvIo=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 14","type":"ss","server":"51.77.53.200","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US | vmess | @forwardv2ray | 18","type":"vmess","server":"104.234.69.243","port":53259,"cipher":"auto","uuid":"4dd6c192-8284-4504-9dee-5ca7da27069b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -142,6 +143,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @customv2ray | 12'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 14'
+      - '🇺🇸US | vmess | @forwardv2ray | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -157,6 +159,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @customv2ray | 12'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 14'
+      - '🇺🇸US | vmess | @forwardv2ray | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -171,6 +174,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @customv2ray | 12'
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 14'
+      - '🇺🇸US | vmess | @forwardv2ray | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
