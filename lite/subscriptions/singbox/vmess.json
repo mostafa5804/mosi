@@ -111,7 +111,7 @@
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇮🇷IR | vmess | @Hope_Net | 16",
+                "🇸🇪SE | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
@@ -127,7 +127,7 @@
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇮🇷IR | vmess | @Hope_Net | 16",
+                "🇸🇪SE | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
@@ -290,11 +290,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 16",
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "85.9.105.150",
-            "server_port": 1482,
-            "uuid": "3d5cd16d-6060-4bf1-aa08-bff6d4a4454f",
+            "server": "185.146.173.59",
+            "server_port": 2083,
+            "uuid": "587fe4b8-5ed8-46a1-8ae4-0a07efd35855",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -304,6 +304,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "doolboor.nintendodns.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "2083vmess",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
