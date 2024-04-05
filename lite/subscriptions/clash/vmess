@@ -120,6 +120,7 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.237.20.150","port":"44602","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇸IS | vmess | @DeamNet_Proxy | 18","type":"vmess","server":"is3-vmess.sshmax.xyz","port":"80","cipher":"auto","uuid":"a8d33442-de64-4980-a779-540c1eedbc25","alterId":-1,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"is3-vmess.sshmax.xyz"}}}
   - {"name":"🇳🇱NL | vmess | @oneclickvpnkeys | 9","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 16","type":"vmess","server":"104.16.219.230","port":"443","cipher":"auto","uuid":"3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/wss49406","headers":{"host":"Tree.Blanku.Me"}}}
 proxy-groups:
@@ -130,6 +131,7 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇮🇸IS | vmess | @DeamNet_Proxy | 18'
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇨🇦CA | vmess | @Hope_Net | 16'
   - name: URL-TEST
@@ -140,6 +142,7 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇮🇸IS | vmess | @DeamNet_Proxy | 18'
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇨🇦CA | vmess | @Hope_Net | 16'
   - name: FALLBACK
@@ -149,6 +152,7 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
+      - '🇮🇸IS | vmess | @DeamNet_Proxy | 18'
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 9'
       - '🇨🇦CA | vmess | @Hope_Net | 16'
 rules:
