@@ -125,7 +125,6 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.237.20.150","port":"44602","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇾CY | vmess | @DeamNet_Proxy | 17","type":"vmess","server":"195.85.59.170","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":-1,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/afrhms16v.bestxray.buzz/linkws","headers":{"host":"1c11-muddy-rice-1c11.vetanex501.workers.dev"}}}
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 8","type":"vmess","server":"localcdn-file.kiava-cloud.us.to","port":"443","cipher":"auto","uuid":"183bc5f8-68d5-4088-ab5f-4ab26a9c79f6","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkfile","headers":{"host":"localcdn-file.kiava-cloud.us.to"}}}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 18","type":"vmess","server":"50.114.86.38","port":20530,"cipher":"auto","uuid":"261c9fcb-b7b5-4086-88ff-66e0b1b08aa6","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/261c9fcb","headers":{"host":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"}}}
   - {"name":"🇳🇱NL | vmess | @OpenSSTPVpn | 4","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
 proxy-groups:
   - name: MANUAL
@@ -138,7 +137,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇾CY | vmess | @DeamNet_Proxy | 17'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
-      - '🇺🇸US | vmess | @Hope_Net | 18'
       - '🇳🇱NL | vmess | @OpenSSTPVpn | 4'
   - name: URL-TEST
     type: url-test
@@ -151,7 +149,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇾CY | vmess | @DeamNet_Proxy | 17'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
-      - '🇺🇸US | vmess | @Hope_Net | 18'
       - '🇳🇱NL | vmess | @OpenSSTPVpn | 4'
   - name: FALLBACK
     type: fallback
@@ -163,7 +160,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇾CY | vmess | @DeamNet_Proxy | 17'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
-      - '🇺🇸US | vmess | @Hope_Net | 18'
       - '🇳🇱NL | vmess | @OpenSSTPVpn | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
