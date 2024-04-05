@@ -127,7 +127,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -155,7 +155,8 @@
                 "🏳️XX | vless | @freeconfigv2 | 3",
                 "🇩🇪DE | vless | @freeconfigv2 | 6",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🏳️XX | vless | @TVCminer | 3"
             ]
         },
         {
@@ -183,7 +184,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 36",
                 "🏳️XX | vless | @Capital_NET | 37",
                 "🏳️XX | vless | @Capital_NET | 39",
-                "🇨🇦CA | vless | @Capital_NET | 41",
+                "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -211,7 +212,8 @@
                 "🏳️XX | vless | @freeconfigv2 | 3",
                 "🇩🇪DE | vless | @freeconfigv2 | 6",
                 "🇩🇪DE | vless | @freeconfigv2 | 11",
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🏳️XX | vless | @TVCminer | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -892,7 +894,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capital_NET | 41",
+            "tag": "🇳🇱NL | vless | @Capital_NET | 41",
             "type": "vless",
             "server": "194.5.97.158",
             "server_port": 443,
@@ -1863,6 +1865,42 @@
                     "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
                     "short_id": "291ef87c"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @TVCminer | 3",
+            "type": "vless",
+            "server": "[2a12:5940:f667::2]",
+            "server_port": 25365,
+            "uuid": "b7421b73-fbd8-4318-8c22-5d4aa947dada",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gLjN_4GK5Ih3_cpt7dZZHGk439EPy3o04FytCzFwhQo",
+                    "short_id": "5fc00f6a"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         }
     ],
