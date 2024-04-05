@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | @DeamNet_Proxy | 3",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 4",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 9",
+                "🇬🇧GB | ss | @DeamNet_Proxy | 10",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 11",
                 "🇦🇪AE | ss | @VmessProtocol | 3",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇩🇪DE | ss | @VmessProtocol | 11",
@@ -136,8 +137,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | @DeamNet_Proxy | 3",
-                "🇳🇱NL | ss | @DeamNet_Proxy | 4",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 9",
+                "🇬🇧GB | ss | @DeamNet_Proxy | 10",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 11",
                 "🇦🇪AE | ss | @VmessProtocol | 3",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇩🇪DE | ss | @VmessProtocol | 11",
@@ -182,7 +184,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 3",
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 9",
+            "type": "shadowsocks",
+            "server": "141.11.189.88",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | @DeamNet_Proxy | 10",
             "type": "shadowsocks",
             "server": "145.239.6.202",
             "server_port": 8090,
@@ -192,7 +204,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 4",
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 11",
             "type": "shadowsocks",
             "server": "141.11.189.205",
             "server_port": 8080,
