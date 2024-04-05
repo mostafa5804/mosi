@@ -111,9 +111,9 @@
                 "🇧🇬BG | vmess | @DeamNet_Proxy | 17",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray_swhil | 23",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇬🇧GB | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -128,9 +128,9 @@
                 "🇧🇬BG | vmess | @DeamNet_Proxy | 17",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray_swhil | 23",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇬🇧GB | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -292,11 +292,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | vmess | @ConfigsHUB | 17",
             "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
-            "server_port": 80,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
+            "server": "172.99.190.109",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -307,11 +307,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/ibCT6z55",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "cfcdn3.sanfencdn9.com"
+                    "Host": ""
                 }
             }
         },
@@ -350,11 +360,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 16",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "205.234.233.68",
-            "server_port": 445,
-            "uuid": "ff982b62-2d2e-4ebe-befc-6e3d5177857c",
+            "server": "104.16.219.230",
+            "server_port": 443,
+            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -364,6 +374,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Rockp.Blanku.Me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wss49406",
+                "headers": {
+                    "Host": "Rockp.Blanku.Me"
+                }
             }
         },
         {
