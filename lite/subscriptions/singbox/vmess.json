@@ -106,12 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇳🇱NL | vmess | @OpenSSTPVpn | 4"
@@ -121,12 +121,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇾CY | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇳🇱NL | vmess | @OpenSSTPVpn | 4"
@@ -150,6 +150,40 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 0",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 8443,
+            "uuid": "2f2a7a62-3a15-41c4-98c3-ba062e291d24",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fragment2.karop.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "VPNHOMES",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -284,30 +318,6 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
-            "type": "vmess",
-            "server": "104.21.82.39",
-            "server_port": 2095,
-            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
