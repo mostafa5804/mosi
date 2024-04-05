@@ -118,12 +118,12 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇨🇦CA | vmess | @azadi_az_inja_migzare | 0","type":"vmess","server":"zula.ir","port":"8443","cipher":"auto","uuid":"2f2a7a62-3a15-41c4-98c3-ba062e291d24","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"VPNHOMES","grpc-mode":"gun"}}
+  - {"name":"🇺🇸US | vmess | @azadi_az_inja_migzare | 0","type":"vmess","server":"zula.ir","port":"8443","cipher":"auto","uuid":"2f2a7a62-3a15-41c4-98c3-ba062e291d24","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"VPNHOMES","grpc-mode":"gun"}}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.237.20.150","port":"44602","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇾CY | vmess | @DeamNet_Proxy | 17","type":"vmess","server":"195.85.59.170","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":-1,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/afrhms16v.bestxray.buzz/linkws","headers":{"host":"1c11-muddy-rice-1c11.vetanex501.workers.dev"}}}
   - {"name":"🇮🇷IR | vmess | @oneclickvpnkeys | 5","type":"vmess","server":"80.249.112.233","port":"13088","cipher":"auto","uuid":"fa591bce-94b8-4ff3-a11d-f32892ca7bcc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"50.114.86.38","port":20530,"cipher":"auto","uuid":"261c9fcb-b7b5-4086-88ff-66e0b1b08aa6","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/261c9fcb","headers":{"host":"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"}}}
+  - {"name":"🇸🇬SG | vmess | @Hope_Net | 19","type":"vmess","server":"146.190.84.34","port":26012,"cipher":"auto","uuid":"695bc422-4dc8-4d8c-8457-26e18c2421b4","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tiktok.com"}}}
   - {"name":"🇳🇱NL | vmess | @OpenSSTPVpn | 4","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
 proxy-groups:
   - name: MANUAL
@@ -131,12 +131,12 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | vmess | @azadi_az_inja_migzare | 0'
+      - '🇺🇸US | vmess | @azadi_az_inja_migzare | 0'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇾CY | vmess | @DeamNet_Proxy | 17'
       - '🇮🇷IR | vmess | @oneclickvpnkeys | 5'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
+      - '🇸🇬SG | vmess | @Hope_Net | 19'
       - '🇳🇱NL | vmess | @OpenSSTPVpn | 4'
   - name: URL-TEST
     type: url-test
@@ -144,24 +144,24 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | vmess | @azadi_az_inja_migzare | 0'
+      - '🇺🇸US | vmess | @azadi_az_inja_migzare | 0'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇾CY | vmess | @DeamNet_Proxy | 17'
       - '🇮🇷IR | vmess | @oneclickvpnkeys | 5'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
+      - '🇸🇬SG | vmess | @Hope_Net | 19'
       - '🇳🇱NL | vmess | @OpenSSTPVpn | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | vmess | @azadi_az_inja_migzare | 0'
+      - '🇺🇸US | vmess | @azadi_az_inja_migzare | 0'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇾CY | vmess | @DeamNet_Proxy | 17'
       - '🇮🇷IR | vmess | @oneclickvpnkeys | 5'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
+      - '🇸🇬SG | vmess | @Hope_Net | 19'
       - '🇳🇱NL | vmess | @OpenSSTPVpn | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

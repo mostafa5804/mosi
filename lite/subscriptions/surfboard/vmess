@@ -12,12 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇾CY | vmess | @DeamNet_Proxy | 17 = vmess, 195.85.59.170, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = false, ws-path = /afrhms16v.bestxray.buzz/linkws, ws-headers = Host:"1c11-muddy-rice-1c11.vetanex501.workers.dev", skip-cert-verify = true, tfo = false
-🇺🇸US | vmess | @Hope_Net | 19 = vmess, 50.114.86.38, 20530, username = 261c9fcb-b7b5-4086-88ff-66e0b1b08aa6, ws = true, tls = , vmess-aead = false, ws-path = /261c9fcb, ws-headers = Host:"wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc", skip-cert-verify = true, tfo = false
+🇸🇬SG | vmess | @Hope_Net | 19 = vmess, 146.190.84.34, 26012, username = 695bc422-4dc8-4d8c-8457-26e18c2421b4, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"tiktok.com", skip-cert-verify = true, tfo = false
 🇳🇱NL | vmess | @OpenSSTPVpn | 4 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇾CY | vmess | @DeamNet_Proxy | 17,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-URL-TEST = url-test,🇨🇾CY | vmess | @DeamNet_Proxy | 17,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 4
-FALLBACK = fallback,🇨🇾CY | vmess | @DeamNet_Proxy | 17,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+MANUAL = select,URL-TEST,FALLBACK,🇨🇾CY | vmess | @DeamNet_Proxy | 17,🇸🇬SG | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+URL-TEST = url-test,🇨🇾CY | vmess | @DeamNet_Proxy | 17,🇸🇬SG | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 4
+FALLBACK = fallback,🇨🇾CY | vmess | @DeamNet_Proxy | 17,🇸🇬SG | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
