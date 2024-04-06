@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇺🇸US | vmess | @Hope_Net | 19 = vmess, 172.67.196.112, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 🇳🇱NL | vmess | @OpenSSTPVpn | 9 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | vmess | @OpenSSTPVpn | 9
-URL-TEST = url-test,🇳🇱NL | vmess | @OpenSSTPVpn | 9
-FALLBACK = fallback,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+URL-TEST = url-test,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+FALLBACK = fallback,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
