@@ -107,10 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇮🇸IS | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @v2ray_swhil | 25",
+                "🇮🇷IR | vmess | @proxyymeliii | 15",
                 "🇨🇷CR | vmess | @v2ray1_ng | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -125,10 +126,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇮🇸IS | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @v2ray_swhil | 25",
+                "🇮🇷IR | vmess | @proxyymeliii | 15",
                 "🇨🇷CR | vmess | @v2ray1_ng | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -175,13 +177,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.237.20.150",
-            "server_port": 44602,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "172.67.143.192",
+            "server_port": 8080,
+            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -189,6 +191,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -218,9 +227,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
             "type": "vmess",
-            "server": "auth.speedtest.net",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "104.21.94.251",
+            "server_port": 80,
+            "uuid": "c7421a39-020d-4a01-97ed-9eacbce0a7ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -231,21 +240,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "nelly.homes"
+                    "Host": ""
                 }
             }
         },
@@ -280,6 +279,30 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "nelly.homes"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 15",
+            "type": "vmess",
+            "server": "svt55.topnetvip.com",
+            "server_port": 12536,
+            "uuid": "ea453da1-1353-4b02-89f6-1e71ab2af4c2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
