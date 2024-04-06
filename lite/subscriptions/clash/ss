@@ -119,7 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 18","type":"ss","server":"89.19.216.18","port":8388,"password":"NC7jORVNrruV/+3+PwOJrnnOeG7n75X1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 17","type":"ss","server":"51.77.53.200","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇬🇧GB | ss | @FAKEOFTVC | 6","type":"ss","server":"51.140.37.163","port":34417,"password":"OZ2VmWR9pI74zoLstexAee","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -128,7 +128,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇳🇱NL | ss | @OutlineVpnOfficial | 18'
+      - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
       - '🇬🇧GB | ss | @FAKEOFTVC | 6'
   - name: URL-TEST
     type: url-test
@@ -137,7 +137,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇳🇱NL | ss | @OutlineVpnOfficial | 18'
+      - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
       - '🇬🇧GB | ss | @FAKEOFTVC | 6'
   - name: FALLBACK
     type: fallback
@@ -145,7 +145,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
-      - '🇳🇱NL | ss | @OutlineVpnOfficial | 18'
+      - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
       - '🇬🇧GB | ss | @FAKEOFTVC | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
