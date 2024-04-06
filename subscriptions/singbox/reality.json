@@ -116,7 +116,11 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇫🇮FI | vless | @V2rayCollectorDonate | 10",
                 "🇮🇷IR | vless | @ShadowProxy66 | 25",
+                "🇳🇱NL | vless | @v2ray_swhil | 12",
                 "🏳️XX | vless | @DailyV2RY | 123",
+                "🇺🇸US | vless | @ConfigsHUB | 7",
+                "🇫🇮FI | vless | @ConfigsHUB | 8",
+                "🇩🇪DE | vless | @ConfigsHUB | 9",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -172,7 +176,11 @@
                 "🇩🇪DE | vless | @v2logy | 6",
                 "🇫🇮FI | vless | @V2rayCollectorDonate | 10",
                 "🇮🇷IR | vless | @ShadowProxy66 | 25",
+                "🇳🇱NL | vless | @v2ray_swhil | 12",
                 "🏳️XX | vless | @DailyV2RY | 123",
+                "🇺🇸US | vless | @ConfigsHUB | 7",
+                "🇫🇮FI | vless | @ConfigsHUB | 8",
+                "🇩🇪DE | vless | @ConfigsHUB | 9",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -552,6 +560,35 @@
             }
         },
         {
+            "tag": "🇳🇱NL | vless | @v2ray_swhil | 12",
+            "type": "vless",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maps.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
+                }
+            }
+        },
+        {
             "tag": "🏳️XX | vless | @DailyV2RY | 123",
             "type": "vless",
             "server": "[2a00:b703:fff1:215::1]",
@@ -582,6 +619,114 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 7",
+            "type": "vless",
+            "server": "5.78.59.191",
+            "server_port": 2096,
+            "uuid": "2ca6f03a-f61b-4e21-a41b-f355cff6aac3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BI33zoqOz8rAFtg5g7Qt6qvTMqPn3ifVe9FJIoB5PCI",
+                    "short_id": "6f2046d2"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "65.109.191.124",
+            "server_port": 2053,
+            "uuid": "bea532f5-861e-40fa-96bd-85edcc8b8242",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FqW0jQszsWPO6Mj75vX0_rIhSfZPQCIKYHdacVDZEEQ",
+                    "short_id": "4e0264f6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 9",
+            "type": "vless",
+            "server": "91.107.135.76",
+            "server_port": 2087,
+            "uuid": "49640cba-7b63-40bb-b2ae-38d9294b0e69",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "greenpepper.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Zs-U9bKNImrNgq-YOI1Aiil6-9gc9sCUPAxiXP0vHAw",
+                    "short_id": "ecc664bf"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
