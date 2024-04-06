@@ -11,11 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇮FI | vmess | @Hope_Net | 19 = vmess, 77.91.103.47, 80, username = 09e35fe0-2efd-44c1-96fb-46b7b3cc28eb, ws = true, tls = , vmess-aead = false, ws-path = /vmess, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇮FI | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇫🇮FI | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇫🇮FI | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
