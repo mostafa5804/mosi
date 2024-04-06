@@ -13,11 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 13.49.82.6, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 51.20.165.233, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇺🇸US | trojan | @ConfigsHUB | 5 = trojan, 3.140.100.175, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | trojan | @ConfigsHUB | 16 = trojan, 18.133.96.19, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = true, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇺🇸US | trojan | @ConfigsHUB | 5
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇺🇸US | trojan | @ConfigsHUB | 5
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇺🇸US | trojan | @ConfigsHUB | 5
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇬🇧GB | trojan | @ConfigsHUB | 16
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇬🇧GB | trojan | @ConfigsHUB | 16
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇬🇧GB | trojan | @ConfigsHUB | 16
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
