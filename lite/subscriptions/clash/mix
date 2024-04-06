@@ -121,12 +121,12 @@ proxies:
   - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 19","type":"trojan","server":"15.188.196.5","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | trojan | @DirectVPN | 19","type":"trojan","server":"15.222.178.30","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇳CN | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"47.106.112.114","port":"80","cipher":"auto","uuid":"7c1d9869-ecac-4ca6-b7e7-ecb60f503078","alterId":-1,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"🇨🇳CN | vmess | @DeamNet_Proxy | 19","type":"vmess","server":"47.106.112.114","port":"80","cipher":"auto","uuid":"7c1d9869-ecac-4ca6-b7e7-ecb60f503078","alterId":-1,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 17","type":"ss","server":"51.77.53.200","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"172.67.196.112","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇺🇸US | ss | @FAKEOFTVC | 7","type":"ss","server":"167.88.62.62","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"🇳🇱NL | vmess | @OpenSSTPVpn | 9","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
+  - {"name":"🇨🇦CA | vmess | @OpenSSTPVpn | 8","type":"vmess","server":"afrhms16v.bestxray.buzz","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -141,7 +141,7 @@ proxy-groups:
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇺🇸US | ss | @FAKEOFTVC | 7'
-      - '🇳🇱NL | vmess | @OpenSSTPVpn | 9'
+      - '🇨🇦CA | vmess | @OpenSSTPVpn | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -156,7 +156,7 @@ proxy-groups:
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇺🇸US | ss | @FAKEOFTVC | 7'
-      - '🇳🇱NL | vmess | @OpenSSTPVpn | 9'
+      - '🇨🇦CA | vmess | @OpenSSTPVpn | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -170,7 +170,7 @@ proxy-groups:
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇺🇸US | ss | @FAKEOFTVC | 7'
-      - '🇳🇱NL | vmess | @OpenSSTPVpn | 9'
+      - '🇨🇦CA | vmess | @OpenSSTPVpn | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
