@@ -118,9 +118,9 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 1",
                 "🇮🇷IR | vless | @ShadowProxy66 | 25",
                 "🇳🇱NL | vless | @v2ray_swhil | 11",
+                "🇩🇪DE | vless | @V2RayTz | 4",
                 "🇫🇮FI | vless | @DailyV2RY | 114",
                 "🇩🇪DE | vless | @DailyV2RY | 116",
-                "🇩🇪DE | vless | @ConfigsHUB | 5",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -179,9 +179,9 @@
                 "🇮🇪IE | vless | @v2rayNG_Matsuri | 1",
                 "🇮🇷IR | vless | @ShadowProxy66 | 25",
                 "🇳🇱NL | vless | @v2ray_swhil | 11",
+                "🇩🇪DE | vless | @V2RayTz | 4",
                 "🇫🇮FI | vless | @DailyV2RY | 114",
                 "🇩🇪DE | vless | @DailyV2RY | 116",
-                "🇩🇪DE | vless | @ConfigsHUB | 5",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -620,6 +620,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | @V2RayTz | 4",
+            "type": "vless",
+            "server": "91.107.153.165",
+            "server_port": 443,
+            "uuid": "d0a988fa-27ef-440a-ac48-1f19e1b26f4e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-Kvrj4kXtXXfyNOcS0FcnD4YkP1nEJSv0DOQSNoZMTE",
+                    "short_id": "04bf49ad"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮FI | vless | @DailyV2RY | 114",
             "type": "vless",
             "server": "pub2.legendaryking.link",
@@ -686,42 +715,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 5",
-            "type": "vless",
-            "server": "91.107.135.76",
-            "server_port": 2087,
-            "uuid": "49640cba-7b63-40bb-b2ae-38d9294b0e69",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "greenpepper.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Zs-U9bKNImrNgq-YOI1Aiil6-9gc9sCUPAxiXP0vHAw",
-                    "short_id": "ecc664bf"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official,@Titaniom_Official",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
