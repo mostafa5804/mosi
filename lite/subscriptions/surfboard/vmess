@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇩🇪DE | vmess | @ConfigsHUB | 19 = vmess, d.v2spd.site, 443, username = 5b780720-0f3f-4940-a20d-ecbf7674b4fd, ws = true, tls = 1, vmess-aead = true, ws-path = /linkvws, ws-headers = Host:"d.v2spd.site", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @Hope_Net | 19 = vmess, 172.67.130.140, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"s1c.v2.v001sss.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇺🇸US | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇺🇸US | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @Hope_Net | 19
+URL-TEST = url-test,🇩🇪DE | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @Hope_Net | 19
+FALLBACK = fallback,🇩🇪DE | vmess | @ConfigsHUB | 19,🇺🇸US | vmess | @Hope_Net | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
