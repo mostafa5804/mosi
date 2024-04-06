@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @azadi_az_inja_migzare | 3",
                 "🇹🇷TR | vless | @DailyV2RY | 128",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -120,7 +119,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @azadi_az_inja_migzare | 3",
                 "🇹🇷TR | vless | @DailyV2RY | 128",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -148,35 +146,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🏳️XX | vless | @azadi_az_inja_migzare | 3",
-            "type": "vless",
-            "server": "bivojoud.seyedalikhameneibinamous.site",
-            "server_port": 2083,
-            "uuid": "f6893810-5165-4d9a-95fb-a582fd82d004",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pinterest.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g_QJhg-HmZB72GG49bcJkg0c0ZOixLMCmvZnJhFoaUA",
-                    "short_id": "456d9a391ac248"
-                }
-            }
         },
         {
             "tag": "🇹🇷TR | vless | @DailyV2RY | 128",

@@ -120,7 +120,7 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | ss | @VmessProtocol | 16","type":"ss","server":"3.70.18.26","port":2087,"password":"LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 17","type":"ss","server":"51.77.53.200","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇬🇧GB | ss | @FAKEOFTVC | 6","type":"ss","server":"51.140.37.163","port":34417,"password":"OZ2VmWR9pI74zoLstexAee","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @FAKEOFTVC | 7","type":"ss","server":"167.88.62.62","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +129,7 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
-      - '🇬🇧GB | ss | @FAKEOFTVC | 6'
+      - '🇺🇸US | ss | @FAKEOFTVC | 7'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -138,7 +138,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
-      - '🇬🇧GB | ss | @FAKEOFTVC | 6'
+      - '🇺🇸US | ss | @FAKEOFTVC | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -146,7 +146,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | ss | @VmessProtocol | 16'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
-      - '🇬🇧GB | ss | @FAKEOFTVC | 6'
+      - '🇺🇸US | ss | @FAKEOFTVC | 7'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
