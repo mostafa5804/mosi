@@ -108,9 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇨🇳CN | vmess | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -125,9 +124,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇨🇳CN | vmess | @DeamNet_Proxy | 19",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
@@ -197,11 +195,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇨🇳CN | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "marien.motorcycles",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "47.106.112.114",
+            "server_port": 80,
+            "uuid": "7c1d9869-ecac-4ca6-b7e7-ecb60f503078",
             "security": "auto",
             "alter_id": -1,
             "global_padding": false,
@@ -212,21 +210,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "marien.motorcycles",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "marien.motorcycles"
+                    "Host": "47.106.112.114"
                 }
             }
         },
@@ -261,40 +249,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "marien.motorcycles"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 6",
-            "type": "vmess",
-            "server": "www.ilovepdf.com",
-            "server_port": 443,
-            "uuid": "AlphaOmegaFree",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl-free2.alphaspeedtest.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/wss9000?ed=2560",
-                "headers": {
-                    "Host": "nl-free2.alphaspeedtest.com"
                 }
             }
         },

@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇳CN | vmess | @DeamNet_Proxy | 19 = vmess, 47.106.112.114, 80, username = 7c1d9869-ecac-4ca6-b7e7-ecb60f503078, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @Hope_Net | 19 = vmess, 172.67.196.112, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 🇳🇱NL | vmess | @OpenSSTPVpn | 9 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
-URL-TEST = url-test,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
-FALLBACK = fallback,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @DeamNet_Proxy | 19,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+URL-TEST = url-test,🇨🇳CN | vmess | @DeamNet_Proxy | 19,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+FALLBACK = fallback,🇨🇳CN | vmess | @DeamNet_Proxy | 19,🇺🇸US | vmess | @Hope_Net | 19,🇳🇱NL | vmess | @OpenSSTPVpn | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
