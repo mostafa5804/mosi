@@ -11,11 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @ConfigsHUB | 19 = vmess, cfcdn3.sanfencdn9.com, 80, username = d0a3e08a-d26f-45bd-ba3c-6387f9182633, ws = true, tls = , vmess-aead = false, ws-path = /video/ibCT6z55, ws-headers = Host:"agzbjszujp4.yofnhkfc.xyz", skip-cert-verify = true, tfo = false
+🇫🇮FI | vmess | @Hope_Net | 19 = vmess, 77.91.103.47, 80, username = 09e35fe0-2efd-44c1-96fb-46b7b3cc28eb, ws = true, tls = , vmess-aead = false, ws-path = /vmess, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ConfigsHUB | 19
-URL-TEST = url-test,🇨🇦CA | vmess | @ConfigsHUB | 19
-FALLBACK = fallback,🇨🇦CA | vmess | @ConfigsHUB | 19
+MANUAL = select,URL-TEST,FALLBACK,🇫🇮FI | vmess | @Hope_Net | 19
+URL-TEST = url-test,🇫🇮FI | vmess | @Hope_Net | 19
+FALLBACK = fallback,🇫🇮FI | vmess | @Hope_Net | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
