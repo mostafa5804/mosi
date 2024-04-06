@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @DeamNet_Proxy | 19 = vmess, hms02opi.fxiaomi.sbs, 443, username = 6c168fcc-2231-4f3b-8c1e-f6391692df4a, ws = true, tls = 1, vmess-aead = false, ws-path = /link, ws-headers = Host:"hms02.fxiaomi.sbs", skip-cert-verify = true, tfo = false
 🇸🇬SG | vmess | @Hope_Net | 19 = vmess, 146.190.84.34, 26012, username = 695bc422-4dc8-4d8c-8457-26e18c2421b4, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"tiktok.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 19,🇸🇬SG | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 19,🇸🇬SG | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 19,🇸🇬SG | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | vmess | @Hope_Net | 19
+URL-TEST = url-test,🇸🇬SG | vmess | @Hope_Net | 19
+FALLBACK = fallback,🇸🇬SG | vmess | @Hope_Net | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
