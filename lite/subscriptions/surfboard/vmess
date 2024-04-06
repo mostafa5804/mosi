@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇻🇳VN | vmess | @DeamNet_Proxy | 18 = vmess, 103.75.185.221, 80, username = 9e5999ba-870a-46b1-8500-37c640371ec6, ws = true, tls = , vmess-aead = false, ws-path = /bs, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇳🇱NL | vmess | @OpenSSTPVpn | 9 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇻🇳VN | vmess | @DeamNet_Proxy | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 9
-URL-TEST = url-test,🇻🇳VN | vmess | @DeamNet_Proxy | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 9
-FALLBACK = fallback,🇻🇳VN | vmess | @DeamNet_Proxy | 18,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+URL-TEST = url-test,🇳🇱NL | vmess | @OpenSSTPVpn | 9
+FALLBACK = fallback,🇳🇱NL | vmess | @OpenSSTPVpn | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

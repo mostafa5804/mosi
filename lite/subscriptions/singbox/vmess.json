@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇻🇳VN | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -124,7 +124,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇻🇳VN | vmess | @DeamNet_Proxy | 18",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇷CR | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
@@ -195,13 +195,13 @@
             }
         },
         {
-            "tag": "🇻🇳VN | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "103.75.185.221",
-            "server_port": 80,
-            "uuid": "9e5999ba-870a-46b1-8500-37c640371ec6",
+            "server": "marien.motorcycles",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": -1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -210,11 +210,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/bs",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "103.75.185.221"
+                    "Host": "marien.motorcycles"
                 }
             }
         },
