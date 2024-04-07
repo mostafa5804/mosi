@@ -108,9 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
@@ -123,9 +122,8 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
@@ -193,40 +191,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 12",
-            "type": "vmess",
-            "server": "ftp-localcdn.kiava-cloud.us.to",
-            "server_port": 443,
-            "uuid": "3bf8b347-be40-480b-c9c3-4d6e951e208f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp-localcdn.kiava-cloud.us.to",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/app",
-                "headers": {
-                    "Host": "ftp-localcdn.kiava-cloud.us.to"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -261,11 +225,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "135.148.62.165",
-            "server_port": 59988,
-            "uuid": "cfd7a05c-82cf-436d-abce-8b2245b76472",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,6 +239,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
