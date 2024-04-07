@@ -118,10 +118,10 @@
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇫🇮FI | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 32",
-                "🇺🇸US | vless | @V2rayNGmat | 9",
+                "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -147,10 +147,10 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 16",
-                "🇸🇪SE | vless | @DailyV2RY | 110",
+                "🇨🇦CA | vless | @DailyV2RY | 102",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -189,10 +189,10 @@
                 "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇺🇸US | vless | @shh_proxy | 14",
                 "🇨🇦CA | vless | @Lockey_vpn | 15",
-                "🇺🇸US | vless | @rxv2ray | 21",
+                "🇨🇦CA | vless | @rxv2ray | 21",
                 "🇫🇮FI | vless | @free_v2rayyy | 8",
                 "🇸🇪SE | vless | @lightning6 | 32",
-                "🇺🇸US | vless | @V2rayNGmat | 9",
+                "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
@@ -218,10 +218,10 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 3",
                 "🇨🇦CA | vless | @vless_vmess | 7",
                 "🇨🇦CA | vless | @V2RayTz | 16",
-                "🇸🇪SE | vless | @DailyV2RY | 110",
+                "🇨🇦CA | vless | @DailyV2RY | 102",
                 "🇨🇷CR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇺🇸US | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
@@ -569,7 +569,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 21",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 21",
             "type": "vless",
             "server": "www.RxV2ray.sbs",
             "server_port": 2087,
@@ -635,7 +635,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayNGmat | 9",
+            "tag": "🇨🇦CA | vless | @V2rayNGmat | 9",
             "type": "vless",
             "server": "www.tegzitp.net",
             "server_port": 2096,
@@ -1331,11 +1331,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 110",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 102",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "www.visa.com",
+            "server_port": 2096,
+            "uuid": "8c9cb6e5-1be1-4e35-9ed3-d0d5280479a9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1343,12 +1343,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "tp6.zedmodeon.lat",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1404,11 +1414,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "st-gb-1.brocdn.com",
-            "server_port": 443,
-            "uuid": "32f09b70-d2f7-11ee-abda-00505603e70d",
+            "server": "Tgju.org",
+            "server_port": 2053,
+            "uuid": "6971019c-67da-45aa-a34d-ccaa1f30e1e9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1418,7 +1428,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "st-gb-1.brocdn.com",
+                "server_name": "h.protoeinpaitakht.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1427,11 +1437,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/websocket",
-                "headers": {
-                    "Host": "st-gb-1.brocdn.com"
-                }
+                "type": "grpc",
+                "service_name": "@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
