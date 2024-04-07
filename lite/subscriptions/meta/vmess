@@ -121,7 +121,6 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇱NL | vmess | @oneclickvpnkeys | 12","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 18","type":"vmess","server":"64.176.195.180","port":"16756","cipher":"auto","uuid":"157918b7-1179-4781-be29-32e5e1a69b97","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +129,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇳🇱NL | vmess | @oneclickvpnkeys | 12'
       - '🇺🇸US | vmess | @Hope_Net | 18'
   - name: URL-TEST
     type: url-test
@@ -139,7 +137,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇳🇱NL | vmess | @oneclickvpnkeys | 12'
       - '🇺🇸US | vmess | @Hope_Net | 18'
   - name: FALLBACK
     type: fallback
@@ -147,7 +144,6 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇳🇱NL | vmess | @oneclickvpnkeys | 12'
       - '🇺🇸US | vmess | @Hope_Net | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
