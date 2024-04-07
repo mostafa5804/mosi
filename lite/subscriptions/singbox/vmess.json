@@ -109,7 +109,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇲🇴MO | vmess | @Hope_Net | 18",
+                "🇨🇷CR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
@@ -123,7 +123,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇲🇴MO | vmess | @Hope_Net | 18",
+                "🇨🇷CR | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
@@ -225,11 +225,11 @@
             }
         },
         {
-            "tag": "🇲🇴MO | vmess | @Hope_Net | 18",
+            "tag": "🇨🇷CR | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "27.109.160.174",
-            "server_port": 54866,
-            "uuid": "be77618a-737e-4260-cc87-e405073f91dc",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -240,11 +240,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/免费节点分享TG频道@WSBVPN",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "marien.motorcycles"
                 }
             }
         },
