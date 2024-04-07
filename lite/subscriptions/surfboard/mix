@@ -11,14 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | trojan | @PrivateVPNs | 19 = trojan, 18.135.227.24, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 19 = trojan, 34.248.59.187, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇬🇧GB | trojan | @DirectVPN | 19 = trojan, 3.11.190.129, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | ss | @VmessProtocol | 16 = ss, 3.70.18.26, 2087, encrypt-method = chacha20-ietf-poly1305, password = LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=
 🇨🇦CA | ss | @OutlineVpnOfficial | 15 = ss, 134.195.196.178, 805, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
+🇺🇸US | vmess | @Hope_Net | 18 = vmess, 172.67.229.34, 2086, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = , vmess-aead = false, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:"ca6.tehme100.fun", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15
-URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15
-FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @Hope_Net | 18
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @Hope_Net | 18
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15,🇺🇸US | vmess | @Hope_Net | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
