@@ -121,6 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪DE | vmess | @ConfigsHUB | 15","type":"vmess","server":"159.89.100.33","port":"8585","cipher":"auto","uuid":"42a61d74-bfd1-4ed7-9ba2-84b950c6b637","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 18","type":"vmess","server":"172.67.150.173","port":"2053","cipher":"auto","uuid":"b322fde8-671f-4634-b985-e6ce50ee0647","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/u16","headers":{"host":""}}}
 proxy-groups:
   - name: MANUAL
@@ -129,6 +130,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇩🇪DE | vmess | @ConfigsHUB | 15'
       - '🇺🇸US | vmess | @Hope_Net | 18'
   - name: URL-TEST
     type: url-test
@@ -137,6 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇩🇪DE | vmess | @ConfigsHUB | 15'
       - '🇺🇸US | vmess | @Hope_Net | 18'
   - name: FALLBACK
     type: fallback
@@ -144,6 +147,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇩🇪DE | vmess | @ConfigsHUB | 15'
       - '🇺🇸US | vmess | @Hope_Net | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
