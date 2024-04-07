@@ -11,15 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | trojan | @PrivateVPNs | 19 = trojan, 3.65.87.163, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇮🇪IE | trojan | @DirectVPN | 19 = trojan, 52.209.104.176, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 19 = trojan, 15.188.250.18, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇨🇦CA | trojan | @DirectVPN | 19 = trojan, 3.98.83.239, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | ss | @VmessProtocol | 16 = ss, 3.70.18.26, 2087, encrypt-method = chacha20-ietf-poly1305, password = LvaBI83AuvAKv3hWmGXE5lVwrdM10uAtGCvdODCmod4=
 🇨🇦CA | ss | @OutlineVpnOfficial | 15 = ss, 134.195.196.178, 805, encrypt-method = chacha20-ietf-poly1305, password = G!yBwPWH3Vao
-🇨🇦CA | vmess | @OpenSSTPVpn | 5 = vmess, 104.21.4.221, 443, username = fa2ad4c5-63ba-45f0-8926-12fcce49ded1, ws = true, tls = 1, vmess-aead = true, ws-path = /VK4yTEQZ/, ws-headers = Host:"ru.sxmzkfyy.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15,🇨🇦CA | vmess | @OpenSSTPVpn | 5
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15,🇨🇦CA | vmess | @OpenSSTPVpn | 5
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15,🇨🇦CA | vmess | @OpenSSTPVpn | 5
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇩🇪DE | ss | @VmessProtocol | 16,🇨🇦CA | ss | @OutlineVpnOfficial | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
