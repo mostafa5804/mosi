@@ -111,11 +111,11 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @v2ray_swhil | 27",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🏳️XX | vmess | @OpenSSTPVpn | 4"
+                "🇨🇦CA | vmess | @OpenSSTPVpn | 5"
             ]
         },
         {
@@ -127,11 +127,11 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @v2ray_swhil | 27",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇩🇪DE | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🏳️XX | vmess | @OpenSSTPVpn | 4"
+                "🇨🇦CA | vmess | @OpenSSTPVpn | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -280,11 +280,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "164.92.198.210",
-            "server_port": 6969,
-            "uuid": "1eb6aad5-993a-4bcb-a9c4-5c98ba01b963",
+            "server": "156.235.89.249",
+            "server_port": 59526,
+            "uuid": "9d940d04-9617-4e67-d458-161283255660",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -294,6 +294,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -382,11 +389,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @OpenSSTPVpn | 4",
+            "tag": "🇨🇦CA | vmess | @OpenSSTPVpn | 5",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "104.21.4.221",
+            "server_port": 443,
+            "uuid": "fa2ad4c5-63ba-45f0-8926-12fcce49ded1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -396,6 +403,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ru.sxmzkfyy.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VK4yTEQZ\/",
+                "headers": {
+                    "Host": "ru.sxmzkfyy.com"
+                }
             }
         }
     ],

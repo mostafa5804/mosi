@@ -11,10 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @OpenSSTPVpn | 5 = vmess, 104.21.4.221, 443, username = fa2ad4c5-63ba-45f0-8926-12fcce49ded1, ws = true, tls = 1, vmess-aead = true, ws-path = /VK4yTEQZ/, ws-headers = Host:"ru.sxmzkfyy.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @OpenSSTPVpn | 5
+URL-TEST = url-test,🇨🇦CA | vmess | @OpenSSTPVpn | 5
+FALLBACK = fallback,🇨🇦CA | vmess | @OpenSSTPVpn | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
