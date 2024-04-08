@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇺🇸US | vmess | @oneclickvpnkeys | 10 = vmess, 172.64.98.159, 80, username = bf4a9bb5-6ae7-4e77-bf83-4a0cf4be9907, ws = true, tls = , vmess-aead = true, ws-path = /ws, ws-headers = Host:"tg.dns68.xn--xhq89j.eu.org", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 10 = vmess, 173.245.58.37, 443, username = a1655f51-1e20-4a92-8a11-b7ca30a7a353, ws = true, tls = 1, vmess-aead = true, ws-path = /afrhms07.xfixedfloat.cfd/linkws, ws-headers = Host:"7wih-darkness-f0af.jivegoh116.workers.dev", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 10
-URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 10
-FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 10
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @oneclickvpnkeys | 10,🇺🇸US | vmess | @v2Line | 10
+URL-TEST = url-test,🇺🇸US | vmess | @oneclickvpnkeys | 10,🇺🇸US | vmess | @v2Line | 10
+FALLBACK = fallback,🇺🇸US | vmess | @oneclickvpnkeys | 10,🇺🇸US | vmess | @v2Line | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
