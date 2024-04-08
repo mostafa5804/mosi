@@ -108,8 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
-                "🇮🇷IR | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -124,8 +123,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 10",
-                "🇮🇷IR | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -195,11 +193,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 10",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "172.64.98.159",
-            "server_port": 80,
-            "uuid": "bf4a9bb5-6ae7-4e77-bf83-4a0cf4be9907",
+            "server": "auth.speedtest.net",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -210,35 +208,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "nelly.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "79.175.151.112",
-            "server_port": 58271,
-            "uuid": "98a9ad2a-1966-4877-bed4-848b73f9ab34",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/rohv2ray",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "nelly.homes"
                 }
             }
         },

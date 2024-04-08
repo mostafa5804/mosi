@@ -121,8 +121,6 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | vmess | @oneclickvpnkeys | 10","type":"vmess","server":"172.64.98.159","port":"80","cipher":"auto","uuid":"bf4a9bb5-6ae7-4e77-bf83-4a0cf4be9907","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"tg.dns68.xn--xhq89j.eu.org"}}}
-  - {"name":"🇮🇷IR | vmess | @ConfigsHUB | 19","type":"vmess","server":"79.175.151.112","port":"58271","cipher":"auto","uuid":"98a9ad2a-1966-4877-bed4-848b73f9ab34","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/rohv2ray","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 18","type":"vmess","server":"45.63.50.156","port":"31144","cipher":"auto","uuid":"462be427-720e-4379-9eb6-32671f21ce52","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @v2Line | 10","type":"vmess","server":"173.245.58.37","port":"443","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/afrhms07.xfixedfloat.cfd/linkws","headers":{"host":"7wih-darkness-f0af.jivegoh116.workers.dev"}}}
 proxy-groups:
@@ -132,8 +130,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇺🇸US | vmess | @oneclickvpnkeys | 10'
-      - '🇮🇷IR | vmess | @ConfigsHUB | 19'
       - '🇺🇸US | vmess | @Hope_Net | 18'
       - '🇺🇸US | vmess | @v2Line | 10'
   - name: URL-TEST
@@ -143,8 +139,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇺🇸US | vmess | @oneclickvpnkeys | 10'
-      - '🇮🇷IR | vmess | @ConfigsHUB | 19'
       - '🇺🇸US | vmess | @Hope_Net | 18'
       - '🇺🇸US | vmess | @v2Line | 10'
   - name: FALLBACK
@@ -153,8 +147,6 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇺🇸US | vmess | @oneclickvpnkeys | 10'
-      - '🇮🇷IR | vmess | @ConfigsHUB | 19'
       - '🇺🇸US | vmess | @Hope_Net | 18'
       - '🇺🇸US | vmess | @v2Line | 10'
 rule-providers:
