@@ -119,7 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇯🇵JP | vmess | @Hope_Net | 19","type":"vmess","server":"167.179.111.237","port":"14935","cipher":"auto","uuid":"e961894f-8e90-472f-98d3-09402e4be453","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"216.128.151.122","port":"20903","cipher":"auto","uuid":"a3cbc49f-d33d-41b6-805f-42341790321b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @v2Line | 10","type":"vmess","server":"173.245.58.37","port":"443","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/afrhms07.xfixedfloat.cfd/linkws","headers":{"host":"7wih-darkness-f0af.jivegoh116.workers.dev"}}}
 proxy-groups:
   - name: MANUAL
@@ -128,7 +128,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇯🇵JP | vmess | @Hope_Net | 19'
+      - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇺🇸US | vmess | @v2Line | 10'
   - name: URL-TEST
     type: url-test
@@ -137,7 +137,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇯🇵JP | vmess | @Hope_Net | 19'
+      - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇺🇸US | vmess | @v2Line | 10'
   - name: FALLBACK
     type: fallback
@@ -145,7 +145,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇯🇵JP | vmess | @Hope_Net | 19'
+      - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇺🇸US | vmess | @v2Line | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
