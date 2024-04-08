@@ -106,12 +106,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -125,12 +125,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -160,7 +160,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -276,11 +276,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 17",
             "type": "vmess",
-            "server": "129.146.113.254",
-            "server_port": 43121,
-            "uuid": "d53b39e2-925e-45b6-9389-46b9fa95878b",
+            "server": "iran-011-join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -291,11 +291,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kittiy.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "129.146.113.254"
+                    "Host": "kittiy.sbs"
                 }
             }
         },
@@ -336,9 +346,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "148.135.94.70",
-            "server_port": 17542,
-            "uuid": "51ea7cdf-2278-4a13-b2e4-632cda111110",
+            "server": "173.245.58.11",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -351,7 +361,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zzz.nikili1236vip.top",
+                "server_name": "vpnsupportfast.vpnsuortfast.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -361,9 +371,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/50ab5b",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": "zzz.nikili1236vip.top"
+                    "Host": "vpnsupportfast.vpnsuortfast.workers.dev"
                 }
             }
         },
