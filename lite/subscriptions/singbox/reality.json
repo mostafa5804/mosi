@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -119,7 +118,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -146,35 +144,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "91.107.171.107",
-            "server_port": 443,
-            "uuid": "61f57908-ab92-453c-8fb8-961d44b2c281",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "010101.peterwilbers.nl",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fX78dtEUjdw_RmTf5BIyMvq9voW-qkb2pA9U8W7c0Q8",
-                    "short_id": "df5dbf32"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @Capital_NET | 45",
