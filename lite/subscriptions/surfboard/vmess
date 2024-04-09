@@ -12,11 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇭🇰HK | vmess | @DeamNet_Proxy | 19 = vmess, 185.74.222.245, 80, username = 6f20c1ae-c712-4a26-a9f4-5e5b3c480b9d, ws = true, tls = , vmess-aead = false, ws-path = /vmess, ws-headers = Host:"185.74.222.245", skip-cert-verify = true, tfo = false
+🇮🇷IR | vmess | @v2ray1_ng | 11 = vmess, 79.175.151.112, 58271, username = 6e83ef0f-70a7-4be8-979a-8bc7a41f4224, ws = true, tls = , vmess-aead = true, ws-path = /rohv2ray, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 10 = vmess, 173.245.58.37, 443, username = a1655f51-1e20-4a92-8a11-b7ca30a7a353, ws = true, tls = 1, vmess-aead = true, ws-path = /afrhms07.xfixedfloat.cfd/linkws, ws-headers = Host:"7wih-darkness-f0af.jivegoh116.workers.dev", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇭🇰HK | vmess | @DeamNet_Proxy | 19,🇺🇸US | vmess | @v2Line | 10
-URL-TEST = url-test,🇭🇰HK | vmess | @DeamNet_Proxy | 19,🇺🇸US | vmess | @v2Line | 10
-FALLBACK = fallback,🇭🇰HK | vmess | @DeamNet_Proxy | 19,🇺🇸US | vmess | @v2Line | 10
+MANUAL = select,URL-TEST,FALLBACK,🇭🇰HK | vmess | @DeamNet_Proxy | 19,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @v2Line | 10
+URL-TEST = url-test,🇭🇰HK | vmess | @DeamNet_Proxy | 19,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @v2Line | 10
+FALLBACK = fallback,🇭🇰HK | vmess | @DeamNet_Proxy | 19,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @v2Line | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
