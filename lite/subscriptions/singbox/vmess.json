@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
@@ -124,7 +124,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+                "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 9",
@@ -158,7 +158,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vmess | @azadi_az_inja_migzare | 2",
+            "tag": "🇺🇸US | vmess | @azadi_az_inja_migzare | 2",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -310,9 +310,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "140.82.20.60",
-            "server_port": 39164,
-            "uuid": "0520cc8d-b5ae-4880-e193-c2cbc9f8627a",
+            "server": "104.234.69.243",
+            "server_port": 53259,
+            "uuid": "4dd6c192-8284-4504-9dee-5ca7da27069b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -322,6 +322,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
