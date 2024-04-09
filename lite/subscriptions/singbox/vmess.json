@@ -107,8 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
+                "🇺🇸US | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -123,8 +124,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇮🇷IR | vmess | @v2ray1_ng | 11",
+                "🇺🇸US | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
@@ -171,11 +173,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "cfcdn2.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "6ad77d6b-7a45-4ed3-b65d-1c3ec0226603",
+            "server": "50022.baidu-cdn.top",
+            "server_port": 50022,
+            "uuid": "e80442e2-4577-4b33-8d9b-798d816974bd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -185,13 +187,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/u4eCZTxW",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -215,6 +210,40 @@
                 "path": "\/rohv2ray",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "linde06.indiavideo.sbs",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
