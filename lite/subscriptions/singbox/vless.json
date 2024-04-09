@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 16",
+                "🇬🇧GB | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇺🇸US | vless | @NIM_VPN_ir | 12",
                 "🇨🇦CA | vless | @VlessConfig | 19",
@@ -145,8 +145,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 12",
+                "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -173,7 +172,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 16",
+                "🇬🇧GB | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇺🇸US | vless | @NIM_VPN_ir | 12",
                 "🇨🇦CA | vless | @VlessConfig | 19",
@@ -212,8 +211,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 9",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @proxystore11 | 12",
+                "🇺🇸US | vless | @proxystore11 | 12",
                 "🇨🇦CA | vless | @polproxy | 34",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
@@ -256,11 +254,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 16",
+            "tag": "🇬🇧GB | vless | @EliV2ray | 15",
             "type": "vless",
-            "server": "shiatv.net",
-            "server_port": 2096,
-            "uuid": "16c5c7ca-f356-4318-9e17-815fb387a9fe",
+            "server": "185.162.228.3",
+            "server_port": 80,
+            "uuid": "Telegram-id-ELiV2Ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -268,22 +266,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "channel.v2bamdad.tech",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "BBjszEZzABSQuqxj4FxIzvwxUDoX",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.162.228.3"
+                }
             }
         },
         {
@@ -331,7 +319,7 @@
         {
             "tag": "🇨🇦CA | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "15.157.171.41",
+            "server": "35.183.252.128",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1283,38 +1271,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "Www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "a7f3157a-16a1-45ef-b611-6c73f9f8a09c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "h.protoeinpaitakht.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za,@HosseinStore_Za",
-                "headers": {
-                    "Host": "h.protoeinpaitakht.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 12",
+            "tag": "🇺🇸US | vless | @proxystore11 | 12",
             "type": "vless",
             "server": "Zula.ir",
             "server_port": 8443,
