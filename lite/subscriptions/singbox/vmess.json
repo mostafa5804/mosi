@@ -110,9 +110,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
-                "🇭🇰HK | vmess | @ConfigsHUB | 0",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -128,9 +127,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
-                "🇭🇰HK | vmess | @ConfigsHUB | 0",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -233,33 +231,6 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "220.246.94.127",
-            "server_port": 443,
-            "uuid": "4664e760-f5f3-3cc2-8bb3-04f85aa7febb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -294,11 +265,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "66.42.102.129",
-            "server_port": 50086,
-            "uuid": "5546c857-6176-4677-ce46-5b7445b39d4c",
+            "server": "novia.makeup",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -308,6 +279,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
