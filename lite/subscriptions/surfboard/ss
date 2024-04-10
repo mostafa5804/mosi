@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇷🇺RU | ss | @DeamNet_Proxy | 18 = ss, vpn-ru.wwp.im, 15174, encrypt-method = chacha20-ietf-poly1305, password = LLVD6lbENjzG1vj15Fvq7r
 🇦🇹AT | ss | @OutlineVpnOfficial | 17 = ss, 212.113.106.243, 13022, encrypt-method = chacha20-ietf-poly1305, password = w5drAL7PfCIwQ2ycUuoDsV2Ls
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | ss | @DeamNet_Proxy | 18,🇦🇹AT | ss | @OutlineVpnOfficial | 17
-URL-TEST = url-test,🇷🇺RU | ss | @DeamNet_Proxy | 18,🇦🇹AT | ss | @OutlineVpnOfficial | 17
-FALLBACK = fallback,🇷🇺RU | ss | @DeamNet_Proxy | 18,🇦🇹AT | ss | @OutlineVpnOfficial | 17
+MANUAL = select,URL-TEST,FALLBACK,🇦🇹AT | ss | @OutlineVpnOfficial | 17
+URL-TEST = url-test,🇦🇹AT | ss | @OutlineVpnOfficial | 17
+FALLBACK = fallback,🇦🇹AT | ss | @OutlineVpnOfficial | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
