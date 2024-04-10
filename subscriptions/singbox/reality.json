@@ -115,7 +115,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🏳️XX | vless | @V2rayCollectorDonate | 15",
+                "🏳️XX | vless | @V2rayCollectorDonate | 16",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
@@ -124,6 +124,8 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 14",
                 "🇳🇱NL | vless | @v2ray_swhil | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 0",
+                "🏳️XX | vless | @DailyV2RY | 135",
+                "🏳️XX | vless | @DailyV2RY | 143",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -158,8 +160,6 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🏳️XX | vless | @freeconfigv2 | 3",
-                "🇩🇪DE | vless | @freeconfigv2 | 6",
-                "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vless | @TVCminer | 0",
                 "🏳️XX | vless | @TVCminer | 4"
@@ -178,7 +178,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2logy | 6",
-                "🏳️XX | vless | @V2rayCollectorDonate | 15",
+                "🏳️XX | vless | @V2rayCollectorDonate | 16",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
@@ -187,6 +187,8 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 14",
                 "🇳🇱NL | vless | @v2ray_swhil | 13",
                 "🇩🇪DE | vless | @VmessProtocol | 0",
+                "🏳️XX | vless | @DailyV2RY | 135",
+                "🏳️XX | vless | @DailyV2RY | 143",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -221,8 +223,6 @@
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
                 "🏳️XX | vless | @freeconfigv2 | 3",
-                "🇩🇪DE | vless | @freeconfigv2 | 6",
-                "🇩🇪DE | vless | @freeconfigv2 | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vless | @TVCminer | 0",
                 "🏳️XX | vless | @TVCminer | 4"
@@ -530,7 +530,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2rayCollectorDonate | 15",
+            "tag": "🏳️XX | vless | @V2rayCollectorDonate | 16",
             "type": "vless",
             "server": "pub2.legendaryking.link",
             "server_port": 443,
@@ -801,6 +801,71 @@
                     "enabled": true,
                     "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
                     "short_id": "fabb696169ae2a95"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @DailyV2RY | 135",
+            "type": "vless",
+            "server": "[2a00:b703:fff1:215::1]",
+            "server_port": 25365,
+            "uuid": "67d50c2d-bf60-45fd-9690-2041b09d6d6f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Krfw2Ag6_YlmVcMGrGkznbzmuEETbIQgaQlU4gqQ5xQ",
+                    "short_id": "6bd487e5"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @DailyV2RY | 143",
+            "type": "vless",
+            "server": "cdn.legendaryking.link",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "anandtech.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "F03TKt7jOgtvzj3-hiVA5SuUefizbehBm9-c7GYTS2A",
+                    "short_id": "82017cdf"
                 }
             }
         },
@@ -1921,78 +1986,6 @@
                     "public_key": "ZjS9KeJlI9rp7JQV0HqDeLDnfJ9w3az_dffh_sVcfVc",
                     "short_id": "c457500b"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @freeconfigv2 | 6",
-            "type": "vless",
-            "server": "165.22.86.111",
-            "server_port": 35706,
-            "uuid": "d7e2e880-6c53-4c9e-a8bd-fb0f9ee44d15",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eQMKCvrH1XrSNLppyikU40TgDyB8sgwnQ2rXY_94-lQ",
-                    "short_id": "a085ef71"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@proxyforopeta",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @freeconfigv2 | 11",
-            "type": "vless",
-            "server": "168.119.64.208",
-            "server_port": 8080,
-            "uuid": "75164cbb-f69a-416d-dfcd-38f6dc794541",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Bmnyed_YW_nV6Qhm5DePFo7p4iFITrFYFfe79zQ59Tg",
-                    "short_id": "bd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@unlimiteddev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
