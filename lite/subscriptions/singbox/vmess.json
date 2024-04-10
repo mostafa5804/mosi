@@ -110,8 +110,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇨🇷CR | vmess | @ConfigsHUB | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇯🇵JP | vmess | @Hope_Net | 19",
+                "🇷🇺RU | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -127,8 +128,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇭🇰HK | vmess | @DeamNet_Proxy | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇨🇷CR | vmess | @ConfigsHUB | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 2",
-                "🇯🇵JP | vmess | @Hope_Net | 19",
+                "🇷🇺RU | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -231,6 +233,40 @@
             }
         },
         {
+            "tag": "🇨🇷CR | vmess | @ConfigsHUB | 13",
+            "type": "vmess",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "marien.motorcycles"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -265,11 +301,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
+            "tag": "🇷🇺RU | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "152.69.197.74",
-            "server_port": 12345,
-            "uuid": "b8a6bf58-485a-4046-b386-b3661bf65eff",
+            "server": "185.22.154.94",
+            "server_port": 30705,
+            "uuid": "70c39b54-78ae-4a3c-8d8c-eb2196a829e2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -279,13 +315,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/bb",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
