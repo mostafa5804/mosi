@@ -110,10 +110,9 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
-                "🇮🇷IR | vmess | @v2ray1_ng | 13",
-                "🇻🇳VN | vmess | @ConfigsHUB | 18",
+                "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -129,10 +128,9 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @ShadowProxy66 | 69",
-                "🇮🇷IR | vmess | @v2ray1_ng | 13",
-                "🇻🇳VN | vmess | @ConfigsHUB | 18",
+                "🇨🇷CR | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
@@ -242,11 +240,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 13",
+            "tag": "🇨🇷CR | vmess | @v2ray1_ng | 12",
             "type": "vmess",
-            "server": "79.175.151.112",
-            "server_port": 58271,
-            "uuid": "6e83ef0f-70a7-4be8-979a-8bc7a41f4224",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -257,35 +255,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/rohv2ray",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "marien.motorcycles",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇻🇳VN | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "skyht2.vpndata.vn",
-            "server_port": 80,
-            "uuid": "fbccfed7-1aeb-416a-a4fd-7af1747f9f3b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNDATA.VPN",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "skyht2.vpndata.vn"
+                    "Host": "marien.motorcycles"
                 }
             }
         },
@@ -324,11 +308,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "140.82.2.34",
-            "server_port": 23670,
-            "uuid": "423f6443-f1e9-4e84-d895-a14badc59e88",
+            "server": "151.101.65.57",
+            "server_port": 80,
+            "uuid": "66ccb11f-75a7-4282-8a60-31fed447401d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -338,6 +322,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/aries",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
