@@ -13,11 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇦CA | vmess | @mftizi | 19 = vmess, cfcdn1.sanfencdn9.com, 2052, username = 8e0fc6e0-1313-4767-b51c-5506680d534e, ws = true, tls = , vmess-aead = true, ws-path = /video/GQ2qE5Us9g, ws-headers = Host:"tw1bQiWSE4x.fzbqfrse.xyz", skip-cert-verify = true, tfo = false
 🇩🇪DE | vmess | @oneclickvpnkeys | 10 = vmess, 91.107.130.94, 38558, username = 93ded408-20dd-492c-bcc5-51cd8943790a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tgju.org", skip-cert-verify = true, tfo = false
+🇮🇷IR | vmess | @v2ray1_ng | 11 = vmess, 79.175.151.112, 58271, username = 6e83ef0f-70a7-4be8-979a-8bc7a41f4224, ws = true, tls = , vmess-aead = true, ws-path = /rohv2ray, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 10 = vmess, 173.245.58.37, 443, username = a1655f51-1e20-4a92-8a11-b7ca30a7a353, ws = true, tls = 1, vmess-aead = true, ws-path = /afrhms07.xfixedfloat.cfd/linkws, ws-headers = Host:"7wih-darkness-f0af.jivegoh116.workers.dev", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 10,🇺🇸US | vmess | @v2Line | 10
-URL-TEST = url-test,🇨🇦CA | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 10,🇺🇸US | vmess | @v2Line | 10
-FALLBACK = fallback,🇨🇦CA | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 10,🇺🇸US | vmess | @v2Line | 10
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 10,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @v2Line | 10
+URL-TEST = url-test,🇨🇦CA | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 10,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @v2Line | 10
+FALLBACK = fallback,🇨🇦CA | vmess | @mftizi | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 10,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @v2Line | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
