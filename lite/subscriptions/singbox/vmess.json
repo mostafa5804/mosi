@@ -118,7 +118,7 @@
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇺🇸US | vmess | @OpenSSTPVpn | 4"
+                "🇩🇪DE | vmess | @OpenSSTPVpn | 3"
             ]
         },
         {
@@ -137,7 +137,7 @@
                 "🇺🇸US | vmess | @nofiltering2 | 3",
                 "🇵🇱PL | vmess | @eliya_chiter0 | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6",
-                "🇺🇸US | vmess | @OpenSSTPVpn | 4"
+                "🇩🇪DE | vmess | @OpenSSTPVpn | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -463,11 +463,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @OpenSSTPVpn | 4",
+            "tag": "🇩🇪DE | vmess | @OpenSSTPVpn | 3",
             "type": "vmess",
-            "server": "obdii.cfd",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "91.107.143.169",
+            "server_port": 26523,
+            "uuid": "c2aa1cce-5d89-43f2-eeb9-703507b1f5c3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -477,23 +477,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
             }
         }
     ],
