@@ -14,11 +14,12 @@ DIRECT = direct
 🇨🇦CA | vmess | @mftizi | 19 = vmess, cfcdn1.sanfencdn9.com, 2052, username = 8e0fc6e0-1313-4767-b51c-5506680d534e, ws = true, tls = , vmess-aead = true, ws-path = /video/GQ2qE5Us9g, ws-headers = Host:"tw1bQiWSE4x.fzbqfrse.xyz", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @DeamNet_Proxy | 19 = vmess, 173.245.58.5, 443, username = a1655f51-1e20-4a92-8a11-b7ca30a7a353, ws = true, tls = 1, vmess-aead = false, ws-path = /afrhms07.xfixedfloat.cfd/linkws, ws-headers = Host:"cy-dew-1c7uwh.cojatoc291.workers.dev", skip-cert-verify = true, tfo = false
 🇮🇷IR | vmess | @v2ray1_ng | 11 = vmess, 79.175.151.112, 58271, username = 6e83ef0f-70a7-4be8-979a-8bc7a41f4224, ws = true, tls = , vmess-aead = true, ws-path = /rohv2ray, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @Hope_Net | 19 = vmess, 129.146.61.36, 46666, username = f0f067fe-8e6d-4d95-816b-601038fd5876, ws = true, tls = , vmess-aead = false, ws-path = /rongseven?ed=2048, ws-headers = Host:"us-phoenix-oracle-3e4543.ip1.shop", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 10 = vmess, 173.245.58.37, 443, username = a1655f51-1e20-4a92-8a11-b7ca30a7a353, ws = true, tls = 1, vmess-aead = true, ws-path = /afrhms07.xfixedfloat.cfd/linkws, ws-headers = Host:"7wih-darkness-f0af.jivegoh116.workers.dev", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @DeamNet_Proxy | 19,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @v2Line | 10
-URL-TEST = url-test,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @DeamNet_Proxy | 19,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @v2Line | 10
-FALLBACK = fallback,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @DeamNet_Proxy | 19,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @v2Line | 10
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @DeamNet_Proxy | 19,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @Hope_Net | 19,🇺🇸US | vmess | @v2Line | 10
+URL-TEST = url-test,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @DeamNet_Proxy | 19,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @Hope_Net | 19,🇺🇸US | vmess | @v2Line | 10
+FALLBACK = fallback,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @DeamNet_Proxy | 19,🇮🇷IR | vmess | @v2ray1_ng | 11,🇺🇸US | vmess | @Hope_Net | 19,🇺🇸US | vmess | @v2Line | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
