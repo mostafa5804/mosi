@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @Hope_Net | 19 = vmess, 104.16.60.8, 2083, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linde06.indiavideo.sbs/linkws, ws-headers = Host:"worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev", skip-cert-verify = true, tfo = false
+🇮🇷IR | vmess | @v2ray1_ng | 10 = vmess, 79.175.151.112, 58271, username = 6e83ef0f-70a7-4be8-979a-8bc7a41f4224, ws = true, tls = , vmess-aead = true, ws-path = /rohv2ray, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 10 = vmess, 173.245.58.37, 443, username = a1655f51-1e20-4a92-8a11-b7ca30a7a353, ws = true, tls = 1, vmess-aead = true, ws-path = /afrhms07.xfixedfloat.cfd/linkws, ws-headers = Host:"7wih-darkness-f0af.jivegoh116.workers.dev", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @Hope_Net | 19,🇺🇸US | vmess | @v2Line | 10
-URL-TEST = url-test,🇨🇦CA | vmess | @Hope_Net | 19,🇺🇸US | vmess | @v2Line | 10
-FALLBACK = fallback,🇨🇦CA | vmess | @Hope_Net | 19,🇺🇸US | vmess | @v2Line | 10
+MANUAL = select,URL-TEST,FALLBACK,🇮🇷IR | vmess | @v2ray1_ng | 10,🇺🇸US | vmess | @v2Line | 10
+URL-TEST = url-test,🇮🇷IR | vmess | @v2ray1_ng | 10,🇺🇸US | vmess | @v2Line | 10
+FALLBACK = fallback,🇮🇷IR | vmess | @v2ray1_ng | 10,🇺🇸US | vmess | @v2Line | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
