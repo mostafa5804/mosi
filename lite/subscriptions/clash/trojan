@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 19","type":"trojan","server":"51.21.90.75","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @DirectVPN | 19","type":"trojan","server":"18.135.26.218","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 19","type":"trojan","server":"3.77.180.223","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 19","type":"trojan","server":"34.253.74.2","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇷IR | trojan | @FAKEOFTVC | 2","type":"trojan","server":"188.121.117.32","port":443,"udp":false,"password":"15cNx34bm8","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"iranlir.speedtrade.top"}
 proxy-groups:
   - name: MANUAL
@@ -127,8 +127,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇸🇪SE | trojan | @PrivateVPNs | 19'
-      - '🇬🇧GB | trojan | @DirectVPN | 19'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @DirectVPN | 19'
       - '🇮🇷IR | trojan | @FAKEOFTVC | 2'
   - name: URL-TEST
     type: url-test
@@ -136,16 +136,16 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇸🇪SE | trojan | @PrivateVPNs | 19'
-      - '🇬🇧GB | trojan | @DirectVPN | 19'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @DirectVPN | 19'
       - '🇮🇷IR | trojan | @FAKEOFTVC | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇸🇪SE | trojan | @PrivateVPNs | 19'
-      - '🇬🇧GB | trojan | @DirectVPN | 19'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @DirectVPN | 19'
       - '🇮🇷IR | trojan | @FAKEOFTVC | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
