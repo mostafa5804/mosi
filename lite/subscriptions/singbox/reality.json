@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @NIM_VPN_ir | 11",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -118,7 +117,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @NIM_VPN_ir | 11",
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -144,35 +142,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @NIM_VPN_ir | 11",
-            "type": "vless",
-            "server": "178.63.150.73",
-            "server_port": 34455,
-            "uuid": "42ad0425-f618-4429-b2be-9148be5c322b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "3Cv9QAAXxxUDjxlHuSDHyNfye9h6xlJJBz7vGsnmO3o",
-                    "short_id": "23d9b7cb"
-                }
-            }
         },
         {
             "tag": "🏳️XX | vless | @azadi_az_inja_migzare | 0",
