@@ -119,7 +119,8 @@ dns:
 
 proxies:
   - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 19","type":"trojan","server":"54.216.178.163","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | trojan | @DirectVPN | 19","type":"trojan","server":"3.97.253.232","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | trojan | @DirectVPN | 19","type":"trojan","server":"3.19.113.174","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @ConfigsHUB | 17","type":"trojan","server":"185.146.173.66","port":80,"udp":false,"password":"dGKXcHgs3P","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇮🇷IR | trojan | @FAKEOFTVC | 2","type":"trojan","server":"188.121.117.32","port":443,"udp":false,"password":"15cNx34bm8","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"iranlir.speedtrade.top"}
 proxy-groups:
   - name: MANUAL
@@ -128,7 +129,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇮🇪IE | trojan | @PrivateVPNs | 19'
-      - '🇨🇦CA | trojan | @DirectVPN | 19'
+      - '🇺🇸US | trojan | @DirectVPN | 19'
+      - '🇸🇪SE | trojan | @ConfigsHUB | 17'
       - '🇮🇷IR | trojan | @FAKEOFTVC | 2'
   - name: URL-TEST
     type: url-test
@@ -137,7 +139,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇮🇪IE | trojan | @PrivateVPNs | 19'
-      - '🇨🇦CA | trojan | @DirectVPN | 19'
+      - '🇺🇸US | trojan | @DirectVPN | 19'
+      - '🇸🇪SE | trojan | @ConfigsHUB | 17'
       - '🇮🇷IR | trojan | @FAKEOFTVC | 2'
   - name: FALLBACK
     type: fallback
@@ -145,7 +148,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇮🇪IE | trojan | @PrivateVPNs | 19'
-      - '🇨🇦CA | trojan | @DirectVPN | 19'
+      - '🇺🇸US | trojan | @DirectVPN | 19'
+      - '🇸🇪SE | trojan | @ConfigsHUB | 17'
       - '🇮🇷IR | trojan | @FAKEOFTVC | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
