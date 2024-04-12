@@ -172,7 +172,6 @@ proxies:
   - {"name":"🇳🇱NL | vless | @ROMAX_VPN | 0","type":"vless","server":"91.242.229.120","port":24183,"udp":true,"uuid":"2406efc4-c7ff-43b6-89df-ff7d4909e1a5","tls":true,"network":"http","client-fingerprint":"firefox","servername":"bazar.ir","reality-opts":{"public-key":"C1jYVkG0ZgtnzJRaV7qG6P76I0jTSFVbV267OIOl1Rw","short-id":"ab51dd2a"}}
   - {"name":"🇳🇱NL | vless | @TIKTOK_PROXY | 0","type":"vless","server":"91.242.229.120","port":29471,"udp":true,"uuid":"8187fc6f-0a37-43a3-b343-55b805a68af6","tls":true,"network":"http","client-fingerprint":"firefox","servername":"bazar.ir","reality-opts":{"public-key":"C1jYVkG0ZgtnzJRaV7qG6P76I0jTSFVbV267OIOl1Rw","short-id":"ab51dd2a"}}
   - {"name":"🏳️XX | vless | @TVCminer | 0","type":"vless","server":"[2a12:5940:f667::2]","port":25365,"udp":true,"uuid":"b7421b73-fbd8-4318-8c22-5d4aa947dada","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"sourceforge.net","flow":"xtls-rprx-vision","grpc-opts":{"grpc-service-name":"@ZEDMODEON-@ZEDMODEON"},"reality-opts":{"public-key":"gLjN_4GK5Ih3_cpt7dZZHGk439EPy3o04FytCzFwhQo","short-id":"5fc00f6a"}}
-  - {"name":"🏳️XX | vless | @TVCminer | 4","type":"vless","server":"[2a12:5940:f667::2]","port":25365,"udp":true,"uuid":"b7421b73-fbd8-4318-8c22-5d4aa947dada","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"sourceforge.net","grpc-opts":{"grpc-service-name":"@ZEDMODEON-@ZEDMODEON"},"reality-opts":{"public-key":"gLjN_4GK5Ih3_cpt7dZZHGk439EPy3o04FytCzFwhQo","short-id":"5fc00f6a"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -231,7 +230,6 @@ proxy-groups:
       - '🇳🇱NL | vless | @ROMAX_VPN | 0'
       - '🇳🇱NL | vless | @TIKTOK_PROXY | 0'
       - '🏳️XX | vless | @TVCminer | 0'
-      - '🏳️XX | vless | @TVCminer | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -290,7 +288,6 @@ proxy-groups:
       - '🇳🇱NL | vless | @ROMAX_VPN | 0'
       - '🇳🇱NL | vless | @TIKTOK_PROXY | 0'
       - '🏳️XX | vless | @TVCminer | 0'
-      - '🏳️XX | vless | @TVCminer | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -348,7 +345,6 @@ proxy-groups:
       - '🇳🇱NL | vless | @ROMAX_VPN | 0'
       - '🇳🇱NL | vless | @TIKTOK_PROXY | 0'
       - '🏳️XX | vless | @TVCminer | 0'
-      - '🏳️XX | vless | @TVCminer | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
