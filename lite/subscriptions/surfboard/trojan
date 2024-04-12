@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇪IE | trojan | @PrivateVPNs | 19 = trojan, 52.30.213.255, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | trojan | @PrivateVPNs | 19 = trojan, 13.50.220.124, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇬🇧GB | trojan | @DirectVPN | 19 = trojan, 52.56.114.132, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇨🇦CA | trojan | @FAKEOFTVC | 2 = trojan, den.irgfw.fun, 2083, password = 3F98apiP9b, udp-delay = true, skip-cert-verify = false, sni = heueuhe37u12jebe34b.irgfw.fun, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇨🇦CA | trojan | @FAKEOFTVC | 2
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇨🇦CA | trojan | @FAKEOFTVC | 2
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇨🇦CA | trojan | @FAKEOFTVC | 2
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
