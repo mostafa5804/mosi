@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🏳️XX | vless | @V2rayCollectorDonate | 21",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -118,7 +117,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🏳️XX | vless | @V2rayCollectorDonate | 21",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -144,35 +142,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🏳️XX | vless | @azadi_az_inja_migzare | 0",
-            "type": "vless",
-            "server": "[2a01:4f8:c013:13bd:c6::1]",
-            "server_port": 2083,
-            "uuid": "dc4b5be4-bec4-4524-8cf7-d4697dc15e57",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lastsecond.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g_QJhg-HmZB72GG49bcJkg0c0ZOixLMCmvZnJhFoaUA",
-                    "short_id": "456d9a391ac248"
-                }
-            }
         },
         {
             "tag": "🏳️XX | vless | @V2rayCollectorDonate | 21",
