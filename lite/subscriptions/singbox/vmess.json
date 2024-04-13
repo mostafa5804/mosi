@@ -111,9 +111,9 @@
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 40",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇷🇴RO | vmess | @FAKEOFTVC | 3",
+                "🇷🇴RO | vmess | @FAKEOFTVC | 4",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ]
@@ -127,9 +127,9 @@
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 8",
                 "🇫🇮FI | vmess | @ShadowProxy66 | 40",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇻🇳VN | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇷🇴RO | vmess | @FAKEOFTVC | 3",
+                "🇷🇴RO | vmess | @FAKEOFTVC | 4",
                 "🇨🇦CA | vmess | @eliya_chiter0 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ],
@@ -263,11 +263,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
+            "tag": "🇻🇳VN | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "47.76.35.246",
-            "server_port": 24101,
-            "uuid": "2fbf5c4d-4748-4064-d02e-af9e5c6be060",
+            "server": "103.173.254.106",
+            "server_port": 1850,
+            "uuid": "c6c1f641-651f-4781-b9e2-c4e4858a619a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -278,11 +278,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/zh-cn",
                 "headers": {
-                    "Host": ""
+                    "Host": "www.microsoft.com"
                 }
             }
         },
@@ -321,7 +331,7 @@
             }
         },
         {
-            "tag": "🇷🇴RO | vmess | @FAKEOFTVC | 3",
+            "tag": "🇷🇴RO | vmess | @FAKEOFTVC | 4",
             "type": "vmess",
             "server": "89.213.174.227",
             "server_port": 3056,
