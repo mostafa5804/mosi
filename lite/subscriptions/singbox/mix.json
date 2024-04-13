@@ -119,7 +119,6 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇮🇷IR | vless | @DarkTeam_VPN | 1",
                 "🇨🇦CA | vless | @proxy_kafee | 12",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
@@ -153,7 +152,7 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -167,7 +166,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 3",
-                "🇸🇪SE | vless | @mehrosaboran | 7",
+                "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 1",
@@ -203,7 +202,6 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 12",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
-                "🇮🇷IR | vless | @DarkTeam_VPN | 1",
                 "🇨🇦CA | vless | @proxy_kafee | 12",
                 "🇨🇦CA | vless | @v2logy | 7",
                 "🇨🇦CA | vless | @Watashi_VPN | 0",
@@ -237,7 +235,7 @@
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -251,7 +249,7 @@
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇷🇴RO | vmess | @FAKEOFTVC | 3",
-                "🇸🇪SE | vless | @mehrosaboran | 7",
+                "🇸🇪SE | vless | @mehrosaboran | 8",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇨🇦CA | vless | @proxy_mtm | 1",
@@ -625,27 +623,6 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @DarkTeam_VPN | 1",
-            "type": "vless",
-            "server": "Nh.turboo-server.pro",
-            "server_port": 443,
-            "uuid": "turboo-server",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Nh.turboo-server.pro"
                 }
             }
         },
@@ -1485,11 +1462,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.24.177.7",
-            "server_port": 80,
-            "uuid": "aabc3ef9-6968-4311-81b8-8cd0414c1904",
+            "server": "172.67.84.80",
+            "server_port": 2096,
+            "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1497,11 +1474,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpnct.arvancode.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/\/",
+                "path": "\/Path\/Telegram@Free_V2rng\/",
                 "headers": {
-                    "Host": "104.24.177.7"
+                    "Host": "vpnct.arvancode.eu.org"
                 }
             }
         },
@@ -1604,9 +1591,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "108.61.84.6",
-            "server_port": 15937,
-            "uuid": "ef239c2f-9105-4cf9-c99c-b70d25982390",
+            "server": "207.148.31.167",
+            "server_port": 30587,
+            "uuid": "55219214-9f2d-4914-fbaf-b1b444c85b0e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1852,7 +1839,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 7",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
@@ -2131,7 +2118,7 @@
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 80,
-            "uuid": "SVNTEAMm",
+            "uuid": "SVNTEAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
