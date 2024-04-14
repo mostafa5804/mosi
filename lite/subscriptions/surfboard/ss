@@ -12,10 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇦🇹AT | ss | @OutlineVpnOfficial | 17 = ss, 212.113.106.243, 13022, encrypt-method = chacha20-ietf-poly1305, password = w5drAL7PfCIwQ2ycUuoDsV2Ls
+🇦🇪AE | ss | @FAKEOFTVC | 3 = ss, series-a2.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇦🇹AT | ss | @OutlineVpnOfficial | 17
-URL-TEST = url-test,🇦🇹AT | ss | @OutlineVpnOfficial | 17
-FALLBACK = fallback,🇦🇹AT | ss | @OutlineVpnOfficial | 17
+MANUAL = select,URL-TEST,FALLBACK,🇦🇹AT | ss | @OutlineVpnOfficial | 17,🇦🇪AE | ss | @FAKEOFTVC | 3
+URL-TEST = url-test,🇦🇹AT | ss | @OutlineVpnOfficial | 17,🇦🇪AE | ss | @FAKEOFTVC | 3
+FALLBACK = fallback,🇦🇹AT | ss | @OutlineVpnOfficial | 17,🇦🇪AE | ss | @FAKEOFTVC | 3
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
