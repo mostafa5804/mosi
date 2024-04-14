@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇫🇮FI | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 6"
+                "🇺🇸US | vmess | @ROMAX_VPN | 7"
             ]
         },
         {
@@ -123,13 +123,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇫🇮FI | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇺🇸US | vmess | @ROMAX_VPN | 6"
+                "🇺🇸US | vmess | @ROMAX_VPN | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -193,11 +193,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "45.14.244.133",
-            "server_port": 2024,
-            "uuid": "bf1dd328-a605-48fd-918f-44cca1cfe07f",
+            "server": "104.21.44.64",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,11 +208,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "kellie.makeup"
                 }
             }
         },
@@ -285,11 +295,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "65.109.199.41",
-            "server_port": 4598,
-            "uuid": "5b68925d-4bb4-4ea1-e7a0-eb8dcff28b5d",
+            "server": "172.67.204.84",
+            "server_port": 2096,
+            "uuid": "5c7e4ee9-4e78-49c3-bc3c-dff6aa2d0b8b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -299,6 +309,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fragment2.karop.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNHOMES",
+                "headers": {
+                    "Host": "fragment2.karop.homes"
+                }
             }
         },
         {
@@ -370,7 +397,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 6",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 7",
             "type": "vmess",
             "server": "iran-011-join.outline-vpn.cloud",
             "server_port": 443,

@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
+                "🇫🇮FI | vless | @ARv2ray | 18",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -117,7 +118,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
+                "🇫🇮FI | vless | @ARv2ray | 18",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -144,11 +146,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
+            "tag": "🇫🇮FI | vless | @ARv2ray | 18",
             "type": "vless",
-            "server": "178.63.150.70",
-            "server_port": 2096,
-            "uuid": "5c61825d-2c36-4891-adb3-ccbd0d00f324",
+            "server": "135.181.210.55",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -158,7 +160,43 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.discordapp.com",
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "T8CRjZw3YUr_ShWyTwPhk0tVRMo7YRXoawp6jA2kXBc",
+                    "short_id": "62cf3971"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
+            "type": "vless",
+            "server": "95.164.68.37",
+            "server_port": 8443,
+            "uuid": "ce3f2a75-28fe-48f0-a35c-56166017f8d3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.21.70.42",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -167,8 +205,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "zpIenNCQAKGQvOdoUvuhEf-JKotYa5UrP9j9XPodPD0",
-                    "short_id": ""
+                    "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
+                    "short_id": "fabb696169ae2a95"
                 }
             }
         },
