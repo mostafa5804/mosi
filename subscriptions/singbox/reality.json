@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇮🇸IS | vless | @EliV2ray | 1",
                 "🇮🇸IS | vless | @EliV2ray | 7",
-                "🏳️XX | vless | @V2pedia | 27",
-                "🏳️XX | vless | @V2pedia | 35",
-                "🇫🇮FI | vless | @ARv2ray | 11",
+                "🏳️XX | vless | @V2pedia | 29",
+                "🏳️XX | vless | @V2pedia | 32",
+                "🏳️XX | vless | @V2pedia | 40",
+                "🇫🇮FI | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -121,7 +122,7 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 26",
                 "🇩🇪DE | vless | @ShadowProxy66 | 29",
                 "🇫🇮FI | vless | @ShadowProxy66 | 30",
-                "🇩🇪DE | vless | @VmessProtocol | 5",
+                "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🏳️XX | vless | @v2rayng_vpnrog | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -168,9 +169,10 @@
             "outbounds": [
                 "🇮🇸IS | vless | @EliV2ray | 1",
                 "🇮🇸IS | vless | @EliV2ray | 7",
-                "🏳️XX | vless | @V2pedia | 27",
-                "🏳️XX | vless | @V2pedia | 35",
-                "🇫🇮FI | vless | @ARv2ray | 11",
+                "🏳️XX | vless | @V2pedia | 29",
+                "🏳️XX | vless | @V2pedia | 32",
+                "🏳️XX | vless | @V2pedia | 40",
+                "🇫🇮FI | vless | @ARv2ray | 13",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
@@ -181,7 +183,7 @@
                 "🇩🇪DE | vless | @ShadowProxy66 | 26",
                 "🇩🇪DE | vless | @ShadowProxy66 | 29",
                 "🇫🇮FI | vless | @ShadowProxy66 | 30",
-                "🇩🇪DE | vless | @VmessProtocol | 5",
+                "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🏳️XX | vless | @v2rayng_vpnrog | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -314,7 +316,43 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 27",
+            "tag": "🏳️XX | vless | @V2pedia | 29",
+            "type": "vless",
+            "server": "[2a01:4f8:1c1b:223e::1]",
+            "server_port": 25365,
+            "uuid": "045a48ee-04f0-49b0-b9cc-997bd6684fb1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tw5Q89ViqUr1RR398Q3wwcJOqzwlYRDuOczjyFHND0s",
+                    "short_id": "44a02299"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @V2pedia | 32",
             "type": "vless",
             "server": "[2a01:4f8:1c1b:223e::1]",
             "server_port": 25365,
@@ -350,7 +388,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 35",
+            "tag": "🏳️XX | vless | @V2pedia | 40",
             "type": "vless",
             "server": "[2a01:4f8:c2c:3a53::1]",
             "server_port": 25365,
@@ -386,7 +424,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @ARv2ray | 11",
+            "tag": "🇫🇮FI | vless | @ARv2ray | 13",
             "type": "vless",
             "server": "135.181.210.55",
             "server_port": 443,
@@ -719,7 +757,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VmessProtocol | 5",
+            "tag": "🇩🇪DE | vless | @VmessProtocol | 6",
             "type": "vless",
             "server": "95.164.68.37",
             "server_port": 8443,
