@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇹🇷TR | vless | @EliV2ray | 2",
                 "🇮🇸IS | vless | @EliV2ray | 6",
-                "🇮🇸IS | vless | @EliV2ray | 12",
                 "🏳️XX | vless | @V2pedia | 29",
                 "🏳️XX | vless | @V2pedia | 32",
                 "🏳️XX | vless | @V2pedia | 40",
@@ -124,7 +123,6 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 7",
-                "🇫🇷FR | vless | @ConfigsHUB | 1",
                 "🏳️XX | vless | @v2rayng_vpnrog | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -171,7 +169,6 @@
             "outbounds": [
                 "🇹🇷TR | vless | @EliV2ray | 2",
                 "🇮🇸IS | vless | @EliV2ray | 6",
-                "🇮🇸IS | vless | @EliV2ray | 12",
                 "🏳️XX | vless | @V2pedia | 29",
                 "🏳️XX | vless | @V2pedia | 32",
                 "🏳️XX | vless | @V2pedia | 40",
@@ -187,7 +184,6 @@
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 18",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 19",
                 "🇩🇪DE | vless | @VmessProtocol | 7",
-                "🇫🇷FR | vless | @ConfigsHUB | 1",
                 "🏳️XX | vless | @v2rayng_vpnrog | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -285,42 +281,6 @@
         },
         {
             "tag": "🇮🇸IS | vless | @EliV2ray | 6",
-            "type": "vless",
-            "server": "89.221.224.166",
-            "server_port": 8443,
-            "uuid": "7a0f288a-7df3-4f74-a8b2-69d884aebdff",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "172.66.44.245",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lknJ1qdh1naSh-NJX8O7oOdnFov8vOETpy2A6bVtiUk",
-                    "short_id": "8545118da3a60b18"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇸IS | vless | @EliV2ray | 12",
             "type": "vless",
             "server": "89.221.224.166",
             "server_port": 8443,
@@ -822,35 +782,6 @@
                     "enabled": true,
                     "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
                     "short_id": "fabb696169ae2a95"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vless | @ConfigsHUB | 1",
-            "type": "vless",
-            "server": "194.116.214.187",
-            "server_port": 888,
-            "uuid": "31d974e9-6b16-4b29-a7d2-2fb7f4f2e8d5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fortune.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5lB0aSk6YmPH3EpVGeOtEt1glj8GI_V7SZfm6pZ9yEU",
-                    "short_id": "c5010b9e"
                 }
             }
         },
