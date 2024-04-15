@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -126,7 +126,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇺🇸US | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -295,11 +295,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 14",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "144.202.59.26",
-            "server_port": 57061,
-            "uuid": "e90a1709-fd94-44d3-f809-8849837cc2d3",
+            "server": "104.21.15.212",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -309,6 +309,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
             }
         },
         {
