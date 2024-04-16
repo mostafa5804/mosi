@@ -12,13 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @v2ray1_ng | 12 = vmess, 172.67.71.160, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @Hope_Net | 11 = vmess, c2.v2raybrasil.cloud, 2082, username = 009d320a-5960-49e6-99c3-301966ff6fea, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"bbh.redbullplus.xyz", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @Hope_Net | 13 = vmess, c2.v2raybrasil.cloud, 2082, username = 009d320a-5960-49e6-99c3-301966ff6fea, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"bbh.redbullplus.xyz", skip-cert-verify = true, tfo = false
 🇻🇳VN | vmess | @v2Line | 11 = vmess, bs1.loadingip.com, 80, username = 9e5999ba-870a-46b1-8500-37c640371ec6, ws = true, tls = , vmess-aead = true, ws-path = /bs, ws-headers = Host:"bs1.loadingip.com", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @nofiltering2 | 1 = vmess, 104.21.83.108, 443, username = 6c168fcc-2231-4f3b-8c1e-f6391692df4a, ws = true, tls = 1, vmess-aead = true, ws-path = /link, ws-headers = Host:"hms02.fxiaomi.sbs", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @v2ray1_ng | 12,🇨🇦CA | vmess | @Hope_Net | 11,🇻🇳VN | vmess | @v2Line | 11,🇨🇦CA | vmess | @nofiltering2 | 1
-URL-TEST = url-test,🇨🇦CA | vmess | @v2ray1_ng | 12,🇨🇦CA | vmess | @Hope_Net | 11,🇻🇳VN | vmess | @v2Line | 11,🇨🇦CA | vmess | @nofiltering2 | 1
-FALLBACK = fallback,🇨🇦CA | vmess | @v2ray1_ng | 12,🇨🇦CA | vmess | @Hope_Net | 11,🇻🇳VN | vmess | @v2Line | 11,🇨🇦CA | vmess | @nofiltering2 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @v2ray1_ng | 12,🇨🇦CA | vmess | @Hope_Net | 13,🇻🇳VN | vmess | @v2Line | 11,🇨🇦CA | vmess | @nofiltering2 | 1
+URL-TEST = url-test,🇨🇦CA | vmess | @v2ray1_ng | 12,🇨🇦CA | vmess | @Hope_Net | 13,🇻🇳VN | vmess | @v2Line | 11,🇨🇦CA | vmess | @nofiltering2 | 1
+FALLBACK = fallback,🇨🇦CA | vmess | @v2ray1_ng | 12,🇨🇦CA | vmess | @Hope_Net | 13,🇻🇳VN | vmess | @v2Line | 11,🇨🇦CA | vmess | @nofiltering2 | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
