@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -241,7 +241,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
@@ -1561,13 +1561,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "tere.minusober.com",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "nicola.pics",
             "server_port": 443,
-            "uuid": "c49ad197-37b6-40a7-971d-05e6e8a0bdac",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1575,7 +1578,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tere.minusober.com",
+                "server_name": "nicola.pics",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1585,9 +1588,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/tere",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": "tere.minusober.com"
+                    "Host": "nicola.pics"
                 }
             }
         },
