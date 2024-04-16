@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 13",
-                "🇻🇳VN | vmess | @v2Line | 11"
+                "🇨🇦CA | vmess | @v2Line | 11"
             ]
         },
         {
@@ -125,7 +125,7 @@
                 "🇨🇦CA | vmess | @v2ray1_ng | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @Hope_Net | 13",
-                "🇻🇳VN | vmess | @v2Line | 11"
+                "🇨🇦CA | vmess | @v2Line | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -308,11 +308,11 @@
             }
         },
         {
-            "tag": "🇻🇳VN | vmess | @v2Line | 11",
+            "tag": "🇨🇦CA | vmess | @v2Line | 11",
             "type": "vmess",
-            "server": "bs1.loadingip.com",
-            "server_port": 80,
-            "uuid": "9e5999ba-870a-46b1-8500-37c640371ec6",
+            "server": "505.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -323,11 +323,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/bs",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "kellie.makeup"
                 }
             }
         }
