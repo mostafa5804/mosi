@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @DailyV2RY | 144",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -117,6 +118,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @DailyV2RY | 144",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -142,6 +144,42 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 144",
+            "type": "vless",
+            "server": "91.107.132.182",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oM6E65KOfc3KT7zaX3dX9MQ73foWOxaC5IEb-anN4gM",
+                    "short_id": "f58ed9db"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🏳️XX | vless | @v2rayng_vpnrog | 6",
