@@ -122,7 +122,6 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"hkjcdn03.dorabbb.top","port":"44827","cipher":"auto","uuid":"40c58958-2432-4f60-9b5d-746f9cded85f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 10","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
   - {"name":"🇨🇦CA | vmess | @v2ray1_ng | 12","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
-  - {"name":"🇨🇦CA | vmess | @Hope_Net | 14","type":"vmess","server":"sy4.610710.xyz","port":443,"cipher":"auto","uuid":"0200841c-53bb-4a08-aaaf-c149225b4473","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"sy4.610710.xyz"}}}
   - {"name":"🇻🇳VN | vmess | @v2Line | 11","type":"vmess","server":"bs1.loadingip.com","port":"80","cipher":"auto","uuid":"9e5999ba-870a-46b1-8500-37c640371ec6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bs","headers":{"host":"bs1.loadingip.com"}}}
 proxy-groups:
   - name: MANUAL
@@ -134,7 +133,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
       - '🇨🇦CA | vmess | @v2ray1_ng | 12'
-      - '🇨🇦CA | vmess | @Hope_Net | 14'
       - '🇻🇳VN | vmess | @v2Line | 11'
   - name: URL-TEST
     type: url-test
@@ -146,7 +144,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
       - '🇨🇦CA | vmess | @v2ray1_ng | 12'
-      - '🇨🇦CA | vmess | @Hope_Net | 14'
       - '🇻🇳VN | vmess | @v2Line | 11'
   - name: FALLBACK
     type: fallback
@@ -157,7 +154,6 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
       - '🇨🇦CA | vmess | @v2ray1_ng | 12'
-      - '🇨🇦CA | vmess | @Hope_Net | 14'
       - '🇻🇳VN | vmess | @v2Line | 11'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
