@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 0",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 1",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 2",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 3",
@@ -117,8 +118,6 @@
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 11",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 12",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 13",
-                "🇫🇮FI | ss | @OutlineVpnOfficial | 14",
-                "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
                 "🏳️XX | ss | @kingofilter | 0",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
                 "🇦🇪AE | ss | @ROMAX_VPN | 3"
@@ -128,6 +127,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 0",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 1",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 2",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 3",
@@ -139,8 +139,6 @@
                 "🇮🇱IL | ss | @OutlineVpnOfficial | 11",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 12",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 13",
-                "🇫🇮FI | ss | @OutlineVpnOfficial | 14",
-                "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
                 "🏳️XX | ss | @kingofilter | 0",
                 "🇬🇧GB | ss | @ROMAX_VPN | 0",
                 "🇦🇪AE | ss | @ROMAX_VPN | 3"
@@ -164,6 +162,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 0",
+            "type": "shadowsocks",
+            "server": "51.68.206.229",
+            "server_port": 8080,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 1",
@@ -272,26 +280,6 @@
             "server_port": 8009,
             "method": "aes-256-gcm",
             "password": "XKFKl2rULjIp74",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 14",
-            "type": "shadowsocks",
-            "server": "fl3.dart-vpn.com",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "X7eoEBrARWsBUiVfchVEdH",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
-            "type": "shadowsocks",
-            "server": "193.228.128.143",
-            "server_port": 27981,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4pWVbIVIuw4LK9wvMgcHW5",
             "plugin": "",
             "plugin_opts": ""
         },
