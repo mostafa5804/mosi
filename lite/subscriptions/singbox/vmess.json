@@ -110,9 +110,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 11",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇨🇦CA | vmess | @nofiltering2 | 1"
+                "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
         },
         {
@@ -123,9 +123,9 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 11",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇨🇦CA | vmess | @nofiltering2 | 1"
+                "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -250,11 +250,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 11",
+            "tag": "🏳️XX | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "onea.flha.ru",
-            "server_port": 2095,
-            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
+            "server": "megaan.homes",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -265,11 +265,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "megaan.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "megaan.homes"
                 }
             }
         },
@@ -308,7 +318,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇨🇦CA | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
