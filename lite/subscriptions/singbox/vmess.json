@@ -110,7 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇩🇪DE | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -124,7 +124,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇩🇪DE | vmess | @Hope_Net | 14",
+                "🇨🇦CA | vmess | @Hope_Net | 13",
                 "🇻🇳VN | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -235,11 +235,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 14",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "92.223.124.36",
-            "server_port": 80,
-            "uuid": "0688b7c7-72e9-442e-95a0-d3b950028c39",
+            "server": "s2.610710.xyz",
+            "server_port": 8443,
+            "uuid": "0200841c-53bb-4a08-aaaf-c149225b4473",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -250,11 +250,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "s2.610710.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@forwardv2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "s2.610710.xyz"
                 }
             }
         },
