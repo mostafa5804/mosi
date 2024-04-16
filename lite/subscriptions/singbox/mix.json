@@ -140,7 +140,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 194",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
-                "🇨🇦CA | vless | @vmessorg | 31",
+                "🇨🇦CA | vless | @vmessorg | 34",
                 "🇳🇱NL | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 11",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @prrofile_purple | 194",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 15",
-                "🇨🇦CA | vless | @vmessorg | 31",
+                "🇨🇦CA | vless | @vmessorg | 34",
                 "🇳🇱NL | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 46",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🏳️XX | vmess | @Hope_Net | 11",
@@ -1170,7 +1170,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 31",
+            "tag": "🇨🇦CA | vless | @vmessorg | 34",
             "type": "vless",
             "server": "104.24.48.156",
             "server_port": 80,
@@ -1555,26 +1555,33 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "cfcdn3.sanfencdn9.com",
-            "server_port": 80,
-            "uuid": "d0a3e08a-d26f-45bd-ba3c-6387f9182633",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "104.17.0.11",
+            "server_port": 443,
+            "uuid": "3554d65d-738b-474c-80ea-ebf1e26f5a08",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "confingland-uae.pages.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/ibCT6z55",
+                "path": "\/",
                 "headers": {
-                    "Host": "cfcdn3.sanfencdn9.com"
+                    "Host": "confingland-uae.pages.Dev"
                 }
             }
         },
