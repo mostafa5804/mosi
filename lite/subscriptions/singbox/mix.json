@@ -152,13 +152,14 @@
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 148",
+                "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
-                "🇭🇰HK | vmess | @Hope_Net | 16",
+                "🇮🇷IR | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
@@ -235,13 +236,14 @@
                 "🇸🇪SE | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇨🇦CA | vless | @DailyV2RY | 148",
+                "🇨🇦CA | vless | @sinabigo | 3",
                 "🇨🇦CA | vless | @lrnbymaa | 5",
                 "🇪🇪EE | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | vmess | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
                 "🇮🇷IR | vless | @free1_vpn | 0",
-                "🇭🇰HK | vmess | @Hope_Net | 16",
+                "🇮🇷IR | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vless | @polproxy | 11",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
@@ -1484,6 +1486,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @sinabigo | 3",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 80,
+            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Path\/Telegram@SINABIGO\/",
+                "headers": {
+                    "Host": "104.18.202.232"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @lrnbymaa | 5",
             "type": "vless",
             "server": "discord.gg",
@@ -1515,12 +1538,12 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.zula.ir",
+            "server": "www.morfin.bio",
             "server_port": 443,
-            "uuid": "ffffffff-bf32-4282-b875-eca220008daf",
-            "flow": "",
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1529,20 +1552,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "f.auto.r.exit.e.e.watashi-java.ir",
+                "server_name": "wordpress.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UmGQyKVfszWt9n_h-jXAXlh9xbaXpbvhgSL8YJ3yTSM",
+                    "short_id": "4a96ee77"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Path\/Telegram@proxy_mtm\/",
-                "headers": {
-                    "Host": "f.auto.r.exit.e.e.watashi-java.ir"
-                }
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1628,11 +1656,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 16",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "47.242.22.171",
-            "server_port": 28681,
-            "uuid": "3b1072ce-d096-46c2-a3e7-08b4f58538f5",
+            "server": "217.219.212.36",
+            "server_port": 420,
+            "uuid": "95c0dd17-eaa4-476e-8ecd-83a26cde7aa7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1642,13 +1670,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
