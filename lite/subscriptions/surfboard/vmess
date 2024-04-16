@@ -12,12 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @oneclickvpnkeys | 10 = vmess, 104.21.83.108, 443, username = 6c168fcc-2231-4f3b-8c1e-f6391692df4a, ws = true, tls = 1, vmess-aead = true, ws-path = /link, ws-headers = Host:"hms02.fxiaomi.sbs", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @v2ray1_ng | 12 = vmess, 172.67.71.160, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @Hope_Net | 12 = vmess, 104.21.44.106, 443, username = 93ea486a-bada-42a4-ac38-d088b320fa1e, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"xmivideo.cfd", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @Hope_Net | 10 = vmess, de01.appleid.bf, 2086, username = 1fbcc8a4-1f4d-49e8-9087-945cedee1072, ws = true, tls = , vmess-aead = true, ws-path = /ws?ed=2048, ws-headers = Host:"de01.appleid.bf", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @v2ray1_ng | 12,🇨🇦CA | vmess | @Hope_Net | 12
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @v2ray1_ng | 12,🇨🇦CA | vmess | @Hope_Net | 12
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @v2ray1_ng | 12,🇨🇦CA | vmess | @Hope_Net | 12
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @Hope_Net | 10
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @Hope_Net | 10
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @Hope_Net | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

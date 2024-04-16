@@ -121,8 +121,7 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"hkjcdn03.dorabbb.top","port":"44827","cipher":"auto","uuid":"40c58958-2432-4f60-9b5d-746f9cded85f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 10","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
-  - {"name":"🇨🇦CA | vmess | @v2ray1_ng | 12","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
-  - {"name":"🇨🇦CA | vmess | @Hope_Net | 12","type":"vmess","server":"104.21.44.106","port":"443","cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
+  - {"name":"🇨🇦CA | vmess | @Hope_Net | 10","type":"vmess","server":"de01.appleid.bf","port":"2086","cipher":"auto","uuid":"1fbcc8a4-1f4d-49e8-9087-945cedee1072","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"de01.appleid.bf"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -132,8 +131,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
-      - '🇨🇦CA | vmess | @v2ray1_ng | 12'
-      - '🇨🇦CA | vmess | @Hope_Net | 12'
+      - '🇨🇦CA | vmess | @Hope_Net | 10'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -143,8 +141,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
-      - '🇨🇦CA | vmess | @v2ray1_ng | 12'
-      - '🇨🇦CA | vmess | @Hope_Net | 12'
+      - '🇨🇦CA | vmess | @Hope_Net | 10'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -153,8 +150,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 10'
-      - '🇨🇦CA | vmess | @v2ray1_ng | 12'
-      - '🇨🇦CA | vmess | @Hope_Net | 12'
+      - '🇨🇦CA | vmess | @Hope_Net | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
