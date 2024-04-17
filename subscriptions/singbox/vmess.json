@@ -134,8 +134,9 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🏳️XX | vmess | @DailyV2RY | 150",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
+                "🇮🇷IR | vmess | @proxyymeliii | 3",
+                "🇺🇸US | vmess | @ConfigsHUB | 6",
+                "🇺🇸US | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @yaney_01 | 2",
@@ -195,8 +196,9 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 32",
                 "🇺🇸US | vmess | @ShadowProxy66 | 33",
-                "🏳️XX | vmess | @DailyV2RY | 150",
-                "🇺🇸US | vmess | @ConfigsHUB | 15",
+                "🇮🇷IR | vmess | @proxyymeliii | 3",
+                "🇺🇸US | vmess | @ConfigsHUB | 6",
+                "🇺🇸US | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
                 "🏳️XX | vmess | @yaney_01 | 2",
@@ -913,11 +915,28 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 150",
+            "tag": "🇮🇷IR | vmess | @proxyymeliii | 3",
             "type": "vmess",
-            "server": "vmess.diskstation.eu",
-            "server_port": 2086,
-            "uuid": "7d93e992-48cf-42d4-84f8-75768e815a4c",
+            "server": "217.219.212.8",
+            "server_port": 420,
+            "uuid": "95c0dd17-eaa4-476e-8ecd-83a26cde7aa7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 6",
+            "type": "vmess",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -928,20 +947,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 15",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 13",
             "type": "vmess",
-            "server": "143.244.153.8",
-            "server_port": 80,
-            "uuid": "003d8cf3-8a1c-4aa5-a87a-feb24452f742",
+            "server": "maxin.beauty",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -952,11 +981,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "maxin.beauty",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "maxin.beauty"
                 }
             }
         },
