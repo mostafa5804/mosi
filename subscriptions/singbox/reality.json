@@ -121,8 +121,6 @@
                 "🇩🇪DE | vless | @VmessProtocol | 2",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
                 "🇺🇸US | vless | @DailyV2RY | 153",
-                "🇩🇪DE | vless | @ConfigsHUB | 5",
-                "🇫🇮FI | vless | @ConfigsHUB | 10",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -178,8 +176,6 @@
                 "🇩🇪DE | vless | @VmessProtocol | 2",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
                 "🇺🇸US | vless | @DailyV2RY | 153",
-                "🇩🇪DE | vless | @ConfigsHUB | 5",
-                "🇫🇮FI | vless | @ConfigsHUB | 10",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -710,71 +706,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 5",
-            "type": "vless",
-            "server": "v62.rid2.tech",
-            "server_port": 53738,
-            "uuid": "d2dc05c9-9f41-4c4f-ab0f-c1e4e5dcaa1d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-dm1-4Eqpep-XzWg5h7KYrgsKADuNMN0FCAU1vrheH8",
-                    "short_id": "24424cdb"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "r",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "download.vindonews.com.tr",
-            "server_port": 443,
-            "uuid": "74075426-1dbb-43fc-bd60-7a7fb2151520",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "guardianproject.info",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ZYFWR89vaUxldaBGoIvpIoPRJeI_58ssdW_p6fKJLyc",
-                    "short_id": "1a02ea585ec440"
-                }
             }
         },
         {
