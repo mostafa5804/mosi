@@ -11,15 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | trojan | @PrivateVPNs | 19 = trojan, 52.47.90.31, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇮🇪IE | trojan | @DirectVPN | 19 = trojan, 52.208.92.165, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 19 = trojan, 35.181.31.39, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇨🇦CA | trojan | @DirectVPN | 19 = trojan, 15.156.98.68, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇫🇷FR | ss | @OutlineVpnOfficial | 15 = ss, 149.202.82.172, 8009, encrypt-method = aes-256-gcm, password = XKFKl2rULjIp74
 🇨🇦CA | vmess | @nofiltering2 | 3 = vmess, 104.21.83.108, 443, username = 6c168fcc-2231-4f3b-8c1e-f6391692df4a, ws = true, tls = 1, vmess-aead = true, ws-path = /link, ws-headers = Host:"hms02.fxiaomi.sbs", skip-cert-verify = true, tfo = false
 🏳️XX | ss | @kingofilter | 1 = ss, 13.vip-archive69.site, 443, encrypt-method = chacha20-ietf-poly1305, password = telegram-id-Alfred-Config
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇫🇷FR | ss | @OutlineVpnOfficial | 15,🇨🇦CA | vmess | @nofiltering2 | 3,🏳️XX | ss | @kingofilter | 1
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇫🇷FR | ss | @OutlineVpnOfficial | 15,🇨🇦CA | vmess | @nofiltering2 | 3,🏳️XX | ss | @kingofilter | 1
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇫🇷FR | ss | @OutlineVpnOfficial | 15,🇨🇦CA | vmess | @nofiltering2 | 3,🏳️XX | ss | @kingofilter | 1
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇫🇷FR | ss | @OutlineVpnOfficial | 15,🇨🇦CA | vmess | @nofiltering2 | 3,🏳️XX | ss | @kingofilter | 1
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇫🇷FR | ss | @OutlineVpnOfficial | 15,🇨🇦CA | vmess | @nofiltering2 | 3,🏳️XX | ss | @kingofilter | 1
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 19,🇨🇦CA | trojan | @DirectVPN | 19,🇫🇷FR | ss | @OutlineVpnOfficial | 15,🇨🇦CA | vmess | @nofiltering2 | 3,🏳️XX | ss | @kingofilter | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
