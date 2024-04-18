@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @DailyV2RY | 108",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -123,11 +124,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @DailyV2RY | 108",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -183,6 +185,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 7",
+            "type": "vmess",
+            "server": "hms082.gwdef.sbs",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
             }
         },
         {
@@ -305,11 +341,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "maxin.beauty",
+            "server": "slime-rhinestone-spy.glitch.me",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "1d5fb496-19fb-48fb-9880-a147326dee62",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -322,7 +358,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "maxin.beauty",
+                "server_name": "slime-rhinestone-spy.glitch.me",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -332,9 +368,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/1d5fb496-19fb-48fb-9880-a147326dee62-vmess",
                 "headers": {
-                    "Host": "maxin.beauty"
+                    "Host": "slime-rhinestone-spy.glitch.me"
                 }
             }
         },
