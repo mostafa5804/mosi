@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇩🇪DE | vmess | @Hope_Net | 12",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @V2rayng_Fast | 0",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇩🇪DE | vmess | @Hope_Net | 12",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -305,11 +305,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 12",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "92.223.124.36",
-            "server_port": 80,
-            "uuid": "0688b7c7-72e9-442e-95a0-d3b950028c39",
+            "server": "maxin.beauty",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -320,11 +320,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "maxin.beauty",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@forwardv2ray",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "maxin.beauty"
                 }
             }
         },
