@@ -106,9 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 1",
-                "🇮🇸IS | vless | @EliV2ray | 2",
-                "🇹🇷TR | vless | @EliV2ray | 12",
+                "🇩🇪DE | vless | @EliV2ray | 3",
+                "🇫🇷FR | vless | @EliV2ray | 4",
+                "🇮🇸IS | vless | @EliV2ray | 5",
+                "🇹🇷TR | vless | @EliV2ray | 15",
                 "🏳️XX | vless | @V2pedia | 40",
                 "🏳️XX | vless | @V2pedia | 46",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
@@ -123,7 +124,7 @@
                 "🇫🇷FR | vless | @ShadowProxy66 | 29",
                 "🇩🇪DE | vless | @VmessProtocol | 2",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
-                "🇩🇪DE | vless | @DailyV2RY | 100",
+                "🇩🇪DE | vless | @DailyV2RY | 110",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -164,9 +165,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 1",
-                "🇮🇸IS | vless | @EliV2ray | 2",
-                "🇹🇷TR | vless | @EliV2ray | 12",
+                "🇩🇪DE | vless | @EliV2ray | 3",
+                "🇫🇷FR | vless | @EliV2ray | 4",
+                "🇮🇸IS | vless | @EliV2ray | 5",
+                "🇹🇷TR | vless | @EliV2ray | 15",
                 "🏳️XX | vless | @V2pedia | 40",
                 "🏳️XX | vless | @V2pedia | 46",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
@@ -181,7 +183,7 @@
                 "🇫🇷FR | vless | @ShadowProxy66 | 29",
                 "🇩🇪DE | vless | @VmessProtocol | 2",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
-                "🇩🇪DE | vless | @DailyV2RY | 100",
+                "🇩🇪DE | vless | @DailyV2RY | 110",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -238,7 +240,43 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 1",
+            "tag": "🇩🇪DE | vless | @EliV2ray | 3",
+            "type": "vless",
+            "server": "91.107.190.188",
+            "server_port": 53738,
+            "uuid": "d2dc05c9-9f41-4c4f-ab0f-c1e4e5dcaa1d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-dm1-4Eqpep-XzWg5h7KYrgsKADuNMN0FCAU1vrheH8",
+                    "short_id": "24424cdb"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "r",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vless | @EliV2ray | 4",
             "type": "vless",
             "server": "185.234.64.35",
             "server_port": 8443,
@@ -274,7 +312,7 @@
             }
         },
         {
-            "tag": "🇮🇸IS | vless | @EliV2ray | 2",
+            "tag": "🇮🇸IS | vless | @EliV2ray | 5",
             "type": "vless",
             "server": "89.221.224.166",
             "server_port": 8443,
@@ -310,7 +348,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @EliV2ray | 12",
+            "tag": "🇹🇷TR | vless | @EliV2ray | 15",
             "type": "vless",
             "server": "216.9.226.229",
             "server_port": 443,
@@ -780,7 +818,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @DailyV2RY | 100",
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 110",
             "type": "vless",
             "server": "www.morfin.bio",
             "server_port": 443,
