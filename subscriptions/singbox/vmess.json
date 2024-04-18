@@ -141,7 +141,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 24",
                 "🇺🇸US | vmess | @ShadowProxy66 | 28",
                 "🏳️XX | vmess | @DailyV2RY | 127",
-                "🇺🇸US | vmess | @ConfigsHUB | 14",
+                "🇺🇸US | vmess | @ConfigsHUB | 5",
+                "🇺🇸US | vmess | @ConfigsHUB | 12",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
@@ -208,7 +209,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 24",
                 "🇺🇸US | vmess | @ShadowProxy66 | 28",
                 "🏳️XX | vmess | @DailyV2RY | 127",
-                "🇺🇸US | vmess | @ConfigsHUB | 14",
+                "🇺🇸US | vmess | @ConfigsHUB | 5",
+                "🇺🇸US | vmess | @ConfigsHUB | 12",
                 "🇮🇷IR | vmess | @proxystore11 | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 0",
                 "🇺🇸US | vmess | @yaney_01 | 1",
@@ -1102,11 +1104,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 14",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 5",
             "type": "vmess",
-            "server": "64.176.216.199",
-            "server_port": 36159,
-            "uuid": "4826d728-48f9-43d1-aa1f-27b6850cd8a1",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1116,6 +1118,57 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 12",
+            "type": "vmess",
+            "server": "172.67.174.42",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
             }
         },
         {
