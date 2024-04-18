@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 138",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -221,7 +221,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 11",
                 "🇨🇦CA | vless | @VmessProtocol | 15",
                 "🇸🇪SE | vless | @DailyV2RY | 138",
-                "🇨🇦CA | vless | @sinabigo | 5",
+                "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 6",
                 "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @polproxy | 5",
@@ -1344,11 +1344,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 5",
+            "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
-            "server": "104.18.202.231",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "server": "104.31.16.162",
+            "server_port": 2083,
+            "uuid": "ffffffff-17ad-45e7-aaa1-f2baaa08e930",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1356,11 +1356,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "watashi.free.jppublic.moh539.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Path\/Telegram@SINABIGO\/",
+                "path": "\/Telegram@SINABIGO\/",
                 "headers": {
-                    "Host": "104.18.202.231"
+                    "Host": "watashi.free.jppublic.moh539.link"
                 }
             }
         },
