@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
-                "🇸🇪SE | vless | @lightning6 | 21",
+                "🇸🇪SE | vless | @lightning6 | 20",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 8",
@@ -157,7 +157,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | trojan | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇹🇷TR | vmess | @Hope_Net | 14",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @Lockey_vpn | 14",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇸🇪SE | vless | @free_v2rayyy | 7",
-                "🇸🇪SE | vless | @lightning6 | 21",
+                "🇸🇪SE | vless | @lightning6 | 20",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 8",
@@ -243,7 +243,7 @@
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇮🇳IN | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | trojan | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇹🇷TR | vmess | @Hope_Net | 14",
@@ -662,11 +662,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lightning6 | 21",
+            "tag": "🇸🇪SE | vless | @lightning6 | 20",
             "type": "vless",
             "server": "LIGHTNING6-joinbede.filj.top",
             "server_port": 8880,
-            "uuid": "dadc9927-28d1-4506-bf13-c1392bddd6db",
+            "uuid": "5102df3a-77c9-4a34-95a2-413ee12c1447",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1536,11 +1536,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "16.171.216.92",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "172.66.46.254",
+            "server_port": 443,
+            "uuid": "287da188-b495-4a96-8e4e-309e8513b9a7",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1548,12 +1550,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "e5a2bf01.expressvpnfree021.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "e5a2bf01.expressvpnfree021.pages.dev"
                 }
             }
         },
