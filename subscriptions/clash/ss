@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 10","type":"ss","server":"142.171.184.196","port":80,"password":"GJELCjP9Zu","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US | ss | @DeamNet_Proxy | 14","type":"ss","server":"142.171.184.196","port":80,"password":"GJELCjP9Zu","cipher":"aes-256-gcm"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 1","type":"ss","server":"51.77.53.200","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 2","type":"ss","server":"88.210.6.98","port":60869,"password":"lPT3Mi25IXYP3iWzPJaryQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇰🇿KZ | ss | @OutlineVpnOfficial | 3","type":"ss","server":"95.164.19.233","port":17038,"password":"q06CbkhVXx7XVv0D","cipher":"aes-256-gcm"}
@@ -132,7 +132,7 @@ proxies:
   - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 13","type":"ss","server":"141.11.189.55","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇳IN | ss | @OutlineVpnOfficial | 15","type":"ss","server":"209.182.232.30","port":51348,"password":"9NJugkSe6yoPFJiS4dvLRRg07K92JEvAJSRfLr75VHxd7KM5","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @proxy_mtm | 1","type":"ss","server":"[2a0d:c740:3c:1::4d56:7f45]","port":47529,"password":"@GetNetworkBot","cipher":"aes-256-gcm"}
-  - {"name":"🏳️XX | ss | @kingofilter | 1","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @kingofilter | 2","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 1","type":"ss","server":"account-mec.emofid.co","port":443,"password":"7ivrGEHY88sQk3DP","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -140,7 +140,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | ss | @DeamNet_Proxy | 10'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 14'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 2'
       - '🇰🇿KZ | ss | @OutlineVpnOfficial | 3'
@@ -154,7 +154,7 @@ proxy-groups:
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 13'
       - '🇮🇳IN | ss | @OutlineVpnOfficial | 15'
       - '🏳️XX | ss | @proxy_mtm | 1'
-      - '🏳️XX | ss | @kingofilter | 1'
+      - '🏳️XX | ss | @kingofilter | 2'
       - '🇬🇧GB | ss | @ROMAX_VPN | 1'
   - name: URL-TEST
     type: url-test
@@ -162,7 +162,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | ss | @DeamNet_Proxy | 10'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 14'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 2'
       - '🇰🇿KZ | ss | @OutlineVpnOfficial | 3'
@@ -176,14 +176,14 @@ proxy-groups:
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 13'
       - '🇮🇳IN | ss | @OutlineVpnOfficial | 15'
       - '🏳️XX | ss | @proxy_mtm | 1'
-      - '🏳️XX | ss | @kingofilter | 1'
+      - '🏳️XX | ss | @kingofilter | 2'
       - '🇬🇧GB | ss | @ROMAX_VPN | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | ss | @DeamNet_Proxy | 10'
+      - '🇺🇸US | ss | @DeamNet_Proxy | 14'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 1'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 2'
       - '🇰🇿KZ | ss | @OutlineVpnOfficial | 3'
@@ -197,7 +197,7 @@ proxy-groups:
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 13'
       - '🇮🇳IN | ss | @OutlineVpnOfficial | 15'
       - '🏳️XX | ss | @proxy_mtm | 1'
-      - '🏳️XX | ss | @kingofilter | 1'
+      - '🏳️XX | ss | @kingofilter | 2'
       - '🇬🇧GB | ss | @ROMAX_VPN | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
