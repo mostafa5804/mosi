@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇮🇳IN | ss | @OutlineVpnOfficial | 15","type":"ss","server":"209.182.232.30","port":51348,"password":"9NJugkSe6yoPFJiS4dvLRRg07K92JEvAJSRfLr75VHxd7KM5","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🏳️XX | ss | @kingofilter | 1","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🏳️XX | ss | @kingofilter | 2","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +129,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇮🇳IN | ss | @OutlineVpnOfficial | 15'
-      - '🏳️XX | ss | @kingofilter | 1'
+      - '🏳️XX | ss | @kingofilter | 2'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,14 +137,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇮🇳IN | ss | @OutlineVpnOfficial | 15'
-      - '🏳️XX | ss | @kingofilter | 1'
+      - '🏳️XX | ss | @kingofilter | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇮🇳IN | ss | @OutlineVpnOfficial | 15'
-      - '🏳️XX | ss | @kingofilter | 1'
+      - '🏳️XX | ss | @kingofilter | 2'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
