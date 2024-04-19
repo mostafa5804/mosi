@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇵🇹PT | vmess | @DeamNet_Proxy | 18",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 11",
+                "🇳🇱NL | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -123,11 +124,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇵🇹PT | vmess | @DeamNet_Proxy | 18",
                 "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 11",
+                "🇳🇱NL | vmess | @Hope_Net | 13",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -189,6 +191,30 @@
                 "path": "\/debian",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇵🇹PT | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "94.131.10.135",
+            "server_port": 8080,
+            "uuid": "e2021c91-6e29-49d6-9641-14a8f2600e05",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "94.131.10.135"
                 }
             }
         },
@@ -312,7 +338,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 11",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 13",
             "type": "vmess",
             "server": "188.114.98.255",
             "server_port": 80,
