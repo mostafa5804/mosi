@@ -112,7 +112,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇸🇬SG | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -127,7 +127,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇸🇬SG | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -319,11 +319,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "152.42.171.253",
-            "server_port": 80,
-            "uuid": "408705bb-2a17-46d6-daea-2ba30b300353",
+            "server": "ch.hopev2ray.link",
+            "server_port": 443,
+            "uuid": "e8f5f189-97c7-4845-8cfa-08bf9836c1ce",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -333,6 +333,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr2-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "fr2-vmess.sshmax.xyz"
+                }
             }
         },
         {
