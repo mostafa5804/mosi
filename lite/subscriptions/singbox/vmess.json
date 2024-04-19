@@ -108,11 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ]
@@ -123,11 +123,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+                "🇫🇮FI | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+                "🇨🇦CA | vmess | @V2rayng_Fast | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇵🇱PL | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 3"
             ],
@@ -193,7 +193,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇫🇮FI | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
             "server": "65.109.199.41",
             "server_port": 4176,
@@ -244,7 +244,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 2",
+            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 3",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -312,11 +312,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @Hope_Net | 16",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "154.53.164.40",
-            "server_port": 54503,
-            "uuid": "a3ec8a6e-bd2d-43d7-f056-97042778e4ec",
+            "server": "104.16.4.103",
+            "server_port": 443,
+            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -326,6 +326,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Rockp.Blanku.Me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/wss49406",
+                "headers": {
+                    "Host": "Rockp.Blanku.Me"
+                }
             }
         },
         {
