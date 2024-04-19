@@ -152,13 +152,14 @@
                 "🇬🇧GB | vless | @v2ray1_ng | 8",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
+                "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -179,7 +180,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 5",
+                "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ]
         },
@@ -233,13 +234,14 @@
                 "🇬🇧GB | vless | @v2ray1_ng | 8",
                 "🇸🇪SE | vless | @V2RayTz | 14",
                 "🇫🇮FI | vless | @VmessProtocol | 15",
+                "🇨🇦CA | vless | @DailyV2RY | 107",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇩🇪DE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
@@ -260,7 +262,7 @@
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
-                "🇨🇦CA | vless | @ROMAX_VPN | 5",
+                "🇺🇸US | vless | @ROMAX_VPN | 5",
                 "🇸🇪SE | vless | @TVCminer | 16"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1459,6 +1461,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 107",
+            "type": "vless",
+            "server": "check-host.net",
+            "server_port": 8443,
+            "uuid": "9a78751a-d7b2-463d-887d-94dec2b0dc92",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "shsha.servernet.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett,@ServerNett",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @sinabigo | 4",
             "type": "vless",
             "server": "46.36.100.38",
@@ -1504,11 +1537,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "visa.com",
-            "server_port": 8443,
-            "uuid": "3e1e69d5-d8a7-4603-a589-91139650b0c4",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "d9b3134e-007e-41e0-a146-8c53977e27f5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1518,7 +1551,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bia-falcunargo-france.falcunar.asso.eu.org",
+                "server_name": "academivpn1-bo7.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1528,9 +1561,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram_NETMelliAnti\/",
                 "headers": {
-                    "Host": "bia-falcunargo-france.falcunar.asso.eu.org"
+                    "Host": "academivpn1-bo7.pages.dev"
                 }
             }
         },
@@ -1600,7 +1633,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "104.16.47.181",
             "server_port": 443,
@@ -2171,7 +2204,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ROMAX_VPN | 5",
+            "tag": "🇺🇸US | vless | @ROMAX_VPN | 5",
             "type": "vless",
             "server": "172.66.213.38",
             "server_port": 2082,
