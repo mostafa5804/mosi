@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 20",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -120,7 +119,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @V2rayCollectorDonate | 20",
                 "🇩🇪DE | vless | @VmessProtocol | 15",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -148,35 +146,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2rayCollectorDonate | 20",
-            "type": "vless",
-            "server": "116.202.28.94",
-            "server_port": 2083,
-            "uuid": "1596e07b-2327-42b9-8fdc-559efd904b53",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "41avSuDevuzGoY6KKR-3GaXcjRqHAmvrpYI_1HFkyHo",
-                    "short_id": "bf5c811a"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @VmessProtocol | 15",
