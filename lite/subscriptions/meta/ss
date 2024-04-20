@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇭🇰HK | ss | @DeamNet_Proxy | 18","type":"ss","server":"u2k3f8l6w4-fbnode-my05.6pzfwf.com","port":56070,"password":"6YRXJP","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺RU | ss | @OutlineVpnOfficial | 13","type":"ss","server":"45.139.24.63","port":57456,"password":"3fbeb668f48414f6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @kingofilter | 4","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -128,6 +129,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇭🇰HK | ss | @DeamNet_Proxy | 18'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 13'
       - '🏳️XX | ss | @kingofilter | 4'
   - name: URL-TEST
@@ -136,6 +138,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇭🇰HK | ss | @DeamNet_Proxy | 18'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 13'
       - '🏳️XX | ss | @kingofilter | 4'
   - name: FALLBACK
@@ -143,6 +146,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇭🇰HK | ss | @DeamNet_Proxy | 18'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 13'
       - '🏳️XX | ss | @kingofilter | 4'
 rule-providers:
