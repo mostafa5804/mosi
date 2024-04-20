@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇨🇦CA | vless | @customv2ray | 9",
+                "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
@@ -149,6 +149,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 96",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -203,7 +204,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 13",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇨🇦CA | vless | @customv2ray | 9",
+                "🇨🇦CA | vless | @customv2ray | 12",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 32",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
@@ -221,6 +222,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 96",
                 "🇮🇷IR | vless | @sinabigo | 5",
                 "🇨🇦CA | vless | @lrnbymaa | 8",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 9",
                 "🇨🇦CA | vless | @polproxy | 5",
                 "🇨🇷CR | vless | @v2rayng_vpnrog | 6",
@@ -897,11 +899,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @customv2ray | 9",
+            "tag": "🇨🇦CA | vless | @customv2ray | 12",
             "type": "vless",
-            "server": "discord.gg",
-            "server_port": 80,
-            "uuid": "c18d94bd-7273-41c5-95b1-521de8755abd",
+            "server": "speedtest.org",
+            "server_port": 443,
+            "uuid": "1d86846c-5a27-43c8-8981-57bb75c82195",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -909,11 +911,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "polo.gdorri.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/paradise",
                 "headers": {
-                    "Host": "discord.gg"
+                    "Host": "polo.gdorri.info"
                 }
             }
         },
@@ -1335,6 +1347,27 @@
                 "path": "\/Digiv2ray-",
                 "headers": {
                     "Host": "discord.gg"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.59",
+            "server_port": 2052,
+            "uuid": "dc7e39b3-66f0-47d5-fbae-043d6040016b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
+                "headers": {
+                    "Host": "185.146.173.59"
                 }
             }
         },
