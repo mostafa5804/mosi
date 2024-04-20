@@ -122,6 +122,9 @@
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 23",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇩🇪DE | vless | @VmessProtocol | 13",
+                "🏳️XX | vless | @DailyV2RY | 83",
+                "🇫🇮FI | vless | @DailyV2RY | 89",
+                "🇩🇪DE | vless | @DailyV2RY | 90",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -134,7 +137,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @mehrosaboran | 2",
+                "🇩🇪DE | vless | @mehrosaboran | 3",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -179,6 +182,9 @@
                 "🇹🇷TR | vless | @v2rayNG_Matsuri | 23",
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇩🇪DE | vless | @VmessProtocol | 13",
+                "🏳️XX | vless | @DailyV2RY | 83",
+                "🇫🇮FI | vless | @DailyV2RY | 89",
+                "🇩🇪DE | vless | @DailyV2RY | 90",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -191,7 +197,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇩🇪DE | vless | @mehrosaboran | 2",
+                "🇩🇪DE | vless | @mehrosaboran | 3",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -749,6 +755,114 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | @DailyV2RY | 83",
+            "type": "vless",
+            "server": "[2a00:b703:fff1:215::1]",
+            "server_port": 25365,
+            "uuid": "ed852d01-3019-4ea0-abec-bd7b9e9a0e0b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "bkZOrE3qkx3dPM2eOt4Eq0CbwBJnf2quKLRyy9jd0X4",
+                    "short_id": "26edbbac"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ZEDMODEON-@ZEDMODEON-ZEDMODEON@ZEDMODEON-@ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @DailyV2RY | 89",
+            "type": "vless",
+            "server": "cdn.morfin.bio",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fontserver.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GpsmSYJB1JmhiR1r6jp3_u4Y0cOHLdZpkpn2Jm6CNEY",
+                    "short_id": "06995eed"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @DailyV2RY | 90",
+            "type": "vless",
+            "server": "www.morfin.bio",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MOuUsPED6ajyiCHxBD5DoJNvApXrOaLlabThwuX0NWI",
+                    "short_id": "ed062e00"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 31",
             "type": "vless",
             "server": "142.132.183.55",
@@ -1111,7 +1225,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @mehrosaboran | 2",
+            "tag": "🇩🇪DE | vless | @mehrosaboran | 3",
             "type": "vless",
             "server": "91.107.149.218",
             "server_port": 12001,
