@@ -120,7 +120,6 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 0","type":"ss","server":"142.202.48.99","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬SG | ss | @OutlineVpnOfficial | 1","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺RU | ss | @OutlineVpnOfficial | 2","type":"ss","server":"146.185.198.44","port":51348,"password":"Zu5sVdhPITkII1Rf9bUTjt0ws1nks4vgBoHhe7QxwEk0j3Ai","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 3","type":"ss","server":"51.77.53.200","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
@@ -132,6 +131,8 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 10","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 11","type":"ss","server":"38.107.226.132","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
   - {"name":"🇷🇺RU | ss | @OutlineVpnOfficial | 13","type":"ss","server":"45.139.24.63","port":57456,"password":"3fbeb668f48414f6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪SE | ss | @OutlineVpnOfficial | 14","type":"ss","server":"94.228.165.234","port":15214,"password":"DmMQUmI7pgQDnrWqLXC00L","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 15","type":"ss","server":"141.11.189.55","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | @kingofilter | 4","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 1","type":"ss","server":"account-mec.emofid.co","port":443,"password":"7ivrGEHY88sQk3DP","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -140,7 +141,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | ss | @OutlineVpnOfficial | 0'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 1'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 2'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 3'
@@ -152,6 +152,8 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 10'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 11'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 13'
+      - '🇸🇪SE | ss | @OutlineVpnOfficial | 14'
+      - '🇳🇱NL | ss | @OutlineVpnOfficial | 15'
       - '🏳️XX | ss | @kingofilter | 4'
       - '🇬🇧GB | ss | @ROMAX_VPN | 1'
   - name: URL-TEST
@@ -160,7 +162,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | ss | @OutlineVpnOfficial | 0'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 1'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 2'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 3'
@@ -172,6 +173,8 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 10'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 11'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 13'
+      - '🇸🇪SE | ss | @OutlineVpnOfficial | 14'
+      - '🇳🇱NL | ss | @OutlineVpnOfficial | 15'
       - '🏳️XX | ss | @kingofilter | 4'
       - '🇬🇧GB | ss | @ROMAX_VPN | 1'
   - name: FALLBACK
@@ -179,7 +182,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | ss | @OutlineVpnOfficial | 0'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 1'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 2'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 3'
@@ -191,6 +193,8 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 10'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 11'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 13'
+      - '🇸🇪SE | ss | @OutlineVpnOfficial | 14'
+      - '🇳🇱NL | ss | @OutlineVpnOfficial | 15'
       - '🏳️XX | ss | @kingofilter | 4'
       - '🇬🇧GB | ss | @ROMAX_VPN | 1'
 rule-providers:
