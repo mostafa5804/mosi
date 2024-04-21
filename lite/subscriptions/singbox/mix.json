@@ -137,6 +137,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇮🇷IR | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
@@ -219,6 +220,7 @@
                 "🇨🇦CA | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 14",
                 "🇨🇦CA | vless | @vmessorg | 32",
+                "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
                 "🇮🇷IR | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
@@ -1043,6 +1045,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 24",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "96a72e74-aa5f-4075-a577-608af8dc69a9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "haj_ghasem.ztwom.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "haj_ghasem.ztwom.info",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @v2rayngvpn | 15",
             "type": "vless",
             "server": "85.133.238.57",
@@ -1424,9 +1457,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "172.66.213.38",
-            "server_port": 8443,
-            "uuid": "37------EVAY_VPN------",
+            "server": "172.67.204.84",
+            "server_port": 80,
+            "uuid": "107d3a95-e17e-4931-94b9-e42cdcabb05b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1434,21 +1467,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pop.loveiran01.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "path": "\/backup",
                 "headers": {
-                    "Host": "pop.loveiran01.com"
+                    "Host": "172.67.204.84"
                 }
             }
         },
