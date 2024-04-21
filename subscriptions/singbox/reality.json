@@ -117,7 +117,6 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🏳️XX | vless | @DailyV2RY | 123",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -130,6 +129,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇬🇧GB | vless | @Capoit | 0",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -170,7 +170,6 @@
                 "🏳️XX | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | vless | @VmessProtocol | 9",
                 "🇩🇪DE | vless | @VmessProtocol | 16",
-                "🏳️XX | vless | @DailyV2RY | 123",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -183,6 +182,7 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
+                "🇬🇧GB | vless | @Capoit | 0",
                 "🇩🇪DE | vless | @kiava | 3",
                 "🇩🇪DE | vless | @kiava | 4",
                 "🇩🇪DE | vless | @kiava | 5",
@@ -568,42 +568,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @DailyV2RY | 123",
-            "type": "vless",
-            "server": "[2a00:b703:fff1:215::1]",
-            "server_port": 25365,
-            "uuid": "ed852d01-3019-4ea0-abec-bd7b9e9a0e0b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "bkZOrE3qkx3dPM2eOt4Eq0CbwBJnf2quKLRyy9jd0X4",
-                    "short_id": "26edbbac"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ZEDMODEON-@ZEDMODEON-ZEDMODEON@ZEDMODEON-@ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @Capital_NET | 31",
             "type": "vless",
             "server": "142.132.183.55",
@@ -962,6 +926,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @Capoit | 0",
+            "type": "vless",
+            "server": "lo.onlinernet.ir",
+            "server_port": 2000,
+            "uuid": "29fac888-97ac-4d09-abb2-9a9ae9eb8c4f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lon.onlinernet.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ekbuVqZMq8bex2LMVlqRCyvee1eeeQSbnQp3MEx4dmk",
+                    "short_id": "c719833f"
                 }
             }
         },
