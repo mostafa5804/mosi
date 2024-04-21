@@ -108,10 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 24",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 18",
+                "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10"
             ]
         },
@@ -121,10 +121,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 24",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 34",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 18",
+                "🇩🇪DE | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -189,11 +189,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "207.148.10.248",
-            "server_port": 47918,
-            "uuid": "232aeb1e-7d67-4a91-9379-4da1f4917691",
+            "server": "hms04.xmivideo.cfd",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -203,10 +203,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
+                }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 24",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 34",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
@@ -274,11 +291,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 18",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "47.242.22.171",
-            "server_port": 28681,
-            "uuid": "3b1072ce-d096-46c2-a3e7-08b4f58538f5",
+            "server": "109.107.181.130",
+            "server_port": 56316,
+            "uuid": "9996c618-14dd-45c7-8e7d-0eee4fb0c34c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
