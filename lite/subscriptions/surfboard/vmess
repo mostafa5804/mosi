@@ -14,11 +14,10 @@ DIRECT = direct
 🇨🇳CN | vmess | @mftizi | 19 = vmess, hk.lianjianode.cc, 21032, username = 2e009a5a-5329-46cc-a69e-097b94323328, ws = true, tls = , vmess-aead = true, ws-path = /hongkong, ws-headers = Host:"hk1.luodi.xyz", skip-cert-verify = true, tfo = false
 🇳🇱NL | vmess | @DeamNet_Proxy | 19 = vmess, 188.114.99.77, 443, username = e74f58dc-bdfd-4d70-8c92-0f87c844c46f, ws = true, tls = 1, vmess-aead = false, ws-path = /vmess, ws-headers = Host:"no2-vmess.sshmax.xyz", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @ShadowProxy66 | 34 = vmess, 172.67.170.13, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @V2rayng_Fast | 1 = vmess, 172.67.71.160, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇳🇱NL | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34,🇨🇦CA | vmess | @V2rayng_Fast | 1
-URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇳🇱NL | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34,🇨🇦CA | vmess | @V2rayng_Fast | 1
-FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇳🇱NL | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34,🇨🇦CA | vmess | @V2rayng_Fast | 1
+MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇳🇱NL | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34
+URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇳🇱NL | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34
+FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇳🇱NL | vmess | @DeamNet_Proxy | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
