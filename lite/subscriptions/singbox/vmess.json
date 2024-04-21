@@ -110,7 +110,6 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇭🇰HK | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10"
@@ -124,7 +123,6 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 24",
-                "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇭🇰HK | vmess | @Hope_Net | 18",
                 "🇵🇱PL | vmess | @v2Line | 10"
@@ -193,9 +191,9 @@
         {
             "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "104.168.50.21",
-            "server_port": 45979,
-            "uuid": "23bdf6df-c482-46d0-c0f4-5a98d534ea11",
+            "server": "207.148.10.248",
+            "server_port": 47918,
+            "uuid": "232aeb1e-7d67-4a91-9379-4da1f4917691",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,13 +203,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/test",
-                "headers": {
-                    "Host": "104.168.50.21"
-                }
             }
         },
         {
@@ -245,40 +236,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @V2rayng_Fast | 1",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
                 }
             }
         },
