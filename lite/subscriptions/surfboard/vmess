@@ -13,11 +13,10 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇳CN | vmess | @mftizi | 19 = vmess, hk.lianjianode.cc, 21032, username = 2e009a5a-5329-46cc-a69e-097b94323328, ws = true, tls = , vmess-aead = true, ws-path = /hongkong, ws-headers = Host:"hk1.luodi.xyz", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @ShadowProxy66 | 34 = vmess, 172.67.170.13, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
-🇺🇸US | vmess | @Hope_Net | 17 = vmess, 92.38.145.145, 80, username = 0688b7c7-72e9-442e-95a0-d3b950028c39, ws = true, tls = , vmess-aead = true, ws-path = /@forwardv2ray, ws-headers = Host:"mehdi600.3utilities.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34,🇺🇸US | vmess | @Hope_Net | 17
-URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34,🇺🇸US | vmess | @Hope_Net | 17
-FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34,🇺🇸US | vmess | @Hope_Net | 17
+MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34
+URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34
+FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @ShadowProxy66 | 34
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
