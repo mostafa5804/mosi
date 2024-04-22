@@ -135,7 +135,7 @@
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
                 "🇫🇷FR | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
@@ -149,9 +149,9 @@
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
-                "🇮🇷IR | vmess | @proxyymeliii | 17",
+                "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 15",
-                "🇨🇦CA | vless | @v2ray1_ng | 12",
+                "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 1",
@@ -218,7 +218,7 @@
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 11",
                 "🇫🇷FR | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
@@ -232,9 +232,9 @@
                 "🇨🇦CA | vless | @ServerNett | 13",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
-                "🇮🇷IR | vmess | @proxyymeliii | 17",
+                "🇸🇪SE | vless | @proxyymeliii | 16",
                 "🇸🇪SE | vless | @MsV2ray | 15",
-                "🇨🇦CA | vless | @v2ray1_ng | 12",
+                "🇨🇦CA | vless | @v2ray1_ng | 14",
                 "🇳🇱NL | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @DailyV2RY | 127",
                 "🇨🇦CA | vless | @sinabigo | 1",
@@ -995,7 +995,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
             "server": "hms082.gwdef.sbs",
             "server_port": 443,
@@ -1381,20 +1381,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @proxyymeliii | 17",
-            "type": "vmess",
-            "server": "217.219.212.8",
-            "server_port": 420,
-            "uuid": "95c0dd17-eaa4-476e-8ecd-83a26cde7aa7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇪SE | vless | @proxyymeliii | 16",
+            "type": "vless",
+            "server": "LIGHTNING6-joinbede.filj.top",
+            "server_port": 8880,
+            "uuid": "a466bbf1-7ace-47df-a6c1-cd506e733cb6",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@LIGHTNING6, @LIGHTNING6",
+                "headers": {
+                    "Host": "LIGHTNING6-joinbede.filj.top"
+                }
             }
         },
         {
@@ -1419,7 +1423,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 12",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 14",
             "type": "vless",
             "server": "104.25.221.166",
             "server_port": 443,
