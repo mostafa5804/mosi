@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
@@ -119,6 +120,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
@@ -146,6 +148,23 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
+            "type": "vmess",
+            "server": "51.195.140.87",
+            "server_port": 35995,
+            "uuid": "28f08493-de6d-486e-84f5-5abe092ff78b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
