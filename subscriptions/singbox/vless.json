@@ -106,6 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇷🇺RU | vless | @EliV2ray | 1",
+                "🇮🇷IR | vless | @EliV2ray | 2",
                 "🇬🇧GB | vless | @EliV2ray | 3",
                 "🇬🇧GB | vless | @EliV2ray | 4",
                 "🇮🇷IR | vless | @EliV2ray | 6",
@@ -545,14 +547,13 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @Capoit | 0",
-                "🇸🇪SE | vless | @Capoit | 1",
+                "🇸🇪SE | vless | @Capoit | 0",
+                "🇺🇸US | vless | @Capoit | 2",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇺🇸US | vless | @Capoit | 4",
-                "🇺🇸US | vless | @Capoit | 5",
-                "🇸🇪SE | vless | @Capoit | 6",
-                "🇺🇸US | vless | @Capoit | 12",
-                "🇸🇬SG | vless | @Capoit | 13",
+                "🇸🇪SE | vless | @Capoit | 5",
+                "🇺🇸US | vless | @Capoit | 11",
+                "🇸🇬SG | vless | @Capoit | 12",
                 "🇺🇸US | vless | @FreakConfig | 0",
                 "🇺🇸US | vless | @FreakConfig | 1",
                 "🇺🇸US | vless | @FreakConfig | 2",
@@ -652,6 +653,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇷🇺RU | vless | @EliV2ray | 1",
+                "🇮🇷IR | vless | @EliV2ray | 2",
                 "🇬🇧GB | vless | @EliV2ray | 3",
                 "🇬🇧GB | vless | @EliV2ray | 4",
                 "🇮🇷IR | vless | @EliV2ray | 6",
@@ -1091,14 +1094,13 @@
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
                 "🇩🇪DE | vless | @Capital_NET | 45",
-                "🇬🇧GB | vless | @Capoit | 0",
-                "🇸🇪SE | vless | @Capoit | 1",
+                "🇸🇪SE | vless | @Capoit | 0",
+                "🇺🇸US | vless | @Capoit | 2",
                 "🇺🇸US | vless | @Capoit | 3",
                 "🇺🇸US | vless | @Capoit | 4",
-                "🇺🇸US | vless | @Capoit | 5",
-                "🇸🇪SE | vless | @Capoit | 6",
-                "🇺🇸US | vless | @Capoit | 12",
-                "🇸🇬SG | vless | @Capoit | 13",
+                "🇸🇪SE | vless | @Capoit | 5",
+                "🇺🇸US | vless | @Capoit | 11",
+                "🇸🇬SG | vless | @Capoit | 12",
                 "🇺🇸US | vless | @FreakConfig | 0",
                 "🇺🇸US | vless | @FreakConfig | 1",
                 "🇺🇸US | vless | @FreakConfig | 2",
@@ -1212,6 +1214,51 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇷🇺RU | vless | @EliV2ray | 1",
+            "type": "vless",
+            "server": "185.148.105.52",
+            "server_port": 443,
+            "uuid": "4c1983a8-1802-46f1-8837-aaf33958ed46",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fln1.novinping.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/MgFwdcE2Hs2cgQYI0W",
+                "headers": {
+                    "Host": "fln1.novinping.com"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @EliV2ray | 2",
+            "type": "vless",
+            "server": "217.60.249.101",
+            "server_port": 2095,
+            "uuid": "2a4bfe79-b301-c477-a6a7-8929023b1e91",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
         },
         {
             "tag": "🇬🇧GB | vless | @EliV2ray | 3",
@@ -12344,36 +12391,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @Capoit | 0",
-            "type": "vless",
-            "server": "lo.onlinernet.ir",
-            "server_port": 2000,
-            "uuid": "29fac888-97ac-4d09-abb2-9a9ae9eb8c4f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lon.onlinernet.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ekbuVqZMq8bex2LMVlqRCyvee1eeeQSbnQp3MEx4dmk",
-                    "short_id": "c719833f"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @Capoit | 1",
+            "tag": "🇸🇪SE | vless | @Capoit | 0",
             "type": "vless",
             "server": "wt.xxxxx.tw.",
             "server_port": 80,
@@ -12394,7 +12412,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 3",
+            "tag": "🇺🇸US | vless | @Capoit | 2",
             "type": "vless",
             "server": "104.24.0.5",
             "server_port": 443,
@@ -12425,7 +12443,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 4",
+            "tag": "🇺🇸US | vless | @Capoit | 3",
             "type": "vless",
             "server": "www.visa.com",
             "server_port": 2053,
@@ -12456,7 +12474,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 5",
+            "tag": "🇺🇸US | vless | @Capoit | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -12477,7 +12495,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Capoit | 6",
+            "tag": "🇸🇪SE | vless | @Capoit | 5",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 8880,
@@ -12498,7 +12516,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capoit | 12",
+            "tag": "🇺🇸US | vless | @Capoit | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -12519,7 +12537,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @Capoit | 13",
+            "tag": "🇸🇬SG | vless | @Capoit | 12",
             "type": "vless",
             "server": "194.53.53.66",
             "server_port": 8880,
