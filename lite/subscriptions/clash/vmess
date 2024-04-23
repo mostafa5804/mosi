@@ -122,7 +122,6 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇭🇰HK | vmess | @mftizi | 19","type":"vmess","server":"38.147.189.180","port":"37078","cipher":"auto","uuid":"d5e16a28-afa8-4b64-a459-db32d14cd4d1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇷🇺RU | vmess | @oneclickvpnkeys | 10","type":"vmess","server":"45.144.3.204","port":"11846","cipher":"auto","uuid":"299d5c3e-fc2c-4458-a2e4-3ee2bb053f80","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
-  - {"name":"🇨🇦CA | vmess | @Hope_Net | 18","type":"vmess","server":"172.67.204.84","port":"2096","cipher":"auto","uuid":"6a91ce2e-c570-4fa4-a497-c6386fb48a15","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"nl1-vmess.sshmax.xyz"}}}
   - {"name":"🇨🇦CA | vmess | @nofiltering2 | 1","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
 proxy-groups:
   - name: MANUAL
@@ -134,7 +133,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇷🇺RU | vmess | @oneclickvpnkeys | 10'
-      - '🇨🇦CA | vmess | @Hope_Net | 18'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
   - name: URL-TEST
     type: url-test
@@ -146,7 +144,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇷🇺RU | vmess | @oneclickvpnkeys | 10'
-      - '🇨🇦CA | vmess | @Hope_Net | 18'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
   - name: FALLBACK
     type: fallback
@@ -157,7 +154,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇭🇰HK | vmess | @mftizi | 19'
       - '🇷🇺RU | vmess | @oneclickvpnkeys | 10'
-      - '🇨🇦CA | vmess | @Hope_Net | 18'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
