@@ -109,10 +109,11 @@
                 "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @vless_vmess | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 17",
+                "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇫🇷FR | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1"
             ]
@@ -124,10 +125,11 @@
                 "🇬🇧GB | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
                 "🇺🇸US | vmess | @vless_vmess | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 17",
+                "🇨🇦CA | vmess | @Hope_Net | 17",
                 "🇫🇷FR | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1"
             ],
@@ -200,6 +202,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "172.67.174.92",
+            "server_port": 2053,
+            "uuid": "869caccc-12af-4276-f458-366fa256f8a0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "qin15.rong1104.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/qin15",
+                "headers": {
+                    "Host": "qin15.rong1104.uk"
+                }
             }
         },
         {
@@ -295,11 +331,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 17",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "149.28.226.202",
-            "server_port": 37985,
-            "uuid": "a36d5f0e-f529-4c83-9279-f4c4ce557031",
+            "server": "104.21.69.44",
+            "server_port": 8880,
+            "uuid": "0d1bf26a-ce97-4707-a270-7f4d2ae37334",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -309,6 +345,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
