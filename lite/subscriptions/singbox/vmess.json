@@ -111,6 +111,7 @@
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 36",
                 "🇺🇸US | vmess | @vless_vmess | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
@@ -127,6 +128,7 @@
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 10",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 36",
                 "🇺🇸US | vmess | @vless_vmess | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 17",
@@ -259,6 +261,40 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 36",
+            "type": "vmess",
+            "server": "104.21.83.108",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
