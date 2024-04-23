@@ -124,8 +124,8 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 10",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 20",
-                "🇸🇪SE | vless | @ProxyForOpeta | 1",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
+                "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🏳️XX | vless | @proxystore11 | 7",
-                "🇸🇪SE | vless | @polproxy | 5",
+                "🇸🇪SE | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -188,8 +188,8 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 10",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 20",
-                "🇸🇪SE | vless | @ProxyForOpeta | 1",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
+                "🇸🇪SE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 16",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 185",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @sinabigo | 2",
                 "🇨🇦CA | vless | @lrnbymaa | 9",
                 "🏳️XX | vless | @proxystore11 | 7",
-                "🇸🇪SE | vless | @polproxy | 5",
+                "🇸🇪SE | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
@@ -709,25 +709,42 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 20",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
             "type": "vless",
-            "server": "31.44.6.84",
-            "server_port": 80,
-            "uuid": "d4029cbb-0792-4ffd-b5f4-af4e39ae7db7",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "83cb1a97-ff12-4933-9efc-abfeaef25fec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zAdeFrEE.PaGeS.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram:@thunder_vpns",
+                "headers": {
+                    "Host": "zAdeFrEE.PaGeS.DEV"
+                }
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 1",
+            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 2",
             "type": "vless",
             "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "SVNTEAMm",
+            "server_port": 8880,
+            "uuid": "709c5649-bb1c-4a19-8604-3ef4f5de5816",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -737,7 +754,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SvnTeam-TeleGram-ChaNnel-VIP",
+                "path": "\/@Alfred_Config , @Alfred_Config",
                 "headers": {
                     "Host": "185.146.173.59"
                 }
@@ -1246,7 +1263,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @polproxy | 5",
+            "tag": "🇸🇪SE | vless | @polproxy | 6",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 2087,
