@@ -12,11 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @DeamNet_Proxy | 15 = vmess, 104.16.60.8, 443, username = 251780c1-1501-43b3-be2a-d144a20d479a, ws = true, tls = 1, vmess-aead = false, ws-path = /Nbs2DSTSkFW6MrrFQHeSDQ7, ws-headers = Host:"hdfy5c1.foriran.nl", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @oneclickvpnkeys | 10 = vmess, 104.21.15.212, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @v2ray1_ng | 19 = vmess, 104.21.15.212, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @Hope_Net | 19 = vmess, 155.138.242.207, 54316, username = 67797c6a-e898-49bd-8f61-5fb1523ce0bd, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 15,🇨🇦CA | vmess | @v2ray1_ng | 19
-URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 15,🇨🇦CA | vmess | @v2ray1_ng | 19
-FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 15,🇨🇦CA | vmess | @v2ray1_ng | 19
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 15,🇨🇦CA | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @v2ray1_ng | 19,🇺🇸US | vmess | @Hope_Net | 19
+URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 15,🇨🇦CA | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @v2ray1_ng | 19,🇺🇸US | vmess | @Hope_Net | 19
+FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 15,🇨🇦CA | vmess | @oneclickvpnkeys | 10,🇨🇦CA | vmess | @v2ray1_ng | 19,🇺🇸US | vmess | @Hope_Net | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
