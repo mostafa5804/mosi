@@ -113,7 +113,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @v2ray1_ng | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10"
             ]
         },
@@ -128,7 +128,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @v2ray1_ng | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -322,11 +322,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "45.77.218.99",
-            "server_port": 12810,
-            "uuid": "469daa04-235a-47be-fdf8-41a9a72f8be2",
+            "server": "104.21.3.206",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -336,6 +336,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "maxin.beauty",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "maxin.beauty"
+                }
             }
         },
         {
