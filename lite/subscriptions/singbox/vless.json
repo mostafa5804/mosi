@@ -113,7 +113,6 @@
                 "🇮🇪IE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
-                "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @frev2ray | 8",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -125,7 +124,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇸🇪SE | vless | @proxy_kafee | 11",
-                "🇸🇪SE | vless | @ProxyForOpeta | 2",
+                "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🏳️XX | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
@@ -135,7 +134,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
+                "🇨🇦CA | vless | @v2ray_swhil | 14",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 17",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -179,7 +178,6 @@
                 "🇮🇪IE | vless | @VlessConfig | 19",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 20",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
-                "🇨🇦CA | vless | @melov2ray | 11",
                 "🇨🇦CA | vless | @frev2ray | 8",
                 "🇸🇪SE | vless | @ARv2ray | 17",
                 "🇸🇪SE | vless | @shh_proxy | 29",
@@ -191,7 +189,7 @@
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇸🇪SE | vless | @proxy_kafee | 11",
-                "🇸🇪SE | vless | @ProxyForOpeta | 2",
+                "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇸🇪SE | vless | @V2rayNGn | 19",
                 "🏳️XX | vless | @Outline_Vpn | 18",
                 "🇨🇦CA | vless | @prrofile_purple | 182",
@@ -201,7 +199,7 @@
                 "🇨🇦CA | vless | @v2rayngvpn | 15",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
+                "🇨🇦CA | vless | @v2ray_swhil | 14",
                 "🇸🇪SE | vless | @proxyymeliii | 18",
                 "🇸🇪SE | vless | @MsV2ray | 17",
                 "🇨🇦CA | vless | @vless_vmess | 15",
@@ -421,37 +419,6 @@
                 "headers": {
                     "Host": "185.146.173.59"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @melov2ray | 11",
-            "type": "vless",
-            "server": "www.zula.ir",
-            "server_port": 443,
-            "uuid": "c9e40fff-5ac7-4469-9f17-bee19bce1b89",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "help.melov2ray.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "melov2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -727,7 +694,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 2",
+            "tag": "🇸🇪SE | vless | @ProxyForOpeta | 3",
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 80,
@@ -987,11 +954,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 13",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 14",
             "type": "vless",
-            "server": "104.18.158.102",
-            "server_port": 80,
-            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
+            "server": "172.66.46.249",
+            "server_port": 443,
+            "uuid": "8853d6d9-57f5-439d-a903-55615932730b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -999,11 +966,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ac67e643.servernett-1ov.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@my_proxii",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.18.158.102"
+                    "Host": "ac67e643.servernett-1ov.pages.dev"
                 }
             }
         },
