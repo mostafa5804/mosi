@@ -111,10 +111,10 @@
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 15",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
+                "🇨🇦CA | vmess | @v2ray1_ng | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 1"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ]
         },
         {
@@ -126,10 +126,10 @@
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 15",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
+                "🇨🇦CA | vmess | @v2ray1_ng | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @nofiltering2 | 1"
+                "🇨🇦CA | vmess | @v2Line | 10"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -254,6 +254,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 19",
+            "type": "vmess",
+            "server": "104.21.15.212",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -290,9 +324,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "149.28.58.129",
-            "server_port": 45617,
-            "uuid": "59c95ca3-babe-466a-9a5b-4761e575caf8",
+            "server": "45.77.218.99",
+            "server_port": 12810,
+            "uuid": "469daa04-235a-47be-fdf8-41a9a72f8be2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -335,40 +369,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "vip2323.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
-            "type": "vmess",
-            "server": "104.21.83.108",
-            "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         }
