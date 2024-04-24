@@ -114,8 +114,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @v2ray1_ng | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
-                "🇺🇸US | vmess | @v2Line | 10",
+                "🇸🇪SE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1"
             ]
         },
@@ -131,8 +131,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @v2ray1_ng | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 18",
-                "🇺🇸US | vmess | @v2Line | 10",
+                "🇸🇪SE | vmess | @Hope_Net | 18",
+                "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -350,11 +350,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 18",
+            "tag": "🇸🇪SE | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "207.148.10.248",
-            "server_port": 47918,
-            "uuid": "232aeb1e-7d67-4a91-9379-4da1f4917691",
+            "server": "185.146.173.59",
+            "server_port": 2083,
+            "uuid": "587fe4b8-5ed8-46a1-8ae4-0a07efd35855",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -364,10 +364,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "doolboor.nintendodns.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "2083vmess",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 10",
+            "tag": "🇨🇦CA | vmess | @v2Line | 10",
             "type": "vmess",
             "server": "172.67.68.246",
             "server_port": 443,
