@@ -126,10 +126,9 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @DeamNet_Proxy | 15","type":"vmess","server":"104.16.60.8","port":"443","cipher":"chacha20-poly1305","uuid":"251780c1-1501-43b3-be2a-d144a20d479a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/Nbs2DSTSkFW6MrrFQHeSDQ7","headers":{"host":"hdfy5c1.foriran.nl"}}}
   - {"name":"🇬🇧GB | trojan | @oneclickvpnkeys | 10","type":"trojan","server":"uk01.freeflyingcloud.xyz","port":22252,"udp":false,"password":"0d5b3d65-e71e-4235-bf68-ea753ad87cc2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"uk01.freeflyingcloud.xyz"}
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 13","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"64.176.219.193","port":"48895","cipher":"auto","uuid":"1dd70a5f-fbbb-4e58-9d29-a40415853c80","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"149.28.58.129","port":45617,"cipher":"auto","uuid":"59c95ca3-babe-466a-9a5b-4761e575caf8","alterId":"0","tls":false,"skip-cert-verify":true,"network":""}
   - {"name":"🇨🇦CA | vmess | @nofiltering2 | 1","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
   - {"name":"🏳️XX | ss | @kingofilter | 6","type":"ss","server":"13.vip-archive69.site","port":443,"password":"telegram-id-Alfred-Config","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | ss | @ROMAX_VPN | 1","type":"ss","server":"account-mec.emofid.co","port":443,"password":"7ivrGEHY88sQk3DP","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -147,7 +146,6 @@ proxy-groups:
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
       - '🏳️XX | ss | @kingofilter | 6'
-      - '🇬🇧GB | ss | @ROMAX_VPN | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -165,7 +163,6 @@ proxy-groups:
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
       - '🏳️XX | ss | @kingofilter | 6'
-      - '🇬🇧GB | ss | @ROMAX_VPN | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -182,7 +179,6 @@ proxy-groups:
       - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
       - '🏳️XX | ss | @kingofilter | 6'
-      - '🇬🇧GB | ss | @ROMAX_VPN | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
