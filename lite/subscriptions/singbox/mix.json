@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 4",
+                "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 16",
@@ -188,7 +188,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 4",
+                "🇨🇦CA | vless | @EliV2ray | 2",
                 "🇨🇦CA | vless | @Parsashonam | 20",
                 "🇨🇦CA | vless | @v2_team | 7",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 16",
@@ -286,11 +286,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 4",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 2",
             "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "-Telegram-id-ELiV2Ray-",
+            "server": "104.21.37.100",
+            "server_port": 2083,
+            "uuid": "321aa4cd-cc66-4eb4-a040-fc0968ae00b4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -298,12 +298,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.59"
+            "tls": {
+                "enabled": true,
+                "server_name": "alienusacl.edlaghiye.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
