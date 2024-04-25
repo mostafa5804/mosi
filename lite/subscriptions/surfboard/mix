@@ -11,14 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | trojan | @PrivateVPNs | 19 = trojan, 18.171.36.63, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 19 = trojan, 52.208.237.194, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 13.48.233.30, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇿CZ | vmess | @oneclickvpnkeys | 10 = vmess, 77.75.230.125, 8080, username = d466dd36-8b86-48b7-b0f0-67e7d128de6c, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"77.75.230.125", skip-cert-verify = true, tfo = false
 🏳️XX | ss | @kingofilter | 6 = ss, 13.vip-archive69.site, 443, encrypt-method = chacha20-ietf-poly1305, password = telegram-id-Alfred-Config
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @oneclickvpnkeys | 10,🏳️XX | ss | @kingofilter | 6
-URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @oneclickvpnkeys | 10,🏳️XX | ss | @kingofilter | 6
-FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @oneclickvpnkeys | 10,🏳️XX | ss | @kingofilter | 6
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @oneclickvpnkeys | 10,🏳️XX | ss | @kingofilter | 6
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @oneclickvpnkeys | 10,🏳️XX | ss | @kingofilter | 6
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇿CZ | vmess | @oneclickvpnkeys | 10,🏳️XX | ss | @kingofilter | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
