@@ -11,11 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | vmess | @Hope_Net | 19 = vmess, 205.234.200.104, 33164, username = 31e8f7b4-ba3e-440a-9f56-8241569c017a, ws = true, tls = , vmess-aead = true, ws-path = /sd23dss, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇺🇸US | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇺🇸US | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
