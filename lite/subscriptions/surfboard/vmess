@@ -11,11 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇿CZ | vmess | @oneclickvpnkeys | 10 = vmess, 77.75.230.125, 8080, username = d466dd36-8b86-48b7-b0f0-67e7d128de6c, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"77.75.230.125", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @oneclickvpnkeys | 10 = vmess, tu.mahilu.site, 2095, username = 7a737f41-b792-4260-94ff-3d864da67b80, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tu.mahilu.site", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇿CZ | vmess | @oneclickvpnkeys | 10
-URL-TEST = url-test,🇨🇿CZ | vmess | @oneclickvpnkeys | 10
-FALLBACK = fallback,🇨🇿CZ | vmess | @oneclickvpnkeys | 10
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 10
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 10
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
