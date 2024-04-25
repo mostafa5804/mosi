@@ -133,7 +133,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 29",
-                "🇺🇸US | vless | @v2rayngvpn | 13",
+                "🇳🇱NL | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -155,7 +155,6 @@
                 "🇸🇪SE | vless | @flyv2ray | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 16",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇳🇱NL | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
@@ -199,7 +198,7 @@
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 29",
-                "🇺🇸US | vless | @v2rayngvpn | 13",
+                "🇳🇱NL | vless | @v2rayngvpn | 12",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 15",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
@@ -221,7 +220,6 @@
                 "🇸🇪SE | vless | @flyv2ray | 14",
                 "🇳🇱NL | vless | @mehrosaboran | 16",
                 "🇩🇪DE | vless | @kiava | 6",
-                "🇳🇱NL | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @GozargahVPN | 15",
                 "🇸🇪SE | vless | @freeconfigv2 | 1",
@@ -393,7 +391,7 @@
             "type": "vless",
             "server": "185.146.173.59",
             "server_port": 2095,
-            "uuid": "-VPNCUSTOMIZE",
+            "uuid": "a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -915,11 +913,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayngvpn | 13",
+            "tag": "🇳🇱NL | vless | @v2rayngvpn | 12",
             "type": "vless",
-            "server": "141.193.213.31",
-            "server_port": 2086,
-            "uuid": "af46ee43-670c-4a49-8733-65017f5e0733",
+            "server": "188.114.96.182",
+            "server_port": 443,
+            "uuid": "52de3fa6-1673-4918-a90d-21d2b69de98e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -927,11 +925,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "eb8c0c64.888766.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/net?ed=2351",
+                "path": "\/",
                 "headers": {
-                    "Host": "141.193.213.31"
+                    "Host": "eb8c0c64.888766.pages.dev"
                 }
             }
         },
@@ -1497,37 +1505,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @proxy_mtm | 5",
-            "type": "vless",
-            "server": "188.114.96.182",
-            "server_port": 443,
-            "uuid": "52de3fa6-1673-4918-a90d-21d2b69de98e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eb8c0c64.888766.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "eb8c0c64.888766.pages.dev"
-                }
             }
         },
         {
