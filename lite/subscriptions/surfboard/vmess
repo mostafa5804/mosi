@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @DeamNet_Proxy | 7 = vmess, 104.21.80.53, 2053, username = f674964e-7c38-41ac-9f06-3e7aedc51e30, ws = true, tls = 1, vmess-aead = false, ws-path = /qin17, ws-headers = Host:"qin17.rong1104.uk", skip-cert-verify = true, tfo = false
 🇨🇿CZ | vmess | @oneclickvpnkeys | 9 = vmess, 77.75.230.125, 8080, username = d466dd36-8b86-48b7-b0f0-67e7d128de6c, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"77.75.230.125", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇿CZ | vmess | @oneclickvpnkeys | 9
-URL-TEST = url-test,🇨🇿CZ | vmess | @oneclickvpnkeys | 9
-FALLBACK = fallback,🇨🇿CZ | vmess | @oneclickvpnkeys | 9
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 7,🇨🇿CZ | vmess | @oneclickvpnkeys | 9
+URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 7,🇨🇿CZ | vmess | @oneclickvpnkeys | 9
+FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 7,🇨🇿CZ | vmess | @oneclickvpnkeys | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
