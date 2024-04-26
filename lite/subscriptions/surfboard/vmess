@@ -11,10 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @oneclickvpnkeys | 9 = vmess, ip.sb, 2053, username = b2aba745-50f4-45e0-b4c0-6e230b99fb2e, ws = true, tls = 1, vmess-aead = true, ws-path = /argox-vm?ed=2048, ws-headers = Host:"flat-reserves-stroke-guyana.trycloudflare.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 9
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 9
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
