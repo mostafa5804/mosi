@@ -11,13 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇹IT | ss | @DeamNet_Proxy | 19 = ss, 176.105.252.178, 998, encrypt-method = chacha20-ietf-poly1305, password = cg0KkMjbGdJEh
 🇸🇪SE | ss | @OutlineVpnOfficial | 17 = ss, 94.228.165.234, 15214, encrypt-method = chacha20-ietf-poly1305, password = DmMQUmI7pgQDnrWqLXC00L
 🏳️XX | ss | @kingofilter | 6 = ss, 13.vip-archive69.site, 443, encrypt-method = chacha20-ietf-poly1305, password = telegram-id-Alfred-Config
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇹IT | ss | @DeamNet_Proxy | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @kingofilter | 6
-URL-TEST = url-test,🇮🇹IT | ss | @DeamNet_Proxy | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @kingofilter | 6
-FALLBACK = fallback,🇮🇹IT | ss | @DeamNet_Proxy | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @kingofilter | 6
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @kingofilter | 6
+URL-TEST = url-test,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @kingofilter | 6
+FALLBACK = fallback,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @kingofilter | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
