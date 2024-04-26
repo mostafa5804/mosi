@@ -12,10 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪DE | vmess | @oneclickvpnkeys | 10 = vmess, 92.223.124.24, 80, username = 0688b7c7-72e9-442e-95a0-d3b950028c39, ws = true, tls = , vmess-aead = true, ws-path = /@forwardv2ray, ws-headers = Host:"mehdi600.3utilities.com", skip-cert-verify = true, tfo = false
+🇩🇪DE | vmess | @Hope_Net | 19 = vmess, 109.107.181.130, 33123, username = f33d5798-504f-426b-be86-cb5edd1a7b8a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | vmess | @oneclickvpnkeys | 10
-URL-TEST = url-test,🇩🇪DE | vmess | @oneclickvpnkeys | 10
-FALLBACK = fallback,🇩🇪DE | vmess | @oneclickvpnkeys | 10
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | vmess | @oneclickvpnkeys | 10,🇩🇪DE | vmess | @Hope_Net | 19
+URL-TEST = url-test,🇩🇪DE | vmess | @oneclickvpnkeys | 10,🇩🇪DE | vmess | @Hope_Net | 19
+FALLBACK = fallback,🇩🇪DE | vmess | @oneclickvpnkeys | 10,🇩🇪DE | vmess | @Hope_Net | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

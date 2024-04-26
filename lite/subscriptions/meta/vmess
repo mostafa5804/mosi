@@ -123,6 +123,7 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"120.238.122.147","port":"53942","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | vmess | @oneclickvpnkeys | 10","type":"vmess","server":"92.223.124.24","port":"80","cipher":"auto","uuid":"0688b7c7-72e9-442e-95a0-d3b950028c39","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@forwardv2ray","headers":{"host":"mehdi600.3utilities.com"}}}
+  - {"name":"🇩🇪DE | vmess | @Hope_Net | 19","type":"vmess","server":"109.107.181.130","port":"33123","cipher":"auto","uuid":"f33d5798-504f-426b-be86-cb5edd1a7b8a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🇮🇷IR | vmess | @nofiltering2 | 1","type":"vmess","server":"178.239.150.170","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -133,6 +134,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇩🇪DE | vmess | @oneclickvpnkeys | 10'
+      - '🇩🇪DE | vmess | @Hope_Net | 19'
       - '🇮🇷IR | vmess | @nofiltering2 | 1'
   - name: URL-TEST
     type: url-test
@@ -143,6 +145,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇩🇪DE | vmess | @oneclickvpnkeys | 10'
+      - '🇩🇪DE | vmess | @Hope_Net | 19'
       - '🇮🇷IR | vmess | @nofiltering2 | 1'
   - name: FALLBACK
     type: fallback
@@ -152,6 +155,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇩🇪DE | vmess | @oneclickvpnkeys | 10'
+      - '🇩🇪DE | vmess | @Hope_Net | 19'
       - '🇮🇷IR | vmess | @nofiltering2 | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
