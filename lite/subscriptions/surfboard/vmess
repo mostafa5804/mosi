@@ -11,11 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @Hope_Net | 19 = vmess, 172.67.57.252, 8880, username = f0c4cd42-1615-4d6d-bbd3-7b4b66e48ce1, ws = true, tls = , vmess-aead = true, ws-path = /microsoft?ed=2048, ws-headers = Host:"losangeles.us.pisces.eu.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇨🇦CA | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇨🇦CA | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
