@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @oneclickvpnkeys | 9 = vmess, ip.sb, 2053, username = b2aba745-50f4-45e0-b4c0-6e230b99fb2e, ws = true, tls = 1, vmess-aead = true, ws-path = /argox-vm?ed=2048, ws-headers = Host:"flat-reserves-stroke-guyana.trycloudflare.com", skip-cert-verify = true, tfo = false
+🇳🇴NO | vmess | @oneclickvpnkeys | 9 = vmess, 95.164.38.6, 80, username = 8b86eebb-4332-46ea-aa70-8a821dc8272f, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"no1.xv2ray.net", skip-cert-verify = true, tfo = false
+🇭🇰HK | vmess | @Hope_Net | 19 = vmess, 152.32.190.239, 4431, username = 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"cfhk.393930.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 9
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 9
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 9
+MANUAL = select,URL-TEST,FALLBACK,🇳🇴NO | vmess | @oneclickvpnkeys | 9,🇭🇰HK | vmess | @Hope_Net | 19
+URL-TEST = url-test,🇳🇴NO | vmess | @oneclickvpnkeys | 9,🇭🇰HK | vmess | @Hope_Net | 19
+FALLBACK = fallback,🇳🇴NO | vmess | @oneclickvpnkeys | 9,🇭🇰HK | vmess | @Hope_Net | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
