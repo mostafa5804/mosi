@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @DeamNet_Proxy | 19 = vmess, 104.16.61.8, 8443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = false, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"8wccc4a94-term-4a94.ketowil344.workers.dev", skip-cert-verify = true, tfo = false
 🇩🇪DE | vmess | @oneclickvpnkeys | 10 = vmess, 92.223.124.24, 80, username = 0688b7c7-72e9-442e-95a0-d3b950028c39, ws = true, tls = , vmess-aead = true, ws-path = /@forwardv2ray, ws-headers = Host:"mehdi600.3utilities.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 10
-URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 10
-FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 19,🇩🇪DE | vmess | @oneclickvpnkeys | 10
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | vmess | @oneclickvpnkeys | 10
+URL-TEST = url-test,🇩🇪DE | vmess | @oneclickvpnkeys | 10
+FALLBACK = fallback,🇩🇪DE | vmess | @oneclickvpnkeys | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
