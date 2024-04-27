@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇷🇺RU | ss | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | ss | @VmessProtocol | 4",
                 "🇦🇪AE | ss | @VmessProtocol | 5",
                 "🇨🇳CN | ss | @VmessProtocol | 10",
@@ -131,6 +132,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇷🇺RU | ss | @azadi_az_inja_migzare | 0",
                 "🇺🇸US | ss | @VmessProtocol | 4",
                 "🇦🇪AE | ss | @VmessProtocol | 5",
                 "🇨🇳CN | ss | @VmessProtocol | 10",
@@ -170,6 +172,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇷🇺RU | ss | @azadi_az_inja_migzare | 0",
+            "type": "shadowsocks",
+            "server": "moscow.telegavpn.com",
+            "server_port": 60422,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qIwr0gh6nlnJCTlpDDsGw3",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | ss | @VmessProtocol | 4",
