@@ -106,7 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺RU | ss | @azadi_az_inja_migzare | 0",
+                "🇫🇷FR | ss | @azadi_az_inja_migzare | 0",
+                "🇷🇺RU | ss | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | ss | @VmessProtocol | 4",
                 "🇦🇪AE | ss | @VmessProtocol | 5",
                 "🇨🇳CN | ss | @VmessProtocol | 10",
@@ -132,7 +133,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺RU | ss | @azadi_az_inja_migzare | 0",
+                "🇫🇷FR | ss | @azadi_az_inja_migzare | 0",
+                "🇷🇺RU | ss | @azadi_az_inja_migzare | 1",
                 "🇺🇸US | ss | @VmessProtocol | 4",
                 "🇦🇪AE | ss | @VmessProtocol | 5",
                 "🇨🇳CN | ss | @VmessProtocol | 10",
@@ -174,7 +176,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇷🇺RU | ss | @azadi_az_inja_migzare | 0",
+            "tag": "🇫🇷FR | ss | @azadi_az_inja_migzare | 0",
+            "type": "shadowsocks",
+            "server": "paris.telegavpn.com",
+            "server_port": 9802,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u1wq5c0I8FnQrhk51bGLHy",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇷🇺RU | ss | @azadi_az_inja_migzare | 1",
             "type": "shadowsocks",
             "server": "moscow.telegavpn.com",
             "server_port": 60422,
