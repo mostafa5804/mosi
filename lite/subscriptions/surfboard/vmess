@@ -11,10 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @Hope_Net | 19 = vmess, 172.67.164.207, 8443, username = fc0a3f44-adf4-4fd2-8023-46d4aa528892, ws = true, tls = 1, vmess-aead = true, ws-path = /download?ed=2048, ws-headers = Host:"cdn.baraye-azadi-info.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @Hope_Net | 19
+URL-TEST = url-test,🇨🇦CA | vmess | @Hope_Net | 19
+FALLBACK = fallback,🇨🇦CA | vmess | @Hope_Net | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
