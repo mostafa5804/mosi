@@ -13,10 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇦CA | vmess | @mftizi | 19 = vmess, onea.flha.ru, 2095, username = 7a737f41-b792-4260-94ff-3d864da67b80, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @oneclickvpnkeys | 9 = vmess, hms082.gwdef.sbs, 443, username = bc864078-dcf3-4bf4-8dbf-ca9f200b56be, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"gwdef.sbs", skip-cert-verify = true, tfo = false
+🇳🇱NL | vmess | @Hope_Net | 14 = vmess, 45.14.244.133, 2024, username = bf1dd328-a605-48fd-918f-44cca1cfe07f, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @oneclickvpnkeys | 9
-URL-TEST = url-test,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @oneclickvpnkeys | 9
-FALLBACK = fallback,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @oneclickvpnkeys | 9
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @oneclickvpnkeys | 9,🇳🇱NL | vmess | @Hope_Net | 14
+URL-TEST = url-test,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @oneclickvpnkeys | 9,🇳🇱NL | vmess | @Hope_Net | 14
+FALLBACK = fallback,🇨🇦CA | vmess | @mftizi | 19,🇺🇸US | vmess | @oneclickvpnkeys | 9,🇳🇱NL | vmess | @Hope_Net | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
