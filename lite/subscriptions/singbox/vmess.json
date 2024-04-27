@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇷🇺RU | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
-                "🏳️XX | vmess | @ROMAX_VPN | 0"
+                "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
         },
         {
@@ -122,12 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇷🇺RU | vmess | @oneclickvpnkeys | 8",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
-                "🏳️XX | vmess | @ROMAX_VPN | 0"
+                "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -191,11 +191,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "46.29.166.237",
-            "server_port": 47555,
-            "uuid": "0c49cd19-2758-4d38-e6a8-11f2d6635860",
+            "server": "hms082.gwdef.sbs",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -205,6 +205,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
             }
         },
         {
@@ -310,7 +327,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ROMAX_VPN | 0",
+            "tag": "🏳️XX | vmess | @ROMAX_VPN | 1",
             "type": "vmess",
             "server": "f42.maryam1500.top",
             "server_port": 2098,
