@@ -133,6 +133,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇿🇦ZA | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | vmess | @prrofile_purple | 175",
                 "🇳🇱NL | vmess | @prrofile_purple | 182",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 0",
                 "🇺🇸US | vmess | @ShadowProxy66 | 1",
@@ -209,6 +210,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇿🇦ZA | vmess | @oneclickvpnkeys | 7",
+                "🇺🇸US | vmess | @prrofile_purple | 175",
                 "🇳🇱NL | vmess | @prrofile_purple | 182",
                 "🇮🇷IR | vmess | @ShadowProxy66 | 0",
                 "🇺🇸US | vmess | @ShadowProxy66 | 1",
@@ -941,6 +943,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @prrofile_purple | 175",
+            "type": "vmess",
+            "server": "ch.hopev2ray.link",
+            "server_port": 443,
+            "uuid": "e8f5f189-97c7-4845-8cfa-08bf9836c1ce",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr2-vmess.sshmax.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "fr2-vmess.sshmax.xyz"
                 }
             }
         },
