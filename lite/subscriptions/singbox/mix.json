@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇷🇺RU | ss | @azadi_az_inja_migzare | 4",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
@@ -166,7 +166,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 11",
-                "🇸🇪SE | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 25",
                 "🇳🇱NL | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -206,7 +205,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇷🇺RU | ss | @azadi_az_inja_migzare | 4",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 20",
@@ -248,7 +247,6 @@
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @Capoit | 11",
-                "🇸🇪SE | vless | @FreakConfig | 1",
                 "🇸🇪SE | vless | @flyv2ray | 25",
                 "🇳🇱NL | vless | @mehrosaboran | 9",
                 "🇩🇪DE | vless | @kiava | 6",
@@ -745,7 +743,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 1",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "104.24.95.58",
             "server_port": 2096,
@@ -970,9 +968,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
             "type": "vmess",
-            "server": "kkyx.yydsii.com",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -983,11 +981,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "maxin.beauty",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "maxin.beauty"
                 }
             }
         },
@@ -1778,27 +1786,6 @@
                 "path": "\/@VPNHTTPInjectorfree",
                 "headers": {
                     "Host": "pardazesh12.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @FreakConfig | 1",
-            "type": "vless",
-            "server": "185.146.173.59",
-            "server_port": 80,
-            "uuid": "a49672ff-8770-4fdb-b4bd-f0394d7f5e82",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.59"
                 }
             }
         },
