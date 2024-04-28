@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇿CZ | vmess | @DeamNet_Proxy | 15",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vmess | @prrofile_purple | 182",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -123,6 +124,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇺🇸US | vmess | @mftizi | 19",
+                "🇨🇿CZ | vmess | @DeamNet_Proxy | 15",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | vmess | @prrofile_purple | 182",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -189,6 +191,30 @@
                 "path": "\/ceb251d4",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | vmess | @DeamNet_Proxy | 15",
+            "type": "vmess",
+            "server": "77.75.230.125",
+            "server_port": 2082,
+            "uuid": "d466dd36-8b86-48b7-b0f0-67e7d128de6c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "77.75.230.125"
                 }
             }
         },
@@ -263,9 +289,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "172.105.150.181",
-            "server_port": 28953,
-            "uuid": "d1f31766-564a-47ab-88cc-0721145b78b8",
+            "server": "64.23.190.208",
+            "server_port": 59703,
+            "uuid": "6748ac8e-91a2-46d6-ec84-e629ae21edea",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -275,6 +301,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
