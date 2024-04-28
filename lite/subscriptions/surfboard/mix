@@ -15,13 +15,13 @@ DIRECT = direct
 🇩🇪DE | trojan | @PrivateVPNs | 18 = trojan, 18.192.64.209, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | trojan | @DirectVPN | 18 = trojan, 16.170.142.152, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | vmess | @mftizi | 19 = vmess, onea.flha.ru, 2095, username = 7a737f41-b792-4260-94ff-3d864da67b80, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
-🇨🇳CN | ss | @VmessProtocol | 17 = ss, 123.tw01.360ccc.com, 19504, encrypt-method = chacha20-ietf-poly1305, password = U8nltjmjIpgK1Pao
 🇸🇪SE | ss | @OutlineVpnOfficial | 17 = ss, 94.228.165.234, 15214, encrypt-method = chacha20-ietf-poly1305, password = DmMQUmI7pgQDnrWqLXC00L
+🇷🇺RU | vmess | @Hope_Net | 19 = vmess, 45.144.3.204, 18356, username = f36b128b-99b2-4e58-bd96-7a075cdb2b0a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🏳️XX | ss | @kingofilter | 7 = ss, 13.vip-archive69.site, 443, encrypt-method = chacha20-ietf-poly1305, password = telegram-id-Alfred-Config
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | ss | @azadi_az_inja_migzare | 4,🇩🇪DE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @mftizi | 19,🇨🇳CN | ss | @VmessProtocol | 17,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @kingofilter | 7
-URL-TEST = url-test,🇷🇺RU | ss | @azadi_az_inja_migzare | 4,🇩🇪DE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @mftizi | 19,🇨🇳CN | ss | @VmessProtocol | 17,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @kingofilter | 7
-FALLBACK = fallback,🇷🇺RU | ss | @azadi_az_inja_migzare | 4,🇩🇪DE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @mftizi | 19,🇨🇳CN | ss | @VmessProtocol | 17,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🏳️XX | ss | @kingofilter | 7
+MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | ss | @azadi_az_inja_migzare | 4,🇩🇪DE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @mftizi | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇷🇺RU | vmess | @Hope_Net | 19,🏳️XX | ss | @kingofilter | 7
+URL-TEST = url-test,🇷🇺RU | ss | @azadi_az_inja_migzare | 4,🇩🇪DE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @mftizi | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇷🇺RU | vmess | @Hope_Net | 19,🏳️XX | ss | @kingofilter | 7
+FALLBACK = fallback,🇷🇺RU | ss | @azadi_az_inja_migzare | 4,🇩🇪DE | trojan | @PrivateVPNs | 18,🇸🇪SE | trojan | @DirectVPN | 18,🇨🇦CA | vmess | @mftizi | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇷🇺RU | vmess | @Hope_Net | 19,🏳️XX | ss | @kingofilter | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
