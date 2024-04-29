@@ -12,14 +12,14 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇺🇸US | ss | @azadi_az_inja_migzare | 5 = ss, 23.154.136.37, 8118, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
-🇬🇧GB | trojan | @PrivateVPNs | 19 = trojan, 18.135.85.237, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 19 = trojan, 108.128.51.187, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇬🇧GB | trojan | @DirectVPN | 19 = trojan, 3.11.114.159, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇮🇷IR | vmess | @proxyymeliii | 19 = vmess, svt68.net2vip.com, 13575, username = b8bd3b99-008e-4c2b-a5dd-37d557b8c63c, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇸🇪SE | ss | @OutlineVpnOfficial | 17 = ss, 94.228.165.234, 15214, encrypt-method = chacha20-ietf-poly1305, password = DmMQUmI7pgQDnrWqLXC00L
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @azadi_az_inja_migzare | 5,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @proxyymeliii | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17
-URL-TEST = url-test,🇺🇸US | ss | @azadi_az_inja_migzare | 5,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @proxyymeliii | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17
-FALLBACK = fallback,🇺🇸US | ss | @azadi_az_inja_migzare | 5,🇬🇧GB | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @proxyymeliii | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | ss | @azadi_az_inja_migzare | 5,🇮🇪IE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @proxyymeliii | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17
+URL-TEST = url-test,🇺🇸US | ss | @azadi_az_inja_migzare | 5,🇮🇪IE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @proxyymeliii | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17
+FALLBACK = fallback,🇺🇸US | ss | @azadi_az_inja_migzare | 5,🇮🇪IE | trojan | @PrivateVPNs | 19,🇬🇧GB | trojan | @DirectVPN | 19,🇮🇷IR | vmess | @proxyymeliii | 19,🇸🇪SE | ss | @OutlineVpnOfficial | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
