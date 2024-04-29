@@ -12,11 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @oneclickvpnkeys | 7 = vmess, 104.26.0.95, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
-🇩🇪DE | vmess | @Hope_Net | 19 = vmess, 109.107.181.130, 33123, username = f33d5798-504f-426b-be86-cb5edd1a7b8a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇸🇬SG | vmess | @Hope_Net | 19 = vmess, 146.190.86.66, 35010, username = 9fbd6d59-dee1-4f1a-be58-53f0ed32356a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇩🇪DE | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇩🇪DE | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇩🇪DE | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇸🇬SG | vmess | @Hope_Net | 19
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇸🇬SG | vmess | @Hope_Net | 19
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇸🇬SG | vmess | @Hope_Net | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
