@@ -142,7 +142,8 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 140",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @DailyV2RY | 145",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -210,7 +211,8 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇨🇦CA | vless | @DailyV2RY | 140",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @DailyV2RY | 145",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 21",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -354,7 +356,7 @@
         {
             "tag": "🇩🇪DE | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "3.74.146.153",
+            "server": "18.199.249.70",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -782,9 +784,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "3ed3d9f2-5159-43e4-bc71-afa39c2dbe01",
+            "server": "172.67.204.84",
+            "server_port": 80,
+            "uuid": "5688f020-26a4-4f76-9750-30cde760d88a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -792,21 +794,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "1a7c8bd0.wyvernfree.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@Wyvernvpn?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "1a7c8bd0.wyvernfree.pages.dev"
+                    "Host": "172.67.204.84"
                 }
             }
         },
@@ -1188,11 +1180,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 140",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
             "type": "vless",
-            "server": "104.16.67.38",
-            "server_port": 2053,
-            "uuid": "4045c6b7-1d53-4574-98cd-df21db40b0dc",
+            "server": "muna.minusober.com",
+            "server_port": 443,
+            "uuid": "bffead23-bd0b-44dd-b4cb-b2a745ae069f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1202,7 +1194,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "itcenteriran.blog",
+                "server_name": "muna.minusober.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1212,9 +1204,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/p=19",
+                "path": "\/muna",
                 "headers": {
-                    "Host": "itcenteriran.blog"
+                    "Host": "muna.minusober.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 145",
+            "type": "vless",
+            "server": "104.21.94.125",
+            "server_port": 443,
+            "uuid": "e6a047f0-734b-4bd7-82aa-367f2d88f4a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "httpstmev2rayvmessfree.raminramin006.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "httpstmev2rayvmessfree.raminramin006.workers.dev"
                 }
             }
         },
