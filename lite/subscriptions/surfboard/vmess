@@ -11,12 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 104.21.15.36, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @proxyymeliii | 21 = vmess, www.gov.se, 8443, username = ba9f34d1-ae47-4bd0-9f9e-d5dd5460e4f1, ws = true, tls = 1, vmess-aead = true, ws-path = /@asrnovin_ir, ws-headers = Host:"ipvv6.asrenet.ru", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @proxyymeliii | 21
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @proxyymeliii | 21
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @proxyymeliii | 21
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
