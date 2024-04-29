@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 104.19.40.9, 2052, username = 969a3d55-0593-4533-af3c-1fa0a71e3cd3, ws = true, tls = , vmess-aead = true, ws-path = /microsoftvideo/HEAC?ed=2048, ws-headers = Host:"de05-v6.us.pisces.eu.org", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @Hope_Net | 19 = vmess, 155.138.242.207, 54316, username = 67797c6a-e898-49bd-8f61-5fb1523ce0bd, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇺🇸US | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇺🇸US | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇺🇸US | vmess | @Hope_Net | 19
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇺🇸US | vmess | @Hope_Net | 19
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇺🇸US | vmess | @Hope_Net | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
