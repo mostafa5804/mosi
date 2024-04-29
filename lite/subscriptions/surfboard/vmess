@@ -13,11 +13,10 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇺🇸US | vmess | @mftizi | 19 = vmess, 45.92.218.249, 29928, username = ceb251d4-277d-4f43-b381-c5103172a990, ws = true, tls = , vmess-aead = true, ws-path = /ceb251d4, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @proxyymeliii | 21 = vmess, www.gov.se, 8443, username = ba9f34d1-ae47-4bd0-9f9e-d5dd5460e4f1, ws = true, tls = 1, vmess-aead = true, ws-path = /@asrnovin_ir, ws-headers = Host:"ipvv6.asrenet.ru", skip-cert-verify = true, tfo = false
-🇮🇳IN | vmess | @Hope_Net | 19 = vmess, 13.201.236.209, 53837, username = 252b7ece-80eb-4c7b-93f4-cb0166e53325, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"m.linkedin.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @mftizi | 19,🇨🇦CA | vmess | @proxyymeliii | 21,🇮🇳IN | vmess | @Hope_Net | 19
-URL-TEST = url-test,🇺🇸US | vmess | @mftizi | 19,🇨🇦CA | vmess | @proxyymeliii | 21,🇮🇳IN | vmess | @Hope_Net | 19
-FALLBACK = fallback,🇺🇸US | vmess | @mftizi | 19,🇨🇦CA | vmess | @proxyymeliii | 21,🇮🇳IN | vmess | @Hope_Net | 19
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @mftizi | 19,🇨🇦CA | vmess | @proxyymeliii | 21
+URL-TEST = url-test,🇺🇸US | vmess | @mftizi | 19,🇨🇦CA | vmess | @proxyymeliii | 21
+FALLBACK = fallback,🇺🇸US | vmess | @mftizi | 19,🇨🇦CA | vmess | @proxyymeliii | 21
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
