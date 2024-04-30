@@ -11,11 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 104.19.40.9, 2052, username = 969a3d55-0593-4533-af3c-1fa0a71e3cd3, ws = true, tls = , vmess-aead = true, ws-path = /microsoftvideo/HEAC?ed=2048, ws-headers = Host:"de05-v6.us.pisces.eu.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 6
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 6
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 6
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
