@@ -15,10 +15,11 @@ DIRECT = direct
 🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 13.50.81.151, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 104.19.40.9, 2052, username = 969a3d55-0593-4533-af3c-1fa0a71e3cd3, ws = true, tls = , vmess-aead = true, ws-path = /microsoftvideo/HEAC?ed=2048, ws-headers = Host:"de05-v6.us.pisces.eu.org", skip-cert-verify = true, tfo = false
 🇸🇪SE | ss | @OutlineVpnOfficial | 17 = ss, 94.228.165.234, 15214, encrypt-method = chacha20-ietf-poly1305, password = DmMQUmI7pgQDnrWqLXC00L
+🇭🇰HK | vmess | @Hope_Net | 18 = vmess, 152.32.190.239, 4431, username = 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"cfhk.393930.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇸🇪SE | ss | @OutlineVpnOfficial | 17
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇸🇪SE | ss | @OutlineVpnOfficial | 17
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇸🇪SE | ss | @OutlineVpnOfficial | 17
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇭🇰HK | vmess | @Hope_Net | 18
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇭🇰HK | vmess | @Hope_Net | 18
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇸🇪SE | ss | @OutlineVpnOfficial | 17,🇭🇰HK | vmess | @Hope_Net | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
