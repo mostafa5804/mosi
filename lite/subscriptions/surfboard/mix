@@ -16,10 +16,11 @@ DIRECT = direct
 🇨🇳CN | vmess | @mftizi | 19 = vmess, 223.113.130.58, 50080, username = 842bca7e-7fae-3e92-ba62-8c5e010c24cf, ws = true, tls = , vmess-aead = true, ws-path = /db00, ws-headers = Host:"cache-hk-1.cn-db.top", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @oneclickvpnkeys | 8 = vmess, 104.21.15.36, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 🇷🇺RU | ss | @OutlineVpnOfficial | 17 = ss, 45.139.24.63, 57456, encrypt-method = chacha20-ietf-poly1305, password = 3fbeb668f48414f6
+🇮🇷IR | vmess | @Hope_Net | 17 = vmess, 2.189.130.71, 10429, username = 362a4ade-15ff-4540-a132-ab10294b76bf, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇷🇺RU | ss | @OutlineVpnOfficial | 17
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇷🇺RU | ss | @OutlineVpnOfficial | 17
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇷🇺RU | ss | @OutlineVpnOfficial | 17
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇮🇷IR | vmess | @Hope_Net | 17
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇮🇷IR | vmess | @Hope_Net | 17
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇮🇷IR | vmess | @Hope_Net | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
