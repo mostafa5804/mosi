@@ -164,7 +164,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🏳️XX | vless | @Capoit | 9",
+                "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇬🇧GB | vmess | @FAKEOFTVC | 0",
@@ -176,7 +176,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -246,7 +246,7 @@
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇩🇪DE | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🏳️XX | vless | @Capoit | 9",
+                "🇨🇦CA | vless | @Capoit | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇬🇧GB | vmess | @FAKEOFTVC | 0",
@@ -258,7 +258,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -924,9 +924,9 @@
         {
             "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "172.67.164.164",
-            "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "c9e99213-170b-458a-b45b-79454ac7cf4b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -937,21 +937,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms07.xfixedfloat.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "afrhms07.xfixedfloat.cfd"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1523,9 +1513,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "172.233.164.32",
-            "server_port": 39841,
-            "uuid": "4242d74d-b748-4e74-a7c2-2bfb9d6ed121",
+            "server": "174.136.205.46",
+            "server_port": 39027,
+            "uuid": "26419143-8a06-43ab-d58c-bea7b7da8203",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1736,17 +1726,34 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Capoit | 9",
+            "tag": "🇨🇦CA | vless | @Capoit | 7",
             "type": "vless",
-            "server": "bestshop1x.channeltest.fun",
-            "server_port": 36781,
-            "uuid": "73d348ef-aadc-4c8a-92b1-4394e9f8abab",
+            "server": "pardazeshvpn-tg10.pages.dev",
+            "server_port": 443,
+            "uuid": "1a8b4f8b-a240-4818-a75f-3b74e875ca6f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg10.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazeshvpn-tg10.pages.dev"
+                }
             }
         },
         {
@@ -2035,7 +2042,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
