@@ -121,7 +121,6 @@ proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"223.113.130.58","port":"50080","cipher":"auto","uuid":"842bca7e-7fae-3e92-ba62-8c5e010c24cf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/db00","headers":{"host":"cache-hk-1.cn-db.top"}}}
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 8","type":"vmess","server":"104.21.15.36","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
-  - {"name":"🇮🇷IR | vmess | @Hope_Net | 17","type":"vmess","server":"2.189.130.71","port":"10429","cipher":"auto","uuid":"362a4ade-15ff-4540-a132-ab10294b76bf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"🏳️XX | vmess | @ROMAX_VPN | 1","type":"vmess","server":"f42.maryam1500.top","port":"2098","cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -132,7 +131,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
-      - '🇮🇷IR | vmess | @Hope_Net | 17'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: URL-TEST
     type: url-test
@@ -143,7 +141,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
-      - '🇮🇷IR | vmess | @Hope_Net | 17'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: FALLBACK
     type: fallback
@@ -153,7 +150,6 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 8'
-      - '🇮🇷IR | vmess | @Hope_Net | 17'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
