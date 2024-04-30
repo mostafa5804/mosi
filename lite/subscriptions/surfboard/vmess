@@ -12,12 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇳CN | vmess | @mftizi | 19 = vmess, 223.113.130.58, 50080, username = 842bca7e-7fae-3e92-ba62-8c5e010c24cf, ws = true, tls = , vmess-aead = true, ws-path = /db00, ws-headers = Host:"cache-hk-1.cn-db.top", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @DeamNet_Proxy | 18 = vmess, icook.hk, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = false, ws-path = /linde06.indiavideo.sbs/linkws, ws-headers = Host:"subhk.osafari599.WOrkERs.Dev", skip-cert-verify = true, tfo = false
 🏳️XX | vmess | @oneclickvpnkeys | 5 = vmess, 2a01:4f8:242:1d0e::1461:40, 24444, username = f362d0b5-34d8-4f33-8ead-90a5fe6921b8, ws = true, tls = , vmess-aead = true, ws-path = /5e60be5f/, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇮🇷IR | vmess | @proxyymeliii | 26 = vmess, megasvt1.iranvipnet.com, 10429, username = 362a4ade-15ff-4540-a132-ab10294b76bf, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🏳️XX | vmess | @oneclickvpnkeys | 5,🇮🇷IR | vmess | @proxyymeliii | 26
-URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🏳️XX | vmess | @oneclickvpnkeys | 5,🇮🇷IR | vmess | @proxyymeliii | 26
-FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🏳️XX | vmess | @oneclickvpnkeys | 5,🇮🇷IR | vmess | @proxyymeliii | 26
+MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @DeamNet_Proxy | 18,🏳️XX | vmess | @oneclickvpnkeys | 5,🇮🇷IR | vmess | @proxyymeliii | 26
+URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @DeamNet_Proxy | 18,🏳️XX | vmess | @oneclickvpnkeys | 5,🇮🇷IR | vmess | @proxyymeliii | 26
+FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @DeamNet_Proxy | 18,🏳️XX | vmess | @oneclickvpnkeys | 5,🇮🇷IR | vmess | @proxyymeliii | 26
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
