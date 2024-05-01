@@ -124,7 +124,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇺🇸US | vless | @ProxyForOpeta | 4",
+                "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇳🇱NL | vless | @V2rayNGn | 27",
                 "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇸🇪SE | trojan | @DirectVPN | 19",
@@ -720,7 +720,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ProxyForOpeta | 4",
+            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 4",
             "type": "vless",
             "server": "chat.openai.com",
             "server_port": 8080,
@@ -1213,9 +1213,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 17",
             "type": "vless",
-            "server": "104.17.169.114",
-            "server_port": 80,
-            "uuid": "914eb716-1f2f-4b05-a014-0f75b38e4f76",
+            "server": "104.20.254.143",
+            "server_port": 8443,
+            "uuid": "6eaabb55-831c-433d-879e-9b3a054dc650",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1223,11 +1223,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?Telegram=@V2RayTz,@V2RayTz",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.17.169.114"
+                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
                 }
             }
         },
