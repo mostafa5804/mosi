@@ -13,14 +13,13 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇩🇪DE | trojan | @PrivateVPNs | 19 = trojan, 3.64.245.254, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇮🇪IE | trojan | @DirectVPN | 19 = trojan, 54.170.142.74, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇺🇸US | vmess | @DeamNet_Proxy | 18 = vmess, oracle1.mysupp.com, 25943, username = 520c82fe-3e74-43b9-9dfb-87cae71e8cc0, ws = true, tls = 1, vmess-aead = false, ws-path = /canada, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇷🇺RU | ss | @OutlineVpnOfficial | 17 = ss, 45.139.24.63, 57456, encrypt-method = chacha20-ietf-poly1305, password = 3fbeb668f48414f6
 🇸🇬SG | vmess | @Hope_Net | 19 = vmess, 8.222.182.10, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"s1c.v2.v001sss.xyz", skip-cert-verify = true, tfo = false
 🇬🇧GB | ss | @proxy_mtm | 0 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇸🇬SG | vmess | @Hope_Net | 19,🇬🇧GB | ss | @proxy_mtm | 0
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇸🇬SG | vmess | @Hope_Net | 19,🇬🇧GB | ss | @proxy_mtm | 0
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇸🇬SG | vmess | @Hope_Net | 19,🇬🇧GB | ss | @proxy_mtm | 0
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇸🇬SG | vmess | @Hope_Net | 19,🇬🇧GB | ss | @proxy_mtm | 0
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇸🇬SG | vmess | @Hope_Net | 19,🇬🇧GB | ss | @proxy_mtm | 0
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 19,🇮🇪IE | trojan | @DirectVPN | 19,🇷🇺RU | ss | @OutlineVpnOfficial | 17,🇸🇬SG | vmess | @Hope_Net | 19,🇬🇧GB | ss | @proxy_mtm | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
