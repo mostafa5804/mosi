@@ -119,6 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"205.234.200.104","port":"33164","cipher":"auto","uuid":"31e8f7b4-ba3e-440a-9f56-8241569c017a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sd23dss","headers":{"host":""}}}
   - {"name":"🇨🇦CA | vmess | @FAKEOFTVC | 0","type":"vmess","server":"cf.hy2.one","port":"2052","cipher":"auto","uuid":"5edafe88-b558-4129-a86d-58fd84be79f0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk07.hy-2.one"}}}
   - {"name":"🏳️XX | vmess | @ROMAX_VPN | 1","type":"vmess","server":"f42.maryam1500.top","port":"2098","cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
@@ -128,6 +129,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @FAKEOFTVC | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: URL-TEST
@@ -137,6 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @FAKEOFTVC | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: FALLBACK
@@ -145,6 +148,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇺🇸US | vmess | @Hope_Net | 19'
       - '🇨🇦CA | vmess | @FAKEOFTVC | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
 rules:
