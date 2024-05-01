@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @vless_vmess | 7 = vmess, 104.21.83.208, 443, username = f92628e9-c245-4dca-be18-b4a3b8fdb511, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"hayedeh.top", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @FAKEOFTVC | 0 = vmess, cf.hy2.one, 2052, username = 5edafe88-b558-4129-a86d-58fd84be79f0, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"hk07.hy-2.one", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @vless_vmess | 7,🇨🇦CA | vmess | @FAKEOFTVC | 0
-URL-TEST = url-test,🇨🇦CA | vmess | @vless_vmess | 7,🇨🇦CA | vmess | @FAKEOFTVC | 0
-FALLBACK = fallback,🇨🇦CA | vmess | @vless_vmess | 7,🇨🇦CA | vmess | @FAKEOFTVC | 0
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @FAKEOFTVC | 0
+URL-TEST = url-test,🇨🇦CA | vmess | @FAKEOFTVC | 0
+FALLBACK = fallback,🇨🇦CA | vmess | @FAKEOFTVC | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
