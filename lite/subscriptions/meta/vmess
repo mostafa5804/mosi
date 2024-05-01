@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 19","type":"vmess","server":"64.176.216.199","port":"36159","cipher":"auto","uuid":"4826d728-48f9-43d1-aa1f-27b6850cd8a1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇧🇷BR | vmess | @Hope_Net | 19","type":"vmess","server":"95.164.4.51","port":"8442","cipher":"auto","uuid":"9e919472-c8af-41db-acdf-e0db57c451eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🏳️XX | vmess | @ROMAX_VPN | 1","type":"vmess","server":"f42.maryam1500.top","port":"2098","cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +130,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
+      - '🇧🇷BR | vmess | @Hope_Net | 19'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: URL-TEST
     type: url-test
@@ -139,7 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
+      - '🇧🇷BR | vmess | @Hope_Net | 19'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
   - name: FALLBACK
     type: fallback
@@ -147,7 +147,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
-      - '🇺🇸US | vmess | @Hope_Net | 19'
+      - '🇧🇷BR | vmess | @Hope_Net | 19'
       - '🏳️XX | vmess | @ROMAX_VPN | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
