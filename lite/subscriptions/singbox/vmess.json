@@ -107,10 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇧🇷BR | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
@@ -120,10 +121,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇧🇷BR | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 19",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
@@ -165,7 +167,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇺🇸US | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "104.21.224.221",
             "server_port": 80,
@@ -185,6 +187,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "oracle1.mysupp.com",
+            "server_port": 25943,
+            "uuid": "520c82fe-3e74-43b9-9dfb-87cae71e8cc0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "oracle1.mysupp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/canada",
+                "headers": {
+                    "Host": "oracle1.mysupp.com"
                 }
             }
         },
@@ -213,7 +249,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -247,11 +283,11 @@
             }
         },
         {
-            "tag": "🇧🇷BR | vmess | @Hope_Net | 19",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "95.164.4.51",
-            "server_port": 8442,
-            "uuid": "9e919472-c8af-41db-acdf-e0db57c451eb",
+            "server": "8.222.182.10",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -261,6 +297,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
