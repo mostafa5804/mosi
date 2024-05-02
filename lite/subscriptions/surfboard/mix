@@ -11,16 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | trojan | @PrivateVPNs | 19 = trojan, 3.8.42.44, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | trojan | @PrivateVPNs | 19 = trojan, 13.42.250.10, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | trojan | @DirectVPN | 19 = trojan, 18.218.52.200, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇺🇸US | vmess | @DeamNet_Proxy | 18 = vmess, 173.245.58.5, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = false, ws-path = /afrhms16v.bestxray.buzz/linkws, ws-headers = Host:"worker-bitter-math-2af8.waxoha3621.workers.dev", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @vless_vmess | 8 = vmess, 104.21.15.36, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
 🇺🇸US | ss | @OutlineVpnOfficial | 17 = ss, 38.107.226.132, 2376, encrypt-method = aes-256-gcm, password = faBAoD54k87UJG7
 🇨🇦CA | vmess | @FAKEOFTVC | 0 = vmess, cf.hy2.one, 2052, username = 5edafe88-b558-4129-a86d-58fd84be79f0, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"hk07.hy-2.one", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @vless_vmess | 8,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇦CA | vmess | @FAKEOFTVC | 0
-URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @vless_vmess | 8,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇦CA | vmess | @FAKEOFTVC | 0
-FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇺🇸US | vmess | @DeamNet_Proxy | 18,🇨🇦CA | vmess | @vless_vmess | 8,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇦CA | vmess | @FAKEOFTVC | 0
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @vless_vmess | 8,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇦CA | vmess | @FAKEOFTVC | 0
+URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @vless_vmess | 8,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇦CA | vmess | @FAKEOFTVC | 0
+FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 19,🇺🇸US | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @vless_vmess | 8,🇺🇸US | ss | @OutlineVpnOfficial | 17,🇨🇦CA | vmess | @FAKEOFTVC | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
