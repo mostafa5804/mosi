@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇬SG | vmess | @Hope_Net | 19 = vmess, 146.190.86.66, 35010, username = 9fbd6d59-dee1-4f1a-be58-53f0ed32356a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @FAKEOFTVC | 0 = vmess, cf.hy2.one, 2052, username = 5edafe88-b558-4129-a86d-58fd84be79f0, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"hk07.hy-2.one", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @FAKEOFTVC | 0
-URL-TEST = url-test,🇸🇬SG | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @FAKEOFTVC | 0
-FALLBACK = fallback,🇸🇬SG | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @FAKEOFTVC | 0
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @FAKEOFTVC | 0
+URL-TEST = url-test,🇨🇦CA | vmess | @FAKEOFTVC | 0
+FALLBACK = fallback,🇨🇦CA | vmess | @FAKEOFTVC | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
