@@ -12,11 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @vless_vmess | 8 = vmess, 104.21.15.36, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @Hope_Net | 19 = vmess, 172.67.214.33, 2095, username = 7a737f41-b792-4260-94ff-3d864da67b80, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @FAKEOFTVC | 0 = vmess, cf.hy2.one, 2052, username = 5edafe88-b558-4129-a86d-58fd84be79f0, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"hk07.hy-2.one", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @vless_vmess | 8,🇨🇦CA | vmess | @FAKEOFTVC | 0
-URL-TEST = url-test,🇨🇦CA | vmess | @vless_vmess | 8,🇨🇦CA | vmess | @FAKEOFTVC | 0
-FALLBACK = fallback,🇨🇦CA | vmess | @vless_vmess | 8,🇨🇦CA | vmess | @FAKEOFTVC | 0
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @vless_vmess | 8,🇨🇦CA | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @FAKEOFTVC | 0
+URL-TEST = url-test,🇨🇦CA | vmess | @vless_vmess | 8,🇨🇦CA | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @FAKEOFTVC | 0
+FALLBACK = fallback,🇨🇦CA | vmess | @vless_vmess | 8,🇨🇦CA | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @FAKEOFTVC | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
