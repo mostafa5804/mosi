@@ -106,8 +106,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | ss | @VmessProtocol | 8",
-                "🇬🇧GB | ss | @VmessProtocol | 13",
+                "🇫🇷FR | ss | @VmessProtocol | 2",
+                "🇨🇦CA | ss | @VmessProtocol | 9",
+                "🇬🇧GB | ss | @VmessProtocol | 14",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 5",
@@ -122,15 +123,16 @@
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 12"
+                "🇬🇧GB | ss | @ROMAX_VPN | 0"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | ss | @VmessProtocol | 8",
-                "🇬🇧GB | ss | @VmessProtocol | 13",
+                "🇫🇷FR | ss | @VmessProtocol | 2",
+                "🇨🇦CA | ss | @VmessProtocol | 9",
+                "🇬🇧GB | ss | @VmessProtocol | 14",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 3",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 5",
@@ -145,7 +147,7 @@
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 15",
                 "🇦🇹AT | ss | @OutlineVpnOfficial | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
-                "🇬🇧GB | ss | @proxy_mtm | 12"
+                "🇬🇧GB | ss | @ROMAX_VPN | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -168,7 +170,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | ss | @VmessProtocol | 8",
+            "tag": "🇫🇷FR | ss | @VmessProtocol | 2",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 7002,
+            "method": "aes-256-gcm",
+            "password": "RexnBgU7EV5ADxG",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | ss | @VmessProtocol | 9",
             "type": "shadowsocks",
             "server": "23.162.200.28",
             "server_port": 3389,
@@ -178,7 +190,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @VmessProtocol | 13",
+            "tag": "🇬🇧GB | ss | @VmessProtocol | 14",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
             "server_port": 443,
@@ -328,7 +340,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 12",
+            "tag": "🇬🇧GB | ss | @ROMAX_VPN | 0",
             "type": "shadowsocks",
             "server": "series-a2-mec.samanehha.co",
             "server_port": 443,
