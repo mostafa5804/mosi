@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -124,7 +124,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -195,11 +195,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "de-frankfurt-oracle-b26cf5.ip1.shop",
-            "server_port": 45103,
-            "uuid": "2ebcca87-e56e-432a-826e-3d0002faf71a",
+            "server": "hms07.xfixedfloat.cfd",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -210,11 +210,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms07.xfixedfloat.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/de1",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "afrhms07.xfixedfloat.cfd"
                 }
             }
         },
@@ -306,9 +316,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "205.234.200.104",
-            "server_port": 33164,
-            "uuid": "31e8f7b4-ba3e-440a-9f56-8241569c017a",
+            "server": "75.102.51.61",
+            "server_port": 12732,
+            "uuid": "191ba971-0f63-402e-bbc9-9e9eb2604b0c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -318,13 +328,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/sd23dss",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
