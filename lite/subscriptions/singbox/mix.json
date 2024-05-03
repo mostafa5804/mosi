@@ -120,6 +120,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇨🇦CA | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 13",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
@@ -154,7 +155,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -200,6 +201,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 18",
                 "🇨🇦CA | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 13",
+                "🇺🇸US | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇨🇦CA | vless | @DigiV2ray | 23",
                 "🇨🇦CA | vless | @proxy_kafee | 1",
@@ -234,7 +236,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇭🇰HK | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @fnet00 | 1",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 17",
@@ -609,6 +611,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @vpn_xw | 0",
+            "type": "vless",
+            "server": "ashburn.omega-dic.workers.dev",
+            "server_port": 443,
+            "uuid": "f3b622d4-08bb-47b4-9606-7dafd6071c73",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ashburn.omega-dic.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bs55Ovr86OzuubiHi",
+                "headers": {
+                    "Host": "ashburn.omega-dic.workers.dev"
+                }
             }
         },
         {
@@ -1022,9 +1055,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayngvpn | 16",
             "type": "vless",
-            "server": "172.66.213.5",
+            "server": "104.16.67.38",
             "server_port": 80,
-            "uuid": "f851b50e-0330-47fc-ad8f-9a7fc0d9d7b6",
+            "uuid": "a61eb3a2-1adb-48cb-ab46-ce225769de16",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1034,9 +1067,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
+                "path": "\/users",
                 "headers": {
-                    "Host": "172.66.213.5"
+                    "Host": "104.16.67.38"
                 }
             }
         },
@@ -1469,11 +1502,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "47.242.22.171",
-            "server_port": 28681,
-            "uuid": "3b1072ce-d096-46c2-a3e7-08b4f58538f5",
+            "server": "140.82.2.34",
+            "server_port": 23670,
+            "uuid": "423f6443-f1e9-4e84-d895-a14badc59e88",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1483,13 +1516,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
