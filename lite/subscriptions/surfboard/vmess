@@ -13,12 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇦CA | vmess | @oneclickvpnkeys | 8 = vmess, us3e-mmnnfr9dop0.v2freevpn.com, 80, username = 2a8a10fb-9ca3-367e-a234-cf09f841be4f, ws = true, tls = , vmess-aead = true, ws-path = /v118-fccxmxm35, ws-headers = Host:"us3e-mmnnfr9dop0.v2freevpn.com", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @ShadowProxy66 | 26 = vmess, 172.67.207.26, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
-🇧🇷BR | vmess | @Hope_Net | 19 = vmess, 129.148.33.28, 43402, username = c0dc0e51-1e74-4b6f-87d1-4890e12fbd85, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @v2Line | 7 = vmess, w.outline-vpn.cloud, 2086, username = 58fe1542-5290-40ad-815a-77707a81afe5, ws = true, tls = , vmess-aead = true, ws-path = /IOebhLMhl1CTbFHbL95myfRX2, ws-headers = Host:"ca6.tehme100.fun", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @ShadowProxy66 | 26,🇧🇷BR | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @v2Line | 7
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @ShadowProxy66 | 26,🇧🇷BR | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @v2Line | 7
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @ShadowProxy66 | 26,🇧🇷BR | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @v2Line | 7
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @ShadowProxy66 | 26,🇨🇦CA | vmess | @v2Line | 7
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @ShadowProxy66 | 26,🇨🇦CA | vmess | @v2Line | 7
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 8,🇨🇦CA | vmess | @ShadowProxy66 | 26,🇨🇦CA | vmess | @v2Line | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
