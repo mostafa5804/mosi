@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
@@ -123,11 +124,12 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 26",
                 "🇩🇪DE | vmess | @V2rayng_Fast | 1",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇯🇵JP | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
@@ -189,6 +191,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "118ejob.ir",
+            "server_port": 80,
+            "uuid": "7cf01acf-2b38-40ea-8f5c-fb3a63c1fa7f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "118ejob.ir"
                 }
             }
         },
@@ -312,11 +338,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "207.148.31.167",
-            "server_port": 30587,
-            "uuid": "55219214-9f2d-4914-fbaf-b1b444c85b0e",
+            "server": "47.74.6.16",
+            "server_port": 80,
+            "uuid": "5d815dc6-a795-44ff-aeb6-7ee16a7a1c57",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -326,6 +352,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/needay",
+                "headers": {
+                    "Host": "47.74.6.16"
+                }
             }
         },
         {
