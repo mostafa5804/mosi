@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 19",
+                "🇨🇦CA | vless | @EliV2ray | 21",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 10",
                 "🇫🇷FR | vless | @VlessConfig | 19",
@@ -134,7 +134,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 14",
-                "🇩🇪DE | vless | @prrofile_purple | 192",
+                "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @vmessorg | 25",
                 "🇸🇪SE | vless | @v2rayngvpn | 13",
@@ -175,7 +175,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -187,7 +187,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 19",
+                "🇨🇦CA | vless | @EliV2ray | 21",
                 "🇨🇦CA | vless | @v2_team | 3",
                 "🇷🇺RU | vless | @NIM_VPN_ir | 10",
                 "🇫🇷FR | vless | @VlessConfig | 19",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vless | @Outline_Vpn | 14",
-                "🇩🇪DE | vless | @prrofile_purple | 192",
+                "🇨🇦CA | vless | @prrofile_purple | 182",
                 "🇨🇦CA | vless | @customv2ray | 9",
                 "🇨🇦CA | vless | @vmessorg | 25",
                 "🇸🇪SE | vless | @v2rayngvpn | 13",
@@ -256,7 +256,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🏳️XX | vmess | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
@@ -284,7 +284,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 19",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 21",
             "type": "vless",
             "server": "104.21.45.183",
             "server_port": 80,
@@ -510,7 +510,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ARV2ray?ed=2056",
                 "headers": {
                     "Host": "185.146.173.58"
                 }
@@ -952,17 +952,34 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @prrofile_purple | 192",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 182",
             "type": "vless",
-            "server": "bo2.bia2bax.shop",
-            "server_port": 51202,
-            "uuid": "979eff94-5697-413f-9473-c4a6cd94bd6e",
+            "server": "172.66.1.85",
+            "server_port": 443,
+            "uuid": "52de3fa6-1673-4918-a90d-21d2b69de98e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eb8c0c64.888766.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/",
+                "headers": {
+                    "Host": "eb8c0c64.888766.pages.dev"
+                }
             }
         },
         {
@@ -1960,7 +1977,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
