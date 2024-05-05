@@ -106,18 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | vless | @Parsashonam | 1",
                 "🏳️XX | vless | @V2pedia | 42",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇫🇮FI | vless | @V2RayTz | 5",
                 "🇫🇮FI | vless | @V2RayTz | 6",
                 "🇫🇮FI | vless | @V2RayTz | 7",
+                "🇫🇮FI | vless | @V2RayTz | 8",
                 "🇩🇪DE | vless | @DailyV2RY | 138",
-                "🇸🇬SG | vless | @DailyV2RY | 152",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -158,18 +156,16 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | vless | @Parsashonam | 1",
                 "🏳️XX | vless | @V2pedia | 42",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 2",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 5",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
-                "🇫🇮FI | vless | @V2RayTz | 5",
                 "🇫🇮FI | vless | @V2RayTz | 6",
                 "🇫🇮FI | vless | @V2RayTz | 7",
+                "🇫🇮FI | vless | @V2RayTz | 8",
                 "🇩🇪DE | vless | @DailyV2RY | 138",
-                "🇸🇬SG | vless | @DailyV2RY | 152",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -224,35 +220,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇮FI | vless | @Parsashonam | 1",
-            "type": "vless",
-            "server": "37.27.34.238",
-            "server_port": 443,
-            "uuid": "---Parsashonam---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "androidcentral.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yQ9FEPZt1GCXQ_cPVBIYNpk7HE5Z1bnaP_SIY1iJHXs",
-                    "short_id": "73d7a721"
-                }
-            }
         },
         {
             "tag": "🏳️XX | vless | @V2pedia | 42",
@@ -436,7 +403,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @V2RayTz | 5",
+            "tag": "🇫🇮FI | vless | @V2RayTz | 6",
             "type": "vless",
             "server": "37.27.34.238",
             "server_port": 443,
@@ -465,7 +432,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @V2RayTz | 6",
+            "tag": "🇫🇮FI | vless | @V2RayTz | 7",
             "type": "vless",
             "server": "37.27.34.238",
             "server_port": 443,
@@ -494,7 +461,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | @V2RayTz | 7",
+            "tag": "🇫🇮FI | vless | @V2RayTz | 8",
             "type": "vless",
             "server": "37.27.34.238",
             "server_port": 443,
@@ -556,35 +523,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vless | @DailyV2RY | 152",
-            "type": "vless",
-            "server": "38.181.70.15",
-            "server_port": 443,
-            "uuid": "446df392-9de3-43f6-ebf0-8ba0f9d9f82f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "446df392.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4",
-                    "short_id": ""
-                }
             }
         },
         {
