@@ -143,6 +143,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | vmess | @ShadowProxy66 | 22",
                 "🇦🇪AE | vmess | @v2ray_swhil | 10",
+                "🇮🇷IR | vmess | @v2ray1_ng | 8",
                 "🇺🇸US | vmess | @vless_vmess | 4",
                 "🇩🇪DE | vmess | @vless_vmess | 14",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -150,8 +151,8 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🏳️XX | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 1",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 0",
+                "🇨🇳CN | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇵🇱PL | vmess | @v2Line | 1",
@@ -204,6 +205,7 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 21",
                 "🇺🇸US | vmess | @ShadowProxy66 | 22",
                 "🇦🇪AE | vmess | @v2ray_swhil | 10",
+                "🇮🇷IR | vmess | @v2ray1_ng | 8",
                 "🇺🇸US | vmess | @vless_vmess | 4",
                 "🇩🇪DE | vmess | @vless_vmess | 14",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -211,8 +213,8 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🏳️XX | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 1",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 0",
+                "🇨🇳CN | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇵🇱PL | vmess | @v2Line | 1",
@@ -1136,6 +1138,23 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | @v2ray1_ng | 8",
+            "type": "vmess",
+            "server": "178.239.150.170",
+            "server_port": 80,
+            "uuid": "2b7ce1d2-0372-4104-aa06-f7d999f26e1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @vless_vmess | 4",
             "type": "vmess",
             "server": "205.164.28.228",
@@ -1327,7 +1346,24 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "c23s801.jamjams.net",
+            "server_port": 61173,
+            "uuid": "9d1043a6-e87e-4bb7-8858-c1185e9c0c3b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "183.232.199.28",
             "server_port": 21006,
@@ -1341,30 +1377,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "104.21.8.157",
-            "server_port": 2082,
-            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.21.8.157"
-                }
             }
         },
         {
