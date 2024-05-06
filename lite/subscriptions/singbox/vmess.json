@@ -112,7 +112,7 @@
                 "🇳🇱NL | vmess | @ShadowProxy66 | 22",
                 "🇮🇷IR | vmess | @v2ray1_ng | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇳🇱NL | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -128,7 +128,7 @@
                 "🇳🇱NL | vmess | @ShadowProxy66 | 22",
                 "🇮🇷IR | vmess | @v2ray1_ng | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇳🇱NL | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -307,11 +307,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "104.19.173.68",
-            "server_port": 80,
-            "uuid": "bdeaba4b-bdac-426f-94f2-16a63d91352f",
+            "server": "cm.zhongzhuan.fnyun.cyou",
+            "server_port": 443,
+            "uuid": "3c39f959-6e2c-4d2b-973d-a471719990c9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -322,11 +322,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cm.zhongzhuan.fnyun.cyou",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.19.173.68"
+                    "Host": "cm.zhongzhuan.fnyun.cyou"
                 }
             }
         },
