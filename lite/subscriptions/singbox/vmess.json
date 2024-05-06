@@ -108,11 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @prrofile_purple | 191",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 29",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🇩🇪DE | vmess | @Hope_Net | 15",
                 "🇳🇱NL | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -124,11 +124,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
                 "🇮🇷IR | vmess | @prrofile_purple | 191",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 29",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🇩🇪DE | vmess | @Hope_Net | 15",
                 "🇳🇱NL | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -195,11 +195,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "5.75.202.76",
-            "server_port": 31418,
-            "uuid": "9afc7852-6341-4903-971c-3c6b92a913bb",
+            "server": "188.114.99.205",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -209,6 +209,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
@@ -297,11 +314,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "cfcdn1.sanfencdn9.com",
-            "server_port": 2082,
-            "uuid": "7f40abd1-6397-4706-8510-bc5d08df8ad5",
+            "server": "77.91.73.244",
+            "server_port": 80,
+            "uuid": "4ec2f1b0-b45d-41bf-b1d1-ec6ad7206cc8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -314,9 +331,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/CuTy87zAzV\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "cfcdn1.sanfencdn9.com"
+                    "Host": ""
                 }
             }
         },
