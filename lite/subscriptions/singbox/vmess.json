@@ -112,7 +112,7 @@
                 "🏳️XX | vmess | @ShadowProxy66 | 36",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 14",
+                "🇳🇱NL | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -128,7 +128,7 @@
                 "🏳️XX | vmess | @ShadowProxy66 | 36",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 14",
+                "🇳🇱NL | vmess | @Hope_Net | 14",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -297,13 +297,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 14",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "183.237.20.158",
-            "server_port": 41242,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -311,6 +311,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
             }
         },
         {
