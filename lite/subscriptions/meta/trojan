@@ -120,8 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 18","type":"trojan","server":"16.16.106.157","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @DirectVPN | 18","type":"trojan","server":"3.64.226.174","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 18","type":"trojan","server":"3.71.251.97","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @DirectVPN | 18","type":"trojan","server":"18.158.31.112","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇳🇱NL | trojan | @proxyymeliii | 36","type":"trojan","server":"85.192.41.133","port":11,"udp":false,"password":"kjAwOsOVed","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
@@ -129,7 +129,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇸🇪SE | trojan | @PrivateVPNs | 18'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
       - '🇩🇪DE | trojan | @DirectVPN | 18'
       - '🇳🇱NL | trojan | @proxyymeliii | 36'
   - name: URL-TEST
@@ -138,7 +138,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇸🇪SE | trojan | @PrivateVPNs | 18'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
       - '🇩🇪DE | trojan | @DirectVPN | 18'
       - '🇳🇱NL | trojan | @proxyymeliii | 36'
   - name: FALLBACK
@@ -146,7 +146,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇸🇪SE | trojan | @PrivateVPNs | 18'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 18'
       - '🇩🇪DE | trojan | @DirectVPN | 18'
       - '🇳🇱NL | trojan | @proxyymeliii | 36'
 rule-providers:
