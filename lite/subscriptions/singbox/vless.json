@@ -146,6 +146,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇳🇱NL | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 162",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -165,7 +166,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22",
@@ -216,6 +217,7 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 6",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇳🇱NL | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 162",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
@@ -235,7 +237,7 @@
                 "🇸🇪SE | vless | @SvnTeam | 33",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
-                "🇨🇦CA | vless | @V2FETCH | 2",
+                "🇺🇸US | vless | @V2FETCH | 2",
                 "🏳️XX | vless | @VpnSkyy | 7",
                 "🇨🇦CA | vless | @TIKTOK_PROXY | 0",
                 "🇸🇪SE | vless | @TVCminer | 22",
@@ -1270,6 +1272,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 14",
+            "type": "vless",
+            "server": "nitriding.appreviewcenter.com",
+            "server_port": 443,
+            "uuid": "f5a78514-1a94-486e-92a7-3bc9817095a6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nitriding.appreviewcenter.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nimws",
+                "headers": {
+                    "Host": "nitriding.appreviewcenter.com"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @DailyV2RY | 162",
             "type": "vless",
             "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
@@ -1788,7 +1821,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2FETCH | 2",
+            "tag": "🇺🇸US | vless | @V2FETCH | 2",
             "type": "vless",
             "server": "tandfonline.com",
             "server_port": 443,
