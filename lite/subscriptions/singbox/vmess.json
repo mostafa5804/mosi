@@ -109,9 +109,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
-                "🇺🇸US | vmess | @vless_vmess | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -124,9 +123,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
-                "🇺🇸US | vmess | @vless_vmess | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 16",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
@@ -227,30 +225,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 16",
-            "type": "vmess",
-            "server": "205.164.28.228",
-            "server_port": 29655,
-            "uuid": "bdd7d510-f28f-4d76-c236-11336fa0386e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/bdd7d510",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -285,11 +259,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 16",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "173.82.251.240",
-            "server_port": 2233,
-            "uuid": "1e3847e6-755a-4964-9845-4ac53e39b23c",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "f9f916cd-2297-45b8-bfd2-7cd0f1b2e408",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -300,11 +274,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "elahe.hayedeh.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "173.82.251.240"
+                    "Host": "elahe.hayedeh.top"
                 }
             }
         },
