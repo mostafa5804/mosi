@@ -13,11 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇳CN | vmess | @mftizi | 19 = vmess, zf.lalayun.cyou, 10163, username = b1553abe-6f1f-3288-bfc2-908b2f9fc4fc, ws = true, tls = , vmess-aead = true, ws-path = /v2ray, ws-headers = Host:"hk.lalayunssl.xyz", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 104.17.197.31, 443, username = 950db6aa-4926-4616-816e-ec0312dcb87b, ws = true, tls = 1, vmess-aead = true, ws-path = /jahfkjha.cfd/linkws, ws-headers = Host:"quiet-moon-132a.xetag42714.workers.dev", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @Hope_Net | 17 = vmess, www.speedtest.net, 443, username = f9f916cd-2297-45b8-bfd2-7cd0f1b2e408, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"elahe.hayedeh.top", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @nofiltering2 | 1 = vmess, 104.21.4.6, 443, username = 1052f24e-7b09-45eb-b0c5-d858eb124192, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @nofiltering2 | 1
-URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @nofiltering2 | 1
-FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @nofiltering2 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @Hope_Net | 17,🇨🇦CA | vmess | @nofiltering2 | 1
+URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @Hope_Net | 17,🇨🇦CA | vmess | @nofiltering2 | 1
+FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @Hope_Net | 17,🇨🇦CA | vmess | @nofiltering2 | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
