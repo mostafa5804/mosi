@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 12",
                 "🏳️XX | vless | @V2pedia | 41",
                 "🏳️XX | vless | @V2pedia | 46",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
@@ -120,7 +119,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2ray1_ng | 0",
-                "🏳️XX | vless | @Outlinev2rayNG | 4",
+                "🏳️XX | vless | @Outlinev2rayNG | 6",
                 "🇬🇧GB | vless | @v2rayng_vpnrog | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -157,7 +156,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 12",
                 "🏳️XX | vless | @V2pedia | 41",
                 "🏳️XX | vless | @V2pedia | 46",
                 "🇩🇪DE | vless | @V2rayNGmat | 1",
@@ -171,7 +169,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 10",
                 "🇩🇪DE | vless | @v2ray1_ng | 0",
-                "🏳️XX | vless | @Outlinev2rayNG | 4",
+                "🏳️XX | vless | @Outlinev2rayNG | 6",
                 "🇬🇧GB | vless | @v2rayng_vpnrog | 2",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -222,35 +220,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 12",
-            "type": "vless",
-            "server": "86.104.74.224",
-            "server_port": 8443,
-            "uuid": "4a3d9d02-f003-423c-80b4-8c5d89147281",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
         },
         {
             "tag": "🏳️XX | vless | @V2pedia | 41",
@@ -679,7 +648,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Outlinev2rayNG | 4",
+            "tag": "🏳️XX | vless | @Outlinev2rayNG | 6",
             "type": "vless",
             "server": "[2a01:4f8:c013:361a::1]",
             "server_port": 4585,
