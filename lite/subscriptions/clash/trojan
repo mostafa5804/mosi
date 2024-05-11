@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 19","type":"trojan","server":"18.130.115.17","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | trojan | @DirectVPN | 19","type":"trojan","server":"3.135.114.237","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 19","type":"trojan","server":"54.76.243.119","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | trojan | @DirectVPN | 19","type":"trojan","server":"3.129.32.247","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | trojan | @FAKEOFTVC | 0","type":"trojan","server":"shop.safeconfs.cloud","port":443,"udp":false,"password":"k8cnte5cbage","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
@@ -127,7 +127,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
       - '🇺🇸US | trojan | @DirectVPN | 19'
       - '🇩🇪DE | trojan | @FAKEOFTVC | 0'
   - name: URL-TEST
@@ -136,7 +136,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
       - '🇺🇸US | trojan | @DirectVPN | 19'
       - '🇩🇪DE | trojan | @FAKEOFTVC | 0'
   - name: FALLBACK
@@ -144,7 +144,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇬🇧GB | trojan | @PrivateVPNs | 19'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 19'
       - '🇺🇸US | trojan | @DirectVPN | 19'
       - '🇩🇪DE | trojan | @FAKEOFTVC | 0'
 rules:
