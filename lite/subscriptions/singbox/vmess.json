@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 8",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 17",
@@ -122,7 +122,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🏳️XX | vmess | @oneclickvpnkeys | 8",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇮🇷IR | vmess | @Hope_Net | 17",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "2a05:541:110:43::1",
-            "server_port": 2098,
-            "uuid": "83876222-64a4-4912-aa18-b7d9d34959de",
+            "server": "103.113.68.233",
+            "server_port": 8880,
+            "uuid": "fddb3781-7e15-4731-a933-94db110b4bbc",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,6 +198,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -271,9 +278,9 @@
         {
             "tag": "🇮🇷IR | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "85.9.100.140",
-            "server_port": 8933,
-            "uuid": "4b0eb979-ff34-43eb-a0ff-6f24e3431075",
+            "server": "31.47.45.146",
+            "server_port": 500,
+            "uuid": "5628d2e2-ab43-45e6-adc3-ad0b9af7a71e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -283,6 +290,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
