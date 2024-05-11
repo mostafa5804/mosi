@@ -111,6 +111,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @frev2ray | 8",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 24",
@@ -118,7 +119,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 13",
                 "🇸🇪SE | vless | @lightning6 | 14",
                 "🇩🇪DE | vless | @V2rayNGmat | 5",
-                "🇨🇦CA | vless | @vpn_xw | 1",
+                "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇳🇱NL | vless | @proxy_kafee | 2",
@@ -130,7 +131,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 193",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 17",
-                "🇸🇪SE | vless | @v2rayngvpn | 11",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
@@ -180,6 +181,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇸🇪SE | vless | @VlessConfig | 19",
                 "🇨🇦CA | vless | @ipV2Ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 10",
                 "🇸🇪SE | vless | @frev2ray | 8",
                 "🇸🇪SE | vless | @ARv2ray | 18",
                 "🇸🇪SE | vless | @shh_proxy | 24",
@@ -187,7 +189,7 @@
                 "🇨🇦CA | vless | @rxv2ray | 13",
                 "🇸🇪SE | vless | @lightning6 | 14",
                 "🇩🇪DE | vless | @V2rayNGmat | 5",
-                "🇨🇦CA | vless | @vpn_xw | 1",
+                "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
                 "🇳🇱NL | vless | @proxy_kafee | 2",
@@ -199,7 +201,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 193",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 17",
-                "🇸🇪SE | vless | @v2rayngvpn | 11",
+                "🇨🇦CA | vless | @v2rayngvpn | 13",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
@@ -383,6 +385,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @melov2ray | 10",
+            "type": "vless",
+            "server": "ch.melobigg.site",
+            "server_port": 443,
+            "uuid": "b5462926-303d-42a3-a414-ce488ddcdf84",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ch.melobigg.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melov2ray",
+                "headers": {
+                    "Host": "ch.melobigg.site"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @frev2ray | 8",
             "type": "vless",
             "server": "c-i-y-t-r-f-mrkia.kopl.tahriralf.IR",
@@ -558,7 +591,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 1",
+            "tag": "🇺🇸US | vless | @vpn_xw | 1",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -853,11 +886,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2rayngvpn | 11",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 13",
             "type": "vless",
-            "server": "185.146.173.57",
+            "server": "104.19.247.91",
             "server_port": 8880,
-            "uuid": "eea3fa8f-cdef-4394-8b7d-abd9efbc0d73",
+            "uuid": "9699350a-ea86-4c70-b3dd-ab9b0f741bff",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -867,9 +900,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-@Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Academi_vpn,telegram-Lookivpn,telegram-Academi_vpn,Mmdv2rayng-V2rayngmmd-telegram-mehran-v2ray?ed=2056",
+                "path": "\/@Daily_Configs-@Daily_Configs-@Daily_Configs?ed=1024",
                 "headers": {
-                    "Host": "185.146.173.57"
+                    "Host": "104.19.247.91"
                 }
             }
         },
