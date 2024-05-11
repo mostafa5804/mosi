@@ -111,8 +111,8 @@
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 17",
-                "🇵🇱PL | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
+                "🇵🇱PL | vmess | @v2Line | 9",
                 "🇩🇪DE | vmess | @kingofilter | 3",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ]
@@ -126,8 +126,8 @@
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 17",
-                "🇵🇱PL | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 16",
+                "🇵🇱PL | vmess | @v2Line | 9",
                 "🇩🇪DE | vmess | @kingofilter | 3",
                 "🏳️XX | vmess | @ROMAX_VPN | 1"
             ],
@@ -278,11 +278,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 17",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "185.39.51.6",
-            "server_port": 54506,
-            "uuid": "f364f4a0-920c-49fa-a7ab-d150bf7ef1b1",
+            "server": "172.67.164.207",
+            "server_port": 8443,
+            "uuid": "fc0a3f44-adf4-4fd2-8023-46d4aa528892",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -292,10 +292,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.baraye-azadi-info.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/download",
+                "headers": {
+                    "Host": "cdn.baraye-azadi-info.com"
+                }
             }
         },
         {
-            "tag": "🇵🇱PL | vmess | @v2Line | 8",
+            "tag": "🇵🇱PL | vmess | @v2Line | 9",
             "type": "vmess",
             "server": "146.59.17.58",
             "server_port": 12960,
