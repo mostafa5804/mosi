@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @EliV2ray | 17",
+                "🇸🇪SE | vless | @EliV2ray | 19",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -120,10 +120,10 @@
                 "🇨🇦CA | vless | @rxv2ray | 13",
                 "🇸🇪SE | vless | @lightning6 | 15",
                 "🇩🇪DE | vless | @V2rayNGmat | 7",
-                "🇨🇦CA | vless | @vpn_xw | 1",
+                "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
-                "🇮🇷IR | vless | @proxy_kafee | 1",
+                "🇳🇱NL | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -133,8 +133,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
-                "🇳🇱NL | vless | @Outline_Vpn | 19",
-                "🇨🇦CA | vless | @prrofile_purple | 195",
+                "🇺🇸US | vless | @Outline_Vpn | 19",
+                "🇺🇸US | vless | @prrofile_purple | 195",
                 "🇸🇪SE | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 17",
@@ -191,7 +191,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @EliV2ray | 17",
+                "🇸🇪SE | vless | @EliV2ray | 19",
                 "🇨🇦CA | vless | @Parsashonam | 17",
                 "🇸🇪SE | vless | @NIM_VPN_ir | 3",
                 "🇸🇪SE | vless | @VlessConfig | 19",
@@ -205,10 +205,10 @@
                 "🇨🇦CA | vless | @rxv2ray | 13",
                 "🇸🇪SE | vless | @lightning6 | 15",
                 "🇩🇪DE | vless | @V2rayNGmat | 7",
-                "🇨🇦CA | vless | @vpn_xw | 1",
+                "🇺🇸US | vless | @vpn_xw | 1",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 15",
-                "🇮🇷IR | vless | @proxy_kafee | 1",
+                "🇳🇱NL | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
@@ -218,8 +218,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
-                "🇳🇱NL | vless | @Outline_Vpn | 19",
-                "🇨🇦CA | vless | @prrofile_purple | 195",
+                "🇺🇸US | vless | @Outline_Vpn | 19",
+                "🇺🇸US | vless | @prrofile_purple | 195",
                 "🇸🇪SE | vless | @customv2ray | 10",
                 "🇨🇦CA | vless | @UnlimitedDev | 11",
                 "🇨🇦CA | vless | @vmessorg | 17",
@@ -292,7 +292,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @EliV2ray | 17",
+            "tag": "🇸🇪SE | vless | @EliV2ray | 19",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
@@ -634,7 +634,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vpn_xw | 1",
+            "tag": "🇺🇸US | vless | @vpn_xw | 1",
             "type": "vless",
             "server": "ashburn.omega-dic.workers.dev",
             "server_port": 443,
@@ -717,17 +717,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxy_kafee | 1",
+            "tag": "🇳🇱NL | vless | @proxy_kafee | 2",
             "type": "vless",
-            "server": "tnl5.radmehrmax.ir",
-            "server_port": 8097,
-            "uuid": "3cef3166-9c92-440b-9383-a220e68a930a",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
             }
         },
         {
@@ -927,7 +944,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @Outline_Vpn | 19",
+            "tag": "🇺🇸US | vless | @Outline_Vpn | 19",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -958,7 +975,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 195",
+            "tag": "🇺🇸US | vless | @prrofile_purple | 195",
             "type": "vless",
             "server": "172.66.213.5",
             "server_port": 80,
