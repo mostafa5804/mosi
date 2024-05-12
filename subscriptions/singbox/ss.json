@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | ss | @VmessProtocol | 1",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 6",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 7",
@@ -130,6 +131,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | ss | @VmessProtocol | 1",
                 "🇫🇮FI | ss | @OutlineVpnOfficial | 5",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 6",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 7",
@@ -168,6 +170,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | ss | @VmessProtocol | 1",
+            "type": "shadowsocks",
+            "server": "23.162.200.189",
+            "server_port": 443,
+            "method": "aes-256-gcm",
+            "password": "pKEW8JPByTVTLtM",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 5",
