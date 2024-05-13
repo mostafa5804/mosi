@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇮🇷IR | vmess | @proxyymeliii | 27",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇵🇱PL | vmess | @v2Line | 11",
                 "🇺🇸US | vmess | @FreakConfig | 2",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇮🇷IR | vmess | @proxyymeliii | 27",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
+                "🇭🇰HK | vmess | @Hope_Net | 19",
                 "🇵🇱PL | vmess | @v2Line | 11",
                 "🇺🇸US | vmess | @FreakConfig | 2",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -282,11 +282,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇭🇰HK | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "155.138.242.207",
-            "server_port": 54316,
-            "uuid": "67797c6a-e898-49bd-8f61-5fb1523ce0bd",
+            "server": "210.3.159.224",
+            "server_port": 12909,
+            "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -297,11 +297,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "19.lwdh.us",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "19.lwdh.us"
                 }
             }
         },
