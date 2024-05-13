@@ -110,7 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 17",
+                "🇬🇧GB | vmess | @Hope_Net | 15",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 3",
@@ -125,7 +125,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 17",
+                "🇬🇧GB | vmess | @Hope_Net | 15",
                 "🇵🇱PL | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇩🇪DE | vmess | @kingofilter | 3",
@@ -254,11 +254,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
+            "tag": "🇬🇧GB | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "104.21.4.14",
-            "server_port": 2086,
-            "uuid": "e690ff9e-1676-4be3-d136-dcae586cb1e7",
+            "server": "uk2-full.privateip.net",
+            "server_port": 443,
+            "uuid": "36112366-6c82-43ce-92b0-1a442a1a7156",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -269,11 +269,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "uk2-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": ""
+                    "Host": "uk2-full.privateip.net"
                 }
             }
         },
