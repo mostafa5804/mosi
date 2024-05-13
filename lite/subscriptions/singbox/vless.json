@@ -124,7 +124,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇮🇷IR | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
@@ -153,10 +153,10 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -192,7 +192,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇮🇷IR | vless | @proxy_kafee | 1",
+                "🇨🇦CA | vless | @proxy_kafee | 0",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
@@ -211,7 +211,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 13",
                 "🏳️XX | vless | @MTConfig | 11",
                 "🇸🇪SE | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 15",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @DailyV2RY | 144",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 8",
@@ -221,10 +221,10 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 17",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 16",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 4",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -517,7 +517,7 @@
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
-            "uuid": "f6790ec4-f3d7-4fc7-b18a-4bedce78aa22",
+            "uuid": "4b2ecd3e-6513-408e-ba93-3d2a2781f7a2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -650,17 +650,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @proxy_kafee | 1",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 0",
             "type": "vless",
-            "server": "tnl5.radmehrmax.ir",
-            "server_port": 8097,
-            "uuid": "3cef3166-9c92-440b-9383-a220e68a930a",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "e40d8272-abb6-451c-eddd-4f69cf3cec0e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/V2ray",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1108,7 +1115,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 15",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
             "type": "vless",
             "server": "nitriding.appreviewcenter.com",
             "server_port": 443,
@@ -1348,7 +1355,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Capital_NET | 45",
+            "tag": "🇺🇸US | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -1439,11 +1446,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 16",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 2095,
-            "uuid": "203eb7c4-6d3b-4a93-97d7-80e258bece3d",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "78dd3bc3-e435-44fc-926d-bf0c8c0ebdb7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1451,11 +1458,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ellisweissellisweissellisweissellisweissellisweisselliswei.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "ellisweissellisweissellisweissellisweissellisweisselliswei.pages.dev"
                 }
             }
         },
