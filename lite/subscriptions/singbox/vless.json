@@ -148,7 +148,7 @@
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇸🇪SE | vless | @polproxy | 17",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 15",
@@ -213,7 +213,7 @@
                 "🏳️XX | vless | @proxystore11 | 12",
                 "🇸🇪SE | vless | @polproxy | 17",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
+                "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 15",
@@ -1241,11 +1241,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
+            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 2095,
-            "uuid": "6a6ffa38-49ce-4418-ad50-6ec72976187e",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1253,11 +1253,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-proxy_mtm?ed=2560",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
                 }
             }
         },
