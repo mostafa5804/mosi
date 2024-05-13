@@ -121,7 +121,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
@@ -164,8 +164,8 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @Capoit | 15",
-                "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇺🇸US | vmess | @FreakConfig | 2",
+                "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -202,7 +202,7 @@
                 "🇩🇪DE | vless | @vpn_xw | 0",
                 "🏳️XX | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 0",
+                "🇮🇷IR | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 16",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 2",
@@ -245,8 +245,8 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇵🇱PL | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @Capoit | 15",
-                "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 14",
+                "🇺🇸US | vmess | @FreakConfig | 2",
+                "🇨🇦CA | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 7",
                 "🏳️XX | vless | @kiava | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -598,24 +598,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 0",
+            "tag": "🇮🇷IR | vless | @proxy_kafee | 1",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "e40d8272-abb6-451c-eddd-4f69cf3cec0e",
+            "server": "tnl5.radmehrmax.ir",
+            "server_port": 8097,
+            "uuid": "3cef3166-9c92-440b-9383-a220e68a930a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2ray",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
             }
         },
         {
@@ -1652,64 +1645,40 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 2",
+            "tag": "🇺🇸US | vmess | @FreakConfig | 2",
+            "type": "vmess",
+            "server": "205.234.231.35",
+            "server_port": 31433,
+            "uuid": "50e82581-bd14-4527-f7d6-e7824cd26f57",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "server": "188.114.98.224",
+            "server_port": 2095,
+            "uuid": "f69052a7-2ed3-4196-87f0-4cf90a35ab79",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 14",
-            "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
-                "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                    "Host": "188.114.98.224"
                 }
             }
         },
