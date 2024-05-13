@@ -292,9 +292,9 @@
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "15.156.226.178",
-            "server_port": 25996,
-            "uuid": "786c0e71-c2d4-4bdc-913f-5c75dd54721f",
+            "server": "104.21.25.243",
+            "server_port": 8443,
+            "uuid": "63e54742-a244-4bb0-c9cb-17a545f4ca3f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -305,11 +305,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "atlasnet1.myatlasnet.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "15.156.226.178"
+                    "Host": "atlasnet1.myatlasnet.ir"
                 }
             }
         },
