@@ -111,8 +111,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇫🇷FR | vmess | @proxyymeliii | 28",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇵🇱PL | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ]
@@ -126,8 +126,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇫🇷FR | vmess | @proxyymeliii | 28",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇵🇱PL | vmess | @v2Line | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ],
@@ -281,11 +281,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "174.136.205.46",
-            "server_port": 39027,
-            "uuid": "26419143-8a06-43ab-d58c-bea7b7da8203",
+            "server": "104.21.23.231",
+            "server_port": 2095,
+            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -295,14 +295,21 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
-            "tag": "🇵🇱PL | vmess | @v2Line | 11",
+            "tag": "🇨🇦CA | vmess | @v2Line | 11",
             "type": "vmess",
-            "server": "146.59.17.58",
-            "server_port": 12960,
-            "uuid": "48a86563-63c5-4218-e887-d752f801ae82",
+            "server": "172.67.207.26",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -312,6 +319,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
             }
         },
         {
