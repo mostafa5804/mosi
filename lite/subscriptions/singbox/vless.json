@@ -129,14 +129,15 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇮🇷IR | vless | @customv2ray | 13",
-                "🇨🇦CA | vless | @UnlimitedDev | 12",
+                "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 6",
-                "🇺🇸US | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 14",
@@ -194,14 +195,15 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
                 "🇮🇷IR | vless | @prrofile_purple | 186",
                 "🇮🇷IR | vless | @customv2ray | 13",
-                "🇨🇦CA | vless | @UnlimitedDev | 12",
+                "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🇨🇷CR | vless | @v2rayNG_Matsuri | 6",
-                "🇺🇸US | vless | @v2rayngvpn | 14",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇨🇦CA | vless | @ShadowProxy66 | 6",
                 "🇸🇪SE | vless | @ServerNett | 23",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
+                "🇨🇦CA | vless | @v2ray_swhil | 18",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 14",
@@ -757,11 +759,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 12",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 10",
             "type": "vless",
             "server": "104.17.169.114",
             "server_port": 80,
-            "uuid": "9c25811b-4144-4bfd-a414-33cd131ae2c5",
+            "uuid": "bac2ec89-a172-4a85-8af7-1dc3d8376b8e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -820,11 +822,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayngvpn | 14",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 80,
-            "uuid": "24337c6a-d23e-483c-9e61-9b5441026769",
+            "server": "172.66.213.5",
+            "server_port": 8080,
+            "uuid": "cc9c76a5-6636-4201-fb00-b45078789eac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -834,9 +836,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@custom_config",
+                "path": "\/Vipfast7?ed=1024",
                 "headers": {
-                    "Host": "104.21.69.44"
+                    "Host": "172.66.213.5"
                 }
             }
         },
@@ -951,6 +953,37 @@
                 "path": "\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/",
                 "headers": {
                     "Host": "963C1F6A-8485-443a-a386-4E6D34A64dc8.MRvi.ONline"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 18",
+            "type": "vless",
+            "server": "104.21.8.238",
+            "server_port": 2087,
+            "uuid": "102e76a5-0f4c-4d71-b018-a76985e4617b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hamedmrx.kijenov996.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/",
+                "headers": {
+                    "Host": "hamedmrx.kijenov996.workers.dev"
                 }
             }
         },
