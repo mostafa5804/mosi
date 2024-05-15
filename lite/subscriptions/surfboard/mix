@@ -15,12 +15,13 @@ DIRECT = direct
 🇸🇪SE | trojan | @DirectVPN | 19 = trojan, 13.53.142.236, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 172.67.74.4, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 🇵🇱PL | ss | @OutlineVpnOfficial | 18 = ss, 54.36.174.181, 7306, encrypt-method = aes-256-gcm, password = FoOiGlkAA9yPEGP
+🇯🇵JP | vmess | @Hope_Net | 19 = vmess, 158.101.157.215, 57557, username = f1b91a7d-a5e2-4684-a183-d2d656400ca1, ws = true, tls = , vmess-aead = false, ws-path = /rongseven?ed=2048, ws-headers = Host:"jp-tokyo-oracle-5a26da.ip1.shop", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @v2Line | 11 = vmess, 172.67.207.26, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
 🇧🇭BH | ss | @kingofilter | 2 = ss, series-a2-me.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇵🇱PL | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @v2Line | 11,🇧🇭BH | ss | @kingofilter | 2
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇵🇱PL | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @v2Line | 11,🇧🇭BH | ss | @kingofilter | 2
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇵🇱PL | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @v2Line | 11,🇧🇭BH | ss | @kingofilter | 2
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇵🇱PL | ss | @OutlineVpnOfficial | 18,🇯🇵JP | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @v2Line | 11,🇧🇭BH | ss | @kingofilter | 2
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇵🇱PL | ss | @OutlineVpnOfficial | 18,🇯🇵JP | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @v2Line | 11,🇧🇭BH | ss | @kingofilter | 2
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 19,🇸🇪SE | trojan | @DirectVPN | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇵🇱PL | ss | @OutlineVpnOfficial | 18,🇯🇵JP | vmess | @Hope_Net | 19,🇨🇦CA | vmess | @v2Line | 11,🇧🇭BH | ss | @kingofilter | 2
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
