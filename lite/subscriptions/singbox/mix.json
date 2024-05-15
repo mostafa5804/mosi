@@ -143,7 +143,7 @@
                 "🇸🇪SE | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 25",
-                "🇫🇷FR | vmess | @proxyymeliii | 28",
+                "🇩🇪DE | vless | @proxyymeliii | 28",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇩🇪DE | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 14",
@@ -158,7 +158,7 @@
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 15",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 19",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -223,7 +223,7 @@
                 "🇸🇪SE | vless | @ServerNett | 19",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 25",
-                "🇫🇷FR | vmess | @proxyymeliii | 28",
+                "🇩🇪DE | vless | @proxyymeliii | 28",
                 "🇸🇪SE | vless | @MsV2ray | 5",
                 "🇩🇪DE | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 14",
@@ -238,7 +238,7 @@
                 "🇸🇪SE | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇸🇪SE | vless | @polproxy | 15",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 19",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 19",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 4",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -1135,29 +1135,23 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @proxyymeliii | 28",
-            "type": "vmess",
-            "server": "5.42.105.123",
-            "server_port": 443,
-            "uuid": "a2015da7-54b6-4696-9077-5c3254912484",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇩🇪DE | vless | @proxyymeliii | 28",
+            "type": "vless",
+            "server": "tm.vbox778.info",
+            "server_port": 80,
+            "uuid": "6bdfc329-70f1-4f50-a54b-5f9749811b88",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "tm.vbox778.info"
                 }
             }
         },
@@ -1456,11 +1450,11 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "45.81.18.93",
-            "server_port": 1000,
-            "uuid": "939ecb07-636b-4461-b6d3-4ef57486a82c",
+            "server": "154.17.2.168",
+            "server_port": 1233,
+            "uuid": "40bc7b65-ec8a-3201-a646-c9d1b71091c6",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 2,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1492,11 +1486,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 19",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 19",
             "type": "vless",
-            "server": "185.146.173.32",
+            "server": "162.159.134.234",
             "server_port": 8080,
-            "uuid": "4c3faa07-e504-43f1-ecd2-a93af871ac89",
+            "uuid": "92d4bd40-68ed-4b1e-843c-f739ec536b2c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1506,9 +1500,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Vipfast7?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.32"
+                    "Host": "162.159.134.234"
                 }
             }
         },
