@@ -113,7 +113,7 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 11",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 12",
-                "🇩🇪DE | vless | @v2ray1_ng | 6",
+                "🇸🇪SE | vless | @v2ray1_ng | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -156,7 +156,7 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 8",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 11",
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 12",
-                "🇩🇪DE | vless | @v2ray1_ng | 6",
+                "🇸🇪SE | vless | @v2ray1_ng | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -425,11 +425,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray1_ng | 6",
+            "tag": "🇸🇪SE | vless | @v2ray1_ng | 1",
             "type": "vless",
-            "server": "141.95.75.212",
+            "server": "77.232.142.225",
             "server_port": 443,
-            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "uuid": "8ce0c83e-8821-4e70-9a70-41b0186ac5cb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -439,7 +439,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "analytics.google.com",
+                "server_name": "discord.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -448,9 +448,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
-                    "short_id": "c741ad33"
+                    "public_key": "aqRZIQgU1E4QNWEsoVkIdCJ3VNUa3SHb8WuEMmy3xWY",
+                    "short_id": "95e1dc5e"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@set_v2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
