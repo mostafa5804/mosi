@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vmess | @Hope_Net | 5",
@@ -121,7 +121,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vmess | @Hope_Net | 5",
@@ -167,13 +167,13 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇭🇰HK | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.237.20.158",
-            "server_port": 41242,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "n1709457297.aaigefm.cn",
+            "server_port": 443,
+            "uuid": "4cbaa418-9762-41d4-b144-835922d2deba",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -181,6 +181,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "n1709457297.aaigefm.cn",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "n1709457297.aaigefm.cn"
+                }
             }
         },
         {
