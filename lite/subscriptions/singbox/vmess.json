@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @vless_vmess | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 6",
@@ -123,7 +123,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @vless_vmess | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 6",
@@ -203,11 +203,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "104.26.6.65",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "45.14.174.201",
+            "server_port": 8443,
+            "uuid": "d34f8934-6fcf-4885-b755-644588911dc5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -220,7 +220,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
+                "server_name": "telegram.configpositive.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -229,11 +229,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
-                }
+                "type": "grpc",
+                "service_name": "@ConfigPositive",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
