@@ -291,7 +291,7 @@
             "tag": "🇸🇪SE | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "se1.vpnjantit.com",
-            "server_port": 10000,
+            "server_port": 10001,
             "uuid": "68737d4a-12d6-11ef-b1df-00163c623140",
             "security": "auto",
             "alter_id": 0,
@@ -302,6 +302,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             },
             "transport": {
                 "type": "ws",
