@@ -12,13 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @oneclickvpnkeys | 7 = vmess, 104.21.15.36, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
-🇸🇬SG | vmess | @Hope_Net | 4 = vmess, 128.199.161.230, 99, username = befd085a-91f7-4608-bc45-f40c1ac2f4b7, ws = true, tls = , vmess-aead = false, ws-path = /v2ray, ws-headers = Host:"", skip-cert-verify = true, tfo = false
+🇯🇵JP | vmess | @Hope_Net | 2 = vmess, 152.69.197.74, 12345, username = b8a6bf58-485a-4046-b386-b3661bf65eff, ws = true, tls = , vmess-aead = false, ws-path = /bb, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @v2Line | 10 = vmess, 172.67.131.108, 443, username = 1052f24e-7b09-45eb-b0c5-d858eb124192, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.cfd", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @nofiltering2 | 1 = vmess, 172.67.74.4, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇸🇬SG | vmess | @Hope_Net | 4,🇨🇦CA | vmess | @v2Line | 10,🇨🇦CA | vmess | @nofiltering2 | 1
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇸🇬SG | vmess | @Hope_Net | 4,🇨🇦CA | vmess | @v2Line | 10,🇨🇦CA | vmess | @nofiltering2 | 1
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇸🇬SG | vmess | @Hope_Net | 4,🇨🇦CA | vmess | @v2Line | 10,🇨🇦CA | vmess | @nofiltering2 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇯🇵JP | vmess | @Hope_Net | 2,🇨🇦CA | vmess | @v2Line | 10,🇨🇦CA | vmess | @nofiltering2 | 1
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇯🇵JP | vmess | @Hope_Net | 2,🇨🇦CA | vmess | @v2Line | 10,🇨🇦CA | vmess | @nofiltering2 | 1
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇯🇵JP | vmess | @Hope_Net | 2,🇨🇦CA | vmess | @v2Line | 10,🇨🇦CA | vmess | @nofiltering2 | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
