@@ -125,7 +125,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
@@ -194,7 +194,7 @@
                 "🇫🇷FR | vless | @CUSTOMVPNSERVER | 14",
                 "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇺🇸US | vless | @v2logy | 16",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 31",
                 "🇨🇦CA | vless | @Outline_Vpn | 16",
@@ -676,7 +676,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1334,9 +1334,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
             "type": "vless",
-            "server": "172.67.217.107",
-            "server_port": 80,
-            "uuid": "7143e704-5957-42db-bd38-670062722461",
+            "server": "172.67.204.39",
+            "server_port": 443,
+            "uuid": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1344,11 +1344,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "turkmenistan.armanibash.Shop.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.67.217.107"
+                    "Host": "turkmenistan.armanibash.Shop."
                 }
             }
         },
