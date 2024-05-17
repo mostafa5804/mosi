@@ -126,6 +126,7 @@ proxies:
   - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 18","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 7","type":"vmess","server":"104.21.15.212","port":"443","cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
   - {"name":"🇯🇵JP | vmess | @v2Line | 9","type":"vmess","server":"152.69.197.74","port":"12345","cipher":"auto","uuid":"b8a6bf58-485a-4046-b386-b3661bf65eff","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bb","headers":{"host":""}}}
+  - {"name":"🇨🇦CA | trojan | @kingofilter | 0","type":"trojan","server":"198.41.220.10","port":443,"udp":false,"password":"2cba4104747d49d18319e5ade1b93ab5","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerforstudent.com"}
   - {"name":"🏳️XX | vmess | @ROMAX_VPN | 2","type":"vmess","server":"f42.maryam1500.top","port":"2098","cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -141,6 +142,7 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇯🇵JP | vmess | @v2Line | 9'
+      - '🇨🇦CA | trojan | @kingofilter | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 2'
   - name: URL-TEST
     type: url-test
@@ -156,6 +158,7 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇯🇵JP | vmess | @v2Line | 9'
+      - '🇨🇦CA | trojan | @kingofilter | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 2'
   - name: FALLBACK
     type: fallback
@@ -170,6 +173,7 @@ proxy-groups:
       - '🇦🇹AT | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇯🇵JP | vmess | @v2Line | 9'
+      - '🇨🇦CA | trojan | @kingofilter | 0'
       - '🏳️XX | vmess | @ROMAX_VPN | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

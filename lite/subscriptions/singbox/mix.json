@@ -164,11 +164,11 @@
                 "🇯🇵JP | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 14",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🏳️XX | vless | @kingofilter | 1",
+                "🇨🇦CA | trojan | @kingofilter | 0",
                 "🇨🇦CA | vless | @SvnTeam | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -241,11 +241,11 @@
                 "🇯🇵JP | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @Capoit | 14",
                 "🇨🇦CA | vless | @FreakConfig | 2",
-                "🇨🇦CA | vless | @flyv2ray | 13",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 6",
                 "🏳️XX | vless | @vpn_go67 | 23",
-                "🏳️XX | vless | @kingofilter | 1",
+                "🇨🇦CA | trojan | @kingofilter | 0",
                 "🇨🇦CA | vless | @SvnTeam | 7",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -1519,9 +1519,9 @@
         {
             "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "----DIGIV2RAY----",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1529,11 +1529,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d3d6f00.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY-digiv2ray",
+                "path": "\/Tel-@V2ray_Alpha\/?ed=2560",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "4d3d6f00.garywelch.pages.dev"
                 }
             }
         },
@@ -1684,7 +1694,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 13",
+            "tag": "🇺🇸US | vless | @flyv2ray | 13",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1793,23 +1803,31 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @kingofilter | 1",
-            "type": "vless",
-            "server": "my3.sadafmobile1.site",
-            "server_port": 2095,
-            "uuid": "c1ab1567-7046-4fe1-887b-bc6e26816c95",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | trojan | @kingofilter | 0",
+            "type": "trojan",
+            "server": "198.41.220.10",
+            "server_port": 443,
+            "password": "2cba4104747d49d18319e5ade1b93ab5",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jobscareerforstudent.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/6b777a91",
                 "headers": {
-                    "Host": "my3.sadafmobile1.site"
+                    "Host": "jobscareerforstudent.com"
                 }
             }
         },
