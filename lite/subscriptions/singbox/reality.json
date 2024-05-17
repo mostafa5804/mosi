@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -116,7 +115,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -140,35 +138,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 14",
-            "type": "vless",
-            "server": "49.13.154.240",
-            "server_port": 3035,
-            "uuid": "8edef8ae-dd42-4aca-affc-faa834870bc2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sni.axe.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JI4hH2EzyJIxyDnfc_TgJyxWws3-l8Bh7ZdDp3iyYEM",
-                    "short_id": "bbe53393d02629b8"
-                }
-            }
         },
         {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",
