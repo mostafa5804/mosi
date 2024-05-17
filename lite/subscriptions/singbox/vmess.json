@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vmess | @Hope_Net | 7",
                 "🇯🇵JP | vmess | @v2Line | 9",
@@ -122,7 +122,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇪SE | vmess | @Hope_Net | 7",
                 "🇯🇵JP | vmess | @v2Line | 9",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "104.19.52.111",
-            "server_port": 80,
-            "uuid": "c0453a16-67e9-4eab-bdc9-b9624ad6bd29",
+            "server": "172.67.161.77",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,11 +199,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai_8",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
