@@ -12,14 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇭🇰HK | vmess | @mftizi | 19 = vmess, n1709457297.aaigefm.cn, 443, username = 4cbaa418-9762-41d4-b144-835922d2deba, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"n1709457297.aaigefm.cn", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @oneclickvpnkeys | 7 = vmess, 104.26.6.65, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @Hope_Net | 12 = vmess, 104.19.52.111, 80, username = c0453a16-67e9-4eab-bdc9-b9624ad6bd29, ws = true, tls = , vmess-aead = true, ws-path = /?ed=2048&amp;Telegram🇨🇳 @WangCai_8, ws-headers = Host:"in.xlb8.eu.org", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @oneclickvpnkeys | 7 = vmess, 172.67.74.4, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
+🏳️XX | vmess | @Hope_Net | 10 = vmess, us2407.cloudmatrix.xyz, 2407, username = 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a, ws = true, tls = , vmess-aead = false, ws-path = /hls/cctv5phd.m3u8, ws-headers = Host:"us2407.cloudmatrix.xyz", skip-cert-verify = true, tfo = false
 🇯🇵JP | vmess | @v2Line | 9 = vmess, 152.69.197.74, 12345, username = b8a6bf58-485a-4046-b386-b3661bf65eff, ws = true, tls = , vmess-aead = true, ws-path = /bb, ws-headers = Host:"", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @nofiltering2 | 1 = vmess, 172.67.74.4, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇭🇰HK | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇨🇦CA | vmess | @Hope_Net | 12,🇯🇵JP | vmess | @v2Line | 9,🇨🇦CA | vmess | @nofiltering2 | 1
-URL-TEST = url-test,🇭🇰HK | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇨🇦CA | vmess | @Hope_Net | 12,🇯🇵JP | vmess | @v2Line | 9,🇨🇦CA | vmess | @nofiltering2 | 1
-FALLBACK = fallback,🇭🇰HK | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇨🇦CA | vmess | @Hope_Net | 12,🇯🇵JP | vmess | @v2Line | 9,🇨🇦CA | vmess | @nofiltering2 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇭🇰HK | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🏳️XX | vmess | @Hope_Net | 10,🇯🇵JP | vmess | @v2Line | 9
+URL-TEST = url-test,🇭🇰HK | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🏳️XX | vmess | @Hope_Net | 10,🇯🇵JP | vmess | @v2Line | 9
+FALLBACK = fallback,🇭🇰HK | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🏳️XX | vmess | @Hope_Net | 10,🇯🇵JP | vmess | @v2Line | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
