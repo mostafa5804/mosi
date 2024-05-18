@@ -12,12 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇸🇪SE | vmess | @oneclickvpnkeys | 4 = vmess, 185.146.173.237, 2052, username = 0c67786d-985e-4c67-a0dc-67827f37f050, ws = true, tls = , vmess-aead = true, ws-path = /@mehrosaboran, ws-headers = Host:"xn--047h.aaa.merosaboran.monster.", skip-cert-verify = true, tfo = false
-🏳️XX | vmess | @Hope_Net | 5 = vmess, zzcm09.bdate.xyz, 1510, username = b9ecdb44-236b-30a7-94f2-f464993d84cf, ws = true, tls = , vmess-aead = true, ws-path = /hls/cctv5phd.m3u8, ws-headers = Host:"zzcm09.bdate.xyz", skip-cert-verify = true, tfo = false
+🏳️XX | vmess | @Hope_Net | 6 = vmess, zzcm09.bdate.xyz, 1510, username = b9ecdb44-236b-30a7-94f2-f464993d84cf, ws = true, tls = , vmess-aead = true, ws-path = /hls/cctv5phd.m3u8, ws-headers = Host:"zzcm09.bdate.xyz", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @nofiltering2 | 1 = vmess, 172.67.74.4, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | vmess | @oneclickvpnkeys | 4,🏳️XX | vmess | @Hope_Net | 5,🇨🇦CA | vmess | @nofiltering2 | 1
-URL-TEST = url-test,🇸🇪SE | vmess | @oneclickvpnkeys | 4,🏳️XX | vmess | @Hope_Net | 5,🇨🇦CA | vmess | @nofiltering2 | 1
-FALLBACK = fallback,🇸🇪SE | vmess | @oneclickvpnkeys | 4,🏳️XX | vmess | @Hope_Net | 5,🇨🇦CA | vmess | @nofiltering2 | 1
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | vmess | @oneclickvpnkeys | 4,🏳️XX | vmess | @Hope_Net | 6,🇨🇦CA | vmess | @nofiltering2 | 1
+URL-TEST = url-test,🇸🇪SE | vmess | @oneclickvpnkeys | 4,🏳️XX | vmess | @Hope_Net | 6,🇨🇦CA | vmess | @nofiltering2 | 1
+FALLBACK = fallback,🇸🇪SE | vmess | @oneclickvpnkeys | 4,🏳️XX | vmess | @Hope_Net | 6,🇨🇦CA | vmess | @nofiltering2 | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
