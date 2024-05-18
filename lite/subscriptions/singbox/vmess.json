@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
@@ -122,7 +122,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "185.146.173.237",
-            "server_port": 2052,
-            "uuid": "0c67786d-985e-4c67-a0dc-67827f37f050",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -199,11 +199,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@mehrosaboran",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
