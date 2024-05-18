@@ -123,7 +123,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 6",
                 "🇸🇪SE | vmess | @prrofile_purple | 176",
-                "🇺🇸US | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | vmess | @ShadowProxy66 | 0",
                 "🇮🇷IR | vmess | @v2ray_swhil | 18",
                 "🇸🇪SE | vmess | @v2ray1_ng | 1",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -131,11 +131,11 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
-                "🇺🇸US | vmess | @Hope_Net | 5",
-                "🏳️XX | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @v2Line | 2",
@@ -171,7 +171,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 4",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 6",
                 "🇸🇪SE | vmess | @prrofile_purple | 176",
-                "🇺🇸US | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | vmess | @ShadowProxy66 | 0",
                 "🇮🇷IR | vmess | @v2ray_swhil | 18",
                 "🇸🇪SE | vmess | @v2ray1_ng | 1",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -179,11 +179,11 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
-                "🇺🇸US | vmess | @Hope_Net | 5",
-                "🏳️XX | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🏳️XX | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @v2Line | 2",
@@ -583,11 +583,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 10",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 0",
             "type": "vmess",
-            "server": "205.234.231.35",
-            "server_port": 31433,
-            "uuid": "50e82581-bd14-4527-f7d6-e7824cd26f57",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -597,6 +597,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
@@ -791,7 +808,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 0",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -825,7 +842,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "172.67.166.192",
             "server_port": 80,
@@ -849,7 +866,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "158.51.121.36",
             "server_port": 443,
@@ -883,7 +900,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "50.114.243.61",
             "server_port": 43834,
@@ -900,7 +917,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 6",
+            "tag": "🏳️XX | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "hk-iv.sserver.top",
             "server_port": 80,
