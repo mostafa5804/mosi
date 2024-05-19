@@ -11,15 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | trojan | @PrivateVPNs | 18 = trojan, 52.58.139.44, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 18 = trojan, 13.39.218.255, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | trojan | @DirectVPN | 18 = trojan, 3.97.146.23, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇫🇷FR | ss | @OutlineVpnOfficial | 18 = ss, 149.202.82.172, 9101, encrypt-method = aes-256-gcm, password = e4FCWrgpkji3QY
 🇨🇦CA | vmess | @nofiltering2 | 1 = vmess, 172.67.74.4, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 🇨🇦CA | trojan | @kingofilter | 1 = trojan, 198.41.220.10, 443, password = 2cba4104747d49d18319e5ade1b93ab5, udp-delay = true, skip-cert-verify = false, sni = jobscareerforstudent.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 1
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 1
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 1
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 1
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 1
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 18,🇨🇦CA | trojan | @DirectVPN | 18,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
