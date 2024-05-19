@@ -11,17 +11,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇪IE | trojan | @PrivateVPNs | 18 = trojan, 52.208.194.0, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇮🇪IE | trojan | @DirectVPN | 18 = trojan, 54.228.15.173, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | vmess | @v2ray1_ng | 3 = vmess, 185.146.173.237, 2052, username = 0c67786d-985e-4c67-a0dc-67827f37f050, ws = true, tls = , vmess-aead = true, ws-path = /@mehrosaboran, ws-headers = Host:"xn--047h.aaa.merosaboran.monster.", skip-cert-verify = true, tfo = false
+🇮🇪IE | trojan | @PrivateVPNs | 18 = trojan, 52.214.115.250, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @DirectVPN | 18 = trojan, 18.200.63.145, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | vmess | @v2ray1_ng | 4 = vmess, 185.146.173.237, 2052, username = 0c67786d-985e-4c67-a0dc-67827f37f050, ws = true, tls = , vmess-aead = true, ws-path = /@mehrosaboran, ws-headers = Host:"xn--047h.aaa.merosaboran.monster.", skip-cert-verify = true, tfo = false
 🇫🇷FR | ss | @OutlineVpnOfficial | 18 = ss, 149.202.82.172, 9101, encrypt-method = aes-256-gcm, password = e4FCWrgpkji3QY
-🏳️XX | vmess | @Hope_Net | 6 = vmess, hk11-vm5.entry.ikuuu.casa, 459, username = b3bc07e6-452a-36fd-8476-bd7aac00f265, ws = true, tls = , vmess-aead = false, ws-path = /hls/cctv5phd.m3u8, ws-headers = Host:"hk11-vm5.entry.ikuuu.casa", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @nofiltering2 | 1 = vmess, 172.67.74.4, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 🇨🇦CA | trojan | @kingofilter | 0 = trojan, 198.41.220.10, 443, password = 2cba4104747d49d18319e5ade1b93ab5, udp-delay = true, skip-cert-verify = false, sni = jobscareerforstudent.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇸🇪SE | vmess | @v2ray1_ng | 3,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🏳️XX | vmess | @Hope_Net | 6,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 0
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇸🇪SE | vmess | @v2ray1_ng | 3,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🏳️XX | vmess | @Hope_Net | 6,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 0
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇸🇪SE | vmess | @v2ray1_ng | 3,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🏳️XX | vmess | @Hope_Net | 6,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 0
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇸🇪SE | vmess | @v2ray1_ng | 4,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 0
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇸🇪SE | vmess | @v2ray1_ng | 4,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 0
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 18,🇮🇪IE | trojan | @DirectVPN | 18,🇸🇪SE | vmess | @v2ray1_ng | 4,🇫🇷FR | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @nofiltering2 | 1,🇨🇦CA | trojan | @kingofilter | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
