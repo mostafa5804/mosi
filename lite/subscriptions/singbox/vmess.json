@@ -113,7 +113,7 @@
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇸🇪SE | vmess | @v2ray1_ng | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇬🇧GB | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -131,7 +131,7 @@
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇸🇪SE | vmess | @v2ray1_ng | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇬🇧GB | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -301,13 +301,13 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
+            "tag": "🏳️XX | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "172.67.204.84",
-            "server_port": 2096,
-            "uuid": "02b3ec8f-f568-47c8-9746-fa9a24e547d6",
+            "server": "hk11-vm5.entry.ikuuu.casa",
+            "server_port": 459,
+            "uuid": "b3bc07e6-452a-36fd-8476-bd7aac00f265",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -316,22 +316,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "fragment.mzolfaghari.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Freevpnhomes",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/hls\/cctv5phd.m3u8",
+                "headers": {
+                    "Host": "hk11-vm5.entry.ikuuu.casa"
+                }
             }
         },
         {
