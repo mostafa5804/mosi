@@ -111,7 +111,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇷🇺RU | vmess | @Hope_Net | 8",
+                "🇮🇱IL | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
@@ -126,7 +126,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇷🇺RU | vmess | @Hope_Net | 8",
+                "🇮🇱IL | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
@@ -271,11 +271,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @Hope_Net | 8",
+            "tag": "🇮🇱IL | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "46.17.45.13",
-            "server_port": 17697,
-            "uuid": "558ff688-d70d-4219-9e59-748289528256",
+            "server": "il1-vmess.sshmax.xyz",
+            "server_port": 80,
+            "uuid": "1eb0dab8-a45f-4aff-b0fc-0d7e395faef9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -285,6 +285,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "il1-vmess.sshmax.xyz"
+                }
             }
         },
         {
