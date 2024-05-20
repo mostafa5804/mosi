@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 8",
+                "🇫🇷FR | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -128,7 +128,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 8",
+                "🇫🇷FR | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -275,11 +275,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 8",
+            "tag": "🇫🇷FR | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "zzcm09.bdate.xyz",
-            "server_port": 1580,
-            "uuid": "b9ecdb44-236b-30a7-94f2-f464993d84cf",
+            "server": "fr-full.privateip.net",
+            "server_port": 443,
+            "uuid": "d8062a4c-4fe9-49cf-b273-dfcdd78bca0a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -290,11 +290,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/hls\/cctv5phd.m3u8",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "zzcm09.bdate.xyz"
+                    "Host": "fr-full.privateip.net"
                 }
             }
         },
