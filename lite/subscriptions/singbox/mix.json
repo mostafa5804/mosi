@@ -137,12 +137,12 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
-                "🇮🇷IR | vless | @v2rayngvpn | 9",
+                "🇺🇸US | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 12",
+                "🇩🇪DE | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -150,12 +150,12 @@
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
-                "🇸🇪SE | vless | @lrnbymaa | 10",
+                "🇸🇪SE | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 12",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
@@ -215,12 +215,12 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 7",
                 "🇨🇦CA | vless | @vmessorg | 9",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 8",
-                "🇮🇷IR | vless | @v2rayngvpn | 9",
+                "🇺🇸US | vless | @v2rayngvpn | 10",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vless | @ServerNett | 18",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 12",
+                "🇩🇪DE | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 21",
                 "🇸🇪SE | vless | @vless_vmess | 7",
                 "🏳️XX | vless | @MTConfig | 11",
@@ -228,12 +228,12 @@
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇨🇦CA | vless | @SafeNet_Server | 0",
-                "🇸🇪SE | vless | @lrnbymaa | 10",
+                "🇸🇪SE | vless | @lrnbymaa | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🏳️XX | vmess | @Hope_Net | 5",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vless | @polproxy | 12",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
@@ -982,17 +982,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @v2rayngvpn | 9",
+            "tag": "🇺🇸US | vless | @v2rayngvpn | 10",
             "type": "vless",
-            "server": "45.140.31.105",
-            "server_port": 48480,
-            "uuid": "e53b1131-d033-4c8d-bb32-ce47b720827c",
+            "server": "104.21.69.44",
+            "server_port": 80,
+            "uuid": "472530bc-89ec-47c6-a979-c48ca937525b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@custom_config",
+                "headers": {
+                    "Host": "104.21.69.44"
+                }
             }
         },
         {
@@ -1106,12 +1113,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 12",
+            "tag": "🇩🇪DE | vless | @v2ray_swhil | 11",
             "type": "vless",
-            "server": "188.114.97.141",
+            "server": "141.95.75.212",
             "server_port": 443,
-            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
-            "flow": "",
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1120,19 +1127,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "server_name": "analytics.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
-                "headers": {
-                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
                 }
             }
         },
@@ -1324,7 +1329,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @lrnbymaa | 10",
+            "tag": "🇸🇪SE | vless | @lrnbymaa | 11",
             "type": "vless",
             "server": "185.146.173.32",
             "server_port": 2095,
@@ -1451,7 +1456,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 5",
+            "tag": "🏳️XX | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "us-ny-rn.licom.ga",
             "server_port": 62008,
