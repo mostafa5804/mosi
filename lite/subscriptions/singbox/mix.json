@@ -171,6 +171,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🏳️XX | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 0",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -249,6 +250,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🏳️XX | vless | @kiava | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇨🇦CA | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 0",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -1826,6 +1828,27 @@
                 "path": "\/ivideos.sbs\/linkws",
                 "headers": {
                     "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 0",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 80,
+            "uuid": "Telegram-proxy-mtm",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/telegram-proxy-mtm-telegram-proxy-mtm-telegram-proxy-mtm",
+                "headers": {
+                    "Host": "188.114.96.3"
                 }
             }
         },
