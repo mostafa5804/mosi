@@ -111,7 +111,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 12",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -127,7 +127,7 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 12",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -256,11 +256,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 12",
+            "tag": "🏳️XX | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "172.104.240.164",
-            "server_port": 123,
-            "uuid": "edc67a7a-4925-407f-9ff7-1a8a2295eaca",
+            "server": "hk.aqvpn.me",
+            "server_port": 80,
+            "uuid": "d00083c7-e3db-4707-a24d-5662912368ff",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -272,11 +272,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ConfigPositive@ConfigPositive@ConfigPositive@ConfigPositive@ConfigPositive@ConfigPositive@ConfigPositive",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hk.aqvpn.me"
+                }
             }
         },
         {
