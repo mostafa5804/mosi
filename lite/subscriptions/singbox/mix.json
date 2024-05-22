@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 17",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 18",
@@ -148,7 +149,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
-                "🇨🇦CA | vless | @DailyV2RY | 91",
+                "🇺🇸US | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
@@ -169,7 +170,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vless | @proxy_mtm | 9",
+                "🇨🇦CA | vless | @proxy_mtm | 10",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 2",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -183,6 +184,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇸🇪SE | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 17",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | vless | @VlessConfig | 18",
@@ -225,7 +227,7 @@
                 "🇨🇦CA | vless | @MTConfig | 18",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 13",
-                "🇨🇦CA | vless | @DailyV2RY | 91",
+                "🇺🇸US | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 16",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
@@ -246,7 +248,7 @@
                 "🇨🇳CN | vless | @mehrosaboran | 6",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇨🇦CA | vless | @proxy_mtm | 9",
+                "🇨🇦CA | vless | @proxy_mtm | 10",
                 "🏳️XX | vless | @vpn_go67 | 23",
                 "🇺🇸US | vless | @kingofilter | 2",
                 "🇸🇪SE | vless | @IBv2ray | 4",
@@ -274,6 +276,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇸🇪SE | vless | @EliV2ray | 11",
+            "type": "vless",
+            "server": "185.146.173.1",
+            "server_port": 80,
+            "uuid": "-Telegram-id-ELiV2ray-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@ELiV2RAY-@ELiV2RAY-@ELiV2RAY,V2ray.motorcycles.Elmahstyle.ir",
+                "headers": {
+                    "Host": "185.146.173.1"
+                }
+            }
         },
         {
             "tag": "🇸🇪SE | vless | @Parsashonam | 17",
@@ -702,7 +725,7 @@
             "type": "vless",
             "server": "Channel-VPNCUSTOMIZE.V2ray.motorcycles",
             "server_port": 2095,
-            "uuid": "-VPNCUSTOMIZE-",
+            "uuid": "4d140b43-05cc-4317-b77b-7006c17feeba",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1226,9 +1249,9 @@
         {
             "tag": "🇨🇦CA | vless | @VmessProtocol | 13",
             "type": "vless",
-            "server": "pardazeshvpn-tg20.pages.dev",
+            "server": "auto.minusober.com",
             "server_port": 443,
-            "uuid": "826e43d2-dbe9-41a6-bbf8-3aed2f93f5d4",
+            "uuid": "2c091d43-9eca-4677-b04a-f56c9d7b606b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1238,7 +1261,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazeshvpn-tg20.pages.dev",
+                "server_name": "auto.minusober.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1248,14 +1271,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/auto",
                 "headers": {
-                    "Host": "pardazeshvpn-tg20.pages.dev"
+                    "Host": "auto.minusober.com"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 91",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 91",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8080,
@@ -1785,7 +1808,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_mtm | 9",
+            "tag": "🇨🇦CA | vless | @proxy_mtm | 10",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 80,
