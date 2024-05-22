@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇸🇪SE | vless | @VlessConfig | 18",
+                "🇩🇪DE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 21",
@@ -147,11 +147,11 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vless | @proxy_mtm | 0",
@@ -168,7 +168,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷IR | vless | @NIM_VPN_ir | 1",
-                "🇸🇪SE | vless | @VlessConfig | 18",
+                "🇩🇪DE | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 9",
                 "🇸🇪SE | vless | @V2pedia | 21",
@@ -208,11 +208,11 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @polproxy | 9",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇨🇦CA | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🏳️XX | vless | @kiava | 7",
                 "🇨🇦CA | vless | @proxy_mtm | 0",
@@ -258,9 +258,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VlessConfig | 18",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.50.168.196",
+            "server": "18.199.212.91",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1241,11 +1241,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 14",
             "type": "vless",
-            "server": "162.159.128.233",
-            "server_port": 8080,
-            "uuid": "787f4dc2-1863-4be3-a9e6-04cd7e9e06ac",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-kiy",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1255,9 +1255,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "162.159.128.233"
+                    "Host": "185.146.173.58"
                 }
             }
         },
@@ -1343,11 +1343,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 16",
             "type": "vless",
-            "server": "104.16.54.150",
-            "server_port": 80,
-            "uuid": "a81b314c-3ab7-48d3-b8c0-584c89e5f616",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1355,11 +1355,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram@Free_V2rng",
+                "path": "\/Tel-@proxy_mtm\/?ed=2560",
                 "headers": {
-                    "Host": "104.16.54.150"
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
                 }
             }
         },
