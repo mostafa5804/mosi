@@ -145,7 +145,6 @@
                 "🇮🇷IR | vmess | @Hope_Net | 3",
                 "🇳🇱NL | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vmess | @Hope_Net | 7",
-                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -154,7 +153,6 @@
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 1"
@@ -203,7 +201,6 @@
                 "🇮🇷IR | vmess | @Hope_Net | 3",
                 "🇳🇱NL | vmess | @Hope_Net | 6",
                 "🇸🇪SE | vmess | @Hope_Net | 7",
-                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 2",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
@@ -212,7 +209,6 @@
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
-                "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 1"
@@ -1237,30 +1233,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "ingress-i2.onebox6.org",
-            "server_port": 38101,
-            "uuid": "79386685-16da-327c-9e14-aa6d702d86bc",
-            "security": "auto",
-            "alter_id": 1,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/hls\/cctv5phd.m3u8",
-                "headers": {
-                    "Host": "ingress-i2.onebox6.org"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 2",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
@@ -1519,40 +1491,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @v2Line | 7",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
                 }
             }
         },
