@@ -155,14 +155,15 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
+                "🇩🇪DE | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 11",
-                "🇺🇸US | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🏳️XX | vless | @kiava | 7",
@@ -230,14 +231,15 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
+                "🇩🇪DE | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vless | @polproxy | 9",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 11",
-                "🇺🇸US | vless | @flyv2ray | 15",
+                "🇨🇦CA | vless | @flyv2ray | 15",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇳CN | vless | @mehrosaboran | 4",
                 "🏳️XX | vless | @kiava | 7",
@@ -808,9 +810,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outline_Vpn | 19",
             "type": "vless",
-            "server": "172.64.87.176",
-            "server_port": 443,
-            "uuid": "df4608a5-0ceb-4513-b991-596f541bccdb",
+            "server": "104.18.203.232",
+            "server_port": 8880,
+            "uuid": "d3354ef2-17eb-46e3-b7e9-c2ecf13e6851",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -818,21 +820,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "cfdy.yueuzi.dynv6.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "cfdy.yueuzi.dynv6.net"
+                    "Host": "104.18.203.232"
                 }
             }
         },
@@ -1448,6 +1440,30 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 11",
+            "type": "vmess",
+            "server": "172.104.240.164",
+            "server_port": 123,
+            "uuid": "edc67a7a-4925-407f-9ff7-1a8a2295eaca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ConfigPositive@ConfigPositive@ConfigPositive@ConfigPositive@ConfigPositive@ConfigPositive@ConfigPositive",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @polproxy | 9",
             "type": "vless",
             "server": "104.20.6.134",
@@ -1574,7 +1590,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 7",
+            "tag": "🇨🇦CA | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
@@ -1639,7 +1655,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 15",
+            "tag": "🇨🇦CA | vless | @flyv2ray | 15",
             "type": "vless",
             "server": "104.16.54.150",
             "server_port": 80,
