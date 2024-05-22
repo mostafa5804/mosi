@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @v2ray1_ng | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -115,6 +116,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @v2ray1_ng | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 23"
@@ -138,6 +140,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 8",
+            "type": "vless",
+            "server": "128.140.54.142",
+            "server_port": 57458,
+            "uuid": "42c626b8-171d-4e11-9582-09f1b07c45d8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PpfDUc1F8zQGeaDUcnSQSqzwy_a654XoT7KT2HsCykk",
+                    "short_id": "5a93d4ff"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",
