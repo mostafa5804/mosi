@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇪🇸ES | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -234,7 +234,7 @@
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇪🇸ES | vmess | @Hope_Net | 5",
                 "🇸🇪SE | vless | @polproxy | 8",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 11",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
@@ -1477,11 +1477,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
+            "tag": "🇪🇸ES | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "hk.wish.ml",
-            "server_port": 2052,
-            "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
+            "server": "es-full.privateip.net",
+            "server_port": 443,
+            "uuid": "3dee9636-9663-404d-a9d9-459d9e6d4459",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1492,11 +1492,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "es-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": ""
+                    "Host": "es-full.privateip.net"
                 }
             }
         },
