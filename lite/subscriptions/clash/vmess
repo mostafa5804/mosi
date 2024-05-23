@@ -124,7 +124,7 @@ proxies:
   - {"name":"🇷🇺RU | vmess | @ShadowProxy66 | 10","type":"vmess","server":"46.17.45.13","port":"33879","cipher":"auto","uuid":"3d453a46-b501-4882-8cd0-3c3e0698f90f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @v2Line | 7","type":"vmess","server":"104.21.15.212","port":"443","cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
   - {"name":"🇨🇦CA | vmess | @nofiltering2 | 1","type":"vmess","server":"172.67.74.4","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
-  - {"name":"🇮🇷IR | vmess | @ROMAX_VPN | 1","type":"vmess","server":"178.239.150.170","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷IR | vmess | @ROMAX_VPN | 2","type":"vmess","server":"178.239.150.170","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -137,7 +137,7 @@ proxy-groups:
       - '🇷🇺RU | vmess | @ShadowProxy66 | 10'
       - '🇨🇦CA | vmess | @v2Line | 7'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
-      - '🇮🇷IR | vmess | @ROMAX_VPN | 1'
+      - '🇮🇷IR | vmess | @ROMAX_VPN | 2'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -150,7 +150,7 @@ proxy-groups:
       - '🇷🇺RU | vmess | @ShadowProxy66 | 10'
       - '🇨🇦CA | vmess | @v2Line | 7'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
-      - '🇮🇷IR | vmess | @ROMAX_VPN | 1'
+      - '🇮🇷IR | vmess | @ROMAX_VPN | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -162,7 +162,7 @@ proxy-groups:
       - '🇷🇺RU | vmess | @ShadowProxy66 | 10'
       - '🇨🇦CA | vmess | @v2Line | 7'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
-      - '🇮🇷IR | vmess | @ROMAX_VPN | 1'
+      - '🇮🇷IR | vmess | @ROMAX_VPN | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
