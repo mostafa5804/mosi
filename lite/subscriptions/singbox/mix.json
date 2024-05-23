@@ -138,7 +138,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
-                "🇨🇦CA | vless | @v2rayngvpn | 8",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇸🇪SE | vless | @ServerNett | 11",
@@ -152,7 +152,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 72",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -162,7 +162,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
@@ -216,7 +216,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
-                "🇨🇦CA | vless | @v2rayngvpn | 8",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇸🇪SE | vless | @ServerNett | 11",
@@ -230,7 +230,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 72",
                 "🇨🇦CA | vless | @sinabigo | 6",
                 "🇸🇪SE | vless | @lrnbymaa | 19",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -240,7 +240,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vmess | @v2Line | 6",
+                "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @Capoit | 13",
                 "🇨🇦CA | vless | @FreakConfig | 5",
                 "🇨🇦CA | vless | @flyv2ray | 16",
@@ -1003,11 +1003,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 8",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "172.64.34.184",
-            "server_port": 8880,
-            "uuid": "5c0e4736-739f-413a-9bb7-04fa1a69ce7b",
+            "server": "104.19.28.15",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1015,11 +1015,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-donald",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.64.34.184"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1361,12 +1371,12 @@
             }
         },
         {
-            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "51.178.87.37",
-            "server_port": 810,
-            "method": "chacha20-ietf-poly1305",
-            "password": "G!yBwPWH3Vao",
+            "server": "145.239.6.202",
+            "server_port": 8090,
+            "method": "aes-256-gcm",
+            "password": "PCnnH6SQSnfoS27",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -1610,7 +1620,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 6",
+            "tag": "🇨🇦CA | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "104.21.15.212",
             "server_port": 443,

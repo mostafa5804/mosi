@@ -133,7 +133,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
-                "🇨🇦CA | vless | @v2rayngvpn | 8",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
@@ -197,7 +197,7 @@
                 "🇨🇦CA | vless | @UnlimitedDev | 8",
                 "🇨🇦CA | vless | @vmessorg | 6",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 12",
-                "🇨🇦CA | vless | @v2rayngvpn | 8",
+                "🇨🇦CA | vless | @v2rayngvpn | 14",
                 "🇨🇦CA | vless | @FalconPolV2rayNG | 1",
                 "🇸🇪SE | vless | @ServerNett | 11",
                 "🇸🇪SE | vless | @Proxy_PJ | 0",
@@ -880,11 +880,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayngvpn | 8",
+            "tag": "🇨🇦CA | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "172.64.34.184",
-            "server_port": 8880,
-            "uuid": "5c0e4736-739f-413a-9bb7-04fa1a69ce7b",
+            "server": "104.19.28.15",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -892,11 +892,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-donald",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.64.34.184"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
