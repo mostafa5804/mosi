@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 2",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -125,7 +125,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇷CR | vmess | @oneclickvpnkeys | 2",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -197,11 +197,11 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "190.93.247.155",
-            "server_port": 80,
-            "uuid": "9055a074-a533-4e90-840b-3004a92ae9c0",
+            "server": "104.21.83.108",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -212,11 +212,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/link",
                 "headers": {
-                    "Host": ""
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
