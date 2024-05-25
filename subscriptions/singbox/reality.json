@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇫🇷FR | vless | @EliV2ray | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
@@ -146,6 +147,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇫🇷FR | vless | @EliV2ray | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
@@ -200,6 +202,42 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇷FR | vless | @EliV2ray | 0",
+            "type": "vless",
+            "server": "77.221.153.68",
+            "server_port": 52761,
+            "uuid": "9450802e-0837-4cb4-bd94-9202f53a04ef",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "atUztFxLhBPFwMHDQEvRFStJ9WvwToEudFv1IXLJTBg",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "www.speedtest.net",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
         },
         {
             "tag": "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
