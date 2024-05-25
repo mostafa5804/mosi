@@ -133,7 +133,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇮🇷IR | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 5",
@@ -208,7 +208,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇮🇷IR | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 10",
                 "🇨🇦CA | vless | @vmessorg | 5",
@@ -896,17 +896,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 181",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 181",
             "type": "vless",
-            "server": "212.33.206.80",
-            "server_port": 37753,
-            "uuid": "a163b46b-7d5e-41f0-80ad-ef42c4696a83",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-h5f.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                }
             }
         },
         {
