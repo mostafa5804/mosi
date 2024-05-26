@@ -13,10 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇩🇪DE | ss | @VmessProtocol | 17 = ss, 18.185.85.30, 8080, encrypt-method = chacha20-ietf-poly1305, password = tKMfzd1wFempVDn3/FKUn31V0SAwv33GD13hdyFDTiE=
 🇺🇸US | ss | @OutlineVpnOfficial | 16 = ss, 45.158.171.215, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇦🇪AE | ss | @proxy_mtm | 0 = ss, 51.112.118.115, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 17,🇺🇸US | ss | @OutlineVpnOfficial | 16
-URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 17,🇺🇸US | ss | @OutlineVpnOfficial | 16
-FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 17,🇺🇸US | ss | @OutlineVpnOfficial | 16
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | ss | @VmessProtocol | 17,🇺🇸US | ss | @OutlineVpnOfficial | 16,🇦🇪AE | ss | @proxy_mtm | 0
+URL-TEST = url-test,🇩🇪DE | ss | @VmessProtocol | 17,🇺🇸US | ss | @OutlineVpnOfficial | 16,🇦🇪AE | ss | @proxy_mtm | 0
+FALLBACK = fallback,🇩🇪DE | ss | @VmessProtocol | 17,🇺🇸US | ss | @OutlineVpnOfficial | 16,🇦🇪AE | ss | @proxy_mtm | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
