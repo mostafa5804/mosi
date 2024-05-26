@@ -13,12 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇳CN | vmess | @mftizi | 19 = vmess, m.cnmjin.net, 16632, username = 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @oneclickvpnkeys | 7 = vmess, 104.21.15.36, 443, username = edbb1059-1633-4271-b66e-ed4fba47a1bf, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"linde06.indiavideo.sbs", skip-cert-verify = true, tfo = false
-🇸🇪SE | vmess | @Hope_Net | 4 = vmess, web.mobilemostafa.ir, 8080, username = 4739c52b-c1a3-450a-822d-f9dbbbec2f3b, ws = true, tls = , vmess-aead = true, ws-path = /mesh-vmws/package.zip, ws-headers = Host:"c311b5f2679ffadfddV2rayVDsdw.mobilemostafa.ir", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @Hope_Net | 2 = vmess, us-full.privateip.net, 443, username = a2359222-1ba4-4362-a4bc-ec678a3e7326, ws = true, tls = 1, vmess-aead = true, ws-path = /RACEVPN, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @v2Line | 7 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇸🇪SE | vmess | @Hope_Net | 4,🇨🇦CA | vmess | @v2Line | 7
-URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇸🇪SE | vmess | @Hope_Net | 4,🇨🇦CA | vmess | @v2Line | 7
-FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇸🇪SE | vmess | @Hope_Net | 4,🇨🇦CA | vmess | @v2Line | 7
+MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇺🇸US | vmess | @Hope_Net | 2,🇨🇦CA | vmess | @v2Line | 7
+URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇺🇸US | vmess | @Hope_Net | 2,🇨🇦CA | vmess | @v2Line | 7
+FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 7,🇺🇸US | vmess | @Hope_Net | 2,🇨🇦CA | vmess | @v2Line | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
