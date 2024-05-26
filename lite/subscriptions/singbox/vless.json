@@ -127,7 +127,7 @@
                 "🇩🇪DE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 35",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 191",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 10",
+                "🇨🇦CA | vless | @Capoit | 12",
                 "🇸🇪SE | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
@@ -191,7 +191,7 @@
                 "🇩🇪DE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 35",
                 "🇨🇦CA | vless | @Outline_Vpn | 17",
-                "🇨🇦CA | vless | @prrofile_purple | 191",
+                "🇨🇦CA | vless | @prrofile_purple | 181",
                 "🇨🇦CA | vless | @customv2ray | 13",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 7",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @Outlinev2rayNG | 18",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇨🇦CA | vless | @Capoit | 10",
+                "🇨🇦CA | vless | @Capoit | 12",
                 "🇸🇪SE | vless | @FreakConfig | 7",
                 "🇨🇦CA | vless | @flyv2ray | 16",
                 "🇮🇷IR | vless | @FAKEOFTVC | 1",
@@ -724,11 +724,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 191",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 181",
             "type": "vless",
-            "server": "172.66.213.5",
-            "server_port": 8080,
-            "uuid": "2e3f29f2-8a9b-48a6-81be-6725742145d6",
+            "server": "108.162.192.79",
+            "server_port": 443,
+            "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -736,11 +736,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel-chf.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2053",
+                "path": "\/",
                 "headers": {
-                    "Host": "172.66.213.5"
+                    "Host": "bpb-worker-panel-chf.pages.dev"
                 }
             }
         },
@@ -1230,9 +1240,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "104.20.205.66",
-            "server_port": 8443,
-            "uuid": "9ae26e70-4ceb-49a2-9d47-df2d969531bc",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "c25b115e-ce01-4547-a183-84501027aa6a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1240,21 +1250,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "unlimiteddev.xn--9iqr0tm1r4wg.co",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@custom_config",
                 "headers": {
-                    "Host": "unlimiteddev.xn--9iqr0tm1r4wg.co"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1309,7 +1309,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Capoit | 10",
+            "tag": "🇨🇦CA | vless | @Capoit | 12",
             "type": "vless",
             "server": "104.21.74.214",
             "server_port": 2082,
