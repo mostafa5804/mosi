@@ -13,11 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇳CN | vmess | @mftizi | 19 = vmess, m.cnmjin.net, 16632, username = 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, visa.com, 443, username = f5f123f8-123e-40bf-b1c1-1c9f0c3dcfbd, ws = true, tls = 1, vmess-aead = true, ws-path = /vmess, ws-headers = Host:"de3.v2vmess.site", skip-cert-verify = true, tfo = false
+🇮🇳IN | vmess | @Hope_Net | 9 = vmess, in-full.privateip.net, 443, username = a2081592-fb7a-4b0a-b93b-33ddf0825410, ws = true, tls = 1, vmess-aead = true, ws-path = /RACEVPN, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @v2Line | 7 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @v2Line | 7
-URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @v2Line | 7
-FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇨🇦CA | vmess | @v2Line | 7
+MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇮🇳IN | vmess | @Hope_Net | 9,🇨🇦CA | vmess | @v2Line | 7
+URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇮🇳IN | vmess | @Hope_Net | 9,🇨🇦CA | vmess | @v2Line | 7
+FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇮🇳IN | vmess | @Hope_Net | 9,🇨🇦CA | vmess | @v2Line | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
