@@ -124,8 +124,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @ShadowProxy66 | 7",
-                "🇺🇸US | vmess | @v2ray1_ng | 0",
-                "🇸🇪SE | vmess | @v2ray1_ng | 1",
+                "🇺🇸US | vmess | @v2ray1_ng | 1",
+                "🇸🇪SE | vmess | @v2ray1_ng | 2",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -140,8 +140,9 @@
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇺🇸US | vmess | @ROMAX_VPN | 2",
-                "🇮🇷IR | vmess | @ROMAX_VPN | 3"
+                "🇺🇸US | vmess | @ROMAX_VPN | 0",
+                "🇺🇸US | vmess | @ROMAX_VPN | 3",
+                "🇮🇷IR | vmess | @ROMAX_VPN | 4"
             ]
         },
         {
@@ -166,8 +167,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @ShadowProxy66 | 7",
-                "🇺🇸US | vmess | @v2ray1_ng | 0",
-                "🇸🇪SE | vmess | @v2ray1_ng | 1",
+                "🇺🇸US | vmess | @v2ray1_ng | 1",
+                "🇸🇪SE | vmess | @v2ray1_ng | 2",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -182,8 +183,9 @@
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
-                "🇺🇸US | vmess | @ROMAX_VPN | 2",
-                "🇮🇷IR | vmess | @ROMAX_VPN | 3"
+                "🇺🇸US | vmess | @ROMAX_VPN | 0",
+                "🇺🇸US | vmess | @ROMAX_VPN | 3",
+                "🇮🇷IR | vmess | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -690,7 +692,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 0",
+            "tag": "🇺🇸US | vmess | @v2ray1_ng | 1",
             "type": "vmess",
             "server": "104.26.7.65",
             "server_port": 443,
@@ -724,7 +726,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @v2ray1_ng | 1",
+            "tag": "🇸🇪SE | vmess | @v2ray1_ng | 2",
             "type": "vmess",
             "server": "185.146.173.94",
             "server_port": 80,
@@ -1167,7 +1169,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 2",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 0",
+            "type": "vmess",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 3",
             "type": "vmess",
             "server": "172.67.166.192",
             "server_port": 80,
@@ -1191,7 +1227,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ROMAX_VPN | 3",
+            "tag": "🇮🇷IR | vmess | @ROMAX_VPN | 4",
             "type": "vmess",
             "server": "178.239.150.170",
             "server_port": 80,
