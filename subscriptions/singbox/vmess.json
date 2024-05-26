@@ -131,7 +131,8 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 0",
+                "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
@@ -174,7 +175,8 @@
                 "🏳️XX | vmess | @yaney_01 | 3",
                 "🇨🇳CN | vmess | @yaney_01 | 4",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 0",
+                "🏳️XX | vmess | @Hope_Net | 0",
+                "🇺🇸US | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
@@ -900,7 +902,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 0",
+            "tag": "🏳️XX | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "v3.ssrsub.com",
+            "server_port": 443,
+            "uuid": "620d82a8-22ba-4945-90ba-a2bed1cde1d2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v3.ssrsub.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/api\/v3\/download.getFile",
+                "headers": {
+                    "Host": "v3.ssrsub.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @Hope_Net | 1",
             "type": "vmess",
             "server": "50.114.243.61",
             "server_port": 43834,
