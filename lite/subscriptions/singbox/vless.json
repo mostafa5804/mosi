@@ -124,7 +124,7 @@
                 "🇨🇳CN | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇩🇪DE | vless | @ProxyForOpeta | 1",
+                "🇩🇪DE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 35",
                 "🇸🇪SE | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 181",
@@ -142,7 +142,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 142",
+                "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
                 "🇨🇦CA | vless | @proxystore11 | 3",
@@ -189,7 +189,7 @@
                 "🇨🇳CN | vless | @proxy_kafee | 1",
                 "🇨🇦CA | vless | @v2logy | 16",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
-                "🇩🇪DE | vless | @ProxyForOpeta | 1",
+                "🇩🇪DE | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 35",
                 "🇸🇪SE | vless | @Outline_Vpn | 17",
                 "🇨🇦CA | vless | @prrofile_purple | 181",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇨🇦CA | vless | @V2RayTz | 18",
                 "🇨🇦CA | vless | @VmessProtocol | 16",
-                "🇨🇦CA | vless | @DailyV2RY | 142",
+                "🇨🇦CA | vless | @DailyV2RY | 153",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇩🇪DE | vless | @lrnbymaa | 26",
                 "🇨🇦CA | vless | @proxystore11 | 3",
@@ -663,7 +663,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ProxyForOpeta | 1",
+            "tag": "🇩🇪DE | vless | @ProxyForOpeta | 2",
             "type": "vless",
             "server": "136.244.84.74",
             "server_port": 80,
@@ -1131,7 +1131,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 142",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 153",
             "type": "vless",
             "server": "104.26.6.95",
             "server_port": 80,
@@ -1269,9 +1269,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "104.21.74.214",
-            "server_port": 2082,
-            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "server": "188.114.96.6",
+            "server_port": 8443,
+            "uuid": "4075cbc0-8b0a-480d-972d-5f09d4d3a083",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1279,11 +1279,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-telegraam-channel-disvpn.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram Join: @DisVpn,Telegram Join: @DisVpn",
                 "headers": {
-                    "Host": "104.21.74.214"
+                    "Host": "join-telegraam-channel-disvpn.pages.dev"
                 }
             }
         },
