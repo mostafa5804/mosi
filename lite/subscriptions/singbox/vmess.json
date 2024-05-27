@@ -112,9 +112,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇸🇪SE | vmess | @ShadowProxy66 | 25",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🏳️XX | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
             ]
         },
@@ -128,9 +128,9 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇸🇪SE | vmess | @ShadowProxy66 | 25",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🏳️XX | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -311,11 +311,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
+            "tag": "🏳️XX | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "50.114.243.61",
-            "server_port": 43834,
-            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
+            "server": "v3.ssrsub.com",
+            "server_port": 443,
+            "uuid": "620d82a8-22ba-4945-90ba-a2bed1cde1d2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -325,6 +325,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v3.ssrsub.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/api\/v3\/download.getFile",
+                "headers": {
+                    "Host": "v3.ssrsub.com"
+                }
             }
         },
         {
@@ -362,7 +379,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 7",
+            "tag": "🇨🇦CA | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "104.26.6.65",
             "server_port": 443,
