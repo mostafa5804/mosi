@@ -139,9 +139,9 @@
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
+                "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
-                "🇮🇷IR | vless | @vless_vmess | 10",
+                "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇬🇧GB | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 32",
@@ -203,9 +203,9 @@
                 "🇸🇪SE | vless | @ServerNett | 5",
                 "🇨🇦CA | vless | @Proxy_PJ | 0",
                 "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-                "🇨🇦CA | vless | @v2ray_swhil | 13",
+                "🇨🇦CA | vless | @v2ray_swhil | 15",
                 "🇸🇪SE | vless | @proxyymeliii | 19",
-                "🇮🇷IR | vless | @vless_vmess | 10",
+                "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 11",
                 "🇬🇧GB | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 32",
@@ -781,7 +781,7 @@
             "type": "vless",
             "server": "104.17.169.114",
             "server_port": 80,
-            "uuid": "aebca481-d343-4ae8-a641-c598d253f0f1",
+            "uuid": "008ba5df-c4d8-4bd5-8516-0b1c9e07961e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -989,7 +989,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray_swhil | 13",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 15",
             "type": "vless",
             "server": "v2ray1ng.pages.dev",
             "server_port": 443,
@@ -1041,17 +1041,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @vless_vmess | 10",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 8",
             "type": "vless",
-            "server": "95.38.242.93",
-            "server_port": 2083,
-            "uuid": "a78523dc-436b-4a31-9003-6ea06c0e19ec",
+            "server": "104.21.74.214",
+            "server_port": 2082,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.21.74.214"
+                }
             }
         },
         {
