@@ -153,7 +153,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @FreakConfig | 8",
+                "🇺🇸US | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 10",
@@ -217,7 +217,7 @@
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 5",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 11",
-                "🇨🇦CA | vless | @FreakConfig | 8",
+                "🇺🇸US | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 18",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🏳️XX | vless | @kiava | 10",
@@ -1327,11 +1327,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 8",
+            "tag": "🇺🇸US | vless | @FreakConfig | 8",
             "type": "vless",
-            "server": "104.16.54.150",
-            "server_port": 80,
-            "uuid": "a81b314c-3ab7-48d3-b8c0-584c89e5f616",
+            "server": "zula.ir",
+            "server_port": 8443,
+            "uuid": "4f0efec2-9a6e-4122-9bcc-a8ab1c83c298",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1339,11 +1339,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-ukrine.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.16.54.150"
+                    "Host": "telegram-falcunargo-ukrine.falcunar.asso.eu.org"
                 }
             }
         },
