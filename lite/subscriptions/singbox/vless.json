@@ -141,13 +141,12 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 19",
+                "🇺🇸US | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 43",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇸🇪SE | vless | @polproxy | 10",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 9",
@@ -205,13 +204,12 @@
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇨🇦CA | vless | @VmessProtocol | 19",
+                "🇺🇸US | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 43",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇸🇪SE | vless | @polproxy | 10",
-                "🇮🇷IR | vless | @Outlinev2rayNG | 9",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 6",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 9",
@@ -423,7 +421,7 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 19",
             "type": "vless",
-            "server": "185.146.173.237",
+            "server": "185.146.173.94",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -437,7 +435,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "185.146.173.94"
                 }
             }
         },
@@ -561,7 +559,7 @@
             "type": "vless",
             "server": "185.146.173.22",
             "server_port": 2095,
-            "uuid": "-dIGIV2RAY-",
+            "uuid": "-DIGIV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -695,9 +693,9 @@
         {
             "tag": "🇨🇦CA | vless | @Outline_Vpn | 17",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "d6fc0062-4719-45ba-929d-27b60b970550",
+            "server": "198.41.198.76",
+            "server_port": 443,
+            "uuid": "38a2070d-a256-48f3-891b-c9b68b01c8f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -705,11 +703,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jd.wxgqlfx.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "jd.wxgqlfx.top"
                 }
             }
         },
@@ -1058,7 +1066,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VmessProtocol | 19",
+            "tag": "🇺🇸US | vless | @VmessProtocol | 19",
             "type": "vless",
             "server": "xs.wxtv.cc",
             "server_port": 443,
@@ -1200,27 +1208,6 @@
                 "path": "\/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy",
                 "headers": {
                     "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @Outlinev2rayNG | 9",
-            "type": "vless",
-            "server": "New.drpingservice.net",
-            "server_port": 443,
-            "uuid": "de85d3ea-0540-45ba-a167-3e7c91ecfb74",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DoctorPing_Channel",
-                "headers": {
-                    "Host": "New.drpingservice.net"
                 }
             }
         },
