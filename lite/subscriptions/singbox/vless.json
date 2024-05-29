@@ -142,6 +142,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 9",
+                "🇺🇸US | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 54",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
@@ -204,6 +205,7 @@
                 "🇸🇪SE | vless | @proxyymeliii | 17",
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @V2RayTz | 9",
+                "🇺🇸US | vless | @VmessProtocol | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 54",
                 "🇮🇷IR | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
@@ -1054,6 +1056,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "185.146.173.9"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @VmessProtocol | 19",
+            "type": "vless",
+            "server": "162.159.252.236",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
