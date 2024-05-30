@@ -114,7 +114,7 @@
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 13",
                 "🇮🇷IR | vless | @frev2ray | 1",
-                "🇸🇪SE | vless | @ARv2ray | 15",
+                "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 32",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @rxv2ray | 3",
@@ -153,8 +153,8 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 11",
-                "🇬🇧GB | vless | @flyv2ray | 17",
-                "🇸🇪SE | vless | @mehrosaboran | 4",
+                "🇺🇸US | vless | @flyv2ray | 17",
+                "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -178,7 +178,7 @@
                 "🇨🇦CA | vless | @melov2ray | 8",
                 "🇨🇦CA | vless | @V2pedia | 13",
                 "🇮🇷IR | vless | @frev2ray | 1",
-                "🇸🇪SE | vless | @ARv2ray | 15",
+                "🇸🇪SE | vless | @ARv2ray | 19",
                 "🇸🇪SE | vless | @shh_proxy | 32",
                 "🇨🇦CA | vless | @Lockey_vpn | 17",
                 "🇸🇪SE | vless | @rxv2ray | 3",
@@ -217,8 +217,8 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇺🇸US | vless | @FreakConfig | 11",
-                "🇬🇧GB | vless | @flyv2ray | 17",
-                "🇸🇪SE | vless | @mehrosaboran | 4",
+                "🇺🇸US | vless | @flyv2ray | 17",
+                "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 23",
@@ -421,9 +421,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ARv2ray | 15",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 19",
             "type": "vless",
-            "server": "185.146.173.94",
+            "server": "185.146.173.237",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -435,9 +435,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2056",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "185.146.173.94"
+                    "Host": "185.146.173.237"
                 }
             }
         },
@@ -446,7 +446,7 @@
             "type": "vless",
             "server": "185.146.173.94",
             "server_port": 2095,
-            "uuid": "53eb9786-d4e1-4276-9768-ed506c5444ae",
+            "uuid": "bc4b81f5-2a05-45d7-8e3f-8829e4804526",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1334,10 +1334,10 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vless | @flyv2ray | 17",
+            "tag": "🇺🇸US | vless | @flyv2ray | 17",
             "type": "vless",
-            "server": "Join--VPNCUSTOMIZE.V2ray.re",
-            "server_port": 8080,
+            "server": "telegramVPNCUSTOMIZE.ninjacdn.org",
+            "server_port": 443,
             "uuid": "join-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1346,16 +1346,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "Join--VPNCUSTOMIZE.V2ray.re"
+            "tls": {
+                "enabled": true,
+                "server_name": "telegramVPNCUSTOMIZE.ninjacdn.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNCUSTOMIZE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 4",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "185.146.173.94",
             "server_port": 80,
