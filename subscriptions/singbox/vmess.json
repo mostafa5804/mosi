@@ -108,13 +108,13 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 5",
-                "🇺🇸US | vmess | @mftizi | 6",
-                "🇨🇳CN | vmess | @mftizi | 7",
-                "🇨🇳CN | vmess | @mftizi | 13",
-                "🇺🇸US | vmess | @mftizi | 15",
-                "🇨🇳CN | vmess | @mftizi | 16",
+                "🇨🇳CN | vmess | @mftizi | 6",
+                "🇺🇸US | vmess | @mftizi | 7",
+                "🇨🇳CN | vmess | @mftizi | 8",
+                "🇺🇸US | vmess | @mftizi | 16",
+                "🇨🇳CN | vmess | @mftizi | 17",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 7",
-                "🇫🇷FR | vmess | @DeamNet_Proxy | 11",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 13",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 0",
@@ -154,7 +154,6 @@
                 "🇹🇷TR | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇹🇼TW | vmess | @Hope_Net | 6",
-                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
@@ -176,13 +175,13 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 5",
-                "🇺🇸US | vmess | @mftizi | 6",
-                "🇨🇳CN | vmess | @mftizi | 7",
-                "🇨🇳CN | vmess | @mftizi | 13",
-                "🇺🇸US | vmess | @mftizi | 15",
-                "🇨🇳CN | vmess | @mftizi | 16",
+                "🇨🇳CN | vmess | @mftizi | 6",
+                "🇺🇸US | vmess | @mftizi | 7",
+                "🇨🇳CN | vmess | @mftizi | 8",
+                "🇺🇸US | vmess | @mftizi | 16",
+                "🇨🇳CN | vmess | @mftizi | 17",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 7",
-                "🇫🇷FR | vmess | @DeamNet_Proxy | 11",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 13",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 0",
@@ -222,7 +221,6 @@
                 "🇹🇷TR | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇹🇼TW | vmess | @Hope_Net | 6",
-                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
@@ -277,6 +275,30 @@
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 5",
             "type": "vmess",
+            "server": "m.cnmjin.net",
+            "server_port": 16632,
+            "uuid": "2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | @mftizi | 6",
+            "type": "vmess",
             "server": "183.232.199.28",
             "server_port": 15605,
             "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
@@ -292,7 +314,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 6",
+            "tag": "🇺🇸US | vmess | @mftizi | 7",
             "type": "vmess",
             "server": "hk.wish.ml",
             "server_port": 2052,
@@ -316,7 +338,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 7",
+            "tag": "🇨🇳CN | vmess | @mftizi | 8",
             "type": "vmess",
             "server": "183.240.179.195",
             "server_port": 15603,
@@ -333,31 +355,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 13",
-            "type": "vmess",
-            "server": "m.cnmjin.net",
-            "server_port": 16632,
-            "uuid": "2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @mftizi | 15",
+            "tag": "🇺🇸US | vmess | @mftizi | 16",
             "type": "vmess",
             "server": "hk.wish.ml",
             "server_port": 2052,
@@ -381,7 +379,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 16",
+            "tag": "🇨🇳CN | vmess | @mftizi | 17",
             "type": "vmess",
             "server": "120.238.122.243",
             "server_port": 40259,
@@ -432,7 +430,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @DeamNet_Proxy | 11",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 11",
             "type": "vmess",
             "server": "linde06.indiavideo.sbs",
             "server_port": 443,
@@ -1539,23 +1537,6 @@
                 "headers": {
                     "Host": "tw1g.forlive.live"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "129.226.94.27",
-            "server_port": 23785,
-            "uuid": "d0771055-cccc-4b79-c4db-d2942f8c9e62",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
