@@ -150,16 +150,16 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 3",
-                "🇫🇷FR | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @v2Line | 2",
-                "🇮🇳IN | vmess | @v2Line | 3",
-                "🇺🇸US | vmess | @v2Line | 4",
+                "🇺🇸US | vmess | @v2Line | 3",
+                "🇮🇳IN | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @v2Line | 5",
-                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
@@ -215,16 +215,16 @@
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @Hope_Net | 3",
-                "🇫🇷FR | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 0",
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @v2Line | 2",
-                "🇮🇳IN | vmess | @v2Line | 3",
-                "🇺🇸US | vmess | @v2Line | 4",
+                "🇺🇸US | vmess | @v2Line | 3",
+                "🇮🇳IN | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @v2Line | 5",
-                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
@@ -1410,40 +1410,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 4",
-            "type": "vmess",
-            "server": "fr-full.privateip.net",
-            "server_port": 443,
-            "uuid": "52347667-5eeb-482b-b8a9-49b6fbaf632b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fr-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "fr-full.privateip.net"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @v2rayng_config_amin | 0",
             "type": "vmess",
             "server": "188.114.97.3",
@@ -1514,7 +1480,7 @@
         {
             "tag": "🇺🇸US | vmess | @v2Line | 0",
             "type": "vmess",
-            "server": "104.26.6.65",
+            "server": "caretaker.com",
             "server_port": 443,
             "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
@@ -1548,6 +1514,40 @@
         {
             "tag": "🇺🇸US | vmess | @v2Line | 1",
             "type": "vmess",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @v2Line | 2",
+            "type": "vmess",
             "server": "us3e-mmnnfr9dop0.v2freevpn.com",
             "server_port": 80,
             "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
@@ -1570,7 +1570,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 2",
+            "tag": "🇺🇸US | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
@@ -1604,7 +1604,7 @@
             }
         },
         {
-            "tag": "🇮🇳IN | vmess | @v2Line | 3",
+            "tag": "🇮🇳IN | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "in-full.privateip.net",
             "server_port": 443,
@@ -1638,7 +1638,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 4",
+            "tag": "🇺🇸US | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "104.21.44.106",
             "server_port": 443,
@@ -1672,7 +1672,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 5",
+            "tag": "🇺🇸US | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "50.114.243.61",
             "server_port": 43834,
@@ -1689,7 +1689,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 8",
+            "tag": "🇺🇸US | vmess | @v2Line | 9",
             "type": "vmess",
             "server": "172.67.170.103",
             "server_port": 443,
