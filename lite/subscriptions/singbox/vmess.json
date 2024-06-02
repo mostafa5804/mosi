@@ -111,7 +111,7 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @ShadowProxy66 | 29",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 11",
+                "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
@@ -127,7 +127,7 @@
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @ShadowProxy66 | 29",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 11",
+                "🇺🇸US | vmess | @Hope_Net | 12",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @nofiltering2 | 1",
@@ -256,11 +256,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 11",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "194.5.175.162",
-            "server_port": 2053,
-            "uuid": "6e31fbfb-031a-467c-b89f-334a7093d382",
+            "server": "172.67.74.4",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -271,11 +271,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
