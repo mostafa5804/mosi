@@ -162,7 +162,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇩🇪DE | vless | @Capoit | 20",
-                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @flyv2ray | 15",
                 "🇺🇸US | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇺🇸US | vless | @kiava | 9",
@@ -238,7 +238,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇩🇪DE | vless | @Capoit | 20",
-                "🇸🇪SE | vless | @flyv2ray | 15",
+                "🇨🇷CR | vless | @flyv2ray | 15",
                 "🇺🇸US | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇺🇸US | vless | @kiava | 9",
@@ -1594,11 +1594,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 15",
+            "tag": "🇨🇷CR | vless | @flyv2ray | 15",
             "type": "vless",
-            "server": "185.146.173.9",
-            "server_port": 2095,
-            "uuid": "5d8ac060-9bd3-4af1-b225-328672f9518f",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "ccb9a489-16b6-4377-8a8b-ff829c1f5bc4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1606,11 +1606,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "V.snaapfood.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.9"
+                    "Host": "V.snaapfood.org"
                 }
             }
         },
