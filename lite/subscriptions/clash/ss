@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇦🇪AE | ss | @vmess_vless_v2rayng | 44","type":"ss","server":"51.112.118.115","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇪AE | ss | @vmess_vless_v2rayng | 48","type":"ss","server":"51.112.118.115","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺RU | ss | @OutlineVpnOfficial | 18","type":"ss","server":"194.26.229.18","port":50744,"password":"sIZ80DZsAC9ZSshS69gYql","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -126,7 +126,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇦🇪AE | ss | @vmess_vless_v2rayng | 44'
+      - '🇦🇪AE | ss | @vmess_vless_v2rayng | 48'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 18'
   - name: URL-TEST
     type: url-test
@@ -134,14 +134,14 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇦🇪AE | ss | @vmess_vless_v2rayng | 44'
+      - '🇦🇪AE | ss | @vmess_vless_v2rayng | 48'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇦🇪AE | ss | @vmess_vless_v2rayng | 44'
+      - '🇦🇪AE | ss | @vmess_vless_v2rayng | 48'
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
