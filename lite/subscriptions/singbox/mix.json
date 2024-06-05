@@ -123,13 +123,14 @@
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -147,7 +148,7 @@
                 "🇨🇷CR | vmess | @vless_vmess | 4",
                 "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇰🇷KR | trojan | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @DailyV2RY | 168",
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
@@ -198,13 +199,14 @@
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇩🇪DE | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 183",
@@ -222,7 +224,7 @@
                 "🇨🇷CR | vmess | @vless_vmess | 4",
                 "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇰🇷KR | trojan | @VmessProtocol | 16",
+                "🇨🇦CA | vless | @VmessProtocol | 16",
                 "🏳️XX | vless | @DailyV2RY | 168",
                 "🇺🇸US | vless | @sinabigo | 3",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
@@ -644,7 +646,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -788,6 +790,40 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "104.16.61.8",
+            "server_port": 2083,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-lingering-fog-c021.gesofog870.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
+                "headers": {
+                    "Host": "worker-lingering-fog-c021.gesofog870.workers.dev"
                 }
             }
         },
@@ -1207,11 +1243,13 @@
             }
         },
         {
-            "tag": "🇰🇷KR | trojan | @VmessProtocol | 16",
-            "type": "trojan",
-            "server": "146.56.171.182",
-            "server_port": 11659,
-            "password": "NISHIKUITAN222",
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 16",
+            "type": "vless",
+            "server": "104.21.3.182",
+            "server_port": 443,
+            "uuid": "f8f5dce2-e66b-45bd-957e-53c1ecdda37a",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1219,7 +1257,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "t331.ylks.link",
+                "server_name": "jAVIdshAh.PageS.deV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1229,9 +1267,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/pPQqxfK8yz3JBNAb?ed=2560",
                 "headers": {
-                    "Host": "t331.ylks.link"
+                    "Host": "jAVIdshAh.PageS.deV"
                 }
             }
         },
