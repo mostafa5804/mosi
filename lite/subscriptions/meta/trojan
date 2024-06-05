@@ -122,6 +122,7 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 17","type":"trojan","server":"3.121.254.99","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | trojan | @DirectVPN | 17","type":"trojan","server":"3.77.51.1","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"ca-full.privateip.net","port":443,"udp":false,"password":"e0557db1-585e-4469-aaab-3e9061fc53ac","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | trojan | @proxystore11 | 4","type":"trojan","server":"3.70.146.72","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
@@ -131,6 +132,7 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | trojan | @PrivateVPNs | 17'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
+      - '🇨🇦CA | trojan | @oneclickvpnkeys | 5'
       - '🇩🇪DE | trojan | @proxystore11 | 4'
   - name: URL-TEST
     type: url-test
@@ -140,6 +142,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 17'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
+      - '🇨🇦CA | trojan | @oneclickvpnkeys | 5'
       - '🇩🇪DE | trojan | @proxystore11 | 4'
   - name: FALLBACK
     type: fallback
@@ -148,6 +151,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 17'
       - '🇩🇪DE | trojan | @DirectVPN | 17'
+      - '🇨🇦CA | trojan | @oneclickvpnkeys | 5'
       - '🇩🇪DE | trojan | @proxystore11 | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
