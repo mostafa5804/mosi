@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇷CR | vmess | @vless_vmess | 7",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 6",
+                "🇮🇹IT | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -123,10 +124,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇷CR | vmess | @vless_vmess | 7",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 6",
+                "🇮🇹IT | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 7"
@@ -189,6 +191,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
+            "type": "vmess",
+            "server": "104.19.44.150",
+            "server_port": 8080,
+            "uuid": "3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/&Telegram🇨🇳 @WangCai_8",
+                "headers": {
+                    "Host": "104.19.44.150"
                 }
             }
         },
@@ -285,11 +311,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 6",
+            "tag": "🇮🇹IT | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "fr-full.privateip.net",
+            "server": "it-full.privateip.net",
             "server_port": 443,
-            "uuid": "d8d9a946-c231-426a-8170-069cc2f0df2f",
+            "uuid": "509fd5aa-5859-4618-8de8-428b38c269ec",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -302,7 +328,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fr-full.privateip.net",
+                "server_name": "it-full.privateip.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -314,7 +340,7 @@
                 "type": "ws",
                 "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "fr-full.privateip.net"
+                    "Host": "it-full.privateip.net"
                 }
             }
         },
