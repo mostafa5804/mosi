@@ -111,6 +111,11 @@
                 "🇺🇸US | vmess | @mftizi | 8",
                 "🇨🇳CN | vmess | @mftizi | 9",
                 "🇨🇳CN | vmess | @mftizi | 12",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 4",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 7",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -162,6 +167,11 @@
                 "🇺🇸US | vmess | @mftizi | 8",
                 "🇨🇳CN | vmess | @mftizi | 9",
                 "🇨🇳CN | vmess | @mftizi | 12",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 4",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 7",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 2",
@@ -320,6 +330,156 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 4",
+            "type": "vmess",
+            "server": "173.245.58.133",
+            "server_port": 8443,
+            "uuid": "202ff746-10dd-4a96-8193-052779157e60",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnV2raydownload.egg-theory.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "games",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 7",
+            "type": "vmess",
+            "server": "104.21.51.208",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+            "type": "vmess",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "104.16.67.38",
+            "server_port": 2086,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/jahfkjha.cfd\/linkws",
+                "headers": {
+                    "Host": "104.16.67.38"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "172.67.172.234",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.172.234"
+                }
             }
         },
         {
