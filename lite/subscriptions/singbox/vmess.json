@@ -109,8 +109,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9"
             ]
@@ -122,8 +122,8 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9"
             ],
@@ -213,7 +213,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -247,11 +247,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "104.26.3.120",
-            "server_port": 80,
-            "uuid": "f94c274d-f9c5-4c47-a3f5-fa839d80bfb1",
+            "server": "sg2-v2ray.ipracevpn.com",
+            "server_port": 2083,
+            "uuid": "610f3cbf-d441-46c2-9a84-572936fc1009",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -262,11 +262,14 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/etc",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
