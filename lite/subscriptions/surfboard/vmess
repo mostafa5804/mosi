@@ -12,12 +12,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇳CN | vmess | @mftizi | 19 = vmess, m.cnmjin.net, 16632, username = 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @Hope_Net | 5 = vmess, 104.26.3.120, 80, username = f94c274d-f9c5-4c47-a3f5-fa839d80bfb1, ws = true, tls = , vmess-aead = true, ws-path = /etc, ws-headers = Host:"dl3.mrarsha.邁達安.iron.鐵面具.dog垃圾場狗.巴黎之下.suonycars.buzz.", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 9 = vmess, 188.114.97.3, 443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"afrhms16v.bestxray.buzz", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @FreakConfig | 9 = vmess, 188.114.97.3, 80, username = b25f8da6-54a2-49b3-bacf-8403b4c36556, ws = true, tls = , vmess-aead = true, ws-path = , ws-headers = Host:"De1.vmess.site.", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @FreakConfig | 9
-URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @FreakConfig | 9
-FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @FreakConfig | 9
+MANUAL = select,URL-TEST,FALLBACK,🇨🇳CN | vmess | @mftizi | 19,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @FreakConfig | 9
+URL-TEST = url-test,🇨🇳CN | vmess | @mftizi | 19,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @FreakConfig | 9
+FALLBACK = fallback,🇨🇳CN | vmess | @mftizi | 19,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @FreakConfig | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
