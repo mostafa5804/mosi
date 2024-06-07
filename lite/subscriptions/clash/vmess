@@ -120,8 +120,8 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"m.cnmjin.net","port":"16632","cipher":"auto","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"}}}
-  - {"name":"🇺🇸US | vmess | @Hope_Net | 4","type":"vmess","server":"chaoji2.chaozhijc.xyz","port":"2082","cipher":"auto","uuid":"0ff2af1f-4993-41a8-849f-0161cf33bce2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dny.chaozhijc.xyz"}}}
-  - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"us3e-mmnnfr9dop0.v2freevpn.com","port":"80","cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v118-fccxmxm35","headers":{"host":"us3e-mmnnfr9dop0.v2freevpn.com"}}}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 3","type":"vmess","server":"us2-full.privateip.net","port":"443","cipher":"auto","uuid":"c9e7de6a-fde7-4cbe-8adf-081239a0143d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
+  - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -130,7 +130,7 @@ proxy-groups:
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇺🇸US | vmess | @Hope_Net | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 3'
       - '🇺🇸US | vmess | @v2Line | 9'
   - name: URL-TEST
     type: url-test
@@ -140,7 +140,7 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇺🇸US | vmess | @Hope_Net | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 3'
       - '🇺🇸US | vmess | @v2Line | 9'
   - name: FALLBACK
     type: fallback
@@ -149,7 +149,7 @@ proxy-groups:
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
-      - '🇺🇸US | vmess | @Hope_Net | 4'
+      - '🇺🇸US | vmess | @Hope_Net | 3'
       - '🇺🇸US | vmess | @v2Line | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
