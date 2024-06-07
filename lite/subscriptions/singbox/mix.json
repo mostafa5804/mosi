@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇩🇪DE | vless | @VlessConfig | 16",
+                "🇫🇷FR | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 0",
@@ -118,13 +118,13 @@
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @V2rayNGn | 25",
-                "🇩🇪DE | trojan | @PrivateVPNs | 16",
+                "🇫🇷FR | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -184,7 +184,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 11",
                 "🇸🇪SE | vless | @Parsashonam | 12",
-                "🇩🇪DE | vless | @VlessConfig | 16",
+                "🇫🇷FR | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 7",
                 "🇨🇦CA | vless | @frev2ray | 0",
@@ -194,13 +194,13 @@
                 "🇸🇪SE | vless | @lightning6 | 19",
                 "🇨🇦CA | vless | @vpn_xw | 0",
                 "🇸🇪SE | vless | @DigiV2ray | 17",
-                "🇨🇦CA | vless | @proxy_kafee | 3",
+                "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 13",
                 "🇳🇱NL | tuic | @irancpi_vpn | 0",
                 "🇺🇸US | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @ProxyForOpeta | 3",
                 "🇩🇪DE | vless | @V2rayNGn | 25",
-                "🇩🇪DE | trojan | @PrivateVPNs | 16",
+                "🇫🇷FR | trojan | @PrivateVPNs | 16",
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -316,9 +316,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 16",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "3.77.180.162",
+            "server": "13.39.93.52",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -556,7 +556,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 8880,
@@ -684,9 +684,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 16",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "3.127.204.106",
+            "server": "13.38.165.66",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -708,7 +708,7 @@
         {
             "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "51.20.28.241",
+            "server": "13.51.231.59",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1461,9 +1461,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "ld3.malimani.com",
-            "server_port": 80,
-            "uuid": "af309ad2-c943-48ea-b570-2e51a2f079d9",
+            "server": "104.21.230.127",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1471,11 +1471,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DSDaswd22!11*fdfm55247.COM.",
+                "path": "\/",
                 "headers": {
-                    "Host": "ld3.malimani.com"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
