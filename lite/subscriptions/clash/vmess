@@ -123,7 +123,7 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 7","type":"vmess","server":"caretaker.com","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 7","type":"vmess","server":"188.114.97.3","port":"80","cipher":"none","uuid":"b25f8da6-54a2-49b3-bacf-8403b4c36556","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"De1.vmess.site."}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 9","type":"vmess","server":"us3e-mmnnfr9dop0.v2freevpn.com","port":"80","cipher":"auto","uuid":"2a8a10fb-9ca3-367e-a234-cf09f841be4f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v118-fccxmxm35","headers":{"host":"us3e-mmnnfr9dop0.v2freevpn.com"}}}
-  - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 7","type":"vmess","server":"172.67.166.192","port":"80","cipher":"auto","uuid":"cd1db809-2de0-409c-aef5-861e95eff53e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ua1-vmess.sshmax.xyz"}}}
+  - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 8","type":"vmess","server":"172.67.166.192","port":"80","cipher":"auto","uuid":"cd1db809-2de0-409c-aef5-861e95eff53e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ua1-vmess.sshmax.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -135,7 +135,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
       - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 7'
+      - '🇺🇸US | vmess | @ROMAX_VPN | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -147,7 +147,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
       - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 7'
+      - '🇺🇸US | vmess | @ROMAX_VPN | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -158,7 +158,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @oneclickvpnkeys | 7'
       - '🇨🇦CA | vmess | @Hope_Net | 7'
       - '🇺🇸US | vmess | @v2Line | 9'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 7'
+      - '🇺🇸US | vmess | @ROMAX_VPN | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
