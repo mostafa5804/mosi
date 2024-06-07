@@ -111,7 +111,7 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 6",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 12",
-                "🏳️XX | vless | @v2ray_swhil | 8",
+                "🏳️XX | vless | @v2ray_swhil | 9",
                 "🇳🇴NO | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -124,7 +124,8 @@
                 "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
+                "🇬🇧GB | vless | @Capoit | 5",
                 "🏳️XX | vless | @vpn_go67 | 9",
                 "🏳️XX | vless | @vpn_go67 | 10",
                 "🏳️XX | vless | @vpn_go67 | 11",
@@ -152,7 +153,7 @@
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 6",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 12",
-                "🏳️XX | vless | @v2ray_swhil | 8",
+                "🏳️XX | vless | @v2ray_swhil | 9",
                 "🇳🇴NO | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -165,7 +166,8 @@
                 "🇳🇱NL | vless | @Capital_NET | 41",
                 "🇩🇪DE | vless | @Capital_NET | 42",
                 "🏳️XX | vless | @Capital_NET | 44",
-                "🏳️XX | vless | @Capital_NET | 45",
+                "🇺🇸US | vless | @Capital_NET | 45",
+                "🇬🇧GB | vless | @Capoit | 5",
                 "🏳️XX | vless | @vpn_go67 | 9",
                 "🏳️XX | vless | @vpn_go67 | 10",
                 "🏳️XX | vless | @vpn_go67 | 11",
@@ -349,7 +351,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @v2ray_swhil | 8",
+            "tag": "🏳️XX | vless | @v2ray_swhil | 9",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -747,7 +749,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @Capital_NET | 45",
+            "tag": "🇺🇸US | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -773,6 +775,42 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @Capoit | 5",
+            "type": "vless",
+            "server": "95.179.202.50",
+            "server_port": 2093,
+            "uuid": "7cfb0575-9759-4953-846e-f55127eea2d8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7kjyM2dPWAj_zy6VnB88fevwjT4m3XRna6H2rfSEdH0",
+                    "short_id": "d710e2b9"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "stackoverflow.com"
+                ],
+                "path": "\/"
             }
         },
         {
