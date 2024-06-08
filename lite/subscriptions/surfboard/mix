@@ -11,15 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇪IE | trojan | @PrivateVPNs | 15 = trojan, 54.155.110.103, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 15 = trojan, 13.48.139.147, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 104.26.6.65, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
-🇫🇷FR | ss | @OutlineVpnOfficial | 16 = ss, 149.202.82.172, 7307, encrypt-method = aes-256-gcm, password = FoOiGlkAA9yPEGP
-🇺🇸US | vmess | @v2Line | 8 = vmess, 104.21.44.106, 443, username = 93ea486a-bada-42a4-ac38-d088b320fa1e, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"xmivideo.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇫🇷FR | ss | @OutlineVpnOfficial | 16,🇺🇸US | vmess | @v2Line | 8
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇫🇷FR | ss | @OutlineVpnOfficial | 16,🇺🇸US | vmess | @v2Line | 8
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇫🇷FR | ss | @OutlineVpnOfficial | 16,🇺🇸US | vmess | @v2Line | 8
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
