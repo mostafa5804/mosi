@@ -110,7 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 9",
+                "🇯🇵JP | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ]
@@ -123,7 +123,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 9",
+                "🇯🇵JP | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ],
@@ -240,11 +240,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 9",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "50.114.243.61",
-            "server_port": 43834,
-            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
+            "server": "jp-full.privateip.net",
+            "server_port": 443,
+            "uuid": "124fe4ff-0ee4-4189-bd99-ed1a317b42dd",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -254,6 +254,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jp-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": "jp-full.privateip.net"
+                }
             }
         },
         {
