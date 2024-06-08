@@ -13,15 +13,14 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇬🇧GB | trojan | @PrivateVPNs | 17 = trojan, 13.41.221.161, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | trojan | @DirectVPN | 17 = trojan, 18.224.113.23, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇨🇦CA | vmess | @DeamNet_Proxy | 17 = vmess, 172.67.172.50, 8080, username = b551aa22-22af-11ee-b8d8-f23c932eb68d, ws = true, tls = , vmess-aead = false, ws-path = /, ws-headers = Host:"oiictw.yydsii.com", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, 104.26.6.65, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 🇫🇷FR | ss | @OutlineVpnOfficial | 16 = ss, 149.202.82.172, 7307, encrypt-method = aes-256-gcm, password = FoOiGlkAA9yPEGP
 🇺🇸US | vmess | @Hope_Net | 5 = vmess, 172.64.97.235, 8080, username = ef8c954e-014f-4b36-8273-9b5086afab34, ws = true, tls = , vmess-aead = true, ws-path = ef8c954e-014f-4b36-8273-9b5086afab34-vm, ws-headers = Host:"dual-nothing-prep-exit.trycloudflare.com", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 8 = vmess, 104.21.44.106, 443, username = 93ea486a-bada-42a4-ac38-d088b320fa1e, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"xmivideo.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇫🇷FR | ss | @OutlineVpnOfficial | 16,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 8
-URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇫🇷FR | ss | @OutlineVpnOfficial | 16,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 8
-FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @DeamNet_Proxy | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇫🇷FR | ss | @OutlineVpnOfficial | 16,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 8
+MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇫🇷FR | ss | @OutlineVpnOfficial | 16,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 8
+URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇫🇷FR | ss | @OutlineVpnOfficial | 16,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 8
+FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇫🇷FR | ss | @OutlineVpnOfficial | 16,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 8
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
