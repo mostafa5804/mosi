@@ -121,6 +121,8 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @DeamNet_Proxy | 17","type":"vmess","server":"104.16.61.8","port":"8880","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linde06.indiavideo.sbs/linkws","headers":{"host":"worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev"}}}
+  - {"name":"🇨🇦CA | vmess | @oneclickvpnkeys | 6","type":"vmess","server":"104.26.6.65","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
   - {"name":"🇺🇸US | vmess | @Hope_Net | 6","type":"vmess","server":"oracle1.mysupp.com","port":"25943","cipher":"auto","uuid":"520c82fe-3e74-43b9-9dfb-87cae71e8cc0","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/canada","headers":{"host":""}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 8","type":"vmess","server":"104.21.44.106","port":"443","cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
 proxy-groups:
@@ -130,6 +132,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 17'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
       - '🇺🇸US | vmess | @Hope_Net | 6'
       - '🇺🇸US | vmess | @v2Line | 8'
   - name: URL-TEST
@@ -139,6 +143,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 17'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
       - '🇺🇸US | vmess | @Hope_Net | 6'
       - '🇺🇸US | vmess | @v2Line | 8'
   - name: FALLBACK
@@ -147,6 +153,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DeamNet_Proxy | 17'
+      - '🇨🇦CA | vmess | @oneclickvpnkeys | 6'
       - '🇺🇸US | vmess | @Hope_Net | 6'
       - '🇺🇸US | vmess | @v2Line | 8'
 rule-providers:
