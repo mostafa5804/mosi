@@ -152,7 +152,7 @@
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇲🇾MY | vless | @Capoit | 15",
-                "🇲🇾MY | vless | @FreakConfig | 9",
+                "🇲🇾MY | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 11",
                 "🇮🇷IR | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
@@ -215,7 +215,7 @@
                 "🇸🇪SE | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇲🇾MY | vless | @Capoit | 15",
-                "🇲🇾MY | vless | @FreakConfig | 9",
+                "🇲🇾MY | vless | @FreakConfig | 8",
                 "🇸🇪SE | vless | @flyv2ray | 11",
                 "🇮🇷IR | vless | @mehrosaboran | 2",
                 "🇺🇸US | vless | @kiava | 8",
@@ -1371,11 +1371,11 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | @FreakConfig | 9",
+            "tag": "🇲🇾MY | vless | @FreakConfig | 8",
             "type": "vless",
-            "server": "172.66.44.135",
-            "server_port": 80,
-            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+            "server": "172.66.47.2",
+            "server_port": 443,
+            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1383,11 +1383,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "172.66.44.135"
+                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
                 }
             }
         },
