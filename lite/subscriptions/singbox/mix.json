@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 21",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -150,11 +150,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 14",
@@ -195,7 +195,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 1",
                 "🇸🇪SE | vless | @v2logy | 14",
                 "🇮🇷IR | vless | @servermomo | 3",
-                "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+                "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 2",
                 "🇸🇪SE | vless | @V2rayNGn | 21",
                 "🇫🇷FR | trojan | @PrivateVPNs | 15",
@@ -224,11 +224,11 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 24",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
-                "🇨🇦CA | vless | @ConfigsHUB | 11",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇺🇸US | vless | @fnet00 | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇲🇾MY | vless | @Outlinev2rayNG | 14",
@@ -615,11 +615,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @V2rayCollectorDonate | 19",
+            "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "a7c373be-b2dd-4409-bddf-6bd0e234660c",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -627,11 +627,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d3d6f00.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/t.me\/V2rayFa-V2rayng-v2rayNgfree-telegram-t.me\/V2rayfa_telegram",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "4d3d6f00.garywelch.pages.dev"
                 }
             }
         },
@@ -1282,17 +1292,37 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "188.114.96.3",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "104.21.15.36",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
@@ -1392,11 +1422,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "bf475e6c-a607-415e-a7f7-45c889320633",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1407,21 +1437,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/video\/9TfVEyku",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": ""
                 }
             }
         },
