@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 28",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ]
@@ -114,6 +115,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 28",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 23"
             ],
@@ -136,6 +138,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 28",
+            "type": "vless",
+            "server": "3.76.7.64",
+            "server_port": 443,
+            "uuid": "4c10355d-4269-43c1-96cb-e7a794d102fc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mgL6BgbmKbzsngIMqe_PTsFdFBVuYJVkGoTDgIn3O2M",
+                    "short_id": "39a26a2ba3b26562"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",
