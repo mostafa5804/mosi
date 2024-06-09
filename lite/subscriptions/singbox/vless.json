@@ -111,11 +111,11 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇺🇸US | vless | @melov2ray | 5",
+                "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
-                "🇨🇦CA | vless | @Lockey_vpn | 15",
+                "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇺🇸US | vless | @V2rayNGmat | 3",
@@ -146,7 +146,6 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -174,11 +173,11 @@
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 25",
                 "🇸🇪SE | vless | @ipV2Ray | 15",
-                "🇺🇸US | vless | @melov2ray | 5",
+                "🇨🇦CA | vless | @melov2ray | 5",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇸🇪SE | vless | @ARv2ray | 11",
                 "🇸🇪SE | vless | @shh_proxy | 26",
-                "🇨🇦CA | vless | @Lockey_vpn | 15",
+                "🇨🇦CA | vless | @Lockey_vpn | 16",
                 "🇸🇪SE | vless | @free_v2rayyy | 13",
                 "🇸🇪SE | vless | @lightning6 | 17",
                 "🇺🇸US | vless | @V2rayNGmat | 3",
@@ -209,7 +208,6 @@
                 "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇩🇪DE | vless | @lrnbymaa | 22",
-                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 2",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 1",
@@ -363,7 +361,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @melov2ray | 5",
+            "tag": "🇨🇦CA | vless | @melov2ray | 5",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
@@ -447,11 +445,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Lockey_vpn | 15",
+            "tag": "🇨🇦CA | vless | @Lockey_vpn | 16",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 80,
-            "uuid": "c8aa3dce-77b8-4cca-b313-89ce5c015137",
+            "server": "104.21.233.139",
+            "server_port": 443,
+            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -459,11 +457,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Hagh.PaGes.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/xmrdark",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.18.202.232"
+                    "Host": "Hagh.PaGes.DEv"
                 }
             }
         },
@@ -1185,37 +1193,6 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "Join--VPNCUSTOMIZE.V2ray.re"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "f7efdb84-9500-4559-86cb-6d33bffb8655",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Jw7ph8ae-7170523162.jObfiNeX.ir.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@custom_config",
-                "headers": {
-                    "Host": "Jw7ph8ae-7170523162.jObfiNeX.ir."
                 }
             }
         },
