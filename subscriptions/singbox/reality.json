@@ -109,13 +109,14 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🏳️XX | vless | @prrofile_purple | 170",
+                "🏳️XX | vless | @prrofile_purple | 180",
                 "🇸🇬SG | vless | @v2rayNG_Matsuri | 17",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 18",
                 "🏳️XX | vless | @v2ray_swhil | 12",
                 "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇩🇪DE | vless | @VmessProtocol | 11",
                 "🇳🇴NO | vless | @VmessProtocol | 16",
+                "🇸🇪SE | vless | @ConfigsHUB | 5",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -153,13 +154,14 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
-                "🏳️XX | vless | @prrofile_purple | 170",
+                "🏳️XX | vless | @prrofile_purple | 180",
                 "🇸🇬SG | vless | @v2rayNG_Matsuri | 17",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 18",
                 "🏳️XX | vless | @v2ray_swhil | 12",
                 "🇩🇪DE | vless | @VmessProtocol | 10",
                 "🇩🇪DE | vless | @VmessProtocol | 11",
                 "🇳🇴NO | vless | @VmessProtocol | 16",
+                "🇸🇪SE | vless | @ConfigsHUB | 5",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -297,7 +299,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @prrofile_purple | 170",
+            "tag": "🏳️XX | vless | @prrofile_purple | 180",
             "type": "vless",
             "server": "[2a0d:5940:102:2::]",
             "server_port": 25365,
@@ -511,6 +513,42 @@
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "admin.blogmovoes.ir",
+            "server_port": 443,
+            "uuid": "0174e60d-b342-46a9-aab5-12c0f94125fc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XyY6JxBj_8xL9NugEuFbl9HwW5q4SDEu_wYDd47BIDg",
+                    "short_id": "b5caafd4"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "mmdreza",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
