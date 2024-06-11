@@ -110,7 +110,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇬🇧GB | vmess | @proxyymeliii | 17",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -124,7 +124,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇬🇧GB | vmess | @proxyymeliii | 17",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -235,11 +235,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "213.142.149.116",
-            "server_port": 41858,
-            "uuid": "d2c7b321-5e48-4d28-80e2-f64c6ddfad96",
+            "server": "172.67.207.26",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -249,6 +249,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
             }
         },
         {
