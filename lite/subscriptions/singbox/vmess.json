@@ -110,9 +110,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇨🇦CA | vmess | @vless_vmess | 16",
-                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -126,9 +125,8 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇨🇦CA | vmess | @vless_vmess | 16",
-                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -246,23 +244,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "46.36.102.5",
-            "server_port": 55735,
-            "uuid": "53ad7954-8705-4ecd-8ba3-aaeaa6913e97",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -297,13 +278,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "51.81.223.19",
+            "server": "188.114.98.39",
             "server_port": 443,
-            "uuid": "c0156451-4efb-45e2-84fc-8d315c4650db",
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
-            "alter_id": 32,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -314,12 +295,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "51.81.223.19",
+                "server_name": "mikasa.yaemiko.cloudns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
