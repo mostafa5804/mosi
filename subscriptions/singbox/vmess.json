@@ -111,10 +111,10 @@
                 "🇺🇸US | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🇨🇳CN | vmess | @mftizi | 15",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 6",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 7",
@@ -129,7 +129,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 18",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇺🇸US | vmess | @v2ray_swhil | 7",
-                "🇹🇷TR | vmess | @vless_vmess | 9",
+                "🇹🇷TR | vmess | @vless_vmess | 10",
+                "🇺🇸US | vmess | @vmess_vless_v2rayng | 28",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -169,10 +170,10 @@
                 "🇺🇸US | vmess | @mftizi | 11",
                 "🇨🇳CN | vmess | @mftizi | 12",
                 "🇨🇳CN | vmess | @mftizi | 15",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 13",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 11",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 2",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇺🇸US | vmess | @ShadowProxy66 | 6",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 7",
@@ -187,7 +188,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 18",
                 "🇺🇸US | vmess | @ShadowProxy66 | 19",
                 "🇺🇸US | vmess | @v2ray_swhil | 7",
-                "🇹🇷TR | vmess | @vless_vmess | 9",
+                "🇹🇷TR | vmess | @vless_vmess | 10",
+                "🇺🇸US | vmess | @vmess_vless_v2rayng | 28",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 40",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
@@ -337,11 +339,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 13",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 11",
             "type": "vmess",
-            "server": "172.67.169.91",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "172.67.131.108",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -352,16 +354,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "172.67.169.91"
+                    "Host": "glweidf.cfd"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -395,7 +407,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "185.146.173.185",
             "server_port": 2052,
@@ -419,7 +431,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "104.21.44.106",
             "server_port": 443,
@@ -811,7 +823,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @vless_vmess | 9",
+            "tag": "🇹🇷TR | vmess | @vless_vmess | 10",
             "type": "vmess",
             "server": "213.142.149.116",
             "server_port": 41858,
@@ -825,6 +837,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @vmess_vless_v2rayng | 28",
+            "type": "vmess",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
