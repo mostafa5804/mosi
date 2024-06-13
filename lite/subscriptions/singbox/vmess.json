@@ -107,10 +107,11 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -121,10 +122,11 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @v2ray1_ng | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -167,11 +169,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.240.179.195",
-            "server_port": 15603,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "server": "hk.wish.ml",
+            "server_port": 2052,
+            "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -181,6 +183,37 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "104.16.68.38",
+            "server_port": 8080,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linde06.indiavideo.sbs\/linkws",
+                "headers": {
+                    "Host": "104.16.68.38"
+                }
             }
         },
         {
@@ -252,11 +285,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 2052,
-            "uuid": "cd5b9129-90cf-48ce-b00b-979f1c8681ce",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -267,11 +300,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
