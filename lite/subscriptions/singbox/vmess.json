@@ -109,8 +109,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 1",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇯🇵JP | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -123,8 +124,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 1",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 10",
+                "🇺🇸US | vmess | @yaney_01 | 5",
+                "🇯🇵JP | vmess | @Hope_Net | 0",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -225,7 +227,41 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 10",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -259,11 +295,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 1",
+            "tag": "🇯🇵JP | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "172.67.144.19",
-            "server_port": 80,
-            "uuid": "6808508f-c51c-4888-8370-d49e78a7f64e",
+            "server": "jp-full.privateip.net",
+            "server_port": 443,
+            "uuid": "7c8c641f-c970-471b-9785-08817a305b0a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -274,11 +310,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jp-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/centos\/7.9.2009\/isos\/x86_64\/CentOS-7-x86_64-Minimal-2009.iso",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "172.67.144.19"
+                    "Host": "jp-full.privateip.net"
                 }
             }
         },
