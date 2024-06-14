@@ -156,7 +156,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -236,7 +236,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | vless | @ConfigsHUB | 16",
+                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇮🇷IR | vless | @proxystore11 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -1437,23 +1437,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "f9b547f7-ec8e-4e72-804d-9fc9c560c748",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "104.21.55.234",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/ServerNett",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "gwdef.sbs"
                 }
             }
         },
