@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -122,9 +123,10 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 9",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
@@ -181,6 +183,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "104.26.0.95",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
             }
         },
         {
@@ -252,13 +288,13 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "104.233.170.150",
-            "server_port": 30001,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "188.114.98.0",
+            "server_port": 443,
+            "uuid": "559dbdbb-6d0f-42f5-b5a9-aae47377a746",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -269,7 +305,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "104.233.170.150",
+                "server_name": "dwpav.jemfydtgv.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -278,11 +314,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/path\/191019072927",
-                "headers": {
-                    "Host": "104.233.170.150"
-                }
+                "type": "grpc",
+                "service_name": "argo",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
