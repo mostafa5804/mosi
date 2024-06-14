@@ -110,7 +110,6 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇨🇳CN | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -126,7 +125,6 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇨🇳CN | vmess | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 5",
@@ -246,23 +244,6 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "183.236.48.169",
-            "server_port": 1002,
-            "uuid": "229ccd44-c56c-3947-88de-849dd70c180d",
-            "security": "auto",
-            "alter_id": 2,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -299,9 +280,9 @@
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "linde06.indiavideo.sbs",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "172.67.199.118",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -312,21 +293,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "172.67.199.118"
                 }
             }
         },
