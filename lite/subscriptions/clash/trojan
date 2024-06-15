@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 17","type":"trojan","server":"35.181.226.30","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | trojan | @DirectVPN | 17","type":"trojan","server":"3.98.210.245","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 17","type":"trojan","server":"18.169.67.192","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | trojan | @DirectVPN | 17","type":"trojan","server":"18.189.35.133","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | trojan | @FAKEOFTVC | 3","type":"trojan","server":"ip-cf.hukinghumans-655.WorkeRs.dEv","port":2053,"udp":false,"password":"16ecb6dd-f6ca-57c6-928c-9634d3171f8e","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ip-cf.hukinghumans-655.WorkeRs.dEv"}
 proxy-groups:
   - name: MANUAL
@@ -127,8 +127,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | trojan | @PrivateVPNs | 17'
-      - '🇨🇦CA | trojan | @DirectVPN | 17'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 17'
+      - '🇺🇸US | trojan | @DirectVPN | 17'
       - '🇺🇸US | trojan | @FAKEOFTVC | 3'
   - name: URL-TEST
     type: url-test
@@ -136,16 +136,16 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 17'
-      - '🇨🇦CA | trojan | @DirectVPN | 17'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 17'
+      - '🇺🇸US | trojan | @DirectVPN | 17'
       - '🇺🇸US | trojan | @FAKEOFTVC | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 17'
-      - '🇨🇦CA | trojan | @DirectVPN | 17'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 17'
+      - '🇺🇸US | trojan | @DirectVPN | 17'
       - '🇺🇸US | trojan | @FAKEOFTVC | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
