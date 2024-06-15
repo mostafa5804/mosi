@@ -12,13 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @oneclickvpnkeys | 6 = vmess, jahfkjha.cfd, 443, username = 950db6aa-4926-4616-816e-ec0312dcb87b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"jahfkjha.cfd", skip-cert-verify = true, tfo = false
-🇺🇸US | vmess | @Hope_Net | 5 = vmess, 38.11.61.85, 31000, username = 418048af-a293-4b99-9b0c-98ca3580dd24, ws = true, tls = 1, vmess-aead = false, ws-path = /path/191019072927, ws-headers = Host:"www.22796359.xyz", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 9 = vmess, 104.21.44.106, 443, username = 93ea486a-bada-42a4-ac38-d088b320fa1e, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"xmivideo.cfd", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @ROMAX_VPN | 5 = vmess, zula.ir, 443, username = 950db6aa-4926-4616-816e-ec0312dcb87b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"jahfkjha.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇺🇸US | vmess | @Hope_Net | 5,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 6,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
