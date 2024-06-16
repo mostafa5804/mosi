@@ -133,21 +133,22 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
+                "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 9",
-                "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 17",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇺🇸US | trojan | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 89",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -204,21 +205,22 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vless | @prrofile_purple | 186",
+                "🇸🇪SE | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 18",
                 "🇨🇦CA | vless | @ShadowProxy66 | 23",
                 "🇸🇪SE | vless | @ServerNett | 9",
-                "🇨🇦CA | vless | @Qv2rayDONATED | 7",
                 "🇨🇦CA | vless | @v2ray_swhil | 12",
                 "🇨🇦CA | vless | @v2ray1_ng | 4",
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 17",
-                "🇸🇪SE | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇺🇸US | trojan | @VmessProtocol | 14",
                 "🇸🇪SE | vless | @DailyV2RY | 89",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
@@ -858,6 +860,27 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | @UnlimitedDev | 15",
+            "type": "vless",
+            "server": "join-unlimiteddev-vpn.unlimiteddev.site",
+            "server_port": 8080,
+            "uuid": "fd08a503-a466-4bed-935a-8f1f573b0043",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "headers": {
+                    "Host": "join-unlimiteddev-vpn.unlimiteddev.site"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @vmessorg | 10",
             "type": "vless",
             "server": "joinbede1.vmessorg.community.",
@@ -948,37 +971,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @Qv2rayDONATED | 7",
-            "type": "vless",
-            "server": "104.16.188.173",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "963C1F6A-8485-443a-a386-4E6D34A64dc8.MRvi.ONline",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/@V2VIPCHANNEL\/",
-                "headers": {
-                    "Host": "963C1F6A-8485-443a-a386-4E6D34A64dc8.MRvi.ONline"
                 }
             }
         },
@@ -1087,11 +1079,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @V2RayTz | 17",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2052,
-            "uuid": "Telegram-ipV2Ray-hyt",
+            "server": "185.146.173.25",
+            "server_port": 80,
+            "uuid": "4a948f1f-f6e0-47a4-a59b-3de00cf33d41",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1101,9 +1093,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
+                "path": "\/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "185.146.173.25"
                 }
             }
         },
@@ -1211,6 +1203,37 @@
             "password": "KixLvKzwjekG00rm",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "Next.salarvand.org",
+            "server_port": 2083,
+            "uuid": "6e4b2a33-0b48-444d-9595-2b511b6ca6e2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Hideng_App.cgnm.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/channel-@Hideng_App?ed=1048",
+                "headers": {
+                    "Host": "Hideng_App.cgnm.ir"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @proxystore11 | 3",
