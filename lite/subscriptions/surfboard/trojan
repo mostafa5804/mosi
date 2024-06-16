@@ -14,11 +14,10 @@ DIRECT = direct
 🇮🇪IE | trojan | @PrivateVPNs | 17 = trojan, 54.228.183.82, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇮🇪IE | trojan | @DirectVPN | 17 = trojan, 52.211.103.104, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | trojan | @VmessProtocol | 14 = trojan, 185.180.13.70, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = earya.phooeyunfold.com, ws = false
-🇫🇷FR | trojan | @ConfigsHUB | 19 = trojan, 15.236.0.100, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 17,🇮🇪IE | trojan | @DirectVPN | 17,🇺🇸US | trojan | @VmessProtocol | 14,🇫🇷FR | trojan | @ConfigsHUB | 19
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 17,🇮🇪IE | trojan | @DirectVPN | 17,🇺🇸US | trojan | @VmessProtocol | 14,🇫🇷FR | trojan | @ConfigsHUB | 19
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 17,🇮🇪IE | trojan | @DirectVPN | 17,🇺🇸US | trojan | @VmessProtocol | 14,🇫🇷FR | trojan | @ConfigsHUB | 19
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 17,🇮🇪IE | trojan | @DirectVPN | 17,🇺🇸US | trojan | @VmessProtocol | 14
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 17,🇮🇪IE | trojan | @DirectVPN | 17,🇺🇸US | trojan | @VmessProtocol | 14
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 17,🇮🇪IE | trojan | @DirectVPN | 17,🇺🇸US | trojan | @VmessProtocol | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
