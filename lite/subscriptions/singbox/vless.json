@@ -119,7 +119,7 @@
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
-                "🇸🇪SE | vless | @DigiV2ray | 20",
+                "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
@@ -142,12 +142,12 @@
                 "🇸🇪SE | vless | @DailyV2RY | 81",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇭🇰HK | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 19",
@@ -180,7 +180,7 @@
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 0",
-                "🇸🇪SE | vless | @DigiV2ray | 20",
+                "🇸🇪SE | vless | @DigiV2ray | 19",
                 "🇸🇪SE | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
@@ -203,12 +203,12 @@
                 "🇸🇪SE | vless | @DailyV2RY | 81",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 20",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇭🇰HK | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @proxystore11 | 3",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇨🇦CA | vless | @fnet00 | 2",
                 "🇺🇸US | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 18",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇸🇪SE | vless | @Capoit | 19",
@@ -405,7 +405,7 @@
             "type": "vless",
             "server": "185.146.173.9",
             "server_port": 2095,
-            "uuid": "0a79a656-0116-4297-9bec-2049d1761332",
+            "uuid": "c4ffca3f-c401-4b1b-81a7-5f25db5c2984",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -468,7 +468,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "099361db-9849-4e48-ad43-1ac8bc504131",
+            "uuid": "8d102ecc-f063-476f-8543-17b37097c9c8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -527,11 +527,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DigiV2ray | 20",
+            "tag": "🇸🇪SE | vless | @DigiV2ray | 19",
             "type": "vless",
             "server": "185.146.173.35",
             "server_port": 2095,
-            "uuid": "----DIGIV2RAY-----",
+            "uuid": "DIGIV2RAY",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1100,23 +1100,31 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇭🇰HK | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 2095,
-            "uuid": "95e4ad83-b412-46ac-9d1c-bec1ebf21cec",
-            "flow": "",
+            "server": "47.76.44.200",
+            "server_port": 14566,
+            "uuid": "f2d8cde4-ef7d-49e8-f518-33497f61be35",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.146.173.92"
+            "tls": {
+                "enabled": true,
+                "server_name": "swdist.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14",
+                    "short_id": ""
                 }
             }
         },
@@ -1225,11 +1233,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 18",
             "type": "vless",
-            "server": "104.31.16.125",
-            "server_port": 443,
-            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1239,7 +1247,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lmn1715683972331.lmn15534.info",
+                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1249,9 +1257,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/srvacc1",
+                "path": "\/eOwMtmADY6cWup8R?ed",
                 "headers": {
-                    "Host": "lmn1715683972331.lmn15534.info"
+                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
                 }
             }
         },
