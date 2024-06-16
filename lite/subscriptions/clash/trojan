@@ -118,9 +118,9 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 17","type":"trojan","server":"13.60.115.238","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 17","type":"trojan","server":"13.50.50.9","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | trojan | @DirectVPN | 17","type":"trojan","server":"52.48.152.0","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | trojan | @VmessProtocol | 14","type":"trojan","server":"185.180.13.70","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"earya.phooeyunfold.com"}
+  - {"name":"🇫🇷FR | trojan | @VmessProtocol | 14","type":"trojan","server":"51.158.217.161","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tewmk.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +129,7 @@ proxy-groups:
       - FALLBACK
       - '🇸🇪SE | trojan | @PrivateVPNs | 17'
       - '🇮🇪IE | trojan | @DirectVPN | 17'
-      - '🇺🇸US | trojan | @VmessProtocol | 14'
+      - '🇫🇷FR | trojan | @VmessProtocol | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -138,7 +138,7 @@ proxy-groups:
     proxies:
       - '🇸🇪SE | trojan | @PrivateVPNs | 17'
       - '🇮🇪IE | trojan | @DirectVPN | 17'
-      - '🇺🇸US | trojan | @VmessProtocol | 14'
+      - '🇫🇷FR | trojan | @VmessProtocol | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -146,7 +146,7 @@ proxy-groups:
     proxies:
       - '🇸🇪SE | trojan | @PrivateVPNs | 17'
       - '🇮🇪IE | trojan | @DirectVPN | 17'
-      - '🇺🇸US | trojan | @VmessProtocol | 14'
+      - '🇫🇷FR | trojan | @VmessProtocol | 14'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
