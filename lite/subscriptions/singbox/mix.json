@@ -151,10 +151,11 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -167,7 +168,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 1",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 1",
+                "🇸🇪SE | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -225,10 +226,11 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
-                "🇺🇸US | vmess | @Hope_Net | 4",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
@@ -241,7 +243,7 @@
                 "🇸🇪SE | vless | @flyv2ray | 13",
                 "🇨🇳CN | vless | @mehrosaboran | 1",
                 "🇺🇸US | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 1",
+                "🇸🇪SE | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @kingofilter | 5",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -1322,6 +1324,40 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "104.21.55.234",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @proxystore11 | 4",
             "type": "vless",
             "server": "188.114.98.224",
@@ -1408,7 +1444,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "38.33.34.20",
             "server_port": 38001,
@@ -1758,11 +1794,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_mtm | 1",
+            "tag": "🇸🇪SE | vless | @proxy_mtm | 0",
             "type": "vless",
-            "server": "188.114.97.141",
+            "server": "185.146.173.58",
             "server_port": 2052,
-            "uuid": "03857570-3dbe-4f08-ad22-d0d8d2e70418",
+            "uuid": "bia-telegram-proxy_mtm",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1772,9 +1808,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-proxy_mtm-telegram-proxy_mtm-telegram-proxy_mtm?ed=2560",
+                "path": "\/telegram-proxy-mtm-telegram-proxy-mtm-telegram-proxy-mtm",
                 "headers": {
-                    "Host": "188.114.97.141"
+                    "Host": "185.146.173.58"
                 }
             }
         },
