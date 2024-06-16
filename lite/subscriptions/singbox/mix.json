@@ -151,12 +151,12 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇹🇷TR | vmess | @ConfigsHUB | 6",
+                "🇨🇦CA | vmess | @ConfigsHUB | 8",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🇺🇸US | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
@@ -226,12 +226,12 @@
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇹🇷TR | vmess | @ConfigsHUB | 6",
+                "🇨🇦CA | vmess | @ConfigsHUB | 8",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 7",
-                "🇺🇸US | vless | @fnet00 | 4",
+                "🇨🇦CA | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 7",
@@ -1285,11 +1285,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇹🇷TR | vmess | @ConfigsHUB | 6",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 8",
             "type": "vmess",
-            "server": "45.89.52.114",
-            "server_port": 13701,
-            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
+            "server": "104.19.32.0",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1299,6 +1299,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
+                }
             }
         },
         {
@@ -1422,7 +1439,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @fnet00 | 4",
+            "tag": "🇨🇦CA | vless | @fnet00 | 4",
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
