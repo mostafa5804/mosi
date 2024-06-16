@@ -382,7 +382,7 @@
         {
             "tag": "🇸🇪SE | vless | @ARv2ray | 13",
             "type": "vless",
-            "server": "185.146.173.25",
+            "server": "185.146.173.237",
             "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -394,9 +394,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ARV2ray",
                 "headers": {
-                    "Host": "185.146.173.25"
+                    "Host": "185.146.173.237"
                 }
             }
         },
@@ -1051,9 +1051,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.21.5.179",
-            "server_port": 8880,
-            "uuid": "33f8c4f4-2515-4798-9ea0-15f2030ef4d8",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "423acc4e-415d-4e0c-9781-40e313866f4d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1061,11 +1061,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "104.21.5.179"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
