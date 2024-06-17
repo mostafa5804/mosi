@@ -13,13 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇦CA | vmess | @oneclickvpnkeys | 4 = vmess, 104.19.32.0, 443, username = 93ea486a-bada-42a4-ac38-d088b320fa1e, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"xmivideo.cfd", skip-cert-verify = true, tfo = false
 🇨🇦CA | vmess | @v2ray_swhil | 10 = vmess, 104.21.55.234, 443, username = bc864078-dcf3-4bf4-8dbf-ca9f200b56be, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"gwdef.sbs", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @Hope_Net | 4 = vmess, yx1.gyyun.top, 2052, username = 736ffad3-db6c-46e5-8937-2a99816d23a5, ws = true, tls = , vmess-aead = true, ws-path = /?ed=2048, ws-headers = Host:"lrb1.gyyun.top", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 9 = vmess, 104.21.44.106, 443, username = 93ea486a-bada-42a4-ac38-d088b320fa1e, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"xmivideo.cfd", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @ROMAX_VPN | 5 = vmess, zula.ir, 443, username = 950db6aa-4926-4616-816e-ec0312dcb87b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"jahfkjha.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 4,🇨🇦CA | vmess | @v2ray_swhil | 10,🇨🇦CA | vmess | @Hope_Net | 4,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
-URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 4,🇨🇦CA | vmess | @v2ray_swhil | 10,🇨🇦CA | vmess | @Hope_Net | 4,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
-FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 4,🇨🇦CA | vmess | @v2ray_swhil | 10,🇨🇦CA | vmess | @Hope_Net | 4,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @oneclickvpnkeys | 4,🇨🇦CA | vmess | @v2ray_swhil | 10,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
+URL-TEST = url-test,🇨🇦CA | vmess | @oneclickvpnkeys | 4,🇨🇦CA | vmess | @v2ray_swhil | 10,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
+FALLBACK = fallback,🇨🇦CA | vmess | @oneclickvpnkeys | 4,🇨🇦CA | vmess | @v2ray_swhil | 10,🇺🇸US | vmess | @v2Line | 9,🇺🇸US | vmess | @ROMAX_VPN | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
