@@ -120,7 +120,7 @@
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 1",
-                "🇸🇪SE | vless | @DigiV2ray | 20",
+                "🇸🇪SE | vless | @DigiV2ray | 23",
                 "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
@@ -142,7 +142,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @proxystore11 | 5",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -180,7 +181,7 @@
                 "🇸🇪SE | vless | @lightning6 | 20",
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇨🇦CA | vless | @vpn_xw | 1",
-                "🇸🇪SE | vless | @DigiV2ray | 20",
+                "🇸🇪SE | vless | @DigiV2ray | 23",
                 "🇸🇪SE | vless | @proxy_kafee | 4",
                 "🇸🇪SE | vless | @v2logy | 11",
                 "🇸🇪SE | vless | @V2rayCollector | 0",
@@ -202,7 +203,8 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇨🇦CA | vless | @proxystore11 | 5",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @proxystore11 | 6",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -434,7 +436,7 @@
             "type": "vless",
             "server": "185.146.173.92",
             "server_port": 2095,
-            "uuid": "0681f4d9-1a85-4ea1-bdfd-84dd090d0b80",
+            "uuid": "e33203a7-e367-4158-bce9-4fa6e163fa01",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -556,7 +558,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DigiV2ray | 20",
+            "tag": "🇸🇪SE | vless | @DigiV2ray | 23",
             "type": "vless",
             "server": "185.146.173.35",
             "server_port": 2095,
@@ -1091,7 +1093,38 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxystore11 | 5",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "ch1.melobigg.site",
+            "server_port": 443,
+            "uuid": "1de7febd-af11-4d27-a378-3bdd172c3888",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ch1.melobigg.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melov2ray",
+                "headers": {
+                    "Host": "ch1.melobigg.site"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @proxystore11 | 6",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 80,
