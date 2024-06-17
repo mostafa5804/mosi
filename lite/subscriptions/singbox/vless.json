@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -209,7 +209,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 4",
                 "🇺🇸US | vless | @free1_vpn | 0",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -1153,11 +1153,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 2095,
-            "uuid": "%32%30%31%39%30%30%37%31%2d%64%66%32%34%2d%34%31%64%36%2d%38%33%30%66%2d%62%32%61%38%61%39%61%35%36%61%33%30",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "9d653c49-f256-4754-baa3-65fdbd4deca2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1165,11 +1165,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "time-ir-iran-cdn-api-db-farsi-persian-host-vip-test-free.pages.dev.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/wg0kfQnpOT4hCy34?ed=2056",
                 "headers": {
-                    "Host": "185.146.173.92"
+                    "Host": "time-ir-iran-cdn-api-db-farsi-persian-host-vip-test-free.pages.dev."
                 }
             }
         },
