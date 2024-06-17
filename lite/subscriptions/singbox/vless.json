@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 41",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇸🇪SE | vless | @lrnbymaa | 22",
-                "🇸🇪SE | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 4",
@@ -269,7 +269,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "15.236.242.12",
+            "server": "13.36.57.28",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1099,11 +1099,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.146.173.92",
-            "server_port": 2095,
-            "uuid": "20190071-df24-41d6-830f-b2a8a9a56a30",
+            "server": "upload.ir",
+            "server_port": 8443,
+            "uuid": "ecaecf6e-2b36-4299-8c2b-3b4f0d7be6c3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1111,11 +1111,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "at1.vless.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi?ed",
                 "headers": {
-                    "Host": "185.146.173.92"
+                    "Host": "at1.vless.site"
                 }
             }
         },
