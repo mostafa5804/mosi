@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇳🇴NO | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 11",
@@ -219,7 +219,7 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇳🇴NO | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 11",
@@ -1227,13 +1227,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇴NO | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "185.125.171.13",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "188.114.97.79",
             "server_port": 443,
-            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1241,17 +1244,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "partner.g2.com",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
