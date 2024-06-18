@@ -125,7 +125,7 @@
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇮🇷IR | vless | @prrofile_purple | 174",
+                "🇨🇦CA | vless | @prrofile_purple | 175",
                 "🇮🇷IR | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -138,18 +138,18 @@
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 12",
-                "🇨🇳CN | vless | @mehrosaboran | 2",
+                "🇨🇳CN | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇲🇾MY | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -183,7 +183,7 @@
                 "🇸🇪SE | vless | @V2rayCollector | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇮🇷IR | vless | @prrofile_purple | 174",
+                "🇨🇦CA | vless | @prrofile_purple | 175",
                 "🇮🇷IR | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -196,18 +196,18 @@
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 7",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇨🇦CA | vless | @fnet00 | 4",
                 "🇨🇦CA | vless | @polproxy | 6",
                 "🇸🇪SE | vless | @Outlinev2rayNG | 17",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 17",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇸🇪SE | vless | @flyv2ray | 12",
-                "🇨🇳CN | vless | @mehrosaboran | 2",
+                "🇨🇳CN | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇲🇾MY | vless | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -660,11 +660,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @prrofile_purple | 174",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 175",
             "type": "vless",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "UnlimitedDev—Channel-688843",
+            "server": "188.114.98.224",
+            "server_port": 8080,
+            "uuid": "535ffb7c-784a-4a63-b44a-7be708a7a858",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -672,22 +672,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "188.114.98.224"
+                }
             }
         },
         {
@@ -1001,11 +991,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "172.66.44.135",
-            "server_port": 80,
-            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "a1773345-0831-492e-acec-3077196bb02f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1015,9 +1005,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "172.66.44.135"
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1147,7 +1137,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 8",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 8",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 8080,
@@ -1280,11 +1270,11 @@
             }
         },
         {
-            "tag": "🇨🇳CN | vless | @mehrosaboran | 2",
+            "tag": "🇨🇳CN | vless | @mehrosaboran | 3",
             "type": "vless",
             "server": "103.184.44.104",
             "server_port": 8880,
-            "uuid": "b8004acb-06e8-4b17-8f4c-4ab186e8b707",
+            "uuid": "280dc615-767b-4800-8796-a8de253b88d9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
