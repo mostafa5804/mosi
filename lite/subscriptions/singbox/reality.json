@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
+                "🇺🇸US | vless | @VmessProtocol | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ]
@@ -116,6 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
+                "🇺🇸US | vless | @VmessProtocol | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ],
@@ -165,6 +167,35 @@
                     "enabled": true,
                     "public_key": "EFRbZwSK0V4XyMi45Na_4klKDTCo1IFJLvnZ6-Z6Zn4",
                     "short_id": "a64f68ec13dda1"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @VmessProtocol | 9",
+            "type": "vless",
+            "server": "104.168.107.230",
+            "server_port": 4212,
+            "uuid": "db9abed0-d37a-49bc-aa8e-8321e02bc9e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "poynter.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4",
+                    "short_id": "db68e802226b21cd"
                 }
             }
         },
