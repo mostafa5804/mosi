@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 9",
@@ -122,7 +122,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 9",
@@ -191,11 +191,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "us.eaxeg.be",
-            "server_port": 80,
-            "uuid": "bded6b7a-efe3-4164-badd-0d9cfab6a072",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -206,11 +206,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/XC3c53DiSQ9N70H4Y2aW",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "obdii.cfd"
                 }
             }
         },
