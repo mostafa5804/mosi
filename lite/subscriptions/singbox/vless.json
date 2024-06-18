@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇷CR | vless | @proxy_kafee | 4",
+                "🇨🇷CR | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 9",
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
@@ -135,7 +135,6 @@
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 23",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 11",
@@ -143,7 +142,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -181,7 +180,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 9",
                 "🇩🇪DE | vless | @vpn_xw | 2",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇷CR | vless | @proxy_kafee | 4",
+                "🇨🇷CR | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 9",
                 "🇮🇷IR | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @azadi_az_inja_migzare | 0",
@@ -195,7 +194,6 @@
                 "🇺🇸US | vless | @v2rayNG_Matsuri | 23",
                 "🇨🇦CA | vless | @ShadowProxy66 | 4",
                 "🇸🇪SE | vless | @ServerNett | 6",
-                "🇸🇪SE | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 24",
                 "🇨🇦CA | vless | @v2ray1_ng | 7",
                 "🇮🇷IR | vless | @vless_vmess | 11",
@@ -203,7 +201,7 @@
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
@@ -570,7 +568,7 @@
             }
         },
         {
-            "tag": "🇨🇷CR | vless | @proxy_kafee | 4",
+            "tag": "🇨🇷CR | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "190.93.247.155",
             "server_port": 2095,
@@ -874,27 +872,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 9",
-            "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "c6642b90-1d93-48ac-a72f-4e875281cb73",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @proxyymeliii | 24",
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
@@ -1065,17 +1042,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "178.239.145.4",
-            "server_port": 56025,
-            "uuid": "bec7bdd5-36bb-4560-d85c-95059611cb04",
+            "server": "172.66.47.54",
+            "server_port": 443,
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ircp-617.pages.dev.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ircp-617.pages.dev."
+                }
             }
         },
         {
