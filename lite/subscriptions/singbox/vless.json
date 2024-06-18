@@ -126,7 +126,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇨🇦CA | vless | @prrofile_purple | 175",
+                "🇮🇷IR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -144,8 +144,8 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vless | @fnet00 | 6",
-                "🇨🇦CA | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @polproxy | 6",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 17",
@@ -186,7 +186,7 @@
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇸🇪SE | vless | @V2rayNGn | 23",
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
-                "🇨🇦CA | vless | @prrofile_purple | 175",
+                "🇮🇷IR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇸🇪SE | vless | @UnlimitedDev | 13",
                 "🇨🇦CA | vless | @vmessorg | 10",
@@ -204,8 +204,8 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vless | @fnet00 | 6",
-                "🇨🇦CA | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @polproxy | 6",
+                "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 8",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 17",
@@ -265,7 +265,7 @@
         {
             "tag": "🇫🇷FR | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "35.180.213.125",
+            "server": "13.36.114.184",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -685,11 +685,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @prrofile_purple | 175",
+            "tag": "🇮🇷IR | vless | @prrofile_purple | 184",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "535ffb7c-784a-4a63-b44a-7be708a7a858",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "UnlimitedDev—Channel-688843",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -697,12 +697,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.114.98.224"
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.unlimiteddev-vpn.Com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Channel:@UnlimitedDev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1067,7 +1077,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
                 "headers": {
                     "Host": "pardazeshvpn-tg24.pages.dev"
                 }
@@ -1126,7 +1136,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 6",
+            "tag": "🇺🇸US | vless | @polproxy | 6",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
@@ -1147,11 +1157,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 8443,
-            "uuid": "17fafaf9-7402-40eb-87ae-a75944c84c52",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "Channel-VPNCUSTOMIZE",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1159,21 +1169,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ggho.pages.dev.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
-                    "Host": "ggho.pages.dev."
+                    "Host": "zula.ir"
                 }
             }
         },
