@@ -109,6 +109,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
+                "🏳️XX | vless | @prrofile_purple | 178",
                 "🇰🇷KR | vless | @vless_vmess | 0",
                 "🇩🇰DK | vless | @proxystore11 | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -148,6 +149,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
+                "🏳️XX | vless | @prrofile_purple | 178",
                 "🇰🇷KR | vless | @vless_vmess | 0",
                 "🇩🇰DK | vless | @proxystore11 | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
@@ -284,6 +286,42 @@
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
                 }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @prrofile_purple | 178",
+            "type": "vless",
+            "server": "[2a0b:4140:659a:4::4]",
+            "server_port": 33000,
+            "uuid": "a60d236d-be21-40f9-8c02-54caa635124d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0",
+                    "short_id": "be7f13dd"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "b",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
