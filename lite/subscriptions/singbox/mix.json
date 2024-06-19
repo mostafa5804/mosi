@@ -149,10 +149,9 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 4",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇦UA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
@@ -220,10 +219,9 @@
                 "🇨🇦CA | vless | @VmessProtocol | 9",
                 "🇨🇦CA | vless | @sinabigo | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 4",
                 "🇨🇦CA | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇦UA | vmess | @Hope_Net | 10",
                 "🇺🇸US | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 18",
@@ -1229,13 +1227,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "192.18.151.149",
-            "server_port": 19238,
-            "uuid": "be782564-19ec-4fe7-9560-1f67153d8dc4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 4",
+            "type": "vmess",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1243,17 +1244,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "python",
+                "server_name": "xmivideo.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LwSPuWtkUPbto7m4OvCPutYRXq9Y3wUt7Cn39daWMH0",
-                    "short_id": "257de382"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
                 }
             }
         },
@@ -1310,23 +1313,6 @@
                 "headers": {
                     "Host": "104.26.8.210"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇦UA | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "141.105.130.201",
-            "server_port": 36561,
-            "uuid": "7e2d4115-adf5-4d26-aa5e-a5167ec99a50",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
