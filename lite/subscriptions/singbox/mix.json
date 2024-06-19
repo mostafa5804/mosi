@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 14",
-                "🇩🇪DE | vless | @VlessConfig | 16",
+                "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 15",
+                "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -179,7 +179,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 14",
-                "🇩🇪DE | vless | @VlessConfig | 16",
+                "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 23",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -201,7 +201,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 1",
                 "🇸🇪SE | vless | @V2rayNGn | 20",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 15",
+                "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | trojan | @oneclickvpnkeys | 5",
@@ -221,7 +221,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇸🇪SE | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -287,9 +287,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 16",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "3.122.29.151",
+            "server": "18.158.108.2",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -773,9 +773,9 @@
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "13.50.149.228",
+            "server": "3.121.102.40",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1239,11 +1239,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 80,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "172.66.47.54",
+            "server_port": 443,
+            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1251,11 +1251,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ircp-617.pages.dev.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.237"
+                    "Host": "ircp-617.pages.dev."
                 }
             }
         },
