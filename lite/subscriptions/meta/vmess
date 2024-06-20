@@ -124,7 +124,7 @@ proxies:
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"m.cnmjin.net","port":"16632","cipher":"auto","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"}}}
   - {"name":"🇮🇷IR | vmess | @oneclickvpnkeys | 5","type":"vmess","server":"85.198.14.253","port":"44213","cipher":"auto","uuid":"8c98403a-340b-4bad-a2fd-2fa5c61de67c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @v2Line | 8","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
-  - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 5","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
+  - {"name":"🇨🇦CA | vmess | @ROMAX_VPN | 5","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -135,7 +135,7 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇮🇷IR | vmess | @oneclickvpnkeys | 5'
       - '🇨🇦CA | vmess | @v2Line | 8'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 5'
+      - '🇨🇦CA | vmess | @ROMAX_VPN | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -146,7 +146,7 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇮🇷IR | vmess | @oneclickvpnkeys | 5'
       - '🇨🇦CA | vmess | @v2Line | 8'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 5'
+      - '🇨🇦CA | vmess | @ROMAX_VPN | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -156,7 +156,7 @@ proxy-groups:
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇮🇷IR | vmess | @oneclickvpnkeys | 5'
       - '🇨🇦CA | vmess | @v2Line | 8'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 5'
+      - '🇨🇦CA | vmess | @ROMAX_VPN | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
