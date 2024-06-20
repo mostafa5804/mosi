@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇸🇪SE | vless | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 5",
-                "🇨🇦CA | vmess | @v2ray_swhil | 11",
+                "🇮🇷IR | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 30",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 11",
@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | trojan | @ConfigsHUB | 16",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -215,7 +215,7 @@
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 26",
                 "🇸🇪SE | vless | @ShadowProxy66 | 13",
                 "🇸🇪SE | vless | @ServerNett | 5",
-                "🇨🇦CA | vmess | @v2ray_swhil | 11",
+                "🇮🇷IR | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 30",
                 "🇨🇦CA | vless | @v2ray1_ng | 5",
                 "🇨🇦CA | vless | @vless_vmess | 11",
@@ -225,7 +225,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇸🇪SE | trojan | @ConfigsHUB | 16",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
@@ -1038,37 +1038,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 11",
-            "type": "vmess",
-            "server": "104.21.55.234",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇮🇷IR | vless | @v2ray_swhil | 11",
+            "type": "vless",
+            "server": "185.58.240.178",
+            "server_port": 2020,
+            "uuid": "d94e8168-001e-458c-b803-c6b7c915e724",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
-                }
             }
         },
         {
@@ -1300,25 +1280,20 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 16",
-            "type": "trojan",
-            "server": "13.49.2.136",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "46.36.102.5",
+            "server_port": 52461,
+            "uuid": "89c6e380-ccb1-4370-5909-96c589dd2cda",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
