@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 18",
-                "🇨🇦CA | vless | @VlessConfig | 16",
+                "🇫🇷FR | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇸🇪SE | vless | @V2pedia | 9",
@@ -140,8 +140,9 @@
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 4",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @DailyV2RY | 114",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 5",
@@ -167,7 +168,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 18",
-                "🇨🇦CA | vless | @VlessConfig | 16",
+                "🇫🇷FR | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @ipV2Ray | 17",
                 "🇨🇦CA | vless | @melov2ray | 1",
                 "🇸🇪SE | vless | @V2pedia | 9",
@@ -200,8 +201,9 @@
                 "🇨🇦CA | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 4",
                 "🇸🇪SE | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @DailyV2RY | 114",
                 "🇨🇦CA | vless | @sinabigo | 3",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇺🇸US | vless | @fnet00 | 5",
@@ -263,9 +265,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @VlessConfig | 16",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "15.157.82.249",
+            "server": "13.38.164.209",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -403,7 +405,7 @@
             "type": "vless",
             "server": "185.146.173.92",
             "server_port": 2095,
-            "uuid": "588cd277-4fa9-4aa1-bf6e-a4c81492c242",
+            "uuid": "5f761c67-79bd-4f2d-a581-be63b2f7c971",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1012,6 +1014,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 114",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "ba24c468-8fad-4502-9f30-ab921c7e8e5c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray,asrnovin-ArV2ray",
+                "headers": {
+                    "Host": "zula.ir"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @sinabigo | 3",
             "type": "vless",
             "server": "zula.ir",
@@ -1033,11 +1056,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.96.6",
-            "server_port": 443,
-            "uuid": "b40b0d81-18ac-427e-83d9-98dcf0e17004",
+            "server": "185.146.173.92",
+            "server_port": 2095,
+            "uuid": "95f02723-bb94-436d-a1eb-c684b9e383c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1045,21 +1068,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "185.146.173.92"
                 }
             }
         },
