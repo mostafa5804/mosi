@@ -150,12 +150,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
-                "🇨🇦CA | vless | @fnet00 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vless | @fnet00 | 5",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 9",
@@ -223,12 +223,12 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 26",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vless | @free1_vpn | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
-                "🇨🇦CA | vless | @fnet00 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vless | @fnet00 | 5",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 9",
@@ -1272,26 +1272,33 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "172.67.199.118",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "52b15ac7-8d4d-4250-ba8c-200d52bc4af0",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-v2rey.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": ""
+                    "Host": "join-v2rey.pages.dev"
                 }
             }
         },
@@ -1382,7 +1389,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
@@ -1416,7 +1423,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @fnet00 | 5",
+            "tag": "🇺🇸US | vless | @fnet00 | 5",
             "type": "vless",
             "server": "188.114.97.141",
             "server_port": 443,
@@ -1857,9 +1864,9 @@
         {
             "tag": "🇸🇪SE | vless | @TVCminer | 15",
             "type": "vless",
-            "server": "185.146.173.37",
+            "server": "185.146.173.95",
             "server_port": 2095,
-            "uuid": "DIGIV2ray",
+            "uuid": "3025fc89-8993-49c9-b4ad-659624a3152a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1869,9 +1876,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.37"
+                    "Host": "185.146.173.95"
                 }
             }
         }
