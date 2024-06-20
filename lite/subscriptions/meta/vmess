@@ -122,8 +122,8 @@ dns:
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"m.cnmjin.net","port":"16632","cipher":"auto","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"}}}
-  - {"name":"🇨🇦CA | vmess | @Hope_Net | 9","type":"vmess","server":"cf3.ftclashcloud.site","port":"80","cipher":"auto","uuid":"67d2d4b7-a38e-4beb-8caf-ce50ff92420a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws?ed=2560","headers":{"host":"mhyusa01.ftclashcloud.online"}}}
-  - {"name":"🇺🇸US | vmess | @v2Line | 8","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
+  - {"name":"🇨🇦CA | vmess | @Hope_Net | 9","type":"vmess","server":"104.16.149.244","port":"2086","cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/29eebb60-b27b-4a9d-bba5-947763d9205e-vm","headers":{"host":"ip002.dtku47.xyz"}}}
+  - {"name":"🇨🇦CA | vmess | @v2Line | 8","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
   - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 5","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
 proxy-groups:
   - name: MANUAL
@@ -134,7 +134,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @Hope_Net | 9'
-      - '🇺🇸US | vmess | @v2Line | 8'
+      - '🇨🇦CA | vmess | @v2Line | 8'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
   - name: URL-TEST
     type: url-test
@@ -145,7 +145,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @Hope_Net | 9'
-      - '🇺🇸US | vmess | @v2Line | 8'
+      - '🇨🇦CA | vmess | @v2Line | 8'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
   - name: FALLBACK
     type: fallback
@@ -155,7 +155,7 @@ proxy-groups:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇨🇦CA | vmess | @Hope_Net | 9'
-      - '🇺🇸US | vmess | @v2Line | 8'
+      - '🇨🇦CA | vmess | @v2Line | 8'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
