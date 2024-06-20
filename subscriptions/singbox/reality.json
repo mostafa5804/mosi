@@ -110,9 +110,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @vless_vmess | 1",
-                "🇺🇸US | vless | @ConfigsHUB | 2",
-                "🇺🇸US | vless | @ConfigsHUB | 3",
-                "🇺🇸US | vless | @ConfigsHUB | 4",
+                "🇪🇸ES | vless | @ConfigsHUB | 10",
                 "🇩🇰DK | vless | @proxystore11 | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -152,9 +150,7 @@
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @vless_vmess | 1",
-                "🇺🇸US | vless | @ConfigsHUB | 2",
-                "🇺🇸US | vless | @ConfigsHUB | 3",
-                "🇺🇸US | vless | @ConfigsHUB | 4",
+                "🇪🇸ES | vless | @ConfigsHUB | 10",
                 "🇩🇰DK | vless | @proxystore11 | 3",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -322,11 +318,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 2",
+            "tag": "🇪🇸ES | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "pornhub.com",
-            "server_port": 33969,
-            "uuid": "69d26ec4-1f4a-4d90-8d29-5ff8f449ccad",
+            "server": "madrid.xwdil.ir",
+            "server_port": 443,
+            "uuid": "bc267e61-3431-41d2-b29b-6a8e0861cc33",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -336,97 +332,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.net",
+                "server_name": "marca.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "P91CHtxkMwrhhHxkjaCfxmjTLCfY2h6bMZ1QHHT3bjw",
-                    "short_id": "0e3513e4"
+                    "public_key": "CkSjKQDP5xMVdboAsHzm4LnSfRK8KB9dxoHGDkQARUM",
+                    "short_id": "b9a19b51"
                 }
             },
             "transport": {
-                "type": "http",
-                "host": [
-                    "speedtest.net"
-                ],
-                "path": "\/"
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 3",
-            "type": "vless",
-            "server": "yahoo.com",
-            "server_port": 33969,
-            "uuid": "69d26ec4-1f4a-4d90-8d29-5ff8f449ccad",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "amirzaplus.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "P91CHtxkMwrhhHxkjaCfxmjTLCfY2h6bMZ1QHHT3bjw",
-                    "short_id": "0e3513e4"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "amirzaplus.com"
-                ],
-                "path": "\/"
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 4",
-            "type": "vless",
-            "server": "facebook.com",
-            "server_port": 33969,
-            "uuid": "69d26ec4-1f4a-4d90-8d29-5ff8f449ccad",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "goolge.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "P91CHtxkMwrhhHxkjaCfxmjTLCfY2h6bMZ1QHHT3bjw",
-                    "short_id": "0e3513e4"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "goolge.com"
-                ],
-                "path": "\/"
+                "type": "grpc",
+                "service_name": "Dali",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
