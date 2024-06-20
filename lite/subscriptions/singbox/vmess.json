@@ -111,7 +111,7 @@
                 "🇯🇵JP | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
@@ -125,7 +125,7 @@
                 "🇯🇵JP | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
@@ -269,11 +269,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "172.64.103.211",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -283,6 +283,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.cfd"
+                }
             }
         },
         {
