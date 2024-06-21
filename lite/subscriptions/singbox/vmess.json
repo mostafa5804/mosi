@@ -111,9 +111,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 12",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
-                "🇺🇦UA | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
@@ -127,9 +126,8 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 12",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
-                "🇺🇦UA | vmess | @ConfigsHUB | 19",
+                "🇺🇸US | vmess | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
@@ -197,9 +195,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "172.67.71.160",
+            "server": "172.67.131.108",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -212,7 +210,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "glweidf.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -224,7 +222,7 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "glweidf.cfd"
                 }
             }
         },
@@ -280,11 +278,11 @@
             }
         },
         {
-            "tag": "🇺🇦UA | vmess | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vmess | @proxystore11 | 11",
             "type": "vmess",
-            "server": "91.231.182.193",
-            "server_port": 24424,
-            "uuid": "652e8ec4-b683-4770-baa6-c71022e06d8b",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -294,6 +292,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
@@ -327,40 +342,6 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "172.67.131.108",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
                 }
             }
         },
