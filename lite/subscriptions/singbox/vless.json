@@ -1062,9 +1062,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "DIGIV2rAY",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "b40b0d81-18ac-427e-83d9-98dcf0e17004",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1072,11 +1072,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-v2rey.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "join-v2rey.pages.dev"
                 }
             }
         },
