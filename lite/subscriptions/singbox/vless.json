@@ -141,7 +141,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -201,7 +201,7 @@
                 "🇩🇪DE | vless | @VmessProtocol | 6",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 29",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 11",
                 "🇺🇸US | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 4",
@@ -466,7 +466,7 @@
             "type": "vless",
             "server": "LIGHTNING6-joinbed.filj.top",
             "server_port": 8880,
-            "uuid": "db05a6b6-3c8f-46ce-8bcd-5b2d149d2162",
+            "uuid": "2d5f4f7f-ce02-43b4-9759-d5f04e0a2036",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -899,9 +899,9 @@
         {
             "tag": "🇨🇦CA | vless | @vless_vmess | 15",
             "type": "vless",
-            "server": "188.114.96.11",
-            "server_port": 80,
-            "uuid": "1ca7d3a9-6b3e-47ed-88a7-ccbd1ff927c6",
+            "server": "172.64.87.176",
+            "server_port": 443,
+            "uuid": "df4608a5-0ceb-4513-b991-596f541bccdb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -909,11 +909,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cfdy.yueuzi.dynv6.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/backup",
+                "path": "\/",
                 "headers": {
-                    "Host": "188.114.96.11"
+                    "Host": "cfdy.yueuzi.dynv6.net"
                 }
             }
         },
@@ -1026,11 +1036,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "172.64.146.118",
-            "server_port": 8443,
-            "uuid": "ecc19b72-2cc8-4690-b23d-960d3e3c6d40",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "30705832-4fc5-4e59-a8c1-8b37d34a238b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1040,7 +1050,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazeshvpn-tg24.pages.dev",
+                "server_name": "join-v2rey.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1050,9 +1060,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "pardazeshvpn-tg24.pages.dev"
+                    "Host": "join-v2rey.pages.dev"
                 }
             }
         },
