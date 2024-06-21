@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 23",
-                "🇸🇪SE | vless | @Parsashonam | 4",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -146,7 +145,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -172,7 +171,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 23",
-                "🇸🇪SE | vless | @Parsashonam | 4",
                 "🇩🇪DE | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
@@ -211,7 +209,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 130",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 35",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -269,27 +267,6 @@
                 "path": "\/@ELiV2ray-@ELiV2ray-ELi.elmahstyle.ir?ed=80",
                 "headers": {
                     "Host": "185.146.173.58"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | @Parsashonam | 4",
-            "type": "vless",
-            "server": "185.146.173.39",
-            "server_port": 8080,
-            "uuid": "Parsashonam-90",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "185.146.173.39"
                 }
             }
         },
@@ -1158,11 +1135,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 2095,
-            "uuid": "c9dc92c8-7407-4d44-b841-ce0216cfe1e2",
+            "server": "172.66.44.55",
+            "server_port": 443,
+            "uuid": "104380d8-f859-421a-bd11-29b2c9fbfa99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1170,11 +1147,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "famil-5c8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "famil-5c8.pages.dev"
                 }
             }
         },
