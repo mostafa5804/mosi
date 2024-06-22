@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 20",
-                "🇩🇪DE | vless | @VlessConfig | 18",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 29",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -141,14 +141,14 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 5",
-                "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 38",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇨🇦CA | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
+                "🇺🇸US | vless | @polproxy | 7",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇲🇾MY | vless | @FreakConfig | 5",
@@ -171,7 +171,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 20",
-                "🇩🇪DE | vless | @VlessConfig | 18",
+                "🇫🇷FR | vless | @VlessConfig | 18",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 29",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 1",
@@ -205,14 +205,14 @@
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 5",
-                "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 38",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 7",
-                "🇨🇦CA | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
+                "🇺🇸US | vless | @polproxy | 7",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 15",
                 "🇲🇾MY | vless | @FreakConfig | 5",
@@ -271,9 +271,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 18",
+            "tag": "🇫🇷FR | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "18.194.32.203",
+            "server": "13.39.232.30",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -432,7 +432,7 @@
             "type": "vless",
             "server": "185.146.173.92",
             "server_port": 2095,
-            "uuid": "03de02be-28f7-409c-b6a7-c38d1f7fa2d9",
+            "uuid": "a1e3f996-ecb7-47c0-9c5c-f2b7e62e9b70",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -841,9 +841,9 @@
         {
             "tag": "🇨🇦CA | vless | @ShadowProxy66 | 4",
             "type": "vless",
-            "server": "cdn.discordapp.com",
-            "server_port": 8880,
-            "uuid": "c3b3576f-cef7-464e-ad69-c16d2002a0f0",
+            "server": "172.67.198.111",
+            "server_port": 443,
+            "uuid": "11e5b771-1d4d-4362-b4b5-e39e75981f01",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -851,11 +851,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "3e8B07A5.PUb000bpB.PAGes.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.ShadowProxy66.",
+                "path": "\/ZYgm9Gg9QBkAXfbG?ed=2560",
                 "headers": {
-                    "Host": "cdn.discordapp.com"
+                    "Host": "3e8B07A5.PUb000bpB.PAGes.Dev"
                 }
             }
         },
@@ -1068,37 +1078,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @DailyV2RY | 157",
-            "type": "vless",
-            "server": "104.16.190.131",
-            "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @sinabigo | 4",
             "type": "vless",
             "server": "zula.ir",
@@ -1137,6 +1116,27 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "61874652-2da4-494a-b74f-85a76fb01586",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.37"
                 }
             }
         },
@@ -1193,7 +1193,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @polproxy | 7",
+            "tag": "🇺🇸US | vless | @polproxy | 7",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2082,
@@ -1214,11 +1214,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "eagle.hafezdivan.online.",
-            "server_port": 443,
-            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-zew",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1226,26 +1226,16 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "eagle.hafezdivan.online.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "eagle.hafezdivan.online."
+                    "Host": "185.146.173.58"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 9",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 9",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8880,
