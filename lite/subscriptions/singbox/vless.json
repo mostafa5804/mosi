@@ -1057,9 +1057,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "%33%38%37%65%63%65%31%65%2d%32%62%32%37%2d%34%36%34%62%2d%61%64%66%35%2d%64%64%39%38%61%61%39%35%65%30%31%37",
+            "server": "172.67.69.236",
+            "server_port": 2096,
+            "uuid": "041f929a-63f6-4af1-a492-8cbff5797b8a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1067,11 +1067,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-falcunargo-emiratess.falcunar.asso.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "path": "\/Telegram@V2ray_Alpha\/",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "telegram-falcunargo-emiratess.falcunar.asso.eu.org"
                 }
             }
         },
