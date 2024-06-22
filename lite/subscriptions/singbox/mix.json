@@ -131,7 +131,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇬🇧GB | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 13",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -206,7 +206,7 @@
                 "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇬🇧GB | vless | @Outline_Vpn | 19",
                 "🇸🇪SE | vless | @prrofile_purple | 180",
                 "🇨🇦CA | vless | @customv2ray | 13",
@@ -229,7 +229,7 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
+                "🇺🇸US | vmess | @Hope_Net | 2",
                 "🇸🇪SE | vless | @fnet00 | 6",
                 "🇺🇸US | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
@@ -831,7 +831,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -1298,9 +1298,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "188.114.96.6",
-            "server_port": 443,
-            "uuid": "30705832-4fc5-4e59-a8c1-8b37d34a238b",
+            "server": "104.16.61.8",
+            "server_port": 80,
+            "uuid": "378ac207-38d3-4401-ba96-3a7931968bc5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1308,21 +1308,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "path": "\/http",
                 "headers": {
-                    "Host": "DisVpn.us.kg"
+                    "Host": "104.16.61.8"
                 }
             }
         },
@@ -1395,11 +1385,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "zula.ir",
+            "server": "162.159.136.98",
             "server_port": 80,
-            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
+            "uuid": "f1b6bc05-40dd-4180-ca18-b05288fd33bb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1412,7 +1402,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
