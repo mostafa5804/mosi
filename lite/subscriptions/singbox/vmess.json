@@ -111,7 +111,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
@@ -125,7 +125,7 @@
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
@@ -286,11 +286,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 8",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "164.90.167.137",
-            "server_port": 2087,
-            "uuid": "964d2e04-5de3-478e-8616-b609c9f71954",
+            "server": "sareikela.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -301,11 +301,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "sareikela.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.����ù������.madariran.filegear-sg.m",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "sareikela.com"
                 }
             }
         },
