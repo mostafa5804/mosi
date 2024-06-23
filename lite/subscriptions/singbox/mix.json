@@ -136,7 +136,6 @@
                 "🇸🇪SE | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 31",
                 "🇨🇦CA | vless | @ShadowProxy66 | 8",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇺🇸US | vless | @v2ray_swhil | 7",
@@ -150,7 +149,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 0",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -212,7 +211,6 @@
                 "🇸🇪SE | vless | @customv2ray | 14",
                 "🇸🇪SE | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 12",
-                "🇨🇦CA | vless | @v2rayNG_Matsuri | 31",
                 "🇨🇦CA | vless | @ShadowProxy66 | 8",
                 "🇸🇪SE | vless | @ServerNett | 7",
                 "🇺🇸US | vless | @v2ray_swhil | 7",
@@ -226,7 +224,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @ConfigsHUB | 0",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -912,37 +910,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayNG_Matsuri | 31",
-            "type": "vless",
-            "server": "188.114.97.141",
-            "server_port": 443,
-            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "e10c0e4b.oodaeq2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-proxy_mtm\/",
-                "headers": {
-                    "Host": "e10c0e4b.oodaeq2.pages.dev"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @ShadowProxy66 | 8",
             "type": "vless",
             "server": "172.67.198.111",
@@ -1266,13 +1233,16 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "172.66.45.32",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 0",
+            "type": "vmess",
+            "server": "104.21.55.234",
             "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1280,7 +1250,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
+                "server_name": "gwdef.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1290,9 +1260,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
+                    "Host": "gwdef.sbs"
                 }
             }
         },
