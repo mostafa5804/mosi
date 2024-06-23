@@ -119,9 +119,8 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 16","type":"trojan","server":"13.36.49.78","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"13.51.98.133","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @DirectVPN | 16","type":"trojan","server":"3.67.239.157","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇵🇱PL | trojan | @VmessProtocol | 4","type":"trojan","server":"151.115.83.178","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eimna.phooeyunfold.com"}
-  - {"name":"🇸🇬SG | trojan | @ConfigsHUB | 19","type":"trojan","server":"8.219.174.142","port":443,"udp":false,"password":"NISHIKUITAN222","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t667.ylks.link"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,9 +128,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | trojan | @PrivateVPNs | 16'
-      - '🇸🇪SE | trojan | @DirectVPN | 16'
+      - '🇩🇪DE | trojan | @DirectVPN | 16'
       - '🇵🇱PL | trojan | @VmessProtocol | 4'
-      - '🇸🇬SG | trojan | @ConfigsHUB | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -139,18 +137,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | trojan | @PrivateVPNs | 16'
-      - '🇸🇪SE | trojan | @DirectVPN | 16'
+      - '🇩🇪DE | trojan | @DirectVPN | 16'
       - '🇵🇱PL | trojan | @VmessProtocol | 4'
-      - '🇸🇬SG | trojan | @ConfigsHUB | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇫🇷FR | trojan | @PrivateVPNs | 16'
-      - '🇸🇪SE | trojan | @DirectVPN | 16'
+      - '🇩🇪DE | trojan | @DirectVPN | 16'
       - '🇵🇱PL | trojan | @VmessProtocol | 4'
-      - '🇸🇬SG | trojan | @ConfigsHUB | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
