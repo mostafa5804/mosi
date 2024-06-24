@@ -120,6 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇦🇹AT | ss | @OutlineVpnOfficial | 2","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 3","type":"ss","server":"15.204.87.217","port":5499,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 4","type":"ss","server":"23.157.40.89","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
   - {"name":"🇸🇪SE | ss | @OutlineVpnOfficial | 5","type":"ss","server":"94.228.165.234","port":15214,"password":"DmMQUmI7pgQDnrWqLXC00L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 6","type":"ss","server":"54.36.174.181","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
@@ -132,15 +134,14 @@ proxies:
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 14","type":"ss","server":"23.162.200.225","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 15","type":"ss","server":"38.75.137.105","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬SG | ss | @OutlineVpnOfficial | 16","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇪SE | ss | @OutlineVpnOfficial | 17","type":"ss","server":"5.42.72.241","port":30482,"password":"2gUQ2cQTPtBGNjbCXKMKeH","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 18","type":"ss","server":"51.77.53.200","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"🇬🇧GB | ss | @proxy_mtm | 1","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇦🇹AT | ss | @OutlineVpnOfficial | 2'
+      - '🇺🇸US | ss | @OutlineVpnOfficial | 3'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 4'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 5'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 6'
@@ -153,15 +154,14 @@ proxy-groups:
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 15'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 16'
-      - '🇸🇪SE | ss | @OutlineVpnOfficial | 17'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
-      - '🇬🇧GB | ss | @proxy_mtm | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
+      - '🇦🇹AT | ss | @OutlineVpnOfficial | 2'
+      - '🇺🇸US | ss | @OutlineVpnOfficial | 3'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 4'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 5'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 6'
@@ -174,14 +174,13 @@ proxy-groups:
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 15'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 16'
-      - '🇸🇪SE | ss | @OutlineVpnOfficial | 17'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
-      - '🇬🇧GB | ss | @proxy_mtm | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇦🇹AT | ss | @OutlineVpnOfficial | 2'
+      - '🇺🇸US | ss | @OutlineVpnOfficial | 3'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 4'
       - '🇸🇪SE | ss | @OutlineVpnOfficial | 5'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 6'
@@ -194,9 +193,6 @@ proxy-groups:
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 14'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 15'
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 16'
-      - '🇸🇪SE | ss | @OutlineVpnOfficial | 17'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
-      - '🇬🇧GB | ss | @proxy_mtm | 1'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
