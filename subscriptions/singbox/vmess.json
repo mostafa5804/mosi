@@ -122,10 +122,9 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 2",
                 "🇺🇸US | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
-                "🇺🇸US | vmess | @ShadowProxy66 | 9",
-                "🇺🇸US | vmess | @v2ray1_ng | 8",
+                "🇺🇸US | vmess | @v2ray1_ng | 6",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 153",
+                "🇺🇸US | vmess | @DailyV2RY | 153",
                 "🇳🇱NL | vmess | @proxystore11 | 6",
                 "🇹🇷TR | vmess | @proxystore11 | 11",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -151,6 +150,8 @@
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
+                "🇮🇳IN | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
@@ -178,10 +179,9 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 2",
                 "🇺🇸US | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 4",
-                "🇺🇸US | vmess | @ShadowProxy66 | 9",
-                "🇺🇸US | vmess | @v2ray1_ng | 8",
+                "🇺🇸US | vmess | @v2ray1_ng | 6",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 153",
+                "🇺🇸US | vmess | @DailyV2RY | 153",
                 "🇳🇱NL | vmess | @proxystore11 | 6",
                 "🇹🇷TR | vmess | @proxystore11 | 11",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
@@ -207,6 +207,8 @@
                 "🇺🇸US | vmess | @v2Line | 5",
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
+                "🇮🇳IN | vmess | @v2Line | 9",
+                "🇺🇸US | vmess | @v2Line | 10",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
@@ -670,41 +672,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 9",
-            "type": "vmess",
-            "server": "sareikela.com",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sareikela.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "sareikela.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @v2ray1_ng | 8",
+            "tag": "🇺🇸US | vmess | @v2ray1_ng | 6",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -745,11 +713,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 153",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 153",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -759,6 +727,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1480,6 +1455,74 @@
                 "path": "\/v118-fccxmxm35",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇳IN | vmess | @v2Line | 9",
+            "type": "vmess",
+            "server": "in-full.privateip.net",
+            "server_port": 443,
+            "uuid": "a2081592-fb7a-4b0a-b93b-33ddf0825410",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @v2Line | 10",
+            "type": "vmess",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
                 }
             }
         },
