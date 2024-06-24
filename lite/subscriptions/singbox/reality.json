@@ -106,8 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇪EE | vless | @ConfigsHUB | 19",
-                "🇩🇰DK | vless | @proxystore11 | 13",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ]
@@ -116,8 +114,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇪EE | vless | @ConfigsHUB | 19",
-                "🇩🇰DK | vless | @proxystore11 | 13",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ],
@@ -140,64 +136,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇪🇪EE | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "95.164.8.185",
-            "server_port": 8080,
-            "uuid": "8da3432a-d4da-4f43-801f-342cda5eae9f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MKfDEJAAbEk2S49G67c1m49oFc8BLwd-0jgfiygcOFg",
-                    "short_id": "7554c6ea"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇰DK | vless | @proxystore11 | 13",
-            "type": "vless",
-            "server": "46.29.235.78",
-            "server_port": 80,
-            "uuid": "7e08dc93-a81d-4a24-995e-76ce0e11defa",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
-                    "short_id": "95becf1c4d3adc04"
-                }
-            }
         },
         {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",
