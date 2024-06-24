@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | trojan | @PrivateVPNs | 15 = trojan, 18.134.43.69, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇫🇷FR | trojan | @DirectVPN | 16 = trojan, 51.44.60.187, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 15 = trojan, 108.128.79.243, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | trojan | @DirectVPN | 16 = trojan, 18.169.248.22, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | trojan | @oneclickvpnkeys | 5 = trojan, 35.245.125.80, 443, password = NISHIKUITAN222, udp-delay = true, skip-cert-verify = false, sni = t667.ylks.link, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 16,🇺🇸US | trojan | @oneclickvpnkeys | 5
-URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 16,🇺🇸US | trojan | @oneclickvpnkeys | 5
-FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 16,🇺🇸US | trojan | @oneclickvpnkeys | 5
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 15,🇬🇧GB | trojan | @DirectVPN | 16,🇺🇸US | trojan | @oneclickvpnkeys | 5
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 15,🇬🇧GB | trojan | @DirectVPN | 16,🇺🇸US | trojan | @oneclickvpnkeys | 5
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 15,🇬🇧GB | trojan | @DirectVPN | 16,🇺🇸US | trojan | @oneclickvpnkeys | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
