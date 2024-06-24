@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -116,7 +115,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -140,35 +138,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "139.162.237.117",
-            "server_port": 443,
-            "uuid": "a2b4f7f8-8780-4d4f-ad2a-bc9ecba4a89c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "keycdn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sjzbhQygf1tVxIUv0CV6XhGvNbtkmqXmsNcdYnf1YAE",
-                    "short_id": "66f493eb"
-                }
-            }
         },
         {
             "tag": "🇺🇸US | vless | @Capital_NET | 45",
