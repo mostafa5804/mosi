@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 158",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -155,7 +155,7 @@
                 "🇺🇸US | vless | @FreakConfig | 2",
                 "🇺🇸US | vless | @flyv2ray | 17",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
-                "🇸🇪SE | vless | @mehrosaboran | 5",
+                "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇸🇪SE | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -208,7 +208,7 @@
                 "🇨🇦CA | vless | @DailyV2RY | 158",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -220,7 +220,7 @@
                 "🇺🇸US | vless | @FreakConfig | 2",
                 "🇺🇸US | vless | @flyv2ray | 17",
                 "🇩🇪DE | vless | @FAKEOFTVC | 2",
-                "🇸🇪SE | vless | @mehrosaboran | 5",
+                "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇸🇪SE | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -1105,23 +1105,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "Telegram_VPNCUSTOMIZE",
-            "flow": "",
+            "server": "139.162.237.117",
+            "server_port": 443,
+            "uuid": "a2b4f7f8-8780-4d4f-ad2a-bc9ecba4a89c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "zula.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "keycdn.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sjzbhQygf1tVxIUv0CV6XhGvNbtkmqXmsNcdYnf1YAE",
+                    "short_id": "66f493eb"
                 }
             }
         },
@@ -1423,7 +1431,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @mehrosaboran | 5",
+            "tag": "🇸🇪SE | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 80,
