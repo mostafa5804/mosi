@@ -151,7 +151,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -228,7 +228,7 @@
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 14",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 1",
@@ -1294,13 +1294,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "91.107.176.13",
-            "server_port": 8080,
-            "uuid": "07669291-5061-4e74-a5d7-1f94a5a36367",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "104.16.1.10",
+            "server_port": 443,
+            "password": "qj1Dz1CJmFQRhWr1SP80aA",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1308,18 +1306,20 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mdundo.com",
+                "server_name": "cdn-21.gsmxreality.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU",
-                    "short_id": "18cada"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "443trojan",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
