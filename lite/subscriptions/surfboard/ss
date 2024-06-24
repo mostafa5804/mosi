@@ -12,11 +12,10 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇸🇬SG | ss | @OutlineVpnOfficial | 16 = ss, 91.192.81.21, 8388, encrypt-method = chacha20-ietf-poly1305, password = 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA
-🇬🇧GB | ss | @proxy_mtm | 1 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | ss | @OutlineVpnOfficial | 16,🇬🇧GB | ss | @proxy_mtm | 1
-URL-TEST = url-test,🇸🇬SG | ss | @OutlineVpnOfficial | 16,🇬🇧GB | ss | @proxy_mtm | 1
-FALLBACK = fallback,🇸🇬SG | ss | @OutlineVpnOfficial | 16,🇬🇧GB | ss | @proxy_mtm | 1
+MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | ss | @OutlineVpnOfficial | 16
+URL-TEST = url-test,🇸🇬SG | ss | @OutlineVpnOfficial | 16
+FALLBACK = fallback,🇸🇬SG | ss | @OutlineVpnOfficial | 16
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

@@ -125,7 +125,6 @@ proxies:
   - {"name":"🇸🇬SG | ss | @OutlineVpnOfficial | 16","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 8","type":"vmess","server":"russia.com","port":"2095","cipher":"auto","uuid":"b7c56170-edb4-4c4a-bb64-ed5ef40b8739","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"sssub.v2.001.ssrsub.com"}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 8","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
-  - {"name":"🇬🇧GB | ss | @proxy_mtm | 1","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 5","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
 proxy-groups:
   - name: MANUAL
@@ -140,7 +139,6 @@ proxy-groups:
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 16'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇺🇸US | vmess | @v2Line | 8'
-      - '🇬🇧GB | ss | @proxy_mtm | 1'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
   - name: URL-TEST
     type: url-test
@@ -155,7 +153,6 @@ proxy-groups:
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 16'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇺🇸US | vmess | @v2Line | 8'
-      - '🇬🇧GB | ss | @proxy_mtm | 1'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
   - name: FALLBACK
     type: fallback
@@ -169,7 +166,6 @@ proxy-groups:
       - '🇸🇬SG | ss | @OutlineVpnOfficial | 16'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇺🇸US | vmess | @v2Line | 8'
-      - '🇬🇧GB | ss | @proxy_mtm | 1'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
