@@ -136,13 +136,14 @@
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇮🇷IR | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 46",
-                "🇨🇦CA | vless | @v2ray1_ng | 8",
+                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -199,13 +200,14 @@
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇮🇷IR | vless | @v2ray_swhil | 9",
                 "🇸🇪SE | vless | @proxyymeliii | 46",
-                "🇨🇦CA | vless | @v2ray1_ng | 8",
+                "🇨🇦CA | vless | @v2ray1_ng | 9",
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 8",
                 "🇨🇦CA | vless | @vmess_vless_v2rayng | 0",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -921,7 +923,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2ray1_ng | 8",
+            "tag": "🇨🇦CA | vless | @v2ray1_ng | 9",
             "type": "vless",
             "server": "172.67.55.192",
             "server_port": 80,
@@ -1104,6 +1106,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "172.67.55.192"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "172.64.143.172",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
