@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇸🇪SE | vless | @EliV2ray | 22",
                 "🇸🇪SE | vless | @Parsashonam | 7",
-                "🇩🇪DE | vless | @VlessConfig | 16",
+                "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 2",
@@ -121,7 +121,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🇸🇪SE | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -143,7 +143,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -172,7 +172,7 @@
             "outbounds": [
                 "🇸🇪SE | vless | @EliV2ray | 22",
                 "🇸🇪SE | vless | @Parsashonam | 7",
-                "🇩🇪DE | vless | @VlessConfig | 16",
+                "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 30",
                 "🇸🇪SE | vless | @ipV2Ray | 19",
                 "🇨🇦CA | vless | @melov2ray | 2",
@@ -185,7 +185,7 @@
                 "🇨🇦CA | vless | @V2rayNGmat | 1",
                 "🇸🇪SE | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇸🇪SE | vless | @proxy_kafee | 3",
+                "🇸🇪SE | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇩🇪DE | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -207,7 +207,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 157",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 13",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
@@ -292,9 +292,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @VlessConfig | 16",
+            "tag": "🇩🇪DE | vless | @VlessConfig | 17",
             "type": "vless",
-            "server": "18.194.103.24",
+            "server": "3.73.26.191",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -575,7 +575,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @proxy_kafee | 3",
+            "tag": "🇸🇪SE | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "185.146.173.237",
             "server_port": 80,
@@ -1110,11 +1110,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "185.146.173.95",
-            "server_port": 2095,
-            "uuid": "f03ca6d7-5b23-477f-88de-e1a1383f8d0e",
+            "server": "172.64.143.172",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1122,11 +1122,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
                 "headers": {
-                    "Host": "185.146.173.95"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
