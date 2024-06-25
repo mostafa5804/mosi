@@ -143,7 +143,8 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -206,7 +207,8 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @DailyV2RY | 149",
                 "🇨🇦CA | vless | @sinabigo | 4",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @proxystore11 | 11",
                 "🇨🇦CA | vless | @free1_vpn | 1",
                 "🇸🇪SE | vless | @fnet00 | 7",
                 "🇸🇪SE | vless | @polproxy | 7",
@@ -1098,11 +1100,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "36ad319b-d38e-4d47-8916-15632d8be911",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "af5a3844-2453-417d-87f6-5ce2af5fc234",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1112,9 +1114,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray",
+                "path": "\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "185.146.173.37"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @proxystore11 | 11",
+            "type": "vless",
+            "server": "172.64.133.252",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/L\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
