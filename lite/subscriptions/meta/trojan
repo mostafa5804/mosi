@@ -122,7 +122,8 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 16","type":"trojan","server":"3.76.2.172","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | trojan | @DirectVPN | 16","type":"trojan","server":"3.131.132.227","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇭🇰HK | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"47.242.125.241","port":443,"udp":false,"password":"NISHIKUITAN222","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t667.ylks.link"}
+  - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"172.67.204.84","port":443,"udp":false,"password":"qj1Dz1CJmFQRhWr1SP80aA","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn-21.gsmxreality.com"}
+  - {"name":"🇫🇷FR | trojan | @ConfigsHUB | 19","type":"trojan","server":"51.159.102.179","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpzmg.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,7 +132,8 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
       - '🇺🇸US | trojan | @DirectVPN | 16'
-      - '🇭🇰HK | trojan | @oneclickvpnkeys | 4'
+      - '🇨🇦CA | trojan | @oneclickvpnkeys | 5'
+      - '🇫🇷FR | trojan | @ConfigsHUB | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -140,7 +142,8 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
       - '🇺🇸US | trojan | @DirectVPN | 16'
-      - '🇭🇰HK | trojan | @oneclickvpnkeys | 4'
+      - '🇨🇦CA | trojan | @oneclickvpnkeys | 5'
+      - '🇫🇷FR | trojan | @ConfigsHUB | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -148,7 +151,8 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
       - '🇺🇸US | trojan | @DirectVPN | 16'
-      - '🇭🇰HK | trojan | @oneclickvpnkeys | 4'
+      - '🇨🇦CA | trojan | @oneclickvpnkeys | 5'
+      - '🇫🇷FR | trojan | @ConfigsHUB | 19'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
