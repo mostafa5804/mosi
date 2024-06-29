@@ -131,7 +131,7 @@
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
-                "🇸🇪SE | vless | @v2ray_swhil | 10",
+                "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 8",
@@ -139,7 +139,7 @@
                 "🇧🇷BR | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -190,7 +190,7 @@
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 23",
                 "🇸🇪SE | vless | @ServerNett | 13",
-                "🇸🇪SE | vless | @v2ray_swhil | 10",
+                "🇨🇦CA | vless | @v2ray_swhil | 11",
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🇨🇦CA | vless | @MTConfig | 8",
@@ -198,7 +198,7 @@
                 "🇧🇷BR | vless | @V2RayTz | 15",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 10",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 9",
@@ -823,11 +823,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @v2ray_swhil | 10",
+            "tag": "🇨🇦CA | vless | @v2ray_swhil | 11",
             "type": "vless",
-            "server": "185.146.173.146",
-            "server_port": 80,
-            "uuid": "1ba939cd-b055-43bb-a35d-e011cb7c3ac8",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "300ed34d-5378-4028-874d-43e1e05bc06d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -835,11 +835,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--HAJIMAMADVPN",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "185.146.173.146"
+                    "Host": "DisVpn.us.kg"
                 }
             }
         },
@@ -1024,17 +1034,34 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "infislavefinn.sumsong.shop",
-            "server_port": 9102,
-            "uuid": "cecb31b3-15a4-434f-8b02-f57a79c85d15",
+            "server": "medium.com",
+            "server_port": 443,
+            "uuid": "bd577383-a1ec-4fd5-8ce3-17d9c834bca6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "headers": {
+                    "Host": "DisVpn.us.kg"
+                }
             }
         },
         {
