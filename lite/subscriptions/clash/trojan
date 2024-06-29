@@ -118,35 +118,35 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 14","type":"trojan","server":"54.74.213.241","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @DirectVPN | 14","type":"trojan","server":"54.171.5.9","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇷🇺RU | trojan | @v2ray1_ng | 8","type":"trojan","server":"31.172.67.242","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmwh.phooeyunfold.com"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 16","type":"trojan","server":"54.74.213.241","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 16","type":"trojan","server":"54.171.5.9","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇷🇺RU | trojan | @v2ray1_ng | 11","type":"trojan","server":"31.172.67.242","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmwh.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇮🇪IE | trojan | @PrivateVPNs | 14'
-      - '🇮🇪IE | trojan | @DirectVPN | 14'
-      - '🇷🇺RU | trojan | @v2ray1_ng | 8'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 16'
+      - '🇮🇪IE | trojan | @DirectVPN | 16'
+      - '🇷🇺RU | trojan | @v2ray1_ng | 11'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇮🇪IE | trojan | @PrivateVPNs | 14'
-      - '🇮🇪IE | trojan | @DirectVPN | 14'
-      - '🇷🇺RU | trojan | @v2ray1_ng | 8'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 16'
+      - '🇮🇪IE | trojan | @DirectVPN | 16'
+      - '🇷🇺RU | trojan | @v2ray1_ng | 11'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇮🇪IE | trojan | @PrivateVPNs | 14'
-      - '🇮🇪IE | trojan | @DirectVPN | 14'
-      - '🇷🇺RU | trojan | @v2ray1_ng | 8'
+      - '🇮🇪IE | trojan | @PrivateVPNs | 16'
+      - '🇮🇪IE | trojan | @DirectVPN | 16'
+      - '🇷🇺RU | trojan | @v2ray1_ng | 11'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
