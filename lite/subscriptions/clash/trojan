@@ -120,8 +120,6 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 16","type":"trojan","server":"3.77.118.38","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | trojan | @DirectVPN | 14","type":"trojan","server":"15.237.231.189","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"18.135.147.1","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇷🇺RU | trojan | @v2ray1_ng | 12","type":"trojan","server":"31.172.67.242","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmwh.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -130,8 +128,6 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
       - '🇫🇷FR | trojan | @DirectVPN | 14'
-      - '🇬🇧GB | trojan | @oneclickvpnkeys | 7'
-      - '🇷🇺RU | trojan | @v2ray1_ng | 12'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -140,8 +136,6 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
       - '🇫🇷FR | trojan | @DirectVPN | 14'
-      - '🇬🇧GB | trojan | @oneclickvpnkeys | 7'
-      - '🇷🇺RU | trojan | @v2ray1_ng | 12'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -149,8 +143,6 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
       - '🇫🇷FR | trojan | @DirectVPN | 14'
-      - '🇬🇧GB | trojan | @oneclickvpnkeys | 7'
-      - '🇷🇺RU | trojan | @v2ray1_ng | 12'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
