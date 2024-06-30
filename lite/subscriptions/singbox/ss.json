@@ -105,16 +105,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 17"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 17"
-            ],
+            "outbounds": [],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -134,16 +131,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 17",
-            "type": "shadowsocks",
-            "server": "51.145.96.134",
-            "server_port": 18869,
-            "method": "chacha20-ietf-poly1305",
-            "password": "V8QywnpW9gaAwJfzkStkVp",
-            "plugin": "",
-            "plugin_opts": ""
         }
     ],
     "route": {
