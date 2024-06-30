@@ -132,7 +132,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
                 "🇺🇸US | vmess | @v2ray1_ng | 0",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 107",
+                "🏳️XX | vmess | @DailyV2RY | 110",
+                "🇺🇸US | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -156,8 +157,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vmess | @FAKEOFTVC | 0",
-                "🇺🇸US | vmess | @FAKEOFTVC | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
@@ -194,7 +193,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
                 "🇺🇸US | vmess | @v2ray1_ng | 0",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 107",
+                "🏳️XX | vmess | @DailyV2RY | 110",
+                "🇺🇸US | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -218,8 +218,6 @@
                 "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vmess | @FAKEOFTVC | 0",
-                "🇺🇸US | vmess | @FAKEOFTVC | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
                 "🇺🇸US | vmess | @ROMAX_VPN | 3",
@@ -847,7 +845,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 107",
+            "tag": "🏳️XX | vmess | @DailyV2RY | 110",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -861,6 +859,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 13",
+            "type": "vmess",
+            "server": "172.67.164.164",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms07.xfixedfloat.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms07.xfixedfloat.cfd"
+                }
             }
         },
         {
@@ -1541,54 +1573,6 @@
                 "path": "\/ivideos.sbs\/linkws",
                 "headers": {
                     "Host": "mikasa.yaemiko.cloudns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 0",
-            "type": "vmess",
-            "server": "104.25.226.50",
-            "server_port": 80,
-            "uuid": "078c86a6-8dde-4dcc-a08e-378990a8b3b2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @FAKEOFTVC | 1",
-            "type": "vmess",
-            "server": "104.20.247.40",
-            "server_port": 80,
-            "uuid": "078c86a6-8dde-4dcc-a08e-378990a8b3b2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
