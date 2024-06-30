@@ -121,6 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇨🇦CA | vmess | @DailyV2RY | 110","type":"vmess","server":"elma.ns.cloudflare.com","port":"2087","cipher":"auto","uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 8","type":"vmess","server":"russia.com","port":"2095","cipher":"auto","uuid":"b7c56170-edb4-4c4a-bb64-ed5ef40b8739","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"sssub.v2.001.ssrsub.com"}}}
   - {"name":"🇺🇸US | vmess | @v2Line | 7","type":"vmess","server":"172.67.175.56","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
   - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 5","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
@@ -131,6 +132,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DailyV2RY | 110'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇺🇸US | vmess | @v2Line | 7'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
@@ -141,6 +143,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DailyV2RY | 110'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇺🇸US | vmess | @v2Line | 7'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
@@ -150,6 +153,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
+      - '🇨🇦CA | vmess | @DailyV2RY | 110'
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🇺🇸US | vmess | @v2Line | 7'
       - '🇺🇸US | vmess | @ROMAX_VPN | 5'
