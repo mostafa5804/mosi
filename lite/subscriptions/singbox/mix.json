@@ -134,7 +134,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇨🇦CA | vless | @ShadowProxy66 | 15",
                 "🇸🇪SE | vless | @ServerNett | 14",
@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 6",
+                "🇸🇬SG | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -206,7 +206,7 @@
                 "🇸🇪SE | vless | @prrofile_purple | 188",
                 "🇨🇦CA | vless | @customv2ray | 16",
                 "🇨🇦CA | vless | @UnlimitedDev | 13",
-                "🇨🇦CA | vless | @vmessorg | 11",
+                "🇨🇦CA | vless | @vmessorg | 12",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 20",
                 "🇨🇦CA | vless | @ShadowProxy66 | 15",
                 "🇸🇪SE | vless | @ServerNett | 14",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 6",
+                "🇸🇬SG | vless | @ConfigsHUB | 18",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -902,11 +902,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vmessorg | 11",
+            "tag": "🇨🇦CA | vless | @vmessorg | 12",
             "type": "vless",
             "server": "104.21.78.161",
             "server_port": 8080,
-            "uuid": "2c86340b-16fe-4096-be8c-acd8870b2c91",
+            "uuid": "55c10711-9e11-4904-b8cc-5da669781f99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1204,16 +1204,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 6",
-            "type": "vmess",
-            "server": "172.67.191.45",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "Zz.zemesTanil.IR",
+            "server_port": 2083,
+            "uuid": "Telegram-ipV2Ray-zyu",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1221,7 +1218,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nezuko.raidenshogun.cloudns.org",
+                "server_name": "Zch1.Zemestanil.IR",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1230,11 +1227,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/linkws\/obdii.cfd",
-                "headers": {
-                    "Host": "nezuko.raidenshogun.cloudns.org"
-                }
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
