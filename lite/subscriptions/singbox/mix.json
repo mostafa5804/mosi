@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇸🇬SG | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇸🇬SG | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vmess | @ConfigsHUB | 16",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1204,34 +1204,27 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇬SG | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "Zz.zemesTanil.IR",
-            "server_port": 2083,
-            "uuid": "Telegram-ipV2Ray-zyu",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "172.67.130.140",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Zch1.Zemestanil.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
