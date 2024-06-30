@@ -150,7 +150,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 6",
@@ -209,7 +209,7 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @Capoit | 16",
                 "🇺🇸US | vless | @FreakConfig | 6",
-                "🇸🇪SE | vless | @flyv2ray | 12",
+                "🇺🇸US | vless | @flyv2ray | 13",
                 "🇸🇪SE | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 9",
                 "🇺🇸US | vless | @proxy_mtm | 6",
@@ -1308,11 +1308,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @flyv2ray | 12",
+            "tag": "🇺🇸US | vless | @flyv2ray | 13",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "Bia_to_VPNCUSTOMIZE",
+            "server": "xpnteam-mci-soed-hajiali.parsafoom.ir",
+            "server_port": 2087,
+            "uuid": "HEMAYAT-XPNTEAM-TELEGRAM",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1320,12 +1320,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "xpnteam-mci-soed-hajiali.parsafoom.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam,Telegram:@XpnTeam",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
