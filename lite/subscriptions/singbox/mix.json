@@ -148,6 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🏳️XX | ss | @OutlineVpnOfficial | 17",
+                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -156,7 +157,7 @@
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vless | @Capoit | 12",
                 "🇲🇾MY | vless | @FreakConfig | 6",
                 "🇸🇪SE | vless | @flyv2ray | 14",
@@ -217,6 +218,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🏳️XX | ss | @OutlineVpnOfficial | 17",
+                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇮🇷IR | vless | @proxystore11 | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -225,7 +227,7 @@
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇺🇸US | vmess | @v2Line | 8",
+                "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vless | @Capoit | 12",
                 "🇲🇾MY | vless | @FreakConfig | 6",
                 "🇸🇪SE | vless | @flyv2ray | 14",
@@ -1205,6 +1207,37 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "mci.pinocchio1.ir.",
+            "server_port": 443,
+            "uuid": "322bd3ff-dcbc-4cd8-b636-5e0a77d6f68f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "second.pinocchio1.ir.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/custom_config?ed=2048",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇮🇷IR | vless | @proxystore11 | 11",
             "type": "vless",
             "server": "193.151.151.92",
@@ -1417,11 +1450,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 8",
+            "tag": "🇺🇸US | vmess | @v2Line | 7",
             "type": "vmess",
-            "server": "caretaker.com",
+            "server": "172.67.175.56",
             "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1434,7 +1467,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1444,9 +1477,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": "obdii.cfd"
                 }
             }
         },
