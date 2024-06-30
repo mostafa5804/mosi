@@ -142,13 +142,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
-                "🇸🇬SG | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇬SG | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -214,13 +214,13 @@
                 "🇸🇪SE | vless | @proxyymeliii | 47",
                 "🇨🇦CA | vless | @v2ray1_ng | 12",
                 "🇨🇦CA | vless | @vless_vmess | 11",
-                "🇸🇬SG | vless | @V2RayTz | 19",
+                "🇸🇪SE | vless | @V2RayTz | 19",
                 "🇺🇸US | ss | @VmessProtocol | 7",
                 "🇨🇦CA | vless | @DailyV2RY | 105",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 41",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇸🇬SG | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1090,11 +1090,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @V2RayTz | 19",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "154.219.5.93",
-            "server_port": 2087,
-            "uuid": "958ddeda-3232-4f17-9d19-8fc77ff12956",
+            "server": "185.146.173.200",
+            "server_port": 8880,
+            "uuid": "8c9fb2b7-bc84-4bf0-a666-4dea08e192dd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1102,22 +1102,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2rayc.liopiol.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.200"
+                }
             }
         },
         {
@@ -1214,11 +1204,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.18.26.94",
-            "server_port": 80,
-            "uuid": "fed517b1-ca69-48f2-a0e8-b6e56641664b",
+            "server": "Zz.zemesTanil.IR",
+            "server_port": 2083,
+            "uuid": "Telegram-ipV2Ray-zyu",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1226,12 +1216,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560--@ELiV2Ray--@ELiV2ray--@ELiV2ray",
-                "headers": {
-                    "Host": "104.18.26.94"
+            "tls": {
+                "enabled": true,
+                "server_name": "Zch1.Zemestanil.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
