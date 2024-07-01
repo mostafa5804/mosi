@@ -106,17 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @V2pedia | 0",
-                "🏳️XX | vless | @V2pedia | 4",
+                "🏳️XX | vless | @V2pedia | 1",
+                "🏳️XX | vless | @V2pedia | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🏳️XX | vless | @prrofile_purple | 172",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | vless | @V2RayTz | 0",
-                "🇸🇪SE | vless | @VmessProtocol | 2",
-                "🇳🇴NO | vless | @VmessProtocol | 3",
+                "🇩🇪DE | vless | @V2RayTz | 7",
+                "🇸🇪SE | vless | @VmessProtocol | 3",
+                "🇳🇴NO | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -151,17 +150,16 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @V2pedia | 0",
-                "🏳️XX | vless | @V2pedia | 4",
+                "🏳️XX | vless | @V2pedia | 1",
+                "🏳️XX | vless | @V2pedia | 5",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🏳️XX | vless | @prrofile_purple | 172",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | vless | @V2RayTz | 0",
-                "🇸🇪SE | vless | @VmessProtocol | 2",
-                "🇳🇴NO | vless | @VmessProtocol | 3",
+                "🇩🇪DE | vless | @V2RayTz | 7",
+                "🇸🇪SE | vless | @VmessProtocol | 3",
+                "🇳🇴NO | vless | @VmessProtocol | 4",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -212,7 +210,7 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 0",
+            "tag": "🏳️XX | vless | @V2pedia | 1",
             "type": "vless",
             "server": "[2a0d:5940:97:3::]",
             "server_port": 25365,
@@ -248,7 +246,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 4",
+            "tag": "🏳️XX | vless | @V2pedia | 5",
             "type": "vless",
             "server": "[2a0d:5940:97:3::]",
             "server_port": 25365,
@@ -400,42 +398,6 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @prrofile_purple | 172",
-            "type": "vless",
-            "server": "[2a0b:4140:659a:4::4]",
-            "server_port": 33000,
-            "uuid": "e383f3b0-25a8-492d-babe-3e434fe77448",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0",
-                    "short_id": "be7f13dd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "b",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 9",
             "type": "vless",
             "server": "176.96.137.139",
@@ -465,7 +427,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @V2RayTz | 0",
+            "tag": "🇩🇪DE | vless | @V2RayTz | 7",
             "type": "vless",
             "server": "5.75.195.3",
             "server_port": 443,
@@ -501,7 +463,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VmessProtocol | 2",
+            "tag": "🇸🇪SE | vless | @VmessProtocol | 3",
             "type": "vless",
             "server": "5.42.84.76",
             "server_port": 443,
@@ -537,7 +499,7 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vless | @VmessProtocol | 3",
+            "tag": "🇳🇴NO | vless | @VmessProtocol | 4",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 443,
