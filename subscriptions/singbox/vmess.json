@@ -114,6 +114,7 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇺🇸US | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @customv2ray | 12",
@@ -151,7 +152,7 @@
                 "🇺🇸US | vmess | @v2Line | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇹🇷TR | vmess | @v2Line | 5",
-                "🇯🇵JP | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
@@ -171,6 +172,7 @@
                 "🇺🇸US | vmess | @mftizi | 14",
                 "🇺🇸US | vmess | @mftizi | 15",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
                 "🇭🇰HK | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @customv2ray | 12",
@@ -208,7 +210,7 @@
                 "🇺🇸US | vmess | @v2Line | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇹🇷TR | vmess | @v2Line | 5",
-                "🇯🇵JP | vmess | @v2Line | 7",
+                "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 1",
                 "🇺🇸US | vmess | @ROMAX_VPN | 0",
                 "🇺🇸US | vmess | @ROMAX_VPN | 2",
@@ -390,6 +392,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "172.67.185.79",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.185.79"
+                }
             }
         },
         {
@@ -1371,11 +1397,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @v2Line | 7",
+            "tag": "🏳️XX | vmess | @nofiltering2 | 2",
             "type": "vmess",
-            "server": "jp-full.privateip.net",
-            "server_port": 443,
-            "uuid": "124fe4ff-0ee4-4189-bd99-ed1a317b42dd",
+            "server": "[::ffff:3981:337d]",
+            "server_port": 19534,
+            "uuid": "9500739f-0299-47ec-9d3d-2cfec6d5cde1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1385,23 +1411,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
