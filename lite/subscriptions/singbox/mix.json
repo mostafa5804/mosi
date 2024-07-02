@@ -133,7 +133,7 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vmess | @customv2ray | 17",
-                "🇨🇦CA | vless | @UnlimitedDev | 13",
+                "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 22",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 21",
@@ -144,12 +144,12 @@
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇰🇷KR | vless | @VmessProtocol | 8",
+                "🇦🇪AE | ss | @VmessProtocol | 8",
                 "🇨🇦CA | vless | @DailyV2RY | 82",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -205,7 +205,7 @@
                 "🇨🇦CA | vless | @Outline_Vpn | 19",
                 "🇩🇪DE | vless | @prrofile_purple | 185",
                 "🇨🇦CA | vmess | @customv2ray | 17",
-                "🇨🇦CA | vless | @UnlimitedDev | 13",
+                "🇨🇦CA | vless | @UnlimitedDev | 15",
                 "🇨🇦CA | vless | @vmessorg | 13",
                 "🏳️XX | vless | @v2rayNG_Matsuri | 22",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 21",
@@ -216,12 +216,12 @@
                 "🇨🇦CA | vless | @vless_vmess | 8",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 18",
-                "🇰🇷KR | vless | @VmessProtocol | 8",
+                "🇦🇪AE | ss | @VmessProtocol | 8",
                 "🇨🇦CA | vless | @DailyV2RY | 82",
                 "🇨🇦CA | vless | @sinabigo | 0",
                 "🇸🇪SE | vless | @lrnbymaa | 34",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -876,7 +876,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 13",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 15",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1133,35 +1133,14 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vless | @VmessProtocol | 8",
-            "type": "vless",
-            "server": "152.70.239.134",
-            "server_port": 34237,
-            "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dns68.putata.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "dns68.putata.eu.org"
-                }
-            }
+            "tag": "🇦🇪AE | ss | @VmessProtocol | 8",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 82",
@@ -1247,11 +1226,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.16.181.38",
-            "server_port": 443,
-            "uuid": "7f035a95-4b51-4e0b-8995-59864a9cde22",
+            "server": "93.113.238.110",
+            "server_port": 2087,
+            "uuid": "ecf8bfbd-283c-4209-f047-1fea4089ae6f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1259,22 +1238,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "MSdOnoR.pagEs.dEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/TElEGRAM-MARAMBASHI-MARAMBASHI?ed=2560",
-                "headers": {
-                    "Host": "MSdOnoR.pagEs.dEV"
-                }
+                "type": "grpc",
+                "service_name": "anon.kami20.xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
