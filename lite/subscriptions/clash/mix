@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 14","type":"trojan","server":"52.50.138.148","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @DirectVPN | 14","type":"trojan","server":"52.215.113.11","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 14","type":"trojan","server":"52.17.58.182","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | trojan | @DirectVPN | 14","type":"trojan","server":"3.255.42.41","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.238.202.173","port":"51193","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇪IE | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"34.254.122.51","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -130,7 +130,7 @@ proxies:
   - {"name":"🇨🇦CA | vmess | @Hope_Net | 8","type":"vmess","server":"russia.com","port":"2095","cipher":"auto","uuid":"b7c56170-edb4-4c4a-bb64-ed5ef40b8739","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"sssub.v2.001.ssrsub.com"}}}
   - {"name":"🏳️XX | vmess | @nofiltering2 | 2","type":"vmess","server":"[::ffff:3981:337d]","port":"19534","cipher":"auto","uuid":"9500739f-0299-47ec-9d3d-2cfec6d5cde1","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | vmess | @SINABIGO | 2","type":"vmess","server":"Lousaper.digifashop.ir.","port":"443","cipher":"auto","uuid":"28dc623f-3ee7-4969-849b-d4a7af58078c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/@RaFaV2ray","headers":{"host":""}}}
-  - {"name":"🇺🇸US | vmess | @ROMAX_VPN | 4","type":"vmess","server":"172.67.74.4","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
+  - {"name":"🇨🇦CA | vmess | @ROMAX_VPN | 4","type":"vmess","server":"172.67.74.4","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -149,7 +149,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🏳️XX | vmess | @nofiltering2 | 2'
       - '🇺🇸US | vmess | @SINABIGO | 2'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 4'
+      - '🇨🇦CA | vmess | @ROMAX_VPN | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -168,7 +168,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🏳️XX | vmess | @nofiltering2 | 2'
       - '🇺🇸US | vmess | @SINABIGO | 2'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 4'
+      - '🇨🇦CA | vmess | @ROMAX_VPN | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -186,7 +186,7 @@ proxy-groups:
       - '🇨🇦CA | vmess | @Hope_Net | 8'
       - '🏳️XX | vmess | @nofiltering2 | 2'
       - '🇺🇸US | vmess | @SINABIGO | 2'
-      - '🇺🇸US | vmess | @ROMAX_VPN | 4'
+      - '🇨🇦CA | vmess | @ROMAX_VPN | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
