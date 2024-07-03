@@ -113,7 +113,7 @@
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇷CR | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇸🇬SG | vless | @ARv2ray | 16",
+                "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 12",
@@ -139,13 +139,13 @@
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇲🇾MY | vless | @FreakConfig | 11",
+                "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -168,7 +168,7 @@
                 "🇨🇦CA | vless | @melov2ray | 3",
                 "🇨🇷CR | vless | @V2pedia | 9",
                 "🇨🇦CA | vless | @frev2ray | 1",
-                "🇸🇬SG | vless | @ARv2ray | 16",
+                "🇸🇪SE | vless | @ARv2ray | 16",
                 "🇸🇪SE | vless | @shh_proxy | 28",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇸🇪SE | vless | @free_v2rayyy | 12",
@@ -194,13 +194,13 @@
                 "🇸🇪SE | vless | @DailyV2RY | 85",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇺🇸US | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇲🇾MY | vless | @FreakConfig | 11",
+                "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇸🇪SE | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 3",
                 "🇸🇪SE | vless | @mehrosaboran | 4",
@@ -389,10 +389,10 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @ARv2ray | 16",
+            "tag": "🇸🇪SE | vless | @ARv2ray | 16",
             "type": "vless",
-            "server": "ArV2ray.mAshtimji.IR",
-            "server_port": 443,
+            "server": "185.146.173.158",
+            "server_port": 80,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -401,22 +401,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "TM.mashtimji.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.158"
+                }
             }
         },
         {
@@ -996,11 +986,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.64.101.233",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1010,7 +1000,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "edtunnel-csc.pages.dev",
+                "server_name": "7f905f51.garywelch.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1020,9 +1010,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
                 "headers": {
-                    "Host": "edtunnel-csc.pages.dev"
+                    "Host": "7f905f51.garywelch.pages.dev"
                 }
             }
         },
@@ -1150,7 +1140,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | @FreakConfig | 11",
+            "tag": "🇲🇾MY | vless | @FreakConfig | 12",
             "type": "vless",
             "server": "172.66.44.135",
             "server_port": 80,
