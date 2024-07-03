@@ -153,10 +153,11 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | trojan | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇹🇷TR | vmess | @v2Line | 7",
@@ -227,10 +228,11 @@
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | trojan | @proxystore11 | 10",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 9",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+                "🇸🇪SE | vless | @Outlinev2rayNG | 18",
                 "🇲🇾MY | vless | @v2rayng_vpnrog | 9",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇹🇷TR | vmess | @v2Line | 7",
@@ -791,11 +793,11 @@
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.232.199.61",
-            "server_port": 15607,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "server": "183.238.202.173",
+            "server_port": 51193,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1246,9 +1248,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "172.66.45.32",
+            "server": "188.114.96.3",
             "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "uuid": "2bd4fcf0-3ef8-410e-b42e-c6db49377270",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1258,7 +1260,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
+                "server_name": "grpc2.sharesite.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1267,11 +1269,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "grizzlyvpn\/?ed=2056",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1327,6 +1329,37 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
+            "type": "vless",
+            "server": "172.66.45.32",
+            "server_port": 443,
+            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "t-netplus-4vx.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "t-netplus-4vx.pages.dev"
                 }
             }
         },
@@ -1397,7 +1430,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 17",
+            "tag": "🇸🇪SE | vless | @Outlinev2rayNG | 18",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 80,
