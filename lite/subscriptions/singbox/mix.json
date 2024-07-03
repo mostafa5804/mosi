@@ -1242,15 +1242,22 @@
         {
             "tag": "🇮🇷IR | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "79.175.133.135",
-            "server_port": 41754,
-            "uuid": "a5469633-b780-4e13-815b-fa72582f8c4e",
+            "server": "93.113.238.110",
+            "server_port": 2087,
+            "uuid": "ecf8bfbd-283c-4209-f047-1fea4089ae6f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "anon.kami20.xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
