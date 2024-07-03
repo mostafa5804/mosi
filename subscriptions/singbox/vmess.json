@@ -130,8 +130,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 21",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 72",
-                "🇺🇸US | vmess | @DailyV2RY | 78",
+                "🏳️XX | vmess | @DailyV2RY | 73",
+                "🇺🇸US | vmess | @ConfigsHUB | 7",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -190,8 +190,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 20",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 21",
                 "🇮🇷IR | vmess | @vless_vmess | 5",
-                "🏳️XX | vmess | @DailyV2RY | 72",
-                "🇺🇸US | vmess | @DailyV2RY | 78",
+                "🏳️XX | vmess | @DailyV2RY | 73",
+                "🇺🇸US | vmess | @ConfigsHUB | 7",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -788,7 +788,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 72",
+            "tag": "🏳️XX | vmess | @DailyV2RY | 73",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -805,11 +805,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 78",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 7",
             "type": "vmess",
-            "server": "45.32.201.78",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -819,6 +819,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
