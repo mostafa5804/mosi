@@ -11,13 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇪SE | trojan | @PrivateVPNs | 17 = trojan, 51.21.141.85, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 17 = trojan, 51.20.101.247, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | trojan | @PrivateVPNs | 17 = trojan, 13.51.142.210, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | trojan | @DirectVPN | 17 = trojan, 3.121.65.32, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇨🇦CA | trojan | @ConfigsHUB | 19 = trojan, 172.67.204.84, 443, password = 96950280-3970-11ef-9ee2-1239d0255272, udp-delay = true, skip-cert-verify = false, sni = usa.test3.net, ws = false
 🇩🇪DE | trojan | @proxystore11 | 9 = trojan, 3.68.5.206, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇩🇪DE | trojan | @proxystore11 | 9
-URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇩🇪DE | trojan | @proxystore11 | 9
-FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇩🇪DE | trojan | @proxystore11 | 9
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @ConfigsHUB | 19,🇩🇪DE | trojan | @proxystore11 | 9
+URL-TEST = url-test,🇸🇪SE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @ConfigsHUB | 19,🇩🇪DE | trojan | @proxystore11 | 9
+FALLBACK = fallback,🇸🇪SE | trojan | @PrivateVPNs | 17,🇩🇪DE | trojan | @DirectVPN | 17,🇨🇦CA | trojan | @ConfigsHUB | 19,🇩🇪DE | trojan | @proxystore11 | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
