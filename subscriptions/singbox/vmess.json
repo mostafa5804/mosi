@@ -132,9 +132,10 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 22",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 23",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
-                "🇮🇷IR | vmess | @vless_vmess | 8",
+                "🇮🇷IR | vmess | @vless_vmess | 9",
                 "🏳️XX | vmess | @DailyV2RY | 85",
-                "🇺🇸US | vmess | @DailyV2RY | 91",
+                "🇺🇸US | vmess | @ConfigsHUB | 8",
+                "🇮🇷IR | vmess | @ConfigsHUB | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -194,9 +195,10 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 22",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 23",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
-                "🇮🇷IR | vmess | @vless_vmess | 8",
+                "🇮🇷IR | vmess | @vless_vmess | 9",
                 "🏳️XX | vmess | @DailyV2RY | 85",
-                "🇺🇸US | vmess | @DailyV2RY | 91",
+                "🇺🇸US | vmess | @ConfigsHUB | 8",
+                "🇮🇷IR | vmess | @ConfigsHUB | 10",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -843,7 +845,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @vless_vmess | 8",
+            "tag": "🇮🇷IR | vmess | @vless_vmess | 9",
             "type": "vmess",
             "server": "95.38.248.217",
             "server_port": 2966,
@@ -877,11 +879,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 91",
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 8",
             "type": "vmess",
-            "server": "45.32.201.78",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "server": "104.22.30.97",
+            "server_port": 80,
+            "uuid": "2ac4e269-1576-4f41-8c0d-6242e3c5fd8c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -891,6 +893,47 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 10",
+            "type": "vmess",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/XV2ray",
+                "headers": {
+                    "Host": "pages.dev"
+                }
             }
         },
         {
