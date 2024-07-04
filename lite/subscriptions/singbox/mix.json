@@ -148,7 +148,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇪🇸ES | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇩🇪DE | trojan | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -157,7 +157,7 @@
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇹🇷TR | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @v2Line | 6",
                 "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 3",
@@ -220,7 +220,7 @@
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
                 "🇪🇸ES | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇩🇪DE | trojan | @proxystore11 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -229,7 +229,7 @@
                 "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
-                "🇹🇷TR | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @v2Line | 6",
                 "🇲🇾MY | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 12",
                 "🇸🇪SE | vless | @FAKEOFTVC | 3",
@@ -1183,23 +1183,36 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "188.114.98.224",
-            "server_port": 8080,
-            "uuid": "Source_VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/Telegram\/XV2ray",
                 "headers": {
-                    "Host": "188.114.98.224"
+                    "Host": "pages.dev"
                 }
             }
         },
@@ -1407,11 +1420,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @v2Line | 7",
+            "tag": "🇺🇸US | vmess | @v2Line | 6",
             "type": "vmess",
-            "server": "45.89.52.114",
-            "server_port": 13701,
-            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
+            "server": "104.21.83.108",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1421,6 +1434,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "hms02.fxiaomi.sbs"
+                }
             }
         },
         {
