@@ -137,12 +137,11 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇮🇷IR | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇳🇴NO | vless | @VmessProtocol | 9",
                 "🇸🇪SE | vless | @DailyV2RY | 100",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -194,12 +193,11 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇮🇷IR | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇳🇴NO | vless | @VmessProtocol | 9",
                 "🇸🇪SE | vless | @DailyV2RY | 100",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 14",
@@ -729,7 +727,7 @@
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
-            "uuid": "98fc5855-232f-450d-b6d6-806daea4c931",
+            "uuid": "4e69ee12-6796-486f-ba60-fb4f9a85dffd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -965,11 +963,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @V2RayTz | 17",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "%66%38%66%66%39%34%38%30%2d%36%66%61%63%2d%34%64%63%32%2d%61%38%63%65%2d%35%64%33%63%61%33%34%38%61%36%30%63",
+            "server": "185.146.173.95",
+            "server_port": 2095,
+            "uuid": "%62%35%38%35%30%33%61%38%2d%61%39%31%62%2d%34%39%33%62%2d%61%64%33%38%2d%33%37%37%36%32%38%66%63%37%63%38%65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -977,22 +975,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.95"
+                }
             }
         },
         {
@@ -1084,27 +1072,6 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "eagle.Hafezdivan.Online.",
-            "server_port": 80,
-            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
-                "headers": {
-                    "Host": "eagle.Hafezdivan.Online."
                 }
             }
         },

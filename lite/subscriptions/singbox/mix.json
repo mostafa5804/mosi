@@ -143,12 +143,12 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇮🇷IR | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇳🇴NO | vless | @VmessProtocol | 9",
                 "🇸🇪SE | vless | @DailyV2RY | 100",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -213,12 +213,12 @@
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇺🇸US | vless | @vless_vmess | 9",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
-                "🇮🇷IR | vless | @V2RayTz | 17",
+                "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇳🇴NO | vless | @VmessProtocol | 9",
                 "🇸🇪SE | vless | @DailyV2RY | 100",
                 "🇨🇦CA | vless | @sinabigo | 3",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -874,7 +874,7 @@
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
-            "uuid": "98fc5855-232f-450d-b6d6-806daea4c931",
+            "uuid": "4e69ee12-6796-486f-ba60-fb4f9a85dffd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1110,11 +1110,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @V2RayTz | 17",
+            "tag": "🇸🇪SE | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "f8ff9480-6fac-4dc2-a8ce-5d3ca348a60c",
+            "server": "185.146.173.95",
+            "server_port": 2095,
+            "uuid": "b58503a8-a91b-493b-ad38-377628fc7c8e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1122,22 +1122,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.95"
+                }
             }
         },
         {
@@ -1233,23 +1223,29 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "eagle.Hafezdivan.Online.",
-            "server_port": 80,
-            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "45.90.73.49",
+            "server_port": 8181,
+            "uuid": "69b28b1c-feff-4c66-8737-1d144ade1297",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
-                "headers": {
-                    "Host": "eagle.Hafezdivan.Online."
+            "tls": {
+                "enabled": true,
+                "server_name": "x.viwi.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
