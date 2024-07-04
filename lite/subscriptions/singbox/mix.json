@@ -142,13 +142,13 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇮🇷IR | vmess | @vless_vmess | 9",
-                "🇸🇪SE | vless | @vmess_vless_v2rayng | 3",
+                "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 90",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -214,13 +214,13 @@
                 "🇨🇦CA | vless | @v2ray_swhil | 13",
                 "🇸🇪SE | vless | @v2ray1_ng | 13",
                 "🇮🇷IR | vmess | @vless_vmess | 9",
-                "🇸🇪SE | vless | @vmess_vless_v2rayng | 3",
+                "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇸🇪SE | vless | @V2RayTz | 18",
                 "🇺🇸US | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 90",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -1078,11 +1078,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @vmess_vless_v2rayng | 3",
+            "tag": "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
             "type": "vless",
             "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "67aaeabb-cb78-44b0-913c-2afb628811fd",
+            "server_port": 2095,
+            "uuid": "a3c48196-a190-48d8-9af2-c59b2d4c3b71",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1203,23 +1203,29 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "TeL_VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "x.viwi.top",
+            "server_port": 8181,
+            "uuid": "69b28b1c-feff-4c66-8737-1d144ade1297",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
-                "headers": {
-                    "Host": "zula.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
