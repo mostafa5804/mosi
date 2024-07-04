@@ -117,6 +117,7 @@
                 "🇸🇪SE | vless | @VmessProtocol | 0",
                 "🇸🇪SE | vless | @VmessProtocol | 8",
                 "🇳🇴NO | vless | @VmessProtocol | 9",
+                "🇳🇱NL | vless | @sinabigo | 0",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -145,7 +146,7 @@
                 "🏳️XX | vless | @vpn_go67 | 19",
                 "🏳️XX | vless | @vpn_go67 | 20",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @kingofilter | 4",
+                "🏳️XX | vless | @kingofilter | 6",
                 "🏳️XX | vless | @GozargahVPN | 9"
             ]
         },
@@ -164,6 +165,7 @@
                 "🇸🇪SE | vless | @VmessProtocol | 0",
                 "🇸🇪SE | vless | @VmessProtocol | 8",
                 "🇳🇴NO | vless | @VmessProtocol | 9",
+                "🇳🇱NL | vless | @sinabigo | 0",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
                 "🏳️XX | vless | @Capital_NET | 33",
@@ -192,7 +194,7 @@
                 "🏳️XX | vless | @vpn_go67 | 19",
                 "🏳️XX | vless | @vpn_go67 | 20",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @kingofilter | 4",
+                "🏳️XX | vless | @kingofilter | 6",
                 "🏳️XX | vless | @GozargahVPN | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -549,6 +551,35 @@
             "tls": {
                 "enabled": true,
                 "server_name": "partner.g2.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @sinabigo | 0",
+            "type": "vless",
+            "server": "109.176.207.43",
+            "server_port": 8443,
+            "uuid": "137faa34-3c74-417f-9939-3fa15b621dea",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1501,7 +1532,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @kingofilter | 4",
+            "tag": "🏳️XX | vless | @kingofilter | 6",
             "type": "vless",
             "server": "kingo6.hightechservice.ir",
             "server_port": 2052,
