@@ -128,7 +128,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇮🇷IR | vless | @Outline_Vpn | 19",
                 "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vmess | @customv2ray | 17",
@@ -147,9 +147,9 @@
                 "🇸🇪SE | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇪🇸ES | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇩🇪DE | trojan | @proxystore11 | 9",
+                "🇷🇺RU | ss | @OutlineVpnOfficial | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 8",
@@ -200,7 +200,7 @@
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇮🇷IR | vless | @Outline_Vpn | 19",
                 "🇨🇷CR | vless | @prrofile_purple | 184",
                 "🇨🇦CA | vmess | @customv2ray | 17",
@@ -219,9 +219,9 @@
                 "🇸🇪SE | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇪🇸ES | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇩🇪DE | trojan | @proxystore11 | 9",
+                "🇷🇺RU | ss | @OutlineVpnOfficial | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @proxystore11 | 8",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇸🇪SE | vless | @fnet00 | 8",
@@ -750,7 +750,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
@@ -1173,21 +1173,57 @@
             }
         },
         {
-            "tag": "🇪🇸ES | ss | @OutlineVpnOfficial | 19",
+            "tag": "🇷🇺RU | ss | @OutlineVpnOfficial | 19",
             "type": "shadowsocks",
-            "server": "194.87.45.189",
-            "server_port": 40076,
+            "server": "45.67.32.147",
+            "server_port": 28327,
             "method": "chacha20-ietf-poly1305",
-            "password": "ECjp87TIkUiJ5AhRZglZ9E",
+            "password": "URTS\/i2SIStnwOq1o\/p0HkVPeisXQ2f2b+TvTR2E7QM=",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.67.171.43",
+            "server": "46.226.163.222",
             "server_port": 80,
-            "uuid": "b14647af-9936-41dd-b9fb-d108d7e3e405",
+            "uuid": "df82aacb-560f-4319-80af-377fa6cc3ba3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kcQj575e33w6a7dzsDSXhGX0w9e5Sm8-ITPS2qN5rDc",
+                    "short_id": "914933da"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @proxystore11 | 8",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "telegram-id-PcV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1197,31 +1233,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless",
+                "path": "\/telegram-PcV2ray",
                 "headers": {
-                    "Host": "172.67.171.43"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | trojan | @proxystore11 | 9",
-            "type": "trojan",
-            "server": "3.68.5.206",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+                    "Host": "185.146.173.237"
                 }
             }
         },

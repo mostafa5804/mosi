@@ -139,7 +139,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @proxystore11 | 8",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
@@ -194,7 +195,8 @@
                 "🇸🇪SE | vless | @DailyV2RY | 91",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 37",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
+                "🇸🇪SE | vless | @proxystore11 | 8",
                 "🇸🇪SE | vless | @fnet00 | 8",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
@@ -976,11 +978,47 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.67.171.43",
+            "server": "46.226.163.222",
             "server_port": 80,
-            "uuid": "b14647af-9936-41dd-b9fb-d108d7e3e405",
+            "uuid": "df82aacb-560f-4319-80af-377fa6cc3ba3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kcQj575e33w6a7dzsDSXhGX0w9e5Sm8-ITPS2qN5rDc",
+                    "short_id": "914933da"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @proxystore11 | 8",
+            "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 80,
+            "uuid": "telegram-id-PcV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -990,9 +1028,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless",
+                "path": "\/telegram-PcV2ray",
                 "headers": {
-                    "Host": "172.67.171.43"
+                    "Host": "185.146.173.237"
                 }
             }
         },

@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ]
@@ -116,6 +117,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🇬🇧GB | vless | @ConfigsHUB | 18",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ],
@@ -166,6 +168,42 @@
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
                 }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "46.226.163.222",
+            "server_port": 80,
+            "uuid": "df82aacb-560f-4319-80af-377fa6cc3ba3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kcQj575e33w6a7dzsDSXhGX0w9e5Sm8-ITPS2qN5rDc",
+                    "short_id": "914933da"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1@VPNMEGA1",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
