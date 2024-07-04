@@ -11,13 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇦🇪AE | ss | @VmessProtocol | 9 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇷🇺RU | ss | @OutlineVpnOfficial | 19 = ss, 45.67.32.147, 28327, encrypt-method = chacha20-ietf-poly1305, password = URTS/i2SIStnwOq1o/p0HkVPeisXQ2f2b+TvTR2E7QM=
-🇬🇧GB | ss | @proxy_mtm | 3 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇬🇧GB | ss | @proxy_mtm | 4 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇦🇪AE | ss | @VmessProtocol | 9,🇷🇺RU | ss | @OutlineVpnOfficial | 19,🇬🇧GB | ss | @proxy_mtm | 3
-URL-TEST = url-test,🇦🇪AE | ss | @VmessProtocol | 9,🇷🇺RU | ss | @OutlineVpnOfficial | 19,🇬🇧GB | ss | @proxy_mtm | 3
-FALLBACK = fallback,🇦🇪AE | ss | @VmessProtocol | 9,🇷🇺RU | ss | @OutlineVpnOfficial | 19,🇬🇧GB | ss | @proxy_mtm | 3
+MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | ss | @OutlineVpnOfficial | 19,🇬🇧GB | ss | @proxy_mtm | 4
+URL-TEST = url-test,🇷🇺RU | ss | @OutlineVpnOfficial | 19,🇬🇧GB | ss | @proxy_mtm | 4
+FALLBACK = fallback,🇷🇺RU | ss | @OutlineVpnOfficial | 19,🇬🇧GB | ss | @proxy_mtm | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
