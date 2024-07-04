@@ -125,8 +125,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
-                "🏳️XX | vmess | @DailyV2RY | 78",
-                "🇺🇸US | vmess | @DailyV2RY | 84",
+                "🏳️XX | vmess | @DailyV2RY | 84",
+                "🇮🇷IR | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -175,8 +175,8 @@
                 "🇺🇸US | vmess | @ShadowProxy66 | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 14",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
-                "🏳️XX | vmess | @DailyV2RY | 78",
-                "🇺🇸US | vmess | @DailyV2RY | 84",
+                "🏳️XX | vmess | @DailyV2RY | 84",
+                "🇮🇷IR | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -655,7 +655,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 78",
+            "tag": "🏳️XX | vmess | @DailyV2RY | 84",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -672,11 +672,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 84",
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 5",
             "type": "vmess",
-            "server": "216.128.136.23",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "server": "2.189.59.2",
+            "server_port": 443,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -686,6 +686,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/XV2ray",
+                "headers": {
+                    "Host": "pages.dev"
+                }
             }
         },
         {
