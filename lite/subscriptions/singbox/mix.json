@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 6",
+                "🇨🇦CA | vless | @EliV2ray | 7",
                 "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -138,7 +138,6 @@
                 "🇸🇪SE | vless | @ShadowProxy66 | 18",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇷🇺RU | trojan | @v2ray_swhil | 12",
-                "🇨🇦CA | vmess | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
@@ -146,7 +145,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇮🇹IT | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 2",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -176,7 +175,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 6",
+                "🇨🇦CA | vless | @EliV2ray | 7",
                 "🇨🇦CA | vless | @Parsashonam | 1",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -208,7 +207,6 @@
                 "🇸🇪SE | vless | @ShadowProxy66 | 18",
                 "🇸🇪SE | vless | @ServerNett | 8",
                 "🇷🇺RU | trojan | @v2ray_swhil | 12",
-                "🇨🇦CA | vmess | @v2ray1_ng | 9",
                 "🇮🇷IR | vless | @vless_vmess | 12",
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
@@ -216,7 +214,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇮🇹IT | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vmess | @ConfigsHUB | 2",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -262,7 +260,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 6",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 7",
             "type": "vless",
             "server": "172.66.46.224",
             "server_port": 443,
@@ -1008,40 +1006,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 9",
-            "type": "vmess",
-            "server": "172.67.175.56",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | vless | @vless_vmess | 12",
             "type": "vless",
             "server": "31.14.115.163",
@@ -1189,36 +1153,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 2",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 2095,
+            "uuid": "DIGIV2RAY",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "zula.ir"
                 }
             }
         },
