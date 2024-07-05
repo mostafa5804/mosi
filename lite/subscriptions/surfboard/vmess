@@ -12,13 +12,14 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @v2ray1_ng | 9 = vmess, 172.67.175.56, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
+🇨🇦CA | vmess | @ConfigsHUB | 2 = vmess, 172.67.71.160, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
 🏳️XX | vmess | @Hope_Net | 5 = vmess, mci.mosi.mosipro.ml, 443, username = 3f197280-7b21-4f39-b763-4bb004e8021f, ws = true, tls = 1, vmess-aead = true, ws-path = /speedtest, ws-headers = Host:"Dusseldorf.kotick.site", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @SINABIGO | 5 = vmess, Lousaper.digifashop.ir., 443, username = 28dc623f-3ee7-4969-849b-d4a7af58078c, ws = true, tls = 1, vmess-aead = true, ws-path = @RaFaV2ray, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @ROMAX_VPN | 4 = vmess, 172.67.74.4, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @v2ray1_ng | 9,🏳️XX | vmess | @Hope_Net | 5,🇺🇸US | vmess | @SINABIGO | 5,🇺🇸US | vmess | @ROMAX_VPN | 4
-URL-TEST = url-test,🇨🇦CA | vmess | @v2ray1_ng | 9,🏳️XX | vmess | @Hope_Net | 5,🇺🇸US | vmess | @SINABIGO | 5,🇺🇸US | vmess | @ROMAX_VPN | 4
-FALLBACK = fallback,🇨🇦CA | vmess | @v2ray1_ng | 9,🏳️XX | vmess | @Hope_Net | 5,🇺🇸US | vmess | @SINABIGO | 5,🇺🇸US | vmess | @ROMAX_VPN | 4
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @v2ray1_ng | 9,🇨🇦CA | vmess | @ConfigsHUB | 2,🏳️XX | vmess | @Hope_Net | 5,🇺🇸US | vmess | @SINABIGO | 5,🇺🇸US | vmess | @ROMAX_VPN | 4
+URL-TEST = url-test,🇨🇦CA | vmess | @v2ray1_ng | 9,🇨🇦CA | vmess | @ConfigsHUB | 2,🏳️XX | vmess | @Hope_Net | 5,🇺🇸US | vmess | @SINABIGO | 5,🇺🇸US | vmess | @ROMAX_VPN | 4
+FALLBACK = fallback,🇨🇦CA | vmess | @v2ray1_ng | 9,🇨🇦CA | vmess | @ConfigsHUB | 2,🏳️XX | vmess | @Hope_Net | 5,🇺🇸US | vmess | @SINABIGO | 5,🇺🇸US | vmess | @ROMAX_VPN | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
