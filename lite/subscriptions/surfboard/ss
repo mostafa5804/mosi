@@ -12,10 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇮🇪IE | ss | @OutlineVpnOfficial | 19 = ss, 52.169.37.198, 5351, encrypt-method = chacha20-ietf-poly1305, password = CXmScWyHfrz8vfwAvd7dJ7
+🇺🇸US | ss | @FAKEOFTVC | 10 = ss, 205.134.180.139, 443, encrypt-method = chacha20-ietf-poly1305, password = lWaGPVFjmnag
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | ss | @OutlineVpnOfficial | 19
-URL-TEST = url-test,🇮🇪IE | ss | @OutlineVpnOfficial | 19
-FALLBACK = fallback,🇮🇪IE | ss | @OutlineVpnOfficial | 19
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | ss | @OutlineVpnOfficial | 19,🇺🇸US | ss | @FAKEOFTVC | 10
+URL-TEST = url-test,🇮🇪IE | ss | @OutlineVpnOfficial | 19,🇺🇸US | ss | @FAKEOFTVC | 10
+FALLBACK = fallback,🇮🇪IE | ss | @OutlineVpnOfficial | 19,🇺🇸US | ss | @FAKEOFTVC | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
