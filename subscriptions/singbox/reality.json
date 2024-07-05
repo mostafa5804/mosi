@@ -109,14 +109,15 @@
                 "🇩🇪DE | vless | @ipV2Ray | 0",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 6",
-                "🇩🇪DE | vless | @ARv2ray | 1",
+                "🇩🇪DE | vless | @ARv2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 2",
-                "🇩🇪DE | vless | @ARv2ray | 5",
+                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇩🇪DE | vless | @ARv2ray | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇹🇷TR | vless | @Outline_Vpn | 12",
+                "🇹🇷TR | vless | @Outline_Vpn | 13",
                 "🇸🇪SE | vless | @prrofile_purple | 159",
                 "🇩🇪DE | vless | @V2RayTz | 3",
                 "🇩🇪DE | vless | @V2RayTz | 11",
@@ -163,14 +164,15 @@
                 "🇩🇪DE | vless | @ipV2Ray | 0",
                 "🏳️XX | vless | @V2pedia | 1",
                 "🏳️XX | vless | @V2pedia | 6",
-                "🇩🇪DE | vless | @ARv2ray | 1",
+                "🇩🇪DE | vless | @ARv2ray | 0",
                 "🇩🇪DE | vless | @ARv2ray | 2",
-                "🇩🇪DE | vless | @ARv2ray | 5",
+                "🇩🇪DE | vless | @ARv2ray | 3",
+                "🇩🇪DE | vless | @ARv2ray | 6",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇹🇷TR | vless | @Outline_Vpn | 12",
+                "🇹🇷TR | vless | @Outline_Vpn | 13",
                 "🇸🇪SE | vless | @prrofile_purple | 159",
                 "🇩🇪DE | vless | @V2RayTz | 3",
                 "🇩🇪DE | vless | @V2RayTz | 11",
@@ -338,7 +340,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 1",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 0",
+            "type": "vless",
+            "server": "188.245.64.60",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cGkz-QX76GRQekaGKr_R77_4OFObkjsOYvo9xyfEMyE",
+                    "short_id": "e0ba4b02"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @ARv2ray | 2",
             "type": "vless",
             "server": "188.245.67.193",
             "server_port": 443,
@@ -374,7 +412,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 2",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 3",
             "type": "vless",
             "server": "188.245.34.226",
             "server_port": 443,
@@ -410,7 +448,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 5",
+            "tag": "🇩🇪DE | vless | @ARv2ray | 6",
             "type": "vless",
             "server": "188.245.32.88",
             "server_port": 443,
@@ -562,7 +600,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vless | @Outline_Vpn | 12",
+            "tag": "🇹🇷TR | vless | @Outline_Vpn | 13",
             "type": "vless",
             "server": "80.253.255.10",
             "server_port": 443,
