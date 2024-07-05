@@ -120,8 +120,10 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @customv2ray | 12",
+                "🇺🇸US | vmess | @ShadowProxy66 | 6",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
-                "🏳️XX | vmess | @DailyV2RY | 94",
+                "🇺🇸US | vmess | @DailyV2RY | 100",
+                "🏳️XX | vmess | @DailyV2RY | 101",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -164,8 +166,10 @@
                 "🇺🇸US | vmess | @oneclickvpnkeys | 1",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | vmess | @customv2ray | 12",
+                "🇺🇸US | vmess | @ShadowProxy66 | 6",
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
-                "🏳️XX | vmess | @DailyV2RY | 94",
+                "🇺🇸US | vmess | @DailyV2RY | 100",
+                "🏳️XX | vmess | @DailyV2RY | 101",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -524,6 +528,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 6",
+            "type": "vmess",
+            "server": "s.marktred.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "aveiror.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "aveiror.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @v2ray1_ng | 6",
             "type": "vmess",
             "server": "172.67.175.56",
@@ -558,7 +596,24 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @DailyV2RY | 94",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 100",
+            "type": "vmess",
+            "server": "108.61.205.144",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @DailyV2RY | 101",
             "type": "vmess",
             "server": null,
             "server_port": 0,
