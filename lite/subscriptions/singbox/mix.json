@@ -150,7 +150,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
                 "🇭🇺HU | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -167,7 +167,7 @@
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇸🇪SE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇺🇸US | vmess | @kingofilter | 14",
+                "🏳️XX | vless | @kingofilter | 14",
                 "🏳️XX | vless | @freeconfigv2 | 0",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇺🇸US | vmess | @SINABIGO | 5",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
                 "🇭🇺HU | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
@@ -241,7 +241,7 @@
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇸🇪SE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🇺🇸US | vmess | @kingofilter | 14",
+                "🏳️XX | vless | @kingofilter | 14",
                 "🏳️XX | vless | @freeconfigv2 | 0",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🇺🇸US | vmess | @SINABIGO | 5",
@@ -1274,34 +1274,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "162.159.36.195",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "116.202.105.37",
+            "server_port": 31770,
+            "uuid": "025166a5-0d9a-4b4e-9ada-2b2e4802bbbc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
             }
         },
         {
@@ -1695,16 +1678,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @kingofilter | 14",
-            "type": "vmess",
-            "server": "172.67.175.56",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🏳️XX | vless | @kingofilter | 14",
+            "type": "vless",
+            "server": "kingo6.hightechservice.ir",
+            "server_port": 2052,
+            "uuid": "1262b4e4-eb68-4747-ae0e-a379feea7bc7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1712,19 +1692,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iYoidzzlVpIRFffUdJCp_acSWuoPUkiPLxhnzKv03lw",
+                    "short_id": "d013b5b2"
                 }
             }
         },

@@ -143,7 +143,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 117",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
@@ -156,6 +156,7 @@
                 "🇺🇸US | vless | @kiava | 8",
                 "🇸🇪SE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 21",
+                "🏳️XX | vless | @kingofilter | 14",
                 "🏳️XX | vless | @freeconfigv2 | 0",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
@@ -203,7 +204,7 @@
                 "🇸🇪SE | vless | @DailyV2RY | 117",
                 "🇨🇦CA | vless | @sinabigo | 4",
                 "🇸🇪SE | vless | @lrnbymaa | 31",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | vless | @ConfigsHUB | 14",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
@@ -216,6 +217,7 @@
                 "🇺🇸US | vless | @kiava | 8",
                 "🇸🇪SE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 21",
+                "🏳️XX | vless | @kingofilter | 14",
                 "🏳️XX | vless | @freeconfigv2 | 0",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
@@ -1105,34 +1107,17 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "162.159.36.195",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "116.202.105.37",
+            "server_port": 31770,
+            "uuid": "025166a5-0d9a-4b4e-9ada-2b2e4802bbbc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
             }
         },
         {
@@ -1421,6 +1406,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @kingofilter | 14",
+            "type": "vless",
+            "server": "kingo6.hightechservice.ir",
+            "server_port": 2052,
+            "uuid": "1262b4e4-eb68-4747-ae0e-a379feea7bc7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zula.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iYoidzzlVpIRFffUdJCp_acSWuoPUkiPLxhnzKv03lw",
+                    "short_id": "d013b5b2"
+                }
             }
         },
         {
