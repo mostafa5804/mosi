@@ -14,10 +14,11 @@ DIRECT = direct
 🇫🇷FR | trojan | @PrivateVPNs | 15 = trojan, 13.37.180.245, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | trojan | @DirectVPN | 15 = trojan, 13.50.127.154, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇬🇧GB | trojan | @oneclickvpnkeys | 4 = trojan, 154.197.121.253, 443, password = moist, udp-delay = true, skip-cert-verify = false, sni = trojan.freenods.sbs, ws = false
+🇯🇵JP | trojan | @ConfigsHUB | 8 = trojan, 154.31.115.81, 28335, password = Z3TxDc6q8CZy3DaAaeARzS2pOAaeARzS2pO3DXwFKl40OF7YNyS9Y3RBlCSEeaF7YNyS9, udp-delay = true, skip-cert-verify = true, sni = western.meijireform.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇬🇧GB | trojan | @oneclickvpnkeys | 4
-URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇬🇧GB | trojan | @oneclickvpnkeys | 4
-FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇬🇧GB | trojan | @oneclickvpnkeys | 4
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇬🇧GB | trojan | @oneclickvpnkeys | 4,🇯🇵JP | trojan | @ConfigsHUB | 8
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇬🇧GB | trojan | @oneclickvpnkeys | 4,🇯🇵JP | trojan | @ConfigsHUB | 8
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 15,🇸🇪SE | trojan | @DirectVPN | 15,🇬🇧GB | trojan | @oneclickvpnkeys | 4,🇯🇵JP | trojan | @ConfigsHUB | 8
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
