@@ -108,10 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
-                "🇬🇧GB | vmess | @v2Line | 3",
+                "🇩🇪DE | vmess | @v2Line | 3",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 5",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
@@ -123,10 +124,11 @@
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🏳️XX | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 3",
-                "🇬🇧GB | vmess | @v2Line | 3",
+                "🇩🇪DE | vmess | @v2Line | 3",
                 "🏳️XX | vmess | @nofiltering2 | 2",
                 "🇺🇸US | vmess | @SINABIGO | 5",
                 "🇺🇸US | vmess | @ROMAX_VPN | 4"
@@ -176,6 +178,23 @@
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "2a12:5940:77c0::2",
+            "server_port": 2089,
+            "uuid": "b329a63b-fc34-4049-9e54-caf33d816b09",
+            "security": "auto",
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -288,7 +307,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @v2Line | 3",
+            "tag": "🇩🇪DE | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "217.160.45.31",
             "server_port": 8880,
