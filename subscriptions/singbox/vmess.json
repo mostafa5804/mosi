@@ -123,6 +123,8 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
                 "🏳️XX | vmess | @DailyV2RY | 93",
                 "🇺🇸US | vmess | @DailyV2RY | 99",
+                "🇺🇸US | vmess | @ConfigsHUB | 4",
+                "🇮🇷IR | vmess | @ConfigsHUB | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -168,6 +170,8 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 6",
                 "🏳️XX | vmess | @DailyV2RY | 93",
                 "🇺🇸US | vmess | @DailyV2RY | 99",
+                "🇺🇸US | vmess | @ConfigsHUB | 4",
+                "🇮🇷IR | vmess | @ConfigsHUB | 12",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -582,6 +586,57 @@
             "server": "108.61.205.144",
             "server_port": 8881,
             "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 4",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vmess | @ConfigsHUB | 12",
+            "type": "vmess",
+            "server": "sup.iranspeed.shop",
+            "server_port": 80,
+            "uuid": "0e44b57a-fd08-4c2b-8f43-ece807c44004",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
