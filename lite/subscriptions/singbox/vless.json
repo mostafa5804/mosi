@@ -142,6 +142,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 106",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -153,7 +154,8 @@
                 "🇺🇸US | vless | @kiava | 8",
                 "🇸🇪SE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @kingofilter | 14",
+                "🇺🇸US | vless | @kingofilter | 13",
+                "🏳️XX | vless | @freeconfigv2 | 0",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -199,6 +201,7 @@
                 "🇳🇴NO | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 106",
                 "🇨🇦CA | vless | @sinabigo | 4",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 16",
@@ -210,7 +213,8 @@
                 "🇺🇸US | vless | @kiava | 8",
                 "🇸🇪SE | vless | @proxy_mtm | 5",
                 "🏳️XX | vless | @vpn_go67 | 21",
-                "🏳️XX | vless | @kingofilter | 14",
+                "🇺🇸US | vless | @kingofilter | 13",
+                "🏳️XX | vless | @freeconfigv2 | 0",
                 "🏳️XX | vless | @IBv2ray | 4",
                 "🏳️XX | vless | @V2FETCH | 7",
                 "🏳️XX | vless | @VpnSkyy | 7"
@@ -1071,6 +1075,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 8880,
+            "uuid": "%50a%72sa%73%68%6fna%6d-7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | @proxystore11 | 4",
             "type": "vless",
             "server": "185.146.173.237",
@@ -1115,7 +1140,7 @@
         {
             "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "104.19.221.227",
+            "server": "104.19.110.50",
             "server_port": 443,
             "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
@@ -1345,11 +1370,32 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | @kingofilter | 14",
+            "tag": "🇺🇸US | vless | @kingofilter | 13",
             "type": "vless",
-            "server": "kingo6.hightechservice.ir",
-            "server_port": 2052,
-            "uuid": "1262b4e4-eb68-4747-ae0e-a379feea7bc7",
+            "server": "172.66.44.135",
+            "server_port": 80,
+            "uuid": "5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.66.44.135"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | @freeconfigv2 | 0",
+            "type": "vless",
+            "server": "[2a0d:5940:48:11::]",
+            "server_port": 25365,
+            "uuid": "bia--ZEDMODEON",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1359,18 +1405,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zula.ir",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "iYoidzzlVpIRFffUdJCp_acSWuoPUkiPLxhnzKv03lw",
-                    "short_id": "d013b5b2"
+                    "public_key": "AmVE-YA8JAYesGpPEX2qXFaN5bQMMGj9WClQs0ZB2QQ",
+                    "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
