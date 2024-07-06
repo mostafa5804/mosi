@@ -118,9 +118,12 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 7",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
-                "🇨🇭CH | vmess | @oneclickvpnkeys | 1",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇨🇭CH | vmess | @oneclickvpnkeys | 4",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 7",
@@ -163,9 +166,12 @@
                 "🇺🇸US | vmess | @mftizi | 18",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 7",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 0",
-                "🇨🇭CH | vmess | @oneclickvpnkeys | 1",
-                "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | vmess | @oneclickvpnkeys | 3",
+                "🇨🇭CH | vmess | @oneclickvpnkeys | 4",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | vmess | @customv2ray | 12",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 3",
                 "🇺🇸US | vmess | @ShadowProxy66 | 7",
@@ -485,7 +491,75 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 0",
+            "tag": "🇺🇦UA | vmess | @oneclickvpnkeys | 0",
+            "type": "vmess",
+            "server": "91.231.182.197",
+            "server_port": 19396,
+            "uuid": "2251caa5-3b36-4bbe-98e3-b147c70ba286",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 1",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 2",
+            "type": "vmess",
+            "server": "dkbwjewnkdw.chixixchi.com",
+            "server_port": 8081,
+            "uuid": "622f58c4-2f1a-47c0-b6b8-0e0be8eb8c1a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
             "server": "188.114.97.3",
             "server_port": 80,
@@ -509,7 +583,7 @@
             }
         },
         {
-            "tag": "🇨🇭CH | vmess | @oneclickvpnkeys | 1",
+            "tag": "🇨🇭CH | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "23.166.88.101",
             "server_port": 22324,
@@ -526,7 +600,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
             "server": "23.162.152.6",
             "server_port": 22324,
