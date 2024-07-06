@@ -148,7 +148,7 @@
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇺🇸US | vmess | @DailyV2RY | 105",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 11",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -217,7 +217,7 @@
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇺🇸US | vmess | @DailyV2RY | 105",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 11",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -1219,11 +1219,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "104.24.185.137",
-            "server_port": 8080,
-            "uuid": "Parsashonam-8",
+            "server": "172.64.111.69",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1231,12 +1231,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
             }
         },
         {
