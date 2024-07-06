@@ -138,12 +138,12 @@
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
-                "🇸🇪SE | vless | @DailyV2RY | 91",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇸🇪SE | vless | @DailyV2RY | 97",
+                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇩🇪DE | vless | @flyv2ray | 2",
@@ -194,12 +194,12 @@
                 "🏳️XX | vless | @MTConfig | 13",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 15",
-                "🇸🇪SE | vless | @DailyV2RY | 91",
-                "🇨🇦CA | vless | @ConfigsHUB | 12",
+                "🇸🇪SE | vless | @DailyV2RY | 97",
+                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 4",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 15",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇩🇪DE | vless | @flyv2ray | 2",
@@ -984,7 +984,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 91",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 97",
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 80,
@@ -1005,11 +1005,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 12",
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "108.162.192.79",
+            "server": "ArV2ray.mehpow.IR",
             "server_port": 443,
-            "uuid": "fb710ee0-f2d3-421c-8556-d23e5075f57e",
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1019,7 +1019,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bpb-worker-panel-chf.pages.dev",
+                "server_name": "5d.bahrane.IR",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1028,11 +1028,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
-                "headers": {
-                    "Host": "bpb-worker-panel-chf.pages.dev"
-                }
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1078,12 +1078,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "172.66.44.55",
-            "server_port": 443,
-            "uuid": "104380d8-f859-421a-bd11-29b2c9fbfa99",
-            "flow": "",
+            "server": "panel.karunvps.shop",
+            "server_port": 1633,
+            "uuid": "dfa7a700-4941-4d1b-e5ae-21fef6e5eb71",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1092,24 +1092,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "famil-5c8.pages.dev",
+                "server_name": "stackoverflow.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "famil-5c8.pages.dev"
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UOplfcqYNVqgrkrOykCpxmGLPvwnPzjk8oB2fDicYn4",
+                    "short_id": "4374d295a4f9dd83"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 10",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 10",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 2095,

@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @flyv2ray | 2",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -117,6 +118,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇩🇪DE | vless | @flyv2ray | 2",
                 "🏳️XX | vless | @vpn_go67 | 21"
@@ -167,6 +169,35 @@
                     "enabled": true,
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 15",
+            "type": "vless",
+            "server": "panel.karunvps.shop",
+            "server_port": 1633,
+            "uuid": "dfa7a700-4941-4d1b-e5ae-21fef6e5eb71",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UOplfcqYNVqgrkrOykCpxmGLPvwnPzjk8oB2fDicYn4",
+                    "short_id": "4374d295a4f9dd83"
                 }
             }
         },
