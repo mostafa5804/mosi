@@ -120,7 +120,6 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 16","type":"trojan","server":"3.125.184.108","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | trojan | @DirectVPN | 16","type":"trojan","server":"13.48.225.225","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"18.159.174.73","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | trojan | @VmessProtocol | 10","type":"trojan","server":"23.106.32.171","port":443,"udp":false,"password":"F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"scarily.golfland.club"}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +129,6 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
-      - '🇩🇪DE | trojan | @oneclickvpnkeys | 6'
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
   - name: URL-TEST
     type: url-test
@@ -140,7 +138,6 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
-      - '🇩🇪DE | trojan | @oneclickvpnkeys | 6'
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
   - name: FALLBACK
     type: fallback
@@ -149,7 +146,6 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | trojan | @PrivateVPNs | 16'
       - '🇸🇪SE | trojan | @DirectVPN | 16'
-      - '🇩🇪DE | trojan | @oneclickvpnkeys | 6'
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
