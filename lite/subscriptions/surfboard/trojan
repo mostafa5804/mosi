@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇪IE | trojan | @PrivateVPNs | 13 = trojan, 46.137.105.248, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇮🇪IE | trojan | @DirectVPN | 13 = trojan, 54.78.228.48, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | trojan | @PrivateVPNs | 17 = trojan, 15.237.64.138, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | trojan | @DirectVPN | 17 = trojan, 13.37.86.178, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇬🇧GB | trojan | @VmessProtocol | 10 = trojan, 23.106.32.171, 443, password = F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT, udp-delay = true, skip-cert-verify = false, sni = scarily.golfland.club, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 13,🇮🇪IE | trojan | @DirectVPN | 13,🇬🇧GB | trojan | @VmessProtocol | 10
-URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 13,🇮🇪IE | trojan | @DirectVPN | 13,🇬🇧GB | trojan | @VmessProtocol | 10
-FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 13,🇮🇪IE | trojan | @DirectVPN | 13,🇬🇧GB | trojan | @VmessProtocol | 10
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 17,🇬🇧GB | trojan | @VmessProtocol | 10
+URL-TEST = url-test,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 17,🇬🇧GB | trojan | @VmessProtocol | 10
+FALLBACK = fallback,🇫🇷FR | trojan | @PrivateVPNs | 17,🇫🇷FR | trojan | @DirectVPN | 17,🇬🇧GB | trojan | @VmessProtocol | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
