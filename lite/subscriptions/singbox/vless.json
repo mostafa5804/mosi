@@ -142,7 +142,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇫🇷FR | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
@@ -202,7 +202,7 @@
                 "🇩🇪DE | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @lrnbymaa | 28",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇫🇷FR | vless | @ConfigsHUB | 19",
                 "🇸🇪SE | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 16",
@@ -1116,12 +1116,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇫🇷FR | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.24.20.71",
+            "server": "217.69.6.24",
             "server_port": 443,
-            "uuid": "9902fc94-31f9-4afe-b37a-82f5790b3d2a",
-            "flow": "",
+            "uuid": "ce5b494d-4a57-4873-a632-8b4f8625179b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1130,20 +1130,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de1-moryvpnbot.pages.dev",
+                "server_name": "cdn.discordapp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HE1w37dsB_bntFV6QIDmlXIcx7ZUTgw9b3hahBommVo",
+                    "short_id": "71dbea41"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
-                "headers": {
-                    "Host": "de1-moryvpnbot.pages.dev"
-                }
+                "type": "http",
+                "host": [
+                    "cdn.discordapp.com"
+                ],
+                "path": "\/"
             }
         },
         {
