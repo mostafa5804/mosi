@@ -123,6 +123,7 @@ proxies:
   - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 16","type":"trojan","server":"13.36.116.16","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | trojan | @DirectVPN | 16","type":"trojan","server":"15.236.119.203","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | trojan | @VmessProtocol | 10","type":"trojan","server":"23.106.32.171","port":443,"udp":false,"password":"F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"scarily.golfland.club"}
+  - {"name":"🇸🇪SE | trojan | @ConfigsHUB | 18","type":"trojan","server":"13.48.225.209","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -132,6 +133,7 @@ proxy-groups:
       - '🇫🇷FR | trojan | @PrivateVPNs | 16'
       - '🇫🇷FR | trojan | @DirectVPN | 16'
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
+      - '🇸🇪SE | trojan | @ConfigsHUB | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -141,6 +143,7 @@ proxy-groups:
       - '🇫🇷FR | trojan | @PrivateVPNs | 16'
       - '🇫🇷FR | trojan | @DirectVPN | 16'
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
+      - '🇸🇪SE | trojan | @ConfigsHUB | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -149,6 +152,7 @@ proxy-groups:
       - '🇫🇷FR | trojan | @PrivateVPNs | 16'
       - '🇫🇷FR | trojan | @DirectVPN | 16'
       - '🇬🇧GB | trojan | @VmessProtocol | 10'
+      - '🇸🇪SE | trojan | @ConfigsHUB | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
