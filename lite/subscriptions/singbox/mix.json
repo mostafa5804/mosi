@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -149,7 +148,7 @@
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 110",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -163,7 +162,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 8",
                 "🇸🇪SE | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 5",
-                "🇺🇸US | vless | @kiava | 8",
+                "🇺🇸US | vless | @kiava | 7",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @SvnTeam | 5",
@@ -177,7 +176,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 9",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 6",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -220,7 +218,7 @@
                 "🇬🇧GB | trojan | @VmessProtocol | 10",
                 "🇸🇪SE | vless | @DailyV2RY | 110",
                 "🇷🇸RS | ss | @OutlineVpnOfficial | 19",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🇸🇪SE | vless | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇸🇬SG | vmess | @Hope_Net | 4",
@@ -234,7 +232,7 @@
                 "🇩🇪DE | vless | @flyv2ray | 8",
                 "🇸🇪SE | vless | @FAKEOFTVC | 5",
                 "🇺🇸US | vless | @mehrosaboran | 5",
-                "🇺🇸US | vless | @kiava | 8",
+                "🇺🇸US | vless | @kiava | 7",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @SvnTeam | 5",
@@ -262,37 +260,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 9",
-            "type": "vless",
-            "server": "172.66.46.224",
-            "server_port": 443,
-            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus-4vx.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "t-netplus-4vx.pages.dev"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 3",
@@ -1263,11 +1230,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2095,
-            "uuid": "-DIGIV2RAY",
+            "server": "172.64.87.52",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1275,11 +1242,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1396,9 +1373,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
             "type": "vless",
-            "server": "172.66.44.55",
+            "server": "104.17.83.58",
             "server_port": 443,
-            "uuid": "104380d8-f859-421a-bd11-29b2c9fbfa99",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1408,7 +1385,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "famil-5c8.pages.dev",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1420,7 +1397,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "famil-5c8.pages.dev"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1652,11 +1629,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @kiava | 8",
+            "tag": "🇺🇸US | vless | @kiava | 7",
             "type": "vless",
             "server": "serverpars.com",
             "server_port": 8880,
-            "uuid": "1785f360-efb6-4a65-974e-3274135d35d3",
+            "uuid": "a9c0613e-7b12-4c89-cb8b-6fb83c41ed33",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1666,7 +1643,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
+                "path": "\/join-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
                 "headers": {
                     "Host": "serverpars.com"
                 }
