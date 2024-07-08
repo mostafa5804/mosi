@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇪🇸ES | ss | @OutlineVpnOfficial | 19","type":"ss","server":"es-full.privateip.net","port":8443,"password":"241f9bb7-186b-4161-a517-84bece5b54a1","cipher":"aes-256-gcm"}
+  - {"name":"🇫🇷FR | ss | @OutlineVpnOfficial | 19","type":"ss","server":"149.202.82.172","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
   - {"name":"🇦🇪AE | ss | @kingofilter | 14","type":"ss","server":"40.172.1.97","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -126,7 +126,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇪🇸ES | ss | @OutlineVpnOfficial | 19'
+      - '🇫🇷FR | ss | @OutlineVpnOfficial | 19'
       - '🇦🇪AE | ss | @kingofilter | 14'
   - name: URL-TEST
     type: url-test
@@ -134,14 +134,14 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇪🇸ES | ss | @OutlineVpnOfficial | 19'
+      - '🇫🇷FR | ss | @OutlineVpnOfficial | 19'
       - '🇦🇪AE | ss | @kingofilter | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇪🇸ES | ss | @OutlineVpnOfficial | 19'
+      - '🇫🇷FR | ss | @OutlineVpnOfficial | 19'
       - '🇦🇪AE | ss | @kingofilter | 14'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
