@@ -11,16 +11,17 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | trojan | @PrivateVPNs | 15 = trojan, 52.56.181.172, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇫🇷FR | trojan | @DirectVPN | 15 = trojan, 15.188.142.17, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @PrivateVPNs | 13 = trojan, 34.248.164.209, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | trojan | @DirectVPN | 13 = trojan, 54.246.224.233, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | ss | @OutlineVpnOfficial | 19 = ss, 38.111.114.133, 8080, encrypt-method = aes-256-gcm, password = KixLvKzwjekG00rm
+🇸🇪SE | trojan | @proxystore11 | 2 = trojan, 13.60.113.91, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇬SG | vmess | @Hope_Net | 4 = vmess, sg-full.privateip.net, 443, username = ecb90d6e-1bbf-42ec-a742-822fad6936da, ws = true, tls = 1, vmess-aead = true, ws-path = /RACEVPN, ws-headers = Host:"", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 0 = vmess, 172.67.175.56, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @ROMAX_VPN | 4 = vmess, 172.67.74.4, 443, username = 441da342-ce90-441e-bff9-d2ceb55e68ca, ws = true, tls = 1, vmess-aead = true, ws-path = /ivideos.sbs/linkws, ws-headers = Host:"mikasa.yaemiko.cloudns.org", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇨🇦CA | ss | @OutlineVpnOfficial | 19,🇸🇬SG | vmess | @Hope_Net | 4,🇺🇸US | vmess | @v2Line | 0,🇺🇸US | vmess | @ROMAX_VPN | 4
-URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇨🇦CA | ss | @OutlineVpnOfficial | 19,🇸🇬SG | vmess | @Hope_Net | 4,🇺🇸US | vmess | @v2Line | 0,🇺🇸US | vmess | @ROMAX_VPN | 4
-FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 15,🇫🇷FR | trojan | @DirectVPN | 15,🇨🇦CA | ss | @OutlineVpnOfficial | 19,🇸🇬SG | vmess | @Hope_Net | 4,🇺🇸US | vmess | @v2Line | 0,🇺🇸US | vmess | @ROMAX_VPN | 4
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 13,🇮🇪IE | trojan | @DirectVPN | 13,🇨🇦CA | ss | @OutlineVpnOfficial | 19,🇸🇪SE | trojan | @proxystore11 | 2,🇸🇬SG | vmess | @Hope_Net | 4,🇺🇸US | vmess | @v2Line | 0,🇺🇸US | vmess | @ROMAX_VPN | 4
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 13,🇮🇪IE | trojan | @DirectVPN | 13,🇨🇦CA | ss | @OutlineVpnOfficial | 19,🇸🇪SE | trojan | @proxystore11 | 2,🇸🇬SG | vmess | @Hope_Net | 4,🇺🇸US | vmess | @v2Line | 0,🇺🇸US | vmess | @ROMAX_VPN | 4
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 13,🇮🇪IE | trojan | @DirectVPN | 13,🇨🇦CA | ss | @OutlineVpnOfficial | 19,🇸🇪SE | trojan | @proxystore11 | 2,🇸🇬SG | vmess | @Hope_Net | 4,🇺🇸US | vmess | @v2Line | 0,🇺🇸US | vmess | @ROMAX_VPN | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
