@@ -106,14 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇸ES | ss | @OutlineVpnOfficial | 19"
+                "🇪🇸ES | ss | @OutlineVpnOfficial | 19",
+                "🇦🇪AE | ss | @kingofilter | 14"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇸ES | ss | @OutlineVpnOfficial | 19"
+                "🇪🇸ES | ss | @OutlineVpnOfficial | 19",
+                "🇦🇪AE | ss | @kingofilter | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -142,6 +144,16 @@
             "server_port": 8443,
             "method": "aes-256-gcm",
             "password": "241f9bb7-186b-4161-a517-84bece5b54a1",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | ss | @kingofilter | 14",
+            "type": "shadowsocks",
+            "server": "40.172.1.97",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         }
