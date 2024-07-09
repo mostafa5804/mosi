@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ]
@@ -118,6 +119,7 @@
             "outbounds": [
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🏳️XX | vless | @vpn_go67 | 21"
             ],
@@ -197,6 +199,42 @@
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "95.217.243.174",
+            "server_port": 2096,
+            "uuid": "0ce37b9c-8586-4d35-8030-0bfcd985daf6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eset.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iJh0Xj4nsXjxC0aNywuz4FvW2oYdmCKMRJbj-b5FjQY",
+                    "short_id": "6952fc62"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "eset.com"
+                ],
+                "path": "\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/melov2ray\/"
             }
         },
         {
