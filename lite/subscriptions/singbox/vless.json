@@ -122,7 +122,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 14",
+                "🇨🇦CA | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 37",
@@ -139,8 +139,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 4",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
@@ -179,7 +181,7 @@
                 "🇨🇦CA | vless | @proxy_kafee | 2",
                 "🇸🇪SE | vless | @v2logy | 12",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
-                "🇨🇦CA | vless | @V2rayCollector | 14",
+                "🇨🇦CA | vless | @V2rayCollector | 19",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 37",
@@ -196,8 +198,10 @@
                 "🇨🇦CA | vless | @vless_vmess | 4",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇨🇦CA | vless | @VmessProtocol | 11",
                 "🇨🇦CA | vless | @DailyV2RY | 134",
                 "🇳🇱NL | vless | @sinabigo | 2",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 12",
@@ -600,7 +604,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2rayCollector | 14",
+            "tag": "🇨🇦CA | vless | @V2rayCollector | 19",
             "type": "vless",
             "server": "172.66.46.224",
             "server_port": 443,
@@ -1020,6 +1024,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @VmessProtocol | 11",
+            "type": "vless",
+            "server": "www.visa.com.sg",
+            "server_port": 2096,
+            "uuid": "f3dc958a-1f2c-4d10-b781-b2deeaabecce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free1.fylink.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "free1.fylink.tech"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @DailyV2RY | 134",
             "type": "vless",
             "server": "172.64.146.118",
@@ -1076,6 +1111,37 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "162.159.152.152",
+            "server_port": 443,
+            "uuid": "eb0c4e16-8eab-44c0-b81e-403fb63d2942",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-v2rey.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "headers": {
+                    "Host": "join-v2rey.pages.dev"
                 }
             }
         },
