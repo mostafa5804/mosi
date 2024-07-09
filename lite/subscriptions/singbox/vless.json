@@ -139,18 +139,18 @@
                 "🇨🇦CA | vless | @vless_vmess | 5",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇸🇪SE | vless | @VmessProtocol | 11",
+                "🏳️XX | vless | @VmessProtocol | 10",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 11",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @SvnTeam | 17",
@@ -196,18 +196,18 @@
                 "🇨🇦CA | vless | @vless_vmess | 5",
                 "🇸🇪SE | vless | @vmess_vless_v2rayng | 1",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇸🇪SE | vless | @VmessProtocol | 11",
+                "🏳️XX | vless | @VmessProtocol | 10",
                 "🇳🇱NL | vless | @sinabigo | 2",
-                "🇮🇷IR | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 1",
                 "🇸🇪SE | vless | @polproxy | 7",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 6",
                 "🇺🇸US | vless | @flyv2ray | 11",
                 "🇸🇪SE | vless | @FAKEOFTVC | 0",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇺🇸US | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇺🇸US | vless | @SvnTeam | 17",
@@ -1018,39 +1018,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @VmessProtocol | 11",
+            "tag": "🏳️XX | vless | @VmessProtocol | 10",
             "type": "vless",
-            "server": "77.221.143.183",
-            "server_port": 33000,
-            "uuid": "d5e775de-0530-4062-a654-25dd2ba648d2",
-            "flow": "xtls-rprx-vision",
+            "server": "fc.mancity.lol",
+            "server_port": 4444,
+            "uuid": "de564f8c-5919-469f-ac24-9dd12b0e40c8",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JrN7nZEbUeBJFHTAKwtz5Dmd10SGgA8UCHEMLA2xOg0",
-                    "short_id": "be7f13dd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "b",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1083,17 +1061,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "217.60.245.4",
-            "server_port": 2083,
-            "uuid": "6c28de4c-b62f-48f9-8cb5-cfdb5a53e2c0",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "edf22b0c-b871-4ffc-9f8c-88a3e4f66338",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/SHHPROXY?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
@@ -1149,7 +1134,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 13",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
             "type": "vless",
             "server": "162.159.129.17",
             "server_port": 80,
@@ -1303,7 +1288,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2087,
