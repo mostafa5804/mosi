@@ -11,14 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @ConfigsHUB | 19 = vmess, 104.21.15.212, 443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"glweidf.sbs", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @v2Line | 3 = vmess, 172.67.175.56, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @v2Line | 3 = vmess, 172.67.175.56, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @kingofilter | 13 = vmess, 198.41.193.181, 80, username = 92791642-1471-4b93-980a-81030985f3ce, ws = true, tls = , vmess-aead = true, ws-path = /vmess, ws-headers = Host:"127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz.", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @ROMAX_VPN | 2 = vmess, nodejs.org, 443, username = 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, ws = true, tls = 1, vmess-aead = true, ws-path = /QvtvPdDXXIlSdZMqnuxG, ws-headers = Host:"hdfy1c1.cpiforpersia.uk", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @ConfigsHUB | 19,🇨🇦CA | vmess | @v2Line | 3,🇺🇸US | vmess | @kingofilter | 13,🇺🇸US | vmess | @ROMAX_VPN | 2
-URL-TEST = url-test,🇨🇦CA | vmess | @ConfigsHUB | 19,🇨🇦CA | vmess | @v2Line | 3,🇺🇸US | vmess | @kingofilter | 13,🇺🇸US | vmess | @ROMAX_VPN | 2
-FALLBACK = fallback,🇨🇦CA | vmess | @ConfigsHUB | 19,🇨🇦CA | vmess | @v2Line | 3,🇺🇸US | vmess | @kingofilter | 13,🇺🇸US | vmess | @ROMAX_VPN | 2
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 3,🇺🇸US | vmess | @kingofilter | 13,🇺🇸US | vmess | @ROMAX_VPN | 2
+URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 3,🇺🇸US | vmess | @kingofilter | 13,🇺🇸US | vmess | @ROMAX_VPN | 2
+FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 3,🇺🇸US | vmess | @kingofilter | 13,🇺🇸US | vmess | @ROMAX_VPN | 2
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
