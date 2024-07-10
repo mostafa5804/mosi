@@ -109,9 +109,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 5",
-                "🇺🇸US | vmess | @DailyV2RY | 164",
+                "🇺🇸US | vmess | @DailyV2RY | 165",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @kingofilter | 13",
@@ -125,9 +125,9 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 5",
-                "🇺🇸US | vmess | @DailyV2RY | 164",
+                "🇺🇸US | vmess | @DailyV2RY | 165",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇫🇷FR | vmess | @Hope_Net | 1",
+                "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vmess | @v2Line | 4",
                 "🇺🇸US | vmess | @kingofilter | 13",
@@ -205,7 +205,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 164",
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 165",
             "type": "vmess",
             "server": "155.138.164.71",
             "server_port": 8881,
@@ -256,11 +256,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | @Hope_Net | 1",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "23.162.152.6",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "104.19.47.20",
+            "server_port": 8443,
+            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -270,6 +270,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk01.linkitnow.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hk01.linkitnow.net"
+                }
             }
         },
         {
