@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 17",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -134,7 +135,7 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 5",
                 "🇹🇷TR | vless | @Outline_Vpn | 18",
                 "🏳️XX | vless | @prrofile_purple | 180",
-                "🇸🇪SE | vless | @customv2ray | 16",
+                "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
@@ -149,13 +150,13 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -179,6 +180,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 17",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -207,7 +209,7 @@
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 5",
                 "🇹🇷TR | vless | @Outline_Vpn | 18",
                 "🏳️XX | vless | @prrofile_purple | 180",
-                "🇸🇪SE | vless | @customv2ray | 16",
+                "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 17",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
@@ -222,13 +224,13 @@
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 18",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vmess | @v2rayng_config_amin | 3",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -266,6 +268,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 17",
+            "type": "vless",
+            "server": "iranserver.com",
+            "server_port": 8080,
+            "uuid": "cbd0bb00-295e-448f-b07f-47164e8e8196",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "iranserver.com"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 3",
@@ -905,11 +928,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @customv2ray | 16",
+            "tag": "🇨🇦CA | vless | @customv2ray | 15",
             "type": "vless",
-            "server": "VPNCUSTOMIZE.Elmahstyle.ir",
-            "server_port": 8080,
-            "uuid": "join_Bede_VPNCUSTOMIZE",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "262e9f21-aef4-47ab-8a81-c16f9ee9bbe1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -917,11 +940,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "VIOlEtKaUfman.PAGes.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "path": "\/Telegram-@proxy_mtm\/?ed=2560",
                 "headers": {
-                    "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                    "Host": "VIOlEtKaUfman.PAGes.dev"
                 }
             }
         },
@@ -1236,11 +1269,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "917154b1-1059-4431-b9f0-3acb7545b495",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "475175eb-b0c7-4d14-9047-bc06295a77c2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1250,9 +1283,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/SHHPROXY?ed=8080",
+                "path": "\/melo\/is\/needed",
                 "headers": {
-                    "Host": "www.parsvds.ir"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1408,11 +1441,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 18",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-kjo",
+            "uuid": "Telegram-ipV2Ray-mkp",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
