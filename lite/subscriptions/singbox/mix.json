@@ -154,7 +154,7 @@
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
@@ -228,7 +228,7 @@
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 1",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
@@ -1261,9 +1261,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "ec717b2d-85cc-4cbe-aef0-15b636f9e529",
+            "server": "104.24.196.20",
+            "server_port": 2053,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1273,7 +1273,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "grpc2.sharesite.ir",
+                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1282,11 +1282,11 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "grizzlyvpn\/?ed=2056",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
+                "headers": {
+                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
+                }
             }
         },
         {
@@ -1386,11 +1386,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "104.19.47.20",
-            "server_port": 8443,
-            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
+            "server": "104.20.239.88",
+            "server_port": 80,
+            "uuid": "9ac947aa-de86-41c3-9a60-4c061c7c95f0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1401,21 +1401,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hk01.linkitnow.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "hk01.linkitnow.net"
+                    "Host": ""
                 }
             }
         },
