@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 14",
@@ -128,7 +129,6 @@
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🇩🇪DE | vless | @prrofile_purple | 172",
                 "🇸🇪SE | vless | @customv2ray | 17",
-                "🇨🇦CA | vless | @UnlimitedDev | 24",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
                 "🇸🇪SE | vless | @ServerNett | 10",
@@ -163,6 +163,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 16",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇮🇪IE | vless | @VlessConfig | 14",
@@ -185,7 +186,6 @@
                 "🇫🇮FI | vless | @Outline_Vpn | 18",
                 "🇩🇪DE | vless | @prrofile_purple | 172",
                 "🇸🇪SE | vless | @customv2ray | 17",
-                "🇨🇦CA | vless | @UnlimitedDev | 24",
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇸🇪SE | vless | @ShadowProxy66 | 31",
                 "🇸🇪SE | vless | @ServerNett | 10",
@@ -234,6 +234,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 16",
+            "type": "vless",
+            "server": "iranserver.com",
+            "server_port": 8080,
+            "uuid": "adef69de-dc26-467f-8b12-1b83873f016e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "iranserver.com"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 3",
@@ -395,22 +416,15 @@
         {
             "tag": "🇨🇦CA | vless | @shh_proxy | 26",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2095,
-            "uuid": "7051c184-f262-4d46-af75-ae2fa5f75069",
+            "server": "104.22.13.192",
+            "server_port": 80,
+            "uuid": "2fd08a76-5ae7-47a7-b2a1-0c75612bc992",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-@Shh_Proxy-@Shh_Proxy-@Shh_Proxy--@Shh_Proxy--",
-                "headers": {
-                    "Host": "zula.ir"
-                }
             }
         },
         {
@@ -460,7 +474,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "4fa71bbe-0a81-435d-84d4-7541d6e7ff6a",
+            "uuid": "3116de53-e9aa-4b9c-a19e-f000b93a8a1b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -742,27 +756,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 24",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 8080,
-            "uuid": "0cef6bd4-1bef-456f-aa71-a90e90b283b6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
-                "headers": {
-                    "Host": "zula.ir"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vless | @vmessorg | 11",
             "type": "vless",
             "server": "104.16.229.250",
@@ -1029,9 +1022,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "162.159.36.195",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "f3b30ea0-3239-448a-a43c-6bb5522b1325",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1039,21 +1032,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
