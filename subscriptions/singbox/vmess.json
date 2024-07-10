@@ -131,6 +131,8 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 133",
                 "🇺🇸US | vmess | @DailyV2RY | 134",
+                "🇺🇸US | vmess | @ConfigsHUB | 3",
+                "🇺🇸US | vmess | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -142,6 +144,7 @@
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @v2Line | 2",
                 "🇺🇸US | vmess | @v2Line | 3",
+                "🇺🇸US | vmess | @v2Line | 4",
                 "🇸🇪SE | vmess | @FreakConfig | 7",
                 "🇺🇸US | vmess | @kingofilter | 1",
                 "🇺🇸US | vmess | @kingofilter | 4",
@@ -181,6 +184,8 @@
                 "🇺🇸US | vmess | @v2ray1_ng | 5",
                 "🇺🇸US | vmess | @DailyV2RY | 133",
                 "🇺🇸US | vmess | @DailyV2RY | 134",
+                "🇺🇸US | vmess | @ConfigsHUB | 3",
+                "🇺🇸US | vmess | @ConfigsHUB | 15",
                 "🇳🇱NL | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @yaney_01 | 2",
                 "🏳️XX | vmess | @yaney_01 | 3",
@@ -192,6 +197,7 @@
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vmess | @v2Line | 2",
                 "🇺🇸US | vmess | @v2Line | 3",
+                "🇺🇸US | vmess | @v2Line | 4",
                 "🇸🇪SE | vmess | @FreakConfig | 7",
                 "🇺🇸US | vmess | @kingofilter | 1",
                 "🇺🇸US | vmess | @kingofilter | 4",
@@ -822,6 +828,64 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 3",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/XV2ra",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @ConfigsHUB | 15",
+            "type": "vmess",
+            "server": "104.19.47.214",
+            "server_port": 8443,
+            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk01.linkitnow.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hk01.linkitnow.net"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -1042,6 +1106,40 @@
         {
             "tag": "🇺🇸US | vmess | @v2Line | 0",
             "type": "vmess",
+            "server": "nodejs.org",
+            "server_port": 443,
+            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy1c1.cpiforpersia.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/QvtvPdDXXIlSdZMqnuxG",
+                "headers": {
+                    "Host": "hdfy1c1.cpiforpersia.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @v2Line | 1",
+            "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
             "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -1074,7 +1172,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 1",
+            "tag": "🇺🇸US | vmess | @v2Line | 2",
             "type": "vmess",
             "server": "jahfkjha.cfd",
             "server_port": 443,
@@ -1108,7 +1206,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 2",
+            "tag": "🇺🇸US | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -1142,7 +1240,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @v2Line | 3",
+            "tag": "🇺🇸US | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
