@@ -133,7 +133,6 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 11",
-                "🇸🇪SE | vless | @ShadowProxy66 | 36",
                 "🇸🇪SE | vless | @ServerNett | 9",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
                 "🇮🇷IR | vless | @v2ray1_ng | 11",
@@ -143,8 +142,9 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
@@ -192,7 +192,6 @@
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 19",
                 "🇨🇦CA | vless | @vmessorg | 11",
-                "🇸🇪SE | vless | @ShadowProxy66 | 36",
                 "🇸🇪SE | vless | @ServerNett | 9",
                 "🇸🇪SE | vless | @v2ray_swhil | 11",
                 "🇮🇷IR | vless | @v2ray1_ng | 11",
@@ -202,8 +201,9 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
+                "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
                 "🇺🇸US | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
@@ -866,27 +866,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ShadowProxy66 | 36",
-            "type": "vless",
-            "server": "185.146.173.237",
-            "server_port": 8880,
-            "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPN_PROXY66.VPN_PROXY66",
-                "headers": {
-                    "Host": "185.146.173.237"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | vless | @ServerNett | 9",
             "type": "vless",
             "server": "185.146.173.58",
@@ -1107,11 +1086,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "www.visa.com",
+            "server": "172.66.44.55",
             "server_port": 443,
-            "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
+            "uuid": "104380d8-f859-421a-bd11-29b2c9fbfa99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1121,7 +1100,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "bpb-worker-panel3.pages.dev",
+                "server_name": "famil-5c8.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1131,9 +1110,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/",
                 "headers": {
-                    "Host": "bpb-worker-panel3.pages.dev"
+                    "Host": "famil-5c8.pages.dev"
                 }
             }
         },
@@ -1165,6 +1144,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "z61.maduss.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @free1_vpn | 0",
+            "type": "vless",
+            "server": "www.visa.com",
+            "server_port": 443,
+            "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb-worker-panel3.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "bpb-worker-panel3.pages.dev"
                 }
             }
         },
