@@ -148,7 +148,7 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -219,7 +219,7 @@
                 "🇸🇪SE | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 15",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
-                "🇮🇷IR | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -1194,11 +1194,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "2.189.59.6",
-            "server_port": 443,
-            "uuid": "eed00255-0022-4a62-b217-d0aaa1c130c7",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "b1c917c0-cf2a-43b8-8d21-43cbe0a1759a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1206,22 +1206,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram-configMs",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
             }
         },
         {
