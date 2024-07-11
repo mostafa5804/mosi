@@ -106,9 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 17",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇫🇷FR | vless | @VlessConfig | 16",
+                "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 11",
@@ -141,15 +142,14 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 8",
                 "🇺🇸US | vless | @flyv2ray | 8",
-                "🇸🇪SE | vless | @FAKEOFTVC | 1",
+                "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -163,9 +163,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 17",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇫🇷FR | vless | @VlessConfig | 16",
+                "🇬🇧GB | vless | @VlessConfig | 16",
                 "🇸🇪SE | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 11",
                 "🇨🇦CA | vless | @melov2ray | 11",
@@ -198,15 +199,14 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 8",
                 "🇺🇸US | vless | @flyv2ray | 8",
-                "🇸🇪SE | vless | @FAKEOFTVC | 1",
+                "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 3",
                 "🇺🇸US | vless | @kiava | 7",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -234,6 +234,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 17",
+            "type": "vless",
+            "server": "iranserver.com",
+            "server_port": 8080,
+            "uuid": "ae52d7a4-57bd-48f1-9343-f4557444071e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "iranserver.com"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 3",
@@ -278,9 +299,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 16",
+            "tag": "🇬🇧GB | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "13.37.165.94",
+            "server": "35.177.250.28",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -1061,37 +1082,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "104.19.230.57",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "523afb17.IRS23.pAgES.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-proxy_mtm\/?ed=2560",
-                "headers": {
-                    "Host": "523afb17.IRS23.pAgES.Dev"
-                }
-            }
-        },
-        {
             "tag": "🏳️XX | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "z61.maduss.com",
@@ -1175,7 +1165,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 11",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "104.18.41.138",
             "server_port": 8443,
@@ -1287,11 +1277,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @FAKEOFTVC | 1",
+            "tag": "🇮🇷IR | vless | @FAKEOFTVC | 0",
             "type": "vless",
-            "server": "185.146.173.69",
-            "server_port": 2095,
-            "uuid": "cb1946d2-fba4-4713-a629-f7d76277f069",
+            "server": "5.34.196.154",
+            "server_port": 8080,
+            "uuid": "IPCF_BEHEMAIAT",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1301,9 +1291,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@HAMEKHADAMAT TEL  @HAMEKHADAMAT TEL  @HAMEKHADAMAT TEL  @HAMEKHADAMAT JOIN @HAMEKHADAMAT TEL  @HAMEKHADAMAT JOIN @HAMEKHADAMAT TEL  @HAMEKHADAMAT TEL  @HAMEKHADAMAT JOIN @HAMEKHADAMAT TEL  @ZEDMODEO",
+                "path": "\/@HAMEKHADAMAT TEL  @HAMEKHADAMAT TEL  @HAMEKHADAMAT TEL  @HAMEKHADAMAT JOIN @HAMEKHADAMAT TEL  @HAMEKHADAMAT JOIN @HAMEKHADAMAT TEL  @HAMEKHADAMAT TEL  @HAMEKHADAMAT JOIN @HAMEKHADAMAT TEL  @HAMEKHADAMAT",
                 "headers": {
-                    "Host": "185.146.173.69"
+                    "Host": "5.34.196.154"
                 }
             }
         },
