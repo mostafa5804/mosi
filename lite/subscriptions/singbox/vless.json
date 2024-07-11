@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 19",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -142,13 +141,13 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
-                "🇺🇸US | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 8",
                 "🇺🇸US | vless | @flyv2ray | 8",
                 "🇸🇪SE | vless | @FAKEOFTVC | 1",
@@ -165,7 +164,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 19",
                 "🇨🇦CA | vless | @Parsashonam | 3",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 16",
@@ -201,13 +199,13 @@
                 "🇨🇦CA | vless | @VmessProtocol | 7",
                 "🇳🇱NL | vless | @sinabigo | 2",
                 "🇸🇪SE | vless | @lrnbymaa | 17",
-                "🇨🇦CA | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | vless | @ConfigsHUB | 17",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @polproxy | 6",
-                "🇺🇸US | vless | @Outlinev2rayNG | 15",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 15",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 11",
-                "🇺🇸US | vless | @Capital_NET | 45",
+                "🏳️XX | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 8",
                 "🇺🇸US | vless | @flyv2ray | 8",
                 "🇸🇪SE | vless | @FAKEOFTVC | 1",
@@ -238,27 +236,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 19",
-            "type": "vless",
-            "server": "iranserver.com",
-            "server_port": 8080,
-            "uuid": "cbd0bb00-295e-448f-b07f-47164e8e8196",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
-                "headers": {
-                    "Host": "iranserver.com"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 3",
@@ -1086,12 +1063,12 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "zula.ir.",
-            "server_port": 443,
-            "uuid": "10ac2063-b568-460d-b42b-9b852eb1247e",
-            "flow": "",
+            "server": "109.120.176.113",
+            "server_port": 1234,
+            "uuid": "1149be91-5a4f-47de-995f-66f8d7d64498",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1100,19 +1077,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "my.v.com.",
+                "server_name": "www.icloud.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN-Telegram:@PARDAZESHVPN?ed=1024",
-                "headers": {
-                    "Host": "my.v.com."
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L2b7MW4F9bT8ALwebQtCbXGTaH5sl9o97BxmynrlxHo",
+                    "short_id": "8f90c18dc7b2652b"
                 }
             }
         },
@@ -1200,7 +1175,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 15",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1252,7 +1227,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Capital_NET | 45",
+            "tag": "🏳️XX | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
