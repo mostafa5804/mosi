@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 15",
+                "🇨🇦CA | vless | @EliV2ray | 17",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -142,7 +142,7 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -169,7 +169,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 15",
+                "🇨🇦CA | vless | @EliV2ray | 17",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -205,7 +205,7 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇸🇪SE | vless | @ConfigsHUB | 19",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -248,7 +248,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
+            "tag": "🇨🇦CA | vless | @EliV2ray | 17",
             "type": "vless",
             "server": "iranserver.com",
             "server_port": 8080,
@@ -1098,11 +1098,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "DIGIV2RAy",
+            "server": "172.64.111.69",
+            "server_port": 8443,
+            "uuid": "b29ac608-bca6-426d-907c-5b0964aa43b1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1110,11 +1110,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "MOJ.Bklink.IR.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.68"
+                    "Host": "MOJ.Bklink.IR."
                 }
             }
         },
@@ -1225,9 +1235,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2087,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "avval.ir",
+            "server_port": 8443,
+            "uuid": "51d19c6d-d0bf-4e0b-8eef-9a1d3f13c7e6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1237,7 +1247,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mt.mashtimji.ir",
+                "server_name": "vip-romax-tiktok.hsjsak.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1247,9 +1257,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "path": "\/vless-ws\/?ed",
                 "headers": {
-                    "Host": "mt.mashtimji.ir"
+                    "Host": "vip-romax-tiktok.hsjsak.ir"
                 }
             }
         },
