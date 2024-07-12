@@ -120,7 +120,7 @@
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @servermomo | 1",
@@ -145,8 +145,9 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
+                "🇨🇦CA | vless | @DailyV2RY | 126",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -191,7 +192,7 @@
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
-                "🇨🇦CA | vless | @proxy_kafee | 4",
+                "🇨🇦CA | vless | @proxy_kafee | 3",
                 "🇸🇪SE | vless | @v2logy | 10",
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @servermomo | 1",
@@ -216,8 +217,9 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
+                "🇨🇦CA | vless | @DailyV2RY | 126",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
-                "🇨🇦CA | vmess | @ConfigsHUB | 19",
+                "🇮🇷IR | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -568,7 +570,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @proxy_kafee | 4",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2095,
@@ -778,7 +780,7 @@
         {
             "tag": "🇩🇪DE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "18.194.156.96",
+            "server": "3.76.5.71",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1151,6 +1153,37 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 126",
+            "type": "vless",
+            "server": "blogs.khirs.com",
+            "server_port": 2096,
+            "uuid": "1149be91-5a4f-47de-995f-66f8d7d64498",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "De01.SiMaNsAnAt.Ir.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "De01.SiMaNsAnAt.Ir."
+                }
+            }
+        },
+        {
             "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "51.77.53.200",
@@ -1161,27 +1194,17 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇮🇷IR | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "85.133.204.129",
+            "server_port": 4001,
+            "uuid": "e7feccc7-87c5-4361-ae7e-83e83c92d991",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -1349,9 +1372,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "9791751b-cfe8-4eb5-ad96-b3626d3ba181",
+            "server": "172.67.177.201",
+            "server_port": 443,
+            "uuid": "5af10469-3ec3-4353-94d2-297b7215a15b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1359,11 +1382,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "continuity.sasuke.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy-Telegram-free_v2rayyy",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "continuity.sasuke.ir"
                 }
             }
         },
