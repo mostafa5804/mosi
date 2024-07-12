@@ -144,7 +144,7 @@
                 "🇸🇪SE | vless | @v2ray_swhil | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @MTConfig | 11",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇮🇷IR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
@@ -159,7 +159,7 @@
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 5",
-                "🇺🇸US | vless | @flyv2ray | 10",
+                "🇺🇸US | vless | @flyv2ray | 11",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
@@ -216,7 +216,7 @@
                 "🇸🇪SE | vless | @v2ray_swhil | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 13",
                 "🇨🇦CA | vless | @MTConfig | 11",
-                "🇨🇦CA | vless | @V2RayTz | 19",
+                "🇮🇷IR | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
@@ -231,7 +231,7 @@
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 5",
-                "🇺🇸US | vless | @flyv2ray | 10",
+                "🇺🇸US | vless | @flyv2ray | 11",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
                 "🇸🇪SE | vless | @mehrosaboran | 5",
                 "🇺🇸US | vless | @kiava | 8",
@@ -469,7 +469,7 @@
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "8a9ece2a-0724-44b6-9ce9-a6090a2dfdd7",
+            "uuid": "5631df39-0f66-4b1b-bcf3-a7b5dd9e3b06",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1122,11 +1122,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2RayTz | 19",
+            "tag": "🇮🇷IR | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 2095,
-            "uuid": "DIGIV2Ray",
+            "server": "2.189.59.6",
+            "server_port": 443,
+            "uuid": "eed00255-0022-4a62-b217-d0aaa1c130c7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1134,12 +1134,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "172.67.204.84"
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.unlimiteddev-vpn.Com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Channel:@UnlimitedDev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1186,9 +1196,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "162.159.24.142",
-            "server_port": 80,
-            "uuid": "c4a33847-5816-4462-e1a0-61bc46c9a8ec",
+            "server": "104.19.104.150",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1196,11 +1206,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/df38fGe9tgDG0dddakg84LsdfOdjg8.",
+                "path": "\/?ed=2560\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
                 "headers": {
-                    "Host": "162.159.24.142"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1513,11 +1533,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @flyv2ray | 10",
+            "tag": "🇺🇸US | vless | @flyv2ray | 11",
             "type": "vless",
-            "server": "proxyforopetaa.bestgameir.ir",
-            "server_port": 2083,
-            "uuid": "6cd2d2e7-95fe-4a64-96b8-8381615cb3d7",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "94dac470-7ebf-4483-a904-6bb6e8d12a87",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1525,21 +1545,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "proxyforopetaa.bestgameir.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/JoinChanel-@proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.@proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "proxyforopetaa.bestgameir.ir"
+                    "Host": "zula.ir"
                 }
             }
         },
