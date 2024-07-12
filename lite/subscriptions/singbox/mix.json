@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
                 "🇮🇪IE | trojan | @PrivateVPNs | 16",
-                "🇺🇸US | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇮🇷IR | vmess | @oneclickvpnkeys | 3",
@@ -146,7 +146,8 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -200,7 +201,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
                 "🇮🇪IE | trojan | @PrivateVPNs | 16",
-                "🇺🇸US | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇮🇷IR | vmess | @oneclickvpnkeys | 3",
@@ -217,7 +218,8 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+                "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -329,7 +331,7 @@
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 16",
             "type": "vless",
-            "server": "34.248.121.249",
+            "server": "54.220.207.127",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -756,7 +758,7 @@
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "34.249.217.55",
+            "server": "54.170.135.22",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -776,9 +778,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 16",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "100.28.115.241",
+            "server": "13.50.83.66",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1172,14 +1174,35 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 17",
+            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "beedoost.org",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
+            "server": "51.77.53.200",
+            "server_port": 8119,
+            "method": "aes-256-gcm",
+            "password": "cdBIDV42DCwnfIN",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "162.159.24.142",
+            "server_port": 80,
+            "uuid": "c4a33847-5816-4462-e1a0-61bc46c9a8ec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/df38fGe9tgDG0dddakg84LsdfOdjg8.",
+                "headers": {
+                    "Host": "162.159.24.142"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @proxystore11 | 3",
