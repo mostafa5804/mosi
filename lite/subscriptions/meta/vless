@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇨🇦CA | vless | @EliV2ray | 15","type":"vless","server":"iranserver.com","port":8080,"udp":false,"uuid":"9f225a66-54fc-4a94-8dfd-9f1e3f114a8a","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev","headers":{"host":"unlimiteddev-vpn.unlimiteddev.Community."}}}
   - {"name":"🇨🇦CA | vless | @NIM_VPN_ir | 8","type":"vless","server":"zula.ir","port":80,"udp":false,"uuid":"547045a7-3ca1-41b7-af58-f74f8d43426a","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/","headers":{"host":"asdwds.kolacghi.ir"}}}
   - {"name":"🇫🇷FR | vless | @VlessConfig | 15","type":"vless","server":"13.38.177.240","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇨🇦CA | vless | @melov2ray | 11","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"3b15e3b5-5040-4d70-ae96-0af76d78b713","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray/melov2ray","headers":{"host":"ch1.dontbow.store."}}}
@@ -166,6 +167,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇨🇦CA | vless | @EliV2ray | 15'
       - '🇨🇦CA | vless | @NIM_VPN_ir | 8'
       - '🇫🇷FR | vless | @VlessConfig | 15'
       - '🇨🇦CA | vless | @melov2ray | 11'
@@ -212,6 +214,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇨🇦CA | vless | @EliV2ray | 15'
       - '🇨🇦CA | vless | @NIM_VPN_ir | 8'
       - '🇫🇷FR | vless | @VlessConfig | 15'
       - '🇨🇦CA | vless | @melov2ray | 11'
@@ -257,6 +260,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇨🇦CA | vless | @EliV2ray | 15'
       - '🇨🇦CA | vless | @NIM_VPN_ir | 8'
       - '🇫🇷FR | vless | @VlessConfig | 15'
       - '🇨🇦CA | vless | @melov2ray | 11'

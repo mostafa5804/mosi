@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -141,12 +142,12 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -168,6 +169,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @Parsashonam | 5",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇫🇷FR | vless | @VlessConfig | 15",
@@ -203,12 +205,12 @@
                 "🇮🇷IR | vless | @VmessProtocol | 10",
                 "🏳️XX | vless | @DailyV2RY | 150",
                 "🇸🇪SE | vless | @sinabigo | 1",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇸🇪SE | vless | @ConfigsHUB | 19",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -244,6 +246,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
+            "type": "vless",
+            "server": "iranserver.com",
+            "server_port": 8080,
+            "uuid": "9f225a66-54fc-4a94-8dfd-9f1e3f114a8a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "iranserver.com"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 5",
@@ -1075,9 +1098,9 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇸🇪SE | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "zula.ir",
+            "server": "185.146.173.68",
             "server_port": 2095,
             "uuid": "DIGIV2RAy",
             "flow": "",
@@ -1091,7 +1114,7 @@
                 "type": "ws",
                 "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "185.146.173.68"
                 }
             }
         },
@@ -1200,7 +1223,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 2087,
