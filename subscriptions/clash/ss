@@ -118,9 +118,10 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇫🇷FR | ss | @OutlineVpnOfficial | 1","type":"ss","server":"92.243.27.51","port":9802,"password":"5YBFWHQqw9vutAvKas9Wd0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 2","type":"ss","server":"188.212.132.20","port":52952,"password":"XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 3","type":"ss","server":"us-ain.yangon.club","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | ss | @OutlineVpnOfficial | 4","type":"ss","server":"92.243.27.51","port":9802,"password":"U4D84cy6AL3DaC54iwDToP","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 5","type":"ss","server":"188.212.132.20","port":52952,"password":"XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | ss | @OutlineVpnOfficial | 6","type":"ss","server":"paris.telegavpn.com","port":9802,"password":"EdgGhxDpnk1FCdsr48p0Jx","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 8","type":"ss","server":"51.77.53.200","port":4444,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
   - {"name":"🇳🇱NL | ss | @OutlineVpnOfficial | 9","type":"ss","server":"193.29.139.162","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
@@ -130,8 +131,6 @@ proxies:
   - {"name":"🇪🇸ES | ss | @OutlineVpnOfficial | 13","type":"ss","server":"176.97.72.219","port":1080,"password":"3pURuTUf-lFgg5qWg8euFA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪DE | ss | @OutlineVpnOfficial | 14","type":"ss","server":"81.19.141.45","port":52873,"password":"I1onhFIawC9IpNB2ZE73CK","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | ss | @OutlineVpnOfficial | 15","type":"ss","server":"38.111.114.133","port":4444,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 16","type":"ss","server":"23.154.136.51","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 17","type":"ss","server":"51.77.53.200","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
   - {"name":"🇬🇧GB | ss | @kingofilter | 8","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -139,9 +138,10 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇫🇷FR | ss | @OutlineVpnOfficial | 1'
+      - '🇳🇱NL | ss | @OutlineVpnOfficial | 2'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 3'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 4'
-      - '🇳🇱NL | ss | @OutlineVpnOfficial | 5'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 6'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 8'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 9'
@@ -151,8 +151,6 @@ proxy-groups:
       - '🇪🇸ES | ss | @OutlineVpnOfficial | 13'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 14'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
       - '🇬🇧GB | ss | @kingofilter | 8'
   - name: URL-TEST
     type: url-test
@@ -160,9 +158,10 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇫🇷FR | ss | @OutlineVpnOfficial | 1'
+      - '🇳🇱NL | ss | @OutlineVpnOfficial | 2'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 3'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 4'
-      - '🇳🇱NL | ss | @OutlineVpnOfficial | 5'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 6'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 8'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 9'
@@ -172,17 +171,16 @@ proxy-groups:
       - '🇪🇸ES | ss | @OutlineVpnOfficial | 13'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 14'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
       - '🇬🇧GB | ss | @kingofilter | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇫🇷FR | ss | @OutlineVpnOfficial | 1'
+      - '🇳🇱NL | ss | @OutlineVpnOfficial | 2'
       - '🇺🇸US | ss | @OutlineVpnOfficial | 3'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 4'
-      - '🇳🇱NL | ss | @OutlineVpnOfficial | 5'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 6'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 8'
       - '🇳🇱NL | ss | @OutlineVpnOfficial | 9'
@@ -192,8 +190,6 @@ proxy-groups:
       - '🇪🇸ES | ss | @OutlineVpnOfficial | 13'
       - '🇩🇪DE | ss | @OutlineVpnOfficial | 14'
       - '🇨🇦CA | ss | @OutlineVpnOfficial | 15'
-      - '🇺🇸US | ss | @OutlineVpnOfficial | 16'
-      - '🇵🇱PL | ss | @OutlineVpnOfficial | 17'
       - '🇬🇧GB | ss | @kingofilter | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
