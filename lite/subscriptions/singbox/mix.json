@@ -125,6 +125,7 @@
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @V2rayCollector | 19",
+                "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
@@ -132,7 +133,7 @@
                 "🇮🇪IE | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 1",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇮🇷IR | vless | @prrofile_purple | 171",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -154,7 +155,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -195,6 +196,7 @@
                 "🇰🇷KR | vless | @Watashi_VPN | 0",
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇸🇪SE | vless | @V2rayCollector | 19",
+                "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 4",
                 "🇸🇪SE | vless | @V2rayNGn | 18",
@@ -202,7 +204,7 @@
                 "🇮🇪IE | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 1",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
                 "🇨🇦CA | vless | @Outline_Vpn | 18",
                 "🇮🇷IR | vless | @prrofile_purple | 171",
                 "🇸🇪SE | vless | @customv2ray | 17",
@@ -224,7 +226,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 16",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 12",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -689,6 +691,23 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
+            "type": "vmess",
+            "server": "188.245.73.139",
+            "server_port": 41858,
+            "uuid": "acbc72c9-5b2b-4be2-8ffd-262cda898a3a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
             "type": "vless",
             "server": "zula.ir",
@@ -847,7 +866,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 1",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": "max.mankadmu.com",
             "server_port": 443,
@@ -1192,9 +1211,9 @@
         {
             "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "ad0f2ad6-c546-49a7-823b-f2fe9550996b",
+            "server": "172.66.45.32",
+            "server_port": 443,
+            "uuid": "a8a09765-7681-47ba-9ea0-e0ae79d51088",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1202,11 +1221,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "t-netplus-4vx.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SHHPROXY?ed=8080",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.parsvds.ir"
+                    "Host": "t-netplus-4vx.pages.dev"
                 }
             }
         },
@@ -1373,7 +1402,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "104.18.1.125",
             "server_port": 2082,
