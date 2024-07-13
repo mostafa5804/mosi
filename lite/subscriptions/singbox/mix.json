@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
@@ -136,25 +137,26 @@
                 "🇨🇷CR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 15",
-                "🇨🇦CA | vless | @UnlimitedDev | 17",
+                "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 14",
-                "🇨🇦CA | vless | @vless_vmess | 11",
+                "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | trojan | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -177,6 +179,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
@@ -207,25 +210,26 @@
                 "🇨🇷CR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 178",
                 "🇨🇦CA | vless | @customv2ray | 15",
-                "🇨🇦CA | vless | @UnlimitedDev | 17",
+                "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 10",
                 "🇨🇦CA | vless | @ShadowProxy66 | 29",
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇸🇪SE | vless | @v2ray_swhil | 10",
                 "🇨🇦CA | vless | @v2ray1_ng | 14",
-                "🇨🇦CA | vless | @vless_vmess | 11",
+                "🇨🇦CA | vless | @vless_vmess | 10",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | trojan | @ConfigsHUB | 16",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+                "🇺🇸US | vless | @Outlinev2rayNG | 16",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 13",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -262,6 +266,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 12",
+            "type": "vless",
+            "server": "repo.steampowered.com",
+            "server_port": 8080,
+            "uuid": "-ELiV2-ELiV2-ELiV2-ELiV2--",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/HPV-2ray--repo.steampowered.com?ed=8080",
+                "headers": {
+                    "Host": "repo.steampowered.com"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 8",
@@ -942,11 +967,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @UnlimitedDev | 17",
+            "tag": "🇨🇦CA | vless | @UnlimitedDev | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
-            "uuid": "cbd0bb00-295e-448f-b07f-47164e8e8196",
+            "uuid": "ae52d7a4-57bd-48f1-9343-f4557444071e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1078,7 +1103,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @vless_vmess | 11",
+            "tag": "🇨🇦CA | vless | @vless_vmess | 10",
             "type": "vless",
             "server": "104.18.1.125",
             "server_port": 2082,
@@ -1132,9 +1157,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 8080,
-            "uuid": "ad5a8195-95bb-42a0-ae4f-e317d17e738d",
+            "server": "104.17.148.22",
+            "server_port": 2087,
+            "uuid": "7b234c64-3dcd-445d-9009-34eb75287780",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1142,11 +1167,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "LiV2ry.lightning1.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/SHHPROXY?ed=8080",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
                 "headers": {
-                    "Host": "172.67.204.84"
+                    "Host": "LiV2ry.lightning1.ir"
                 }
             }
         },
@@ -1211,6 +1246,35 @@
             "password": "cdBIDV42DCwnfIN",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | trojan | @ConfigsHUB | 16",
+            "type": "trojan",
+            "server": "162.159.136.232",
+            "server_port": 8443,
+            "password": "auto",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e9464f45.trauma-2r4.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "e9464f45.trauma-2r4.pages.dev"
+                }
+            }
         },
         {
             "tag": "🏳️XX | vless | @proxystore11 | 3",
@@ -1375,7 +1439,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 16",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
             "server": "172.67.137.11",
             "server_port": 8080,
