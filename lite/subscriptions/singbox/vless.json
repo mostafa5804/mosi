@@ -111,6 +111,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 16",
@@ -139,14 +140,14 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 126",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇫🇷FR | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
-                "🇨🇦CA | vless | @v2rayng_config_amin | 2",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+                "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @flyv2ray | 11",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
@@ -169,6 +170,7 @@
                 "🇫🇷FR | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 9",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
+                "🇨🇦CA | vless | @melov2ray | 12",
                 "🇸🇪SE | vless | @V2pedia | 10",
                 "🇨🇦CA | vless | @frev2ray | 1",
                 "🇨🇦CA | vless | @ARv2ray | 16",
@@ -197,14 +199,14 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 10",
                 "🇨🇦CA | vless | @DailyV2RY | 126",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
+                "🇫🇷FR | vless | @ConfigsHUB | 15",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 15",
-                "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
-                "🇨🇦CA | vless | @v2rayng_config_amin | 2",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 12",
+                "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @flyv2ray | 11",
                 "🇮🇷IR | vless | @FAKEOFTVC | 0",
@@ -349,6 +351,27 @@
                 "path": "\/Telegram-ipV2Ray",
                 "headers": {
                     "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @melov2ray | 12",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "1cb2e864-5e31-4a5b-8626-361d85ae2c51",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/melo\/is\/needed",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
@@ -1002,11 +1025,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇫🇷FR | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2095,
-            "uuid": "DIGIV2ray",
+            "server": "15.236.157.123",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1014,11 +1037,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
-                    "Host": "zula.ir"
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
@@ -1148,7 +1181,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_vpnrog | 12",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 12",
             "type": "vless",
             "server": "104.18.41.138",
             "server_port": 8443,
@@ -1179,7 +1212,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 2",
+            "tag": "🇺🇸US | vless | @v2rayng_config_amin | 2",
             "type": "vless",
             "server": "172.66.44.181",
             "server_port": 443,
