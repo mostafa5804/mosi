@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇮🇪IE | vless | @VlessConfig | 16",
+                "🇮🇪IE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -137,9 +137,11 @@
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 15",
+                "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -166,7 +168,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
-                "🇮🇪IE | vless | @VlessConfig | 16",
+                "🇮🇪IE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
                 "🇸🇪SE | vless | @ipV2Ray | 12",
                 "🇨🇦CA | vless | @melov2ray | 10",
@@ -195,9 +197,11 @@
                 "🇸🇪SE | vless | @ServerNett | 12",
                 "🇨🇦CA | vless | @v2ray_swhil | 9",
                 "🇩🇪DE | vless | @v2ray1_ng | 15",
+                "🇨🇦CA | vless | @vless_vmess | 11",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -280,7 +284,7 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | @VlessConfig | 16",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 17",
             "type": "vless",
             "server": "34.240.254.34",
             "server_port": 22222,
@@ -456,7 +460,7 @@
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "8a13c98b-5cc9-446a-837b-eede16931c1e",
+            "uuid": "917154b1-1059-4431-b9f0-3acb7545b495",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -945,6 +949,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @vless_vmess | 11",
+            "type": "vless",
+            "server": "104.18.1.125",
+            "server_port": 2082,
+            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.18.1.125"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @MTConfig | 11",
             "type": "vless",
             "server": "all.vipxali.cfd",
@@ -979,8 +1004,8 @@
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "104.17.147.22",
-            "server_port": 8080,
-            "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
+            "server_port": 2087,
+            "uuid": "%30%63%64%37%34%30%38%31%2d%31%32%35%39%2d%34%38%36%34%2d%39%61%38%37%2d%39%38%62%37%30%35%36%64%33%33%30%65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -988,11 +1013,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "LiV2ry.lightning1.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
                 "headers": {
-                    "Host": "104.17.147.22"
+                    "Host": "LiV2ry.lightning1.ir"
                 }
             }
         },
@@ -1014,6 +1049,27 @@
                 "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
                 "headers": {
                     "Host": "VPNCUSTOMIZE.Elmahstyle.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "44822c9b-c651-4028-d7c9-2e8a3bd722d6",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vmessprotocol@vmessprotocol@vmessprotocol-v3rbuify.yinte.ir.shop.com?ed=2560",
+                "headers": {
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1248,7 +1304,7 @@
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "65e83037-ea8c-4cf9-a36b-1bf364bbb6fd",
+            "uuid": "455c9217-703b-451d-8b55-47852abbc2b0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1258,7 +1314,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
                     "Host": "www.parsvds.ir"
                 }
