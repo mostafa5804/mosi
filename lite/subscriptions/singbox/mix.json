@@ -110,7 +110,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
-                "🇸🇪SE | vless | @ipV2Ray | 12",
+                "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
@@ -132,7 +132,7 @@
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇷CR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 178",
@@ -149,7 +149,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -185,7 +185,7 @@
                 "🇨🇦CA | vless | @NIM_VPN_ir | 8",
                 "🇩🇪DE | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 11",
-                "🇸🇪SE | vless | @ipV2Ray | 12",
+                "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
                 "🇸🇪SE | vless | @V2pedia | 11",
                 "🇨🇦CA | vless | @frev2ray | 1",
@@ -207,7 +207,7 @@
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇺🇸US | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇷CR | vless | @Outline_Vpn | 18",
                 "🇸🇪SE | vless | @prrofile_purple | 178",
@@ -224,7 +224,7 @@
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
-                "🇫🇮FI | vless | @ConfigsHUB | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vless | @free1_vpn | 0",
@@ -366,24 +366,39 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ipV2Ray | 12",
+            "tag": "🇩🇪DE | vless | @ipV2Ray | 14",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 80,
-            "uuid": "Telegram-ipV2Ray-frw",
-            "flow": "",
+            "server": "188.245.69.77",
+            "server_port": 443,
+            "uuid": "Telegram-ipV2Ray-xio",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-ipV2Ray",
-                "headers": {
-                    "Host": "185.146.173.58"
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hbXVj1uC8AjgQrJMOPqkL3DqNKByyweB2SrbeRQ_6Xw",
+                    "short_id": "b1c8e3fa"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram-ipV2Ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -833,7 +848,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇺🇸US | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfd.ipa.monster",
             "server_port": 8080,
@@ -1218,31 +1233,23 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "65.108.220.44",
-            "server_port": 2087,
-            "uuid": "50a24f6f-3190-477f-bccf-35289131ce5d",
-            "flow": "xtls-rprx-vision",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "e4360b65-e5d6-4e84-a65a-b0f324b65126",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5Lms4pr_aOtRLckiJRgDfiDjD4fuYpN4zBLiAUu_e10",
-                    "short_id": "fe3b7d814f0c2e0f"
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "www.parsvds.ir"
                 }
             }
         },
