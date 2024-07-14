@@ -141,7 +141,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -202,7 +202,7 @@
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇺🇸US | vless | @DailyV2RY | 109",
                 "🇸🇪SE | vless | @lrnbymaa | 13",
-                "🇨🇦CA | vless | @ConfigsHUB | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 18",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
@@ -830,9 +830,9 @@
         {
             "tag": "🇨🇦CA | vless | @vmessorg | 10",
             "type": "vless",
-            "server": "104.18.74.104",
+            "server": "104.20.25.32",
             "server_port": 8080,
-            "uuid": "70059fed-be28-43fb-b2b7-1384075e7007",
+            "uuid": "f50e0469-3e74-4583-96bc-b6baa355093d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -844,7 +844,7 @@
                 "type": "ws",
                 "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "104.18.74.104"
+                    "Host": "104.20.25.32"
                 }
             }
         },
@@ -1037,11 +1037,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "172.67.177.201",
-            "server_port": 443,
-            "uuid": "5af10469-3ec3-4353-94d2-297b7215a15b",
+            "server": "104.25.19.43",
+            "server_port": 8080,
+            "uuid": "927eb03d-f806-4f21-88ea-de23d0f755ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1049,21 +1049,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "continuity.sasuke.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
                 "headers": {
-                    "Host": "continuity.sasuke.ir"
+                    "Host": "104.25.19.43"
                 }
             }
         },
