@@ -145,7 +145,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇹🇼TW | vless | @VmessProtocol | 13",
-                "🇺🇸US | vmess | @DailyV2RY | 106",
+                "🇨🇦CA | vless | @DailyV2RY | 106",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -160,7 +160,6 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vless | @FreakConfig | 10",
-                "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 1",
@@ -218,7 +217,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇹🇼TW | vless | @VmessProtocol | 13",
-                "🇺🇸US | vmess | @DailyV2RY | 106",
+                "🇨🇦CA | vless | @DailyV2RY | 106",
                 "🇨🇦CA | vless | @sinabigo | 1",
                 "🇸🇪SE | vless | @lrnbymaa | 10",
                 "🏳️XX | vless | @proxystore11 | 3",
@@ -233,7 +232,6 @@
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vmess | @v2Line | 1",
                 "🇺🇸US | vless | @FreakConfig | 10",
-                "🇺🇸US | vless | @FAKEOFTVC | 0",
                 "🇺🇸US | vless | @mehrosaboran | 7",
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 1",
@@ -420,7 +418,7 @@
         {
             "tag": "🇨🇦CA | vless | @ARv2ray | 15",
             "type": "vless",
-            "server": "www.speedtest.net",
+            "server": "108.162.195.205",
             "server_port": 2095,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
@@ -434,7 +432,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "108.162.195.205"
                 }
             }
         },
@@ -770,7 +768,7 @@
         {
             "tag": "🇩🇪DE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "3.64.199.140",
+            "server": "18.157.126.171",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1161,20 +1159,34 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 106",
-            "type": "vmess",
-            "server": "45.76.232.143",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 106",
+            "type": "vless",
+            "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+            "server_port": 443,
+            "uuid": "67e85955-02b7-46f3-b3d6-ca34a4b0ccc1",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir"
+                }
             }
         },
         {
@@ -1384,9 +1396,9 @@
         {
             "tag": "🇺🇸US | vless | @Outlinev2rayNG | 16",
             "type": "vless",
-            "server": "104.18.41.138",
-            "server_port": 8443,
-            "uuid": "1142470b-d8de-4e9d-99f9-dfefbbdb39e0",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "169c5a68-9d6a-4129-b4f4-5a0089397ab0",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1394,21 +1406,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg27.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
                 "headers": {
-                    "Host": "pardazeshvpn-tg27.pages.dev"
+                    "Host": "www.parsvds.ir"
                 }
             }
         },
@@ -1565,27 +1567,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "vip-romax-tiktok.hsjsak.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @FAKEOFTVC | 0",
-            "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "169c5a68-9d6a-4129-b4f4-5a0089397ab0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
-                "headers": {
-                    "Host": "www.parsvds.ir"
                 }
             }
         },
