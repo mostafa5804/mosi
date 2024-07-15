@@ -107,6 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @EliV2ray | 11",
+                "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇬🇧GB | vless | @VlessConfig | 13",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
@@ -167,6 +168,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @EliV2ray | 11",
+                "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇬🇧GB | vless | @VlessConfig | 13",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
@@ -259,6 +261,27 @@
                 "path": "\/HPV-2ray--repo.steampowered.com?ed=8080",
                 "headers": {
                     "Host": "repo.steampowered.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @Parsashonam | 9",
+            "type": "vless",
+            "server": "104.21.19.124",
+            "server_port": 8880,
+            "uuid": "Parsashonam-8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "104.21.19.124"
                 }
             }
         },
