@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇬🇧GB | vless | @VlessConfig | 13",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
@@ -179,7 +178,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 9",
                 "🇬🇧GB | vless | @VlessConfig | 13",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 13",
@@ -266,27 +264,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 13",
-            "type": "vless",
-            "server": "repo.steampowered.com",
-            "server_port": 8080,
-            "uuid": "-Telegram-id--ELiV2ray-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/HPV-2ray--repo.steampowered.com?ed=8080",
-                "headers": {
-                    "Host": "repo.steampowered.com"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 9",
