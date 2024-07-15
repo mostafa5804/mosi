@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 9",
-                "🇺🇸US | vless | @VlessConfig | 15",
+                "🇨🇦CA | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
@@ -155,7 +155,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -166,6 +166,7 @@
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
+                "🇬🇧GB | vless | @kingofilter | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 22",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -180,7 +181,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 9",
-                "🇺🇸US | vless | @VlessConfig | 15",
+                "🇨🇦CA | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 15",
                 "🇩🇪DE | vless | @ipV2Ray | 14",
                 "🇸🇪SE | vless | @melov2ray | 7",
@@ -228,7 +229,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 14",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -239,6 +240,7 @@
                 "🇺🇸US | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
+                "🇬🇧GB | vless | @kingofilter | 11",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 22",
                 "🏳️XX | vless | @IBv2ray | 4",
@@ -289,9 +291,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @VlessConfig | 15",
+            "tag": "🇨🇦CA | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "52.204.118.12",
+            "server": "35.183.60.106",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -763,7 +765,7 @@
         {
             "tag": "🇸🇪SE | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "16.171.204.16",
+            "server": "51.20.237.232",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -785,7 +787,7 @@
         {
             "tag": "🇨🇦CA | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "35.182.223.83",
+            "server": "3.97.212.233",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1444,7 +1446,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8080,
@@ -1728,6 +1730,27 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | @kingofilter | 11",
+            "type": "vless",
+            "server": "51.68.220.178",
+            "server_port": 80,
+            "uuid": "cb760ee3-de13-11ee-95c9-00505603e70d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "51.68.220.178"
+                }
             }
         },
         {
