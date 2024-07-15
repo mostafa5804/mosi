@@ -105,13 +105,16 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 19"
+            ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -131,6 +134,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 19",
+            "type": "shadowsocks",
+            "server": "paris.telegavpn.com",
+            "server_port": 9802,
+            "method": "chacha20-ietf-poly1305",
+            "password": "EdgGhxDpnk1FCdsr48p0Jx",
+            "plugin": "",
+            "plugin_opts": ""
         }
     ],
     "route": {
