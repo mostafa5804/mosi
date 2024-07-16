@@ -118,27 +118,27 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | ss | @OutlineVpnOfficial | 19","type":"ss","server":"92.243.27.51","port":9802,"password":"U4D84cy6AL3DaC54iwDToP","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | ss | @OutlineVpnOfficial | 19","type":"ss","server":"us-ain.yangon.club","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | ss | @OutlineVpnOfficial | 19'
+      - '🇺🇸US | ss | @OutlineVpnOfficial | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | ss | @OutlineVpnOfficial | 19'
+      - '🇺🇸US | ss | @OutlineVpnOfficial | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | ss | @OutlineVpnOfficial | 19'
+      - '🇺🇸US | ss | @OutlineVpnOfficial | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
