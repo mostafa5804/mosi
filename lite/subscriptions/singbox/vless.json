@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇮🇪IE | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -115,7 +116,7 @@
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 2",
-                "🇨🇦CA | vless | @lightning6 | 18",
+                "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇬SG | vless | @v2logy | 11",
@@ -146,7 +147,7 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 14",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -170,6 +171,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇮🇪IE | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -179,7 +181,7 @@
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 2",
-                "🇨🇦CA | vless | @lightning6 | 18",
+                "🇨🇦CA | vless | @lightning6 | 20",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
                 "🇸🇬SG | vless | @v2logy | 11",
@@ -210,7 +212,7 @@
                 "🇨🇦CA | vless | @free1_vpn | 0",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 14",
+                "🇺🇸US | vless | @Outlinev2rayNG | 14",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -248,6 +250,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "--Channel--ELiV2ray-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ELENA--repo.steampowered.com?ed=8080",
+                "headers": {
+                    "Host": "www.speedtest.net"
+                }
+            }
         },
         {
             "tag": "🇮🇪IE | vless | @VlessConfig | 15",
@@ -449,7 +472,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @lightning6 | 18",
+            "tag": "🇨🇦CA | vless | @lightning6 | 20",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -680,7 +703,7 @@
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
-            "uuid": "5af3a353-c53f-4800-98dc-d44609ad11f2",
+            "uuid": "65e83037-ea8c-4cf9-a36b-1bf364bbb6fd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1211,7 +1234,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 14",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
