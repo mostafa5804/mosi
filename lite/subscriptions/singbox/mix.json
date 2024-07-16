@@ -126,8 +126,8 @@
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇮🇪IE | trojan | @PrivateVPNs | 13",
-                "🇮🇪IE | trojan | @DirectVPN | 13",
+                "🇸🇪SE | trojan | @PrivateVPNs | 13",
+                "🇨🇦CA | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -199,8 +199,8 @@
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇮🇪IE | trojan | @PrivateVPNs | 13",
-                "🇮🇪IE | trojan | @DirectVPN | 13",
+                "🇸🇪SE | trojan | @PrivateVPNs | 13",
+                "🇨🇦CA | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
@@ -227,7 +227,7 @@
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @fnet00 | 5",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+                "🇺🇸US | vless | @Outlinev2rayNG | 17",
                 "🇱🇹LT | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -291,7 +291,7 @@
         {
             "tag": "🇺🇸US | vless | @VlessConfig | 13",
             "type": "vless",
-            "server": "100.28.67.43",
+            "server": "44.222.26.118",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -725,9 +725,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 13",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 13",
             "type": "trojan",
-            "server": "34.248.150.142",
+            "server": "16.170.197.54",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -747,9 +747,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 13",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 13",
             "type": "trojan",
-            "server": "52.17.55.54",
+            "server": "3.96.8.220",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1378,11 +1378,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 17",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 17",
             "type": "vless",
-            "server": "ip.v2catch.buzz",
-            "server_port": 2082,
-            "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
+            "server": "www.arizona.edu",
+            "server_port": 443,
+            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1390,11 +1390,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.Arizona.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ip.v2catch.buzz"
+                    "Host": "www.Arizona.edu"
                 }
             }
         },
