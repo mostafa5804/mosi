@@ -118,9 +118,7 @@
                 "🏳️XX | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 14",
                 "🏳️XX | vmess | @mftizi | 15",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 12",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 6",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 0",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
@@ -168,9 +166,7 @@
                 "🏳️XX | vmess | @mftizi | 13",
                 "🇨🇳CN | vmess | @mftizi | 14",
                 "🏳️XX | vmess | @mftizi | 15",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 12",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 16",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 17",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 6",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 0",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 1",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
@@ -468,11 +464,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 12",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 6",
             "type": "vmess",
-            "server": "104.19.47.239",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -483,59 +479,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai2",
-                "headers": {
-                    "Host": "104.19.47.239"
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 16",
-            "type": "vmess",
-            "server": "104.19.47.60",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai2",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "104.19.47.60"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 17",
-            "type": "vmess",
-            "server": "104.19.47.231",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai2",
-                "headers": {
-                    "Host": "104.19.47.231"
+                    "Host": "obdii.cfd"
                 }
             }
         },
