@@ -203,9 +203,9 @@
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "catel.yangon.club",
-            "server_port": 444,
-            "uuid": "43d16822-8ffa-45b6-9d1d-f5a1186d8aa1",
+            "server": "pandor.boats",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -218,12 +218,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "catel.yangon.club",
+                "server_name": "aveiror.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "aveiror.com"
                 }
             }
         },
