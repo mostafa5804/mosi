@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 4",
                 "🇺🇸US | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
@@ -155,7 +154,6 @@
                 "🇺🇸US | vless | @flyv2ray | 9",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 18",
@@ -169,7 +167,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 15",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 4",
                 "🇺🇸US | vless | @VlessConfig | 17",
                 "🇨🇦CA | vless | @ipV2Ray | 13",
@@ -218,7 +215,6 @@
                 "🇺🇸US | vless | @flyv2ray | 9",
                 "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 8",
-                "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
                 "🇨🇷CR | vless | @GozargahVPN | 13",
                 "🇺🇸US | vless | @SvnTeam | 18",
@@ -246,27 +242,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 15",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "Channel-ELiV2ray-ELiV2ray",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ELENA--repo.steampowered.com?ed=8080",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @NIM_VPN_ir | 4",
@@ -1014,9 +989,9 @@
         {
             "tag": "🇨🇦CA | vless | @V2RayTz | 18",
             "type": "vless",
-            "server": "172.67.138.69",
+            "server": "104.17.147.22",
             "server_port": 8080,
-            "uuid": "%65%32%31%63%30%31%61%39%2d%35%31%66%64%2d%34%31%37%36%2d%61%64%36%31%2d%31%66%32%65%30%66%65%64%66%31%39%30",
+            "uuid": "%37%37%65%32%37%64%61%32%2d%63%34%63%62%2d%34%30%38%34%2d%61%34%64%31%2d%61%65%37%37%35%63%64%61%62%33%35%32",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1026,9 +1001,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
-                    "Host": "172.67.138.69"
+                    "Host": "104.17.147.22"
                 }
             }
         },
@@ -1402,27 +1377,6 @@
                 "path": "\/join-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava,kiava-kiava",
                 "headers": {
                     "Host": "melonmusic.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @proxy_mtm | 2",
-            "type": "vless",
-            "server": "check-host.net",
-            "server_port": 80,
-            "uuid": "081aa6eb-809c-4ce8-b684-128f96bf1f00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM",
-                "headers": {
-                    "Host": "check-host.net"
                 }
             }
         },
