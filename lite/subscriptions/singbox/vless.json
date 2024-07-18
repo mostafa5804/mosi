@@ -141,13 +141,13 @@
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇱🇻LV | vless | @DailyV2RY | 215",
+                "🇺🇸US | vless | @DailyV2RY | 214",
                 "🇨🇦CA | vless | @sinabigo | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
@@ -203,13 +203,13 @@
                 "🇨🇦CA | vless | @vless_vmess | 15",
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
-                "🇱🇻LV | vless | @DailyV2RY | 215",
+                "🇺🇸US | vless | @DailyV2RY | 214",
                 "🇨🇦CA | vless | @sinabigo | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 11",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 5",
                 "🇨🇦CA | vless | @Outlinev2rayNG | 8",
-                "🇺🇸US | vless | @v2rayng_vpnrog | 10",
+                "🇺🇸US | vless | @v2rayng_vpnrog | 11",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
@@ -1025,12 +1025,12 @@
             }
         },
         {
-            "tag": "🇱🇻LV | vless | @DailyV2RY | 215",
+            "tag": "🇺🇸US | vless | @DailyV2RY | 214",
             "type": "vless",
-            "server": "de.tradex2080.com",
-            "server_port": 443,
-            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
-            "flow": "",
+            "server": "159.223.108.208",
+            "server_port": 12345,
+            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1039,20 +1039,25 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de.tradex2080.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
+                    "short_id": "c57d2373"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/gPGhgE3kwHBXqpNptGAxAtI0QM",
-                "headers": {
-                    "Host": "de.tradex2080.com"
-                }
+                "type": "http",
+                "host": [
+                    "refersion.com"
+                ],
+                "path": "\/"
             }
         },
         {
@@ -1171,7 +1176,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 10",
+            "tag": "🇺🇸US | vless | @v2rayng_vpnrog | 11",
             "type": "vless",
             "server": "104.24.20.71",
             "server_port": 443,
