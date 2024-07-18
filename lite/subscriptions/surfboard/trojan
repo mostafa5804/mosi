@@ -13,11 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇩🇪DE | trojan | @PrivateVPNs | 17 = trojan, 18.158.164.53, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇨🇦CA | trojan | @DirectVPN | 17 = trojan, 3.97.110.94, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇵🇱PL | trojan | @oneclickvpnkeys | 4 = trojan, 151.115.83.239, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = egajz.phooeyunfold.com, ws = false
 🇫🇷FR | trojan | @FAKEOFTVC | 7 = trojan, 13.39.171.159, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇨🇦CA | trojan | @DirectVPN | 17,🇫🇷FR | trojan | @FAKEOFTVC | 7
-URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇨🇦CA | trojan | @DirectVPN | 17,🇫🇷FR | trojan | @FAKEOFTVC | 7
-FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇨🇦CA | trojan | @DirectVPN | 17,🇫🇷FR | trojan | @FAKEOFTVC | 7
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | trojan | @PrivateVPNs | 17,🇨🇦CA | trojan | @DirectVPN | 17,🇵🇱PL | trojan | @oneclickvpnkeys | 4,🇫🇷FR | trojan | @FAKEOFTVC | 7
+URL-TEST = url-test,🇩🇪DE | trojan | @PrivateVPNs | 17,🇨🇦CA | trojan | @DirectVPN | 17,🇵🇱PL | trojan | @oneclickvpnkeys | 4,🇫🇷FR | trojan | @FAKEOFTVC | 7
+FALLBACK = fallback,🇩🇪DE | trojan | @PrivateVPNs | 17,🇨🇦CA | trojan | @DirectVPN | 17,🇵🇱PL | trojan | @oneclickvpnkeys | 4,🇫🇷FR | trojan | @FAKEOFTVC | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
