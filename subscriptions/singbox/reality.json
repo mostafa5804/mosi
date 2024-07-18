@@ -106,8 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @V2pedia | 6",
-                "🇩🇪DE | vless | @V2pedia | 14",
+                "🏳️XX | vless | @V2pedia | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
@@ -116,6 +115,7 @@
                 "🇬🇧GB | vless | @vless_vmess | 8",
                 "🇩🇪DE | vless | @VmessProtocol | 8",
                 "🇩🇪DE | vless | @VmessProtocol | 14",
+                "🇹🇷TR | vless | @DailyV2RY | 198",
                 "🏳️XX | vless | @sinabigo | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -152,8 +152,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @V2pedia | 6",
-                "🇩🇪DE | vless | @V2pedia | 14",
+                "🏳️XX | vless | @V2pedia | 0",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 9",
                 "🇩🇪DE | vless | @CUSTOMVPNSERVER | 12",
                 "🇫🇮FI | vless | @CUSTOMVPNSERVER | 13",
@@ -162,6 +161,7 @@
                 "🇬🇧GB | vless | @vless_vmess | 8",
                 "🇩🇪DE | vless | @VmessProtocol | 8",
                 "🇩🇪DE | vless | @VmessProtocol | 14",
+                "🇹🇷TR | vless | @DailyV2RY | 198",
                 "🏳️XX | vless | @sinabigo | 1",
                 "🇩🇪DE | vless | @Capital_NET | 31",
                 "🇬🇧GB | vless | @Capital_NET | 32",
@@ -214,7 +214,7 @@
             "type": "dns"
         },
         {
-            "tag": "🏳️XX | vless | @V2pedia | 6",
+            "tag": "🏳️XX | vless | @V2pedia | 0",
             "type": "vless",
             "server": "[2a0d:5940:48:11::]",
             "server_port": 25365,
@@ -244,42 +244,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | @V2pedia | 14",
-            "type": "vless",
-            "server": "91.107.251.73",
-            "server_port": 443,
-            "uuid": "07b69c6a-57ea-45d7-b399-c75a983d4c1e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TdqtXgOizzI3vpIL00_6mKRXq7mjRvJ2_dBbycfwzmg",
-                    "short_id": "3afb1b63"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -521,6 +485,35 @@
                     "enabled": true,
                     "public_key": "L2b7MW4F9bT8ALwebQtCbXGTaH5sl9o97BxmynrlxHo",
                     "short_id": "8f90c18dc7b2652b"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | vless | @DailyV2RY | 198",
+            "type": "vless",
+            "server": "tr1.tradex2080.com",
+            "server_port": 443,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.upci.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
+                    "short_id": "ee46"
                 }
             }
         },
