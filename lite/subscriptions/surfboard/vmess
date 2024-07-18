@@ -12,11 +12,10 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇺🇸US | vmess | @v2Line | 1 = vmess, 172.67.175.56, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
-🇺🇸US | vmess | @kingofilter | 11 = vmess, zula.ir, 2096, username = 2ffbfa07-7161-47fc-8a3b-f94e02a28f49, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"kingo.hightechservice.ir", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 1,🇺🇸US | vmess | @kingofilter | 11
-URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 1,🇺🇸US | vmess | @kingofilter | 11
-FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 1,🇺🇸US | vmess | @kingofilter | 11
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | vmess | @v2Line | 1
+URL-TEST = url-test,🇺🇸US | vmess | @v2Line | 1
+FALLBACK = fallback,🇺🇸US | vmess | @v2Line | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
