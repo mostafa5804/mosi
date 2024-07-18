@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 4",
-                "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇮🇪IE | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 12",
                 "🇨🇦CA | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -117,7 +117,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 2",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
@@ -129,7 +129,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 18",
                 "🇨🇦CA | vless | @V2rayNGn | 10",
                 "🇸🇪SE | vless | @Outline_Vpn | 17",
-                "🇸🇪SE | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 172",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 11",
@@ -170,7 +170,7 @@
             "outbounds": [
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 4",
-                "🇫🇷FR | vless | @VlessConfig | 17",
+                "🇮🇪IE | vless | @VlessConfig | 15",
                 "🇨🇦CA | vless | @VPNCUSTOMIZE | 12",
                 "🇨🇦CA | vless | @ipV2Ray | 15",
                 "🇨🇦CA | vless | @melov2ray | 5",
@@ -179,7 +179,7 @@
                 "🇨🇦CA | vless | @ARv2ray | 17",
                 "🇨🇦CA | vless | @shh_proxy | 29",
                 "🇺🇸US | vless | @Lockey_vpn | 19",
-                "🇨🇦CA | vless | @free_v2rayyy | 2",
+                "🇨🇦CA | vless | @free_v2rayyy | 3",
                 "🇨🇦CA | vless | @lightning6 | 19",
                 "🇸🇪SE | vless | @DigiV2ray | 26",
                 "🇨🇦CA | vless | @proxy_kafee | 4",
@@ -191,7 +191,7 @@
                 "🇨🇦CA | vless | @ProxyForOpeta | 18",
                 "🇨🇦CA | vless | @V2rayNGn | 10",
                 "🇸🇪SE | vless | @Outline_Vpn | 17",
-                "🇸🇪SE | vless | @prrofile_purple | 181",
+                "🇨🇦CA | vless | @prrofile_purple | 172",
                 "🇨🇦CA | vless | @customv2ray | 15",
                 "🇨🇦CA | vless | @UnlimitedDev | 16",
                 "🇨🇦CA | vless | @vmessorg | 11",
@@ -288,9 +288,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @VlessConfig | 17",
+            "tag": "🇮🇪IE | vless | @VlessConfig | 15",
             "type": "vless",
-            "server": "13.36.70.46",
+            "server": "34.254.21.249",
             "server_port": 22222,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -426,8 +426,8 @@
         {
             "tag": "🇨🇦CA | vless | @ARv2ray | 17",
             "type": "vless",
-            "server": "108.162.195.205",
-            "server_port": 2095,
+            "server": "zula.ir",
+            "server_port": 2087,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
@@ -436,11 +436,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mC.mashtimji.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "108.162.195.205"
+                    "Host": "mC.mashtimji.ir"
                 }
             }
         },
@@ -487,7 +497,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @free_v2rayyy | 2",
+            "tag": "🇨🇦CA | vless | @free_v2rayyy | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -760,24 +770,17 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @prrofile_purple | 181",
+            "tag": "🇨🇦CA | vless | @prrofile_purple | 172",
             "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "-DIGIV2RAY--",
+            "server": "104.22.13.192",
+            "server_port": 80,
+            "uuid": "--Shh-Proxy-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "185.146.173.68"
-                }
             }
         },
         {
