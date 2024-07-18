@@ -149,7 +149,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇺🇸US | vmess | @DailyV2RY | 199",
+                "🇨🇦CA | vless | @DailyV2RY | 202",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
@@ -224,7 +224,7 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇨🇦CA | vless | @VmessProtocol | 17",
-                "🇺🇸US | vmess | @DailyV2RY | 199",
+                "🇨🇦CA | vless | @DailyV2RY | 202",
                 "🇨🇦CA | vless | @sinabigo | 9",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
@@ -1269,20 +1269,34 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 199",
-            "type": "vmess",
-            "server": "96.30.198.4",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @DailyV2RY | 202",
+            "type": "vless",
+            "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+            "server_port": 443,
+            "uuid": "67e85955-02b7-46f3-b3d6-ca34a4b0ccc1",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir"
+                }
             }
         },
         {
