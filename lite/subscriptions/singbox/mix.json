@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 4",
                 "🇮🇪IE | vless | @VlessConfig | 15",
@@ -141,7 +142,7 @@
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 17",
-                "🇸🇪SE | vless | @ServerNett | 4",
+                "🇸🇪SE | vless | @ServerNett | 3",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇺🇸US | vless | @v2ray1_ng | 11",
                 "🇺🇸US | vless | @vless_vmess | 15",
@@ -156,7 +157,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -181,6 +182,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇨🇦CA | vless | @EliV2ray | 13",
                 "🇨🇦CA | vless | @Parsashonam | 11",
                 "🇨🇦CA | vless | @NIM_VPN_ir | 4",
                 "🇮🇪IE | vless | @VlessConfig | 15",
@@ -216,7 +218,7 @@
                 "🇨🇦CA | vless | @vmessorg | 11",
                 "🇨🇦CA | vless | @v2rayNG_Matsuri | 7",
                 "🇨🇦CA | vless | @ShadowProxy66 | 17",
-                "🇸🇪SE | vless | @ServerNett | 4",
+                "🇸🇪SE | vless | @ServerNett | 3",
                 "🇨🇦CA | vless | @v2ray_swhil | 20",
                 "🇺🇸US | vless | @v2ray1_ng | 11",
                 "🇺🇸US | vless | @vless_vmess | 15",
@@ -231,7 +233,7 @@
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇺🇸US | vless | @Outlinev2rayNG | 13",
+                "🇺🇸US | vless | @Outlinev2rayNG | 14",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
@@ -270,6 +272,27 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇨🇦CA | vless | @EliV2ray | 13",
+            "type": "vless",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "-ELiV2ray--Tel--ELiV2ray-",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ELENA--repo.steampowered.com?ed=8080",
+                "headers": {
+                    "Host": "www.parsvds.ir"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vless | @Parsashonam | 11",
@@ -1054,11 +1077,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @ServerNett | 4",
+            "tag": "🇸🇪SE | vless | @ServerNett | 3",
             "type": "vless",
             "server": "185.146.173.58",
             "server_port": 8080,
-            "uuid": "b1eb081e-1873-451f-9221-95425ce19bac",
+            "uuid": "d617f9de-8905-478d-b30c-f4e5db5b3abc",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1420,7 +1443,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 13",
+            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 14",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
