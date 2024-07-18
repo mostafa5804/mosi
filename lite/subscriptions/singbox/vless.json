@@ -142,17 +142,17 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇱🇻LV | vless | @DailyV2RY | 215",
-                "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @sinabigo | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 7",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -204,17 +204,17 @@
                 "🇨🇦CA | vless | @MTConfig | 11",
                 "🇨🇦CA | vless | @V2RayTz | 19",
                 "🇱🇻LV | vless | @DailyV2RY | 215",
-                "🇨🇦CA | vless | @sinabigo | 9",
+                "🇨🇦CA | vless | @sinabigo | 10",
                 "🇨🇦CA | vless | @lrnbymaa | 10",
                 "🏳️XX | vless | @proxystore11 | 3",
                 "🇸🇪SE | vless | @polproxy | 5",
-                "🇨🇦CA | vless | @Outlinev2rayNG | 7",
+                "🇨🇦CA | vless | @Outlinev2rayNG | 9",
                 "🇺🇸US | vless | @v2rayng_vpnrog | 10",
                 "🇺🇸US | vless | @v2rayng_config_amin | 2",
                 "🇺🇸US | vless | @Capital_NET | 45",
                 "🇺🇸US | vless | @FreakConfig | 12",
                 "🇺🇸US | vless | @flyv2ray | 12",
-                "🇺🇸US | vless | @mehrosaboran | 5",
+                "🇺🇸US | vless | @mehrosaboran | 6",
                 "🇩🇪DE | vless | @kiava | 8",
                 "🇺🇸US | vless | @proxy_mtm | 2",
                 "🏳️XX | vless | @vpn_go67 | 21",
@@ -1007,8 +1007,8 @@
             "tag": "🇨🇦CA | vless | @V2RayTz | 19",
             "type": "vless",
             "server": "104.17.147.22",
-            "server_port": 8880,
-            "uuid": "%39%31%34%61%64%62%31%37%2d%62%32%63%66%2d%34%32%65%38%2d%39%32%66%34%2d%39%32%34%62%65%36%65%61%31%36%31%30",
+            "server_port": 8080,
+            "uuid": "%34%64%66%32%66%33%62%39%2d%65%66%36%35%2d%34%34%34%37%2d%39%30%37%37%2d%32%61%64%30%39%30%62%30%62%63%32%38",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1018,7 +1018,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "path": "\/SHHPROXY?ed=8080",
                 "headers": {
                     "Host": "104.17.147.22"
                 }
@@ -1056,7 +1056,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @sinabigo | 9",
+            "tag": "🇨🇦CA | vless | @sinabigo | 10",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
@@ -1150,7 +1150,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 7",
+            "tag": "🇨🇦CA | vless | @Outlinev2rayNG | 9",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 80,
@@ -1264,9 +1264,9 @@
         {
             "tag": "🇺🇸US | vless | @FreakConfig | 12",
             "type": "vless",
-            "server": "104.21.19.124",
-            "server_port": 8880,
-            "uuid": "Parsashonam-11",
+            "server": "172.64.69.44",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1274,11 +1274,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "104.21.19.124"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -1304,7 +1314,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @mehrosaboran | 5",
+            "tag": "🇺🇸US | vless | @mehrosaboran | 6",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2087,
