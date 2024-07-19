@@ -12,11 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | vmess | @Hope_Net | 2 = vmess, zula.ir, 2096, username = 11cfd86e-c3a9-42b2-803f-1bdbca3dcb28, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"kingo.hightechservice.ir", skip-cert-verify = true, tfo = false
-🇨🇦CA | vmess | @v2Line | 1 = vmess, 172.67.175.56, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
+🇺🇸US | vmess | @v2Line | 1 = vmess, 172.67.175.56, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @Hope_Net | 2,🇨🇦CA | vmess | @v2Line | 1
-URL-TEST = url-test,🇨🇦CA | vmess | @Hope_Net | 2,🇨🇦CA | vmess | @v2Line | 1
-FALLBACK = fallback,🇨🇦CA | vmess | @Hope_Net | 2,🇨🇦CA | vmess | @v2Line | 1
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @Hope_Net | 2,🇺🇸US | vmess | @v2Line | 1
+URL-TEST = url-test,🇨🇦CA | vmess | @Hope_Net | 2,🇺🇸US | vmess | @v2Line | 1
+FALLBACK = fallback,🇨🇦CA | vmess | @Hope_Net | 2,🇺🇸US | vmess | @v2Line | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
