@@ -11,15 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | trojan | @PrivateVPNs | 17 = trojan, 18.168.21.6, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | trojan | @DirectVPN | 17 = trojan, 13.60.165.212, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇷🇺RU | ss | @OutlineVpnOfficial | 18 = ss, 45.139.24.63, 57456, encrypt-method = chacha20-ietf-poly1305, password = 3fbeb668f48414f6
-🇨🇦CA | vmess | @Hope_Net | 2 = vmess, zula.ir, 2096, username = 11cfd86e-c3a9-42b2-803f-1bdbca3dcb28, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"kingo.hightechservice.ir", skip-cert-verify = true, tfo = false
+🇮🇪IE | trojan | @PrivateVPNs | 15 = trojan, 54.155.44.231, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | trojan | @DirectVPN | 15 = trojan, 3.10.195.199, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇫🇷FR | ss | @OutlineVpnOfficial | 17 = ss, paris.telegavpn.com, 9802, encrypt-method = chacha20-ietf-poly1305, password = aSsoG8kTeefvH0s5A7tchH
+🇨🇦CA | vmess | @Hope_Net | 1 = vmess, speed.cloudflare.com, 8443, username = 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, ws = true, tls = 1, vmess-aead = false, ws-path = /glweidf.sbs/linkws, ws-headers = Host:"withered-disk-c4c0.wwwjoecartoonscom-vaalco.workers.dev", skip-cert-verify = true, tfo = false
 🇺🇸US | vmess | @v2Line | 1 = vmess, 172.67.175.56, 443, username = 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, ws = true, tls = 1, vmess-aead = true, ws-path = /linkws, ws-headers = Host:"obdii.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @Hope_Net | 2,🇺🇸US | vmess | @v2Line | 1
-URL-TEST = url-test,🇬🇧GB | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @Hope_Net | 2,🇺🇸US | vmess | @v2Line | 1
-FALLBACK = fallback,🇬🇧GB | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17,🇷🇺RU | ss | @OutlineVpnOfficial | 18,🇨🇦CA | vmess | @Hope_Net | 2,🇺🇸US | vmess | @v2Line | 1
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | trojan | @PrivateVPNs | 15,🇬🇧GB | trojan | @DirectVPN | 15,🇫🇷FR | ss | @OutlineVpnOfficial | 17,🇨🇦CA | vmess | @Hope_Net | 1,🇺🇸US | vmess | @v2Line | 1
+URL-TEST = url-test,🇮🇪IE | trojan | @PrivateVPNs | 15,🇬🇧GB | trojan | @DirectVPN | 15,🇫🇷FR | ss | @OutlineVpnOfficial | 17,🇨🇦CA | vmess | @Hope_Net | 1,🇺🇸US | vmess | @v2Line | 1
+FALLBACK = fallback,🇮🇪IE | trojan | @PrivateVPNs | 15,🇬🇧GB | trojan | @DirectVPN | 15,🇫🇷FR | ss | @OutlineVpnOfficial | 17,🇨🇦CA | vmess | @Hope_Net | 1,🇺🇸US | vmess | @v2Line | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
