@@ -106,6 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇳🇱NL | ss | @DeamNet_Proxy | 8",
                 "🇦🇪AE | ss | @VmessProtocol | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 3",
                 "🇰🇿KZ | ss | @OutlineVpnOfficial | 4",
@@ -127,6 +128,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇳🇱NL | ss | @DeamNet_Proxy | 8",
                 "🇦🇪AE | ss | @VmessProtocol | 5",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 3",
                 "🇰🇿KZ | ss | @OutlineVpnOfficial | 4",
@@ -162,6 +164,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇳🇱NL | ss | @DeamNet_Proxy | 8",
+            "type": "shadowsocks",
+            "server": "45.158.171.131",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇦🇪AE | ss | @VmessProtocol | 5",
