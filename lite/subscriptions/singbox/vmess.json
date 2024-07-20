@@ -110,7 +110,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 6",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 39",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -128,7 +128,7 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇸🇪SE | vmess | @oneclickvpnkeys | 6",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 39",
                 "🇺🇸US | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -233,11 +233,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "speed.cloudflare.com",
-            "server_port": 80,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "185.146.173.59",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -248,11 +248,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram\/XV2ray",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "obdii.cfd"
                 }
             }
         },
