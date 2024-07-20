@@ -111,7 +111,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 6",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 39",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 31",
                 "🇨🇦CA | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 6",
@@ -129,7 +129,7 @@
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇸🇪SE | vmess | @oneclickvpnkeys | 6",
-                "🇩🇪DE | vmess | @ShadowProxy66 | 39",
+                "🇫🇷FR | vmess | @ShadowProxy66 | 31",
                 "🇨🇦CA | vmess | @v2ray1_ng | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 6",
@@ -267,11 +267,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 39",
+            "tag": "🇫🇷FR | vmess | @ShadowProxy66 | 31",
             "type": "vmess",
-            "server": "23.158.56.49",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "az05.beyondy.cfd",
+            "server_port": 443,
+            "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -281,6 +281,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "az05.beyondy.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "az05.beyondy.cfd"
+                }
             }
         },
         {
