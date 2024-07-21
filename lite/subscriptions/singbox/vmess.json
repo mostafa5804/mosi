@@ -109,10 +109,11 @@
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 35",
-                "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 2",
                 "🇺🇸US | vmess | @kingofilter | 9"
             ]
@@ -124,10 +125,11 @@
                 "🇩🇪DE | vmess | @azadi_az_inja_migzare | 0",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 35",
-                "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇺🇸US | vmess | @v2Line | 2",
                 "🇺🇸US | vmess | @kingofilter | 9"
             ],
@@ -203,6 +205,40 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "speed.cloudflare.com",
+            "server_port": 8443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "withered-disk-c4c0.wwwjoecartoonscom-vaalco.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/glweidf.sbs\/linkws",
+                "headers": {
+                    "Host": "withered-disk-c4c0.wwwjoecartoonscom-vaalco.workers.dev"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
             "server": "23.158.56.49",
@@ -237,7 +273,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -271,11 +307,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "188.114.96.2",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "188.114.97.3",
+            "server_port": 2052,
+            "uuid": "7723ee31-039b-48d0-bfd8-d591ca4baf4e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -286,21 +322,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": ""
                 }
             }
         },
