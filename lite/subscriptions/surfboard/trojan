@@ -12,12 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | trojan | @Watashi_VPN | 1 = trojan, www.visa.com.sg, 8443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
-🇮🇪IE | trojan | @PrivateVPNs | 17 = trojan, 52.51.179.131, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇺🇸US | trojan | @DirectVPN | 17 = trojan, 100.28.83.254, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | trojan | @PrivateVPNs | 17 = trojan, 51.21.46.186, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | trojan | @DirectVPN | 17 = trojan, 13.49.100.247, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | trojan | @Watashi_VPN | 1,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17
-URL-TEST = url-test,🇨🇦CA | trojan | @Watashi_VPN | 1,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17
-FALLBACK = fallback,🇨🇦CA | trojan | @Watashi_VPN | 1,🇮🇪IE | trojan | @PrivateVPNs | 17,🇺🇸US | trojan | @DirectVPN | 17
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | trojan | @Watashi_VPN | 1,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17
+URL-TEST = url-test,🇨🇦CA | trojan | @Watashi_VPN | 1,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17
+FALLBACK = fallback,🇨🇦CA | trojan | @Watashi_VPN | 1,🇸🇪SE | trojan | @PrivateVPNs | 17,🇸🇪SE | trojan | @DirectVPN | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
