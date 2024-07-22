@@ -105,13 +105,16 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇰🇿KZ | ss | @OutlineVpnOfficial | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇰🇿KZ | ss | @OutlineVpnOfficial | 17"
+            ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -131,6 +134,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇰🇿KZ | ss | @OutlineVpnOfficial | 17",
+            "type": "shadowsocks",
+            "server": "45.136.58.86",
+            "server_port": 17451,
+            "method": "chacha20-ietf-poly1305",
+            "password": "hjrlXGNINHE2jspnma04TP",
+            "plugin": "",
+            "plugin_opts": ""
         }
     ],
     "route": {
