@@ -110,12 +110,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @prrofile_purple | 169",
                 "🇩🇪DE | vmess | @vless_vmess | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
-                "🇨🇦CA | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @kingofilter | 9"
             ]
         },
@@ -127,12 +127,12 @@
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @prrofile_purple | 169",
                 "🇩🇪DE | vmess | @vless_vmess | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
-                "🇨🇦CA | vmess | @v2Line | 6",
+                "🇺🇸US | vmess | @v2Line | 6",
                 "🇺🇸US | vmess | @kingofilter | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -241,11 +241,11 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "45.154.156.178",
-            "server_port": 32648,
-            "uuid": "bc8e1235-6cef-4bdd-f3f2-0b4f3c8a7b70",
+            "server": "sareikela.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -255,6 +255,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sareikela.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "sareikela.com"
+                }
             }
         },
         {
@@ -360,7 +377,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 6",
+            "tag": "🇺🇸US | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "pandor.boats",
             "server_port": 443,
