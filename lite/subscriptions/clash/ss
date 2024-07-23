@@ -119,7 +119,7 @@ dns:
 
 proxies:
   - {"name":"🇷🇺RU | ss | @OutlineVpnOfficial | 16","type":"ss","server":"moscow.telegavpn.com","port":60422,"password":"KvEboxbgHMCFq3hTg5d1J5","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🏳️XX | ss | @FAKEOFTVC | 14","type":"ss","server":"13.74.171.103","port":46541,"password":"lZJqAB32wR97hbobEBmWV0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪IE | ss | @FAKEOFTVC | 14","type":"ss","server":"13.74.171.103","port":46541,"password":"lZJqAB32wR97hbobEBmWV0","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -127,7 +127,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 16'
-      - '🏳️XX | ss | @FAKEOFTVC | 14'
+      - '🇮🇪IE | ss | @FAKEOFTVC | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -135,14 +135,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 16'
-      - '🏳️XX | ss | @FAKEOFTVC | 14'
+      - '🇮🇪IE | ss | @FAKEOFTVC | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇷🇺RU | ss | @OutlineVpnOfficial | 16'
-      - '🏳️XX | ss | @FAKEOFTVC | 14'
+      - '🇮🇪IE | ss | @FAKEOFTVC | 14'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
