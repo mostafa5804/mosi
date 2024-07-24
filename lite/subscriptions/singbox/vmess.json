@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🏳️XX | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @vless_vmess | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -121,7 +121,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🏳️XX | vmess | @mftizi | 19",
+                "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇩🇪DE | vmess | @vless_vmess | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -167,11 +167,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "alm1.the-galgo.top",
-            "server_port": 32011,
-            "uuid": "db3c11d8-ae65-40ff-a256-babee94056f6",
+            "server": "120.232.240.56",
+            "server_port": 16928,
+            "uuid": "5f6b3c3f-b0a8-33f5-95c6-371f8c6af973",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -181,6 +181,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2ray",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
