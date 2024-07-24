@@ -119,8 +119,8 @@ dns:
 
 proxies:
   - {"name":"🇨🇦CA | trojan | @Watashi_VPN | 1","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
-  - {"name":"🇮🇪IE | trojan | @PrivateVPNs | 15","type":"trojan","server":"79.125.45.97","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @DirectVPN | 15","type":"trojan","server":"54.76.82.186","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 15","type":"trojan","server":"13.50.181.6","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | trojan | @DirectVPN | 15","type":"trojan","server":"3.99.119.162","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"138.199.57.185","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eiety.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
@@ -129,8 +129,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇦CA | trojan | @Watashi_VPN | 1'
-      - '🇮🇪IE | trojan | @PrivateVPNs | 15'
-      - '🇮🇪IE | trojan | @DirectVPN | 15'
+      - '🇸🇪SE | trojan | @PrivateVPNs | 15'
+      - '🇨🇦CA | trojan | @DirectVPN | 15'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 5'
   - name: URL-TEST
     type: url-test
@@ -139,8 +139,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇦CA | trojan | @Watashi_VPN | 1'
-      - '🇮🇪IE | trojan | @PrivateVPNs | 15'
-      - '🇮🇪IE | trojan | @DirectVPN | 15'
+      - '🇸🇪SE | trojan | @PrivateVPNs | 15'
+      - '🇨🇦CA | trojan | @DirectVPN | 15'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 5'
   - name: FALLBACK
     type: fallback
@@ -148,8 +148,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇨🇦CA | trojan | @Watashi_VPN | 1'
-      - '🇮🇪IE | trojan | @PrivateVPNs | 15'
-      - '🇮🇪IE | trojan | @DirectVPN | 15'
+      - '🇸🇪SE | trojan | @PrivateVPNs | 15'
+      - '🇨🇦CA | trojan | @DirectVPN | 15'
       - '🇨🇦CA | trojan | @oneclickvpnkeys | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
