@@ -106,20 +106,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @EliV2ray | 18",
+                "🇺🇸US | vless | @EliV2ray | 18",
                 "🇺🇸US | vless | @VlessConfig | 15",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
-                "🇨🇦CA | vless | @V2pedia | 12",
-                "🇨🇦CA | vless | @frev2ray | 4",
+                "🇺🇸US | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇨🇦CA | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 19",
+                "🇨🇦CA | vless | @lightning6 | 19",
                 "🏳️XX | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇺🇸US | vless | @proxy_kafee | 7",
-                "🇸🇬SG | vless | @v2logy | 11",
+                "🇨🇦CA | vless | @proxy_kafee | 7",
+                "🏳️XX | vless | @v2logy | 11",
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -166,20 +166,20 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @EliV2ray | 18",
+                "🇺🇸US | vless | @EliV2ray | 18",
                 "🇺🇸US | vless | @VlessConfig | 15",
+                "🇨🇦CA | vless | @VPNCUSTOMIZE | 18",
                 "🇨🇦CA | vless | @ipV2Ray | 17",
-                "🇨🇦CA | vless | @V2pedia | 12",
-                "🇨🇦CA | vless | @frev2ray | 4",
+                "🇺🇸US | vless | @V2pedia | 12",
                 "🇨🇦CA | vless | @ARv2ray | 18",
                 "🇨🇦CA | vless | @shh_proxy | 27",
                 "🇨🇦CA | vless | @Lockey_vpn | 19",
                 "🇨🇦CA | vless | @free_v2rayyy | 4",
-                "🇺🇸US | vless | @lightning6 | 19",
+                "🇨🇦CA | vless | @lightning6 | 19",
                 "🏳️XX | vless | @vpn_xw | 1",
                 "🇸🇪SE | vless | @DigiV2ray | 29",
-                "🇺🇸US | vless | @proxy_kafee | 7",
-                "🇸🇬SG | vless | @v2logy | 11",
+                "🇨🇦CA | vless | @proxy_kafee | 7",
+                "🏳️XX | vless | @v2logy | 11",
                 "🇺🇸US | vless | @servermomo | 1",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
                 "🇨🇦CA | vless | @V2rayCollectorDonate | 19",
@@ -242,7 +242,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @EliV2ray | 18",
+            "tag": "🇺🇸US | vless | @EliV2ray | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -304,6 +304,27 @@
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @VPNCUSTOMIZE | 18",
+            "type": "vless",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "TM-VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "www.parsvds.ir"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vless | @ipV2Ray | 17",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -325,7 +346,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @V2pedia | 12",
+            "tag": "🇺🇸US | vless | @V2pedia | 12",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -342,27 +363,6 @@
                 "path": "\/Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia,Telegram:@v2pedia",
                 "headers": {
                     "Host": "www.speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @frev2ray | 4",
-            "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "TM-VPNCUSTOMIZE",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
-                "headers": {
-                    "Host": "www.parsvds.ir"
                 }
             }
         },
@@ -451,7 +451,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @lightning6 | 19",
+            "tag": "🇨🇦CA | vless | @lightning6 | 19",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -507,7 +507,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | @proxy_kafee | 7",
+            "tag": "🇨🇦CA | vless | @proxy_kafee | 7",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2095,
@@ -528,7 +528,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | @v2logy | 11",
+            "tag": "🏳️XX | vless | @v2logy | 11",
             "type": "vless",
             "server": "ArV2ray.mEhpow.IR.",
             "server_port": 443,
