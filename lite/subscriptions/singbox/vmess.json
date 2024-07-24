@@ -106,13 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @vless_vmess | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇩🇪DE | vmess | @vless_vmess | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @kingofilter | 9"
             ]
         },
@@ -120,13 +120,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vmess | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🏳️XX | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @vless_vmess | 11",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+                "🇩🇪DE | vmess | @vless_vmess | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 2",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇺🇸US | vmess | @v2Line | 7",
                 "🇺🇸US | vmess | @kingofilter | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -148,23 +148,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @azadi_az_inja_migzare | 2",
-            "type": "vmess",
-            "server": "188.245.73.139",
-            "server_port": 41858,
-            "uuid": "acbc72c9-5b2b-4be2-8ffd-262cda898a3a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
         },
         {
             "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
@@ -201,7 +184,41 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @vless_vmess | 11",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
+            "type": "vmess",
+            "server": "lin0502.hwcar.sbs",
+            "server_port": 443,
+            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linja05.hwcar.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linja05.hwcar.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @vless_vmess | 12",
             "type": "vmess",
             "server": "128.140.124.18",
             "server_port": 2086,
@@ -286,7 +303,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 7",
+            "tag": "🇺🇸US | vmess | @v2Line | 7",
             "type": "vmess",
             "server": "pandor.boats",
             "server_port": 443,
